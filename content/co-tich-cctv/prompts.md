@@ -2,16 +2,16 @@
 
 Loạt clip ngắn theo trào lưu "camera giám sát thời cổ đại": nhân vật cổ tích Việt Nam bị camera chuông cửa ghi lại trong những tình huống rất đời thường hôm nay.
 
-- Mỗi tập khoảng 20 giây, gồm 2 clip Muse dài 10 giây (A rồi B), khung dọc 9:16.
-- Hai clip của một tập giữ **cùng góc máy, cùng bối cảnh**, để khi ghép trông như một đoạn camera quay liền.
+- Mỗi tập khoảng 30 giây, gồm 3 clip Muse dài 10 giây (A, B, C), khung dọc 9:16. A dựng tình huống, B đẩy lên, C là cao trào và câu chốt.
+- Ba clip của một tập giữ **cùng góc máy, cùng bối cảnh**, để khi ghép trông như một đoạn camera quay liền.
 - Lời thoại tiếng Việt, đặt trong ngoặc kép trong prompt.
 
 ## Quy trình
 
 1. Tạo **ảnh khung đầu** của clip A bằng phần mềm ảnh (prompt bên dưới).
 2. Đưa ảnh đó vào Muse (ảnh thành video) cùng **prompt video A**. Cách này giữ góc camera đứng yên tốt hơn chỉ dùng chữ.
-3. Clip B: dùng **khung cuối của clip A** làm ảnh đầu vào nếu Muse cho phép. Nếu không, dùng lại ảnh khung đầu của A.
-4. Đặt tên file kiểu `tap1-a.mp4`, `tap1-b.mp4`… rồi gửi cho mình. Mình sẽ ghép và phủ hiệu ứng camera (dòng ngày giờ, đồng hồ chạy, REC, méo ống kính, nhiễu hạt).
+3. Clip B: dùng **khung cuối của clip A** làm ảnh đầu vào nếu Muse cho phép. Nếu không, dùng lại ảnh khung đầu của A. Clip C làm tương tự, lấy khung cuối của B.
+4. Đặt tên file kiểu `tap1-a.mp4`, `tap1-b.mp4`, `tap1-c.mp4`… rồi gửi cho mình. Mình sẽ ghép và phủ hiệu ứng camera (dòng ngày giờ, đồng hồ chạy, REC, méo ống kính, nhiễu hạt).
 
 **Không cần** bảo Muse vẽ chữ, đồng hồ hay khung camera. Phần đó mình làm ở hậu kỳ, vì chữ do AI vẽ thường bị méo.
 
@@ -51,7 +51,12 @@ Audio: natural ambient sound only, no music, Vietnamese dialogue spoken naturall
 
 ### Video B (10 giây)
 ```
-[Khối mô tả dùng chung] Same gate, same camera angle, a few minutes later, the courtyard is empty, the gate closed. 0-4s: Water starts rushing into the frame and flooding the courtyard; a tall skinny man with long soaking-wet hair and a sea-blue wave-patterned cloak with a seashell necklace (Thủy Tinh) arrives riding a modern jet ski through the floodwater, holding a basket of fish and crabs. 4-7s: He looks up at the camera, out of breath, and says: "Ủa, mới sáu giờ mà?!" 7-10s: Inside the gate Sơn Tinh pokes his head out, waves at him smugly and says: "Đến sớm thì được vợ nha!" Thủy Tinh splashes the water angrily as it keeps rising toward the camera. [Âm thanh]
+[Khối mô tả dùng chung] Same gate, same camera angle, a few minutes later, the courtyard is empty, the gate closed. 0-4s: Water starts rushing into the frame and flooding the courtyard; a tall skinny man with long soaking-wet hair and a sea-blue wave-patterned cloak with a seashell necklace (Thủy Tinh) arrives riding a modern jet ski through the floodwater, holding a basket of fish and crabs. 4-7s: He looks up at the camera, out of breath, and says: "Ủa, mới sáu giờ mà?!" 7-10s: Inside the gate Sơn Tinh pokes his head out, waves at him smugly and says: "Đến sớm thì được vợ nha!" Thủy Tinh slaps the water angrily. [Âm thanh]
+```
+
+### Video C (10 giây)
+```
+[Khối mô tả dùng chung] Same gate, same camera angle, continuing. 0-4s: Thủy Tinh raises both arms and the floodwater surges higher, waves crashing against the gate; at the same time Sơn Tinh and a row of workers frantically shovel dirt and stack rocks along the gate, the ground rising like a small hill. 4-7s: The gate swings open and an elderly king with a long white beard and a feathered bronze crown, wearing a sleeping robe (Vua Hùng), steps out between them and shouts: "Hai đứa có thôi đi không, mới sáng sớm!" 7-10s: Both men freeze guiltily; a big wave splashes straight up onto the camera lens, the picture goes blurry with water droplets. [Âm thanh]
 ```
 
 ---
@@ -76,7 +81,12 @@ Audio: natural ambient sound only, no music, Vietnamese dialogue spoken naturall
 
 ### Video B (10 giây)
 ```
-[Khối mô tả dùng chung] Same door, same camera angle, continuing. 0-4s: A gigantic child-sized hand, as big as a door, reaches out from inside the house and scoops up all the rice pots at once; the whole house shakes and dust falls from the thatched roof. 4-7s: A booming child's voice from inside says: "Mẹ ơi, con vẫn còn đói!" 7-10s: The delivery man slowly backs away to his motorbike without breaking eye contact, then speeds off; the old woman looks up at the camera and shrugs. [Âm thanh]
+[Khối mô tả dùng chung] Same door, same camera angle, continuing. 0-4s: A gigantic child-sized hand, as big as a door, reaches out from inside the house and scoops up all the rice pots at once; the whole house shakes and dust falls from the thatched roof. 4-7s: A booming child's voice from inside says: "Mẹ ơi, con vẫn còn đói!" 7-10s: The delivery man freezes with his mouth open, slowly takes one step back toward his motorbike. [Âm thanh]
+```
+
+### Video C (10 giây)
+```
+[Khối mô tả dùng chung] Same door, same camera angle, continuing. 0-4s: The whole thatched house lifts and cracks as a giant boy stands up inside; two enormous bare legs, as tall as trees, step out into the yard right past the tiny delivery man, the ground shakes. 4-7s: The booming voice from above, out of frame, says: "Anh shipper ơi, còn đơn ngựa sắt với roi sắt nữa, giao giùm em luôn nha!" The delivery man drops his phone and runs away on foot, leaving his motorbike behind. 7-10s: The old woman walks into the middle of the yard, looks straight up at the camera and says tiredly: "Ba năm không nói câu nào, giờ nói toàn đặt đồ." [Âm thanh]
 ```
 
 ---
@@ -102,7 +112,12 @@ Audio: natural ambient sound only, no music, Vietnamese dialogue spoken naturall
 
 ### Video B (10 giây)
 ```
-[Khối mô tả dùng chung] Same gate, same camera angle, continuing. 0-6s: A tall man with long hair in shimmering green dragon-scale armor (Lạc Long Quân) appears behind Âu Cơ, scratching his head sheepishly, and says: "Anh đặt đó em. Lỡ sau này mình chia nhau, năm chục lên núi, năm chục xuống biển cho dễ." 6-10s: Âu Cơ slowly turns and gives him a long silent glare; the delivery woman quietly sets the clipboard on the egg tower and tiptoes away. [Âm thanh]
+[Khối mô tả dùng chung] Same gate, same camera angle, continuing. 0-6s: A tall man with long hair in shimmering green dragon-scale armor (Lạc Long Quân) appears behind Âu Cơ, scratching his head sheepishly, and says: "Anh đặt đó em. Lỡ sau này mình chia nhau, năm chục lên núi, năm chục xuống biển cho dễ." 6-10s: Âu Cơ slowly turns and gives him a long silent glare; the delivery woman awkwardly holds out the clipboard and pen. [Âm thanh]
+```
+
+### Video C (10 giây)
+```
+[Khối mô tả dùng chung] Same gate, same camera angle, continuing. 0-4s: The tower of egg cartons starts wobbling and glowing softly; the eggs crack open one after another and dozens of tiny babies tumble out, crawling all over the stone steps, babies giggling and crying. 4-7s: The delivery woman, surrounded by crawling babies, says nervously: "Dạ... vậy em tính thêm phí giao một trăm suất nha chị?" 7-10s: Lạc Long Quân quietly tiptoes backward toward the road; Âu Cơ grabs the back of his dragon-scale armor without looking and says: "Anh đứng lại đó!" [Âm thanh]
 ```
 
 ---
@@ -117,7 +132,7 @@ Audio: natural ambient sound only, no music, Vietnamese dialogue spoken naturall
 ## Hậu kỳ (phần mình làm)
 
 ```
-./cctv.sh "Hùng Vương thứ 18 · giờ Mão" "CAM CỔNG CHÍNH" 05:58:40 tap1.mp4 tap1-a.mp4 tap1-b.mp4
-./cctv.sh "Làng Phù Đổng · giờ Ngọ" "CAM CỬA TRƯỚC" 11:47:05 tap2.mp4 tap2-a.mp4 tap2-b.mp4
-./cctv.sh "Lạc Long Quân năm thứ nhất · giờ Thìn" "CAM CỔNG" 08:21:33 tap3.mp4 tap3-a.mp4 tap3-b.mp4
+./cctv.sh "Hùng Vương thứ 18 · giờ Mão" "CAM CỔNG CHÍNH" 05:58:40 tap1.mp4 tap1-a.mp4 tap1-b.mp4 tap1-c.mp4
+./cctv.sh "Làng Phù Đổng · giờ Ngọ" "CAM CỬA TRƯỚC" 11:47:05 tap2.mp4 tap2-a.mp4 tap2-b.mp4 tap2-c.mp4
+./cctv.sh "Lạc Long Quân năm thứ nhất · giờ Thìn" "CAM CỔNG" 08:21:33 tap3.mp4 tap3-a.mp4 tap3-b.mp4 tap3-c.mp4
 ```
