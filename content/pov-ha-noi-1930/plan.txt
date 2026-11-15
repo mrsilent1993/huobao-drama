@@ -1,0 +1,10 @@
+# Kế hoạch dựng cho ../pov-thoi-tran/pov.sh. " / " là xuống dòng.
+title: POV: Bạn là phu xe kéo / Hà Nội, năm 1930
+end: Phu xe kéo từng là nghề / của hàng nghìn người nghèo / Hà Nội đầu thế kỷ 20.
+
+clip: hanoi-1.mp4 | 5 giờ sáng · nhà chủ xe
+clip: hanoi-2.mp4 | 7 giờ sáng · ga Hàng Cỏ
+clip: hanoi-3.mp4 | 12 giờ trưa · phở gánh
+clip: hanoi-4.mp4 | 3 giờ chiều · mưa rào phố cổ
+clip: hanoi-5.mp4 | 9 giờ tối · phố Hàng Bạc
+clip: hanoi-6.mp4 | Nửa đêm · gầm cầu

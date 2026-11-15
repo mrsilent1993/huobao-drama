@@ -1,0 +1,10 @@
+# Kế hoạch dựng cho ../pov-thoi-tran/pov.sh. " / " là xuống dòng.
+title: POV: Bạn là lính Tây Sơn / Tết Kỷ Dậu 1789
+end: Chỉ 5 ngày đầu năm Kỷ Dậu, / quân Tây Sơn đánh tan quân Thanh / và giải phóng Thăng Long.
+
+clip: taySon-1.mp4 | Tháng Chạp · làng quê Nghệ An
+clip: taySon-2.mp4 | Hành quân thần tốc ra Bắc
+clip: taySon-3.mp4 | Ba mươi Tết · Tam Điệp
+clip: taySon-4.mp4 | Sáng mùng 5 · đồn Ngọc Hồi
+clip: taySon-5.mp4 | Trưa mùng 5 · Thăng Long
+clip: taySon-6.mp4 | Chiều mùng 5 · cành đào về Phú Xuân
