@@ -1,0 +1,10 @@
+# Kế hoạch dựng cho pov.sh. " / " là xuống dòng.
+title: POV: Bạn là dân thường / thời Trần, năm 1284
+end: Năm 1285, quân dân Đại Việt / mang chữ "Sát Thát" trên tay / đánh tan quân Nguyên Mông.
+
+clip: tran-1.mp4 | Giờ Dần · 4 giờ sáng
+clip: tran-2.mp4 | Giờ Mão · 6 giờ sáng
+clip: tran-3.mp4 | Giờ Ngọ · 12 giờ trưa
+clip: tran-4.mp4 | Giờ Mùi · 2 giờ chiều
+clip: tran-5.mp4 | Giờ Dậu · 6 giờ tối
+clip: tran-6.mp4 | Giờ Tuất · 8 giờ tối
