@@ -1,0 +1,12 @@
+# Tập 1: dời đô 1010. Dựng: python3 ../tools/tiktok.py doi-do-1010.plan.txt doi-do-1010.mp4
+hook: POV: Bạn là dân Hoa Lư / ngày dời đô năm 1010
+end: Năm 1010, vua Lý Thái Tổ dời đô / về Đại La, đặt tên Thăng Long.
+
+clip: doido-1.mp4 | Hoa Lư · mùa thu 1010
+clip: doido-2.mp4 | Trên sông Hồng
+clip: doido-3.mp4 | Thành Đại La
+
+sub: 1 | 0.5-4.8 | Đang yên đang lành, vua lại bắt cả kinh thành dọn nhà!
+sub: 2 | 0.8-4.5 | Rồng! Rồng vàng kìa!
+sub: 3 | 0.3-4.8 | Vua thấy rồng vàng bay lên, từ nay nơi này gọi là Thăng Long!
+sub: 3 | 5.0-6.8 | Đất rộng, bằng phẳng, lại cao ráo...
