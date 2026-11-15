@@ -42,9 +42,13 @@ def layout(text, size):
     """Trả về (các dòng, cỡ chữ). Có ' / ' thì giữ đúng các dòng đó và thu nhỏ chữ cho vừa;
     không có thì tự xuống dòng theo bề rộng."""
     if " / " in text:
-        lines = [p.strip() for p in text.split(" / ")]
-        longest = max(len(l) for l in lines)
-        return lines, min(size, int(USABLE_W / (longest * CHAR_W)))
+        parts = [p.strip() for p in text.split(" / ")]
+        fit = min(size, int(USABLE_W / (max(len(p) for p in parts) * CHAR_W)))
+        if fit >= size * 0.8:
+            return parts, fit
+        # dòng quá dài: không co chữ thêm nữa, tự xuống dòng từng đoạn
+        size = int(size * 0.8)
+        return [l for p in parts for l in layout(p, size)[0]], size
     width = max(8, int(USABLE_W / (size * CHAR_W)))
     # chia đều các dòng để không có dòng cuối chỉ một chữ
     n_lines = -(-len(text) // width)

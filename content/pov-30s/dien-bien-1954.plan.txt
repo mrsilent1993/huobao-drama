@@ -1,0 +1,11 @@
+# Tập 7: Điện Biên 1954. Dựng: python3 ../tools/tiktok.py dien-bien-1954.plan.txt dien-bien-1954.mp4
+hook: POV: Bạn là dân công / xe đạp thồ ra Điện Biên
+end: Ngày 7/5/1954, chiến dịch / Điện Biên Phủ toàn thắng.
+
+clip: dienbien-1.mp4 | Đường ra Điện Biên · 1954
+clip: dienbien-2.mp4 | Đêm kéo pháo
+clip: dienbien-3.mp4 | Chiều 7 tháng 5
+
+sub: 1 | 0.5-4.8 | Xe chở mấy tạ đấy, đừng có buông tay!
+sub: 2 | 1.0-9.5 | Hò dô ta nào! Kéo pháo ta vượt qua đèo!
+sub: 3 | 1.0-4.8 | Thắng rồi! Mình thắng rồi!

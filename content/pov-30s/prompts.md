@@ -79,7 +79,7 @@ Video:
 **Đăng TikTok:**
 ```
 Ông Ba cằn nhằn cả đường, tới nơi thì đòi ở luôn 😂 Năm 1010, vua Lý Thái Tổ dời đô từ Hoa Lư về Đại La và đặt tên là Thăng Long. Bạn có biết Chiếu dời đô khen đất này thế nào không? 👇
-#POV #lichsuvietnam #thanglong #hanoi1010 #lythaito #xuhuong #fyp
+#povlichsu #POV #lichsuvietnam #thanglong #hanoi1010 #lythaito #xuhuong #fyp
 ```
 
 ---
@@ -127,7 +127,7 @@ Video:
 **Đăng TikTok:**
 ```
 Thái thú nhà Hán cạo râu giả làm dân thường để trốn 😳 Năm 40, Hai Bà Trưng khởi nghĩa ở Mê Linh, đánh đuổi Tô Định và lấy lại 65 thành. Bạn có thuộc lời thề của Hai Bà không? 👇
-#POV #haibatrung #lichsuvietnam #phunuvietnam #xuhuong #fyp
+#povlichsu #POV #haibatrung #lichsuvietnam #phunuvietnam #xuhuong #fyp
 ```
 
 ---
@@ -175,7 +175,7 @@ Video:
 **Đăng TikTok:**
 ```
 Thi trượt chưa buồn bằng gặp cụ đi thi lần thứ chín 😂 Năm 1897, trường thi Nam Định, đúng khoa thi Tú Xương tả trong bài "Vịnh khoa thi Hương". Bạn đã từng thi lại mấy lần? 👇
-#POV #thihuong #tuxuong #lichsuvietnam #namdinh #xuhuong #fyp
+#povlichsu #POV #thihuong #tuxuong #lichsuvietnam #namdinh #xuhuong #fyp
 ```
 
 ---

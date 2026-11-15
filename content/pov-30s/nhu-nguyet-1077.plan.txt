@@ -1,0 +1,13 @@
+# Tập 5: Như Nguyệt 1077. Dựng: python3 ../tools/tiktok.py nhu-nguyet-1077.plan.txt nhu-nguyet-1077.mp4
+hook: POV: Bạn giữ phòng tuyến / sông Như Nguyệt năm 1077
+end: Năm 1077, phòng tuyến Như Nguyệt / chặn đứng quân Tống.
+
+clip: nhunguyet-1.mp4 | Đêm trên phòng tuyến
+clip: nhunguyet-2.mp4 | Nửa đêm · tiếng từ đền bên sông
+clip: nhunguyet-3.mp4 | Rạng sáng
+
+sub: 1 | 0.8-4.8 | Bên kia đông gấp mấy lần mình...
+sub: 1 | 5.0-9.5 | Nghe đi. Đêm nay đền bên sông sẽ có tiếng.
+sub: 2 | 1.0-9.5 | Nam quốc sơn hà Nam đế cư, / tiệt nhiên định phận / tại thiên thư.
+sub: 3 | 0.3-4.8 | Như hà nghịch lỗ lai xâm phạm, / nhữ đẳng hành khan / thủ bại hư!
+sub: 3 | 5.0-9.5 | Sông núi nước Nam, vua Nam ở. Nhớ lấy, con.

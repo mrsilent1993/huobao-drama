@@ -1,0 +1,12 @@
+# Tập 4: Bạch Đằng 938. Dựng: python3 ../tools/tiktok.py bach-dang-938.plan.txt bach-dang-938.mp4
+hook: POV: Bạn là dân chài / cắm cọc Bạch Đằng năm 938
+end: Năm 938, Ngô Quyền đánh tan / quân Nam Hán trên sông Bạch Đằng.
+
+clip: bachdang-1.mp4 | Sông Bạch Đằng · triều rút
+clip: bachdang-2.mp4 | Triều lên · nhử địch
+clip: bachdang-3.mp4 | Triều rút
+
+sub: 1 | 0.5-4.8 | Cắm cả rừng cọc giữa sông để làm gì hả anh?
+sub: 1 | 5.0-9.5 | Cứ cắm đi, chờ nước triều lên rồi biết!
+sub: 2 | 0.5-4.8 | Đánh qua loa thôi, rồi quay đầu chạy cho thật giống!
+sub: 3 | 5.0-9.0 | Cái cọc kia là của em cắm đấy!
