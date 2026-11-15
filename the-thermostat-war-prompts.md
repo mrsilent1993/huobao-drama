@@ -9,6 +9,16 @@ Tập 1 "68 vs 74", khoảng 1 phút 40 giây, 10 phân cảnh, khung dọc 9:16
 
 Negative prompt (nếu phần mềm có ô này): `blurry, extra fingers, deformed hands, distorted face, text artifacts, watermark, logo, low quality`
 
+**Giọng nói:** Muse tạo tiếng, nên mỗi prompt video có dòng mô tả giọng cố định cho nhân vật có thoại. Giữ nguyên các dòng này ở mọi cảnh để giọng nhất quán.
+
+## 0. Giọng nhân vật
+
+- Priya's voice: female, late 20s, soft mid-pitch, light Indian-British accent, dry and deadpan, slightly shivery
+- Dave's voice: male, early 30s, loud warm baritone, American, cheerful and a bit out of breath
+- Kevin's voice: male, 21, light tenor, American, polite and nervous, voice cracks slightly
+- Gloria's voice: female, 60s, low raspy alto, light Latin American accent, slow and completely unbothered
+- Narrator's voice: male, documentary-style, calm and serious like a war documentary
+
 ## 1. Nhân vật (ảnh tham chiếu)
 
 ### Priya
@@ -86,6 +96,9 @@ Negative prompt (nếu phần mềm có ô này): `blurry, extra fingers, deform
 3-6s: Close-up on Dave wiping sweat from his forehead. Dave says: "Is it a sauna in here, or is it just me?"
 6-10s: Close-up on Priya pulling her cardigan tighter, dry glare. Priya says: "It's just you. It is always just you."
 Camera: slow push-in. Mood: bright sitcom comedy. Sound: office hum, keyboard clicks.
+Audio: spoken English dialogue with accurate lip sync, keep music low under dialogue.
+Dave's voice: male, early 30s, loud warm baritone, American, cheerful and a bit out of breath
+Priya's voice: female, late 20s, soft mid-pitch, light Indian-British accent, dry and deadpan, slightly shivery
 ```
 
 ### Shot 2: Nobody asked, Kevin (8s)
@@ -102,6 +115,10 @@ Camera: slow push-in. Mood: bright sitcom comedy. Sound: office hum, keyboard cl
 3-6s: Two-shot, Priya and Dave answer in perfect unison without looking at him: "Nobody asked, Kevin."
 6-8s: Kevin slowly lowers his hand, smile frozen.
 Camera: static, quick cut to two-shot. Mood: awkward comic beat. Sound: a single cricket chirp.
+Audio: spoken English dialogue with accurate lip sync, keep music low under dialogue.
+Kevin's voice: male, 21, light tenor, American, polite and nervous, voice cracks slightly
+Priya's voice: female, late 20s, soft mid-pitch, light Indian-British accent, dry and deadpan, slightly shivery
+Dave's voice: male, early 30s, loud warm baritone, American, cheerful and a bit out of breath
 ```
 
 ### Shot 3: The first move (9s)
@@ -118,6 +135,7 @@ Camera: static, quick cut to two-shot. Mood: awkward comic beat. Sound: a single
 3-6s: Extreme close-up of her gloved finger pressing the thermostat arrow; the display climbs 68, 70, 72, 74.
 6-9s: Priya smiles like a satisfied cat and tiptoes away backwards.
 Camera: low tracking shot, then macro close-up. Mood: heist-movie tension played for laughs. Sound: beeps, sneaky pizzicato music.
+Audio: no dialogue, sound effects and music only.
 ```
 
 ### Shot 4: The counter-attack (12s)
@@ -134,6 +152,8 @@ Camera: low tracking shot, then macro close-up. Mood: heist-movie tension played
 3-5s: He slams the arrow down to 62.
 5-12s: Fast comedic montage: Priya in sunglasses pretending to read a memo pushes it up; Dave crawling along the floor pushes it down; the ficus loses more leaves with every pass. Narrator: "Day three of the Thermostat War. Casualties so far: one ficus, and Kevin's will to live."
 Camera: quick cuts, whip pans. Mood: spy-comedy montage. Sound: rapid beeps, upbeat music.
+Audio: spoken English dialogue with accurate lip sync, keep music low under dialogue.
+Narrator's voice: male, documentary-style, calm and serious like a war documentary
 ```
 
 ### Shot 5: Weapons of mass comfort (10s)
@@ -150,6 +170,7 @@ Camera: quick cuts, whip pans. Mood: spy-comedy montage. Sound: rapid beeps, upb
 3-6s: Dave wheels in a giant industrial floor fan and flips it on with a dramatic flourish.
 6-10s: Papers explode into the air; Kevin, caught in between, has his hair blasted sideways.
 Camera: dolly between the desks. Mood: chaotic escalation. Sound: fan roaring like a jet engine, papers flapping.
+Audio: no dialogue, sound effects and music only.
 ```
 
 ### Shot 6: Two climates (12s)
@@ -166,6 +187,10 @@ Camera: dolly between the desks. Mood: chaotic escalation. Sound: fan roaring li
 4-8s: Dave shouts over the roaring fan. Dave says: "Kevin! Pick a side!"
 8-12s: Priya calmly sips hot tea, unbothered. Priya says: "Kevin knows which side has the snacks."
 Camera: alternating close-ups. Mood: peak chaos. Sound: roaring fan, heater buzz.
+Audio: spoken English dialogue with accurate lip sync, keep music low under dialogue.
+Kevin's voice: male, 21, light tenor, American, polite and nervous, voice cracks slightly
+Dave's voice: male, early 30s, loud warm baritone, American, cheerful and a bit out of breath
+Priya's voice: female, late 20s, soft mid-pitch, light Indian-British accent, dry and deadpan, slightly shivery
 ```
 
 ### Shot 7: The empty box (12s)
@@ -182,6 +207,10 @@ Camera: alternating close-ups. Mood: peak chaos. Sound: roaring fan, heater buzz
 4-8s: Gloria pops the plastic cover off: inside is nothing but dust. Gloria says: "This thermostat isn't connected to anything. Never has been."
 8-12s: Priya and Dave, stunned, side by side. Both say: "...What?"
 Camera: push-in on the empty box, then a freeze-frame feel on the two faces. Mood: comic reveal. Sound: keys jangling, record scratch.
+Audio: spoken English dialogue with accurate lip sync, keep music low under dialogue.
+Gloria's voice: female, 60s, low raspy alto, light Latin American accent, slow and completely unbothered
+Priya's voice: female, late 20s, soft mid-pitch, light Indian-British accent, dry and deadpan, slightly shivery
+Dave's voice: male, early 30s, loud warm baritone, American, cheerful and a bit out of breath
 ```
 
 ### Shot 8: Seventy-one (9s)
@@ -197,6 +226,8 @@ Camera: push-in on the empty box, then a freeze-frame feel on the two faces. Moo
 0-4s: Gloria taps the empty box. Gloria says: "The real one's in my basement. Seventy-one degrees."
 4-9s: She turns and walks away. Gloria says: "Everybody's happy. Except you two." Behind her, Priya and Dave slowly turn to glare at each other.
 Camera: static, then slow pull-back. Mood: dry deadpan humor. Sound: keys jangling as she leaves.
+Audio: spoken English dialogue with accurate lip sync, keep music low under dialogue.
+Gloria's voice: female, 60s, low raspy alto, light Latin American accent, slow and completely unbothered
 ```
 
 ### Shot 9: Best show in the building (12s)
@@ -213,6 +244,8 @@ Camera: static, then slow pull-back. Mood: dry deadpan humor. Sound: keys jangli
 4-8s: Close-up on her notepad tally (Priya 47, Dave 52); she adds one more mark.
 8-12s: She sips from her NO mug with a tiny smug smile. Gloria says: "Best show in the building."
 Camera: slow push-in. Mood: warm, smug satisfaction. Sound: boiler hum, pen scratch.
+Audio: spoken English dialogue with accurate lip sync, keep music low under dialogue.
+Gloria's voice: female, 60s, low raspy alto, light Latin American accent, slow and completely unbothered
 ```
 
 ### Shot 10: Kevin wins (8s)
@@ -228,4 +261,5 @@ Camera: slow push-in. Mood: warm, smug satisfaction. Sound: boiler hum, pen scra
 0-4s: Kevin quietly unplugs the space heater and the floor fan; papers settle to the floor.
 4-8s: He wraps a scarf around his neck, rolls his trousers into shorts, and finally smiles at the camera.
 Camera: slow pull-back to a wide shot. Mood: calm after the storm. Sound: silence, then a soft happy music sting.
+Audio: no dialogue, sound effects and music only.
 ```
