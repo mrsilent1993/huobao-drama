@@ -1,0 +1,14 @@
+# Dựng: python3 ../tools/tiktok.py tap-1-nguyen-hien.plan.txt tap-1-nguyen-hien.mp4
+hook: POV: Bạn chơi thân / với Trạng nguyên 13 tuổi
+end: Ăn xong, trạng có chịu vào triều? / Follow để xem mai bạn đi sứ / cùng trạng xấu nhất mà giỏi nhất →
+
+clip: nh-1.mp4 | Làng quê Nam Định · 1247
+clip: nh-2.mp4 | Một tháng sau · thi đỗ Trạng nguyên
+clip: nh-3.mp4 | Chiều hôm ấy
+
+sub: 1 | 0.5-4.8 | Sứ Tàu đố xâu chỉ qua ruột ốc, / cả triều chịu! Cậu bé có cách không?
+sub: 1 | 5.0-9.8 | Tang tình tang! Bắt con kiến càng, / buộc chỉ ngang lưng, bôi mỡ đầu kia!
+sub: 2 | 0.5-4.8 | Vua mời con vào chầu / thì phải sai quan đến đón cho đúng lễ chứ!
+sub: 2 | 5.0-7.5 | Mày đỗ trạng rồi mà còn làm khó người ta à?
+sub: 2 | 7.5-9.8 | Trạng thì phải ra dáng trạng.
+sub: 3 | 5.0-9.5 | Hiền! Trạng gì thì trạng, / ăn cơm xong rồi hẵng đi!

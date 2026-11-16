@@ -1,0 +1,17 @@
+# Dựng: python3 ../tools/tiktok.py tap-4-hai-thuong-lan-ong.plan.txt tap-4-hai-thuong-lan-ong.mp4
+hook: POV: Bạn là học trò / của Hải Thượng Lãn Ông
+end: Thế tử có khỏi bệnh không? / Follow để xem mai bạn hầu bếp / cho ông vua kén ăn nhất →
+
+clip: lo-1.mp4 | Hương Sơn · năm 1781
+clip: lo-2.mp4 | Phủ chúa Trịnh · Thăng Long
+clip: lo-3.mp4 | Đêm hôm ấy
+clip: lo-4.mp4 | Sáng hôm sau
+
+sub: 1 | 0.5-4.8 | Thầy ơi, phủ chúa gọi mình vào kinh thật ạ?
+sub: 1 | 5.0-9.8 | Ta đã định ở núi làm ông già lười, / giờ lại phải đi.
+sub: 2 | 0.5-4.8 | Qua chín lần cửa rồi thầy ạ, / nhà gì mà to hơn cả làng mình!
+sub: 3 | 0.5-4.8 | Thầy kê thuốc nhạt nhạt thôi, / chữa không khỏi người ta cho mình về núi!
+sub: 3 | 5.0-9.8 | Ta học thuốc để cứu người, / đâu phải để được về sớm.
+sub: 4 | 0.5-4.8 | Uống đúng thang này, ăn uống điều độ, / bớt cao lương mỹ vị đi.
+sub: 4 | 5.0-7.5 | Thầy bảo người trong phủ chúa ăn ít đi á?
+sub: 4 | 7.5-9.8 | Bệnh ở đây là do ăn nhiều quá.

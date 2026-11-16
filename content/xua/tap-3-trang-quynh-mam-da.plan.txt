@@ -1,0 +1,19 @@
+# Dựng: python3 ../tools/tiktok.py tap-3-trang-quynh-mam-da.plan.txt tap-3-trang-quynh-mam-da.mp4
+hook: POV: Bạn làm gia nhân phủ chúa / ngày Trạng Quỳnh nấu "mầm đá"
+end: Chúa có phạt Trạng Quỳnh không? / Follow để xem mai bạn theo học / thầy thuốc giỏi nhất nước Nam →
+
+clip: tq-1.mp4 | Phủ chúa Trịnh · buổi sáng
+clip: tq-2.mp4 | Nhà bếp phủ chúa · giữa trưa
+clip: tq-3.mp4 | Chiều tối
+clip: tq-4.mp4 | Bữa tối
+clip: tq-5.mp4 | Một lúc sau
+
+sub: 1 | 0.5-4.8 | Sơn hào hải vị ăn mãi chán rồi, / có món gì lạ không?
+sub: 1 | 5.0-9.8 | Bẩm chúa, thần biết nấu món mầm đá, / ăn một lần nhớ cả đời.
+sub: 2 | 0.5-4.8 | Thầy ơi, đá này ninh đến bao giờ thì mềm ạ?
+sub: 2 | 6.0-9.5 | Đến khi chúa đói.
+sub: 3 | 0.5-4.8 | Mầm đá chín chưa? Ta đói lả rồi!
+sub: 3 | 5.0-9.5 | Dọn cơm lên, mang cái lọ này theo.
+sub: 4 | 0.5-4.8 | Ngon! Ngon quá! Lọ này là món gì?
+sub: 4 | 5.0-9.8 | Bẩm, là "đại phong" ạ.
+sub: 5 | 0.5-6.0 | Đại phong là gió lớn. / Gió lớn thì đổ chùa, / đổ chùa thì tượng lọ. / Tượng lọ... là tương lọ ạ.

@@ -1,0 +1,12 @@
+# Dựng: python3 ../tools/tiktok.py tap-5-ngu-thien-tu-duc.plan.txt tap-5-ngu-thien-tu-duc.mp4
+hook: POV: Bạn làm cung nữ / hầu bếp cho vua Tự Đức
+end: Món số 37 có được vua gắp không? / Follow để xem mai bạn đi hỏi vợ / bị nhà gái thách cưới →
+
+clip: nt-1.mp4 | Hồ Tịnh Tâm · 4 giờ sáng
+clip: nt-2.mp4 | Ngự thiện phòng · gần trưa
+clip: nt-3.mp4 | Bữa trưa
+
+sub: 1 | 0.5-4.8 | Cẩn thận! Đổ một giọt / là cả đêm nay mất trắng.
+sub: 1 | 5.0-9.8 | Hứng cả đêm được nửa chén, / vua nhấp một ngụm là hết!
+sub: 2 | 0.5-4.8 | Em là món số 37. / Vua mà gắp trúng là em được thưởng!
+sub: 3 | 5.0-9.5 | Ba món... món 37 vẫn còn nguyên.

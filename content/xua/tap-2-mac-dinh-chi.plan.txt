@@ -1,0 +1,17 @@
+# Dựng: python3 ../tools/tiktok.py tap-2-mac-dinh-chi.plan.txt tap-2-mac-dinh-chi.mp4
+hook: POV: Bạn đi sứ cùng / trạng nguyên xấu nhất mà giỏi nhất
+end: Vua Nguyên phong gì cho ông? / Follow để xem mai bạn làm gia nhân / bị Trạng Quỳnh lừa ăn "mầm đá" →
+
+clip: mdc-1.mp4 | Cửa ải biên giới · chiều tối 1308
+clip: mdc-2.mp4 | Vài giây sau
+clip: mdc-3.mp4 | Kinh đô nhà Nguyên
+clip: mdc-4.mp4 | Một khắc sau
+
+sub: 1 | 0.5-4.8 | Quá quan trì, quan quan bế, / nguyện quá khách quá quan!
+sub: 1 | 5.0-9.8 | Đối không được là tối nay / mình ngủ ngoài ải đấy ông ơi!
+sub: 2 | 0.5-4.8 | Xuất đối dị, đối đối nan, / thỉnh tiên sinh tiên đối!
+sub: 2 | 5.0-9.8 | Em không hiểu gì, / nhưng thấy bên kia im là mình thắng!
+sub: 3 | 0.5-4.8 | Sứ nước Nam bé thế này à?
+sub: 3 | 5.0-9.8 | Nhật hỏa vân yên, / bạch đán thiêu tàn ngọc thố!
+sub: 4 | 0.5-4.8 | Nguyệt cung tinh đạn, / hoàng hôn xạ lạc kim ô!
+sub: 4 | 5.0-9.8 | Lúc nãy ai bảo sứ nước Nam bé nhỉ?

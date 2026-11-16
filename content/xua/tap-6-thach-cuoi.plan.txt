@@ -1,0 +1,17 @@
+# Dựng: python3 ../tools/tiktok.py tap-6-thach-cuoi.plan.txt tap-6-thach-cuoi.mp4
+hook: POV: Bạn đi hỏi vợ / và bị nhà gái thách cưới
+end: Ba năm ở rể, bạn có cưới được không? / Follow để xem tập sau / bạn là ai ở thời xưa →
+
+clip: tc-1.mp4 | Làng quê Bắc Bộ · thế kỷ 19
+clip: tc-2.mp4 | Trên chiếu
+clip: tc-3.mp4 | Một tuần trà sau
+clip: tc-4.mp4 | Sáng hôm sau
+
+sub: 1 | 0.5-4.8 | Cười lên! Mặt như đi nộp sưu thế kia / ai gả con cho!
+sub: 1 | 5.0-9.5 | Ngồi đi. Nhà ta nói chuyện lễ trước.
+sub: 2 | 0.5-4.8 | Trăm buồng cau, trăm lá trầu, năm chum rượu, / một con lợn béo, mười thúng gạo nếp...
+sub: 2 | 5.0-9.8 | Bà ơi, nhà con bán cả trâu cũng không đủ!
+sub: 3 | 0.5-4.8 | Ông ơi, thằng bé chăm lắm, sức khỏe như trâu. / Lễ bớt cho nó một nửa đi!
+sub: 3 | 5.0-9.8 | Được. Bớt một nửa lễ, nhưng phải ở rể.
+sub: 4 | 0.5-4.8 | Ba năm. Cày hết chỗ này, gánh nước đầy giếng, / rồi tính chuyện cưới.
+sub: 4 | 6.5-9.5 | Con làm!
