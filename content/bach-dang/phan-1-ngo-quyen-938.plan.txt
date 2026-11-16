@@ -1,0 +1,13 @@
+# Dựng: python3 ../tools/tiktok.py phan-1-ngo-quyen-938.plan.txt phan-1-ngo-quyen-938.mp4
+hook: Ba lần Bạch Đằng · Phần 1: / Bạn cắm cọc cho Ngô Quyền
+end: Cọc nhà Anh Tư còn dùng lại không? / Follow xem phần 2: / Lê Hoàn, năm 981 →
+
+clip: bd1-1.mp4 | Sông Bạch Đằng · năm 938
+clip: bd1-2.mp4 | Triều lên · nhử địch
+clip: bd1-3.mp4 | Triều rút
+
+sub: 1 | 0.5-4.8 | Cắm cả rừng cọc giữa sông, / định nuôi hàu à anh?
+sub: 1 | 5.0-9.5 | Cứ cắm đi, chờ nước triều lên rồi biết!
+sub: 2 | 0.5-4.8 | Đánh qua loa thôi! Lúc chạy nhớ diễn cho sâu, / mặt phải sợ thật vào!
+sub: 2 | 6.5-9.8 | Khỏi diễn anh ơi, em sợ thật!
+sub: 3 | 5.0-9.5 | Cái cọc kia em cắm đấy! / Ghi tên em vào sử nhé!

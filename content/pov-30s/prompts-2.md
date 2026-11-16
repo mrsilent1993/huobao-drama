@@ -18,51 +18,9 @@ Mỗi bài dùng khoảng 6–9 hashtag, chia làm 3 nhóm:
 
 ---
 
-## Tập 4: POV: Bạn là dân chài cắm cọc Bạch Đằng, năm 938
+## Tập 4: Bạch Đằng 938 (đã chuyển)
 
-**Lịch sử:** năm 938, Ngô Quyền cho đóng cọc gỗ đầu bịt sắt xuống lòng sông Bạch Đằng. Khi triều lên, cọc chìm dưới nước. Ông cho thuyền nhẹ ra khiêu chiến rồi giả thua, nhử thuyền quân Nam Hán do Hoằng Tháo chỉ huy vào bãi cọc. Đến khi triều rút, thuyền giặc mắc cọc và vỡ. Chiến thắng này mở ra thời kỳ độc lập lâu dài.
-
-**Bối cảnh**
-```
-Vietnam, year 938, Bạch Đằng River estuary. Fishermen and soldiers barefoot with hair in topknots, brown homespun clothes, small wooden fishing boats and light war canoes; large enemy Southern Han warships with red sails; tidal river with muddy banks and mangroves; sharpened wooden stakes tipped with iron.
-```
-Nhân vật: **Anh Tư**, dân chài khoảng 30 tuổi, da đen sạm, cởi trần, tóc búi, hay hỏi.
-
-### Clip 1: Bãi sông, lúc triều rút
-Ảnh khung đầu:
-```
-First-person view standing knee-deep in mud on a riverbank at low tide, year 938, the viewer's hands holding a heavy wooden mallet over a tall sharpened wooden stake tipped with iron, rows of stakes stretching across the riverbed, villagers hammering, realistic, vertical 9:16.
-```
-Video:
-```
-[POV] [Bối cảnh] 0-5s: Low tide, the viewer swings a heavy wooden mallet and drives an iron-tipped wooden stake into the muddy riverbed; next to him Anh Tư, a shirtless fisherman, wipes his sweat and asks: "Cắm cả rừng cọc giữa sông, định nuôi hàu à anh?" 5-10s: An officer in a brown armor vest walking past grins and says: "Cứ cắm đi, chờ nước triều lên rồi biết!" Hundreds of stakes stretch across the river. [Âm thanh]
-```
-
-### Clip 2: Triều lên, nhử địch
-Ảnh khung đầu:
-```
-First-person view from a small light war canoe on a wide high-tide river, year 938, the water surface calm with no stakes visible, huge enemy warships with red sails approaching in the distance, the viewer's hands gripping a paddle, realistic, vertical 9:16.
-```
-Video:
-```
-[POV] [Bối cảnh] 0-5s: High tide, the stakes are hidden under the water; the viewer paddles a light canoe toward the huge red-sailed enemy warships, and the commander in the next canoe shouts: "Đánh qua loa thôi! Lúc chạy nhớ diễn cho sâu, mặt phải sợ thật vào!" 5-10s: The canoes turn and flee upstream, the enemy warships chase them with drums beating, arrows splashing around the viewer's canoe; Anh Tư paddles frantically and shouts: "Khỏi diễn anh ơi, em sợ thật!" [Âm thanh]
-```
-
-### Clip 3: Triều rút
-Ảnh khung đầu:
-```
-First-person view from a riverbank at falling tide, year 938, large enemy warships with red sails stuck and tilting on sharpened stakes poking out of the water, hulls cracking, Vietnamese soldiers charging from the mangroves, realistic, vertical 9:16.
-```
-Video:
-```
-[POV] [Bối cảnh] 0-5s: The tide drops fast; the iron-tipped stakes rise out of the water and pierce the hulls of the enemy warships, which tilt and crack with loud splintering sounds, enemy soldiers jumping into the river. 5-10s: Anh Tư grabs the viewer's shoulder, pointing at a wrecked ship, and laughs: "Cái cọc kia em cắm đấy! Ghi tên em vào sử nhé!" Soldiers charge out from the mangroves. [Âm thanh]
-```
-
-**Đăng TikTok:**
-```
-Cắm cọc cả buổi sáng mà không ai giải thích, đến chiều mới hiểu 😎 Năm 938, Ngô Quyền dùng cọc gỗ bịt sắt và con nước triều đánh tan quân Nam Hán trên sông Bạch Đằng. Bạn có biết trận Bạch Đằng nào còn dùng lại kế cắm cọc này không? 👇
-#povlichsu #POV #lichsuvietnam #ngoquyen #bachdang #938 #xuhuong #fyp
-```
+Tập này đã trở thành phần 1 của loạt **"Ba lần Bạch Đằng"**, xem thư mục `content/bach-dang/`.
 
 ---
 
@@ -260,14 +218,13 @@ Video:
 ## Dựng video (phần mình làm)
 
 Bạn đặt tên file như sau:
-- Tập 4: `bachdang-1..3.mp4`
+- Tập 4: xem `content/bach-dang/`
 - Tập 5: `nhunguyet-1..3.mp4`
 - Tập 6: `hoankiem-1..3.mp4`
 - Tập 7: `dienbien-1..3.mp4`
 - Tập 8: `baocap-1..3.mp4`
 
 ```
-python3 ../tools/tiktok.py bach-dang-938.plan.txt bach-dang-938.mp4
 python3 ../tools/tiktok.py nhu-nguyet-1077.plan.txt nhu-nguyet-1077.mp4
 python3 ../tools/tiktok.py hoan-kiem-1428.plan.txt hoan-kiem-1428.mp4
 python3 ../tools/tiktok.py dien-bien-1954.plan.txt dien-bien-1954.mp4

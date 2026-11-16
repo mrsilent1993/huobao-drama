@@ -1,0 +1,21 @@
+# Dựng: python3 ../tools/tiktok.py phan-3-tran-hung-dao-1288.plan.txt phan-3-tran-hung-dao-1288.mp4
+hook: Ba lần Bạch Đằng · Phần 3: / Bạn cắm cọc cho Trần Hưng Đạo
+end: Ba lần cắm cọc, cọc giờ ở đâu? / Follow để xem mai bạn nghe / tiếng thơ thần trên sông Như Nguyệt →
+
+clip: bd3-1.mp4 | Sông Hóa · năm 1288
+clip: bd3-2.mp4 | Sông Bạch Đằng · triều rút
+clip: bd3-3.mp4 | Triều lên
+clip: bd3-4.mp4 | Giữa trưa · triều rút
+clip: bd3-5.mp4 | Chiều hôm ấy
+
+sub: 1 | 0.5-4.8 | Trận này không phá xong giặc Nguyên, / thề không về đến sông này nữa!
+sub: 1 | 5.0-8.0 | Thề nặng thế, không thắng thì về kiểu gì?
+sub: 1 | 8.0-9.8 | Thì thắng.
+sub: 2 | 0.5-4.8 | Chỗ này cụ tổ em cắm năm 938, / ông cố em cắm năm 981, giờ đến lượt em!
+sub: 2 | 5.0-7.5 | Nhà mày cắm cọc ba trăm năm rồi à?
+sub: 2 | 7.5-9.8 | Nghề gia truyền anh ạ!
+sub: 3 | 0.5-4.8 | Rút! Rút! Nhớ diễn cho giống!
+sub: 3 | 5.0-9.8 | Khỏi dặn! / Nhà em sợ thật từ đời cụ rồi!
+sub: 4 | 5.0-9.5 | Lên! Lên! / Cọc làm phần việc của nó rồi!
+sub: 5 | 0.5-4.5 | Bắt sống Ô Mã Nhi rồi!
+sub: 5 | 5.0-9.8 | Cái cọc đâm thuyền ông là của nhà tôi đấy. / Ba đời rồi!

@@ -1,0 +1,19 @@
+# Dựng: python3 ../tools/tiktok.py phan-2-le-hoan-981.plan.txt phan-2-le-hoan-981.mp4
+hook: Ba lần Bạch Đằng · Phần 2: / Bạn cắm cọc cho Lê Hoàn
+end: Kế giả hàng có lừa được tướng Tống? / Follow xem phần 3: / Trần Hưng Đạo, năm 1288 →
+
+clip: bd2-1.mp4 | Sông Bạch Đằng · năm 981
+clip: bd2-2.mp4 | Đêm hôm ấy
+clip: bd2-3.mp4 | Sáng hôm sau
+clip: bd2-4.mp4 | Vài hôm sau
+
+sub: 1 | 0.5-2.0 | Vua truyền đóng cọc ngăn sông!
+sub: 1 | 2.0-4.9 | Cắm cọc à? Nhà em có nghề! / Ông nội em cắm từ thời Ngô Quyền!
+sub: 1 | 5.0-9.0 | Thế thì cắm nhanh lên, / quân Tống sắp đến rồi!
+sub: 2 | 0.5-4.8 | Cọc chắc đấy. / Nhưng lần này ta còn một kế nữa.
+sub: 2 | 5.0-6.8 | Dạ... kế gì ạ?
+sub: 2 | 6.8-9.5 | Giả hàng.
+sub: 3 | 5.0-7.5 | Đi đầu hàng mà sao / anh em ai cũng mài dao thế?
+sub: 3 | 7.5-9.8 | Hàng thì phải hàng cho chu đáo.
+sub: 4 | 0.5-4.8 | Tướng Tống Hầu Nhân Bảo / mắc mưu giả hàng, tử trận rồi!
+sub: 4 | 5.0-9.5 | Cọc nhà em lại trúng nữa rồi! / Về khoe ông nội!

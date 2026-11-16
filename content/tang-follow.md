@@ -15,7 +15,7 @@ Vì dòng chữ kết luôn nhắc tập kế tiếp, cần **đăng đúng th�
 |---|---|
 | Nhà giáo (gắn với 20/11) | Chu Văn An → Tết thầy → Bình dân học vụ → Học sinh 9x → Thầy giáo cắm bản (đúng 20/11) |
 | Thăng Long nghìn năm | Phần 2 → 3 → 4 → 5 → 6. Phần 6 kết bằng "Comment 'phần 7'" để đo xem người xem có muốn loạt dài thêm không. |
-| POV lịch sử | Hai Bà Trưng → Thi Hương → Bạch Đằng → Như Nguyệt → Hoàn Kiếm → Điện Biên → Bao cấp |
+| POV lịch sử | Hai Bà Trưng → Thi Hương → Ba lần Bạch Đằng (phần 1, 2, 3) → Như Nguyệt → Hoàn Kiếm → Điện Biên → Bao cấp |
 
 Nếu đăng hai chuỗi song song (ví dụ Nhà giáo buổi trưa, Thăng Long buổi tối), mỗi chuỗi vẫn giữ đúng thứ tự của nó.
 
