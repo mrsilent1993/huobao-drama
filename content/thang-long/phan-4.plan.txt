@@ -1,4 +1,4 @@
-# Thăng Long phần 4. Dựng: python3 ../tools/tiktok.py thang-long-4.plan.txt thang-long-4.mp4
+# Thăng Long phần 4. Dựng: python3 ../tools/tiktok.py phan-4.plan.txt phan-4.mp4
 hook: Phần 4: Khoa thi đầu tiên / năm 1075
 end: Đời sau nhà ông Ba làm nghề gì? / Follow xem phần 5: / quả chuông đánh không kêu →
 

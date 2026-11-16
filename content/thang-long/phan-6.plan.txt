@@ -1,4 +1,4 @@
-# Thăng Long phần 6. Dựng: python3 ../tools/tiktok.py thang-long-6.plan.txt thang-long-6.mp4
+# Thăng Long phần 6. Dựng: python3 ../tools/tiktok.py phan-6.plan.txt phan-6.mp4
 hook: Phần 6: Nhà ông Ba / và những lần Thăng Long đổi tên
 end: Nhà ông Ba giờ còn ở Hà Nội không? / Comment "phần 7" nếu muốn xem tiếp →
 

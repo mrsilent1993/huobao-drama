@@ -1,4 +1,4 @@
-# Thăng Long phần 3. Dựng: python3 ../tools/tiktok.py thang-long-3.plan.txt thang-long-3.mp4
+# Thăng Long phần 3. Dựng: python3 ../tools/tiktok.py phan-3.plan.txt phan-3.mp4
 hook: Phần 3: Chùa Một Cột / năm 1049
 end: Ông Ba có con cháu nối nghiệp không? / Follow xem phần 4: / con cháu ông Ba đi thi →
 

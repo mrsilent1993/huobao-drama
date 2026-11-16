@@ -1,4 +1,4 @@
-# Thăng Long phần 5. Dựng: python3 ../tools/tiktok.py thang-long-5.plan.txt thang-long-5.mp4
+# Thăng Long phần 5. Dựng: python3 ../tools/tiktok.py phan-5.plan.txt phan-5.mp4
 hook: Phần 5: Đúc chuông / to nhất nước Nam, năm 1101
 end: Nhà ông Ba ở Thăng Long bao lâu? / Follow xem phần 6: / Thăng Long đổi tên mấy lần? →
 
