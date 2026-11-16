@@ -1,4 +1,4 @@
-# Tăng follow: kết lửng, trả lời bình luận bằng video, livestream
+# Tăng follow: kết lửng và trả lời bình luận bằng video
 
 ## 1. Kết lửng và mời follow
 
@@ -71,35 +71,3 @@ sub: 1 | 5.0-9.8 | Viết thì hay thế thôi, / chứ khiêng đồ ra đây l
 ```
 
 **Duet và Ghép nối:** khi có video lịch sử khác đang lên xu hướng, bạn ghép nối (stitch) 3–5 giây đầu của video đó rồi nối clip "ông Ba phản ứng". Ví dụ ông Ba cằn nhằn: "Hồi tôi sống ở đấy không phải như thế đâu!" Bạn gửi link video gốc, mình viết lời phản ứng cho hợp.
-
-## 3. Livestream kể chuyện lịch sử (khi đủ 1.000 follow)
-
-Điều kiện LIVE của TikTok thường gồm từ 1.000 follow trở lên và chủ tài khoản đủ 18 tuổi. Hãy kiểm tra trong ứng dụng, vì điều kiện có thể khác nhau theo khu vực và thay đổi theo thời gian.
-
-**Lịch:** 2–3 buổi mỗi tuần, cùng khung giờ tối (ví dụ 20h30), dài 30–45 phút. Báo trước lịch LIVE ở caption video đăng trong ngày.
-
-**Khung một buổi (45 phút):**
-
-| Phút | Phần | Cách làm |
-|---|---|---|
-| 0–3 | Mở màn | Chào từng người vào phòng bằng tên. Nói chủ đề tối nay bằng một câu hỏi, ví dụ "Tối nay: nếu bạn sống năm 1285, bạn có dám xăm chữ Sát Thát lên tay không?" |
-| 3–15 | Kể chuyện phần 1 | Kể như kể chuyện cổ tích, dừng lại ở chỗ gay cấn và hỏi "Theo mọi người, Trần Hưng Đạo làm gì tiếp?" |
-| 15–20 | Bình chọn | Dùng câu hỏi hoặc bình chọn trên LIVE (nếu có): "Đánh hay hòa?" Đọc to vài bình luận. |
-| 20–35 | Kể chuyện phần 2 | Kể tiếp và kết thúc câu chuyện. Lồng chi tiết lạ, ví dụ cọc Bạch Đằng được dùng lại ba lần trong lịch sử. |
-| 35–42 | Hỏi đáp | Trả lời câu hỏi của người xem. Câu nào hay thì ghi lại để làm video trả lời bình luận hôm sau. |
-| 42–45 | Kết | Gợi ý video mai, nhắc follow, hẹn buổi LIVE sau. |
-
-**Mẹo giữ chân:**
-- Ghim bình luận chủ đề buổi LIVE.
-- Cứ 10 phút tóm tắt lại một câu cho người mới vào phòng.
-- Gọi tên người tặng quà hoặc bình luận nhiều.
-- Mở màn hình bằng ảnh khung đầu đẹp nhất của tập liên quan để làm nền.
-
-**Chủ đề LIVE gợi ý** (mỗi chủ đề nối với video đã có):
-1. Ba lần đánh Nguyên Mông, và vì sao chữ "Sát Thát" xăm trên tay.
-2. Ba trận Bạch Đằng: Ngô Quyền 938, Lê Hoàn 981, Trần Hưng Đạo 1288.
-3. Thăng Long đổi tên bao nhiêu lần? (nối với phần 6 của loạt Thăng Long nghìn năm)
-4. Thầy giáo xưa và nay: từ Chu Văn An đến thầy cô cắm bản.
-5. Tết thời bao cấp: mời người xem kể chuyện nhà mình.
-
-Muốn có kịch bản kể chi tiết cho buổi nào, cứ nói tên chủ đề, mình viết theo đúng khung trên.
