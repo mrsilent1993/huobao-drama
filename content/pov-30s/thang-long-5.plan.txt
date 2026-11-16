@@ -8,5 +8,5 @@ clip: tl5-3.mp4 | Một tháng sau · ngoài thành
 
 sub: 1 | 0.8-4.8 | Chuông to nhất nước Nam đây! / Đánh một tiếng nghe đến tận Hoa Lư!
 sub: 2 | 6.0-9.8 | Chắc... chắc tại hôm nay trời nồm...
-sub: 3 | 1.0-4.8 | Chuông của vua mà thành nhà cho rùa ở!
-sub: 3 | 6.0-9.5 | Thôi được. Ít ra cũng có người dùng.
+sub: 3 | 1.0-4.8 | Chuông của vua giờ thành chung cư cho rùa!
+sub: 3 | 6.0-9.5 | Thôi... ít ra cũng có khách thuê.

@@ -7,6 +7,7 @@ clip: binhdan-2.mp4 | Lớp học ban đêm
 clip: binhdan-3.mp4 | Vài tháng sau
 
 sub: 1 | 0.5-4.8 | Già rồi còn bắt đọc chữ mới cho vào chợ à?
-sub: 1 | 5.0-8.5 | Cụ đọc được một chữ thôi là con cho qua.
+sub: 1 | 5.0-7.5 | Cụ đọc được một chữ thôi là con cho qua.
+sub: 1 | 7.5-9.8 | Chữ O! ...Thế giờ tôi vào chợ được chưa?
 sub: 2 | 1.0-9.5 | O tròn như quả trứng gà, / Ô thì đội mũ, Ơ thì thêm râu!
 sub: 3 | 2.0-5.0 | Con ơi... mẹ biết chữ rồi.

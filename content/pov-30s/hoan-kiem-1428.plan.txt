@@ -6,7 +6,7 @@ clip: hoankiem-1.mp4 | Hồ Tả Vọng · Thăng Long
 clip: hoankiem-2.mp4 | Giữa hồ
 clip: hoankiem-3.mp4 | Trả gươm
 
-sub: 1 | 0.5-4.5 | Chèo cho êm, vua đang ngắm hồ đấy.
+sub: 1 | 0.5-4.5 | Chèo êm thôi, vua mà say sóng / là cả đội đi đắp đê!
 sub: 2 | 5.0-9.8 | Bệ hạ đã xong việc lớn, xin hoàn gươm lại cho Long Quân.
 sub: 3 | 5.0-8.3 | Bệ hạ... vậy từ nay hồ này gọi là gì ạ?
 sub: 3 | 8.3-9.8 | Hồ Hoàn Kiếm.

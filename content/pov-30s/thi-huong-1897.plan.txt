@@ -6,6 +6,8 @@ clip: thi-1.mp4 | Cổng trường thi · sáng sớm
 clip: thi-2.mp4 | Trong trường thi
 clip: thi-3.mp4 | Ngày yết bảng
 
-sub: 1 | 0.3-4.8 | Sĩ tử xếp hàng khám xét! Ai giấu sách vào trường thì đuổi ra!
+sub: 1 | 0.3-3.5 | Sĩ tử xếp hàng khám xét! / Ai giấu sách vào trường thì đuổi ra!
+sub: 1 | 3.5-5.0 | Dạ, đây là bùa may mắn ạ!
 sub: 2 | 0.5-4.8 | Viết chậm thôi cháu, mực nhòe là hỏng cả khoa.
-sub: 3 | 1.5-6.5 | Năm nay là lần thứ chín của ông đấy, cháu ạ. Ba năm nữa ta lại đi.
+sub: 2 | 6.0-9.8 | Thôi xong, bài văn / thành tranh thủy mặc rồi!
+sub: 3 | 1.5-7.0 | Lần thứ chín của ông rồi, cháu ạ. / Ông thi đến khi nào / trường thi chán mặt ông thì thôi!

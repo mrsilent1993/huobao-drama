@@ -6,7 +6,8 @@ clip: bachdang-1.mp4 | Sông Bạch Đằng · triều rút
 clip: bachdang-2.mp4 | Triều lên · nhử địch
 clip: bachdang-3.mp4 | Triều rút
 
-sub: 1 | 0.5-4.8 | Cắm cả rừng cọc giữa sông để làm gì hả anh?
+sub: 1 | 0.5-4.8 | Cắm cả rừng cọc giữa sông, / định nuôi hàu à anh?
 sub: 1 | 5.0-9.5 | Cứ cắm đi, chờ nước triều lên rồi biết!
-sub: 2 | 0.5-4.8 | Đánh qua loa thôi, rồi quay đầu chạy cho thật giống!
-sub: 3 | 5.0-9.0 | Cái cọc kia là của em cắm đấy!
+sub: 2 | 0.5-4.8 | Đánh qua loa thôi! Lúc chạy nhớ diễn cho sâu, / mặt phải sợ thật vào!
+sub: 2 | 6.5-9.8 | Khỏi diễn anh ơi, em sợ thật!
+sub: 3 | 5.0-9.5 | Cái cọc kia em cắm đấy! / Ghi tên em vào sử nhé!

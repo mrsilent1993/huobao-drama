@@ -7,5 +7,8 @@ clip: baocap-2.mp4 | 7 giờ sáng · cửa hàng mở
 clip: baocap-3.mp4 | 8 giờ sáng · về nhà
 
 sub: 1 | 0.5-4.8 | Gạch của tôi đứng trước gạch của cháu đấy nhé!
+sub: 1 | 5.0-7.0 | Gạch của bác xếp từ tối qua ạ?
+sub: 1 | 7.0-9.8 | Từ hôm kia! Gạch này có thâm niên!
 sub: 2 | 0.5-4.8 | Hết thịt rồi! Ai còn phiếu thì đổi sang đậu phụ!
-sub: 3 | 0.5-4.8 | Hai bìa đậu à? Thế là Tết nhà mình có đậu rán rồi!
+sub: 2 | 5.0-8.0 | Thế đậu phụ có tính là thịt chay không chị?
+sub: 3 | 0.5-4.8 | Hai bìa đậu à? Giỏi! Tết này nhà mình / có đậu rán, đậu sốt, đậu luộc!

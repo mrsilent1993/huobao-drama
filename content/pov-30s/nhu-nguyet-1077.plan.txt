@@ -6,7 +6,8 @@ clip: nhunguyet-1.mp4 | Đêm trên phòng tuyến
 clip: nhunguyet-2.mp4 | Nửa đêm · tiếng từ đền bên sông
 clip: nhunguyet-3.mp4 | Rạng sáng
 
-sub: 1 | 0.8-4.8 | Bên kia đông gấp mấy lần mình...
+sub: 1 | 0.8-3.5 | Bên kia đông gấp mấy lần mình...
+sub: 1 | 3.5-5.0 | Đông thế thì nấu cơm chắc mệt lắm.
 sub: 1 | 5.0-9.5 | Nghe đi. Đêm nay đền bên sông sẽ có tiếng.
 sub: 2 | 1.0-9.5 | Nam quốc sơn hà Nam đế cư, / tiệt nhiên định phận / tại thiên thư.
 sub: 3 | 0.3-4.8 | Như hà nghịch lỗ lai xâm phạm, / nhữ đẳng hành khan / thủ bại hư!

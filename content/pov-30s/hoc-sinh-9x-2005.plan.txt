@@ -7,6 +7,7 @@ clip: hs9x-2.mp4 | Sáng 20/11
 clip: hs9x-3.mp4 | Hoa điểm tốt
 
 sub: 1 | 0.8-4.8 | Mỗi đứa năm nghìn, đứa nào chưa nộp thì nộp đi, mai mua hoa tặng cô!
+sub: 1 | 5.5-8.5 | Con nhịn ăn xôi ba hôm đấy!
 sub: 2 | 0.8-4.5 | Chúng em chúc cô 20/11 vui vẻ ạ!
 sub: 2 | 6.0-9.8 | Lại tiêu tiền ăn sáng vào đây phải không?
 sub: 3 | 1.0-5.0 | Ba mươi hai điểm mười... / các con lấy từ bao giờ thế này?

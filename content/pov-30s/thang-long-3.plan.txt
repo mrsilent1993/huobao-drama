@@ -8,6 +8,6 @@ clip: tl3-3.mp4 | Ngày khánh thành
 
 sub: 1 | 0.5-4.8 | Đêm qua trẫm mộng thấy Phật Bà ngồi trên tòa sen, dắt trẫm lên đài.
 sub: 1 | 5.0-9.8 | Xin bệ hạ dựng một cột đá giữa hồ, / đặt tòa sen lên trên, như trong giấc mộng.
-sub: 2 | 0.8-4.8 | Cả cái chùa đặt trên một cái cột? / Đổ thì sao hả cháu!
-sub: 2 | 5.0-8.5 | Ông yên tâm, mộng của vua chắc lắm ạ!
-sub: 3 | 5.5-9.8 | Ừ... đẹp thật. Đẹp như bông sen nở.
+sub: 2 | 0.5-4.8 | Cả cái chùa đặt trên một cái cột? / Mai vua mơ thấy cái nồi / thì xây nhà hình cái nồi à?
+sub: 2 | 5.0-9.0 | Ông nói nhỏ thôi! Vua nghe thấy / là cả nhà mình lại đi đắp thành!
+sub: 3 | 5.5-9.8 | Ừ... đẹp thật. / Thôi, cho vua mơ thêm vài lần nữa cũng được.

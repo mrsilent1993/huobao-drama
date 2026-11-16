@@ -8,4 +8,4 @@ clip: camban-3.mp4 | Sáng 20/11
 
 sub: 1 | 0.8-4.8 | Nước lên rồi, để thầy cõng qua.
 sub: 2 | 0.5-4.8 | Ăn no rồi chiều học tiếp nhé, hôm nay có rau thầy mới trồng.
-sub: 3 | 0.8-5.0 | Thầy ơi, quà 20/11 của chúng con. / Mẹ con bảo thầy ăn cho khỏe.
+sub: 3 | 0.8-5.0 | Thầy ơi, quà 20/11 của chúng con. / Trứng gà nhà con mới đẻ, còn ấm đấy ạ!

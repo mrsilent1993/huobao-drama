@@ -7,8 +7,8 @@ clip: tl6-2.mp4 | Năm 1430
 clip: tl6-3.mp4 | Năm 1831
 
 sub: 1 | 0.5-4.8 | Triều đình dời đô vào Thanh Hóa! / Từ nay Thăng Long gọi là Đông Đô!
-sub: 1 | 5.0-9.8 | Cụ tổ nhà tôi theo vua ra đây gọi là Thăng Long, / giờ lại đổi!
+sub: 1 | 5.0-9.8 | Cụ tổ tôi khiêng cả con gà ra đây / gọi là Thăng Long, giờ lại đổi!
 sub: 2 | 0.5-4.8 | Vua Lê định đô, từ nay gọi là Đông Kinh!
 sub: 2 | 5.0-9.8 | Đông Đô, Đông Quan, giờ Đông Kinh... / nhà tôi viết địa chỉ không kịp!
 sub: 3 | 0.5-4.8 | Vua Minh Mạng lập tỉnh, đặt tên là Hà Nội!
-sub: 3 | 5.0-9.8 | Hà Nội à? Ừ... cái tên này nghe được. / Lần này đừng đổi nữa nhé!
+sub: 3 | 5.0-9.8 | Hà Nội à? Ừ, nghe được. / Đổi nữa là tôi về lại Hoa Lư đấy!

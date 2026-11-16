@@ -6,7 +6,8 @@ clip: tl2-1.mp4 | Công trường thành Thăng Long · 1010
 clip: tl2-2.mp4 | Chiều tối · trước đền thần Long Đỗ
 clip: tl2-3.mp4 | Sáng hôm sau
 
-sub: 1 | 0.8-4.8 | Lần thứ ba rồi đấy! Đắp sáng sụt chiều!
-sub: 2 | 1.0-4.8 | Ngựa... ngựa ở đâu ra thế kia?
+sub: 1 | 0.5-4.8 | Lần thứ ba rồi đấy! Đắp sáng sụt chiều, / KPI đâu mà đạt!
+sub: 1 | 5.0-9.8 | Biết thế ở lại Hoa Lư, / núi đá nó còn đứng yên!
+sub: 2 | 1.0-4.8 | Ngựa nhà ai thả rông thế kia? / ...Ơ, sao nó phát sáng?
 sub: 3 | 0.5-4.8 | Vua truyền: cứ theo dấu chân ngựa mà đắp thành!
-sub: 3 | 6.5-9.8 | Ừ... thế thì được.
+sub: 3 | 6.0-9.8 | Ừ... thế thì được. / Thế công đắp ba lần trước ai trả?

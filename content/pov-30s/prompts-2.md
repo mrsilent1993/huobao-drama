@@ -35,7 +35,7 @@ First-person view standing knee-deep in mud on a riverbank at low tide, year 938
 ```
 Video:
 ```
-[POV] [Bối cảnh] 0-5s: Low tide, the viewer swings a heavy wooden mallet and drives an iron-tipped wooden stake into the muddy riverbed; next to him Anh Tư, a shirtless fisherman, wipes his sweat and asks: "Cắm cả rừng cọc giữa sông để làm gì hả anh?" 5-10s: An officer in a brown armor vest walking past grins and says: "Cứ cắm đi, chờ nước triều lên rồi biết!" Hundreds of stakes stretch across the river. [Âm thanh]
+[POV] [Bối cảnh] 0-5s: Low tide, the viewer swings a heavy wooden mallet and drives an iron-tipped wooden stake into the muddy riverbed; next to him Anh Tư, a shirtless fisherman, wipes his sweat and asks: "Cắm cả rừng cọc giữa sông, định nuôi hàu à anh?" 5-10s: An officer in a brown armor vest walking past grins and says: "Cứ cắm đi, chờ nước triều lên rồi biết!" Hundreds of stakes stretch across the river. [Âm thanh]
 ```
 
 ### Clip 2: Triều lên, nhử địch
@@ -45,7 +45,7 @@ First-person view from a small light war canoe on a wide high-tide river, year 9
 ```
 Video:
 ```
-[POV] [Bối cảnh] 0-5s: High tide, the stakes are hidden under the water; the viewer paddles a light canoe toward the huge red-sailed enemy warships, and the commander in the next canoe shouts: "Đánh qua loa thôi, rồi quay đầu chạy cho thật giống!" 5-10s: The canoes turn and flee upstream, the enemy warships chase them with drums beating, arrows splashing around the viewer's canoe. [Âm thanh]
+[POV] [Bối cảnh] 0-5s: High tide, the stakes are hidden under the water; the viewer paddles a light canoe toward the huge red-sailed enemy warships, and the commander in the next canoe shouts: "Đánh qua loa thôi! Lúc chạy nhớ diễn cho sâu, mặt phải sợ thật vào!" 5-10s: The canoes turn and flee upstream, the enemy warships chase them with drums beating, arrows splashing around the viewer's canoe; Anh Tư paddles frantically and shouts: "Khỏi diễn anh ơi, em sợ thật!" [Âm thanh]
 ```
 
 ### Clip 3: Triều rút
@@ -55,7 +55,7 @@ First-person view from a riverbank at falling tide, year 938, large enemy warshi
 ```
 Video:
 ```
-[POV] [Bối cảnh] 0-5s: The tide drops fast; the iron-tipped stakes rise out of the water and pierce the hulls of the enemy warships, which tilt and crack with loud splintering sounds, enemy soldiers jumping into the river. 5-10s: Anh Tư grabs the viewer's shoulder, pointing at a wrecked ship, and laughs: "Cái cọc kia là của em cắm đấy!" Soldiers charge out from the mangroves. [Âm thanh]
+[POV] [Bối cảnh] 0-5s: The tide drops fast; the iron-tipped stakes rise out of the water and pierce the hulls of the enemy warships, which tilt and crack with loud splintering sounds, enemy soldiers jumping into the river. 5-10s: Anh Tư grabs the viewer's shoulder, pointing at a wrecked ship, and laughs: "Cái cọc kia em cắm đấy! Ghi tên em vào sử nhé!" Soldiers charge out from the mangroves. [Âm thanh]
 ```
 
 **Đăng TikTok:**
@@ -83,7 +83,7 @@ First-person view looking over an earthen rampart with bamboo stakes at night, y
 ```
 Video:
 ```
-[POV] [Bối cảnh] 0-5s: Night, the viewer peers over the earthen rampart at thousands of enemy torches across the misty river; young soldiers around look scared. One whispers: "Bên kia đông gấp mấy lần mình..." 5-10s: The old soldier with a scarred cheek puts a hand on the viewer's shoulder and says quietly: "Nghe đi. Đêm nay đền bên sông sẽ có tiếng." [Âm thanh]
+[POV] [Bối cảnh] 0-5s: Night, the viewer peers over the earthen rampart at thousands of enemy torches across the misty river; young soldiers around look scared. One whispers: "Bên kia đông gấp mấy lần mình..." Another answers deadpan: "Đông thế thì nấu cơm chắc mệt lắm." 5-10s: The old soldier with a scarred cheek puts a hand on the viewer's shoulder and says quietly: "Nghe đi. Đêm nay đền bên sông sẽ có tiếng." [Âm thanh]
 ```
 
 ### Clip 2: Tiếng thơ từ đền
@@ -130,7 +130,7 @@ First-person view from the rowing bench of a long wooden royal dragon boat on a 
 ```
 Video:
 ```
-[POV] [Bối cảnh] 0-5s: The viewer rows the royal dragon boat across the calm misty lake; the rower in front whispers over his shoulder: "Chèo cho êm, vua đang ngắm hồ đấy." 5-10s: Suddenly the boat jolts and slows by itself; bubbles rise around the hull, the rowers freeze, the emperor grips his sword. [Âm thanh]
+[POV] [Bối cảnh] 0-5s: The viewer rows the royal dragon boat across the calm misty lake; the rower in front whispers over his shoulder: "Chèo êm thôi, vua mà say sóng là cả đội đi đắp đê!" 5-10s: Suddenly the boat jolts and slows by itself; bubbles rise around the hull, the rowers freeze, the emperor grips his sword. [Âm thanh]
 ```
 
 ### Clip 2: Rùa vàng
@@ -178,7 +178,7 @@ First-person view pushing a heavily loaded bicycle up a steep muddy mountain pas
 ```
 Video:
 ```
-[POV] [Bối cảnh] 0-5s: The viewer strains to push a bicycle piled high with rice sacks up a steep muddy slope, the wheels slipping; Chị Hoa, a young porter with a leaf-covered conical hat, pushes from behind and shouts: "Xe chở mấy tạ đấy, đừng có buông tay!" 5-10s: They reach the top of the pass, gasping, and see a long line of loaded bicycles winding down through the jungle valley. [Âm thanh]
+[POV] [Bối cảnh] 0-5s: The viewer strains to push a bicycle piled high with rice sacks up a steep muddy slope, the wheels slipping; Chị Hoa, a young porter with a leaf-covered conical hat, pushes from behind and shouts: "Xe chở mấy tạ đấy! Buông tay là chị cho đi bộ về Thanh Hóa!" 5-10s: They reach the top of the pass, gasping, and see a long line of loaded bicycles winding down through the jungle valley. [Âm thanh]
 ```
 
 ### Clip 2: Đêm kéo pháo
@@ -226,7 +226,7 @@ First-person view in the dark early morning on a Hanoi street in 1985, the viewe
 ```
 Video:
 ```
-[POV] [Bối cảnh] 0-5s: Dark drizzly morning, the viewer places a brick at the end of a long line of bricks, baskets and sandals in front of the closed shop; an old man in a wool hat says sternly: "Gạch của tôi đứng trước gạch của cháu đấy nhé!" 5-10s: The viewer squats down next to the brick, hugging their padded jacket, breath steaming, staring at the iron shutters. [Âm thanh]
+[POV] [Bối cảnh] 0-5s: Dark drizzly morning, the viewer places a brick at the end of a long line of bricks, baskets and sandals in front of the closed shop; an old man in a wool hat says sternly: "Gạch của tôi đứng trước gạch của cháu đấy nhé!" 5-10s: The viewer asks: "Gạch của bác xếp từ tối qua ạ?" The old man scoffs proudly: "Từ hôm kia! Gạch này có thâm niên!" [Âm thanh]
 ```
 
 ### Clip 2: Cửa hàng mở
@@ -236,7 +236,7 @@ First-person view squeezed in a crowded line at the wooden counter of a 1985 Han
 ```
 Video:
 ```
-[POV] [Bối cảnh] 0-5s: The shutters clang open, the crowd pushes forward; the stern clerk in a white apron slams her hand on the counter and shouts: "Hết thịt rồi! Ai còn phiếu thì đổi sang đậu phụ!" 5-10s: Groans from the crowd; the viewer is pushed against the counter, holding out the ration coupon with both hands. [Âm thanh]
+[POV] [Bối cảnh] 0-5s: The shutters clang open, the crowd pushes forward; the stern clerk in a white apron slams her hand on the counter and shouts: "Hết thịt rồi! Ai còn phiếu thì đổi sang đậu phụ!" 5-10s: Groans from the crowd; a man in the back shouts: "Thế đậu phụ có tính là thịt chay không chị?" The clerk glares at him in silence; the viewer, squeezed against the counter, holds out the coupon with both hands. [Âm thanh]
 ```
 
 ### Clip 3: Về nhà
@@ -246,7 +246,7 @@ First-person view walking into a small 1985 Hanoi kitchen, the viewer's hands ho
 ```
 Video:
 ```
-[POV] [Bối cảnh] 0-5s: The viewer walks into a tiny kitchen holding two blocks of tofu on a banana leaf; the mother by the coal stove lights up and says: "Hai bìa đậu à? Thế là Tết nhà mình có đậu rán rồi!" 5-10s: The younger brother runs in cheering; the viewer looks at the little peach blossom branch in a jar and smiles. [Âm thanh]
+[POV] [Bối cảnh] 0-5s: The viewer walks into a tiny kitchen holding two blocks of tofu on a banana leaf; the mother by the coal stove lights up and says: "Hai bìa đậu à? Giỏi! Tết này nhà mình có đậu rán, đậu sốt, đậu luộc!" 5-10s: The younger brother runs in cheering; the viewer looks at the little peach blossom branch in a jar and smiles. [Âm thanh]
 ```
 
 **Đăng TikTok:**

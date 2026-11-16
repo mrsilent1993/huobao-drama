@@ -7,6 +7,8 @@ clip: chuvanan-2.mp4 | Chiều tối · thầy về từ kinh thành
 clip: chuvanan-3.mp4 | Đêm · bài học cuối ngày
 
 sub: 1 | 0.8-4.8 | Chữ viết ngay thì người mới ngay. Viết lại.
+sub: 1 | 5.0-7.5 | Dạ... lần thứ mười hai rồi ạ.
+sub: 1 | 7.5-9.5 | Thì lần thứ mười ba.
 sub: 2 | 1.5-4.8 | Thầy ơi, sao thầy về sớm vậy?
 sub: 2 | 5.0-9.8 | Ta dâng sớ xin chém bảy kẻ nịnh thần. / Vua không nghe, thì ta về dạy các con.
 sub: 3 | 0.5-5.0 | Làm quan mà không giữ được lẽ phải / thì chẳng bằng làm thầy dạy người.

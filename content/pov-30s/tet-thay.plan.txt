@@ -7,5 +7,7 @@ clip: tetthay-2.mp4 | Nhà thầy đồ
 clip: tetthay-3.mp4 | Chữ đầu năm
 
 sub: 1 | 0.5-4.8 | Mùng một Tết cha, mùng hai Tết mẹ, mùng ba Tết thầy. Cầm gà cho cẩn thận!
+sub: 1 | 5.5-8.5 | Gà ơi! Quà của thầy mà!
 sub: 2 | 1.5-4.8 | Con kính chúc thầy năm mới mạnh khỏe ạ!
+sub: 2 | 5.0-9.0 | Gà này chắc con đuổi cả buổi / mới bắt được hả?
 sub: 3 | 1.0-4.8 | Chữ "Nhẫn". Học được chữ này thì làm gì cũng nên.

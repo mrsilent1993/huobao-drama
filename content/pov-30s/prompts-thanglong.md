@@ -45,7 +45,7 @@ First-person view on top of a half-built earthen citadel wall in 1010 Vietnam, t
 ```
 Video:
 ```
-[POV] [Bối cảnh] 0-5s: The viewer dumps a basket of soil onto the earthen wall; with a rumble, the freshly built section collapses into a cloud of dust; Ông Ba, a grumpy man about 50 with black teeth and a mole on his left cheek, throws down his rammer and shouts: "Lần thứ ba rồi đấy! Đắp sáng sụt chiều!" 5-10s: Workers sit down in the dust, exhausted, staring at the collapsed wall. [Âm thanh]
+[POV] [Bối cảnh] 0-5s: The viewer dumps a basket of soil onto the earthen wall; with a rumble, the freshly built section collapses into a cloud of dust; Ông Ba, a grumpy man about 50 with black teeth and a mole on his left cheek, throws down his rammer and shouts: "Lần thứ ba rồi đấy! Đắp sáng sụt chiều, KPI đâu mà đạt!" 5-10s: Workers sit down in the dust, exhausted; Ông Ba points at the viewer and grumbles: "Biết thế ở lại Hoa Lư, núi đá nó còn đứng yên!" [Âm thanh]
 ```
 
 ### Clip 2: Ngựa trắng
@@ -55,7 +55,7 @@ First-person view at dusk near a small ancient temple with a curved roof in 1010
 ```
 Video:
 ```
-[POV] [Bối cảnh] 0-5s: Dusk at the small temple where an official in a dark robe is praying with incense; suddenly a glowing pure white horse walks out of the temple gate; Ông Ba drops his basket and whispers: "Ngựa... ngựa ở đâu ra thế kia?" 5-10s: The white horse trots past the viewer and circles around the construction site, leaving clear hoofprints in the mud, then fades into the mist. [Âm thanh]
+[POV] [Bối cảnh] 0-5s: Dusk at the small temple where an official in a dark robe is praying with incense; suddenly a glowing pure white horse walks out of the temple gate; Ông Ba squints and says: "Ngựa nhà ai thả rông thế kia? ...Ơ, sao nó phát sáng?" 5-10s: The white horse trots past the viewer and circles around the construction site, leaving clear hoofprints in the mud, then fades into the mist; Ông Ba slowly hides behind the viewer. [Âm thanh]
 ```
 
 ### Clip 3: Đắp theo dấu chân ngựa
@@ -65,7 +65,7 @@ First-person view at morning in 1010 Vietnam, a line of horse hoofprints in the 
 ```
 Video:
 ```
-[POV] [Bối cảnh] 0-5s: Morning; an official points along the curving line of hoofprints and announces: "Vua truyền: cứ theo dấu chân ngựa mà đắp thành!" Workers begin ramming soil along the hoofprints. 5-10s: Weeks later, a tall finished wall stands firm; Ông Ba stamps on it hard, nothing moves, and he says grudgingly: "Ừ... thế thì được." [Âm thanh]
+[POV] [Bối cảnh] 0-5s: Morning; an official points along the curving line of hoofprints and announces: "Vua truyền: cứ theo dấu chân ngựa mà đắp thành!" Workers begin ramming soil along the hoofprints. 5-10s: Weeks later, a tall finished wall stands firm; Ông Ba stamps on it hard, nothing moves, and he says grudgingly: "Ừ... thế thì được. Thế công đắp ba lần trước ai trả?" [Âm thanh]
 ```
 
 **Đăng TikTok:**
@@ -103,7 +103,7 @@ First-person view standing on bamboo scaffolding above a lotus pond in 1049 Viet
 ```
 Video:
 ```
-[POV] [Bối cảnh] 0-5s: The viewer balances on bamboo scaffolding, fitting wooden beams onto the top of a single stone pillar in the middle of the pond; from the bank, very old Ông Ba with a cane and a mole on his cheek shouts: "Cả cái chùa đặt trên một cái cột? Đổ thì sao hả cháu!" 5-10s: The viewer hammers a wooden peg in and calls back: "Ông yên tâm, mộng của vua chắc lắm ạ!" Ông Ba shakes his head and mutters. [Âm thanh]
+[POV] [Bối cảnh] 0-5s: The viewer balances on bamboo scaffolding, fitting wooden beams onto the top of a single stone pillar in the middle of the pond; from the bank, very old Ông Ba with a cane and a mole on his cheek shouts: "Cả cái chùa đặt trên một cái cột? Mai vua mơ thấy cái nồi thì xây nhà hình cái nồi à?" 5-10s: The viewer looks around nervously and hisses back: "Ông nói nhỏ thôi! Vua nghe thấy là cả nhà mình lại đi đắp thành!" Ông Ba instantly shuts his mouth. [Âm thanh]
 ```
 
 ### Clip 3: Chùa hoàn thành
@@ -113,7 +113,7 @@ First-person view standing at the edge of a lotus pond in 1049 Vietnam, a small 
 ```
 Video:
 ```
-[POV] [Bối cảnh] 0-5s: The finished small wooden pagoda shaped like a lotus blossom sits gracefully on top of one stone pillar in the middle of the pond; monks chant and incense smoke drifts over the lotus flowers. 5-10s: Ông Ba stands next to the viewer leaning on his cane, stares for a long time, and finally says quietly: "Ừ... đẹp thật. Đẹp như bông sen nở." [Âm thanh]
+[POV] [Bối cảnh] 0-5s: The finished small wooden pagoda shaped like a lotus blossom sits gracefully on top of one stone pillar in the middle of the pond; monks chant and incense smoke drifts over the lotus flowers. 5-10s: Ông Ba stands next to the viewer leaning on his cane, stares for a long time, and finally says quietly: "Ừ... đẹp thật. Thôi, cho vua mơ thêm vài lần nữa cũng được." [Âm thanh]
 ```
 
 **Đăng TikTok:**
@@ -141,7 +141,7 @@ First-person view sitting at a low wooden desk with a brush and scrolls in a mod
 ```
 Video:
 ```
-[POV] [Bối cảnh] 0-5s: The viewer yawns over a scroll by an oil lamp; the grumpy father with a mole on his cheek taps the desk with a bamboo stick and says: "Cụ nhà mình đắp thành, ông nhà mình xây chùa, đến đời mày phải đi thi cho tao!" 5-10s: The viewer sighs and dips the brush into ink; the father sits down beside him and keeps watching, arms crossed. [Âm thanh]
+[POV] [Bối cảnh] 0-5s: The viewer yawns over a scroll by an oil lamp; the grumpy father with a mole on his cheek taps the desk with a bamboo stick and says: "Cụ đắp thành, ông xây chùa, đến đời mày phải đi thi! Nhà này khuân vác đủ rồi!" 5-10s: The viewer sighs and dips the brush into ink; the father sits down beside him and keeps watching, arms crossed. [Âm thanh]
 ```
 
 ### Clip 2: Ngày thi
@@ -151,7 +151,7 @@ First-person view kneeling at a low desk in the courtyard of the Temple of Liter
 ```
 Video:
 ```
-[POV] [Bối cảnh] 0-5s: The exam courtyard at the Temple of Literature; an official in a red robe announces: "Khoa thi đầu tiên của nước ta, bắt đầu!" Hundreds of candidates bend over their papers. 5-10s: The viewer glances at the next candidate, a calm young man writing very fast and beautifully, then back at his own nearly empty page and swallows hard. [Âm thanh]
+[POV] [Bối cảnh] 0-5s: The exam courtyard at the Temple of Literature; an official in a red robe announces: "Khoa thi đầu tiên của nước ta, bắt đầu!" Hundreds of candidates bend over their papers. 5-10s: The viewer leans toward the next candidate, a calm young man writing very fast and beautifully, and whispers: "Anh ơi, câu ba viết gì thế?" The young man calmly slides his sleeve over his paper without looking up. [Âm thanh]
 ```
 
 ### Clip 3: Yết bảng
@@ -161,7 +161,7 @@ First-person view in a crowd in front of a large results board at the Temple of 
 ```
 Video:
 ```
-[POV] [Bối cảnh] 0-5s: An official reads aloud in front of the results board: "Đỗ đầu khoa thi: Lê Văn Thịnh!" The crowd cheers for the calm young man from the exam. 5-10s: The grumpy father with the mole finds the viewer in the crowd, looks at him for a long moment, then sighs and says: "Thôi... ba năm nữa thi lại. Nhà mình kiên nhẫn lắm." [Âm thanh]
+[POV] [Bối cảnh] 0-5s: An official reads aloud in front of the results board: "Đỗ đầu khoa thi: Lê Văn Thịnh!" The crowd cheers for the calm young man from the exam. 5-10s: The grumpy father with the mole finds the viewer in the crowd, looks at him for a long moment, then sighs and says: "Thôi... ba năm nữa thi lại. Nhà mình đắp thành ba lần còn được, thi ba lần sợ gì!" [Âm thanh]
 ```
 
 **Đăng TikTok:**
@@ -209,7 +209,7 @@ First-person view at the edge of a muddy rice field outside an ancient city in 1
 ```
 Video:
 ```
-[POV] [Bối cảnh] 0-5s: The gigantic bell lies abandoned on its side in a muddy rice field; several turtles crawl slowly inside it; a farmer passing by laughs: "Chuông của vua mà thành nhà cho rùa ở!" 5-10s: Ông Ba sits on the dike with his chin in his hands, staring at the turtles, and grumbles: "Thôi được. Ít ra cũng có người dùng." [Âm thanh]
+[POV] [Bối cảnh] 0-5s: The gigantic bell lies abandoned on its side in a muddy rice field; several turtles crawl slowly inside it; a farmer passing by laughs: "Chuông của vua giờ thành chung cư cho rùa!" 5-10s: Ông Ba sits on the dike with his chin in his hands, staring at the turtles, and grumbles: "Thôi... ít ra cũng có khách thuê." [Âm thanh]
 ```
 
 **Đăng TikTok:**
@@ -236,7 +236,7 @@ First-person view in front of an old wooden house beside a big banyan tree in 13
 ```
 Video:
 ```
-[POV] [Bối cảnh] 1397. 0-5s: A town crier nails a notice to the banyan tree and announces: "Triều đình dời đô vào Thanh Hóa! Từ nay Thăng Long gọi là Đông Đô!" 5-10s: Ông Ba of this generation, on a low stool, frowns and grumbles: "Cụ tổ nhà tôi theo vua ra đây gọi là Thăng Long, giờ lại đổi!" [Âm thanh]
+[POV] [Bối cảnh] 1397. 0-5s: A town crier nails a notice to the banyan tree and announces: "Triều đình dời đô vào Thanh Hóa! Từ nay Thăng Long gọi là Đông Đô!" 5-10s: Ông Ba of this generation, on a low stool, frowns and grumbles: "Cụ tổ tôi khiêng cả con gà ra đây gọi là Thăng Long, giờ lại đổi!" [Âm thanh]
 ```
 
 ### Clip 2: Năm 1430
@@ -256,7 +256,7 @@ First-person view in front of the same old house, now with a tiled roof, beside 
 ```
 Video:
 ```
-[POV] [Bối cảnh] 1831. 0-5s: A Nguyễn official in a blue robe reads a decree beside the huge banyan tree: "Vua Minh Mạng lập tỉnh, đặt tên là Hà Nội!" 5-10s: The Ông Ba of this generation, same face and mole, now in a long tunic and turban, looks straight at the camera and says: "Hà Nội à? Ừ... cái tên này nghe được. Lần này đừng đổi nữa nhé!" [Âm thanh]
+[POV] [Bối cảnh] 1831. 0-5s: A Nguyễn official in a blue robe reads a decree beside the huge banyan tree: "Vua Minh Mạng lập tỉnh, đặt tên là Hà Nội!" 5-10s: The Ông Ba of this generation, same face and mole, now in a long tunic and turban, looks straight at the camera and says: "Hà Nội à? Ừ, nghe được. Đổi nữa là tôi về lại Hoa Lư đấy!" [Âm thanh]
 ```
 
 **Đăng TikTok:**

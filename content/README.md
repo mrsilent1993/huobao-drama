@@ -27,6 +27,20 @@ Với video dài hơn 30 giây, phải có lý do để người xem ở lại:
 
 Ghi chú cho TikTok: video từ 30 giây trở lên đều được tính là nội dung dài. Tỉ lệ xem hết vẫn là yếu tố quan trọng nhất, nên một video 30 giây chặt chẽ luôn tốt hơn một video 50 giây bị loãng.
 
+## Chất hài
+
+Mỗi tập cần ít nhất **2 điểm cười**, và câu cuối phải là một câu chốt bất ngờ. Các kỹ thuật dùng được:
+
+- **Chen từ hiện đại vào bối cảnh xưa:** KPI, chung cư, "mốt mới", "khách thuê"…
+- **Gọi lại chi tiết cũ:** con gà của ông Ba, chuyện đắp thành ba lần, nhà ông Ba đời nào cũng cằn nhằn.
+- **Phản ứng tỉnh bơ trước chuyện lớn:** "Đông thế thì nấu cơm chắc mệt lắm."
+- **Bào chữa vụng về khi bị bắt quả tang:** "Dạ, đây là bùa may mắn ạ!", "Đây là… mốt mới!"
+- **Đối đáp chốt hạ:** "Lần thứ mười hai rồi ạ." / "Thì lần thứ mười ba."
+
+Giới hạn:
+- Không đùa cợt anh hùng dân tộc, lời thề hay thơ thiêng (Hai Bà Trưng, "Nam quốc sơn hà", Điện Biên). Tiếng cười đặt vào nhân vật phụ.
+- Không lấy dân tộc thiểu số hay cảnh nghèo khó làm trò cười.
+
 ## Quy ước cố định
 
 - Khung dọc 9:16. Giữ chủ thể ở giữa khung. Không để Muse tự chèn chữ.

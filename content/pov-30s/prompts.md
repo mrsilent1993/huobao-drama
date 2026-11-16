@@ -121,7 +121,7 @@ First-person view pushing aside bushes behind a citadel, year 40 AD, revealing a
 ```
 Video:
 ```
-[POV] [Bối cảnh] 0-5s: The viewer pushes aside bushes behind the citadel and finds a fat Han official hastily shaving off his long beard with a knife, a peasant shirt half pulled over his red robe; he freezes and says nervously: "Ta... ta chỉ là dân thường thôi!" 5-10s: He drops the knife, hitches up his robe and sprints away into the forest; the viewer looks down at his fallen official seal on the ground. [Âm thanh]
+[POV] [Bối cảnh] 0-5s: The viewer pushes aside bushes behind the citadel and finds a fat Han official hastily shaving off his long beard with a knife, a peasant shirt half pulled over his red robe; he freezes and says nervously: "Ta... ta chỉ là dân thường thôi!" 5-10s: The viewer points at his half-shaved beard and red robe and says: "Dân thường gì mà râu cạo có một nửa?" He answers: "Đây là... mốt mới!" then hitches up his robe and sprints into the forest, dropping his official seal. [Âm thanh]
 ```
 
 **Đăng TikTok:**
@@ -149,7 +149,7 @@ First-person view in a crowd of scholar candidates in dark áo the and black tur
 ```
 Video:
 ```
-[POV] [Bối cảnh] 0-5s: Dawn at the crowded gate; a mandarin in a blue robe shouts through a tin megaphone: "Sĩ tử xếp hàng khám xét! Ai giấu sách vào trường thì đuổi ra!" A guard pulls a tiny cheat sheet from a candidate's turban next to the viewer. 5-10s: Parasols part as a French official and a European lady in a long trailing skirt walk past, the skirt sweeping the dirt; the candidates stare. [Âm thanh]
+[POV] [Bối cảnh] 0-5s: Dawn at the crowded gate; a mandarin in a blue robe shouts through a tin megaphone: "Sĩ tử xếp hàng khám xét! Ai giấu sách vào trường thì đuổi ra!" A guard pulls a tiny cheat sheet from a candidate's turban next to the viewer; the candidate says with a straight face: "Dạ, đây là bùa may mắn ạ!" 5-10s: Parasols part as a French official and a European lady in a long trailing skirt walk past, the skirt sweeping the dirt; the candidates stare. [Âm thanh]
 ```
 
 ### Clip 2: Trong trường thi
@@ -159,7 +159,7 @@ First-person view sitting on a bamboo cot inside a small cloth tent in a huge fi
 ```
 Video:
 ```
-[POV] [Bối cảnh] 0-5s: Inside a small cloth tent among hundreds of tents; the viewer writes carefully with a brush; in the next tent the old scholar with a white beard leans over and whispers: "Viết chậm thôi cháu, mực nhòe là hỏng cả khoa." 5-10s: Rain starts drumming on the tent, water drips onto the paper, the viewer frantically covers the page with their sleeve. [Âm thanh]
+[POV] [Bối cảnh] 0-5s: Inside a small cloth tent among hundreds of tents; the viewer writes carefully with a brush; in the next tent the old scholar with a white beard leans over and whispers: "Viết chậm thôi cháu, mực nhòe là hỏng cả khoa." 5-10s: Rain starts drumming on the tent, water drips onto the paper, the viewer stares at the ink running across the page and groans: "Thôi xong, bài văn thành tranh thủy mặc rồi!" [Âm thanh]
 ```
 
 ### Clip 3: Ngày yết bảng
@@ -169,7 +169,7 @@ First-person view standing in a crowd in front of a large results board with nam
 ```
 Video:
 ```
-[POV] [Bối cảnh] 0-5s: In front of the results board, the viewer's finger runs down the list of names and stops at the bottom, nothing; the old white-bearded scholar beside him pats his shoulder and says calmly: "Năm nay là lần thứ chín của ông đấy, cháu ạ. Ba năm nữa ta lại đi." 5-10s: The old man shoulders his bamboo cot and walks off whistling; the viewer looks at their own ink-stained hands and laughs. [Âm thanh]
+[POV] [Bối cảnh] 0-5s: In front of the results board, the viewer's finger runs down the list of names and stops at the bottom, nothing; the old white-bearded scholar beside him pats his shoulder and says calmly: "Lần thứ chín của ông rồi, cháu ạ. Ông thi đến khi nào trường thi chán mặt ông thì thôi!" 5-10s: The old man shoulders his bamboo cot and walks off whistling; the viewer looks at their own ink-stained hands and laughs. [Âm thanh]
 ```
 
 **Đăng TikTok:**

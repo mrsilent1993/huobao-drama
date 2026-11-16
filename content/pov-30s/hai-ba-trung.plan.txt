@@ -9,3 +9,5 @@ clip: trung-3.mp4 | Sau thành Luy Lâu
 sub: 1 | 0.5-4.8 | Một xin rửa sạch nước thù, hai xin dựng lại nghiệp xưa họ Hùng!
 sub: 2 | 0.5-4.5 | Phá cổng! Tiến lên!
 sub: 3 | 0.8-4.8 | Ta... ta chỉ là dân thường thôi!
+sub: 3 | 5.0-7.5 | Dân thường gì mà râu cạo có một nửa?
+sub: 3 | 7.5-9.5 | Đây là... mốt mới!

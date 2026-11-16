@@ -36,7 +36,7 @@ First-person view sitting on a straw mat at a low wooden desk in a 14th-century 
 ```
 Video:
 ```
-[POV] [Bối cảnh] 0-5s: The viewer writes characters with a brush; the teacher with a long grey beard stops beside the desk, looks at the page and says firmly: "Chữ viết ngay thì người mới ngay. Viết lại." 5-10s: The viewer carefully rewrites the character; the teacher gives a small nod and walks on; the students around sit up straighter. [Âm thanh]
+[POV] [Bối cảnh] 0-5s: The viewer writes characters with a brush; the teacher with a long grey beard stops beside the desk, looks at the page and says firmly: "Chữ viết ngay thì người mới ngay. Viết lại." 5-10s: The viewer sighs quietly: "Dạ... lần thứ mười hai rồi ạ." The teacher, without turning around, says: "Thì lần thứ mười ba." The students around hide their smiles. [Âm thanh]
 ```
 
 ### Clip 2: Thầy về từ kinh thành
@@ -83,7 +83,7 @@ First-person view walking along a village path on Lunar New Year morning, early 
 ```
 Video:
 ```
-[POV] [Bối cảnh] 0-5s: Festive morning, firecracker paper on the ground; the viewer walks behind their father, carrying a rooster that keeps flapping; the father turns and says: "Mùng một Tết cha, mùng hai Tết mẹ, mùng ba Tết thầy. Cầm gà cho cẩn thận!" 5-10s: The rooster escapes, the viewer chases it around the path and catches it again, panting. [Âm thanh]
+[POV] [Bối cảnh] 0-5s: Festive morning, firecracker paper on the ground; the viewer walks behind their father, carrying a rooster that keeps flapping; the father turns and says: "Mùng một Tết cha, mùng hai Tết mẹ, mùng ba Tết thầy. Cầm gà cho cẩn thận!" 5-10s: The rooster escapes and the viewer chases it around the path, shouting: "Gà ơi! Quà của thầy mà!" then dives and catches it, covered in dust. [Âm thanh]
 ```
 
 ### Clip 2: Nhà thầy đồ
@@ -93,7 +93,7 @@ First-person view at the door of a humble thatched house with red couplets, earl
 ```
 Video:
 ```
-[POV] [Bối cảnh] 0-5s: The thin old teacher with a white beard opens the door and smiles; the father bows and the viewer presents the rooster and rice wine with both hands, saying: "Con kính chúc thầy năm mới mạnh khỏe ạ!" 5-10s: The teacher laughs warmly, accepts the gift and gently pats the viewer's head. [Âm thanh]
+[POV] [Bối cảnh] 0-5s: The thin old teacher with a white beard opens the door and smiles; the father bows and the viewer presents the rooster and rice wine with both hands, saying: "Con kính chúc thầy năm mới mạnh khỏe ạ!" 5-10s: The teacher looks at the dusty rooster and the viewer's dusty clothes, laughs warmly and says: "Gà này chắc con đuổi cả buổi mới bắt được hả?" then gently pats the viewer's head. [Âm thanh]
 ```
 
 ### Clip 3: Chữ đầu năm
@@ -131,7 +131,7 @@ First-person view standing at a bamboo village market gate in 1945 northern Viet
 ```
 Video:
 ```
-[POV] [Bối cảnh] 0-5s: At the bamboo market gate, the viewer points at a wooden board with big letters; Cụ Tám, an old woman with black teeth carrying vegetable baskets, squints and grumbles: "Già rồi còn bắt đọc chữ mới cho vào chợ à?" 5-10s: The viewer smiles and says: "Cụ đọc được một chữ thôi là con cho qua." She stares hard at the board, lips moving. [Âm thanh]
+[POV] [Bối cảnh] 0-5s: At the bamboo market gate, the viewer points at a wooden board with big letters; Cụ Tám, an old woman with black teeth carrying vegetable baskets, squints and grumbles: "Già rồi còn bắt đọc chữ mới cho vào chợ à?" 5-10s: The viewer smiles and says: "Cụ đọc được một chữ thôi là con cho qua." She stares hard at the board, then shouts triumphantly: "Chữ O! ...Thế giờ tôi vào chợ được chưa?" [Âm thanh]
 ```
 
 ### Clip 2: Lớp học ban đêm
@@ -179,7 +179,7 @@ First-person view sitting at a wooden school desk in a 2005 Vietnamese classroom
 ```
 Video:
 ```
-[POV] [Bối cảnh] 0-5s: Break time, the viewer counts crumpled small banknotes into a plastic bag while classmates in red scarves crowd around; the class monitor whispers urgently: "Mỗi đứa năm nghìn, đứa nào chưa nộp thì nộp đi, mai mua hoa tặng cô!" 5-10s: A boy digs through his pockets and hands over a pile of coins; everyone laughs. [Âm thanh]
+[POV] [Bối cảnh] 0-5s: Break time, the viewer counts crumpled small banknotes into a plastic bag while classmates in red scarves crowd around; the class monitor whispers urgently: "Mỗi đứa năm nghìn, đứa nào chưa nộp thì nộp đi, mai mua hoa tặng cô!" 5-10s: A boy pours a pile of coins on the desk and says proudly: "Con nhịn ăn xôi ba hôm đấy!" Everyone laughs. [Âm thanh]
 ```
 
 ### Clip 2: Sáng 20/11
@@ -247,7 +247,7 @@ First-person view in a mountain classroom, the viewer's small hands holding out 
 ```
 Video:
 ```
-[POV] [Bối cảnh] 0-5s: The children line up shyly; the viewer holds out a bunch of wild flowers and two eggs wrapped in a leaf and says: "Thầy ơi, quà 20/11 của chúng con. Mẹ con bảo thầy ăn cho khỏe." 5-10s: The young teacher kneels down, takes the gifts, and turns away for a moment to wipe his eyes; then he hugs the children, smiling. [Âm thanh]
+[POV] [Bối cảnh] 0-5s: The children line up shyly; the viewer holds out a bunch of wild flowers and two eggs wrapped in a leaf and says: "Thầy ơi, quà 20/11 của chúng con. Trứng gà nhà con mới đẻ, còn ấm đấy ạ!" 5-10s: The young teacher kneels down, takes the gifts, and turns away for a moment to wipe his eyes; then he hugs the children, smiling. [Âm thanh]
 ```
 
 **Đăng TikTok:**
