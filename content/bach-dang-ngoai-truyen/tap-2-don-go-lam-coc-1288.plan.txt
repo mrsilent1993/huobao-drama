@@ -1,0 +1,21 @@
+# Dựng: python3 ../tools/tiktok.py tap-2-don-go-lam-coc-1288.plan.txt tap-2-don-go-lam-coc-1288.mp4
+hook: POV: Bạn đốn gỗ làm cọc / cho Trần Hưng Đạo năm 1288
+end: Giặc có vào đúng giờ nước rút không? / Follow để xem mai bạn là lính Nguyên / trên sông Bạch Đằng →
+
+clip: ngt2-1.mp4 | Rừng lim · đầu xuân 1288
+clip: ngt2-2.mp4 | Đường ra sông
+clip: ngt2-3.mp4 | Bờ sông Bạch Đằng · chiều tối
+clip: ngt2-4.mp4 | Nửa đêm · nước ròng
+clip: ngt2-5.mp4 | Rạng sáng · triều lên
+
+sub: 1 | 0.5-4.8 | Mỗi làng nộp một trăm cây lim!
+sub: 1 | 5.0-9.8 | Gỗ lim cứng như đá! / Cùn ba lưỡi cưa mới đổ được một cây!
+sub: 2 | 0.5-4.8 | Cây này nặng hơn cả con trâu!
+sub: 2 | 5.0-9.5 | Con trâu cũng đang nghĩ thế về mày đấy.
+sub: 3 | 0.5-4.8 | Mai nước rút nhanh nhất vào giữa trưa. / Giặc vào lúc sáng thì trưa là mắc.
+sub: 3 | 5.0-7.0 | Ông biết cả giờ nước rút ạ?
+sub: 3 | 7.0-9.8 | Bảy mươi năm ăn ở / trên con sông này, cháu ạ.
+sub: 4 | 0.5-4.8 | Không đốt đuốc, không nói to. / Giặc có tai mắt.
+sub: 4 | 5.0-9.8 | Anh Tư ơi... / em cắm luôn cả em xuống rồi!
+sub: 5 | 0.5-4.8 | Đẹp chưa? / Nhìn như chưa có chuyện gì xảy ra.
+sub: 5 | 5.0-9.8 | Ba ngày đốn gỗ, một đêm cắm cọc... / giờ thì ngồi chờ.

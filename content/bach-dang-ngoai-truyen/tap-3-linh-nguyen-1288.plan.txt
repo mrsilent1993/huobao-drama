@@ -1,0 +1,22 @@
+# Dựng: python3 ../tools/tiktok.py tap-3-linh-nguyen-1288.plan.txt tap-3-linh-nguyen-1288.mp4
+hook: POV: Bạn là lính Nguyên / trên sông Bạch Đằng năm 1288
+end: Ô Mã Nhi về nước bằng cách nào? / Follow để xem tập sau →
+
+clip: ngt3-1.mp4 | Thủy quân Nguyên · năm 1288
+clip: ngt3-2.mp4 | Sông Bạch Đằng · buổi sáng
+clip: ngt3-3.mp4 | Gần trưa
+clip: ngt3-4.mp4 | Giữa trưa · triều rút
+clip: ngt3-5.mp4 | Ít phút sau
+clip: ngt3-6.mp4 | Chiều hôm ấy
+
+sub: 1 | 0.5-4.8 | Thuyền ta to gấp mười thuyền Nam, sợ gì!
+sub: 1 | 5.0-7.5 | Nghe nói ba trăm năm trước, / ở đúng sông này có người mắc cọc...
+sub: 1 | 7.5-9.8 | Chuyện cổ tích của bọn Nam thôi.
+sub: 2 | 0.5-4.8 | Dám chọc ta à? Đuổi theo!
+sub: 2 | 5.0-9.8 | Tướng quân ơi... / con sông này có tiền sử không tốt lắm ạ.
+sub: 3 | 5.0-9.8 | Sao dân hai bên bờ / ngồi xem như xem hát thế kia?
+sub: 4 | 5.0-9.5 | ...Hóa ra cổ tích là thật.
+sub: 5 | 0.5-4.8 | Bình tĩnh! Quay thuyền lại!
+sub: 5 | 5.0-9.5 | Thuyền to quá, không quay được ạ!
+sub: 6 | 0.5-4.8 | Lên đây! Cọc nhà tôi đấy, ba đời rồi!
+sub: 6 | 5.0-9.5 | Lần sau tôi tin chuyện cổ tích...

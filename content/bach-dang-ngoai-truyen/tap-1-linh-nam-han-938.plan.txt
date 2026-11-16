@@ -1,0 +1,19 @@
+# Dựng: python3 ../tools/tiktok.py tap-1-linh-nam-han-938.plan.txt tap-1-linh-nam-han-938.mp4
+hook: POV: Bạn là lính giặc / ở sông Bạch Đằng năm 938
+end: Hoằng Tháo có thoát được không? / Follow để xem mai bạn đốn gỗ / làm cọc cho Trần Hưng Đạo →
+
+clip: ngt1-1.mp4 | Trên biển · năm 938
+clip: ngt1-2.mp4 | Gần cửa sông Bạch Đằng
+clip: ngt1-3.mp4 | Cửa sông · triều lên
+clip: ngt1-4.mp4 | Giữa trưa · triều rút
+clip: ngt1-5.mp4 | Chiều hôm ấy
+
+sub: 1 | 0.5-4.8 | Kiều Công Tiễn mời ta sang! / Giao Châu coi như nằm trong túi!
+sub: 1 | 5.0-9.8 | Được người ta mời sang đánh nhà người ta... / nghe cứ sai sai.
+sub: 2 | 0.5-4.8 | Bẩm... Kiều Công Tiễn / bị Ngô Quyền giết rồi ạ!
+sub: 2 | 5.0-7.0 | Thì ta tự vào!
+sub: 2 | 7.0-9.8 | Người mời mình mất rồi / mà vẫn đến ăn cỗ à?
+sub: 3 | 0.5-4.8 | Quân Nam yếu thế này à! Đuổi theo!
+sub: 3 | 5.0-9.8 | Ơ... dưới nước / có cái gì nhọn nhọn...
+sub: 4 | 5.0-9.5 | Đã bảo có cái gì nhọn nhọn mà!
+sub: 5 | 0.5-4.8 | Cọc em cắm đấy! / Lần sau sang nhà người ta nhớ xem lịch nước!
