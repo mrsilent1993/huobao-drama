@@ -1,0 +1,12 @@
+# Tập 11: Bình dân học vụ 1945. Dựng: python3 ../tools/tiktok.py binh-dan-hoc-vu-1945.plan.txt binh-dan-hoc-vu-1945.mp4
+hook: POV: Bạn là thầy giáo / Bình dân học vụ năm 1945
+end: Năm 1945, phong trào Bình dân học vụ / giúp hàng triệu người biết chữ.
+
+clip: binhdan-1.mp4 | Cổng chợ làng · 1945
+clip: binhdan-2.mp4 | Lớp học ban đêm
+clip: binhdan-3.mp4 | Vài tháng sau
+
+sub: 1 | 0.5-4.8 | Già rồi còn bắt đọc chữ mới cho vào chợ à?
+sub: 1 | 5.0-8.5 | Cụ đọc được một chữ thôi là con cho qua.
+sub: 2 | 1.0-9.5 | O tròn như quả trứng gà, / Ô thì đội mũ, Ơ thì thêm râu!
+sub: 3 | 2.0-5.0 | Con ơi... mẹ biết chữ rồi.

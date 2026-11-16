@@ -1,0 +1,12 @@
+# Tập 12: 20/11 của học sinh 9x. Dựng: python3 ../tools/tiktok.py hoc-sinh-9x-2005.plan.txt hoc-sinh-9x-2005.mp4
+hook: POV: Ngày 20/11 / của học sinh 9x
+end: Gửi tất cả thầy cô đã từng dạy chúng ta: / Chúc mừng Ngày Nhà giáo Việt Nam 20/11!
+
+clip: hs9x-1.mp4 | 19/11/2005 · giờ ra chơi
+clip: hs9x-2.mp4 | Sáng 20/11
+clip: hs9x-3.mp4 | Hoa điểm tốt
+
+sub: 1 | 0.8-4.8 | Mỗi đứa năm nghìn, đứa nào chưa nộp thì nộp đi, mai mua hoa tặng cô!
+sub: 2 | 0.8-4.5 | Chúng em chúc cô 20/11 vui vẻ ạ!
+sub: 2 | 6.0-9.8 | Lại tiêu tiền ăn sáng vào đây phải không?
+sub: 3 | 1.0-5.0 | Ba mươi hai điểm mười... / các con lấy từ bao giờ thế này?

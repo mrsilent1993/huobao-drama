@@ -1,0 +1,11 @@
+# Tập 13: thầy giáo cắm bản. Dựng: python3 ../tools/tiktok.py thay-giao-cam-ban.plan.txt thay-giao-cam-ban.mp4
+hook: POV: Bạn là học trò / của thầy giáo cắm bản
+end: Cảm ơn những thầy cô đã mang con chữ lên núi. / Chúc mừng Ngày Nhà giáo Việt Nam 20/11!
+
+clip: camban-1.mp4 | 6 giờ sáng · suối đầu bản
+clip: camban-2.mp4 | 12 giờ trưa · lớp học trên đồi
+clip: camban-3.mp4 | Sáng 20/11
+
+sub: 1 | 0.8-4.8 | Nước lên rồi, để thầy cõng qua.
+sub: 2 | 0.5-4.8 | Ăn no rồi chiều học tiếp nhé, hôm nay có rau thầy mới trồng.
+sub: 3 | 0.8-5.0 | Thầy ơi, quà 20/11 của chúng con. / Mẹ con bảo thầy ăn cho khỏe.

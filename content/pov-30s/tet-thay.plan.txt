@@ -1,0 +1,11 @@
+# Tập 10: Tết thầy. Dựng: python3 ../tools/tiktok.py tet-thay.plan.txt tet-thay.mp4
+hook: POV: Mùng ba Tết thầy / ở làng quê ngày xưa
+end: Mùng một Tết cha, mùng hai Tết mẹ, / mùng ba Tết thầy.
+
+clip: tetthay-1.mp4 | Sáng mùng ba Tết
+clip: tetthay-2.mp4 | Nhà thầy đồ
+clip: tetthay-3.mp4 | Chữ đầu năm
+
+sub: 1 | 0.5-4.8 | Mùng một Tết cha, mùng hai Tết mẹ, mùng ba Tết thầy. Cầm gà cho cẩn thận!
+sub: 2 | 1.5-4.8 | Con kính chúc thầy năm mới mạnh khỏe ạ!
+sub: 3 | 1.0-4.8 | Chữ "Nhẫn". Học được chữ này thì làm gì cũng nên.
