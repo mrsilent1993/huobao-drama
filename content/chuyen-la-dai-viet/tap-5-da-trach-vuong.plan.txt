@@ -1,0 +1,16 @@
+# Dựng: python3 ../tools/tiktok.py tap-5-da-trach-vuong.plan.txt tap-5-da-trach-vuong.mp4
+hook: POV: Bạn đánh du kích / trong đầm Dạ Trạch
+end: Móng rồng ấy giúp ông thế nào? / Follow để xem tập sau →
+
+clip: cl5-1.mp4 | Đầm Dạ Trạch · thế kỷ 6
+clip: cl5-2.mp4 | Ngày thứ mười
+clip: cl5-3.mp4 | Đêm · ra quân
+clip: cl5-4.mp4 | Trại giặc
+clip: cl5-5.mp4 | Rạng sáng
+
+sub: 1 | 0.5-4.8 | Ban ngày cấm đỏ lửa! / Khói bay lên là giặc biết chỗ!
+sub: 2 | 5.0-9.8 | Đánh giặc thì em chịu được. / Nhịn khói bếp mười ngày thì em chịu không nổi.
+sub: 3 | 0.5-4.8 | Chèo nhẹ thôi. Lau động là lộ.
+sub: 4 | 5.0-9.5 | Đầm gì mà không có đường ra thế này!
+sub: 5 | 0.5-4.8 | Cài móng rồng lên mũ, / đánh đâu thắng đó.
+sub: 5 | 5.0-9.8 | Thần ở đầm này thật à? / Thần có mang cơm nóng không?

@@ -1,0 +1,22 @@
+# Dựng: python3 ../tools/tiktok.py tap-2-tran-quoc-toan.plan.txt tap-2-tran-quoc-toan.mp4
+hook: POV: Bạn là người hầu / của Trần Quốc Toản
+end: Đội quân trẻ con ấy ra trận thế nào? / Follow để xem mai bạn cầm kim xăm / đuổi theo vua →
+
+clip: cl2-1.mp4 | Bến Bình Than · năm 1282
+clip: cl2-2.mp4 | Ít phút sau
+clip: cl2-3.mp4 | Về nhà
+clip: cl2-4.mp4 | Đêm hôm ấy
+clip: cl2-5.mp4 | Sáng hôm sau
+
+sub: 1 | 0.5-4.8 | Hầu còn nhỏ, chưa được dự bàn việc nước ạ.
+sub: 1 | 5.0-9.8 | Cậu ơi, thôi mình đứng ngoài / nghe lỏm cũng được...
+sub: 2 | 0.5-2.8 | Vua ban cho hầu quả cam.
+sub: 2 | 2.8-4.9 | Cậu ăn đi cho đỡ giận...
+sub: 2 | 5.0-9.8 | Cậu ơi... cam vua ban... nát rồi kìa...
+sub: 3 | 0.5-4.8 | Người ta bảo ta nhỏ? / Ta tự mộ quân đi đánh giặc!
+sub: 3 | 5.0-7.0 | Dạ... mộ quân lấy ai ạ?
+sub: 3 | 7.0-9.8 | Cả nhà này. Cả mày nữa!
+sub: 4 | 0.5-4.8 | Phá cường địch, báo hoàng ân. / Sáu chữ, thêu cho đẹp.
+sub: 4 | 5.0-9.8 | Chữ "địch" nhiều nét quá cậu ơi, / em thêu thành con nhện rồi!
+sub: 5 | 5.0-7.5 | Cậu mười lăm, em mười bốn, / cả đội toàn trẻ con!
+sub: 5 | 7.5-9.8 | Thì giặc càng coi thường ta!

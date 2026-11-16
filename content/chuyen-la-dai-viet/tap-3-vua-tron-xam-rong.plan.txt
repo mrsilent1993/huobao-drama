@@ -1,0 +1,17 @@
+# Dựng: python3 ../tools/tiktok.py tap-3-vua-tron-xam-rong.plan.txt tap-3-vua-tron-xam-rong.mp4
+hook: POV: Bạn là thợ xăm trong cung / và vua thì sợ kim
+end: Đời sau, vua Trần còn xăm rồng? / Follow để xem mai bạn giữ kho / nỏ thần Cổ Loa →
+
+clip: cl3-1.mp4 | Hoàng cung Thăng Long · thời Trần
+clip: cl3-2.mp4 | Ít phút sau
+clip: cl3-3.mp4 | Hành lang hoàng cung
+clip: cl3-4.mp4 | Sau bình phong
+clip: cl3-5.mp4 | Đúng lúc ấy
+
+sub: 1 | 0.5-4.8 | Gia pháp nhà ta: con cháu phải xăm rồng ở đùi, / để nhớ gốc làm nghề sông nước.
+sub: 2 | 0.5-4.8 | Mời bệ hạ ngồi, / thần xăm nhẹ tay thôi ạ.
+sub: 2 | 5.0-9.8 | Hôm nay trẫm... bận việc nước. / Mai xăm.
+sub: 3 | 0.5-4.8 | Bệ hạ ơi! / Thượng hoàng dặn phải xăm hôm nay ạ!
+sub: 4 | 0.5-4.8 | Hay là... vẽ bằng mực, / rồi khai với Thượng hoàng là xăm rồi?
+sub: 4 | 5.0-9.8 | Mực vẽ thì tắm một lần / là con rồng trôi mất ạ!
+sub: 5 | 5.0-9.5 | Thôi... đời nó khác đời ta.

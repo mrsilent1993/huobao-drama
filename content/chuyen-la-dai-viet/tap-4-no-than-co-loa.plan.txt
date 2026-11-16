@@ -1,0 +1,22 @@
+# Dựng: python3 ../tools/tiktok.py tap-4-no-than-co-loa.plan.txt tap-4-no-than-co-loa.mp4
+hook: POV: Bạn giữ kho nỏ thần / thành Cổ Loa
+end: Lông ngỗng dẫn giặc đến đâu? / Follow để xem mai bạn đánh du kích / trong đầm Dạ Trạch →
+
+clip: cl4-1.mp4 | Thành Cổ Loa · nước Âu Lạc
+clip: cl4-2.mp4 | Mấy hôm sau
+clip: cl4-3.mp4 | Nửa đêm
+clip: cl4-4.mp4 | Sáng hôm sau · cổng thành
+clip: cl4-5.mp4 | Ít lâu sau · giặc đến
+clip: cl4-6.mp4 | Trên đường chạy
+
+sub: 1 | 0.5-4.8 | Nỏ thần bắn một phát chết trăm giặc. / Canh cho kỹ, mất là mất nước!
+sub: 1 | 5.0-9.8 | Mày ngoan nhé, đừng để tao mất việc.
+sub: 2 | 0.5-4.8 | Lẫy nỏ thần làm bằng gì thế? / Cho ta cầm thử chút thôi?
+sub: 2 | 5.0-9.8 | Phò mã... hôm nay hỏi kỹ quá ạ.
+sub: 3 | 5.0-7.0 | Ta đi... dạo.
+sub: 3 | 7.0-9.8 | Đi dạo... trong kho vũ khí ạ?
+sub: 4 | 0.5-2.5 | Ta về thăm cha. / Nếu có biến, nàng chạy đường nào?
+sub: 4 | 2.5-4.9 | Thiếp sẽ rắc lông ngỗng / ở ngã ba đường làm dấu.
+sub: 4 | 5.0-9.8 | Công chúa ơi... cái này... nói to quá...
+sub: 5 | 5.0-9.5 | Nỏ thần... hết linh rồi!
+sub: 6 | 5.0-9.5 | Ai... ai rắc lông ngỗng / khắp đường thế này?!
