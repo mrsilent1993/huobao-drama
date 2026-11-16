@@ -79,7 +79,7 @@ Video:
 **Đăng TikTok:**
 ```
 Ông Ba cằn nhằn cả đường, tới nơi thì đòi ở luôn 😂 Năm 1010, vua Lý Thái Tổ dời đô từ Hoa Lư về Đại La và đặt tên là Thăng Long. Bạn có biết Chiếu dời đô khen đất này thế nào không? 👇
-#povlichsu #POV #lichsuvietnam #thanglong #hanoi1010 #lythaito #xuhuong #fyp
+#thanglongnghinnam #povlichsu #POV #lichsuvietnam #thanglong #hanoi1010 #lythaito #xuhuong #fyp
 ```
 
 ---

@@ -44,7 +44,7 @@ def layout(text, size):
     if " / " in text:
         parts = [p.strip() for p in text.split(" / ")]
         fit = min(size, int(USABLE_W / (max(len(p) for p in parts) * CHAR_W)))
-        if fit >= size * 0.8:
+        if fit >= size * 0.7:
             return parts, fit
         # dòng quá dài: không co chữ thêm nữa, tự xuống dòng từng đoạn
         size = int(size * 0.8)
@@ -159,7 +159,7 @@ def main():
                 v.append(drawtext(text, 54, SUB_Y, f"between(t,{a},{b})"))
         if i == n - 1 and plan["end"]:
             v.append(f"drawbox=x=0:y=ih*0.36:w=iw:h=ih*0.22:color=black@0.6:t=fill:enable='gte(t,{dur - 3})'")
-            v.append(drawtext(plan["end"], 60, "(h-th)*0.45", f"gte(t,{dur - 3})"))
+            v.append(drawtext(plan["end"], 52, "(h-th)*0.45", f"gte(t,{dur - 3})"))
         chain.append(",".join(v) + f",format=yuv420p[v{i}]")
         # loudnorm kéo dài đuôi âm thanh; cắt về đúng độ dài hình để không lệch tiếng
         chain.append(f"[{i}:a]aresample=48000,aformat=channel_layouts=stereo,"

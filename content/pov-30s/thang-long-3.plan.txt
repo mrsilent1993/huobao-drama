@@ -1,0 +1,13 @@
+# Thăng Long phần 3. Dựng: python3 ../tools/tiktok.py thang-long-3.plan.txt thang-long-3.mp4
+hook: Phần 3: Chùa Một Cột / năm 1049
+end: Năm 1049, Chùa Một Cột ra đời / từ giấc mộng của vua Lý Thái Tông. / Theo dõi xem phần 4 →
+
+clip: tl3-1.mp4 | Hoàng cung Thăng Long · rạng sáng 1049
+clip: tl3-2.mp4 | Hồ sen phía tây kinh thành
+clip: tl3-3.mp4 | Ngày khánh thành
+
+sub: 1 | 0.5-4.8 | Đêm qua trẫm mộng thấy Phật Bà ngồi trên tòa sen, dắt trẫm lên đài.
+sub: 1 | 5.0-9.8 | Xin bệ hạ dựng một cột đá giữa hồ, / đặt tòa sen lên trên, như trong giấc mộng.
+sub: 2 | 0.8-4.8 | Cả cái chùa đặt trên một cái cột? / Đổ thì sao hả cháu!
+sub: 2 | 5.0-8.5 | Ông yên tâm, mộng của vua chắc lắm ạ!
+sub: 3 | 5.5-9.8 | Ừ... đẹp thật. Đẹp như bông sen nở.

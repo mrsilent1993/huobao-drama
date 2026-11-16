@@ -1,0 +1,12 @@
+# Thăng Long phần 4. Dựng: python3 ../tools/tiktok.py thang-long-4.plan.txt thang-long-4.mp4
+hook: Phần 4: Khoa thi đầu tiên / năm 1075
+end: Năm 1075, Lê Văn Thịnh đỗ đầu / khoa thi đầu tiên của nước ta. / Theo dõi xem phần 5 →
+
+clip: tl4-1.mp4 | Nhà ông Ba · đời thứ 3
+clip: tl4-2.mp4 | Văn Miếu · ngày thi
+clip: tl4-3.mp4 | Ngày yết bảng
+
+sub: 1 | 0.8-5.0 | Cụ nhà mình đắp thành, ông nhà mình xây chùa, / đến đời mày phải đi thi cho tao!
+sub: 2 | 0.5-4.5 | Khoa thi đầu tiên của nước ta, bắt đầu!
+sub: 3 | 0.5-4.5 | Đỗ đầu khoa thi: Lê Văn Thịnh!
+sub: 3 | 6.0-9.8 | Thôi... ba năm nữa thi lại. Nhà mình kiên nhẫn lắm.
