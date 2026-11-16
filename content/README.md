@@ -6,7 +6,7 @@
 2. Bạn tạo ảnh bằng phần mềm ảnh, tạo video bằng Muse, đặt tên file theo hướng dẫn rồi gửi link Google Drive.
 3. Claude dựng bằng `tools/tiktok.py`: 1080×1920, 30fps, −14 LUFS, phụ đề chèn cứng, chữ nằm trong vùng an toàn, xuất kèm ảnh bìa.
 
-## Độ dài video: linh hoạt từ 30 đến 50 giây
+## Độ dài video: linh hoạt từ 30 đến 60 giây
 
 Mỗi clip Muse dài 10 giây. Số clip được chọn theo lượng nội dung cần kể, không kéo dài cho đủ thời lượng:
 
@@ -15,6 +15,7 @@ Mỗi clip Muse dài 10 giây. Số clip được chọn theo lượng nội dun
 | **30 giây** | 3 | Một tình huống, một cú chốt: truyền thuyết ngắn, mẩu hài, ký ức. Đây là mặc định. |
 | **40 giây** | 4 | Cần thêm một nhịp đẩy trước cao trào: sự kiện có diễn biến, hoặc có hai nhân vật đối đáp. |
 | **50 giây** | 5 | Câu chuyện có nhiều mốc thời gian (một ngày, nhiều đời người, nhiều năm), hoặc trận đánh có diễn biến rõ. |
+| **60 giây** | 6 | Truyền thuyết có nhiều khúc (gặp gỡ, biến cố, kết cục), xem `truyen-dai/`. |
 
 Nhịp chung:
 - **Clip 1** dựng tình huống. Phải có chuyển động ngay giây 0, vì chữ móc câu chỉ hiện trong 2,5 giây đầu.

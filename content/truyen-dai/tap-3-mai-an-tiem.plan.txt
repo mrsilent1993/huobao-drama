@@ -1,0 +1,23 @@
+# Dựng: python3 ../tools/tiktok.py tap-3-mai-an-tiem.plan.txt tap-3-mai-an-tiem.mp4
+hook: POV: Bạn theo Mai An Tiêm / ra đảo hoang
+end: Về đất liền, ông có bớt nói không? / Follow để xem mai bạn khuân đá / giúp trạng cân voi →
+
+clip: mat-1.mp4 | Hoàng cung · đời Hùng Vương
+clip: mat-2.mp4 | Đảo hoang ngoài biển
+clip: mat-3.mp4 | Vài tháng sau
+clip: mat-4.mp4 | Mùa thu hoạch
+clip: mat-5.mp4 | Một năm sau
+
+sub: 1 | 0.5-4.8 | Của biếu là của lo, / của cho là của nợ.
+sub: 1 | 5.0-7.5 | Đã thế ra đảo hoang / mà sống bằng sức mình!
+sub: 1 | 7.5-9.8 | Ông chủ ơi... nói ít thôi ạ...
+sub: 2 | 0.5-4.8 | Đảo không có gì ăn, / ông chủ còn câu nào hay nữa không ạ?
+sub: 2 | 5.0-9.5 | Có tay thì có ăn. Đi nhặt củi.
+sub: 3 | 0.5-4.8 | Chim ăn được thì người ăn được. Trồng!
+sub: 3 | 5.0-9.8 | Nhỡ chim ăn được / mà người không ăn được thì sao ạ?
+sub: 4 | 0.5-4.8 | Ngọt! Ngọt quá ông chủ ơi!
+sub: 4 | 5.0-7.5 | Gửi qua đường biển / không ghi địa chỉ à ông?
+sub: 4 | 7.5-9.8 | Ghi tên là đủ.
+sub: 5 | 0.5-4.8 | An Tiêm, ta biết lỗi rồi. Về thôi con.
+sub: 5 | 5.0-8.0 | Ông chủ, lần này về nhớ nói ít thôi!
+sub: 5 | 8.0-9.8 | Của biếu là...

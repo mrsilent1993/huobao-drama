@@ -12,11 +12,11 @@ AUDIO = "Audio: natural ambient sound, Vietnamese dialogue spoken naturally with
 TAGS = "#povlichsu #POV #lichsuvietnam #xuhuong #fyp"
 
 
-def build(episodes, here, series_tag="", note=""):
+def build(episodes, here, series_tag="", note="", unit="Phần", file_unit="phan"):
     lines = []
     for n, ep in enumerate(episodes, 1):
-        base = f"phan-{n}-{ep['slug']}"
-        md = [f"# Phần {n}: {ep['title']}", "",
+        base = f"{file_unit}-{n}-{ep['slug']}"
+        md = [f"# {unit} {n}: {ep['title']}", "",
               f"**Độ dài:** {ep['length']}", "",
               "Copy từng khối dán thẳng vào phần mềm. Prompt đã ghép đủ, không cần thay gì.", ""]
         if note:

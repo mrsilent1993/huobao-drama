@@ -1,0 +1,20 @@
+# Dựng: python3 ../tools/tiktok.py tap-4-luong-the-vinh.plan.txt tap-4-luong-the-vinh.mp4
+hook: POV: Bạn khuân đá / giúp trạng Lương Thế Vinh cân voi
+end: Sứ Tàu còn đố gì nữa? / Follow để xem tập sau →
+
+clip: ltv-1.mp4 | Thăng Long · đời Lê Thánh Tông
+clip: ltv-2.mp4 | Bờ sông
+clip: ltv-3.mp4 | Cả buổi chiều
+clip: ltv-4.mp4 | Chiều tối
+clip: ltv-5.mp4 | Ngay sau đó
+
+sub: 1 | 0.5-4.8 | Nước Nam có ai cân được / con voi này không?
+sub: 1 | 5.0-7.5 | Có gì khó. Ra bờ sông là xong.
+sub: 1 | 7.5-9.8 | Cân voi ở bờ sông á?
+sub: 2 | 5.0-7.5 | Trạng ơi, trạng định cho voi đi tắm ạ?
+sub: 2 | 7.5-9.8 | Voi xong việc rồi. / Giờ đến lượt các anh.
+sub: 3 | 0.5-4.8 | Chất đá xuống thuyền, / đến đúng vạch mực thì dừng.
+sub: 3 | 5.0-9.8 | Người ta cân voi, / mình cân cả quả núi!
+sub: 5 | 0.5-2.8 | Thế tờ giấy mỏng này dày bao nhiêu?
+sub: 5 | 2.8-4.9 | Đo cả quyển, rồi chia cho số tờ.
+sub: 5 | 5.0-9.8 | Thôi trạng ơi... / đừng ai đố thêm câu nào nữa...

@@ -1,0 +1,23 @@
+# Dựng: python3 ../tools/tiktok.py tap-1-chu-dong-tu.plan.txt tap-1-chu-dong-tu.mp4
+hook: POV: Bạn hầu công chúa Tiên Dung / đi tắm ở bãi sông
+end: Cả thành bay lên trời trong một đêm, / người hầu ở lại ra sao? / Follow để xem mai bạn / đúc ngựa sắt cho Thánh Gióng →
+
+clip: cdt-1.mp4 | Bãi Chử Xá · đời Hùng Vương thứ 18
+clip: cdt-2.mp4 | Vài phút sau
+clip: cdt-3.mp4 | Bãi Chử Xá · ít phút sau
+clip: cdt-4.mp4 | Một lúc sau
+clip: cdt-5.mp4 | Vài năm sau
+clip: cdt-6.mp4 | Một đêm
+
+sub: 1 | 0.5-4.8 | Bãi cát đẹp quá. / Quây màn chỗ bụi lau kia cho ta tắm.
+sub: 1 | 5.0-9.8 | Bãi hoang thế này có ma nào đâu / mà phải quây kín thế không biết.
+sub: 2 | 5.0-7.5 | Á! Dưới cát có người!
+sub: 2 | 7.5-9.8 | Dạ... con chào cô ạ.
+sub: 3 | 0.5-4.8 | Nhà con nghèo, hai cha con chung một cái khố. / Cha mất, con mặc khố cho cha rồi...
+sub: 3 | 5.0-9.8 | Chung... một cái khố?!
+sub: 4 | 0.5-4.8 | Ta quây màn đúng chỗ chàng nằm. / Đây là duyên trời, ta với chàng thành vợ chồng.
+sub: 4 | 5.0-7.5 | Công chúa cưới người... không có khố à?
+sub: 4 | 7.5-9.8 | Thì may cho chàng một cái.
+sub: 5 | 0.5-4.8 | Vua Hùng giận, / không cho công chúa về cung nữa!
+sub: 5 | 5.0-9.8 | Từ không có cái khố / mà giờ giàu nhất vùng...
+sub: 6 | 5.0-9.5 | Ơ... còn con thì sao ạ?!
