@@ -1,6 +1,6 @@
 # Thăng Long phần 6. Dựng: python3 ../tools/tiktok.py thang-long-6.plan.txt thang-long-6.mp4
 hook: Phần 6: Nhà ông Ba / và những lần Thăng Long đổi tên
-end: Thăng Long · Đông Đô · Đông Quan · / Đông Kinh · và năm 1831: Hà Nội. / Theo dõi để xem tiếp →
+end: Nhà ông Ba giờ còn ở Hà Nội không? / Comment "phần 7" nếu muốn xem tiếp →
 
 clip: tl6-1.mp4 | Năm 1397
 clip: tl6-2.mp4 | Năm 1430

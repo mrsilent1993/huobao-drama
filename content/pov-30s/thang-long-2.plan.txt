@@ -1,6 +1,6 @@
 # Thăng Long phần 2. Dựng: python3 ../tools/tiktok.py thang-long-2.plan.txt thang-long-2.mp4
 hook: Phần 2: Xây thành Thăng Long / năm 1010
-end: Thành đắp theo vó ngựa thần, / nay là đền Bạch Mã, phố Hàng Buồm. / Theo dõi xem phần 3 →
+end: Thành vững rồi, nhưng vua sắp / có một giấc mộng lạ... / Follow xem phần 3 →
 
 clip: tl2-1.mp4 | Công trường thành Thăng Long · 1010
 clip: tl2-2.mp4 | Chiều tối · trước đền thần Long Đỗ

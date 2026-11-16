@@ -1,6 +1,6 @@
 # Tập 3: thi Hương 1897. Dựng: python3 ../tools/tiktok.py thi-huong-1897.plan.txt thi-huong-1897.mp4
 hook: POV: Bạn đi thi Hương / ở Nam Định năm 1897
-end: Năm 1915, khoa thi Hương cuối cùng / ở Bắc Kỳ diễn ra tại trường Nam Định.
+end: Ba năm nữa, cụ đồ có đỗ không? / Follow để xem mai bạn làm dân chài / cắm cọc sông Bạch Đằng →
 
 clip: thi-1.mp4 | Cổng trường thi · sáng sớm
 clip: thi-2.mp4 | Trong trường thi

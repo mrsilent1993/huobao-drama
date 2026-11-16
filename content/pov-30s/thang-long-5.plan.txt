@@ -1,6 +1,6 @@
 # Thăng Long phần 5. Dựng: python3 ../tools/tiktok.py thang-long-5.plan.txt thang-long-5.mp4
 hook: Phần 5: Đúc chuông / to nhất nước Nam, năm 1101
-end: Chuông to quá đánh không kêu, / bỏ ra ruộng rùa: chuông Quy Điền. / Theo dõi xem phần 6 →
+end: Nhà ông Ba ở Thăng Long bao lâu? / Follow xem phần 6: / Thăng Long đổi tên mấy lần? →
 
 clip: tl5-1.mp4 | Xưởng đúc đồng · đời thứ 4 nhà ông Ba
 clip: tl5-2.mp4 | Đánh thử

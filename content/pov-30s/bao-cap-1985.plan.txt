@@ -1,6 +1,6 @@
 # Tập 8: bao cấp 1985. Dựng: python3 ../tools/tiktok.py bao-cap-1985.plan.txt bao-cap-1985.mp4
 hook: POV: Bạn đi mua đồ Tết / thời bao cấp, Hà Nội 1985
-end: Thời bao cấp, mua gì cũng cần tem phiếu, / và một viên gạch giữ chỗ cả đêm.
+end: Tết năm ấy nhà bạn ăn gì? / Follow để xem tập sau / bạn sẽ là ai →
 
 clip: baocap-1.mp4 | 4 giờ sáng · trước cửa hàng mậu dịch
 clip: baocap-2.mp4 | 7 giờ sáng · cửa hàng mở

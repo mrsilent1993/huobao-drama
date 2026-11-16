@@ -1,6 +1,6 @@
 # Tập 2: Hai Bà Trưng. Dựng: python3 ../tools/tiktok.py hai-ba-trung.plan.txt hai-ba-trung.mp4
 hook: POV: Bạn theo Hai Bà Trưng / khởi nghĩa năm 40
-end: Năm 40, Hai Bà Trưng đánh đuổi Tô Định, / lấy lại 65 thành.
+end: Tô Định cạo râu chạy về đâu? / Follow để xem mai bạn làm sĩ tử / đi thi Hương năm 1897 →
 
 clip: trung-1.mp4 | Mê Linh · năm 40
 clip: trung-2.mp4 | Đánh thành Luy Lâu

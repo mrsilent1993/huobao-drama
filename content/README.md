@@ -32,6 +32,7 @@ Ghi chú cho TikTok: video từ 30 giây trở lên đều được tính là n�
 - Khung dọc 9:16. Giữ chủ thể ở giữa khung. Không để Muse tự chèn chữ.
 - Khối `[POV]` và `[Âm thanh]` dùng chung, nằm ở đầu `pov-30s/prompts.md`.
 - Mỗi tập có caption đăng bài kết bằng câu hỏi, kèm 7–9 hashtag chia ba nhóm: hashtag lớn (`#xuhuong #fyp`), hashtag của kênh (`#povlichsu #POV #lichsuvietnam`) và hashtag theo chủ đề.
-- Loạt nhiều phần dùng hashtag riêng (ví dụ `#thanglongnghinnam`), có số phần trong chữ móc câu và "Theo dõi xem phần tiếp →" ở dòng chữ kết.
+- Dòng chữ kết luôn **kết lửng**: một câu hỏi bỏ ngỏ, kèm "Follow để xem mai bạn làm [vai của tập sau] →". Giải thích lịch sử đặt ở caption. Chi tiết, thứ tự đăng, kịch bản trả lời bình luận và khung livestream xem ở `tang-follow.md`.
+- Loạt nhiều phần dùng hashtag riêng (ví dụ `#thanglongnghinnam`) và có số phần trong chữ móc câu.
 - Luôn bật nhãn "Nội dung do AI tạo" khi đăng.
 - Khi chạy thử script, chỉ dùng clip nền đơn sắc nhỏ tự tạo và xóa ngay sau khi kiểm tra.

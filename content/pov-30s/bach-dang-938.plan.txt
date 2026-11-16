@@ -1,6 +1,6 @@
 # Tập 4: Bạch Đằng 938. Dựng: python3 ../tools/tiktok.py bach-dang-938.plan.txt bach-dang-938.mp4
 hook: POV: Bạn là dân chài / cắm cọc Bạch Đằng năm 938
-end: Năm 938, Ngô Quyền đánh tan / quân Nam Hán trên sông Bạch Đằng.
+end: Cọc của Anh Tư đâm thủng thuyền nào? / Follow để xem mai bạn giữ / phòng tuyến sông Như Nguyệt →
 
 clip: bachdang-1.mp4 | Sông Bạch Đằng · triều rút
 clip: bachdang-2.mp4 | Triều lên · nhử địch

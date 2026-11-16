@@ -1,6 +1,6 @@
 # Tập 5: Như Nguyệt 1077. Dựng: python3 ../tools/tiktok.py nhu-nguyet-1077.plan.txt nhu-nguyet-1077.mp4
 hook: POV: Bạn giữ phòng tuyến / sông Như Nguyệt năm 1077
-end: Năm 1077, phòng tuyến Như Nguyệt / chặn đứng quân Tống.
+end: Tiếng thơ ấy là của ai? / Follow để xem mai bạn chèo thuyền / cho vua Lê Lợi →
 
 clip: nhunguyet-1.mp4 | Đêm trên phòng tuyến
 clip: nhunguyet-2.mp4 | Nửa đêm · tiếng từ đền bên sông

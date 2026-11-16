@@ -1,6 +1,6 @@
 # Thăng Long phần 3. Dựng: python3 ../tools/tiktok.py thang-long-3.plan.txt thang-long-3.mp4
 hook: Phần 3: Chùa Một Cột / năm 1049
-end: Năm 1049, Chùa Một Cột ra đời / từ giấc mộng của vua Lý Thái Tông. / Theo dõi xem phần 4 →
+end: Ông Ba có con cháu nối nghiệp không? / Follow xem phần 4: / con cháu ông Ba đi thi →
 
 clip: tl3-1.mp4 | Hoàng cung Thăng Long · rạng sáng 1049
 clip: tl3-2.mp4 | Hồ sen phía tây kinh thành

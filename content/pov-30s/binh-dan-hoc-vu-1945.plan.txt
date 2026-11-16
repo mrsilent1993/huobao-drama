@@ -1,6 +1,6 @@
 # Tập 11: Bình dân học vụ 1945. Dựng: python3 ../tools/tiktok.py binh-dan-hoc-vu-1945.plan.txt binh-dan-hoc-vu-1945.mp4
 hook: POV: Bạn là thầy giáo / Bình dân học vụ năm 1945
-end: Năm 1945, phong trào Bình dân học vụ / giúp hàng triệu người biết chữ.
+end: Lá thư có đến tay con bà không? / Follow để xem mai bạn góp 5 nghìn / mua quà 20/11 →
 
 clip: binhdan-1.mp4 | Cổng chợ làng · 1945
 clip: binhdan-2.mp4 | Lớp học ban đêm

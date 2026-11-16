@@ -1,6 +1,6 @@
 # Tập 9: Chu Văn An. Dựng: python3 ../tools/tiktok.py chu-van-an.plan.txt chu-van-an.mp4
 hook: POV: Bạn là học trò / của thầy Chu Văn An
-end: Chu Văn An được thờ ở Văn Miếu, / người thầy mẫu mực của muôn đời.
+end: Thầy về Chí Linh rồi sao nữa? / Follow để xem mai bạn ôm gà / đi Tết thầy đồ →
 
 clip: chuvanan-1.mp4 | Trường Huỳnh Cung · thế kỷ 14
 clip: chuvanan-2.mp4 | Chiều tối · thầy về từ kinh thành

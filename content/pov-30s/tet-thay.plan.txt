@@ -1,6 +1,6 @@
 # Tập 10: Tết thầy. Dựng: python3 ../tools/tiktok.py tet-thay.plan.txt tet-thay.mp4
 hook: POV: Mùng ba Tết thầy / ở làng quê ngày xưa
-end: Mùng một Tết cha, mùng hai Tết mẹ, / mùng ba Tết thầy.
+end: Chữ "Nhẫn" ấy theo bạn cả đời? / Follow để xem mai bạn dạy chữ / cho bà cụ 70 tuổi →
 
 clip: tetthay-1.mp4 | Sáng mùng ba Tết
 clip: tetthay-2.mp4 | Nhà thầy đồ
