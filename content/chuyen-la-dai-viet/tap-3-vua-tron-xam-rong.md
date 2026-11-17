@@ -2,6 +2,8 @@
 
 **Độ dài:** 50 giây · 5 clip (gia pháp, vua né, rượt đuổi, trốn, Thượng hoàng đến)
 
+**Hai bản từ cùng một bộ clip:** YouTube Shorts 50 giây (đủ clip) · TikTok 35 giây (rút gọn theo ghi chú "Bản TikTok" ở từng clip).
+
 Copy từng khối dán thẳng vào phần mềm. Prompt đã ghép đủ, không cần thay gì.
 
 **Lịch sử (độ tin cậy B):** nhà Trần gốc làm nghề sông nước. Theo *Toàn thư*, nhà Trần có lệ thích (xăm) hình rồng lên đùi để tỏ ý không quên gốc. Thượng hoàng Trần Nhân Tông muốn xăm cho vua Trần Anh Tông, nhưng vua tìm cách lánh đi, không chịu xăm. Người thợ xăm và cuộc rượt đuổi trong tập là chi tiết dựng thêm để gây cười.
@@ -22,6 +24,8 @@ First-person POV video, handheld camera at eye level as if seen through the view
 ## Clip 2: Bận việc nước
 File Muse đặt tên: `cl3-2.mp4`
 
+**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+
 **Ảnh khung đầu**
 ```
 First-person view in a palace hall, a young emperor in a yellow robe backing away from a tray of needles with a forced smile, gesturing toward the door, realistic, vertical 9:16.
@@ -34,6 +38,8 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 ## Clip 3: Rượt đuổi
 File Muse đặt tên: `cl3-3.mp4`
+
+**Bản TikTok:** bỏ clip này.
 
 **Ảnh khung đầu**
 ```
@@ -80,16 +86,32 @@ Gia pháp nhà Trần là phải xăm rồng ở đùi, và vua Trần Anh Tông
 
 Khi đăng: bật nhãn "Nội dung do AI tạo".
 
+## Đăng YouTube Shorts (bản đầy đủ)
+
+Tiêu đề:
+```
+POV: Bạn là thợ xăm trong cung và vua thì sợ kim #Shorts
+```
+
+Mô tả:
+```
+Gia pháp nhà Trần là phải xăm rồng ở đùi, và vua Trần Anh Tông thì... sợ kim 😂 Theo Đại Việt sử ký toàn thư, nhà Trần có lệ xăm rồng để nhớ gốc làm nghề sông nước, nhưng vua Anh Tông đã lánh đi không chịu xăm. Bạn có dám đi xăm không? 👇
+
+#Shorts #povlichsu #POV #lichsuvietnam #chuyenladaiviet #trananhtong #trannhantong #nhatran #chuyenla #xamrong
+```
+
+Khi đăng: ở mục "Nội dung bị thay đổi" (Altered content) chọn **Có**, vì video do AI tạo.
+
 ## Chữ trên video (mình chèn ở hậu kỳ)
 
 ```
-# Dựng: python3 ../tools/tiktok.py tap-3-vua-tron-xam-rong.plan.txt tap-3-vua-tron-xam-rong.mp4
+# Dựng: python3 ../tools/tiktok.py tap-3-vua-tron-xam-rong.plan.txt tap-3-vua-tron-xam-rong.mp4  (ra tap-3-vua-tron-xam-rong-youtube.mp4 và tap-3-vua-tron-xam-rong-tiktok.mp4)
 hook: POV: Bạn là thợ xăm trong cung / và vua thì sợ kim
 end: Đời sau, vua Trần còn xăm rồng? / Follow để xem mai bạn giữ kho / nỏ thần Cổ Loa →
 
 clip: cl3-1.mp4 | Hoàng cung Thăng Long · thời Trần
-clip: cl3-2.mp4 | Ít phút sau
-clip: cl3-3.mp4 | Hành lang hoàng cung
+clip: cl3-2.mp4 | Ít phút sau | tiktok=5-10
+clip: cl3-3.mp4 | Hành lang hoàng cung | tiktok=bo
 clip: cl3-4.mp4 | Sau bình phong
 clip: cl3-5.mp4 | Đúng lúc ấy
 

@@ -28,6 +28,22 @@ Với video dài hơn 30 giây, phải có lý do để người xem ở lại:
 
 Ghi chú cho TikTok: video từ 30 giây trở lên đều được tính là nội dung dài. Tỉ lệ xem hết vẫn là yếu tố quan trọng nhất, nên một video 30 giây chặt chẽ luôn tốt hơn một video 50 giây bị loãng.
 
+## Một nội dung, hai bản: YouTube Shorts và TikTok
+
+Với các tập dài 50–60 giây, **cùng một bộ clip Muse** sẽ được dựng ra hai video:
+
+| Bản | Độ dài | Cách dựng | Lời kêu gọi cuối video |
+|---|---|---|---|
+| **YouTube Shorts** | 50–60 giây | Đủ tất cả clip | "Đăng ký để xem…" |
+| **TikTok** | 30–40 giây | Bỏ bớt hoặc chỉ lấy nửa clip theo đánh dấu `tiktok=` | "Follow để xem…" |
+
+- Bạn **không phải tạo thêm clip nào**. Mỗi file tập ghi rõ ở từng clip: bản TikTok giữ cả clip, chỉ lấy giây 0–5 hoặc 5–10, hay bỏ clip đó.
+- Quy tắc cắt: luôn giữ clip mở đầu (câu móc), clip "móc giữa" và clip chốt cuối. Các clip còn lại chỉ giữ nửa có câu thoại hay nhất, hoặc bỏ.
+- Phụ đề tự cắt và dời theo. Câu nào bị cắt gần hết (còn dưới 0,8 giây) sẽ tự ẩn.
+- Lệnh `python3 ../tools/tiktok.py <plan> <tên>.mp4` sẽ ra `<tên>-youtube.mp4`, `<tên>-tiktok.mp4` và ảnh bìa cho từng bản.
+- Mỗi file tập có thêm mục **"Đăng YouTube Shorts"** gồm tiêu đề kèm `#Shorts` và mô tả soạn sẵn. YouTube yêu cầu khai báo nội dung do AI tạo ở mục "Nội dung bị thay đổi" (Altered content).
+- Các tập 30–40 giây (loạt Thăng Long, POV 30 giây, Bạch Đằng phần 1–2…) quá ngắn cho chuẩn YouTube 50–60 giây, nên vẫn chỉ dựng một bản.
+
 ## Chất hài
 
 Mỗi tập cần ít nhất **2 điểm cười**, và câu cuối phải là một câu chốt bất ngờ. Các kỹ thuật dùng được:

@@ -1,11 +1,11 @@
-# Dựng: python3 ../tools/tiktok.py tap-1-tien-giay-1396.plan.txt tap-1-tien-giay-1396.mp4
+# Dựng: python3 ../tools/tiktok.py tap-1-tien-giay-1396.plan.txt tap-1-tien-giay-1396.mp4  (ra tap-1-tien-giay-1396-youtube.mp4 và tap-1-tien-giay-1396-tiktok.mp4)
 hook: POV: Bạn đi chợ bằng tiền giấy / năm 1396
 end: Tiền giấy nhà Hồ dùng được bao lâu? / Follow để xem mai bạn cầm quả cam / cho Trần Quốc Toản →
 
 clip: cl1-1.mp4 | Năm 1396 · cổng làng
-clip: cl1-2.mp4 | Nhà quan · đổi tiền
+clip: cl1-2.mp4 | Nhà quan · đổi tiền | tiktok=5-10
 clip: cl1-3.mp4 | Chợ phiên
-clip: cl1-4.mp4 | Đường về · mưa rào
+clip: cl1-4.mp4 | Đường về · mưa rào | tiktok=5-10
 clip: cl1-5.mp4 | Nửa đêm
 
 sub: 1 | 0.5-4.8 | Từ nay dùng tiền giấy! / Ai còn giữ tiền đồng thì bị phạt!

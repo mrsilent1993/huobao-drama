@@ -1,13 +1,13 @@
-# Dựng: python3 ../tools/tiktok.py tap-4-no-than-co-loa.plan.txt tap-4-no-than-co-loa.mp4
+# Dựng: python3 ../tools/tiktok.py tap-4-no-than-co-loa.plan.txt tap-4-no-than-co-loa.mp4  (ra tap-4-no-than-co-loa-youtube.mp4 và tap-4-no-than-co-loa-tiktok.mp4)
 hook: POV: Bạn giữ kho nỏ thần / thành Cổ Loa
 end: Lông ngỗng dẫn giặc đến đâu? / Follow để xem mai bạn đánh du kích / trong đầm Dạ Trạch →
 
-clip: cl4-1.mp4 | Thành Cổ Loa · nước Âu Lạc
+clip: cl4-1.mp4 | Thành Cổ Loa · nước Âu Lạc | tiktok=0-5
 clip: cl4-2.mp4 | Mấy hôm sau
-clip: cl4-3.mp4 | Nửa đêm
+clip: cl4-3.mp4 | Nửa đêm | tiktok=5-10
 clip: cl4-4.mp4 | Sáng hôm sau · cổng thành
-clip: cl4-5.mp4 | Ít lâu sau · giặc đến
-clip: cl4-6.mp4 | Trên đường chạy
+clip: cl4-5.mp4 | Ít lâu sau · giặc đến | tiktok=5-10
+clip: cl4-6.mp4 | Trên đường chạy | tiktok=5-10
 
 sub: 1 | 0.5-4.8 | Nỏ thần bắn một phát chết trăm giặc. / Canh cho kỹ, mất là mất nước!
 sub: 1 | 5.0-9.8 | Mày ngoan nhé, đừng để tao mất việc.

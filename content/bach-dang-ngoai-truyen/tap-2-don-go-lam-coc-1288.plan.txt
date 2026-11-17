@@ -1,11 +1,11 @@
-# Dựng: python3 ../tools/tiktok.py tap-2-don-go-lam-coc-1288.plan.txt tap-2-don-go-lam-coc-1288.mp4
+# Dựng: python3 ../tools/tiktok.py tap-2-don-go-lam-coc-1288.plan.txt tap-2-don-go-lam-coc-1288.mp4  (ra tap-2-don-go-lam-coc-1288-youtube.mp4 và tap-2-don-go-lam-coc-1288-tiktok.mp4)
 hook: POV: Bạn đốn gỗ làm cọc / cho Trần Hưng Đạo năm 1288
 end: Giặc có vào đúng giờ nước rút không? / Follow để xem mai bạn là lính Nguyên / trên sông Bạch Đằng →
 
 clip: ngt2-1.mp4 | Rừng lim · đầu xuân 1288
 clip: ngt2-2.mp4 | Đường ra sông
-clip: ngt2-3.mp4 | Bờ sông Bạch Đằng · chiều tối
-clip: ngt2-4.mp4 | Nửa đêm · nước ròng
+clip: ngt2-3.mp4 | Bờ sông Bạch Đằng · chiều tối | tiktok=bo
+clip: ngt2-4.mp4 | Nửa đêm · nước ròng | tiktok=5-10
 clip: ngt2-5.mp4 | Rạng sáng · triều lên
 
 sub: 1 | 0.5-4.8 | Mỗi làng nộp một trăm cây lim!

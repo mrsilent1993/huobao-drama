@@ -2,6 +2,8 @@
 
 **Độ dài:** 50 giây · 5 clip (đề bài, cách làm, khuân đá, ra kết quả, câu đố thêm)
 
+**Hai bản từ cùng một bộ clip:** YouTube Shorts 50 giây (đủ clip) · TikTok 35 giây (rút gọn theo ghi chú "Bản TikTok" ở từng clip).
+
 Copy từng khối dán thẳng vào phần mềm. Prompt đã ghép đủ, không cần thay gì.
 
 **Lịch sử và giai thoại:** Lương Thế Vinh đỗ Trạng nguyên năm 1463 đời vua Lê Thánh Tông, giỏi toán, được gọi là "Trạng Lường" và được cho là tác giả sách toán *Đại thành toán pháp*. Giai thoại kể sứ nhà Minh thách cân một con voi. Ông cho dắt voi xuống thuyền, vạch mực nước, rồi dắt voi lên và chất đá xuống đến đúng vạch, cân số đá ấy là ra sức nặng con voi. Giai thoại cũng kể ông đo được độ dày một tờ giấy bằng cách đo cả quyển sách rồi chia cho số tờ.
@@ -21,6 +23,8 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 ## Clip 2: Voi xuống thuyền
 File Muse đặt tên: `ltv-2.mp4`
+
+**Bản TikTok:** bỏ clip này.
 
 **Ảnh khung đầu**
 ```
@@ -47,6 +51,8 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 ## Clip 4: Ra kết quả
 File Muse đặt tên: `ltv-4.mp4`
+
+**Bản TikTok:** chỉ dùng giây 0 đến 5 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -80,17 +86,33 @@ Sứ Tàu thách cân con voi, trạng nghĩ ra cách trong một nốt nhạc, 
 
 Khi đăng: bật nhãn "Nội dung do AI tạo".
 
+## Đăng YouTube Shorts (bản đầy đủ)
+
+Tiêu đề:
+```
+POV: Bạn khuân đá giúp trạng Lương Thế Vinh cân voi #Shorts
+```
+
+Mô tả:
+```
+Sứ Tàu thách cân con voi, trạng nghĩ ra cách trong một nốt nhạc, còn người khuân đá thì mệt cả buổi chiều 😂 Giai thoại Lương Thế Vinh, "Trạng Lường" giỏi toán nhất thời Lê. Nếu là bạn, bạn sẽ cân voi bằng cách nào? 👇
+
+#Shorts #povlichsu #POV #lichsuvietnam #luongthevinh #tranglung #canvoi #toanhoc #nhale
+```
+
+Khi đăng: ở mục "Nội dung bị thay đổi" (Altered content) chọn **Có**, vì video do AI tạo.
+
 ## Chữ trên video (mình chèn ở hậu kỳ)
 
 ```
-# Dựng: python3 ../tools/tiktok.py tap-4-luong-the-vinh.plan.txt tap-4-luong-the-vinh.mp4
+# Dựng: python3 ../tools/tiktok.py tap-4-luong-the-vinh.plan.txt tap-4-luong-the-vinh.mp4  (ra tap-4-luong-the-vinh-youtube.mp4 và tap-4-luong-the-vinh-tiktok.mp4)
 hook: POV: Bạn khuân đá / giúp trạng Lương Thế Vinh cân voi
 end: Sứ Tàu còn đố gì nữa? / Follow để xem tập sau →
 
 clip: ltv-1.mp4 | Thăng Long · đời Lê Thánh Tông
-clip: ltv-2.mp4 | Bờ sông
+clip: ltv-2.mp4 | Bờ sông | tiktok=bo
 clip: ltv-3.mp4 | Cả buổi chiều
-clip: ltv-4.mp4 | Chiều tối
+clip: ltv-4.mp4 | Chiều tối | tiktok=0-5
 clip: ltv-5.mp4 | Ngay sau đó
 
 sub: 1 | 0.5-4.8 | Nước Nam có ai cân được / con voi này không?

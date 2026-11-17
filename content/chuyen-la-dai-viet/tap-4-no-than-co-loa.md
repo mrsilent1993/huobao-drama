@@ -2,12 +2,16 @@
 
 **Độ dài:** 60 giây · 6 clip (kho nỏ, phò mã hỏi han, đêm lén, chia tay, nỏ mất linh, lông ngỗng)
 
+**Hai bản từ cùng một bộ clip:** YouTube Shorts 60 giây (đủ clip) · TikTok 40 giây (rút gọn theo ghi chú "Bản TikTok" ở từng clip).
+
 Copy từng khối dán thẳng vào phần mềm. Prompt đã ghép đủ, không cần thay gì.
 
 **Truyền thuyết (độ tin cậy C) và khảo cổ (độ tin cậy A):** truyện An Dương Vương trong *Lĩnh Nam chích quái* kể rùa vàng giúp vua xây thành Cổ Loa và cho móng làm lẫy nỏ thần. Triệu Đà cầu hòa, cho con là Trọng Thủy lấy Mỵ Châu rồi đánh tráo lẫy nỏ. Khi giặc đánh, nỏ mất linh. Vua chạy, Mỵ Châu rắc lông ngỗng dọc đường làm dấu, dẫn giặc đuổi theo. Về khảo cổ, thành Cổ Loa có nhiều vòng thành đất còn đến nay. Năm 1959, người ta tìm thấy một kho lớn mũi tên đồng ở khu Cầu Vực, Cổ Loa.
 
 ## Clip 1: Kho nỏ thần
 File Muse đặt tên: `cl4-1.mp4`
+
+**Bản TikTok:** chỉ dùng giây 0 đến 5 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -35,6 +39,8 @@ First-person POV video, handheld camera at eye level as if seen through the view
 ## Clip 3: Đêm lén
 File Muse đặt tên: `cl4-3.mp4`
 
+**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+
 **Ảnh khung đầu**
 ```
 First-person view at night in an armory doorway lit by a single torch, a handsome young man in a dark robe sneaking out holding something small behind his back, the sleepy guard just waking up, realistic, vertical 9:16.
@@ -61,6 +67,8 @@ First-person POV video, handheld camera at eye level as if seen through the view
 ## Clip 5: Nỏ mất linh
 File Muse đặt tên: `cl4-5.mp4`
 
+**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+
 **Ảnh khung đầu**
 ```
 First-person view on top of an earthen rampart, the viewer aiming the special crossbow at an enemy army charging below, pulling the trigger with nothing happening, soldiers around panicking, smoke, realistic, vertical 9:16.
@@ -73,6 +81,8 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 ## Clip 6: Lông ngỗng
 File Muse đặt tên: `cl4-6.mp4`
+
+**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -93,19 +103,35 @@ Phò mã hỏi han kho nỏ hơi nhiều, nửa đêm còn "đi dạo" trong kho
 
 Khi đăng: bật nhãn "Nội dung do AI tạo".
 
+## Đăng YouTube Shorts (bản đầy đủ)
+
+Tiêu đề:
+```
+POV: Bạn giữ kho nỏ thần thành Cổ Loa #Shorts
+```
+
+Mô tả:
+```
+Phò mã hỏi han kho nỏ hơi nhiều, nửa đêm còn "đi dạo" trong kho vũ khí 🤨 Truyền thuyết nỏ thần và Mỵ Châu – Trọng Thủy. Còn khảo cổ thì có thật: năm 1959, một kho mũi tên đồng lớn được tìm thấy ở Cổ Loa. Nếu là lính gác, bạn có cho phò mã vào kho không? 👇
+
+#Shorts #povlichsu #POV #lichsuvietnam #chuyenladaiviet #coloa #nothan #anduongvuong #mychau #trongthuy #truyenthuyet
+```
+
+Khi đăng: ở mục "Nội dung bị thay đổi" (Altered content) chọn **Có**, vì video do AI tạo.
+
 ## Chữ trên video (mình chèn ở hậu kỳ)
 
 ```
-# Dựng: python3 ../tools/tiktok.py tap-4-no-than-co-loa.plan.txt tap-4-no-than-co-loa.mp4
+# Dựng: python3 ../tools/tiktok.py tap-4-no-than-co-loa.plan.txt tap-4-no-than-co-loa.mp4  (ra tap-4-no-than-co-loa-youtube.mp4 và tap-4-no-than-co-loa-tiktok.mp4)
 hook: POV: Bạn giữ kho nỏ thần / thành Cổ Loa
 end: Lông ngỗng dẫn giặc đến đâu? / Follow để xem mai bạn đánh du kích / trong đầm Dạ Trạch →
 
-clip: cl4-1.mp4 | Thành Cổ Loa · nước Âu Lạc
+clip: cl4-1.mp4 | Thành Cổ Loa · nước Âu Lạc | tiktok=0-5
 clip: cl4-2.mp4 | Mấy hôm sau
-clip: cl4-3.mp4 | Nửa đêm
+clip: cl4-3.mp4 | Nửa đêm | tiktok=5-10
 clip: cl4-4.mp4 | Sáng hôm sau · cổng thành
-clip: cl4-5.mp4 | Ít lâu sau · giặc đến
-clip: cl4-6.mp4 | Trên đường chạy
+clip: cl4-5.mp4 | Ít lâu sau · giặc đến | tiktok=5-10
+clip: cl4-6.mp4 | Trên đường chạy | tiktok=5-10
 
 sub: 1 | 0.5-4.8 | Nỏ thần bắn một phát chết trăm giặc. / Canh cho kỹ, mất là mất nước!
 sub: 1 | 5.0-9.8 | Mày ngoan nhé, đừng để tao mất việc.

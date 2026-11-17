@@ -1,11 +1,11 @@
-# Dựng: python3 ../tools/tiktok.py tap-4-luong-the-vinh.plan.txt tap-4-luong-the-vinh.mp4
+# Dựng: python3 ../tools/tiktok.py tap-4-luong-the-vinh.plan.txt tap-4-luong-the-vinh.mp4  (ra tap-4-luong-the-vinh-youtube.mp4 và tap-4-luong-the-vinh-tiktok.mp4)
 hook: POV: Bạn khuân đá / giúp trạng Lương Thế Vinh cân voi
 end: Sứ Tàu còn đố gì nữa? / Follow để xem tập sau →
 
 clip: ltv-1.mp4 | Thăng Long · đời Lê Thánh Tông
-clip: ltv-2.mp4 | Bờ sông
+clip: ltv-2.mp4 | Bờ sông | tiktok=bo
 clip: ltv-3.mp4 | Cả buổi chiều
-clip: ltv-4.mp4 | Chiều tối
+clip: ltv-4.mp4 | Chiều tối | tiktok=0-5
 clip: ltv-5.mp4 | Ngay sau đó
 
 sub: 1 | 0.5-4.8 | Nước Nam có ai cân được / con voi này không?

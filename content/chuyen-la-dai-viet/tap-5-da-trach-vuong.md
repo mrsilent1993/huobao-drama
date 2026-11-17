@@ -2,6 +2,8 @@
 
 **Độ dài:** 50 giây · 5 clip (cấm khói bếp, cơm nguội, thuyền đêm, đánh úp, móng rồng)
 
+**Hai bản từ cùng một bộ clip:** YouTube Shorts 50 giây (đủ clip) · TikTok 35 giây (rút gọn theo ghi chú "Bản TikTok" ở từng clip).
+
 Copy từng khối dán thẳng vào phần mềm. Prompt đã ghép đủ, không cần thay gì.
 
 **Lịch sử (độ tin cậy B) và truyền thuyết (C):** thế kỷ 6, sau khi Lý Nam Đế thua quân Lương, Triệu Quang Phục rút vào **đầm Dạ Trạch** (Hưng Yên). Theo *Toàn thư*, đầm rộng mênh mông, cỏ lau um tùm; ban ngày tuyệt không có khói lửa, ban đêm dùng thuyền độc mộc ra đánh úp trại giặc, nên người đương thời gọi ông là **Dạ Trạch Vương**. Truyền thuyết kể thần Chử Đồng Tử cưỡi rồng hiện về, trao cho ông một móng rồng để cài lên mũ đâu mâu. Đầm Dạ Trạch cũng chính là đầm Nhất Dạ trong truyện Chử Đồng Tử.
@@ -21,6 +23,8 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 ## Clip 2: Cơm nguội
 File Muse đặt tên: `cl5-2.mp4`
+
+**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -47,6 +51,8 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 ## Clip 4: Đánh úp
 File Muse đặt tên: `cl5-4.mp4`
+
+**Bản TikTok:** bỏ clip này.
 
 **Ảnh khung đầu**
 ```
@@ -80,17 +86,33 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 Khi đăng: bật nhãn "Nội dung do AI tạo".
 
+## Đăng YouTube Shorts (bản đầy đủ)
+
+Tiêu đề:
+```
+POV: Bạn đánh du kích trong đầm Dạ Trạch #Shorts
+```
+
+Mô tả:
+```
+Đánh du kích trong đầm lầy, ban ngày cấm khói bếp, ăn cơm nguội mười ngày, và bụng réo đúng lúc đi đánh úp 😂 Triệu Quang Phục được gọi là Dạ Trạch Vương nhờ lối đánh này. Đầm Dạ Trạch cũng chính là đầm Nhất Dạ trong truyện Chử Đồng Tử. Bạn chịu được mấy ngày không ăn cơm nóng? 👇
+
+#Shorts #povlichsu #POV #lichsuvietnam #chuyenladaiviet #trieuquangphuc #datrachvuong #dukich #vanxuan
+```
+
+Khi đăng: ở mục "Nội dung bị thay đổi" (Altered content) chọn **Có**, vì video do AI tạo.
+
 ## Chữ trên video (mình chèn ở hậu kỳ)
 
 ```
-# Dựng: python3 ../tools/tiktok.py tap-5-da-trach-vuong.plan.txt tap-5-da-trach-vuong.mp4
+# Dựng: python3 ../tools/tiktok.py tap-5-da-trach-vuong.plan.txt tap-5-da-trach-vuong.mp4  (ra tap-5-da-trach-vuong-youtube.mp4 và tap-5-da-trach-vuong-tiktok.mp4)
 hook: POV: Bạn đánh du kích / trong đầm Dạ Trạch
 end: Móng rồng ấy giúp ông thế nào? / Follow để xem tập sau →
 
 clip: cl5-1.mp4 | Đầm Dạ Trạch · thế kỷ 6
-clip: cl5-2.mp4 | Ngày thứ mười
+clip: cl5-2.mp4 | Ngày thứ mười | tiktok=5-10
 clip: cl5-3.mp4 | Đêm · ra quân
-clip: cl5-4.mp4 | Trại giặc
+clip: cl5-4.mp4 | Trại giặc | tiktok=bo
 clip: cl5-5.mp4 | Rạng sáng
 
 sub: 1 | 0.5-4.8 | Ban ngày cấm đỏ lửa! / Khói bay lên là giặc biết chỗ!

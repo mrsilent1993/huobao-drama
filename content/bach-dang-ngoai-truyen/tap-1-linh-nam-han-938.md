@@ -2,6 +2,8 @@
 
 **Độ dài:** 50 giây · 5 clip (từ lúc tự tin đến lúc ôm tấm ván giữa sông)
 
+**Hai bản từ cùng một bộ clip:** YouTube Shorts 50 giây (đủ clip) · TikTok 40 giây (rút gọn theo ghi chú "Bản TikTok" ở từng clip).
+
 Copy từng khối dán thẳng vào phần mềm. Prompt đã ghép đủ, không cần thay gì.
 
 **Anh Tư** (nhân vật của loạt "Ba lần Bạch Đằng") xuất hiện ở cả ba tập: sẹo ngang lông mày trái, răng cửa mẻ, cười toe. Dùng lại ảnh chân dung Anh Tư làm ảnh tham chiếu trong Muse.
@@ -50,6 +52,8 @@ First-person POV video, handheld camera at eye level as if seen through the view
 ## Clip 4: Triều rút
 File Muse đặt tên: `ngt1-4.mp4`
 
+**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+
 **Ảnh khung đầu**
 ```
 First-person view on a tilting warship deck at falling tide, 938, sharpened wooden stakes tipped with iron piercing up through the hull, water gushing in, soldiers falling, other warships cracking nearby, realistic, vertical 9:16.
@@ -62,6 +66,8 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 ## Clip 5: Ôm ván giữa sông
 File Muse đặt tên: `ngt1-5.mp4`
+
+**Bản TikTok:** chỉ dùng giây 0 đến 5 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -82,18 +88,34 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 Khi đăng: bật nhãn "Nội dung do AI tạo".
 
+## Đăng YouTube Shorts (bản đầy đủ)
+
+Tiêu đề:
+```
+POV: Bạn là lính giặc ở sông Bạch Đằng năm 938 #Shorts
+```
+
+Mô tả:
+```
+Được mời sang đánh, đến nơi thì người mời đã mất, rồi còn thấy "cái gì nhọn nhọn" dưới nước 😂 Năm 938, Hoằng Tháo dẫn thủy quân Nam Hán vào sông Bạch Đằng và mắc bẫy cọc của Ngô Quyền. Nếu là lính Nam Hán, bạn có dám lên tiếng không? 👇
+
+#Shorts #povlichsu #POV #lichsuvietnam #bachdangngoaitruyen #bachdang #ngoquyen #938 #hoangthao
+```
+
+Khi đăng: ở mục "Nội dung bị thay đổi" (Altered content) chọn **Có**, vì video do AI tạo.
+
 ## Chữ trên video (mình chèn ở hậu kỳ)
 
 ```
-# Dựng: python3 ../tools/tiktok.py tap-1-linh-nam-han-938.plan.txt tap-1-linh-nam-han-938.mp4
+# Dựng: python3 ../tools/tiktok.py tap-1-linh-nam-han-938.plan.txt tap-1-linh-nam-han-938.mp4  (ra tap-1-linh-nam-han-938-youtube.mp4 và tap-1-linh-nam-han-938-tiktok.mp4)
 hook: POV: Bạn là lính giặc / ở sông Bạch Đằng năm 938
 end: Hoằng Tháo có thoát được không? / Follow để xem mai bạn đốn gỗ / làm cọc cho Trần Hưng Đạo →
 
 clip: ngt1-1.mp4 | Trên biển · năm 938
 clip: ngt1-2.mp4 | Gần cửa sông Bạch Đằng
 clip: ngt1-3.mp4 | Cửa sông · triều lên
-clip: ngt1-4.mp4 | Giữa trưa · triều rút
-clip: ngt1-5.mp4 | Chiều hôm ấy
+clip: ngt1-4.mp4 | Giữa trưa · triều rút | tiktok=5-10
+clip: ngt1-5.mp4 | Chiều hôm ấy | tiktok=0-5
 
 sub: 1 | 0.5-4.8 | Kiều Công Tiễn mời ta sang! / Giao Châu coi như nằm trong túi!
 sub: 1 | 5.0-9.8 | Được người ta mời sang đánh nhà người ta... / nghe cứ sai sai.

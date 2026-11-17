@@ -2,6 +2,8 @@
 
 **Độ dài:** 60 giây · 6 clip (từ lúc biết nói đến lúc bay về trời)
 
+**Hai bản từ cùng một bộ clip:** YouTube Shorts 60 giây (đủ clip) · TikTok 40 giây (rút gọn theo ghi chú "Bản TikTok" ở từng clip).
+
 Copy từng khối dán thẳng vào phần mềm. Prompt đã ghép đủ, không cần thay gì.
 
 **Truyền thuyết:** đời Hùng Vương thứ 6, giặc Ân sang xâm lược. Ở làng Phù Đổng có cậu bé lên ba chưa biết nói, nghe sứ giả rao tìm người tài thì bỗng nói, xin vua đúc ngựa sắt, roi sắt, áo giáp sắt. Cậu lớn nhanh như thổi, cả làng góp gạo nuôi. Khi ngựa sắt đúc xong, cậu vươn vai thành tráng sĩ, ngựa phun lửa, roi gãy thì nhổ tre đánh giặc. Thắng giặc, Gióng phi ngựa lên núi Sóc rồi bay về trời. Hội Gióng ở đền Phù Đổng và đền Sóc là di sản văn hóa phi vật thể của nhân loại (UNESCO).
@@ -22,6 +24,8 @@ First-person POV video, handheld camera at eye level as if seen through the view
 ## Clip 2: Đơn hàng rõ ràng
 File Muse đặt tên: `tg-2.mp4`
 
+**Bản TikTok:** chỉ dùng giây 0 đến 5 của clip này.
+
 **Ảnh khung đầu**
 ```
 First-person view in a village yard in ancient Vietnam, the viewer (a young blacksmith with a leather apron) staring at a 3-year-old boy sitting on a bamboo cot, the mother looking stunned, the herald writing on a bamboo slip, realistic, vertical 9:16.
@@ -35,6 +39,8 @@ First-person POV video, handheld camera at eye level as if seen through the view
 ## Clip 3: Cả làng nuôi cơm
 File Muse đặt tên: `tg-3.mp4`
 
+**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+
 **Ảnh khung đầu**
 ```
 First-person view at the door of a thatched house in ancient Vietnam, villagers lined up carrying pots of rice and baskets of eggplant, a boy who is suddenly the size of a teenager eating from a huge pot, his small clothes torn at the seams, realistic, vertical 9:16.
@@ -47,6 +53,8 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 ## Clip 4: Đúc ngựa sắt
 File Muse đặt tên: `tg-4.mp4`
+
+**Bản TikTok:** bỏ clip này.
 
 **Ảnh khung đầu**
 ```
@@ -93,17 +101,33 @@ Thằng bé ba tuổi nói câu đầu tiên là đặt hàng ngựa sắt, và 
 
 Khi đăng: bật nhãn "Nội dung do AI tạo".
 
+## Đăng YouTube Shorts (bản đầy đủ)
+
+Tiêu đề:
+```
+POV: Bạn là thợ rèn đúc ngựa sắt cho Thánh Gióng #Shorts
+```
+
+Mô tả:
+```
+Thằng bé ba tuổi nói câu đầu tiên là đặt hàng ngựa sắt, và ngựa giao xong thì... phun lửa 🔥 Truyền thuyết Thánh Gióng, cậu bé làng Phù Đổng đánh tan giặc Ân rồi bay về trời từ núi Sóc. Hội Gióng nay là di sản văn hóa phi vật thể của nhân loại. Bạn đã đi hội Gióng bao giờ chưa? 👇
+
+#Shorts #povlichsu #POV #lichsuvietnam #thanhgiong #phudong #truyenthuyet #hoigiong
+```
+
+Khi đăng: ở mục "Nội dung bị thay đổi" (Altered content) chọn **Có**, vì video do AI tạo.
+
 ## Chữ trên video (mình chèn ở hậu kỳ)
 
 ```
-# Dựng: python3 ../tools/tiktok.py tap-2-thanh-giong.plan.txt tap-2-thanh-giong.mp4
+# Dựng: python3 ../tools/tiktok.py tap-2-thanh-giong.plan.txt tap-2-thanh-giong.mp4  (ra tap-2-thanh-giong-youtube.mp4 và tap-2-thanh-giong-tiktok.mp4)
 hook: POV: Bạn là thợ rèn / đúc ngựa sắt cho Thánh Gióng
 end: Ngựa bay rồi, lò rèn ai trả tiền? / Follow để xem mai bạn ra đảo hoang / cùng Mai An Tiêm →
 
 clip: tg-1.mp4 | Làng Phù Đổng · đời Hùng Vương thứ 6
-clip: tg-2.mp4 | Một lúc sau
-clip: tg-3.mp4 | Mấy hôm sau
-clip: tg-4.mp4 | Lò rèn làng
+clip: tg-2.mp4 | Một lúc sau | tiktok=0-5
+clip: tg-3.mp4 | Mấy hôm sau | tiktok=5-10
+clip: tg-4.mp4 | Lò rèn làng | tiktok=bo
 clip: tg-5.mp4 | Ngày giao hàng
 clip: tg-6.mp4 | Sau trận đánh
 

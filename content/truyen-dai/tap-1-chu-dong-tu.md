@@ -2,12 +2,16 @@
 
 **Độ dài:** 60 giây · 6 clip (truyện có nhiều khúc: gặp gỡ, cưới, bị vua giận, thành tiên)
 
+**Hai bản từ cùng một bộ clip:** YouTube Shorts 60 giây (đủ clip) · TikTok 40 giây (rút gọn theo ghi chú "Bản TikTok" ở từng clip).
+
 Copy từng khối dán thẳng vào phần mềm. Prompt đã ghép đủ, không cần thay gì.
 
 **Truyền thuyết:** Chử Đồng Tử nghèo đến mức hai cha con chỉ có chung một cái khố. Khi cha mất, chàng mặc khố cho cha rồi chôn, còn mình thì không có gì che thân. Một hôm công chúa Tiên Dung, con vua Hùng thứ 18, dạo thuyền đến bãi Chử Xá, quây màn tắm đúng chỗ Chử Đồng Tử vùi mình dưới cát để trốn. Nước dội trôi cát, hai người gặp nhau. Công chúa cho là duyên trời và kết làm vợ chồng. Vua giận không cho về cung. Về sau hai người học đạo, và cả thành của họ bay lên trời chỉ trong một đêm. Chỗ đất sụt thành đầm Nhất Dạ (Dạ Trạch, Hưng Yên). Đây là truyện truyền thuyết.
 
 ## Clip 1: Quây màn
 File Muse đặt tên: `cdt-1.mp4`
+
+**Bản TikTok:** chỉ dùng giây 0 đến 5 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -35,6 +39,8 @@ First-person POV video, handheld camera at eye level as if seen through the view
 ## Clip 3: Chung một cái khố
 File Muse đặt tên: `cdt-3.mp4`
 
+**Bản TikTok:** chỉ dùng giây 0 đến 5 của clip này.
+
 **Ảnh khung đầu**
 ```
 First-person view on a sandy riverbank in ancient Vietnam, a skinny young fisherman sitting in a shallow sand pit holding a huge banana leaf in front of himself, embarrassed, palace maids staring with hands over their mouths, realistic, PG, vertical 9:16.
@@ -60,6 +66,8 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 ## Clip 5: Từ không khố thành giàu nhất vùng
 File Muse đặt tên: `cdt-5.mp4`
+
+**Bản TikTok:** bỏ clip này.
 
 **Ảnh khung đầu**
 ```
@@ -93,18 +101,34 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 Khi đăng: bật nhãn "Nội dung do AI tạo".
 
+## Đăng YouTube Shorts (bản đầy đủ)
+
+Tiêu đề:
+```
+POV: Bạn hầu công chúa Tiên Dung đi tắm ở bãi sông #Shorts
+```
+
+Mô tả:
+```
+Đi hầu công chúa tắm thì dội nước trúng... một người dưới cát 😳 Truyền thuyết Chử Đồng Tử và Tiên Dung: nghèo đến mức hai cha con chung một cái khố, rồi thành tiên bay lên trời trong một đêm, nơi ấy thành đầm Nhất Dạ. Bạn nghĩ người hầu còn lại đã đi đâu? 👇
+
+#Shorts #povlichsu #POV #lichsuvietnam #chudongtu #tiendung #truyenthuyet #damnhatda
+```
+
+Khi đăng: ở mục "Nội dung bị thay đổi" (Altered content) chọn **Có**, vì video do AI tạo.
+
 ## Chữ trên video (mình chèn ở hậu kỳ)
 
 ```
-# Dựng: python3 ../tools/tiktok.py tap-1-chu-dong-tu.plan.txt tap-1-chu-dong-tu.mp4
+# Dựng: python3 ../tools/tiktok.py tap-1-chu-dong-tu.plan.txt tap-1-chu-dong-tu.mp4  (ra tap-1-chu-dong-tu-youtube.mp4 và tap-1-chu-dong-tu-tiktok.mp4)
 hook: POV: Bạn hầu công chúa Tiên Dung / đi tắm ở bãi sông
 end: Cả thành bay lên trời trong một đêm, / người hầu ở lại ra sao? / Follow để xem mai bạn / đúc ngựa sắt cho Thánh Gióng →
 
-clip: cdt-1.mp4 | Bãi Chử Xá · đời Hùng Vương thứ 18
+clip: cdt-1.mp4 | Bãi Chử Xá · đời Hùng Vương thứ 18 | tiktok=0-5
 clip: cdt-2.mp4 | Vài phút sau
-clip: cdt-3.mp4 | Bãi Chử Xá · ít phút sau
+clip: cdt-3.mp4 | Bãi Chử Xá · ít phút sau | tiktok=0-5
 clip: cdt-4.mp4 | Một lúc sau
-clip: cdt-5.mp4 | Vài năm sau
+clip: cdt-5.mp4 | Vài năm sau | tiktok=bo
 clip: cdt-6.mp4 | Một đêm
 
 sub: 1 | 0.5-4.8 | Bãi cát đẹp quá. / Quây màn chỗ bụi lau kia cho ta tắm.

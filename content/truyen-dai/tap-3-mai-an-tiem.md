@@ -2,6 +2,8 @@
 
 **Độ dài:** 50 giây · 5 clip (bị đày, sinh tồn, tìm ra dưa hấu, được đón về)
 
+**Hai bản từ cùng một bộ clip:** YouTube Shorts 50 giây (đủ clip) · TikTok 35 giây (rút gọn theo ghi chú "Bản TikTok" ở từng clip).
+
 Copy từng khối dán thẳng vào phần mềm. Prompt đã ghép đủ, không cần thay gì.
 
 **Truyền thuyết:** Mai An Tiêm là con nuôi vua Hùng. Vì nói câu "Của biếu là của lo, của cho là của nợ" (ý là của cải phải do sức mình làm ra), ông bị vua giận, đày ra đảo hoang. Một hôm thấy chim thả hạt, ông đem trồng, được thứ quả vỏ xanh, ruột đỏ, hạt đen, ăn ngọt mát: đó là quả dưa hấu. Ông khắc tên lên quả rồi thả xuống biển, người đất liền vớt được. Vua biết chuyện, hối hận và cho đón về. Đây là truyện truyền thuyết.
@@ -21,6 +23,8 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 ## Clip 2: Đảo hoang
 File Muse đặt tên: `mat-2.mp4`
+
+**Bản TikTok:** bỏ clip này.
 
 **Ảnh khung đầu**
 ```
@@ -47,6 +51,8 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 ## Clip 4: Dưa hấu
 File Muse đặt tên: `mat-4.mp4`
+
+**Bản TikTok:** chỉ dùng giây 0 đến 5 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -80,17 +86,33 @@ Bị đày ra đảo hoang chỉ vì một câu nói, ông chủ vẫn không b�
 
 Khi đăng: bật nhãn "Nội dung do AI tạo".
 
+## Đăng YouTube Shorts (bản đầy đủ)
+
+Tiêu đề:
+```
+POV: Bạn theo Mai An Tiêm ra đảo hoang #Shorts
+```
+
+Mô tả:
+```
+Bị đày ra đảo hoang chỉ vì một câu nói, ông chủ vẫn không bớt nói 😂 Truyền thuyết Mai An Tiêm và quả dưa hấu: vỏ xanh, ruột đỏ, hạt đen, được gửi về đất liền qua đường biển. Bạn hiểu câu "Của biếu là của lo, của cho là của nợ" thế nào? 👇
+
+#Shorts #povlichsu #POV #lichsuvietnam #maiantiem #duahau #truyenthuyet #sutichduahau
+```
+
+Khi đăng: ở mục "Nội dung bị thay đổi" (Altered content) chọn **Có**, vì video do AI tạo.
+
 ## Chữ trên video (mình chèn ở hậu kỳ)
 
 ```
-# Dựng: python3 ../tools/tiktok.py tap-3-mai-an-tiem.plan.txt tap-3-mai-an-tiem.mp4
+# Dựng: python3 ../tools/tiktok.py tap-3-mai-an-tiem.plan.txt tap-3-mai-an-tiem.mp4  (ra tap-3-mai-an-tiem-youtube.mp4 và tap-3-mai-an-tiem-tiktok.mp4)
 hook: POV: Bạn theo Mai An Tiêm / ra đảo hoang
 end: Về đất liền, ông có bớt nói không? / Follow để xem mai bạn khuân đá / giúp trạng cân voi →
 
 clip: mat-1.mp4 | Hoàng cung · đời Hùng Vương
-clip: mat-2.mp4 | Đảo hoang ngoài biển
+clip: mat-2.mp4 | Đảo hoang ngoài biển | tiktok=bo
 clip: mat-3.mp4 | Vài tháng sau
-clip: mat-4.mp4 | Mùa thu hoạch
+clip: mat-4.mp4 | Mùa thu hoạch | tiktok=0-5
 clip: mat-5.mp4 | Một năm sau
 
 sub: 1 | 0.5-4.8 | Của biếu là của lo, / của cho là của nợ.

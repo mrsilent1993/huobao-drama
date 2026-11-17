@@ -1,11 +1,11 @@
-# Dựng: python3 ../tools/tiktok.py tap-2-tran-quoc-toan.plan.txt tap-2-tran-quoc-toan.mp4
+# Dựng: python3 ../tools/tiktok.py tap-2-tran-quoc-toan.plan.txt tap-2-tran-quoc-toan.mp4  (ra tap-2-tran-quoc-toan-youtube.mp4 và tap-2-tran-quoc-toan-tiktok.mp4)
 hook: POV: Bạn là người hầu / của Trần Quốc Toản
 end: Đội quân trẻ con ấy ra trận thế nào? / Follow để xem mai bạn cầm kim xăm / đuổi theo vua →
 
-clip: cl2-1.mp4 | Bến Bình Than · năm 1282
+clip: cl2-1.mp4 | Bến Bình Than · năm 1282 | tiktok=0-5
 clip: cl2-2.mp4 | Ít phút sau
 clip: cl2-3.mp4 | Về nhà
-clip: cl2-4.mp4 | Đêm hôm ấy
+clip: cl2-4.mp4 | Đêm hôm ấy | tiktok=bo
 clip: cl2-5.mp4 | Sáng hôm sau
 
 sub: 1 | 0.5-4.8 | Hầu còn nhỏ, chưa được dự bàn việc nước ạ.

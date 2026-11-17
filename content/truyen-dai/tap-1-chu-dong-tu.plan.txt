@@ -1,12 +1,12 @@
-# Dựng: python3 ../tools/tiktok.py tap-1-chu-dong-tu.plan.txt tap-1-chu-dong-tu.mp4
+# Dựng: python3 ../tools/tiktok.py tap-1-chu-dong-tu.plan.txt tap-1-chu-dong-tu.mp4  (ra tap-1-chu-dong-tu-youtube.mp4 và tap-1-chu-dong-tu-tiktok.mp4)
 hook: POV: Bạn hầu công chúa Tiên Dung / đi tắm ở bãi sông
 end: Cả thành bay lên trời trong một đêm, / người hầu ở lại ra sao? / Follow để xem mai bạn / đúc ngựa sắt cho Thánh Gióng →
 
-clip: cdt-1.mp4 | Bãi Chử Xá · đời Hùng Vương thứ 18
+clip: cdt-1.mp4 | Bãi Chử Xá · đời Hùng Vương thứ 18 | tiktok=0-5
 clip: cdt-2.mp4 | Vài phút sau
-clip: cdt-3.mp4 | Bãi Chử Xá · ít phút sau
+clip: cdt-3.mp4 | Bãi Chử Xá · ít phút sau | tiktok=0-5
 clip: cdt-4.mp4 | Một lúc sau
-clip: cdt-5.mp4 | Vài năm sau
+clip: cdt-5.mp4 | Vài năm sau | tiktok=bo
 clip: cdt-6.mp4 | Một đêm
 
 sub: 1 | 0.5-4.8 | Bãi cát đẹp quá. / Quây màn chỗ bụi lau kia cho ta tắm.

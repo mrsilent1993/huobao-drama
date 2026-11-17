@@ -1,11 +1,11 @@
-# Dựng: python3 ../tools/tiktok.py tap-3-mai-an-tiem.plan.txt tap-3-mai-an-tiem.mp4
+# Dựng: python3 ../tools/tiktok.py tap-3-mai-an-tiem.plan.txt tap-3-mai-an-tiem.mp4  (ra tap-3-mai-an-tiem-youtube.mp4 và tap-3-mai-an-tiem-tiktok.mp4)
 hook: POV: Bạn theo Mai An Tiêm / ra đảo hoang
 end: Về đất liền, ông có bớt nói không? / Follow để xem mai bạn khuân đá / giúp trạng cân voi →
 
 clip: mat-1.mp4 | Hoàng cung · đời Hùng Vương
-clip: mat-2.mp4 | Đảo hoang ngoài biển
+clip: mat-2.mp4 | Đảo hoang ngoài biển | tiktok=bo
 clip: mat-3.mp4 | Vài tháng sau
-clip: mat-4.mp4 | Mùa thu hoạch
+clip: mat-4.mp4 | Mùa thu hoạch | tiktok=0-5
 clip: mat-5.mp4 | Một năm sau
 
 sub: 1 | 0.5-4.8 | Của biếu là của lo, / của cho là của nợ.

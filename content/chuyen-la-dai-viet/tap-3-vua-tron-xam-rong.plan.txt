@@ -1,10 +1,10 @@
-# Dựng: python3 ../tools/tiktok.py tap-3-vua-tron-xam-rong.plan.txt tap-3-vua-tron-xam-rong.mp4
+# Dựng: python3 ../tools/tiktok.py tap-3-vua-tron-xam-rong.plan.txt tap-3-vua-tron-xam-rong.mp4  (ra tap-3-vua-tron-xam-rong-youtube.mp4 và tap-3-vua-tron-xam-rong-tiktok.mp4)
 hook: POV: Bạn là thợ xăm trong cung / và vua thì sợ kim
 end: Đời sau, vua Trần còn xăm rồng? / Follow để xem mai bạn giữ kho / nỏ thần Cổ Loa →
 
 clip: cl3-1.mp4 | Hoàng cung Thăng Long · thời Trần
-clip: cl3-2.mp4 | Ít phút sau
-clip: cl3-3.mp4 | Hành lang hoàng cung
+clip: cl3-2.mp4 | Ít phút sau | tiktok=5-10
+clip: cl3-3.mp4 | Hành lang hoàng cung | tiktok=bo
 clip: cl3-4.mp4 | Sau bình phong
 clip: cl3-5.mp4 | Đúng lúc ấy
 

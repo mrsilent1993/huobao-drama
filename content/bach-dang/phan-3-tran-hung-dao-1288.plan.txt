@@ -1,11 +1,11 @@
-# Dựng: python3 ../tools/tiktok.py phan-3-tran-hung-dao-1288.plan.txt phan-3-tran-hung-dao-1288.mp4
+# Dựng: python3 ../tools/tiktok.py phan-3-tran-hung-dao-1288.plan.txt phan-3-tran-hung-dao-1288.mp4  (ra phan-3-tran-hung-dao-1288-youtube.mp4 và phan-3-tran-hung-dao-1288-tiktok.mp4)
 hook: Ba lần Bạch Đằng · Phần 3: / Bạn cắm cọc cho Trần Hưng Đạo
 end: Ba lần cắm cọc, cọc giờ ở đâu? / Follow để xem mai bạn nghe / tiếng thơ thần trên sông Như Nguyệt →
 
 clip: bd3-1.mp4 | Sông Hóa · năm 1288
 clip: bd3-2.mp4 | Sông Bạch Đằng · triều rút
-clip: bd3-3.mp4 | Triều lên
-clip: bd3-4.mp4 | Giữa trưa · triều rút
+clip: bd3-3.mp4 | Triều lên | tiktok=5-10
+clip: bd3-4.mp4 | Giữa trưa · triều rút | tiktok=bo
 clip: bd3-5.mp4 | Chiều hôm ấy
 
 sub: 1 | 0.5-4.8 | Trận này không phá xong giặc Nguyên, / thề không về đến sông này nữa!

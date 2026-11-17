@@ -2,6 +2,8 @@
 
 **Độ dài:** 50 giây · 5 clip (lời thề, cắm cọc, nhử địch, triều rút, bắt sống tướng giặc)
 
+**Hai bản từ cùng một bộ clip:** YouTube Shorts 50 giây (đủ clip) · TikTok 35 giây (rút gọn theo ghi chú "Bản TikTok" ở từng clip).
+
 Copy từng khối dán thẳng vào phần mềm. Prompt đã ghép đủ, không cần thay gì.
 
 **Anh Tư:** nhân vật xuyên suốt, dân chài sông Bạch Đằng. Mỗi phần là một đời con cháu, đời nào cũng tên Tư, cùng gương mặt: **sẹo ngang lông mày trái, răng cửa mẻ, cười toe**. Nên tạo một ảnh chân dung Anh Tư (prompt trong `README.md`) để làm ảnh tham chiếu nhân vật trong Muse cho cả loạt.
@@ -37,6 +39,8 @@ First-person POV video, handheld camera at eye level as if seen through the view
 ## Clip 3: Nhử thuyền Nguyên
 File Muse đặt tên: `bd3-3.mp4`
 
+**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+
 **Ảnh khung đầu**
 ```
 First-person view from a small fast boat on a high-tide river in 1288, a huge fleet of Yuan warships with many sails chasing, arrows in the air, the viewer's hands on a paddle, a fisherman with a scar on his eyebrow paddling hard in front, realistic, vertical 9:16.
@@ -49,6 +53,8 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 ## Clip 4: Triều rút
 File Muse đặt tên: `bd3-4.mp4`
+
+**Bản TikTok:** bỏ clip này.
 
 **Ảnh khung đầu**
 ```
@@ -82,17 +88,33 @@ Ba trăm năm, ba đời nhà Anh Tư, ba lần cắm cọc trên cùng một co
 
 Khi đăng: bật nhãn "Nội dung do AI tạo".
 
+## Đăng YouTube Shorts (bản đầy đủ)
+
+Tiêu đề:
+```
+Ba lần Bạch Đằng · Phần 3: Bạn cắm cọc cho Trần Hưng Đạo #Shorts
+```
+
+Mô tả:
+```
+Ba trăm năm, ba đời nhà Anh Tư, ba lần cắm cọc trên cùng một con sông 🔥 Năm 1288, Trần Hưng Đạo đánh tan thủy quân Nguyên trên sông Bạch Đằng, bắt sống Ô Mã Nhi. Các bãi cọc ở Quảng Yên (Quảng Ninh) đến nay vẫn còn. Bạn đã đến xem bãi cọc Bạch Đằng chưa? 👇
+
+#Shorts #povlichsu #POV #lichsuvietnam #balanbachdang #bachdang #tranhungdao #1288 #satthat
+```
+
+Khi đăng: ở mục "Nội dung bị thay đổi" (Altered content) chọn **Có**, vì video do AI tạo.
+
 ## Chữ trên video (mình chèn ở hậu kỳ)
 
 ```
-# Dựng: python3 ../tools/tiktok.py phan-3-tran-hung-dao-1288.plan.txt phan-3-tran-hung-dao-1288.mp4
+# Dựng: python3 ../tools/tiktok.py phan-3-tran-hung-dao-1288.plan.txt phan-3-tran-hung-dao-1288.mp4  (ra phan-3-tran-hung-dao-1288-youtube.mp4 và phan-3-tran-hung-dao-1288-tiktok.mp4)
 hook: Ba lần Bạch Đằng · Phần 3: / Bạn cắm cọc cho Trần Hưng Đạo
 end: Ba lần cắm cọc, cọc giờ ở đâu? / Follow để xem mai bạn nghe / tiếng thơ thần trên sông Như Nguyệt →
 
 clip: bd3-1.mp4 | Sông Hóa · năm 1288
 clip: bd3-2.mp4 | Sông Bạch Đằng · triều rút
-clip: bd3-3.mp4 | Triều lên
-clip: bd3-4.mp4 | Giữa trưa · triều rút
+clip: bd3-3.mp4 | Triều lên | tiktok=5-10
+clip: bd3-4.mp4 | Giữa trưa · triều rút | tiktok=bo
 clip: bd3-5.mp4 | Chiều hôm ấy
 
 sub: 1 | 0.5-4.8 | Trận này không phá xong giặc Nguyên, / thề không về đến sông này nữa!

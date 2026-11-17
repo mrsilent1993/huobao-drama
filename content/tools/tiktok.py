@@ -1,10 +1,21 @@
 #!/usr/bin/env python3
-"""Dựng video chuẩn TikTok từ các clip Muse theo một file kế hoạch.
+"""Dựng video dọc 9:16 cho TikTok và YouTube Shorts từ các clip Muse theo một file kế hoạch.
 
 Cách dùng:
-    python3 tiktok.py plan.txt out.mp4
+    python3 tiktok.py plan.txt out.mp4                 # dựng mọi bản mà plan hỗ trợ
+    python3 tiktok.py plan.txt out.mp4 --chi tiktok    # chỉ bản TikTok (hoặc --chi youtube)
 
-Đầu ra: out.mp4 (1080x1920, 30fps, H.264 + AAC, -14 LUFS) và out.jpg (ảnh bìa).
+Nếu plan có đánh dấu "tiktok=" ở dòng clip, script dựng HAI bản từ cùng một bộ clip:
+    out-youtube.mp4  bản đầy đủ (mọi clip), lời kêu gọi cuối video dùng "Đăng ký"
+    out-tiktok.mp4   bản rút gọn theo đánh dấu, lời kêu gọi dùng "Follow"
+Nếu không có đánh dấu nào, dựng một bản out.mp4 như cũ.
+Mỗi bản: 1080x1920, 30fps, H.264 + AAC, -14 LUFS, kèm ảnh bìa .jpg cùng tên.
+
+Đánh dấu cắt cho bản TikTok (cột thứ ba của dòng clip):
+    clip: tg-1.mp4 | Làng Phù Đổng                # không ghi: giữ nguyên cả clip
+    clip: tg-2.mp4 | Một lúc sau | tiktok=5-10     # chỉ lấy giây 5 đến 10 của clip
+    clip: tg-3.mp4 | Mấy hôm sau | tiktok=bo       # bỏ cả clip ở bản TikTok
+Phụ đề tự cắt và dời theo đoạn được giữ.
 
 plan.txt (dòng trống và dòng bắt đầu bằng # được bỏ qua; " / " là xuống dòng bắt buộc):
     hook: POV: Bạn là dân Hoa Lư / ngày dời đô năm 1010     # chữ lớn giữa màn hình, 0-2.5s
@@ -85,9 +96,23 @@ def parse(plan_path):
             if key in ("hook", "end"):
                 plan[key] = val
             elif key == "clip":
-                f, _, cap = val.partition("|")
-                f = f.strip()
-                plan["clips"].append((f if os.path.isabs(f) else os.path.join(base, f), cap.strip()))
+                parts = [p.strip() for p in val.split("|")]
+                f, cap = parts[0], (parts[1] if len(parts) > 1 else "")
+                cut = None                      # None = cả clip, "bo" = bỏ, (a, b) = đoạn giữ lại
+                for extra in parts[2:]:
+                    k, _, v = extra.partition("=")
+                    if k.strip() != "tiktok":
+                        die(f"dòng {n}: không hiểu '{extra}'")
+                    v = v.strip()
+                    if v == "bo":
+                        cut = "bo"
+                    else:
+                        try:
+                            a, b = (float(x) for x in v.split("-"))
+                        except ValueError:
+                            die(f"dòng {n}: tiktok= phải là 'bo' hoặc dạng 0-5")
+                        cut = (a, b)
+                plan["clips"].append((f if os.path.isabs(f) else os.path.join(base, f), cap, cut))
             elif key == "sub":
                 try:
                     idx, span, text = [p.strip() for p in val.split("|", 2)]
@@ -122,11 +147,8 @@ def fix_loudness(path):
     os.replace(tmp_out, path)
 
 
-def main():
-    if len(sys.argv) != 3:
-        print(__doc__)
-        sys.exit(1)
-    plan, out = parse(sys.argv[1]), sys.argv[2]
+def render(plan, out, version):
+    """version: "full" (bản duy nhất như cũ), "youtube" (đủ clip) hoặc "tiktok" (theo đánh dấu cắt)."""
     tmp = tempfile.mkdtemp()
     counter = iter(range(10**6))
 
@@ -142,29 +164,50 @@ def main():
                 f":line_spacing=12{style}:x=(w-{RIGHT_UI}-tw)/2+{RIGHT_UI // 4}:y={y}"
                 f":enable='{enable}'")
 
-    inputs, chain = [], []
-    n = len(plan["clips"])
-    for i, (path, cap) in enumerate(plan["clips"]):
+    # chọn clip và đoạn giữ lại cho bản này
+    picked = []
+    for idx, (path, cap, cut) in enumerate(plan["clips"], 1):
         if not os.path.isfile(path):
             die(f"không thấy file {path}")
         dur = probe_duration(path)
+        a, b = 0.0, dur
+        if version == "tiktok" and cut == "bo":
+            continue
+        if version == "tiktok" and isinstance(cut, tuple):
+            a, b = max(0.0, cut[0]), min(dur, cut[1])
+        picked.append((idx, path, cap, a, b))
+    if not picked:
+        die("bản TikTok không còn clip nào")
+
+    end_text = plan["end"]
+    if version == "youtube":
+        end_text = end_text.replace("Follow", "Đăng ký")
+
+    inputs, chain = [], []
+    n = len(picked)
+    for i, (idx, path, cap, a, b) in enumerate(picked):
+        d = b - a
         inputs += ["-i", path]
-        v = [f"[{i}:v]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},setsar=1,fps={FPS}"]
+        v = [f"[{i}:v]trim=start={a}:end={b},setpts=PTS-STARTPTS,"
+             f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},setsar=1,fps={FPS}"]
         if cap:
             v.append(drawtext(cap, 50, SAFE_TOP, "lt(t,3)", box=True))
         if i == 0 and plan["hook"]:
             v.append(drawtext(plan["hook"], 76, "(h-th)*0.40", "lt(t,2.5)"))
-        for idx, a, b, text in plan["subs"]:
-            if idx == i + 1:
-                v.append(drawtext(text, 54, SUB_Y, f"between(t,{a},{b})"))
-        if i == n - 1 and plan["end"]:
-            v.append(f"drawbox=x=0:y=ih*0.36:w=iw:h=ih*0.22:color=black@0.6:t=fill:enable='gte(t,{dur - 3})'")
-            v.append(drawtext(plan["end"], 52, "(h-th)*0.45", f"gte(t,{dur - 3})"))
+        for sidx, sa, sb, text in plan["subs"]:
+            if sidx != idx:
+                continue
+            s0, s1 = max(sa, a) - a, min(sb, b) - a
+            if s1 - s0 >= 0.8:          # phụ đề còn lại quá ngắn thì bỏ
+                v.append(drawtext(text, 54, SUB_Y, f"between(t,{s0:.2f},{s1:.2f})"))
+        if i == n - 1 and end_text:
+            v.append(f"drawbox=x=0:y=ih*0.36:w=iw:h=ih*0.22:color=black@0.6:t=fill:enable='gte(t,{d - 3})'")
+            v.append(drawtext(end_text, 52, "(h-th)*0.45", f"gte(t,{d - 3})"))
         chain.append(",".join(v) + f",format=yuv420p[v{i}]")
-        # loudnorm kéo dài đuôi âm thanh; cắt về đúng độ dài hình để không lệch tiếng
+        # loudnorm kéo dài đuôi âm thanh; cắt về đúng đoạn hình để không lệch tiếng
         chain.append(f"[{i}:a]aresample=48000,aformat=channel_layouts=stereo,"
-                     f"loudnorm=I={LUFS}:TP=-1.5:LRA=11,aresample=48000,atrim=0:{dur},asetpts=PTS-STARTPTS,"
-                     f"afade=t=in:d=0.05,afade=t=out:st={dur - 0.05}:d=0.05[a{i}]")
+                     f"loudnorm=I={LUFS}:TP=-1.5:LRA=11,aresample=48000,atrim={a}:{b},asetpts=PTS-STARTPTS,"
+                     f"afade=t=in:d=0.05,afade=t=out:st={d - 0.05}:d=0.05[a{i}]")
     chain.append("".join(f"[v{i}][a{i}]" for i in range(n)) + f"concat=n={n}:v=1:a=1[v][a]")
 
     subprocess.run(["ffmpeg", "-v", "error", "-y", *inputs, "-filter_complex", ";".join(chain),
@@ -177,7 +220,30 @@ def main():
     cover = os.path.splitext(out)[0] + ".jpg"
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", "1.2", "-i", out, "-frames:v", "1",
                     "-q:v", "2", cover], check=True)
-    print(f"Đã xuất: {out}\nẢnh bìa: {cover}")
+    print(f"Đã xuất: {out} ({sum(p[4] - p[3] for p in picked):.0f} giây)\nẢnh bìa: {cover}")
+
+
+def main():
+    args = sys.argv[1:]
+    only = None
+    if "--chi" in args:
+        k = args.index("--chi")
+        only = args[k + 1] if k + 1 < len(args) else ""
+        if only not in ("tiktok", "youtube"):
+            die("--chi phải là tiktok hoặc youtube")
+        del args[k:k + 2]
+    if len(args) != 2:
+        print(__doc__)
+        sys.exit(1)
+    plan, out = parse(args[0]), args[1]
+    has_cut = any(c[2] is not None for c in plan["clips"])
+    if not has_cut and only is None:
+        render(plan, out, "full")
+        return
+    stem = os.path.splitext(out)[0]
+    for version in ("youtube", "tiktok"):
+        if only in (None, version):
+            render(plan, f"{stem}-{version}.mp4", version)
 
 
 if __name__ == "__main__":

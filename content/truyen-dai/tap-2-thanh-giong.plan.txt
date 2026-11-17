@@ -1,11 +1,11 @@
-# Dựng: python3 ../tools/tiktok.py tap-2-thanh-giong.plan.txt tap-2-thanh-giong.mp4
+# Dựng: python3 ../tools/tiktok.py tap-2-thanh-giong.plan.txt tap-2-thanh-giong.mp4  (ra tap-2-thanh-giong-youtube.mp4 và tap-2-thanh-giong-tiktok.mp4)
 hook: POV: Bạn là thợ rèn / đúc ngựa sắt cho Thánh Gióng
 end: Ngựa bay rồi, lò rèn ai trả tiền? / Follow để xem mai bạn ra đảo hoang / cùng Mai An Tiêm →
 
 clip: tg-1.mp4 | Làng Phù Đổng · đời Hùng Vương thứ 6
-clip: tg-2.mp4 | Một lúc sau
-clip: tg-3.mp4 | Mấy hôm sau
-clip: tg-4.mp4 | Lò rèn làng
+clip: tg-2.mp4 | Một lúc sau | tiktok=0-5
+clip: tg-3.mp4 | Mấy hôm sau | tiktok=5-10
+clip: tg-4.mp4 | Lò rèn làng | tiktok=bo
 clip: tg-5.mp4 | Ngày giao hàng
 clip: tg-6.mp4 | Sau trận đánh
 

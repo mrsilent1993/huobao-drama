@@ -2,6 +2,8 @@
 
 **Độ dài:** 50 giây · 5 clip (lệnh đổi tiền, đổi tiền, đi chợ, gặp mưa, chôn tiền đồng)
 
+**Hai bản từ cùng một bộ clip:** YouTube Shorts 50 giây (đủ clip) · TikTok 40 giây (rút gọn theo ghi chú "Bản TikTok" ở từng clip).
+
 Copy từng khối dán thẳng vào phần mềm. Prompt đã ghép đủ, không cần thay gì.
 
 **Lịch sử (độ tin cậy B):** theo *Đại Việt sử ký toàn thư*, năm 1396, dưới quyền Hồ Quý Ly, triều đình phát hành tiền giấy **"Thông bảo hội sao"** và bắt dân đổi tiền đồng lấy tiền giấy. Ai làm giả bị tội nặng. Mỗi mệnh giá vẽ một hình: tờ 10 đồng vẽ rong, 30 đồng vẽ sóng, 1 tiền vẽ mây, 2 tiền vẽ rùa, 3 tiền vẽ lân, 5 tiền vẽ phượng, 1 quan vẽ rồng. Đây là tiền giấy đầu tiên của nước ta. Chuyện dân lén cất tiền đồng trong tập là chi tiết dựng thêm để gây cười.
@@ -21,6 +23,8 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 ## Clip 2: Đổi tiền
 File Muse đặt tên: `cl1-2.mp4`
+
+**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -47,6 +51,8 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 ## Clip 4: Mưa
 File Muse đặt tên: `cl1-4.mp4`
+
+**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -80,17 +86,33 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 Khi đăng: bật nhãn "Nội dung do AI tạo".
 
+## Đăng YouTube Shorts (bản đầy đủ)
+
+Tiêu đề:
+```
+POV: Bạn đi chợ bằng tiền giấy năm 1396 #Shorts
+```
+
+Mô tả:
+```
+Đổi cả hũ tiền đồng lấy mấy tờ giấy vẽ con rùa, ra chợ bị bà bán cá hỏi vặn 😂 Năm 1396, nước ta phát hành tiền giấy "Thông bảo hội sao": tờ 1 quan vẽ rồng, tờ 2 tiền vẽ rùa. Nếu sống năm đó, bạn có dám dùng tiền giấy không? 👇
+
+#Shorts #povlichsu #POV #lichsuvietnam #chuyenladaiviet #tiengiay #hoquyly #nhaho #chuyenla #1396
+```
+
+Khi đăng: ở mục "Nội dung bị thay đổi" (Altered content) chọn **Có**, vì video do AI tạo.
+
 ## Chữ trên video (mình chèn ở hậu kỳ)
 
 ```
-# Dựng: python3 ../tools/tiktok.py tap-1-tien-giay-1396.plan.txt tap-1-tien-giay-1396.mp4
+# Dựng: python3 ../tools/tiktok.py tap-1-tien-giay-1396.plan.txt tap-1-tien-giay-1396.mp4  (ra tap-1-tien-giay-1396-youtube.mp4 và tap-1-tien-giay-1396-tiktok.mp4)
 hook: POV: Bạn đi chợ bằng tiền giấy / năm 1396
 end: Tiền giấy nhà Hồ dùng được bao lâu? / Follow để xem mai bạn cầm quả cam / cho Trần Quốc Toản →
 
 clip: cl1-1.mp4 | Năm 1396 · cổng làng
-clip: cl1-2.mp4 | Nhà quan · đổi tiền
+clip: cl1-2.mp4 | Nhà quan · đổi tiền | tiktok=5-10
 clip: cl1-3.mp4 | Chợ phiên
-clip: cl1-4.mp4 | Đường về · mưa rào
+clip: cl1-4.mp4 | Đường về · mưa rào | tiktok=5-10
 clip: cl1-5.mp4 | Nửa đêm
 
 sub: 1 | 0.5-4.8 | Từ nay dùng tiền giấy! / Ai còn giữ tiền đồng thì bị phạt!

@@ -2,12 +2,16 @@
 
 **Độ dài:** 50 giây · 5 clip (không được dự bàn, bóp nát quả cam, tự mộ quân, thêu cờ, ra quân)
 
+**Hai bản từ cùng một bộ clip:** YouTube Shorts 50 giây (đủ clip) · TikTok 35 giây (rút gọn theo ghi chú "Bản TikTok" ở từng clip).
+
 Copy từng khối dán thẳng vào phần mềm. Prompt đã ghép đủ, không cần thay gì.
 
 **Lịch sử (độ tin cậy B):** năm 1282, vua Trần họp các vương hầu ở Bình Than bàn việc chống quân Nguyên. Theo *Toàn thư*, Hoài Văn hầu **Trần Quốc Toản** khi ấy mới khoảng 15 tuổi, không được dự bàn. Vua ban cho một quả cam, ông giận mà bóp nát lúc nào không biết. Về nhà, ông tập hợp gia nhân, thân thuộc được hơn nghìn người, sắm vũ khí, đóng thuyền, giương cờ đề sáu chữ **"Phá cường địch, báo hoàng ân"** (phá giặc mạnh, đền ơn vua).
 
 ## Clip 1: Không được vào
 File Muse đặt tên: `cl2-1.mp4`
+
+**Bản TikTok:** chỉ dùng giây 0 đến 5 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -48,6 +52,8 @@ First-person POV video, handheld camera at eye level as if seen through the view
 ## Clip 4: Thêu cờ
 File Muse đặt tên: `cl2-4.mp4`
 
+**Bản TikTok:** bỏ clip này.
+
 **Ảnh khung đầu**
 ```
 First-person view at night by an oil lamp, the viewer's hands stitching large Chinese characters in yellow thread onto a big red flag, a 15-year-old noble boy watching over his shoulder, realistic, vertical 9:16.
@@ -80,17 +86,33 @@ Không được dự bàn việc nước vì còn nhỏ, cậu bóp nát quả c
 
 Khi đăng: bật nhãn "Nội dung do AI tạo".
 
+## Đăng YouTube Shorts (bản đầy đủ)
+
+Tiêu đề:
+```
+POV: Bạn là người hầu của Trần Quốc Toản #Shorts
+```
+
+Mô tả:
+```
+Không được dự bàn việc nước vì còn nhỏ, cậu bóp nát quả cam vua ban rồi về tự mộ quân 🍊🔥 Trần Quốc Toản mới 15 tuổi đã giương cờ "Phá cường địch, báo hoàng ân". Năm 15 tuổi bạn đang làm gì? 👇
+
+#Shorts #povlichsu #POV #lichsuvietnam #chuyenladaiviet #tranquoctoan #bopquacam #nhatran #1282
+```
+
+Khi đăng: ở mục "Nội dung bị thay đổi" (Altered content) chọn **Có**, vì video do AI tạo.
+
 ## Chữ trên video (mình chèn ở hậu kỳ)
 
 ```
-# Dựng: python3 ../tools/tiktok.py tap-2-tran-quoc-toan.plan.txt tap-2-tran-quoc-toan.mp4
+# Dựng: python3 ../tools/tiktok.py tap-2-tran-quoc-toan.plan.txt tap-2-tran-quoc-toan.mp4  (ra tap-2-tran-quoc-toan-youtube.mp4 và tap-2-tran-quoc-toan-tiktok.mp4)
 hook: POV: Bạn là người hầu / của Trần Quốc Toản
 end: Đội quân trẻ con ấy ra trận thế nào? / Follow để xem mai bạn cầm kim xăm / đuổi theo vua →
 
-clip: cl2-1.mp4 | Bến Bình Than · năm 1282
+clip: cl2-1.mp4 | Bến Bình Than · năm 1282 | tiktok=0-5
 clip: cl2-2.mp4 | Ít phút sau
 clip: cl2-3.mp4 | Về nhà
-clip: cl2-4.mp4 | Đêm hôm ấy
+clip: cl2-4.mp4 | Đêm hôm ấy | tiktok=bo
 clip: cl2-5.mp4 | Sáng hôm sau
 
 sub: 1 | 0.5-4.8 | Hầu còn nhỏ, chưa được dự bàn việc nước ạ.

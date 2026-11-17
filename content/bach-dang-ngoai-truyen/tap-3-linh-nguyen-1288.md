@@ -2,6 +2,8 @@
 
 **Độ dài:** 60 giây · 6 clip (chuyện cổ tích ba trăm năm trước thành sự thật)
 
+**Hai bản từ cùng một bộ clip:** YouTube Shorts 60 giây (đủ clip) · TikTok 40 giây (rút gọn theo ghi chú "Bản TikTok" ở từng clip).
+
 Copy từng khối dán thẳng vào phần mềm. Prompt đã ghép đủ, không cần thay gì.
 
 **Anh Tư** (nhân vật của loạt "Ba lần Bạch Đằng") xuất hiện ở cả ba tập: sẹo ngang lông mày trái, răng cửa mẻ, cười toe. Dùng lại ảnh chân dung Anh Tư làm ảnh tham chiếu trong Muse.
@@ -24,6 +26,8 @@ First-person POV video, handheld camera at eye level as if seen through the view
 ## Clip 2: Bị chọc
 File Muse đặt tên: `ngt3-2.mp4`
 
+**Bản TikTok:** bỏ clip này.
+
 **Ảnh khung đầu**
 ```
 First-person view from a huge Yuan warship, 1288, small fast Vietnamese boats darting close, soldiers in them shouting and waving, the burly admiral pointing angrily, realistic, vertical 9:16.
@@ -36,6 +40,8 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 ## Clip 3: Dân hai bờ ngồi xem
 File Muse đặt tên: `ngt3-3.mp4`
+
+**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -62,6 +68,8 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 ## Clip 5: Thuyền to quá
 File Muse đặt tên: `ngt3-5.mp4`
+
+**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -95,18 +103,34 @@ Ba trăm năm trước ở đúng con sông này có người mắc cọc, và l
 
 Khi đăng: bật nhãn "Nội dung do AI tạo".
 
+## Đăng YouTube Shorts (bản đầy đủ)
+
+Tiêu đề:
+```
+POV: Bạn là lính Nguyên trên sông Bạch Đằng năm 1288 #Shorts
+```
+
+Mô tả:
+```
+Ba trăm năm trước ở đúng con sông này có người mắc cọc, và lính Nguyên tưởng đó là chuyện cổ tích 😂 Năm 1288, thủy quân Nguyên của Ô Mã Nhi mắc bẫy cọc trên sông Bạch Đằng, thuyền to quá không quay được. Bạn có biết Ô Mã Nhi về nước bằng cách nào không? 👇
+
+#Shorts #povlichsu #POV #lichsuvietnam #bachdangngoaitruyen #bachdang #tranhungdao #1288 #omanhi
+```
+
+Khi đăng: ở mục "Nội dung bị thay đổi" (Altered content) chọn **Có**, vì video do AI tạo.
+
 ## Chữ trên video (mình chèn ở hậu kỳ)
 
 ```
-# Dựng: python3 ../tools/tiktok.py tap-3-linh-nguyen-1288.plan.txt tap-3-linh-nguyen-1288.mp4
+# Dựng: python3 ../tools/tiktok.py tap-3-linh-nguyen-1288.plan.txt tap-3-linh-nguyen-1288.mp4  (ra tap-3-linh-nguyen-1288-youtube.mp4 và tap-3-linh-nguyen-1288-tiktok.mp4)
 hook: POV: Bạn là lính Nguyên / trên sông Bạch Đằng năm 1288
 end: Ô Mã Nhi về nước bằng cách nào? / Follow để xem tập sau →
 
 clip: ngt3-1.mp4 | Thủy quân Nguyên · năm 1288
-clip: ngt3-2.mp4 | Sông Bạch Đằng · buổi sáng
-clip: ngt3-3.mp4 | Gần trưa
+clip: ngt3-2.mp4 | Sông Bạch Đằng · buổi sáng | tiktok=bo
+clip: ngt3-3.mp4 | Gần trưa | tiktok=5-10
 clip: ngt3-4.mp4 | Giữa trưa · triều rút
-clip: ngt3-5.mp4 | Ít phút sau
+clip: ngt3-5.mp4 | Ít phút sau | tiktok=5-10
 clip: ngt3-6.mp4 | Chiều hôm ấy
 
 sub: 1 | 0.5-4.8 | Thuyền ta to gấp mười thuyền Nam, sợ gì!
