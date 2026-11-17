@@ -5,6 +5,14 @@ Loạt POV đặt người xem vào vai **lính của phía đối phương**. B
 | Tập | Tiêu đề | YouTube | TikTok | Tên file Muse |
 |---|---|---|---|---|
 | 1 | Bạn là lính giữ thành. Ngày thứ 42, viện binh vẫn chưa tới. (Ung Châu, 1076) | 50 giây | 30 giây (clip 1, 3, 5) | `pbk1-1..5.mp4` |
+| 2 | Bị bắt khiêng một cái ống đồng nặng trịch về nước, đến biên giới mới biết bên trong là ai (Thoát Hoan, 1288) | 50 giây | 30 giây (clip 1, 3, 5) | `pbk2-1..5.mp4` |
+
+## Tập 2: khiêng ống đồng (1288)
+
+- **Câu đáng gửi:** "Ống đồng gì mà biết… ra lệnh?". Kèm các câu "…Ống đồng biết nói.", "Khiêng cả tháng… hóa ra mình khiêng Thái tử.", và Anh Tư từ trên vách núi: "Về nhớ kể cho bố anh ấy nghe nhé!"
+- **Nguồn:** chuyện chui ống đồng là **giai thoại** (chưa thấy trong nguyên văn sử, các nguồn ghi năm 1285 hoặc 1288), nên caption ghi "tương truyền". Chi tiết có sử chép, dùng làm câu kết lửng: Hốt Tất Liệt không muốn gặp lại Thoát Hoan (*Nguyên sử*, *Tân Nguyên sử*).
+- **Kiểm duyệt:** cảnh phục kích chỉ có tên cắm vào đá và bùn, không ai trúng tên, không máu. Tiếng cười nhắm vào tình huống trớ trêu, không chế giễu người Mông Cổ.
+- **Bình luận ghim:** "📜 Tương truyền năm 1288 Thoát Hoan phải chui vào ống đồng để chạy về nước, có nơi kể là năm 1285. Còn sử nhà Nguyên chép rằng Hốt Tất Liệt không muốn gặp lại con trai nữa. Bạn tin bản nào? 👇"
 
 ## So với bản nháp SHORT.md
 

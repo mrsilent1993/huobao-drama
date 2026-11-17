@@ -1,0 +1,20 @@
+# Dựng: python3 ../tools/tiktok.py tap-2-khieng-ong-dong-1288.plan.txt tap-2-khieng-ong-dong-1288.mp4  (ra tap-2-khieng-ong-dong-1288-youtube.mp4 và tap-2-khieng-ong-dong-1288-tiktok.mp4)
+hook: POV: Bị bắt khiêng / một cái ống đồng
+end: Về nước, bố anh ấy đón thế nào? / Follow để xem tập sau →
+
+clip: pbk2-1.mp4 | Đường rút về phương Bắc / năm 1288
+clip: pbk2-2.mp4 | Nghỉ chân | tiktok=bo
+clip: pbk2-3.mp4 | Ải núi · bị phục kích
+clip: pbk2-4.mp4 | Qua suối | tiktok=bo
+clip: pbk2-5.mp4 | Ải biên giới
+
+sub: 1 | 0.5-4.8 | Khiêng cẩn thận! / Rơi là chém cả bọn!
+sub: 1 | 5.0-9.5 | Ống đồng gì mà / nặng hơn cả con trâu thế này...
+sub: 2 | 0.5-4.8 | Đứa nào gõ đấy?!
+sub: 2 | 5.0-9.5 | ...Ống đồng biết nói.
+sub: 3 | 0.5-4.8 | Không được bỏ! / Khiêng chạy tiếp!
+sub: 3 | 5.0-9.5 | Ống đồng gì mà biết... / ra lệnh?
+sub: 4 | 5.0-9.5 | Đừng nhìn! Không thấy gì hết!
+sub: 5 | 0.3-2.5 | Không ai được kể chuyện này.
+sub: 5 | 2.6-4.9 | Khiêng cả tháng... / hóa ra mình khiêng Thái tử.
+sub: 5 | 5.0-9.5 | Về nhớ kể cho bố anh ấy nghe nhé!
