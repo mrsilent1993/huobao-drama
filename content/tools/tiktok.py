@@ -55,10 +55,10 @@ def layout(text, size):
     if " / " in text:
         parts = [p.strip() for p in text.split(" / ")]
         fit = min(size, int(USABLE_W / (max(len(p) for p in parts) * CHAR_W)))
-        if fit >= size * 0.7:
+        if fit >= size * 0.85:
             return parts, fit
-        # dòng quá dài: không co chữ thêm nữa, tự xuống dòng từng đoạn
-        size = int(size * 0.8)
+        # dòng quá dài: không co chữ nhiều, tự xuống dòng từng đoạn ở cỡ gần chuẩn
+        size = int(size * 0.9)
         return [l for p in parts for l in layout(p, size)[0]], size
     width = max(8, int(USABLE_W / (size * CHAR_W)))
     # chia đều các dòng để không có dòng cuối chỉ một chữ

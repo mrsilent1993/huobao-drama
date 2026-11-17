@@ -1,0 +1,18 @@
+# Dựng: python3 ../tools/tiktok.py tap-1-ngay-thu-42-ung-chau-1076.plan.txt tap-1-ngay-thu-42-ung-chau-1076.mp4  (ra tap-1-ngay-thu-42-ung-chau-1076-youtube.mp4 và tap-1-ngay-thu-42-ung-chau-1076-tiktok.mp4)
+hook: POV: Lính giữ thành / Ngày thứ 42
+end: Cùng một trận, hai bên nhớ hai cách. / Follow để xem quân Tống phản công →
+
+clip: pbk1-1.mp4 | Ngày thứ 42
+clip: pbk1-2.mp4 | Ngày thứ 42 · giữa buổi | tiktok=bo
+clip: pbk1-3.mp4 | Ngày thứ 42 · chiều
+clip: pbk1-4.mp4 | Ngày thứ 42 · chạng vạng | tiktok=bo
+clip: pbk1-5.mp4 | Ung Châu · năm 1076 / Bạn là lính nhà Tống
+
+sub: 1 | 0.5-4.8 | Giữ vững! / Viện binh sắp tới!
+sub: 1 | 5.0-9.8 | Câu đó nghe bốn mươi ngày rồi. / Tai tao thuộc hơn tên vợ.
+sub: 2 | 0.5-4.8 | Bên kia bảo đánh sang / để cứu dân mình khỏi phép thanh miêu / của Vương An Thạch?
+sub: 2 | 5.0-9.8 | Nó đánh để cứu mình khỏi thuế... / còn mình giữ thành cho ai?
+sub: 3 | 5.0-9.8 | Hôm qua dốc đến thắt lưng. / Hôm nay đến cằm. / Mai nó vào tận bếp!
+sub: 4 | 0.5-4.8 | Viện binh bị đánh tan ở Côn Lôn rồi. / Từ ba tuần trước.
+sub: 4 | 5.0-9.8 | Ba tuần trước?! / Thế ai hô sắp tới suốt ba tuần nay?
+sub: 5 | 5.0-9.5 | Chào anh! / Cái dốc này em đắp đấy!
