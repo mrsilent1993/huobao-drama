@@ -1,0 +1,15 @@
+# Dựng: python3 ../tools/tiktok.py tap-4-chay-thua-chi-lang-1427.plan.txt tap-4-chay-thua-chi-lang-1427.mp4  (ra tap-4-chay-thua-chi-lang-1427-youtube.mp4 và tap-4-chay-thua-chi-lang-1427-tiktok.mp4)
+hook: Được lệnh chạy thua / cả ngày
+end: Liễu Thăng đuổi vào ải rồi sao? / Follow để xem mai bạn nấp cả đêm / mà bị cấm ho →
+
+clip: nbt4-1.mp4 | Đường biên giới Lạng Sơn · năm 1427
+clip: nbt4-2.mp4 | Giữa trưa | tiktok=bo
+clip: nbt4-3.mp4 | Chiều
+clip: nbt4-4.mp4 | Ải Chi Lăng | tiktok=bo
+clip: nbt4-5.mp4 | Ngay sau đó
+
+sub: 1 | 0.5-4.8 | Đánh vài hiệp rồi chạy! / Chạy cho chậm thôi, để chúng đuổi kịp!
+sub: 1 | 5.0-9.8 | Chạy thua mà còn phải canh cho giặc đuổi kịp... / nghề gì mà khó thế!
+sub: 2 | 5.0-9.8 | Đánh được thì lại không cho đánh. / Chạy mãi thế này người ta tưởng mình sợ thật.
+sub: 3 | 5.0-9.8 | Nó cười mình kìa. / Chạy cả ngày rồi mà vẫn chưa được đánh!
+sub: 5 | 5.0-9.8 | Chạy xong rồi. / Giờ thì quay lại mà đánh!

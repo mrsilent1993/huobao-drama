@@ -1,0 +1,14 @@
+# Dựng: python3 ../tools/tiktok.py tap-5-nap-rach-gam-1785.plan.txt tap-5-nap-rach-gam-1785.mp4  (ra tap-5-nap-rach-gam-1785-youtube.mp4 và tap-5-nap-rach-gam-1785-tiktok.mp4)
+hook: Nấp trong rạch cả đêm / bị cấm ho, cấm đập muỗi
+end: Sáng hôm ấy sông Tiền ra sao? / Follow để xem tập sau →
+
+clip: nbt5-1.mp4 | Sông Tiền · tháng 1 năm 1785
+clip: nbt5-2.mp4 | Nửa đêm | tiktok=bo
+clip: nbt5-3.mp4 | Gần sáng
+clip: nbt5-4.mp4 | Rạng sáng | tiktok=bo
+clip: nbt5-5.mp4 | Ngay sau đó
+
+sub: 1 | 0.5-4.8 | Cấm nói, cấm ho, cấm đập muỗi. / Ai động là chết cả rạch.
+sub: 2 | 5.0-9.8 | Giặc chưa thấy đâu, / muỗi đã đánh mình tan tác rồi...
+sub: 3 | 0.5-4.8 | Cả đêm ngồi im cho muỗi ăn, / mà chẳng ai nói chờ cái gì.
+sub: 5 | 5.0-9.5 | Giờ thì đập được rồi!

@@ -1,0 +1,17 @@
+# Dựng: python3 ../tools/tiktok.py tap-3-cheo-thuyen-nhu-giac-1288.plan.txt tap-3-cheo-thuyen-nhu-giac-1288.mp4  (ra tap-3-cheo-thuyen-nhu-giac-1288-youtube.mp4 và tap-3-cheo-thuyen-nhu-giac-1288-tiktok.mp4)
+hook: Chèo thuyền nhử giặc / rồi bỏ chạy
+end: Thuyền giặc mắc cọc rồi ra sao? / Follow để xem mai bạn được lệnh / chạy thua cả ngày →
+
+clip: nbt3-1.mp4 | Cửa sông Bạch Đằng · năm 1288
+clip: nbt3-2.mp4 | Triều lên | tiktok=bo
+clip: nbt3-3.mp4 | Ít phút sau
+clip: nbt3-4.mp4 | Giữa trưa | tiktok=bo
+clip: nbt3-5.mp4 | Ngay sau đó
+
+sub: 1 | 0.5-4.8 | Ra đánh vài nhát rồi quay đầu chạy. / Nhớ: phải thua!
+sub: 1 | 5.0-9.8 | Đi đánh trận mà được lệnh thua... / lần đầu em nghe đấy.
+sub: 2 | 5.0-9.0 | Đủ rồi! Chạy!
+sub: 3 | 0.5-4.8 | Diễn thua mà sao / giống thua thật thế này!
+sub: 3 | 5.0-9.5 | Thì cứ chạy đi, thua cho ra thua!
+sub: 4 | 5.0-9.5 | Ơ... cọc ở đâu ra lắm thế?
+sub: 5 | 5.0-9.8 | Thua một buổi sáng, thắng cả cuộc chiến. / Giờ thì đánh thật!
