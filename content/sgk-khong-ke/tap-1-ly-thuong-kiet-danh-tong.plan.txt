@@ -1,0 +1,26 @@
+# Dựng: python3 ../tools/tiktok.py tap-1-ly-thuong-kiet-danh-tong.plan.txt tap-1-ly-thuong-kiet-danh-tong.mp4  (ra tap-1-ly-thuong-kiet-danh-tong-youtube.mp4 và tap-1-ly-thuong-kiet-danh-tong-tiktok.mp4)
+hook: Lý Thường Kiệt đánh Tống: / điều sách giáo khoa / không kể
+end: Năm sau, quân Tống sang báo thù... / Follow để xem mai bạn giữ / phòng tuyến sông Như Nguyệt →
+
+clip: sgk1-1.mp4 | Thăng Long · cuối năm 1075
+clip: sgk1-2.mp4 | Đất Tống · đầu năm 1076
+clip: sgk1-3.mp4 | Thành Ung Châu · ngày thứ 30 vây thành
+clip: sgk1-4.mp4 | Ngày thứ 42 · thành vỡ | tiktok=bo
+clip: sgk1-5.mp4 | Sáng hôm sau | tiktok=0-5
+clip: sgk1-6.mp4 | Rút quân về nước · mùa xuân 1076 | tiktok=5-10
+
+sub: 1 | 0.5-3.0 | Nhà Tống đang gom quân lương để sang đánh ta. / Ta sang trước.
+sub: 1 | 3.0-4.9 | Đánh giặc... ở nhà giặc ạ?
+sub: 1 | 5.0-7.5 | Đại tướng năm nay ngoài năm mươi rồi đấy. / Sách còn chép ông là hoạn quan.
+sub: 1 | 7.5-9.8 | Thế mà dẫn cả mười vạn quân...
+sub: 2 | 0.5-4.8 | Quân Nam sang... để cứu dân Tống khỏi / phép thanh miêu, trợ dịch của Vương An Thạch?
+sub: 2 | 5.0-7.5 | Thế các anh đánh xong / có bỏ thuế cho tôi không?
+sub: 2 | 7.5-9.8 | ...Cái đó em không được dặn.
+sub: 3 | 0.5-4.8 | Giữ vững! Viện binh sắp đến rồi!
+sub: 3 | 5.0-9.8 | Ông ấy hô câu đó từ ngày thứ ba rồi...
+sub: 4 | 0.5-4.8 | Tô Giám không chịu hàng. / Ông ấy tự thiêu rồi.
+sub: 4 | 5.0-9.5 | Bên nào cũng có người giữ thành đến cùng.
+sub: 5 | 0.5-4.8 | Sử nhà Tống chép: / hơn năm vạn người trong thành đã chết.
+sub: 5 | 5.0-9.8 | Con số có thể bị phóng đại. / Nhưng sách giáo khoa gần như không nhắc.
+sub: 6 | 0.5-4.8 | Thưa đại tướng, / mình thắng rồi sao không giữ đất?
+sub: 6 | 5.0-9.8 | Kho lương của chúng đã cháy, đường tiến quân đã phá. / Chúng muốn sang, phải làm lại từ đầu.
