@@ -35,7 +35,10 @@ def build(episodes, here, series_tag="", note="", unit="Phần", file_unit="phan
         plan = [f"# Dựng: python3 ../tools/tiktok.py {base}.plan.txt {base}.mp4"
                 + (f"  (ra {base}-youtube.mp4 và {base}-tiktok.mp4)" if any(
                     c.get("tiktok") for c in ep["clips"]) else ""),
-                f"hook: {ep['hook']}", f"end: {ep['end']}", ""]
+                f"hook: {ep['hook']}", f"end: {ep['end']}"]
+        if ep.get("end_secs"):
+            plan.append(f"end_giay: {ep['end_secs']}")
+        plan.append("")
         subs = []
         for i, c in enumerate(ep["clips"], 1):
             fname = f"{ep['prefix']}-{i}.mp4"

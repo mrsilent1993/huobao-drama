@@ -6,13 +6,13 @@
 
 Copy từng khối dán thẳng vào phần mềm. Prompt đã ghép đủ, không cần thay gì.
 
-**Cú lật:** 4 clip đầu không lộ năm, tên thành hay phe. Mốc thời gian chỉ ghi "Ngày thứ 42". Đến clip 5, dòng mốc mới hiện **"Ung Châu, năm 1076 · Bạn là lính nhà Tống"**. **Kiểm duyệt:** đọc mục "Kiểm duyệt TikTok" trong `README.md` trước khi đăng.
+**Cú lật:** cả 5 clip không lộ năm, tên thành hay phe, mốc thời gian chỉ ghi "Ngày thứ 42". Ở clip 5, người đưa tin báo Tri châu không chịu hàng, rồi giọng người kể xác nhận: "Phải... bạn là lính nhà Tống. Ung Châu, năm 1076. Và đội quân ngoài kia... là quân Đại Việt." **Kiểm duyệt:** đọc mục "Kiểm duyệt TikTok" trong `README.md` trước khi đăng.
 
 **Lịch sử (đã kiểm tra ở tập Lý Thường Kiệt):** cuối năm 1075, quân Đại Việt đánh sang đất Tống. Thành Ung Châu (nay là Nam Ninh, Trung Quốc) bị vây từ khoảng 18/1/1076 đến khoảng 1/3/1076, hơn 40 ngày. Viện binh Tống do Trương Thủ Tiết dẫn bị quân Lý đánh tan ở ải Côn Lôn, không tới được thành. Quân Lý xếp bao đất sát chân thành thành con dốc để leo lên. Dọc đường, quân Lý dán bài *Phạt Tống lộ bố văn* đổ lỗi cho phép thanh miêu, trợ dịch của Vương An Thạch. Tri châu Tô Giám không chịu hàng.
 
-**Hư cấu:** người lính Tống, bạn đồng ngũ Lão Trương, chuyện tờ hịch lọt vào trong thành, cảnh Anh Tư và mọi lời thoại.
+**Hư cấu:** người lính Tống, bạn đồng ngũ Lão Trương, chuyện tờ hịch lọt vào trong thành, Anh Tư thoáng qua ở clip 3 và mọi lời thoại.
 
-**Không đưa vào video (vì kiểm duyệt):** cái chết của Tô Giám và con số thương vong.
+**Cái chết của Tô Giám:** chỉ nói bằng một câu báo tin (thà chết trong lửa, không chịu hàng), không có hình ảnh lửa hay người. Con số thương vong không đưa vào video.
 
 ## Clip 1: Viện binh sắp tới
 File Muse đặt tên: `pbk1-1.mp4`
@@ -47,12 +47,12 @@ File Muse đặt tên: `pbk1-3.mp4`
 
 **Ảnh khung đầu**
 ```
-First-person view looking down over a city wall at a steep ramp made of thousands of stacked earth sacks rising against the wall, almost reaching the parapet, besieging soldiers carrying more sacks up, the skinny veteran beside the viewer staring down, realistic, no blood, vertical 9:16.
+First-person view looking down over a city wall at a steep ramp made of thousands of stacked earth sacks rising against the wall, almost reaching the parapet, a chain of besieging soldiers carrying more sacks up, among them a Vietnamese soldier around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth glancing up with a grin, the skinny veteran beside the viewer staring down, realistic, no blood, vertical 9:16.
 ```
 
 **Video (Muse)**
 ```
-First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. Yongzhou, a walled city of the Northern Song dynasty in southern China, early spring 1076, during a long siege: rammed-earth wall faced with grey brick, crenellated parapet, wooden gate tower with dark tiled roof; grey dawn mist, smoke haze, cold desaturated colors. The viewer and his friend are ordinary, tired Song foot soldiers in dark red padded jackets and cloth head-wraps, gaunt and dirty but human and sympathetic; the friend, Lão Trương, is a skinny, sarcastic veteran around 45 with a thin moustache. The besieging army are 11th-century Đại Việt soldiers in dark tunics, conical woven helmets, round rattan shields, long spears, plain red and yellow banners, a few war elephants far behind. No blood, no gore, no corpses, no wounded close-ups, no people on fire, no children; arrows hit stone and wood, never people. No visible writing on banners. 0-5s: The viewer looks down: against the outside of the wall, a huge ramp of stacked earth sacks has grown almost to the top, and a chain of enemy soldiers keeps carrying more. 5-10s: Lão Trương says flatly: "Hôm qua dốc đến thắt lưng. Hôm nay đến cằm. Mai nó vào tận bếp!" Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync, no background music.
+First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. Yongzhou, a walled city of the Northern Song dynasty in southern China, early spring 1076, during a long siege: rammed-earth wall faced with grey brick, crenellated parapet, wooden gate tower with dark tiled roof; grey dawn mist, smoke haze, cold desaturated colors. The viewer and his friend are ordinary, tired Song foot soldiers in dark red padded jackets and cloth head-wraps, gaunt and dirty but human and sympathetic; the friend, Lão Trương, is a skinny, sarcastic veteran around 45 with a thin moustache. The besieging army are 11th-century Đại Việt soldiers in dark tunics, conical woven helmets, round rattan shields, long spears, plain red and yellow banners, a few war elephants far behind. No blood, no gore, no corpses, no wounded close-ups, no people on fire, no children; arrows hit stone and wood, never people. No visible writing on banners. 0-5s: The viewer looks down: against the outside of the wall, a huge ramp of stacked earth sacks has grown almost to the top, and a chain of enemy soldiers keeps carrying more; one of them, with a chipped front tooth and a scar on his eyebrow, glances up and grins. 5-10s: Lão Trương says flatly: "Hôm qua dốc đến thắt lưng. Hôm nay đến cằm. Mai nó vào tận bếp!" Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync, no background music.
 ```
 
 ## Clip 4: Tin đến muộn
@@ -70,17 +70,17 @@ First-person view on a city wall at dusk, a thin exhausted messenger whispering 
 First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. Yongzhou, a walled city of the Northern Song dynasty in southern China, early spring 1076, during a long siege: rammed-earth wall faced with grey brick, crenellated parapet, wooden gate tower with dark tiled roof; grey dawn mist, smoke haze, cold desaturated colors. The viewer and his friend are ordinary, tired Song foot soldiers in dark red padded jackets and cloth head-wraps, gaunt and dirty but human and sympathetic; the friend, Lão Trương, is a skinny, sarcastic veteran around 45 with a thin moustache. The besieging army are 11th-century Đại Việt soldiers in dark tunics, conical woven helmets, round rattan shields, long spears, plain red and yellow banners, a few war elephants far behind. No blood, no gore, no corpses, no wounded close-ups, no people on fire, no children; arrows hit stone and wood, never people. No visible writing on banners. 0-5s: A messenger crouches beside them and whispers: "Viện binh bị đánh tan ở Côn Lôn rồi. Từ ba tuần trước." 5-10s: The viewer whispers back, stunned: "Ba tuần trước?! Thế ai hô sắp tới suốt ba tuần nay?" Lão Trương slowly closes his eyes. Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync, no background music.
 ```
 
-## Clip 5: Bạn đứng phía nào?
+## Clip 5: Phải... bạn là lính nhà Tống
 File Muse đặt tên: `pbk1-5.mp4`
 
 **Ảnh khung đầu**
 ```
-First-person high view from a city wall at dawn, a huge column of 11th-century Đại Việt soldiers with conical woven helmets, rattan shields and plain red and yellow banners pouring up a ramp of earth sacks onto the wall, war elephants far behind, a Vietnamese soldier around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth reaching the top of the ramp and grinning at the viewer, no blood, realistic, vertical 9:16.
+First-person high view from a city wall at grey dawn through drifting smoke, a huge column of 11th-century Đại Việt soldiers with conical woven helmets, round rattan shields, long spears and plain red and yellow banners pouring up a ramp of earth sacks onto the wall, a few war elephants far behind, a messenger kneeling beside the viewer, no fire in frame, no blood, realistic, vertical 9:16.
 ```
 
 **Video (Muse)**
 ```
-First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. Yongzhou, a walled city of the Northern Song dynasty in southern China, early spring 1076, during a long siege: rammed-earth wall faced with grey brick, crenellated parapet, wooden gate tower with dark tiled roof; grey dawn mist, smoke haze, cold desaturated colors. The viewer and his friend are ordinary, tired Song foot soldiers in dark red padded jackets and cloth head-wraps, gaunt and dirty but human and sympathetic; the friend, Lão Trương, is a skinny, sarcastic veteran around 45 with a thin moustache. The besieging army are 11th-century Đại Việt soldiers in dark tunics, conical woven helmets, round rattan shields, long spears, plain red and yellow banners, a few war elephants far behind. No blood, no gore, no corpses, no wounded close-ups, no people on fire, no children; arrows hit stone and wood, never people. No visible writing on banners. 0-5s: Drums thunder; the enemy army pours up the ramp of earth sacks onto the wall; the camera rises into a high wide shot: an endless column of Đại Việt soldiers with conical woven helmets, rattan shields and red and yellow banners, war elephants far behind. 5-10s: At the top of the ramp, a grinning Đại Việt soldier with a chipped front tooth and a scar on his eyebrow (a Vietnamese soldier around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth) waves cheerfully at the viewer: "Chào anh! Cái dốc này em đắp đấy!" Lão Trương drops his spear and raises both hands. Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync, no background music.
+First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. Yongzhou, a walled city of the Northern Song dynasty in southern China, early spring 1076, during a long siege: rammed-earth wall faced with grey brick, crenellated parapet, wooden gate tower with dark tiled roof; grey dawn mist, smoke haze, cold desaturated colors. The viewer and his friend are ordinary, tired Song foot soldiers in dark red padded jackets and cloth head-wraps, gaunt and dirty but human and sympathetic; the friend, Lão Trương, is a skinny, sarcastic veteran around 45 with a thin moustache. The besieging army are 11th-century Đại Việt soldiers in dark tunics, conical woven helmets, round rattan shields, long spears, plain red and yellow banners, a few war elephants far behind. No blood, no gore, no corpses, no wounded close-ups, no people on fire, no children; arrows hit stone and wood, never people. No visible writing on banners. 0-3.5s: Drums thunder as the enemy pours up the ramp onto the wall; a soot-faced messenger stumbles up beside the viewer and says, out of breath: "Tri châu thà chết trong lửa, không chịu hàng." Lão Trương lowers his spear in silence. 3.5-10s: The camera slowly turns and rises into a high wide shot over the wall: an endless column of Đại Việt soldiers with conical woven helmets, rattan shields and red and yellow banners, war elephants far behind; everything goes quiet except the wind. A calm, low narrator's voice says slowly: "Phải... bạn là lính nhà Tống. Ung Châu, năm 1076. Và đội quân ngoài kia... là quân Đại Việt." Hold on the wide view. No fire, no people burning, no bodies shown. Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync, no background music.
 ```
 
 ## Đăng TikTok
@@ -113,13 +113,14 @@ Khi đăng: ở mục "Nội dung bị thay đổi" (Altered content) chọn **C
 ```
 # Dựng: python3 ../tools/tiktok.py tap-1-ngay-thu-42-ung-chau-1076.plan.txt tap-1-ngay-thu-42-ung-chau-1076.mp4  (ra tap-1-ngay-thu-42-ung-chau-1076-youtube.mp4 và tap-1-ngay-thu-42-ung-chau-1076-tiktok.mp4)
 hook: POV: Lính giữ thành / Ngày thứ 42
-end: Cùng một trận, hai bên nhớ hai cách. / Follow để xem quân Tống phản công →
+end: Follow để xem / quân Tống phản công →
+end_giay: 1.2
 
 clip: pbk1-1.mp4 | Ngày thứ 42
 clip: pbk1-2.mp4 | Ngày thứ 42 · giữa buổi | tiktok=bo
 clip: pbk1-3.mp4 | Ngày thứ 42 · chiều
 clip: pbk1-4.mp4 | Ngày thứ 42 · chạng vạng | tiktok=bo
-clip: pbk1-5.mp4 | Ung Châu · năm 1076 / Bạn là lính nhà Tống
+clip: pbk1-5.mp4 | Ngày thứ 42 · rạng sáng
 
 sub: 1 | 0.5-4.8 | Giữ vững! / Viện binh sắp tới!
 sub: 1 | 5.0-9.8 | Câu đó nghe bốn mươi ngày rồi. / Tai tao thuộc hơn tên vợ.
@@ -128,5 +129,7 @@ sub: 2 | 5.0-9.8 | Nó đánh để cứu mình khỏi thuế... / còn mình gi
 sub: 3 | 5.0-9.8 | Hôm qua dốc đến thắt lưng. / Hôm nay đến cằm. / Mai nó vào tận bếp!
 sub: 4 | 0.5-4.8 | Viện binh bị đánh tan ở Côn Lôn rồi. / Từ ba tuần trước.
 sub: 4 | 5.0-9.8 | Ba tuần trước?! / Thế ai hô sắp tới suốt ba tuần nay?
-sub: 5 | 5.0-9.5 | Chào anh! / Cái dốc này em đắp đấy!
+sub: 5 | 0.3-3.5 | Tri châu thà chết trong lửa, / không chịu hàng.
+sub: 5 | 3.8-6.3 | Phải... / bạn là lính nhà Tống. / Ung Châu, năm 1076.
+sub: 5 | 6.4-9.8 | Và đội quân ngoài kia... / là quân Đại Việt.
 ```

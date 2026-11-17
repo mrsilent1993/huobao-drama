@@ -10,24 +10,24 @@ Loạt POV đặt người xem vào vai **lính của phía đối phương**. B
 
 | | Bản nháp | Bản làm lại |
 |---|---|---|
-| Giọng kể | Lời bình u ám bằng giọng đọc tự động | Thoại đời thường giữa người xem và bạn đồng ngũ Lão Trương, nhân vật lồng tiếng khớp khẩu hình |
+| Giọng kể | Lời bình bằng giọng đọc tự động suốt video | Bốn clip đầu là thoại đời thường với bạn đồng ngũ Lão Trương. Clip cuối dùng **giọng người kể** để xác nhận cú lật |
 | Câu đáng gửi bạn bè | Không có | "Tai tao thuộc hơn tên vợ", "Mai nó vào tận bếp!", "Chào anh! Cái dốc này em đắp đấy!" |
-| Cú lật | Chữ trên màn hình kèm lời bình | Dòng mốc thời gian "Ung Châu · năm 1076 / Bạn là lính nhà Tống", và **Anh Tư** leo lên dốc bao đất chào người xem |
-| Cái chết của Tô Giám | Mái nhà cháy, lời bình "thà chết trong lửa" | **Bỏ hẳn** khỏi hình và lời |
+| Cú lật | Lời bình và chữ trên màn hình | Người đưa tin báo **"Tri châu thà chết trong lửa, không chịu hàng."** Rồi giọng người kể xác nhận: **"Phải… bạn là lính nhà Tống. Ung Châu, năm 1076. Và đội quân ngoài kia… là quân Đại Việt."** Anh Tư chỉ xuất hiện thoáng qua trong đoàn người đắp dốc ở clip 3 |
+| Cái chết của Tô Giám | Cảnh mái nhà cháy kèm lời bình | **Chỉ còn lời**: một câu báo tin. Không có hình ảnh lửa hay người |
 | Độ dài | Chỉ 30 giây | TikTok 30 giây và YouTube 50 giây (thêm 2 clip: tờ hịch về thuế của Vương An Thạch, tin viện binh đến muộn ba tuần) |
 
 ## Kiểm duyệt TikTok
 
 | Mảng chính sách | Rủi ro ở bản nháp | Đã xử lý |
 |---|---|---|
-| **Tự tử, tự gây hại** | Lời bình "thà chết trong lửa", cảnh dinh tri châu bốc cháy | Bỏ hẳn. Chuyện này chỉ để trong ghi chú lịch sử của file, không đưa lên video, caption hay bình luận ghim |
+| **Tự tử, tự gây hại** | Lời bình "thà chết trong lửa" kèm cảnh dinh tri châu bốc cháy | **Giữ câu báo tin theo yêu cầu, nhưng giảm rủi ro:** chỉ là một câu thoại trong 3 giây, không có lửa, không có người, không dùng chữ "tự thiêu", không dựng như hành động đáng ngưỡng mộ, không nhắc lại trong caption hay bình luận ghim. **Vẫn còn rủi ro nhỏ.** Nếu video bị gắn cờ ở mục này, xóa video, sửa phụ đề clip 5 thành "Tri châu không chịu hàng", lồng lại tiếng rồi đăng lại |
 | **Bạo lực, nội dung ghê rợn** | Ít, bản nháp đã chặn máu và xác | Giữ nguyên các câu chặn: tên chỉ cắm vào đá và gỗ, không cận cảnh người bị thương, không xác, không người bị cháy |
 | **An toàn trẻ em** | Không có | Câu chặn trẻ em đã có sẵn trong khối mô tả chung |
 | **Thù ghét, kỳ thị** | Có thể bị đọc là chế giễu lính Tống | Lính Tống được kể với sự cảm thông (mệt, bị lừa về viện binh, cười giễu chính cấp trên), không bêu riếu dân tộc nào |
 | **Nội dung AI trông như thật** | Chưa nhắc | Bật nhãn "Nội dung do AI tạo". Caption ghi "Video dựng bằng AI, lời thoại là hư cấu" |
 | **Thông tin sai** | Ổn | Giữ đúng các chi tiết đã kiểm tra: hơn 40 ngày vây thành, viện binh thua ở ải Côn Lôn, dốc bao đất, tờ hịch thanh miêu. Bỏ con số "3.000 quân" vì chưa đối chiếu được |
 
-Mình không mở được trang Nguyên tắc Cộng đồng của TikTok để đối chiếu nguyên văn. Các mảng trên dựa theo những bản tóm tắt và bản lưu của bộ nguyên tắc hiện hành (có hiệu lực từ 13/9/2025). Riêng mảng tự tử và tự gây hại cấm cả việc **thể hiện** hành vi này, nên an toàn nhất là bỏ hẳn.
+Mình không mở được trang Nguyên tắc Cộng đồng của TikTok để đối chiếu nguyên văn. Các mảng trên dựa theo những bản tóm tắt và bản lưu của bộ nguyên tắc hiện hành (có hiệu lực từ 13/9/2025). Riêng mảng tự tử và tự gây hại cấm cả việc **thể hiện** hành vi này. Video chỉ nhắc bằng lời như một sự kiện lịch sử, không thể hiện bằng hình, nên rủi ro thấp nhưng không bằng 0.
 
 ## Bình luận ghim (dán ngay khi đăng)
 

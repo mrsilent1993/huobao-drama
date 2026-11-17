@@ -20,6 +20,7 @@ Phụ đề tự cắt và dời theo đoạn được giữ.
 plan.txt (dòng trống và dòng bắt đầu bằng # được bỏ qua; " / " là xuống dòng bắt buộc):
     hook: POV: Bạn là dân Hoa Lư / ngày dời đô năm 1010     # chữ lớn giữa màn hình, 0-2.5s
     end: Năm 1010, Lý Thái Tổ dời đô / về Đại La, đặt tên Thăng Long.   # 3 giây cuối
+    end_giay: 1.5                                                   # (tùy chọn) đổi số giây dòng kết
     clip: dl-1.mp4 | Hoa Lư · sáng sớm          # file | mốc thời gian hiện 3s đầu clip
     sub: 1 | 0.5-4.8 | Đang yên đang lành, vua lại bắt cả kinh thành dọn nhà!
     # sub: <số clip> | <giây bắt đầu>-<giây kết thúc trong clip đó> | lời thoại
@@ -85,7 +86,7 @@ def probe_duration(path):
 
 def parse(plan_path):
     base = os.path.dirname(os.path.abspath(plan_path))
-    plan = {"hook": "", "end": "", "clips": [], "subs": []}
+    plan = {"hook": "", "end": "", "end_secs": 3.0, "clips": [], "subs": []}
     with open(plan_path, encoding="utf-8") as fh:
         for n, raw in enumerate(fh, 1):
             line = raw.strip()
@@ -95,6 +96,8 @@ def parse(plan_path):
             key, val = key.strip(), val.strip()
             if key in ("hook", "end"):
                 plan[key] = val
+            elif key == "end_giay":             # số giây dòng chữ kết hiện ở cuối video (mặc định 3)
+                plan["end_secs"] = float(val)
             elif key == "clip":
                 parts = [p.strip() for p in val.split("|")]
                 f, cap = parts[0], (parts[1] if len(parts) > 1 else "")
@@ -201,8 +204,9 @@ def render(plan, out, version):
             if s1 - s0 >= 0.8:          # phụ đề còn lại quá ngắn thì bỏ
                 v.append(drawtext(text, 54, SUB_Y, f"between(t,{s0:.2f},{s1:.2f})"))
         if i == n - 1 and end_text:
-            v.append(f"drawbox=x=0:y=ih*0.36:w=iw:h=ih*0.22:color=black@0.6:t=fill:enable='gte(t,{d - 3})'")
-            v.append(drawtext(end_text, 52, "(h-th)*0.45", f"gte(t,{d - 3})"))
+            e0 = max(0.0, d - plan["end_secs"])
+            v.append(f"drawbox=x=0:y=ih*0.36:w=iw:h=ih*0.22:color=black@0.6:t=fill:enable='gte(t,{e0})'")
+            v.append(drawtext(end_text, 52, "(h-th)*0.45", f"gte(t,{e0})"))
         chain.append(",".join(v) + f",format=yuv420p[v{i}]")
         # loudnorm kéo dài đuôi âm thanh; cắt về đúng đoạn hình để không lệch tiếng
         chain.append(f"[{i}:a]aresample=48000,aformat=channel_layouts=stereo,"
