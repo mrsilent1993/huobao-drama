@@ -1,0 +1,21 @@
+# Dựng: python3 ../tools/tiktok.py tap-6-dong-thuyen-cho-giac-1427.plan.txt tap-6-dong-thuyen-cho-giac-1427.mp4  (ra tap-6-dong-thuyen-cho-giac-1427-youtube.mp4 và tap-6-dong-thuyen-cho-giac-1427-tiktok.mp4)
+hook: POV: Đóng 500 thuyền / không ai nói làm gì
+end: Thuyền ra đến biển rồi sao? / Follow để xem đời sau nhà Anh Tư →
+
+clip: nbt6-1.mp4 | Bến sông Đông Quan / cuối năm 1427
+clip: nbt6-2.mp4 | Mấy hôm sau | tiktok=bo
+clip: nbt6-3.mp4 | Bến sông · ngày giao thuyền
+clip: nbt6-4.mp4 | Ngay sau đó | tiktok=bo
+clip: nbt6-5.mp4 | Rạng sáng · thuyền rời bến
+
+sub: 1 | 0.5-4.8 | Đóng cho nhanh! / Năm trăm chiếc!
+sub: 1 | 5.0-9.5 | Năm trăm chiếc? / Mình đi đánh ở đâu mà xa thế anh?
+sub: 2 | 0.5-4.8 | Gói cơm đủ ăn cả tháng... / cho ai mà nhiều thế này?
+sub: 2 | 5.0-7.0 | Cho khách.
+sub: 2 | 7.0-9.5 | Khách nhà ai mà đông thế...
+sub: 3 | 0.5-4.8 | Ơ... khách là... giặc à?
+sub: 3 | 5.0-9.8 | Đánh nhau mười năm, / giờ mình đóng thuyền / tiễn nó về?
+sub: 4 | 0.5-4.8 | Ăn cho no rồi đi luôn nhé, / đừng quay lại!
+sub: 4 | 5.0-9.5 | Giết thêm thì hận thêm. / Tiễn về thì yên lâu.
+sub: 5 | 0.3-4.8 | Bình Ngô đại cáo chép: / cấp cho năm trăm / chiếc thuyền, ra đến biển / mà vẫn hồn bay phách lạc.
+sub: 5 | 5.0-9.8 | Thuyền em đóng / có trong Bình Ngô đại cáo! / Ghi tên em vào sử nhé!

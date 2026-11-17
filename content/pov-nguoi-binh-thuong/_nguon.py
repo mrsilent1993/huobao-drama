@@ -247,6 +247,59 @@ EPISODES = [
                  "Bạn nhịn được mấy con muỗi? 👇"),
         tags="#rachgamxoaimut #nguyenhue #tayson #1785",
     ),
+    # ------------------------------------------------------------------ 1427 Đông Quan
+    dict(
+        slug="dong-thuyen-cho-giac-1427", prefix="nbt6",
+        title="Bị bắt đóng năm trăm chiếc thuyền mà không ai nói để làm gì, đến bến sông mới hiểu (Hội thề Đông Quan, 1427)",
+        length="YouTube 50 giây (5 clip) · TikTok 30 giây (clip 1, 3, 5)",
+        history=("**Lịch sử:** cuối năm 1427, sau các thắng lợi ở Chi Lăng, Xương Giang, Vương Thông xin hòa. Hai bên làm "
+                 "lễ **Hội thề Đông Quan** (các nguồn ghi ngày khác nhau, khoảng tháng 11 đến tháng 12 năm 1427). Lê Lợi "
+                 "và Nguyễn Trãi cho quân Minh rút về nước an toàn, cấp thuyền, ngựa và lương thực. Hơn 10 vạn quân Minh "
+                 "rút hết. *Bình Ngô đại cáo* của Nguyễn Trãi, viết ngay sau sự kiện, chép: \"Mã Kỳ, Phương Chính, cấp "
+                 "cho năm trăm chiếc thuyền, ra đến biển mà vẫn hồn bay phách lạc; Vương Thông, Mã Anh, phát cho vài nghìn "
+                 "cỗ ngựa, về đến nước mà vẫn tim đập chân run.\" Con số \"năm trăm\" là của áng văn, có thể mang tính "
+                 "văn chương. **Hư cấu:** Anh Tư, viên quan đốc thợ, người lính Minh và mọi lời thoại."),
+        setting=("Vietnam, Lê dynasty founding, late 1427, the bank of the Red River near Đông Quan (Thăng Long): a huge "
+                 "riverside boatyard with hundreds of wooden boats under construction, piles of planks, the smell of fresh "
+                 "wood and tar; later a long line of tired, disarmed Ming soldiers in faded red-and-black uniforms walking "
+                 "calmly down to the river, treated with dignity, no chains, no violence. Lam Sơn soldiers and villagers in "
+                 "plain brown and dark-blue clothes with head wraps; a stern officer overseeing the work. Anh Tư is "
+                 f"{FACE}, in a brown tunic and head wrap, covered in sawdust."),
+        hook="POV: Đóng 500 thuyền / không ai nói làm gì",
+        end="Thuyền ra đến biển rồi sao? / Follow để xem đời sau nhà Anh Tư →",
+        clips=[
+            dict(name="Năm trăm chiếc", label="Bến sông Đông Quan / cuối năm 1427",
+                 img=f"First-person close-up of hands hammering a wooden peg into a boat plank in a huge riverside boatyard, sawdust flying, hundreds of boats under construction behind, {FACE} beside the viewer covered in sawdust, a stern officer pointing, realistic, vertical 9:16.",
+                 vid="0-5s: Close-up: hands hammer a wooden peg into a boat plank, sawdust flying; the officer walks past shouting: \"Đóng cho nhanh! Năm trăm chiếc!\" 5-10s: Anh Tư, covered in sawdust, stops hammering: \"Năm trăm chiếc? Mình đi đánh ở đâu mà xa thế anh?\"",
+                 subs=[(0.5, 4.8, "Đóng cho nhanh! / Năm trăm chiếc!"),
+                       (5.0, 9.5, "Năm trăm chiếc? / Mình đi đánh ở đâu mà xa thế anh?")]),
+            dict(name="Cơm cho khách", tiktok="bo", label="Mấy hôm sau",
+                 img=f"First-person view at a riverside camp, villagers packing huge baskets of rice balls and dried fish onto a growing mountain of supplies, {FACE} holding a basket and frowning, the stern officer nearby, realistic, vertical 9:16.",
+                 vid="0-5s: Villagers pack rice balls and dried fish into a mountain of baskets; Anh Tư holds one up: \"Gói cơm đủ ăn cả tháng... cho ai mà nhiều thế này?\" 5-10s: The officer answers without looking up: \"Cho khách.\" Anh Tư stares at the mountain of baskets: \"Khách nhà ai mà đông thế...\"",
+                 subs=[(0.5, 4.8, "Gói cơm đủ ăn cả tháng... / cho ai mà nhiều thế này?"),
+                       (5.0, 7.0, "Cho khách."),
+                       (7.0, 9.5, "Khách nhà ai mà đông thế...")]),
+            dict(name="Khách là ai", label="Bến sông · ngày giao thuyền",
+                 img=f"First-person view at a riverbank, a long line of tired, disarmed Ming soldiers in faded red-and-black uniforms walking calmly down to rows of new wooden boats, {FACE} frozen with a hammer in hand and his jaw dropped, no violence, realistic, vertical 9:16.",
+                 vid="0-5s: A long line of tired, disarmed Ming soldiers walks calmly down to the rows of new boats; Anh Tư freezes, hammer in hand: \"Ơ... khách là... giặc à?\" 5-10s: He turns to the viewer, completely lost: \"Đánh nhau mười năm, giờ mình đóng thuyền tiễn nó về?\"",
+                 subs=[(0.5, 4.8, "Ơ... khách là... giặc à?"),
+                       (5.0, 9.8, "Đánh nhau mười năm, / giờ mình đóng thuyền / tiễn nó về?")]),
+            dict(name="Tiễn về thì yên lâu", tiktok="bo", label="Ngay sau đó",
+                 img=f"First-person view at a riverbank, {FACE} handing a basket of rice to a tired Ming soldier who bows in thanks, the stern officer standing beside them watching calmly, boats waiting, realistic, vertical 9:16.",
+                 vid="0-5s: Anh Tư grudgingly hands a basket of rice to a tired Ming soldier, who bows deeply; Anh Tư mutters: \"Ăn cho no rồi đi luôn nhé, đừng quay lại!\" The soldier nods hard. 5-10s: The officer, watching, says quietly to Anh Tư: \"Giết thêm thì hận thêm. Tiễn về thì yên lâu.\" Anh Tư slowly nods.",
+                 subs=[(0.5, 4.8, "Ăn cho no rồi đi luôn nhé, / đừng quay lại!"),
+                       (5.0, 9.5, "Giết thêm thì hận thêm. / Tiễn về thì yên lâu.")]),
+            dict(name="Ghi tên em vào sử", label="Rạng sáng · thuyền rời bến",
+                 img=f"First-person view at dawn from a riverbank, hundreds of wooden boats sailing away down the wide misty Red River carrying soldiers home, {FACE} standing on the bank with arms crossed and a proud chipped-tooth grin, realistic, vertical 9:16.",
+                 vid="0-5s: Dawn; hundreds of boats glide away down the misty river. A calm narrator's voice says: \"Bình Ngô đại cáo chép: cấp cho năm trăm chiếc thuyền, ra đến biển mà vẫn hồn bay phách lạc.\" 5-10s: Anh Tư, arms crossed on the bank, turns to the camera with his chipped-tooth grin: \"Thuyền em đóng có trong Bình Ngô đại cáo đấy! Ghi tên em vào sử nhé!\"",
+                 subs=[(0.3, 4.8, "Bình Ngô đại cáo chép: / cấp cho năm trăm / chiếc thuyền, ra đến biển / mà vẫn hồn bay phách lạc."),
+                       (5.0, 9.8, "Thuyền em đóng / có trong Bình Ngô đại cáo! / Ghi tên em vào sử nhé!")]),
+        ],
+        caption=("Bị bắt đóng năm trăm chiếc thuyền mà không ai nói để làm gì, đến bến sông mới hiểu 😳 Cuối năm 1427, "
+                 "sau Hội thề Đông Quan, Lê Lợi và Nguyễn Trãi cấp thuyền, ngựa, lương thực cho quân Minh về nước. Bình "
+                 "Ngô đại cáo còn chép lại. Bạn có biết câu nào trong Bình Ngô đại cáo không? Viết dưới bình luận 👇"),
+        tags="#hoithedongquan #binhngodaicao #leloi #nguyentrai #1427",
+    ),
 ]
 
 if __name__ == "__main__":

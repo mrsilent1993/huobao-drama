@@ -1,0 +1,131 @@
+# Tập 6: Bị bắt đóng năm trăm chiếc thuyền mà không ai nói để làm gì, đến bến sông mới hiểu (Hội thề Đông Quan, 1427)
+
+**Độ dài:** YouTube 50 giây (5 clip) · TikTok 30 giây (clip 1, 3, 5)
+
+**Hai bản từ cùng một bộ clip:** YouTube Shorts 50 giây (đủ clip) · TikTok 30 giây (rút gọn theo ghi chú "Bản TikTok" ở từng clip).
+
+Copy từng khối dán thẳng vào phần mềm. Prompt đã ghép đủ, không cần thay gì.
+
+**Anh Tư:** nhân vật của video 1,4 triệu. Mỗi tập là một đời con cháu, cùng một gương mặt: **sẹo ngang lông mày trái, răng cửa mẻ, cười toe**. Dùng lại ảnh chân dung Anh Tư (prompt trong `../bach-dang/README.md`) làm ảnh tham chiếu trong Muse, chỉ đổi trang phục theo thời. **Bản TikTok 30 giây** gồm clip 1, 3, 5; **bản YouTube 50 giây** gồm đủ 5 clip.
+
+**Lịch sử:** cuối năm 1427, sau các thắng lợi ở Chi Lăng, Xương Giang, Vương Thông xin hòa. Hai bên làm lễ **Hội thề Đông Quan** (các nguồn ghi ngày khác nhau, khoảng tháng 11 đến tháng 12 năm 1427). Lê Lợi và Nguyễn Trãi cho quân Minh rút về nước an toàn, cấp thuyền, ngựa và lương thực. Hơn 10 vạn quân Minh rút hết. *Bình Ngô đại cáo* của Nguyễn Trãi, viết ngay sau sự kiện, chép: "Mã Kỳ, Phương Chính, cấp cho năm trăm chiếc thuyền, ra đến biển mà vẫn hồn bay phách lạc; Vương Thông, Mã Anh, phát cho vài nghìn cỗ ngựa, về đến nước mà vẫn tim đập chân run." Con số "năm trăm" là của áng văn, có thể mang tính văn chương. **Hư cấu:** Anh Tư, viên quan đốc thợ, người lính Minh và mọi lời thoại.
+
+## Clip 1: Năm trăm chiếc
+File Muse đặt tên: `nbt6-1.mp4`
+
+**Ảnh khung đầu**
+```
+First-person close-up of hands hammering a wooden peg into a boat plank in a huge riverside boatyard, sawdust flying, hundreds of boats under construction behind, a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face beside the viewer covered in sawdust, a stern officer pointing, realistic, vertical 9:16.
+```
+
+**Video (Muse)**
+```
+First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. Vietnam, Lê dynasty founding, late 1427, the bank of the Red River near Đông Quan (Thăng Long): a huge riverside boatyard with hundreds of wooden boats under construction, piles of planks, the smell of fresh wood and tar; later a long line of tired, disarmed Ming soldiers in faded red-and-black uniforms walking calmly down to the river, treated with dignity, no chains, no violence. Lam Sơn soldiers and villagers in plain brown and dark-blue clothes with head wraps; a stern officer overseeing the work. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face, in a brown tunic and head wrap, covered in sawdust. 0-5s: Close-up: hands hammer a wooden peg into a boat plank, sawdust flying; the officer walks past shouting: "Đóng cho nhanh! Năm trăm chiếc!" 5-10s: Anh Tư, covered in sawdust, stops hammering: "Năm trăm chiếc? Mình đi đánh ở đâu mà xa thế anh?" Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync, no background music.
+```
+
+## Clip 2: Cơm cho khách
+File Muse đặt tên: `nbt6-2.mp4`
+
+**Bản TikTok:** bỏ clip này.
+
+**Ảnh khung đầu**
+```
+First-person view at a riverside camp, villagers packing huge baskets of rice balls and dried fish onto a growing mountain of supplies, a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face holding a basket and frowning, the stern officer nearby, realistic, vertical 9:16.
+```
+
+**Video (Muse)**
+```
+First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. Vietnam, Lê dynasty founding, late 1427, the bank of the Red River near Đông Quan (Thăng Long): a huge riverside boatyard with hundreds of wooden boats under construction, piles of planks, the smell of fresh wood and tar; later a long line of tired, disarmed Ming soldiers in faded red-and-black uniforms walking calmly down to the river, treated with dignity, no chains, no violence. Lam Sơn soldiers and villagers in plain brown and dark-blue clothes with head wraps; a stern officer overseeing the work. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face, in a brown tunic and head wrap, covered in sawdust. 0-5s: Villagers pack rice balls and dried fish into a mountain of baskets; Anh Tư holds one up: "Gói cơm đủ ăn cả tháng... cho ai mà nhiều thế này?" 5-10s: The officer answers without looking up: "Cho khách." Anh Tư stares at the mountain of baskets: "Khách nhà ai mà đông thế..." Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync, no background music.
+```
+
+## Clip 3: Khách là ai
+File Muse đặt tên: `nbt6-3.mp4`
+
+**Ảnh khung đầu**
+```
+First-person view at a riverbank, a long line of tired, disarmed Ming soldiers in faded red-and-black uniforms walking calmly down to rows of new wooden boats, a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face frozen with a hammer in hand and his jaw dropped, no violence, realistic, vertical 9:16.
+```
+
+**Video (Muse)**
+```
+First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. Vietnam, Lê dynasty founding, late 1427, the bank of the Red River near Đông Quan (Thăng Long): a huge riverside boatyard with hundreds of wooden boats under construction, piles of planks, the smell of fresh wood and tar; later a long line of tired, disarmed Ming soldiers in faded red-and-black uniforms walking calmly down to the river, treated with dignity, no chains, no violence. Lam Sơn soldiers and villagers in plain brown and dark-blue clothes with head wraps; a stern officer overseeing the work. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face, in a brown tunic and head wrap, covered in sawdust. 0-5s: A long line of tired, disarmed Ming soldiers walks calmly down to the rows of new boats; Anh Tư freezes, hammer in hand: "Ơ... khách là... giặc à?" 5-10s: He turns to the viewer, completely lost: "Đánh nhau mười năm, giờ mình đóng thuyền tiễn nó về?" Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync, no background music.
+```
+
+## Clip 4: Tiễn về thì yên lâu
+File Muse đặt tên: `nbt6-4.mp4`
+
+**Bản TikTok:** bỏ clip này.
+
+**Ảnh khung đầu**
+```
+First-person view at a riverbank, a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face handing a basket of rice to a tired Ming soldier who bows in thanks, the stern officer standing beside them watching calmly, boats waiting, realistic, vertical 9:16.
+```
+
+**Video (Muse)**
+```
+First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. Vietnam, Lê dynasty founding, late 1427, the bank of the Red River near Đông Quan (Thăng Long): a huge riverside boatyard with hundreds of wooden boats under construction, piles of planks, the smell of fresh wood and tar; later a long line of tired, disarmed Ming soldiers in faded red-and-black uniforms walking calmly down to the river, treated with dignity, no chains, no violence. Lam Sơn soldiers and villagers in plain brown and dark-blue clothes with head wraps; a stern officer overseeing the work. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face, in a brown tunic and head wrap, covered in sawdust. 0-5s: Anh Tư grudgingly hands a basket of rice to a tired Ming soldier, who bows deeply; Anh Tư mutters: "Ăn cho no rồi đi luôn nhé, đừng quay lại!" The soldier nods hard. 5-10s: The officer, watching, says quietly to Anh Tư: "Giết thêm thì hận thêm. Tiễn về thì yên lâu." Anh Tư slowly nods. Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync, no background music.
+```
+
+## Clip 5: Ghi tên em vào sử
+File Muse đặt tên: `nbt6-5.mp4`
+
+**Ảnh khung đầu**
+```
+First-person view at dawn from a riverbank, hundreds of wooden boats sailing away down the wide misty Red River carrying soldiers home, a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face standing on the bank with arms crossed and a proud chipped-tooth grin, realistic, vertical 9:16.
+```
+
+**Video (Muse)**
+```
+First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. Vietnam, Lê dynasty founding, late 1427, the bank of the Red River near Đông Quan (Thăng Long): a huge riverside boatyard with hundreds of wooden boats under construction, piles of planks, the smell of fresh wood and tar; later a long line of tired, disarmed Ming soldiers in faded red-and-black uniforms walking calmly down to the river, treated with dignity, no chains, no violence. Lam Sơn soldiers and villagers in plain brown and dark-blue clothes with head wraps; a stern officer overseeing the work. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face, in a brown tunic and head wrap, covered in sawdust. 0-5s: Dawn; hundreds of boats glide away down the misty river. A calm narrator's voice says: "Bình Ngô đại cáo chép: cấp cho năm trăm chiếc thuyền, ra đến biển mà vẫn hồn bay phách lạc." 5-10s: Anh Tư, arms crossed on the bank, turns to the camera with his chipped-tooth grin: "Thuyền em đóng có trong Bình Ngô đại cáo đấy! Ghi tên em vào sử nhé!" Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync, no background music.
+```
+
+## Đăng TikTok
+
+```
+Bị bắt đóng năm trăm chiếc thuyền mà không ai nói để làm gì, đến bến sông mới hiểu 😳 Cuối năm 1427, sau Hội thề Đông Quan, Lê Lợi và Nguyễn Trãi cấp thuyền, ngựa, lương thực cho quân Minh về nước. Bình Ngô đại cáo còn chép lại. Bạn có biết câu nào trong Bình Ngô đại cáo không? Viết dưới bình luận 👇
+#povlichsu #POV #lichsuvietnam #xuhuong #fyp #povnguoibinhthuong #anhtu #hoithedongquan #binhngodaicao #leloi #nguyentrai #1427
+```
+
+Khi đăng: bật nhãn "Nội dung do AI tạo".
+
+## Đăng YouTube Shorts (bản đầy đủ)
+
+Tiêu đề:
+```
+POV: Đóng 500 thuyền không ai nói làm gì #Shorts
+```
+
+Mô tả:
+```
+Bị bắt đóng năm trăm chiếc thuyền mà không ai nói để làm gì, đến bến sông mới hiểu 😳 Cuối năm 1427, sau Hội thề Đông Quan, Lê Lợi và Nguyễn Trãi cấp thuyền, ngựa, lương thực cho quân Minh về nước. Bình Ngô đại cáo còn chép lại. Bạn có biết câu nào trong Bình Ngô đại cáo không? Viết dưới bình luận 👇
+
+#Shorts #povlichsu #POV #lichsuvietnam #povnguoibinhthuong #anhtu #hoithedongquan #binhngodaicao #leloi #nguyentrai #1427
+```
+
+Khi đăng: ở mục "Nội dung bị thay đổi" (Altered content) chọn **Có**, vì video do AI tạo.
+
+## Chữ trên video (mình chèn ở hậu kỳ)
+
+```
+# Dựng: python3 ../tools/tiktok.py tap-6-dong-thuyen-cho-giac-1427.plan.txt tap-6-dong-thuyen-cho-giac-1427.mp4  (ra tap-6-dong-thuyen-cho-giac-1427-youtube.mp4 và tap-6-dong-thuyen-cho-giac-1427-tiktok.mp4)
+hook: POV: Đóng 500 thuyền / không ai nói làm gì
+end: Thuyền ra đến biển rồi sao? / Follow để xem đời sau nhà Anh Tư →
+
+clip: nbt6-1.mp4 | Bến sông Đông Quan / cuối năm 1427
+clip: nbt6-2.mp4 | Mấy hôm sau | tiktok=bo
+clip: nbt6-3.mp4 | Bến sông · ngày giao thuyền
+clip: nbt6-4.mp4 | Ngay sau đó | tiktok=bo
+clip: nbt6-5.mp4 | Rạng sáng · thuyền rời bến
+
+sub: 1 | 0.5-4.8 | Đóng cho nhanh! / Năm trăm chiếc!
+sub: 1 | 5.0-9.5 | Năm trăm chiếc? / Mình đi đánh ở đâu mà xa thế anh?
+sub: 2 | 0.5-4.8 | Gói cơm đủ ăn cả tháng... / cho ai mà nhiều thế này?
+sub: 2 | 5.0-7.0 | Cho khách.
+sub: 2 | 7.0-9.5 | Khách nhà ai mà đông thế...
+sub: 3 | 0.5-4.8 | Ơ... khách là... giặc à?
+sub: 3 | 5.0-9.8 | Đánh nhau mười năm, / giờ mình đóng thuyền / tiễn nó về?
+sub: 4 | 0.5-4.8 | Ăn cho no rồi đi luôn nhé, / đừng quay lại!
+sub: 4 | 5.0-9.5 | Giết thêm thì hận thêm. / Tiễn về thì yên lâu.
+sub: 5 | 0.3-4.8 | Bình Ngô đại cáo chép: / cấp cho năm trăm / chiếc thuyền, ra đến biển / mà vẫn hồn bay phách lạc.
+sub: 5 | 5.0-9.8 | Thuyền em đóng / có trong Bình Ngô đại cáo! / Ghi tên em vào sử nhé!
+```

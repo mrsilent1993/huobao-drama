@@ -20,10 +20,11 @@ Mỗi tập có hai bản: **TikTok 30 giây** gồm clip 1, 3, 5, đúng độ 
 | 3 | Bị lệnh phải thua trận… (Bạch Đằng, 1288) | "Thua thì em giỏi nhất đội!" → "Diễn thua mà sao nó đuổi thật thế này anh ơi!" | Ném lao trúng mũ tướng giặc: "Ai bảo ném trúng?!" "Em… em lỡ tay giỏi ạ." | `nbt3-1..5` |
 | 4 | Bị lệnh chạy thua cả ngày… (Chi Lăng, 1427) | "Chạy thua mà còn phải canh tốc độ cho giặc à?!" → "Để nó cười. Cười nốt hôm nay." | Chạy nhanh quá bị kéo lại, phải vẫy giặc: "Bên này! Bên này cơ mà!" | `nbt4-1..5` |
 | 5 | Bị cấm ho, cấm đập muỗi cả đêm… (Rạch Gầm – Xoài Mút, 1785) | "Thế muỗi có bị cấm cắn không anh?" → muỗi đậu mũi sĩ quan → "Giờ thì đập được rồi!" | Cả thuyền bịt mũi Anh Tư để chặn cái hắt hơi | `nbt5-1..5` |
+| 6 | Bị bắt đóng năm trăm chiếc thuyền… (Hội thề Đông Quan, 1427) | "Năm trăm chiếc? Mình đi đánh ở đâu mà xa thế anh?" → "Đánh nhau mười năm, giờ mình đóng thuyền tiễn nó về?" → "Thuyền em đóng có trong Bình Ngô đại cáo! Ghi tên em vào sử nhé!" | "Gói cơm cho khách." / "Giết thêm thì hận thêm. Tiễn về thì yên lâu." | `nbt6-1..5` |
 
 ## Đăng
 
-- Đăng theo thứ tự 1 → 5, mỗi ngày một tập, khoảng 12 giờ trưa.
+- Đăng theo thứ tự 1 → 5, mỗi ngày một tập, khoảng 12 giờ trưa. Tập 6 (Đông Quan, 1427) có thể đăng ngay sau tập 4 (Chi Lăng, 1427) để đúng mạch thời gian, vì hai sự kiện cùng năm.
 - Hashtag của loạt: `#povnguoibinhthuong #anhtu`.
 - Ở video Bạch Đằng 938 (1,4 triệu lượt xem), ghim bình luận: "Anh Tư đời nào cũng bị giao việc không ai giải thích 😂 Xem loạt POV người bình thường ở trang cá nhân 👆".
 - Tập nào bùng nổ thì đăng tập tiếp theo trong 6–10 giờ đầu, và trả lời bình luận bằng video.
