@@ -1,0 +1,14 @@
+# Dựng: python3 ../tools/tiktok.py tap-5-cam-dap-muoi-rach-gam-1785.plan.txt tap-5-cam-dap-muoi-rach-gam-1785.mp4  (ra tap-5-cam-dap-muoi-rach-gam-1785-youtube.mp4 và tap-5-cam-dap-muoi-rach-gam-1785-tiktok.mp4)
+hook: POV: Cả đêm bị cấm ho / cấm đập muỗi
+end: Sáng ấy, ai mới phải chạy? / Follow để xem đời sau nhà Anh Tư →
+
+clip: nbt5-1.mp4 | Sông Tiền · tháng 1 năm 1785
+clip: nbt5-2.mp4 | Nửa đêm | tiktok=bo
+clip: nbt5-3.mp4 | Rạng sáng
+clip: nbt5-4.mp4 | Cùng lúc | tiktok=bo
+clip: nbt5-5.mp4 | Ngay sau đó
+
+sub: 1 | 0.5-4.8 | Cấm nói, cấm ho, cấm đập muỗi!
+sub: 1 | 5.0-9.5 | Cấm đập muỗi... / thế muỗi có bị cấm cắn không anh?
+sub: 4 | 5.0-9.5 | Giặc chưa đánh mình, / muỗi đã đánh mình tan tác rồi.
+sub: 5 | 5.0-9.8 | Giờ thì đập được rồi! / Ghi tên em vào sử nhé!

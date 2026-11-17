@@ -1,0 +1,17 @@
+# Dựng: python3 ../tools/tiktok.py tap-1-cam-tre-nhu-nguyet-1077.plan.txt tap-1-cam-tre-nhu-nguyet-1077.mp4  (ra tap-1-cam-tre-nhu-nguyet-1077-youtube.mp4 và tap-1-cam-tre-nhu-nguyet-1077-tiktok.mp4)
+hook: POV: Cắm tre cả đêm / không ai nói để làm gì
+end: Sử không ghi tên Anh Tư. / Follow để xem đời sau nhà Anh Tư / bị bắt khuân hết thóc đi →
+
+clip: nbt1-1.mp4 | Bờ sông Như Nguyệt · đêm 1077
+clip: nbt1-2.mp4 | Nửa đêm | tiktok=bo
+clip: nbt1-3.mp4 | Rạng sáng
+clip: nbt1-4.mp4 | Mấy hôm sau | tiktok=bo
+clip: nbt1-5.mp4 | Mấy tuần sau
+
+sub: 1 | 0.5-4.8 | Cắm tre dày thế này... / giặc sang hay vịt sang hả anh?
+sub: 1 | 5.0-9.5 | Cắm đi. Không hỏi.
+sub: 2 | 0.5-4.8 | Đào hố xong lại lấp kín. / Đúng là việc vô ích nhất đời em.
+sub: 2 | 5.0-9.5 | ...À. Ra là để thế này.
+sub: 3 | 5.0-9.5 | ...Vịt nhà ai mà đông thế anh?
+sub: 4 | 5.0-9.5 | Cái hố kia em đào! / Em cũng ngã rồi, em biết nó đau!
+sub: 5 | 5.0-9.8 | Cắm một đêm, nó đứng nhìn cả tháng. / Ghi tên em vào sử nhé!

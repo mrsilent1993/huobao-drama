@@ -1,0 +1,17 @@
+# Dựng: python3 ../tools/tiktok.py tap-3-lenh-phai-thua-1288.plan.txt tap-3-lenh-phai-thua-1288.mp4  (ra tap-3-lenh-phai-thua-1288-youtube.mp4 và tap-3-lenh-phai-thua-1288-tiktok.mp4)
+hook: POV: Bị lệnh phải thua / không ai nói vì sao
+end: Thua một buổi sáng thì được gì? / Follow để xem đời sau nhà Anh Tư / bị lệnh chạy thua cả ngày →
+
+clip: nbt3-1.mp4 | Cửa sông Bạch Đằng · năm 1288
+clip: nbt3-2.mp4 | Triều lên | tiktok=bo
+clip: nbt3-3.mp4 | Ít phút sau
+clip: nbt3-4.mp4 | Giữa trưa · nước rút | tiktok=bo
+clip: nbt3-5.mp4 | Ngay sau đó
+
+sub: 1 | 0.5-4.8 | Ra đánh vài nhát rồi chạy. / Nhớ: phải thua!
+sub: 1 | 5.0-9.5 | Thua thì em giỏi nhất đội!
+sub: 2 | 5.0-7.5 | Ai bảo ném trúng?! / Đã bảo là phải thua!
+sub: 2 | 7.5-9.8 | Em... em lỡ tay giỏi ạ.
+sub: 3 | 5.0-9.5 | Diễn thua mà sao / nó đuổi thật thế này anh ơi!
+sub: 4 | 5.0-9.5 | Ơ! Cái cọc kia / nhà em cắm hôm trước đây mà!
+sub: 5 | 5.0-9.8 | Thua một buổi, thắng cả cuộc chiến. / Ghi tên em vào sử nhé!

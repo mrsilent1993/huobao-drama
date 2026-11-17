@@ -1,0 +1,18 @@
+# Dựng: python3 ../tools/tiktok.py tap-2-khuan-thoc-1285.plan.txt tap-2-khuan-thoc-1285.mp4  (ra tap-2-khuan-thoc-1285-youtube.mp4 và tap-2-khuan-thoc-1285-tiktok.mp4)
+hook: POV: Khuân hết thóc đi / bỏ trống cả nhà
+end: Ba ngày sau, giặc ăn gì? / Follow để xem đời sau nhà Anh Tư / bị lệnh phải thua trận →
+
+clip: nbt2-1.mp4 | Làng ven Thăng Long · đầu năm 1285
+clip: nbt2-2.mp4 | Sáng hôm sau | tiktok=bo
+clip: nbt2-3.mp4 | Trên núi · ngày thứ hai
+clip: nbt2-4.mp4 | Thăng Long · cùng lúc | tiktok=bo
+clip: nbt2-5.mp4 | Ba ngày sau
+
+sub: 1 | 0.5-4.8 | Mang hết thóc đi! / Không để lại một hạt!
+sub: 1 | 5.0-9.5 | Giặc chưa đến mà nhà tôi / đã bị cướp trước rồi!
+sub: 2 | 0.5-4.8 | Mẹ ơi, vại cà thì giặc ăn được à? / Bỏ lại đi!
+sub: 2 | 5.0-9.5 | Giặc không ăn thì mày ăn. Vác.
+sub: 3 | 0.5-4.8 | Cả bao thóc mà nấu một nắm... / khổ thế này để làm gì?
+sub: 3 | 5.0-9.5 | Để đứa khác khổ hơn.
+sub: 5 | 0.5-4.8 | Mời giặc vào nhà mà không mời cơm. / Thế mới là lễ.
+sub: 5 | 5.0-9.5 | Ghi tên mẹ em vào sử nhé!
