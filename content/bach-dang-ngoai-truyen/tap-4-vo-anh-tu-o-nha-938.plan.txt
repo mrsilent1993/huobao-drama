@@ -1,0 +1,16 @@
+# Dựng: python3 ../tools/tiktok.py tap-4-vo-anh-tu-o-nha-938.plan.txt tap-4-vo-anh-tu-o-nha-938.mp4  (ra tap-4-vo-anh-tu-o-nha-938-youtube.mp4 và tap-4-vo-anh-tu-o-nha-938-tiktok.mp4)
+hook: Sáng tiễn chồng ra trận / chiều chưa biết có về
+end: Sử không ghi tên người chờ ở nhà. / Follow để xem tập sau →
+
+clip: ngt4-1.mp4 | Làng chài ven sông Bạch Đằng · sáng năm 938
+clip: ngt4-2.mp4 | Giữa buổi | tiktok=bo
+clip: ngt4-3.mp4 | Chiều
+clip: ngt4-4.mp4 | Chạng vạng | tiktok=bo
+clip: ngt4-5.mp4 | Tối
+
+sub: 1 | 0.5-4.8 | Đi cắm cọc gì mà mang cả búa / lẫn cơm ba ngày?
+sub: 1 | 5.0-9.5 | Người ta không nói. Anh cũng không hỏi.
+sub: 2 | 5.0-9.8 | Đàn ông đi hết, việc của họ mình làm hết. / Thế mà cũng xong!
+sub: 3 | 5.0-9.8 | Ông ấy mà không về... / tôi biết lấy ai cãi nhau.
+sub: 5 | 0.5-4.8 | Thắng rồi! / Cái cọc to nhất là anh cắm đấy!
+sub: 5 | 5.0-9.8 | Lần sau đi đâu thì nói một câu! / Bùn thế này, ai giặt?

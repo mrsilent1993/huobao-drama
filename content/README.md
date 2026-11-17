@@ -44,6 +44,18 @@ Với các tập dài 50–60 giây, **cùng một bộ clip Muse** sẽ đượ
 - Mỗi file tập có thêm mục **"Đăng YouTube Shorts"** gồm tiêu đề kèm `#Shorts` và mô tả soạn sẵn. YouTube yêu cầu khai báo nội dung do AI tạo ở mục "Nội dung bị thay đổi" (Altered content).
 - Các tập 30–40 giây (loạt Thăng Long, POV 30 giây, Bạch Đằng phần 1–2…) quá ngắn cho chuẩn YouTube 50–60 giây, nên vẫn chỉ dựng một bản.
 
+## An toàn trẻ em (bắt buộc)
+
+TikTok siết mục **An toàn cho trẻ vị thành niên** gắt nhất, đặc biệt với video AI có người trông như thật. Tập A3 cũ ("Vợ lính Ngô Quyền", có em bé khóc trong bối cảnh chiến tranh) đã bị gắn cờ vì lý do này. Từ giờ, mọi tập áp dụng:
+
+- **Không để trẻ em lộ mặt hoặc cận cảnh.** Nếu truyện bắt buộc có trẻ em (Thánh Gióng, Nguyễn Hiền), chỉ quay từ phía sau, ở xa, hoặc chỉ thấy bàn tay.
+- **Không có trẻ em khóc, sợ hãi, bị thương hay ở gần cảnh chiến tranh.** Không dùng đồ chơi trẻ em để ám chỉ thương vong.
+- **Nhân vật có thật còn nhỏ tuổi** (Trần Quốc Toản 15 tuổi) được dựng với ngoại hình thanh niên, và không dùng câu thoại kiểu "cả đội toàn trẻ con" trong bối cảnh ra trận.
+- **Cảm xúc gia đình thời chiến** dựng bằng người lớn: vợ, mẹ, ông bà, hàng xóm.
+- Khối mô tả chung trong `tools/series.py` đã có sẵn câu chặn trẻ em cận mặt và đau buồn, nên mọi prompt sinh ra đều mang câu này.
+
+**Nếu một video bị gắn cờ:** mở video, bấm vào dòng cảnh báo "Vi phạm Nguyên tắc Cộng đồng" để xem mục bị ghi. Nếu là mục an toàn trẻ em, thường nên **xóa video thay vì kháng nghị**, nhất là video có ít lượt xem, để tránh ảnh hưởng tới việc đề xuất của cả kênh.
+
 ## Chất hài
 
 Mỗi tập cần ít nhất **2 điểm cười**, và câu cuối phải là một câu chốt bất ngờ. Các kỹ thuật dùng được:

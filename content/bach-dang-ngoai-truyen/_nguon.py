@@ -156,6 +156,51 @@ EPISODES = [
         caption="Ba trăm năm trước ở đúng con sông này có người mắc cọc, và lính Nguyên tưởng đó là chuyện cổ tích 😂 Năm 1288, thủy quân Nguyên của Ô Mã Nhi mắc bẫy cọc trên sông Bạch Đằng, thuyền to quá không quay được. Bạn có biết Ô Mã Nhi về nước bằng cách nào không? 👇",
         tags="#bachdang #tranhungdao #1288 #omanhi",
     ),
+    # ------------------------------------------------------------------ 4 (A3 làm lại, chỉ người lớn)
+    dict(
+        slug="vo-anh-tu-o-nha-938", prefix="ngt4", title="Vợ Anh Tư ở nhà: sáng tiễn chồng ra trận, chiều chưa biết có về (938)",
+        length="YouTube 50 giây (5 clip) · TikTok 30 giây (clip 1, 3, 5)",
+        history=("**Bối cảnh lịch sử:** năm 938, dân chài và trai tráng ven sông Bạch Đằng theo Ngô Quyền cắm cọc, "
+                 "đánh thủy quân Nam Hán. Người ở nhà không có cách nào biết tin, chỉ nghe tiếng trống từ xa và chờ người "
+                 "về. **Hư cấu:** vợ Anh Tư, các chị em hàng xóm và mọi lời thoại. **Làm lại bản A3 bị gắn cờ:** bản này "
+                 "**chỉ có người lớn trên hình**, không có trẻ em, không có cảnh khóc lóc kéo dài; cảm xúc đến từ sự chờ "
+                 "đợi và cú gặp lại có tiếng cười."),
+        setting=("Vietnam, year 938, a fishing village on the bank of the Bạch Đằng River: thatched stilt houses, nets "
+                 "drying, wooden boats, mangroves, the wide tidal river. Adults only on screen. Women with hair wrapped "
+                 "in brown cloth, black-lacquered teeth, brown homespun dresses; Vợ Anh Tư (Anh Tư's wife) is a strong, "
+                 "quick-witted woman around 28 with a sharp tongue and warm eyes. Anh Tư is "
+                 f"{ANH_TU}."),
+        hook="Sáng tiễn chồng ra trận / chiều chưa biết có về",
+        end="Sử không ghi tên người chờ ở nhà. / Follow để xem tập sau →",
+        clips=[
+            dict(name="Tiễn chồng", label="Làng chài ven sông Bạch Đằng · sáng năm 938",
+                 img=f"First-person close-up at dawn of a woman's hands pressing rice balls into a banana leaf and tying it with string, {ANH_TU} standing at the door of a thatched stilt house with a wooden mallet on his shoulder, mist on the river, realistic, vertical 9:16.",
+                 vid="0-5s: Close-up: the viewer's hands press rice balls into a banana leaf and tie it tight; Vợ Anh Tư shoves the bundle into Anh Tư's chest: \"Đi cắm cọc gì mà mang cả búa lẫn cơm ba ngày?\" 5-10s: Anh Tư grins with his chipped tooth: \"Người ta không nói. Anh cũng không hỏi.\" He walks off toward the river with the other men; she watches him go, arms crossed.",
+                 subs=[(0.5, 4.8, "Đi cắm cọc gì mà mang cả búa / lẫn cơm ba ngày?"),
+                       (5.0, 9.5, "Người ta không nói. Anh cũng không hỏi.")]),
+            dict(name="Làng toàn đàn bà", tiktok="bo", label="Giữa buổi",
+                 img="First-person view in a fishing village at midmorning, women mending nets and hauling a heavy boat up the bank by themselves, laughing, no men in sight, realistic, vertical 9:16.",
+                 vid="0-5s: The village has no men left; the women haul a heavy boat up the bank by themselves, mend nets, chop wood. 5-10s: A neighbor wipes her forehead and laughs: \"Đàn ông đi hết, việc của họ mình làm hết. Thế mà cũng xong!\" Vợ Anh Tư laughs too, then glances at the river.",
+                 subs=[(5.0, 9.8, "Đàn ông đi hết, việc của họ mình làm hết. / Thế mà cũng xong!")]),
+            dict(name="Tiếng trống", label="Chiều",
+                 img="First-person view on a riverbank in the afternoon, a group of village women standing still and staring downstream, a faint plume of smoke on the horizon, a woman gripping a fishing net tightly, realistic, vertical 9:16.",
+                 vid="0-5s: Afternoon; distant war drums roll across the water from downstream, and a thin plume of smoke rises on the horizon; every woman on the bank stops working. 5-10s: Vợ Anh Tư grips the net in her hands and says quietly, half to herself: \"Ông ấy mà không về... tôi biết lấy ai cãi nhau.\"",
+                 subs=[(5.0, 9.8, "Ông ấy mà không về... / tôi biết lấy ai cãi nhau.")]),
+            dict(name="Thuyền về", tiktok="bo", label="Chạng vạng",
+                 img="First-person view on a riverbank at dusk, small boats returning with tired muddy men, village women rushing to the water's edge searching faces, a woman standing on tiptoe looking past them, no injuries shown, realistic, vertical 9:16.",
+                 vid="0-5s: At dusk, small boats come back up the river with tired, muddy men; the women rush to the water's edge, searching every face. 5-10s: Vợ Anh Tư stands on tiptoe, scanning boat after boat; the last boat passes, and he is not on it. Her face falls.",
+                 subs=[]),
+            dict(name="Anh Tư về", label="Tối",
+                 img=f"First-person view on a riverbank at night with torches, {ANH_TU} covered head to toe in mud, grinning and waving from a small late boat, a strong woman on the bank with hands on her hips, realistic, vertical 9:16.",
+                 vid="0-5s: Torchlight; one more small boat appears late; Anh Tư, covered head to toe in mud, waves and grins: \"Thắng rồi! Cái cọc to nhất là anh cắm đấy!\" 5-10s: Vợ Anh Tư smacks his shoulder hard, then pulls him into a tight hug: \"Lần sau đi đâu thì nói một câu! Bùn thế này, ai giặt?\"",
+                 subs=[(0.5, 4.8, "Thắng rồi! / Cái cọc to nhất là anh cắm đấy!"),
+                       (5.0, 9.8, "Lần sau đi đâu thì nói một câu! / Bùn thế này, ai giặt?")]),
+        ],
+        caption=("Sáng tiễn chồng đi cắm cọc mà không ai nói để làm gì, chiều nghe tiếng trống mới biết là đánh trận 🥲 "
+                 "Năm 938, khi trai làng ven sông Bạch Đằng theo Ngô Quyền ra trận, người ở nhà chỉ biết chờ. Sử không "
+                 "ghi tên những người chờ ở nhà. Tag người hay lo cho bạn nhất 👇"),
+        tags="#ngoquyen #938 #anhtu",
+    ),
 ]
 
 if __name__ == "__main__":

@@ -11,7 +11,7 @@ Loạt video kể những chi tiết **có nguồn** mà sách giáo khoa ít nh
 1. Đại tướng ngoài 50 tuổi, và sách cũ chép ông là hoạn quan. Chi tiết này **còn tranh cãi**, nên video chỉ nói "sách còn chép…".
 2. Bài *Phạt Tống lộ bố văn* nhắm vào phép thanh miêu, trợ dịch của Vương An Thạch, tuyên bố sang để "cứu dân Tống". Bài hịch được chép trong sách Tống *Trường biên*.
 3. **Cảnh công thành (clip 3–4):** leo thang bị đẩy ngã, rồi cả quân xếp bao đất thành con dốc để lên mặt thành. Đây là chi tiết có sử chép. Người trực tiếp vây thành là tướng Tông Đản, viện binh Tống bị đánh tan ở ải Côn Lôn. Tô Giám tự thiêu chứ không hàng.
-4. Sử Tống chép quân Lý giết hơn 5 vạn người trong thành. Phụ đề ghi rõ "số liệu phía Tống, có thể phóng đại". Clip này không có cảnh máu me hay xác người, chỉ có đường phố vắng và một món đồ chơi rơi.
+4. Sử Tống chép quân Lý giết hơn 5 vạn người trong thành. Phụ đề ghi rõ "số liệu phía Tống, có thể phóng đại". Clip này không có cảnh máu me hay xác người, chỉ có đường phố vắng và một chiếc đèn dầu rơi.
 5. Mục tiêu là phá kho lương, phá đường tiến quân rồi rút về, không chiếm đất.
 
 ## Lưu ý trước khi đăng

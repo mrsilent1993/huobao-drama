@@ -7,7 +7,9 @@ import os
 
 POV = ("First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, "
        "the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, "
-       "cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text.")
+       "cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. "
+       "No children in close-up, no children's faces, no children crying or in distress; "
+       "any child appears only from behind or at a distance.")
 AUDIO = "Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync, no background music."
 TAGS = "#povlichsu #POV #lichsuvietnam #xuhuong #fyp"
 

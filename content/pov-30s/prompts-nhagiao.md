@@ -216,14 +216,14 @@ Mỗi đứa góp năm nghìn, thêm ba mươi hai bông hoa điểm mười, th
 
 **Bối cảnh**
 ```
-Vietnam, present day, a remote mountain village in the northwest highlands: a small wooden classroom with a tin roof and a few desks, misty terraced hills, a rocky stream; ethnic minority children (Hmong and Thái) in simple jackets and traditional embroidered clothes, some barefoot; a young male teacher around 28 in a worn jacket and rubber boots, kind and tired.
+Vietnam, present day, a remote mountain village in the northwest highlands: a small wooden classroom with a tin roof and a few desks, misty terraced hills, a rocky stream; pupils shown only from behind, as small hands, or as distant silhouettes (no children's faces, no close-ups, no crying); a young male teacher around 28 in a worn jacket and rubber boots, kind and tired.
 ```
 Nhân vật: **Thầy Minh**, thầy giáo trẻ khoảng 28 tuổi, áo khoác cũ, ủng cao su, cười hiền.
 
 ### Clip 1: Sáng sớm qua suối
 Ảnh khung đầu:
 ```
-First-person view of a child at the edge of a rocky mountain stream in the misty northwest highlands of Vietnam, a young teacher in a worn jacket and rubber boots wading through the water toward the viewer, holding out his hand, terraced hills behind, realistic, vertical 9:16.
+First-person view at the edge of a rocky mountain stream in the misty northwest highlands of Vietnam, a young teacher in a worn jacket and rubber boots wading through the water toward the viewer, holding out his hand, terraced hills behind, realistic, vertical 9:16.
 ```
 Video:
 ```
@@ -233,7 +233,7 @@ Video:
 ### Clip 2: Bữa trưa ở lớp
 Ảnh khung đầu:
 ```
-First-person view sitting at a small wooden desk in a mountain classroom, a young teacher in a worn jacket ladling rice and vegetable soup from a pot into tin bowls for a line of ethnic minority children, smoke from a small wood fire, realistic, vertical 9:16.
+First-person view sitting at a small wooden desk in a mountain classroom, a young teacher in a worn jacket ladling rice and vegetable soup from a pot into tin bowls held out by small hands, the pupils seen only from behind, smoke from a small wood fire, realistic, vertical 9:16.
 ```
 Video:
 ```
@@ -243,11 +243,11 @@ Video:
 ### Clip 3: Sáng 20/11
 Ảnh khung đầu:
 ```
-First-person view in a mountain classroom, the viewer's small hands holding out a bunch of wild flowers and two chicken eggs wrapped in a leaf toward a young teacher, other ethnic minority children behind holding wild flowers and a cassava root, realistic, vertical 9:16.
+First-person view in a mountain classroom, the viewer's small hands holding out a bunch of wild flowers and two chicken eggs wrapped in a leaf toward a young teacher, other small hands behind holding wild flowers and a cassava root, no children's faces visible, realistic, vertical 9:16.
 ```
 Video:
 ```
-[POV] [Bối cảnh] 0-5s: The children line up shyly; the viewer holds out a bunch of wild flowers and two eggs wrapped in a leaf and says: "Thầy ơi, quà 20/11 của chúng con. Trứng gà nhà con mới đẻ, còn ấm đấy ạ!" 5-10s: The young teacher kneels down, takes the gifts, and turns away for a moment to wipe his eyes; then he hugs the children, smiling. [Âm thanh]
+[POV] [Bối cảnh] 0-5s: Small hands reach out one after another, seen only from the viewer's point of view; the viewer holds out a bunch of wild flowers and two eggs wrapped in a leaf and says: "Thầy ơi, quà 20/11 của chúng con. Trứng gà nhà con mới đẻ, còn ấm đấy ạ!" 5-10s: The young teacher kneels down, takes the gifts, and turns away for a moment to wipe his eyes; then he smiles warmly at the small hands holding out flowers. [Âm thanh]
 ```
 
 **Đăng TikTok:**
@@ -275,4 +275,4 @@ python3 ../tools/tiktok.py hoc-sinh-9x-2005.plan.txt hoc-sinh-9x-2005.mp4
 python3 ../tools/tiktok.py thay-giao-cam-ban.plan.txt thay-giao-cam-ban.mp4
 ```
 
-**Lưu ý:** tập 13 có trẻ em người dân tộc thiểu số. Hãy giữ hình ảnh các em trang trọng, không biến các em thành trò cười hay làm quá cảnh nghèo khổ. Ở caption, đừng gắn tên một thầy giáo có thật vào nhân vật dựng bằng AI.
+**Lưu ý:** tập 13 **không để trẻ em lộ mặt trên hình** (chỉ thấy bàn tay nhỏ, bóng lưng hoặc ở xa), không có cảnh trẻ khóc. Đây là quy tắc an toàn trẻ em của kênh: TikTok gắn cờ rất gắt với video AI có trẻ em trông như thật. Giữ hình ảnh trang trọng, không làm quá cảnh nghèo khổ. Ở caption, đừng gắn tên một thầy giáo có thật vào nhân vật dựng bằng AI.

@@ -1,6 +1,6 @@
 # Dựng: python3 ../tools/tiktok.py tap-2-tran-quoc-toan.plan.txt tap-2-tran-quoc-toan.mp4  (ra tap-2-tran-quoc-toan-youtube.mp4 và tap-2-tran-quoc-toan-tiktok.mp4)
 hook: POV: Bạn là người hầu / của Trần Quốc Toản
-end: Đội quân trẻ con ấy ra trận thế nào? / Follow để xem mai bạn cầm kim xăm / đuổi theo vua →
+end: Đội quân đầu bếp ra trận thế nào? / Follow để xem mai bạn cầm kim xăm / đuổi theo vua →
 
 clip: cl2-1.mp4 | Bến Bình Than · năm 1282 | tiktok=0-5
 clip: cl2-2.mp4 | Ít phút sau
@@ -18,5 +18,5 @@ sub: 3 | 5.0-7.0 | Dạ... mộ quân lấy ai ạ?
 sub: 3 | 7.0-9.8 | Cả nhà này. Cả mày nữa!
 sub: 4 | 0.5-4.8 | Phá cường địch, báo hoàng ân. / Sáu chữ, thêu cho đẹp.
 sub: 4 | 5.0-9.8 | Chữ "địch" nhiều nét quá cậu ơi, / em thêu thành con nhện rồi!
-sub: 5 | 5.0-7.5 | Cậu mười lăm, em mười bốn, / cả đội toàn trẻ con!
+sub: 5 | 5.0-7.5 | Cả đội toàn đầu bếp với người làm vườn, / chưa ai đánh trận bao giờ!
 sub: 5 | 7.5-9.8 | Thì giặc càng coi thường ta!

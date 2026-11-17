@@ -117,7 +117,7 @@ Audio: natural ambient sound only, no music, Vietnamese dialogue spoken naturall
 
 ### Video C (10 giây)
 ```
-[Khối mô tả dùng chung] Same gate, same camera angle, continuing. 0-4s: The tower of egg cartons starts wobbling and glowing softly; the eggs crack open one after another and dozens of tiny babies tumble out, crawling all over the stone steps, babies giggling and crying. 4-7s: The delivery woman, surrounded by crawling babies, says nervously: "Dạ... vậy em tính thêm phí giao một trăm suất nha chị?" 7-10s: Lạc Long Quân quietly tiptoes backward toward the road; Âu Cơ grabs the back of his dragon-scale armor without looking and says: "Anh đứng lại đó!" [Âm thanh]
+[Khối mô tả dùng chung] Same gate, same camera angle, continuing. 0-4s: The tower of egg cartons starts wobbling and glowing softly; the eggs crack open one after another with a soft golden glow and bursts of light, giggling sounds, no babies shown on screen. 4-7s: The delivery woman, surrounded by glowing cracked eggshells, says nervously: "Dạ... vậy em tính thêm phí giao một trăm suất nha chị?" 7-10s: Lạc Long Quân quietly tiptoes backward toward the road; Âu Cơ grabs the back of his dragon-scale armor without looking and says: "Anh đứng lại đó!" [Âm thanh]
 ```
 
 ---
