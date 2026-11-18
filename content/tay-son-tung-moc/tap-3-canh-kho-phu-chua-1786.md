@@ -1,8 +1,8 @@
 # Tập 3: Ra Bắc được giao canh kho báu phủ chúa mà cấm sờ vào bất cứ thứ gì (phù Lê diệt Trịnh, 1786)
 
-**Độ dài:** hai video từ cùng 5 clip: **bản dài** (YouTube, khoảng 48 giây sau chuyển cảnh) và **bản ngắn** (TikTok, khoảng 38 giây) vẫn đủ cả 5 cảnh: 3 clip chính giữ nguyên, 2 clip phụ cắt lấy 5 giây chứa câu chính (xem ghi chú "Bản TikTok" ở từng clip)
+**Độ dài:** hai video từ cùng 6 clip: **bản dài** (YouTube, khoảng 58 giây sau chuyển cảnh) và **bản ngắn** (TikTok, khoảng 38 giây) vẫn đủ cả 6 cảnh: clip chính giữ nguyên, clip phụ cắt lấy 5 giây chứa câu chính (xem ghi chú "Bản TikTok" ở từng clip)
 
-**Hai bản từ cùng một bộ clip:** YouTube Shorts 50 giây (đủ clip) · TikTok 40 giây (rút gọn theo ghi chú "Bản TikTok" ở từng clip).
+**Hai bản từ cùng một bộ clip:** YouTube Shorts 60 giây (đủ clip) · TikTok 40 giây (rút gọn theo ghi chú "Bản TikTok" ở từng clip).
 
 Copy từng khối dán thẳng vào phần mềm. Prompt đã ghép đủ, không cần thay gì.
 
@@ -10,8 +10,25 @@ Copy từng khối dán thẳng vào phần mềm. Prompt đã ghép đủ, khô
 
 **Lịch sử:** giữa năm 1786, Nguyễn Huệ đánh chiếm Phú Xuân rồi tiến ra Bắc với danh nghĩa "phù Lê diệt Trịnh". Quân Tây Sơn vào Thăng Long, chính quyền chúa Trịnh (nắm quyền hơn hai trăm năm) sụp đổ, Nguyễn Huệ vào chầu vua Lê Hiển Tông. Sử chép quân Tây Sơn giữ kỷ luật nghiêm khi vào kinh thành (mức B). **Hư cấu:** Anh Tư canh kho, bắp cải, buổi học lễ nghi và mọi lời thoại. Tập phim không dựng chuyện số phận chúa Trịnh.
 
-## Clip 1: Không một cọng rau
+## Clip 1: Lại đi tiếp
 File Muse đặt tên: `ts1786-1.mp4`
+
+**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+
+**Ảnh khung đầu**
+```
+First-person view inside a captured citadel by a river, Tây Sơn soldiers resting and hanging wet clothes to dry, an officer announcing new orders, a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face holding a dripping shirt, realistic, vertical 9:16.
+```
+
+**Video (Muse)**
+```
+First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. No modern national flags anywhere (never a red flag with a yellow star); no flags at all unless the scene describes a period-accurate one. Vietnam, mid-1786, the captured Phú Xuân citadel (Huế): brick walls, a river, Tây Sơn soldiers in dark-red uniforms with red head wraps resting and drying clothes. No visible writing, no flags. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face, in a dark-red uniform. 0-5s: Soldiers rest after taking Phú Xuân; an officer announces: "Lệnh mới: ra Bắc. Danh nghĩa là giúp vua Lê, dẹp họ Trịnh." 5-10s: Anh Tư, holding a dripping shirt, groans to the viewer: "Vừa đánh xong Phú Xuân... em còn chưa kịp phơi áo." Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync in Central Vietnamese (Bình Định) accent, no background music.
+```
+
+## Clip 2: Không một cọng rau
+File Muse đặt tên: `ts1786-2.mp4`
+
+**Bản TikTok:** chỉ dùng giây 0 đến 5 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -23,8 +40,8 @@ First-person view on a Thăng Long street, townspeople watching from doorways, a
 First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. No modern national flags anywhere (never a red flag with a yellow star); no flags at all unless the scene describes a period-accurate one. Vietnam, summer 1786, Thăng Long: the grand palace of the Trịnh lords with red-lacquered halls, a treasury room with chests, porcelain and silk, Thăng Long townspeople in brown and indigo clothes watching cautiously. Tây Sơn soldiers in dark-red uniforms with red head wraps. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face, in a dark-red uniform. 0-5s: Marching into the city, Anh Tư picks up a cabbage that rolled from a seller's basket. The officer barks: "Ta ra giúp vua Lê. Không lấy của dân một cọng rau!" 5-10s: Anh Tư quickly puts the cabbage back in the basket and bows to the seller: "Dạ... em trả. Em chỉ nhặt hộ thôi." Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync in Central Vietnamese (Bình Định) accent, no background music.
 ```
 
-## Clip 2: Học lễ
-File Muse đặt tên: `ts1786-2.mp4`
+## Clip 3: Học lễ
+File Muse đặt tên: `ts1786-3.mp4`
 
 **Bản TikTok:** chỉ dùng giây 0 đến 5 của clip này.
 
@@ -38,8 +55,8 @@ First-person view in a palace corridor, an elderly court official demonstrating 
 First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. No modern national flags anywhere (never a red flag with a yellow star); no flags at all unless the scene describes a period-accurate one. Vietnam, summer 1786, Thăng Long: the grand palace of the Trịnh lords with red-lacquered halls, a treasury room with chests, porcelain and silk, Thăng Long townspeople in brown and indigo clothes watching cautiously. Tây Sơn soldiers in dark-red uniforms with red head wraps. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face, in a dark-red uniform. 0-5s: An elderly court official demonstrates: "Lạy năm lạy, vái ba vái, không được ngẩng đầu." Anh Tư copies, loses count and bumps his head on a pillar. 5-10s: Rubbing his forehead, he whispers to the viewer: "Đánh trận còn dễ hơn." Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync in Central Vietnamese (Bình Định) accent, no background music.
 ```
 
-## Clip 3: Canh kho
-File Muse đặt tên: `ts1786-3.mp4`
+## Clip 4: Canh kho
+File Muse đặt tên: `ts1786-4.mp4`
 
 **Ảnh khung đầu**
 ```
@@ -51,8 +68,8 @@ First-person view inside a treasury room of a lord's palace, chests overflowing 
 First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. No modern national flags anywhere (never a red flag with a yellow star); no flags at all unless the scene describes a period-accurate one. Vietnam, summer 1786, Thăng Long: the grand palace of the Trịnh lords with red-lacquered halls, a treasury room with chests, porcelain and silk, Thăng Long townspeople in brown and indigo clothes watching cautiously. Tây Sơn soldiers in dark-red uniforms with red head wraps. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face, in a dark-red uniform. 0-5s: Anh Tư stands guard among overflowing chests of silk and porcelain; the officer at the door says: "Canh cho kỹ. Ai sờ vào là về quê cày ruộng." 5-10s: Anh Tư, hands clasped tightly behind his back, whispers: "Canh kho vàng... mà cấm sờ. Khổ hơn cả cấm đập muỗi." Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync in Central Vietnamese (Bình Định) accent, no background music.
 ```
 
-## Clip 4: Dân xem
-File Muse đặt tên: `ts1786-4.mp4`
+## Clip 5: Dân xem
+File Muse đặt tên: `ts1786-5.mp4`
 
 **Bản TikTok:** chỉ dùng giây 0 đến 5 của clip này.
 
@@ -66,8 +83,8 @@ First-person view at a palace gate, a crowd of Thăng Long townspeople peering i
 First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. No modern national flags anywhere (never a red flag with a yellow star); no flags at all unless the scene describes a period-accurate one. Vietnam, summer 1786, Thăng Long: the grand palace of the Trịnh lords with red-lacquered halls, a treasury room with chests, porcelain and silk, Thăng Long townspeople in brown and indigo clothes watching cautiously. Tây Sơn soldiers in dark-red uniforms with red head wraps. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face, in a dark-red uniform. 0-5s: Townspeople peer through the gate; an old woman offers Anh Tư a bowl of green tea: "Nghe đồn quân Tây Sơn dữ lắm, hóa ra hiền thế." 5-10s: Anh Tư sips and smiles: "Dữ với giặc thôi cụ ạ. Với cụ thì em... uống nước." Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync in Central Vietnamese (Bình Định) accent, no background music.
 ```
 
-## Clip 5: Câu chốt
-File Muse đặt tên: `ts1786-5.mp4`
+## Clip 6: Câu chốt
+File Muse đặt tên: `ts1786-6.mp4`
 
 **Ảnh khung đầu**
 ```
@@ -146,20 +163,23 @@ hook: POV: Canh kho báu / mà cấm sờ / vào bất cứ thứ gì
 end: Follow để xem mốc tiếp: / năm 1787 →
 nhan: AI tái hiện · lời thoại hư cấu
 
-clip: ts1786-1.mp4 | Thăng Long · mùa hè năm 1786
-clip: ts1786-2.mp4 | Trước giờ vào chầu | tiktok=0-5
-clip: ts1786-3.mp4 | Phủ chúa Trịnh
-clip: ts1786-4.mp4 |  | tiktok=0-5
-clip: ts1786-5.mp4 | 
+clip: ts1786-1.mp4 | Tây Sơn từng mốc · 1786 | tiktok=5-10
+clip: ts1786-2.mp4 | Thăng Long · mùa hè năm 1786 | tiktok=0-5
+clip: ts1786-3.mp4 | Trước giờ vào chầu | tiktok=0-5
+clip: ts1786-4.mp4 | Phủ chúa Trịnh
+clip: ts1786-5.mp4 |  | tiktok=0-5
+clip: ts1786-6.mp4 | 
 
-sub: 1 | 0.5-4.8 | Ta ra giúp vua Lê. / Không lấy của dân / một cọng rau!
-sub: 1 | 5.0-9.5 | Dạ... em trả. / Em chỉ nhặt hộ thôi.
-sub: 2 | 0.5-4.8 | Lạy năm lạy, vái ba vái, / không được ngẩng đầu.
-sub: 2 | 5.0-9.5 | Đánh trận còn dễ hơn.
-sub: 3 | 0.5-4.8 | Canh cho kỹ. Ai sờ vào / là về quê cày ruộng.
-sub: 3 | 5.0-9.5 | Canh kho vàng... mà cấm sờ. / Khổ hơn cả cấm đập muỗi.
-sub: 4 | 0.5-4.8 | Nghe đồn quân Tây Sơn / dữ lắm, hóa ra hiền thế.
-sub: 4 | 5.0-9.5 | Dữ với giặc thôi cụ ạ. / Với cụ thì em... uống nước.
-sub: 5 | 0.3-4.8 | Năm 1786, Nguyễn Huệ ra Bắc / phù Lê diệt Trịnh. Hơn 200 năm / chúa Trịnh nắm quyền khép lại.
-sub: 5 | 5.0-9.8 | Kho ấy em canh, / không mất một xu! / ...Cọng rau cũng không.
+sub: 1 | 0.5-4.8 | Lệnh mới: ra Bắc. / Danh nghĩa là giúp vua Lê, / dẹp họ Trịnh.
+sub: 1 | 5.0-9.5 | Vừa đánh xong Phú Xuân... / em còn chưa kịp phơi áo.
+sub: 2 | 0.5-4.8 | Ta ra giúp vua Lê. / Không lấy của dân / một cọng rau!
+sub: 2 | 5.0-9.5 | Dạ... em trả. / Em chỉ nhặt hộ thôi.
+sub: 3 | 0.5-4.8 | Lạy năm lạy, vái ba vái, / không được ngẩng đầu.
+sub: 3 | 5.0-9.5 | Đánh trận còn dễ hơn.
+sub: 4 | 0.5-4.8 | Canh cho kỹ. Ai sờ vào / là về quê cày ruộng.
+sub: 4 | 5.0-9.5 | Canh kho vàng... mà cấm sờ. / Khổ hơn cả cấm đập muỗi.
+sub: 5 | 0.5-4.8 | Nghe đồn quân Tây Sơn / dữ lắm, hóa ra hiền thế.
+sub: 5 | 5.0-9.5 | Dữ với giặc thôi cụ ạ. / Với cụ thì em... uống nước.
+sub: 6 | 0.3-4.8 | Năm 1786, Nguyễn Huệ ra Bắc / phù Lê diệt Trịnh. Hơn 200 năm / chúa Trịnh nắm quyền khép lại.
+sub: 6 | 5.0-9.8 | Kho ấy em canh, / không mất một xu! / ...Cọng rau cũng không.
 ```

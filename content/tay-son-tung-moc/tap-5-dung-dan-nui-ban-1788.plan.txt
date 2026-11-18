@@ -3,19 +3,22 @@ hook: POV: Dựng đàn tế / cho vua lên ngôi / gấp trong ba ngày
 end: Follow để xem mốc tiếp: / Tết Kỷ Dậu 1789 →
 nhan: AI tái hiện · lời thoại hư cấu
 
-clip: ts1788-1.mp4 | Núi Bân, Phú Xuân · cuối năm 1788
-clip: ts1788-2.mp4 | Đêm thứ ba | tiktok=5-10
-clip: ts1788-3.mp4 | Ngày 22/12/1788
-clip: ts1788-4.mp4 | Buổi chiều | tiktok=5-10
-clip: ts1788-5.mp4 | 
+clip: ts1788-1.mp4 | Tây Sơn từng mốc · 1788 | tiktok=5-10
+clip: ts1788-2.mp4 | Núi Bân, Phú Xuân · cuối năm 1788 | tiktok=5-10
+clip: ts1788-3.mp4 | Đêm thứ ba | tiktok=5-10
+clip: ts1788-4.mp4 | Ngày 22/12/1788
+clip: ts1788-5.mp4 | Buổi chiều | tiktok=5-10
+clip: ts1788-6.mp4 | 
 
-sub: 1 | 0.5-4.8 | Ba ngày nữa xong đàn. / Không được chậm một canh.
-sub: 1 | 5.0-7.6 | Đàn để làm gì / mà gấp thế ạ?
-sub: 1 | 7.6-9.6 | Không hỏi. Đắp.
-sub: 2 | 5.0-9.5 | Được người ta lạy / có một lần... mà em run / hơn cả lúc ra trận.
-sub: 3 | 0.5-4.8 | Vạn tuế! Vạn tuế! / Vạn vạn tuế!
-sub: 3 | 5.0-9.5 | Vừa lên ngôi xong... / sao ông ấy cứ nhìn / về phía Bắc thế?
-sub: 4 | 0.5-4.8 | Dỡ đàn đi.
-sub: 4 | 5.0-9.5 | Đắp ba ngày, / dùng một buổi sáng... / giờ lại dỡ.
-sub: 5 | 0.3-4.8 | Lên ngôi ở núi Bân, / niên hiệu Quang Trung, / rồi lập tức ra Bắc.
-sub: 5 | 5.0-9.8 | Cái đàn ấy em đắp! / Đắp ba ngày, / đổi cả một triều đại.
+sub: 1 | 0.5-4.8 | Quân Thanh đã vào Thăng Long! / Xin chính vị hiệu trước, / để yên lòng người.
+sub: 1 | 5.0-9.5 | Giặc vào đến nhà... mà / các quan bàn chuyện lên ngôi?
+sub: 2 | 0.5-4.8 | Ba ngày nữa xong đàn. / Không được chậm một canh.
+sub: 2 | 5.0-7.6 | Đàn để làm gì / mà gấp thế ạ?
+sub: 2 | 7.6-9.6 | Không hỏi. Đắp.
+sub: 3 | 5.0-9.5 | Được người ta lạy / có một lần... mà em run / hơn cả lúc ra trận.
+sub: 4 | 0.5-4.8 | Vạn tuế! Vạn tuế! / Vạn vạn tuế!
+sub: 4 | 5.0-9.5 | Vừa lên ngôi xong... / sao ông ấy cứ nhìn / về phía Bắc thế?
+sub: 5 | 0.5-4.8 | Dỡ đàn đi.
+sub: 5 | 5.0-9.5 | Đắp ba ngày, / dùng một buổi sáng... / giờ lại dỡ.
+sub: 6 | 0.3-4.8 | Lên ngôi ở núi Bân, / niên hiệu Quang Trung, / rồi lập tức ra Bắc.
+sub: 6 | 5.0-9.8 | Cái đàn ấy em đắp! / Đắp ba ngày, / đổi cả một triều đại.

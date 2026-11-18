@@ -3,20 +3,23 @@ hook: POV: Thay biển tên / cả tòa thành / trong một đêm
 end: Follow để xem mốc tiếp: / năm 1785 →
 nhan: AI tái hiện · lời thoại hư cấu
 
-clip: ts1778-1.mp4 | Thành Đồ Bàn · năm 1778
-clip: ts1778-2.mp4 | Sáng hôm sau | tiktok=0-5
-clip: ts1778-3.mp4 | Lễ lên ngôi
-clip: ts1778-4.mp4 |  | tiktok=0-5
-clip: ts1778-5.mp4 | 
+clip: ts1778-1.mp4 | Tây Sơn từng mốc · 1778 | tiktok=5-10
+clip: ts1778-2.mp4 | Thành Đồ Bàn · năm 1778 | tiktok=5-10
+clip: ts1778-3.mp4 | Sáng hôm sau | tiktok=0-5
+clip: ts1778-4.mp4 | Lễ lên ngôi
+clip: ts1778-5.mp4 |  | tiktok=0-5
+clip: ts1778-6.mp4 | 
 
-sub: 1 | 0.5-4.8 | Treo cho thẳng. / Sáng mai tên thành đã khác.
-sub: 1 | 5.0-9.5 | Đổi tên cả tòa thành... / như đổi tên công ty ấy nhỉ?
-sub: 2 | 0.5-4.8 | Từ nay ghi: / năm Thái Đức thứ nhất.
-sub: 2 | 5.0-9.5 | Thế năm ngoái... / giờ là năm thứ mấy ạ?
-sub: 3 | 0.5-4.8 | Hôm qua còn gọi là anh cả... / hôm nay gọi là gì ạ?
-sub: 3 | 5.0-7.0 | Hoàng thượng!
-sub: 3 | 7.0-9.6 | ...Anh cả hoàng thượng.
-sub: 4 | 0.5-4.8 | Màu này cả nước / chỉ một người được mặc!
-sub: 4 | 5.0-9.5 | Thế thôi, em mặc / màu nâu cho lành.
-sub: 5 | 0.3-4.8 | Năm 1778, Nguyễn Nhạc / lên ngôi, niên hiệu Thái Đức, / đổi tên thành Đồ Bàn / thành thành Hoàng Đế.
-sub: 5 | 5.0-9.8 | Tấm biển ấy em treo! / Lệch một tí... / không ai dám nói.
+sub: 1 | 0.5-4.8 | Từ Quảng Nam đến Gia Định... / ta không làm / Tây Sơn vương nữa.
+sub: 1 | 5.0-9.5 | Không làm vương... / thì làm cái gì to hơn ạ?
+sub: 2 | 0.5-4.8 | Treo cho thẳng. / Sáng mai tên thành đã khác.
+sub: 2 | 5.0-9.5 | Đổi tên cả tòa thành... / như đổi tên công ty ấy nhỉ?
+sub: 3 | 0.5-4.8 | Từ nay ghi: / năm Thái Đức thứ nhất.
+sub: 3 | 5.0-9.5 | Thế năm ngoái... / giờ là năm thứ mấy ạ?
+sub: 4 | 0.5-4.8 | Hôm qua còn gọi là anh cả... / hôm nay gọi là gì ạ?
+sub: 4 | 5.0-7.0 | Hoàng thượng!
+sub: 4 | 7.0-9.6 | ...Anh cả hoàng thượng.
+sub: 5 | 0.5-4.8 | Màu này cả nước / chỉ một người được mặc!
+sub: 5 | 5.0-9.5 | Thế thôi, em mặc / màu nâu cho lành.
+sub: 6 | 0.3-4.8 | Năm 1778, Nguyễn Nhạc / lên ngôi, niên hiệu Thái Đức, / đổi tên thành Đồ Bàn / thành thành Hoàng Đế.
+sub: 6 | 5.0-9.8 | Tấm biển ấy em treo! / Lệch một tí... / không ai dám nói.

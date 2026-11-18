@@ -1,8 +1,8 @@
 # Tập 4: Bị lệnh vây một tòa thành, đến nơi mới biết đó là thành của chính phe mình (anh em Tây Sơn bất hòa, 1787)
 
-**Độ dài:** hai video từ cùng 5 clip: **bản dài** (YouTube, khoảng 48 giây sau chuyển cảnh) và **bản ngắn** (TikTok, khoảng 38 giây) vẫn đủ cả 5 cảnh: 3 clip chính giữ nguyên, 2 clip phụ cắt lấy 5 giây chứa câu chính (xem ghi chú "Bản TikTok" ở từng clip)
+**Độ dài:** hai video từ cùng 6 clip: **bản dài** (YouTube, khoảng 58 giây sau chuyển cảnh) và **bản ngắn** (TikTok, khoảng 38 giây) vẫn đủ cả 6 cảnh: clip chính giữ nguyên, clip phụ cắt lấy 5 giây chứa câu chính (xem ghi chú "Bản TikTok" ở từng clip)
 
-**Hai bản từ cùng một bộ clip:** YouTube Shorts 50 giây (đủ clip) · TikTok 40 giây (rút gọn theo ghi chú "Bản TikTok" ở từng clip).
+**Hai bản từ cùng một bộ clip:** YouTube Shorts 60 giây (đủ clip) · TikTok 40 giây (rút gọn theo ghi chú "Bản TikTok" ở từng clip).
 
 Copy từng khối dán thẳng vào phần mềm. Prompt đã ghép đủ, không cần thay gì.
 
@@ -10,8 +10,25 @@ Copy từng khối dán thẳng vào phần mềm. Prompt đã ghép đủ, khô
 
 **Lịch sử:** năm 1787, Nguyễn Nhạc và Nguyễn Huệ bất hòa sau chuyến ra Bắc. Nguyễn Huệ đem quân vây thành Hoàng Đế (Quy Nhơn) của anh. Theo sử nhà Nguyễn (mức B), Nguyễn Nhạc lên mặt thành khóc, kêu "nồi da nấu thịt, lòng em sao nỡ". Hai anh em giảng hòa, chia nhau cai quản: Nguyễn Nhạc ở Quy Nhơn, Nguyễn Lữ ở Gia Định, Nguyễn Huệ từ Quảng Nam trở ra. **Hư cấu:** Anh Tư, người lính quen trên mặt thành, bữa cơm ở cổng thành và mọi lời thoại.
 
-## Clip 1: Vây thành
+## Clip 1: Hai anh lại cãi nhau
 File Muse đặt tên: `ts1787-1.mp4`
+
+**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+
+**Ảnh khung đầu**
+```
+First-person view at a campfire at night, Tây Sơn soldiers in dark-red uniforms whispering and gossiping in a circle, a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face leaning in with a bowl of rice, realistic, vertical 9:16.
+```
+
+**Video (Muse)**
+```
+First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. No modern national flags anywhere (never a red flag with a yellow star); no flags at all unless the scene describes a period-accurate one. Vietnam, 1787, outside the walls of the Hoàng Đế citadel near Quy Nhơn: brick walls with banners, two armies of Tây Sơn soldiers in identical dark-red uniforms with red head wraps, one outside and one on the walls. Nguyễn Nhạc, a stout, cheerful Vietnamese man in his thirties with a short beard appears on the wall in a yellow robe. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face, a soldier outside the walls. No fighting, no injuries. 0-5s: Around a campfire, an older soldier whispers: "Đi Bắc về, hai anh lại bất hòa rồi. Chuyện chia đất." 5-10s: Anh Tư, holding his rice bowl, whispers to the viewer: "Nhà người ta cãi nhau chia vườn... nhà này cãi nhau chia nước." Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync in Central Vietnamese (Bình Định) accent, no background music.
+```
+
+## Clip 2: Vây thành
+File Muse đặt tên: `ts1787-2.mp4`
+
+**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -23,8 +40,8 @@ First-person view from a line of soldiers in dark-red uniforms outside a brick c
 First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. No modern national flags anywhere (never a red flag with a yellow star); no flags at all unless the scene describes a period-accurate one. Vietnam, 1787, outside the walls of the Hoàng Đế citadel near Quy Nhơn: brick walls with banners, two armies of Tây Sơn soldiers in identical dark-red uniforms with red head wraps, one outside and one on the walls. Nguyễn Nhạc, a stout, cheerful Vietnamese man in his thirties with a short beard appears on the wall in a yellow robe. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face, a soldier outside the walls. No fighting, no injuries. 0-5s: The officer orders: "Vây kín thành Hoàng Đế. Không ai ra vào." 5-10s: Anh Tư looks up at the soldiers on the wall, in exactly the same uniforms, and whispers: "Thành Hoàng Đế... là thành của anh cả mình mà?" The officer: "Vây. Không hỏi." Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync in Central Vietnamese (Bình Định) accent, no background music.
 ```
 
-## Clip 2: Người quen
-File Muse đặt tên: `ts1787-2.mp4`
+## Clip 3: Người quen
+File Muse đặt tên: `ts1787-3.mp4`
 
 **Bản TikTok:** chỉ dùng giây 0 đến 5 của clip này.
 
@@ -38,8 +55,8 @@ First-person view looking up at a citadel wall, a soldier on top in the same dar
 First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. No modern national flags anywhere (never a red flag with a yellow star); no flags at all unless the scene describes a period-accurate one. Vietnam, 1787, outside the walls of the Hoàng Đế citadel near Quy Nhơn: brick walls with banners, two armies of Tây Sơn soldiers in identical dark-red uniforms with red head wraps, one outside and one on the walls. Nguyễn Nhạc, a stout, cheerful Vietnamese man in his thirties with a short beard appears on the wall in a yellow robe. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face, a soldier outside the walls. No fighting, no injuries. 0-5s: A soldier on the wall leans out and waves: "Ê Tư! Mẹ mày khỏe không?" Anh Tư waves back happily: "Khỏe! Bố mày khỏe không?" 5-10s: The officer glares; Anh Tư freezes, lowers his hand and says to the viewer: "...Đứa cùng làng." Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync in Central Vietnamese (Bình Định) accent, no background music.
 ```
 
-## Clip 3: Tiếng khóc trên thành
-File Muse đặt tên: `ts1787-3.mp4`
+## Clip 4: Tiếng khóc trên thành
+File Muse đặt tên: `ts1787-4.mp4`
 
 **Ảnh khung đầu**
 ```
@@ -51,8 +68,8 @@ First-person view looking up at the citadel wall where Nguyễn Nhạc, a stout,
 First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. No modern national flags anywhere (never a red flag with a yellow star); no flags at all unless the scene describes a period-accurate one. Vietnam, 1787, outside the walls of the Hoàng Đế citadel near Quy Nhơn: brick walls with banners, two armies of Tây Sơn soldiers in identical dark-red uniforms with red head wraps, one outside and one on the walls. Nguyễn Nhạc, a stout, cheerful Vietnamese man in his thirties with a short beard appears on the wall in a yellow robe. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face, a soldier outside the walls. No fighting, no injuries. 0-5s: Nguyễn Nhạc appears on the wall, tears on his face, and calls down: "Nồi da nấu thịt... lòng em sao nỡ!" Both armies fall silent. 5-10s: Anh Tư lowers his head and whispers to the viewer: "Hai anh em giận nhau... mà cả hai đạo quân đứng giữa." Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync in Central Vietnamese (Bình Định) accent, no background music.
 ```
 
-## Clip 4: Bữa cơm ở cổng thành
-File Muse đặt tên: `ts1787-4.mp4`
+## Clip 5: Bữa cơm ở cổng thành
+File Muse đặt tên: `ts1787-5.mp4`
 
 **Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
 
@@ -66,8 +83,8 @@ First-person view at the open citadel gate, soldiers from both sides sitting tog
 First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. No modern national flags anywhere (never a red flag with a yellow star); no flags at all unless the scene describes a period-accurate one. Vietnam, 1787, outside the walls of the Hoàng Đế citadel near Quy Nhơn: brick walls with banners, two armies of Tây Sơn soldiers in identical dark-red uniforms with red head wraps, one outside and one on the walls. Nguyễn Nhạc, a stout, cheerful Vietnamese man in his thirties with a short beard appears on the wall in a yellow robe. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face, a soldier outside the walls. No fighting, no injuries. 0-5s: The gate is open; soldiers from both sides sit together on mats sharing rice and dried fish. 5-10s: Anh Tư passes a bowl to his friend from the wall and says to the viewer: "Mới hôm trước còn vây nhau... giờ ăn chung một nồi." Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync in Central Vietnamese (Bình Định) accent, no background music.
 ```
 
-## Clip 5: Câu chốt
-File Muse đặt tên: `ts1787-5.mp4`
+## Clip 6: Câu chốt
+File Muse đặt tên: `ts1787-6.mp4`
 
 **Ảnh khung đầu**
 ```
@@ -146,20 +163,23 @@ hook: POV: Bị lệnh / vây thành / của chính phe mình
 end: Follow để xem mốc tiếp: / lên ngôi năm 1788 →
 nhan: AI tái hiện · lời thoại hư cấu
 
-clip: ts1787-1.mp4 | Thành Hoàng Đế · năm 1787
-clip: ts1787-2.mp4 |  | tiktok=0-5
-clip: ts1787-3.mp4 | 
-clip: ts1787-4.mp4 | Mấy hôm sau | tiktok=5-10
-clip: ts1787-5.mp4 | 
+clip: ts1787-1.mp4 | Tây Sơn từng mốc · 1787 | tiktok=5-10
+clip: ts1787-2.mp4 | Thành Hoàng Đế · năm 1787 | tiktok=5-10
+clip: ts1787-3.mp4 |  | tiktok=0-5
+clip: ts1787-4.mp4 | 
+clip: ts1787-5.mp4 | Mấy hôm sau | tiktok=5-10
+clip: ts1787-6.mp4 | 
 
-sub: 1 | 0.5-4.8 | Vây kín thành Hoàng Đế. / Không ai ra vào.
-sub: 1 | 5.0-7.6 | Thành Hoàng Đế... / là thành của anh cả mình mà?
-sub: 1 | 7.6-9.6 | Vây. Không hỏi.
-sub: 2 | 0.5-4.8 | Ê Tư! Mẹ mày khỏe không? / Khỏe! Bố mày khỏe không?
-sub: 2 | 5.0-9.5 | ...Đứa cùng làng.
-sub: 3 | 0.5-4.8 | Nồi da nấu thịt... / lòng em sao nỡ!
-sub: 3 | 5.0-9.5 | Hai anh em giận nhau... / mà cả hai đạo quân đứng giữa.
-sub: 4 | 5.0-9.5 | Mới hôm trước còn vây nhau... / giờ ăn chung một nồi.
-sub: 5 | 0.3-4.8 | Năm 1787, hai anh em / giảng hòa, chia nhau / cai quản đất nước.
-sub: 5 | 5.0-9.8 | May mà không ai / bắt em chọn phe! / Về nhà mẹ hỏi đánh ai... / em biết nói sao?
+sub: 1 | 0.5-4.8 | Đi Bắc về, hai anh / lại bất hòa rồi. / Chuyện chia đất.
+sub: 1 | 5.0-9.5 | Nhà người ta cãi nhau / chia vườn... nhà này / cãi nhau chia nước.
+sub: 2 | 0.5-4.8 | Vây kín thành Hoàng Đế. / Không ai ra vào.
+sub: 2 | 5.0-7.6 | Thành Hoàng Đế... / là thành của anh cả mình mà?
+sub: 2 | 7.6-9.6 | Vây. Không hỏi.
+sub: 3 | 0.5-4.8 | Ê Tư! Mẹ mày khỏe không? / Khỏe! Bố mày khỏe không?
+sub: 3 | 5.0-9.5 | ...Đứa cùng làng.
+sub: 4 | 0.5-4.8 | Nồi da nấu thịt... / lòng em sao nỡ!
+sub: 4 | 5.0-9.5 | Hai anh em giận nhau... / mà cả hai đạo quân đứng giữa.
+sub: 5 | 5.0-9.5 | Mới hôm trước còn vây nhau... / giờ ăn chung một nồi.
+sub: 6 | 0.3-4.8 | Năm 1787, hai anh em / giảng hòa, chia nhau / cai quản đất nước.
+sub: 6 | 5.0-9.8 | May mà không ai / bắt em chọn phe! / Về nhà mẹ hỏi đánh ai... / em biết nói sao?
 ```

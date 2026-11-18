@@ -3,19 +3,22 @@ hook: POV: Bị lệnh / vây thành / của chính phe mình
 end: Follow để xem mốc tiếp: / lên ngôi năm 1788 →
 nhan: AI tái hiện · lời thoại hư cấu
 
-clip: ts1787-1.mp4 | Thành Hoàng Đế · năm 1787
-clip: ts1787-2.mp4 |  | tiktok=0-5
-clip: ts1787-3.mp4 | 
-clip: ts1787-4.mp4 | Mấy hôm sau | tiktok=5-10
-clip: ts1787-5.mp4 | 
+clip: ts1787-1.mp4 | Tây Sơn từng mốc · 1787 | tiktok=5-10
+clip: ts1787-2.mp4 | Thành Hoàng Đế · năm 1787 | tiktok=5-10
+clip: ts1787-3.mp4 |  | tiktok=0-5
+clip: ts1787-4.mp4 | 
+clip: ts1787-5.mp4 | Mấy hôm sau | tiktok=5-10
+clip: ts1787-6.mp4 | 
 
-sub: 1 | 0.5-4.8 | Vây kín thành Hoàng Đế. / Không ai ra vào.
-sub: 1 | 5.0-7.6 | Thành Hoàng Đế... / là thành của anh cả mình mà?
-sub: 1 | 7.6-9.6 | Vây. Không hỏi.
-sub: 2 | 0.5-4.8 | Ê Tư! Mẹ mày khỏe không? / Khỏe! Bố mày khỏe không?
-sub: 2 | 5.0-9.5 | ...Đứa cùng làng.
-sub: 3 | 0.5-4.8 | Nồi da nấu thịt... / lòng em sao nỡ!
-sub: 3 | 5.0-9.5 | Hai anh em giận nhau... / mà cả hai đạo quân đứng giữa.
-sub: 4 | 5.0-9.5 | Mới hôm trước còn vây nhau... / giờ ăn chung một nồi.
-sub: 5 | 0.3-4.8 | Năm 1787, hai anh em / giảng hòa, chia nhau / cai quản đất nước.
-sub: 5 | 5.0-9.8 | May mà không ai / bắt em chọn phe! / Về nhà mẹ hỏi đánh ai... / em biết nói sao?
+sub: 1 | 0.5-4.8 | Đi Bắc về, hai anh / lại bất hòa rồi. / Chuyện chia đất.
+sub: 1 | 5.0-9.5 | Nhà người ta cãi nhau / chia vườn... nhà này / cãi nhau chia nước.
+sub: 2 | 0.5-4.8 | Vây kín thành Hoàng Đế. / Không ai ra vào.
+sub: 2 | 5.0-7.6 | Thành Hoàng Đế... / là thành của anh cả mình mà?
+sub: 2 | 7.6-9.6 | Vây. Không hỏi.
+sub: 3 | 0.5-4.8 | Ê Tư! Mẹ mày khỏe không? / Khỏe! Bố mày khỏe không?
+sub: 3 | 5.0-9.5 | ...Đứa cùng làng.
+sub: 4 | 0.5-4.8 | Nồi da nấu thịt... / lòng em sao nỡ!
+sub: 4 | 5.0-9.5 | Hai anh em giận nhau... / mà cả hai đạo quân đứng giữa.
+sub: 5 | 5.0-9.5 | Mới hôm trước còn vây nhau... / giờ ăn chung một nồi.
+sub: 6 | 0.3-4.8 | Năm 1787, hai anh em / giảng hòa, chia nhau / cai quản đất nước.
+sub: 6 | 5.0-9.8 | May mà không ai / bắt em chọn phe! / Về nhà mẹ hỏi đánh ai... / em biết nói sao?

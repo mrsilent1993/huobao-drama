@@ -1,17 +1,34 @@
 # Tập 2: Bị sai thay biển tên cả tòa thành trong một đêm, sáng ra phải gọi anh cả bằng tên khác (Nguyễn Nhạc lên ngôi, 1778)
 
-**Độ dài:** hai video từ cùng 5 clip: **bản dài** (YouTube, khoảng 48 giây sau chuyển cảnh) và **bản ngắn** (TikTok, khoảng 38 giây) vẫn đủ cả 5 cảnh: 3 clip chính giữ nguyên, 2 clip phụ cắt lấy 5 giây chứa câu chính (xem ghi chú "Bản TikTok" ở từng clip)
+**Độ dài:** hai video từ cùng 6 clip: **bản dài** (YouTube, khoảng 58 giây sau chuyển cảnh) và **bản ngắn** (TikTok, khoảng 38 giây) vẫn đủ cả 6 cảnh: clip chính giữ nguyên, clip phụ cắt lấy 5 giây chứa câu chính (xem ghi chú "Bản TikTok" ở từng clip)
 
-**Hai bản từ cùng một bộ clip:** YouTube Shorts 50 giây (đủ clip) · TikTok 40 giây (rút gọn theo ghi chú "Bản TikTok" ở từng clip).
+**Hai bản từ cùng một bộ clip:** YouTube Shorts 60 giây (đủ clip) · TikTok 40 giây (rút gọn theo ghi chú "Bản TikTok" ở từng clip).
 
 Copy từng khối dán thẳng vào phần mềm. Prompt đã ghép đủ, không cần thay gì.
 
 **Tây Sơn từng mốc:** mỗi mốc là một video, theo công thức Anh Tư (sẹo ngang lông mày trái, răng cửa mẻ, cười toe; ảnh tham chiếu trong `../bach-dang/README.md`). Nguyễn Huệ chỉ xuất hiện từ phía sau hoặc từ xa, mọi câu đùa nhắm vào Anh Tư. **Hai video từ cùng bộ clip:** bản dài (YouTube) đủ mọi clip; bản ngắn (TikTok) vẫn đủ mọi cảnh, chỉ cắt mỗi cảnh phụ còn 5 giây chứa câu chính. Thứ tự đăng cả loạt (kể cả các tập đã có) xem `README.md`.
 
-**Lịch sử:** năm 1778, Nguyễn Nhạc lên ngôi Hoàng đế, đặt niên hiệu Thái Đức, đóng đô ở thành Đồ Bàn (Bình Định) và đổi tên là thành Hoàng Đế (mức B). Nguyễn Lữ và Nguyễn Huệ được phong tước, cầm quân. **Hư cấu:** Anh Tư thay biển, may áo, ghi lại năm tháng trên giấy tờ và mọi lời thoại.
+**Lịch sử:** năm 1778, Nguyễn Nhạc lên ngôi Hoàng đế, đặt niên hiệu Thái Đức, đóng đô ở thành Đồ Bàn (Bình Định) và đổi tên là thành Hoàng Đế (mức B). Nguyễn Lữ và Nguyễn Huệ được phong tước, cầm quân. Trước đó, năm 1777, quân Tây Sơn đánh chiếm Gia Định, làm chủ đất từ Quảng Nam trở vào. **Hư cấu:** Anh Tư thay biển, may áo, ghi lại năm tháng trên giấy tờ và mọi lời thoại.
 
-## Clip 1: Thay biển
+## Clip 1: Từ Quảng Nam đến Gia Định
 File Muse đặt tên: `ts1778-1.mp4`
+
+**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+
+**Ảnh khung đầu**
+```
+First-person view in a wooden hall of the Đồ Bàn citadel, a messenger kneeling with news, Nguyễn Nhạc, a stout, cheerful Vietnamese man in his thirties with a short beard standing with arms crossed and a satisfied smile, officials around, a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face standing guard beside the viewer, realistic, vertical 9:16.
+```
+
+**Video (Muse)**
+```
+First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. No modern national flags anywhere (never a red flag with a yellow star); no flags at all unless the scene describes a period-accurate one. Vietnam, 1778, the old Cham-built citadel of Đồ Bàn in Bình Định being renovated as a capital: brick towers in the distance, a big wooden gate with a large horizontal signboard whose lettering is not legible (no readable text), officials in new court robes. Tây Sơn fighters with black-lacquered teeth in plain dark-indigo or brown clothes with red head wraps, spears and swords. Nguyễn Nhạc, a stout, cheerful Vietnamese man in his thirties with a short beard, now in a yellow imperial robe. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face, in a neat dark-red uniform. 0-5s: A dusty messenger kneels: "Gia Định đã về tay ta!" Nguyễn Nhạc smiles and says slowly: "Từ Quảng Nam đến Gia Định... ta không làm Tây Sơn vương nữa." 5-10s: Anh Tư whispers to the viewer: "Không làm vương... thì làm cái gì to hơn ạ?" Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync in Central Vietnamese (Bình Định) accent, no background music.
+```
+
+## Clip 2: Thay biển
+File Muse đặt tên: `ts1778-2.mp4`
+
+**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -23,8 +40,8 @@ First-person view at night from a ladder against a big citadel gate, the viewer'
 First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. No modern national flags anywhere (never a red flag with a yellow star); no flags at all unless the scene describes a period-accurate one. Vietnam, 1778, the old Cham-built citadel of Đồ Bàn in Bình Định being renovated as a capital: brick towers in the distance, a big wooden gate with a large horizontal signboard whose lettering is not legible (no readable text), officials in new court robes. Tây Sơn fighters with black-lacquered teeth in plain dark-indigo or brown clothes with red head wraps, spears and swords. Nguyễn Nhạc, a stout, cheerful Vietnamese man in his thirties with a short beard, now in a yellow imperial robe. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face, in a neat dark-red uniform. 0-5s: On ladders at night, Anh Tư and the viewer heave a big new signboard into place over the gate; an officer below calls up: "Treo cho thẳng. Sáng mai tên thành đã khác." 5-10s: Anh Tư, straining, whispers: "Đổi tên cả tòa thành... như đổi tên công ty ấy nhỉ?" Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync in Central Vietnamese (Bình Định) accent, no background music.
 ```
 
-## Clip 2: Năm thứ nhất
-File Muse đặt tên: `ts1778-2.mp4`
+## Clip 3: Năm thứ nhất
+File Muse đặt tên: `ts1778-3.mp4`
 
 **Bản TikTok:** chỉ dùng giây 0 đến 5 của clip này.
 
@@ -38,8 +55,8 @@ First-person view at a scribe's desk piled with documents, a brush and ink, a sc
 First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. No modern national flags anywhere (never a red flag with a yellow star); no flags at all unless the scene describes a period-accurate one. Vietnam, 1778, the old Cham-built citadel of Đồ Bàn in Bình Định being renovated as a capital: brick towers in the distance, a big wooden gate with a large horizontal signboard whose lettering is not legible (no readable text), officials in new court robes. Tây Sơn fighters with black-lacquered teeth in plain dark-indigo or brown clothes with red head wraps, spears and swords. Nguyễn Nhạc, a stout, cheerful Vietnamese man in his thirties with a short beard, now in a yellow imperial robe. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face, in a neat dark-red uniform. 0-5s: A scribe hands Anh Tư a stack of papers: "Từ nay ghi năm Thái Đức thứ nhất." 5-10s: Anh Tư flips through the pages and asks the viewer: "Thế năm ngoái... giờ là năm thứ mấy ạ?" Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync in Central Vietnamese (Bình Định) accent, no background music.
 ```
 
-## Clip 3: Gọi là gì
-File Muse đặt tên: `ts1778-3.mp4`
+## Clip 4: Gọi là gì
+File Muse đặt tên: `ts1778-4.mp4`
 
 **Ảnh khung đầu**
 ```
@@ -51,8 +68,8 @@ First-person view from among kneeling officials in a courtyard, Nguyễn Nhạc,
 First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. No modern national flags anywhere (never a red flag with a yellow star); no flags at all unless the scene describes a period-accurate one. Vietnam, 1778, the old Cham-built citadel of Đồ Bàn in Bình Định being renovated as a capital: brick towers in the distance, a big wooden gate with a large horizontal signboard whose lettering is not legible (no readable text), officials in new court robes. Tây Sơn fighters with black-lacquered teeth in plain dark-indigo or brown clothes with red head wraps, spears and swords. Nguyễn Nhạc, a stout, cheerful Vietnamese man in his thirties with a short beard, now in a yellow imperial robe. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face, in a neat dark-red uniform. 0-5s: The officials kneel and shout "Vạn tuế!"; Nguyễn Nhạc sits on the throne in a yellow robe. Anh Tư whispers to an officer: "Hôm qua còn gọi là anh cả... hôm nay gọi là gì ạ?" 5-10s: The officer hisses: "Hoàng thượng!" Anh Tư nods hard and whispers to the viewer: "...Anh cả hoàng thượng." Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync in Central Vietnamese (Bình Định) accent, no background music.
 ```
 
-## Clip 4: Áo vàng
-File Muse đặt tên: `ts1778-4.mp4`
+## Clip 5: Áo vàng
+File Muse đặt tên: `ts1778-5.mp4`
 
 **Bản TikTok:** chỉ dùng giây 0 đến 5 của clip này.
 
@@ -66,8 +83,8 @@ First-person view in a tailor's workshop, tailors sewing yellow silk, a Vietname
 First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. No modern national flags anywhere (never a red flag with a yellow star); no flags at all unless the scene describes a period-accurate one. Vietnam, 1778, the old Cham-built citadel of Đồ Bàn in Bình Định being renovated as a capital: brick towers in the distance, a big wooden gate with a large horizontal signboard whose lettering is not legible (no readable text), officials in new court robes. Tây Sơn fighters with black-lacquered teeth in plain dark-indigo or brown clothes with red head wraps, spears and swords. Nguyễn Nhạc, a stout, cheerful Vietnamese man in his thirties with a short beard, now in a yellow imperial robe. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face, in a neat dark-red uniform. 0-5s: Anh Tư picks up a piece of yellow silk and holds it against himself, admiring it. 5-10s: A tailor snatches it back: "Màu này cả nước chỉ một người được mặc!" Anh Tư to the viewer: "Thế thôi, em mặc... màu nâu cho lành." Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync in Central Vietnamese (Bình Định) accent, no background music.
 ```
 
-## Clip 5: Câu chốt
-File Muse đặt tên: `ts1778-5.mp4`
+## Clip 6: Câu chốt
+File Muse đặt tên: `ts1778-6.mp4`
 
 **Ảnh khung đầu**
 ```
@@ -146,21 +163,24 @@ hook: POV: Thay biển tên / cả tòa thành / trong một đêm
 end: Follow để xem mốc tiếp: / năm 1785 →
 nhan: AI tái hiện · lời thoại hư cấu
 
-clip: ts1778-1.mp4 | Thành Đồ Bàn · năm 1778
-clip: ts1778-2.mp4 | Sáng hôm sau | tiktok=0-5
-clip: ts1778-3.mp4 | Lễ lên ngôi
-clip: ts1778-4.mp4 |  | tiktok=0-5
-clip: ts1778-5.mp4 | 
+clip: ts1778-1.mp4 | Tây Sơn từng mốc · 1778 | tiktok=5-10
+clip: ts1778-2.mp4 | Thành Đồ Bàn · năm 1778 | tiktok=5-10
+clip: ts1778-3.mp4 | Sáng hôm sau | tiktok=0-5
+clip: ts1778-4.mp4 | Lễ lên ngôi
+clip: ts1778-5.mp4 |  | tiktok=0-5
+clip: ts1778-6.mp4 | 
 
-sub: 1 | 0.5-4.8 | Treo cho thẳng. / Sáng mai tên thành đã khác.
-sub: 1 | 5.0-9.5 | Đổi tên cả tòa thành... / như đổi tên công ty ấy nhỉ?
-sub: 2 | 0.5-4.8 | Từ nay ghi: / năm Thái Đức thứ nhất.
-sub: 2 | 5.0-9.5 | Thế năm ngoái... / giờ là năm thứ mấy ạ?
-sub: 3 | 0.5-4.8 | Hôm qua còn gọi là anh cả... / hôm nay gọi là gì ạ?
-sub: 3 | 5.0-7.0 | Hoàng thượng!
-sub: 3 | 7.0-9.6 | ...Anh cả hoàng thượng.
-sub: 4 | 0.5-4.8 | Màu này cả nước / chỉ một người được mặc!
-sub: 4 | 5.0-9.5 | Thế thôi, em mặc / màu nâu cho lành.
-sub: 5 | 0.3-4.8 | Năm 1778, Nguyễn Nhạc / lên ngôi, niên hiệu Thái Đức, / đổi tên thành Đồ Bàn / thành thành Hoàng Đế.
-sub: 5 | 5.0-9.8 | Tấm biển ấy em treo! / Lệch một tí... / không ai dám nói.
+sub: 1 | 0.5-4.8 | Từ Quảng Nam đến Gia Định... / ta không làm / Tây Sơn vương nữa.
+sub: 1 | 5.0-9.5 | Không làm vương... / thì làm cái gì to hơn ạ?
+sub: 2 | 0.5-4.8 | Treo cho thẳng. / Sáng mai tên thành đã khác.
+sub: 2 | 5.0-9.5 | Đổi tên cả tòa thành... / như đổi tên công ty ấy nhỉ?
+sub: 3 | 0.5-4.8 | Từ nay ghi: / năm Thái Đức thứ nhất.
+sub: 3 | 5.0-9.5 | Thế năm ngoái... / giờ là năm thứ mấy ạ?
+sub: 4 | 0.5-4.8 | Hôm qua còn gọi là anh cả... / hôm nay gọi là gì ạ?
+sub: 4 | 5.0-7.0 | Hoàng thượng!
+sub: 4 | 7.0-9.6 | ...Anh cả hoàng thượng.
+sub: 5 | 0.5-4.8 | Màu này cả nước / chỉ một người được mặc!
+sub: 5 | 5.0-9.5 | Thế thôi, em mặc / màu nâu cho lành.
+sub: 6 | 0.3-4.8 | Năm 1778, Nguyễn Nhạc / lên ngôi, niên hiệu Thái Đức, / đổi tên thành Đồ Bàn / thành thành Hoàng Đế.
+sub: 6 | 5.0-9.8 | Tấm biển ấy em treo! / Lệch một tí... / không ai dám nói.
 ```
