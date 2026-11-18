@@ -1,0 +1,19 @@
+# Dựng: python3 ../tools/tiktok.py tap-11-dan-duong-rach-gam-1785.plan.txt tap-11-dan-duong-rach-gam-1785.mp4  (ra tap-11-dan-duong-rach-gam-1785-youtube.mp4 và tap-11-dan-duong-rach-gam-1785-tiktok.mp4)
+hook: POV: Được thuê / dẫn đường cho giặc
+end: Sử không ghi tên Anh Tư. / Follow để xem đời sau / nhà Anh Tư bị giao việc gì →
+
+clip: nbt11-1.mp4 | Sông Tiền · tháng Giêng năm 1785
+clip: nbt11-2.mp4 | Sáng hôm sau | tiktok=bo
+clip: nbt11-3.mp4 | 
+clip: nbt11-4.mp4 | Khúc Rạch Gầm – Xoài Mút | tiktok=bo
+clip: nbt11-5.mp4 | 
+
+sub: 1 | 0.5-4.8 | Mai xin làm người dẫn đường / cho thuyền Xiêm.
+sub: 1 | 5.0-7.4 | Dẫn giặc... / đi tham quan ạ?
+sub: 1 | 7.4-9.6 | Dẫn cho khéo. Không hỏi.
+sub: 2 | 5.0-9.5 | Hai bên cùng thuê / em dẫn đường... mà chỉ / bên này trả tiền.
+sub: 3 | 5.0-9.6 | Thêm một khúc nữa thôi. / Chỗ ấy cảnh đẹp lắm, / ai đến cũng không muốn về.
+sub: 4 | 0.5-4.8 | Em xin phép... / đi vệ sinh tí!
+sub: 4 | 5.0-9.5 | Cả đêm cấm đập muỗi... / mày dẫn chậm thế!
+sub: 5 | 0.3-4.8 | Sử nhà Nguyễn chép: / từ trận ấy, quân Xiêm / sợ Tây Sơn như sợ cọp.
+sub: 5 | 5.0-9.8 | Đường này em dẫn đấy! / Ghi tên em vào sử nhé!

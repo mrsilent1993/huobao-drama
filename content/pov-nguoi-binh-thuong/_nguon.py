@@ -546,6 +546,120 @@ EPISODES = [
         yt_tags=("quang trung, phạm công trị, vua quang trung giả, càn long, mừng thọ càn long 1790, tây sơn, "
                  "nhà thanh, lịch sử việt nam, pov lịch sử, anh tư, đại việt, shorts"),
     ),
+    # ------------------------------------------------------------------ 1785 Rạch Gầm (tiền truyện tập 5)
+    dict(
+        slug="dan-duong-rach-gam-1785", prefix="nbt11",
+        title="Được thuê dẫn đường cho đoàn thuyền giặc, dẫn đến khúc sông yên tĩnh nhất thì... (Rạch Gầm – Xoài Mút, 1785)",
+        length="YouTube 50 giây (5 clip) · TikTok 30 giây (clip 1, 3, 5)",
+        history=("**Lịch sử:** năm 1784, theo lời cầu viện của Nguyễn Ánh, vua Xiêm sai quân thủy bộ sang đánh Gia Định, "
+                 "chiếm nhiều nơi ở miền Tây; sử chép quân Xiêm cướp phá khiến dân oán. Nguyễn Huệ từ Quy Nhơn vào, chọn "
+                 "khúc sông Tiền từ Rạch Gầm đến Xoài Mút (Tiền Giang ngày nay), giấu quân trên bờ, trên cù lao và trong "
+                 "các rạch. Ngày 20 tháng Chạp năm Giáp Thìn (19/1/1785), đoàn thuyền Xiêm xuôi vào khúc sông ấy thì "
+                 "bị đánh úp, gần như bị diệt; sử nhà Nguyễn chép chỉ vài nghìn người chạy thoát, và từ đó quân Xiêm "
+                 "\"sợ Tây Sơn như sợ cọp\" (mức B). **Hư cấu:** Anh Tư làm người dẫn đường, đồng bạc, mọi lời thoại. "
+                 "Tập này là **tiền truyện của tập 5** (đêm cấm đập muỗi)."),
+        setting=("Vietnam, January 1785, the wide brown Tiền River in the Mekong delta: coconut and nipa palms, mangrove "
+                 "islands, narrow side creeks hidden by vegetation. A large Siamese fleet of tall wooden warships with "
+                 "high curved sterns and banners; Siamese soldiers and officers in Siamese military dress of the period. "
+                 "Tây Sơn soldiers in dark-red uniforms with red head wraps, small fast boats. "
+                 f"Anh Tư is {FACE}, a local fisherman in a dark-brown short tunic and cloth head wrap, rowing a small sampan."),
+        hook="POV: Được thuê / dẫn đường cho giặc",
+        end="Sử không ghi tên Anh Tư. / Follow để xem đời sau / nhà Anh Tư bị giao việc gì →",
+        clips=[
+            dict(name="Việc lạ", label="Sông Tiền · tháng Giêng năm 1785",
+                 img=f"First-person view at night on the Tiền River lit by a lantern, a Tây Sơn officer in a dark-red uniform leaning from his boat toward a small sampan, {FACE} in the sampan beside the viewer, listening with a puzzled face, realistic, vertical 9:16.",
+                 vid="0-5s: At night, a Tây Sơn officer leans from his boat and says quietly: \"Mai ra xin làm người dẫn đường cho thuyền Xiêm. Dẫn họ xuôi xuống khúc này.\" 5-10s: Anh Tư blinks: \"Dẫn giặc... đi tham quan ạ?\" The officer: \"Dẫn cho khéo. Không hỏi.\"",
+                 subs=[(0.5, 4.8, "Mai xin làm người dẫn đường / cho thuyền Xiêm."),
+                       (5.0, 7.4, "Dẫn giặc... / đi tham quan ạ?"),
+                       (7.4, 9.6, "Dẫn cho khéo. Không hỏi.")]),
+            dict(name="Được thuê", tiktok="bo", label="Sáng hôm sau",
+                 img=f"First-person view on the deck of a tall Siamese warship, a Siamese officer placing a silver coin in the palm of {FACE}, who bows politely, realistic, vertical 9:16.",
+                 vid="0-5s: On the Siamese warship, an officer drops a silver coin into Anh Tư's palm and points downstream; Anh Tư bows deeply and smiles. 5-10s: Anh Tư bites the coin, then whispers to the viewer: \"Hai bên cùng thuê em dẫn đường... mà chỉ bên này trả tiền.\"",
+                 subs=[(5.0, 9.5, "Hai bên cùng thuê / em dẫn đường... mà chỉ / bên này trả tiền.")]),
+            dict(name="Dẫn đường", label="",
+                 img=f"First-person view from a small sampan at the head of a huge fleet of tall Siamese warships moving downstream on a wide river, {FACE} rowing at the front, turning back to wave cheerfully at the ships, realistic, vertical 9:16.",
+                 vid="0-5s: Anh Tư rows at the head of the huge fleet, turning back to wave cheerfully and point downstream; the warships follow in a long line. 5-10s: He leans toward the viewer and whispers, still smiling: \"Thêm một khúc nữa thôi. Chỗ ấy cảnh đẹp lắm, ai đến cũng không muốn về.\"",
+                 subs=[(5.0, 9.6, "Thêm một khúc nữa thôi. / Chỗ ấy cảnh đẹp lắm, / ai đến cũng không muốn về.")]),
+            dict(name="Rạch nhỏ", tiktok="bo", label="Khúc Rạch Gầm – Xoài Mút",
+                 img=f"First-person view from a sampan slipping into a narrow creek hidden by nipa palms, dozens of Tây Sơn soldiers crouching silently in boats, their arms covered in mosquito bites, glaring at {FACE}, realistic, vertical 9:16.",
+                 vid="0-5s: The river turns quiet; birds fly up from the banks. Anh Tư calls back to the fleet: \"Em xin phép... đi vệ sinh tí!\" and slips his sampan into a narrow creek. 5-10s: Inside, dozens of hidden Tây Sơn soldiers covered in mosquito bites glare at him; one hisses: \"Cả đêm cấm đập muỗi... mày dẫn chậm thế!\"",
+                 subs=[(0.5, 4.8, "Em xin phép... / đi vệ sinh tí!"),
+                       (5.0, 9.5, "Cả đêm cấm đập muỗi... / mày dẫn chậm thế!")]),
+            dict(name="Ghi tên em vào sử", label="",
+                 img=f"First-person view from a creek mouth as hundreds of small Tây Sơn boats burst out from the palms and an island onto the wide river toward the Siamese fleet, war drums, {FACE} standing in his sampan with a huge chipped-tooth grin, no blood, realistic, vertical 9:16.",
+                 vid="0-5s: War drums; hundreds of small boats burst out of the creeks and from behind the island onto the river; the tall warships try to turn. A calm narrator's voice says: \"Sử nhà Nguyễn chép: từ trận ấy, quân Xiêm sợ Tây Sơn như sợ cọp.\" 5-10s: Anh Tư turns to the camera with his chipped-tooth grin: \"Đường này em dẫn đấy! Ghi tên em vào sử nhé!\"",
+                 subs=[(0.3, 4.8, "Sử nhà Nguyễn chép: / từ trận ấy, quân Xiêm / sợ Tây Sơn như sợ cọp."),
+                       (5.0, 9.8, "Đường này em dẫn đấy! / Ghi tên em vào sử nhé!")]),
+        ],
+        caption=("Được thuê dẫn đường cho đoàn thuyền giặc, dẫn đến khúc sông yên tĩnh nhất thì... 🤫 Tháng Giêng năm 1785, "
+                 "Nguyễn Huệ phục kích đoàn thuyền Xiêm ở khúc sông Tiền từ Rạch Gầm đến Xoài Mút. Ai đã xem tập \"cấm đập "
+                 "muỗi\" thì nhận ra mấy anh lính trong rạch rồi đúng không? 👇"),
+        tags="#rachgamxoaimut #nguyenhue #tayson #songtien #1785",
+        tt_title="Được thuê dẫn đường cho đoàn thuyền giặc, dẫn đến khúc sông yên tĩnh nhất thì...",
+        hooks_alt=["POV: Hai bên cùng thuê / mình dẫn đường", "POV: Dẫn giặc / đi tham quan sông Tiền"],
+        pin=("Đây là tiền truyện của tập \"cấm đập muỗi\" 🦟 Bạn xem tập nào trước? Follow để xem đời sau nhà Anh Tư!"),
+        yt_title="Được thuê dẫn đường cho thuyền giặc, dẫn đến khúc sông Rạch Gầm thì... (năm 1785)",
+        yt_tags=("rạch gầm xoài mút, nguyễn huệ, tây sơn, trận rạch gầm, quân xiêm, sông tiền, 1785, lịch sử việt nam, "
+                 "pov lịch sử, anh tư, đại việt, shorts"),
+    ),
+    # ------------------------------------------------------------------ 1789 cầu phao sông Nhị
+    dict(
+        slug="canh-cau-phao-1789", prefix="nbt12",
+        title="Bị bắt canh cầu phao cho quân Thanh dịp Tết, sáng mùng 5 thấy Tổng đốc phi qua cầu mà ngựa chưa kịp đóng yên (Ngọc Hồi – Đống Đa, 1789)",
+        length="YouTube 50 giây (5 clip) · TikTok 30 giây (clip 1, 4, 5)",
+        history=("**Lịch sử:** cuối năm 1788, Tổng đốc Lưỡng Quảng Tôn Sĩ Nghị đem quân Thanh sang, đóng ở Thăng Long, "
+                 "bắc cầu phao qua sông Nhị (sông Hồng) để tiện đi lại, định ra Giêng mới đánh tiếp. Vua Quang Trung "
+                 "hành quân thần tốc ra Bắc; mùng 5 Tết Kỷ Dậu (30/1/1789) phá đồn Ngọc Hồi và Đống Đa, trưa hôm ấy "
+                 "vào Thăng Long. Tôn Sĩ Nghị bỏ chạy qua cầu phao về phía bắc, cầu sập; sử chép ông bỏ lại cả ấn tín "
+                 "(mức B), và nhà Thanh sau đó triệu ông về. Chi tiết \"ngựa không kịp đóng yên, người không kịp mặc "
+                 "giáp\" theo *Hoàng Lê nhất thống chí* (tiểu thuyết lịch sử, mức C). **Hư cấu:** Anh Tư, người phiên "
+                 "dịch và mọi lời thoại. Không dựng cảnh người rơi xuống sông."),
+        setting=("Vietnam, Tết Kỷ Dậu (late January 1789), Thăng Long on the Red River: a long pontoon bridge of wooden "
+                 "boats lashed together under planks, the Qing camp on the bank with many banners and red lanterns, "
+                 "Qing soldiers with queues in Qing uniforms, a Vietnamese interpreter in a dark Lê-era official robe. "
+                 f"Anh Tư is {FACE}, a Thăng Long laborer in a patched brown shirt and cloth head wrap. "
+                 "Tây Sơn troops in dark-red uniforms appear only at the end, at a distance."),
+        hook="POV: Canh cầu phao / cho quân Thanh / dịp Tết",
+        end="Sử không ghi tên Anh Tư. / Follow để xem đời sau / nhà Anh Tư bị giao việc gì →",
+        clips=[
+            dict(name="Việc canh cầu", label="Thăng Long · Tết Kỷ Dậu 1789",
+                 img=f"First-person view on a long pontoon bridge of boats and planks over a wide river, a Qing officer with a queue pointing at the ropes while a Vietnamese interpreter in a dark robe translates, {FACE} beside the viewer holding a coil of rope, realistic, vertical 9:16.",
+                 vid="0-5s: A Qing officer points at the ropes and speaks; the interpreter translates: \"Ngày đêm giữ cầu cho chắc. Đại quân còn đi lại.\" 5-10s: Anh Tư asks politely: \"Cầu này... để đi sang hay để chạy về ạ?\" The interpreter glares: \"Đừng hỏi. Giữ cầu.\"",
+                 subs=[(0.5, 4.8, "Ngày đêm giữ cầu cho chắc. / Đại quân còn đi lại."),
+                       (5.0, 7.6, "Cầu này... để đi sang / hay để chạy về ạ?"),
+                       (7.6, 9.6, "Đừng hỏi. Giữ cầu.")]),
+            dict(name="Ăn Tết trước", tiktok="bo", label="Mùng 3 Tết",
+                 img=f"First-person view from the pontoon bridge at dusk, the Qing camp on the bank festive with red lanterns, soldiers feasting and setting off firecrackers, {FACE} tying ropes on the bridge, looking at the camp, realistic, vertical 9:16.",
+                 vid="0-5s: In the lantern-lit camp, Qing soldiers feast and light firecrackers; the interpreter strolls past the bridge: \"Ra Giêng mới đánh. Tết thì cứ ăn đã.\" 5-10s: Anh Tư tightens a rope and mutters to the viewer: \"Người ta ăn Tết. Còn em... ăn dây thừng.\"",
+                 subs=[(0.5, 4.8, "Ra Giêng mới đánh. / Tết thì cứ ăn đã."),
+                       (5.0, 9.5, "Người ta ăn Tết. / Còn em... ăn dây thừng.")]),
+            dict(name="Tiếng pháo mùng 5", tiktok="bo", label="Sáng mùng 5 Tết",
+                 img=f"First-person view at dawn from the pontoon bridge, distant smoke rising on the southern horizon, Qing soldiers in the camp stopping and turning toward the sound, {FACE} with a hand cupped behind his ear, realistic, vertical 9:16.",
+                 vid="0-5s: Dawn; deep booms roll from the south and smoke rises on the horizon; the camp falls silent, soldiers turn their heads. 5-10s: Anh Tư cups his ear and asks the viewer innocently: \"Ơ... pháo Tết nhà ai mà to thế?\"",
+                 subs=[(5.0, 9.5, "Ơ... pháo Tết nhà ai / mà to thế?")]),
+            dict(name="Tổng đốc qua cầu", label="Gần trưa",
+                 img=f"First-person view from the side of the pontoon bridge, a high-ranking Qing commander without armor galloping across on a horse with no saddle, guards running behind him, {FACE} pressed against the rail holding his hat, mouth open, realistic, vertical 9:16.",
+                 vid="0-5s: A high-ranking Qing commander, without armor, gallops across the swaying bridge on a horse with no saddle, his guards running behind; planks bounce. 5-10s: Anh Tư, pressed against the rail, whispers to the viewer: \"Tổng đốc chạy nhanh hơn cả ngựa... ngựa còn chưa kịp đóng yên.\"",
+                 subs=[(0.5, 4.8, "Ngựa không kịp đóng yên, / người không kịp mặc giáp."),
+                       (5.0, 9.5, "Tổng đốc chạy / nhanh hơn cả ngựa... / ngựa chưa kịp đóng yên.")]),
+            dict(name="Ghi tên em vào sử", label="Trưa mùng 5 Tết",
+                 img=f"First-person view from the riverbank at noon, the pontoon bridge broken in the middle and drifting apart with no people on it, across the city a great Tây Sơn army with red banners entering Thăng Long in the distance, {FACE} holding a cut rope end, grinning, realistic, vertical 9:16.",
+                 vid="0-5s: Noon; the pontoon bridge has broken in the middle and its boats drift apart, empty; in the distance a great army with red banners enters the city. A calm narrator's voice says: \"Trưa mùng 5 Tết Kỷ Dậu, vua Quang Trung vào Thăng Long. Tôn Sĩ Nghị chạy về nước, bỏ lại cả ấn tín.\" 5-10s: Anh Tư holds up a cut rope end and grins at the camera: \"Cầu này em giữ đấy... giữ đến lúc nó sập! Ghi tên em vào sử nhé!\"",
+                 subs=[(0.3, 4.8, "Trưa mùng 5 Tết, vua / Quang Trung vào Thăng Long. / Tôn Sĩ Nghị bỏ lại ấn tín."),
+                       (5.0, 9.8, "Cầu này em giữ đấy... / giữ đến lúc nó sập! / Ghi tên em vào sử nhé!")]),
+        ],
+        caption=("Bị bắt canh cầu phao cho quân Thanh dịp Tết, sáng mùng 5 thấy Tổng đốc phi qua cầu mà ngựa chưa kịp đóng "
+                 "yên 😳 Mùng 5 Tết Kỷ Dậu (1789), vua Quang Trung phá đồn Ngọc Hồi, Đống Đa và vào Thăng Long. Bạn biết "
+                 "gò Đống Đa ngày nay nằm ở đâu không? 👇"),
+        tags="#ngochoidongda #quangtrung #tonsinghi #tetkydau #1789",
+        tt_title="Canh cầu phao cho quân Thanh dịp Tết, sáng mùng 5 thấy Tổng đốc phi qua cầu",
+        hooks_alt=["POV: Tổng đốc chạy / nhanh hơn cả ngựa", "POV: Pháo Tết mùng 5 / to bất thường"],
+        pin=("Mùng 5 Tết là ngày giỗ trận Đống Đa, đến nay Hà Nội vẫn mở hội Gò Đống Đa 🎆 Bạn đã đi hội lần nào chưa? "
+             "Follow để xem đời sau nhà Anh Tư!"),
+        yt_title="Canh cầu phao cho quân Thanh dịp Tết, sáng mùng 5 thấy Tổng đốc phi qua cầu (năm 1789)",
+        yt_tags=("ngọc hồi đống đa, quang trung, tôn sĩ nghị, tết kỷ dậu, cầu phao sông hồng, quân thanh, 1789, "
+                 "lịch sử việt nam, pov lịch sử, anh tư, đại việt, shorts"),
+    ),
 ]
 
 if __name__ == "__main__":

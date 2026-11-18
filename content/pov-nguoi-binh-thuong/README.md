@@ -25,6 +25,8 @@ Mỗi tập có hai bản: **TikTok 30 giây** gồm clip 1, 3, 5, đúng độ 
 | 8 | Được chia gạo nhà giàu không mất một đồng… (khởi nghĩa Tây Sơn, 1771) | "Gạo chia không lấy tiền… nghe đã thấy có chuyện." → "Ông ấy nhìn em một cái… em suýt trả lại cả bao gạo." → "Ông ấy chia gạo cho em đấy! Ghi tên em vào sử nhé!" | "Người thu thuế… đi chia gạo?" / "Biết làm gì?" "Em ăn khỏe ạ." | `nbt8-1..5` |
 | 9 | Đưa thư mời một ông đồ, ba năm bị từ chối… (La Sơn Phu Tử, 1786–1788) | "Già này chỉ biết dạy học." → "Ba năm, mòn ba đôi dép, cụ mới chịu xuống núi một lần!" → "Ông đồ ấy em mời đấy! Ghi tên em vào sử nhé!" | "Lại là cậu à? Không!" / "Xuống núi… để từ chối trực tiếp ạ?" | `nbt9-1..5` |
 | 10 | Theo hầu nhà vua sang mừng thọ Càn Long, mà vua… hơi lạ (năm 1790) | "Đi sứ mà chọn người theo… khuôn mặt ạ?" → "Hoàng đế ôm ông ấy như cha con… em chỉ mong ông ấy đừng hắt hơi." → "Em biết ai thật ai giả… nhưng em không nói đâu." | "Bác cứ đứng yên là giống nhất." / "Em lên năm cân rồi." | `nbt10-1..5` (TikTok: clip 1, 4, 5) |
+| 11 | Được thuê dẫn đường cho thuyền giặc… (Rạch Gầm – Xoài Mút, 1785; tiền truyện tập 5) | "Dẫn giặc… đi tham quan ạ?" → "Chỗ ấy cảnh đẹp lắm, ai đến cũng không muốn về." → "Đường này em dẫn đấy! Ghi tên em vào sử nhé!" | "Hai bên cùng thuê em dẫn đường… mà chỉ bên này trả tiền." / "Cả đêm cấm đập muỗi… mày dẫn chậm thế!" | `nbt11-1..5` |
+| 12 | Canh cầu phao cho quân Thanh dịp Tết… (Ngọc Hồi – Đống Đa, 1789) | "Cầu này… để đi sang hay để chạy về ạ?" → "Tổng đốc chạy nhanh hơn cả ngựa… ngựa chưa kịp đóng yên." → "Giữ đến lúc nó sập! Ghi tên em vào sử nhé!" | "Người ta ăn Tết. Còn em… ăn dây thừng." / "Pháo Tết nhà ai mà to thế?" | `nbt12-1..5` (TikTok: clip 1, 4, 5) |
 
 ## Đăng
 
@@ -40,6 +42,8 @@ Mỗi tập có hai bản: **TikTok 30 giây** gồm clip 1, 3, 5, đúng độ 
 - **Tập 7:** việc Tây Sơn thu nạp cướp biển Quảng Đông theo Dian Murray (1987) và sử nhà Nguyễn; phần lớn diễn ra dưới thời Cảnh Thịnh, không phải Quang Trung. Không nhầm với Quân Cờ Đen của Lưu Vĩnh Phúc (1860–1885). Chỉ chê chính sách thuê cướp biển, không bêu người Hoa.
 - **Tập 9:** câu "không quá mười ngày" theo *Hoàng Lê nhất thống chí* (tiểu thuyết lịch sử, mức C); việc mời nhiều lần và cuộc gặp ở Lam Thành năm 1788 có thư từ làm chứng. Con số "ba lần" là hư cấu.
 - **Tập 10:** người sang Thanh năm 1790 là vua Quang Trung hay Phạm Công Trị đóng thế **vẫn đang tranh luận**; tập phim để ngỏ, caption mời người xem bình chọn.
+- **Tập 11:** câu "sợ Tây Sơn như sợ cọp" theo sử nhà Nguyễn (mức B). Việc Anh Tư làm người dẫn đường là hư cấu.
+- **Tập 12:** chi tiết "ngựa không kịp đóng yên" theo *Hoàng Lê nhất thống chí* (mức C). Cầu sập chỉ dựng cầu trống trôi, không dựng người rơi xuống sông.
 - **Tập 4 và 5:** các nguồn ghi ngày và quân số khác nhau, nên tập phim chỉ ghi năm và tháng.
 
 Toàn bộ nội dung nằm trong `_nguon.py`. Sửa ở đó rồi chạy `python3 _nguon.py`.
