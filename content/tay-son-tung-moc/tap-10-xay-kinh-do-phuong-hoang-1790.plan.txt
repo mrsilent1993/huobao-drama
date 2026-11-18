@@ -1,0 +1,24 @@
+# Dựng: python3 ../tools/tiktok.py tap-10-xay-kinh-do-phuong-hoang-1790.plan.txt tap-10-xay-kinh-do-phuong-hoang-1790.mp4  (ra tap-10-xay-kinh-do-phuong-hoang-1790-youtube.mp4 và tap-10-xay-kinh-do-phuong-hoang-1790-tiktok.mp4)
+hook: POV: Xây kinh đô mới / dù cả nước / đã có hai kinh đô
+end: Follow để xem mốc tiếp: / năm 1792 →
+nhan: AI tái hiện · lời thoại hư cấu
+end_giay: 1.6
+
+clip: ts1790-1.mp4 | Tây Sơn từng mốc · 1790 | tiktok=5-10
+clip: ts1790-2.mp4 |  | tiktok=5-10
+clip: ts1790-3.mp4 | 
+clip: ts1790-4.mp4 | Năm 1791 | tiktok=5-10
+clip: ts1790-5.mp4 |  | tiktok=0-5
+clip: ts1790-6.mp4 | Ngày nay
+
+sub: 1 | 0.5-4.8 | Xây kinh đô mới ở đây.
+sub: 1 | 5.0-9.5 | Có Phú Xuân, / có Thăng Long rồi... / thêm kinh đô thứ ba ạ?
+sub: 2 | 0.5-4.8 | Đất này được.
+sub: 2 | 5.0-9.5 | Ông đồ em mời ba năm... / giờ đi chọn đất xây kinh đô!
+sub: 3 | 0.5-4.8 | Nghệ An ở giữa. / Ra Bắc, vào Nam đều gần.
+sub: 3 | 5.0-9.5 | Ở giữa... để cả nước / đi họp cho gần.
+sub: 4 | 0.5-4.8 | Tường thành lên dần / dưới chân núi Dũng Quyết.
+sub: 4 | 5.0-9.5 | Thành này em xây... / chắc trăm năm.
+sub: 5 | 0.5-4.8 | Quét sạch rồi... / chỉ còn chờ vua về.
+sub: 6 | 0.3-4.8 | Phượng Hoàng Trung Đô / chưa bao giờ được dùng. / Nay còn dấu tích ở TP Vinh.
+sub: 6 | 5.0-8.4 | Kinh đô em xây... / chưa ai kịp ở.

@@ -1,4 +1,4 @@
-# Tập 6: Bị sai đi làm thẻ căn cước cho cả làng từ hơn 200 năm trước, đến mùa thu năm ấy thì... (tín bài thời Quang Trung, 1791–1792)
+# Tập 11: Bị sai đi làm thẻ căn cước cho cả làng từ hơn 200 năm trước, đến mùa thu năm ấy thì... (tín bài thời Quang Trung, 1791–1792)
 
 **Độ dài:** hai video từ cùng 6 clip: **bản dài** (YouTube, khoảng 58 giây sau chuyển cảnh) và **bản ngắn** (TikTok, khoảng 38 giây) vẫn đủ cả 6 cảnh: clip chính giữ nguyên, clip phụ cắt lấy 5 giây chứa câu chính (xem ghi chú "Bản TikTok" ở từng clip)
 
@@ -165,7 +165,7 @@ Khi đăng: ở mục "Nội dung bị thay đổi" (Altered content) chọn **C
 ## Chữ trên video (mình chèn ở hậu kỳ)
 
 ```
-# Dựng: python3 ../tools/tiktok.py tap-6-the-can-cuoc-tin-bai-1792.plan.txt tap-6-the-can-cuoc-tin-bai-1792.mp4  (ra tap-6-the-can-cuoc-tin-bai-1792-youtube.mp4 và tap-6-the-can-cuoc-tin-bai-1792-tiktok.mp4)
+# Dựng: python3 ../tools/tiktok.py tap-11-the-can-cuoc-tin-bai-1792.plan.txt tap-11-the-can-cuoc-tin-bai-1792.mp4  (ra tap-11-the-can-cuoc-tin-bai-1792-youtube.mp4 và tap-11-the-can-cuoc-tin-bai-1792-tiktok.mp4)
 hook: POV: Bị sai đi làm / thẻ căn cước / từ thế kỷ 18
 end: Follow để xem cả loạt / Tây Sơn từng mốc →
 nhan: AI tái hiện · lời thoại hư cấu

@@ -1,0 +1,24 @@
+# Dựng: python3 ../tools/tiktok.py tap-9-ho-hang-ha-hoi-1789.plan.txt tap-9-ho-hang-ha-hoi-1789.mp4  (ra tap-9-ho-hang-ha-hoi-1789-youtube.mp4 và tap-9-ho-hang-ha-hoi-1789-tiktok.mp4)
+hook: POV: Nhiệm vụ đêm Tết / chỉ có một việc: / hô thật to
+end: Follow để xem mốc tiếp: / cầu phao mùng 5 Tết →
+nhan: AI tái hiện · lời thoại hư cấu
+end_giay: 1.6
+
+clip: ts1789-1.mp4 | Tây Sơn từng mốc · Tết 1789 | tiktok=5-10
+clip: ts1789-2.mp4 |  | tiktok=5-10
+clip: ts1789-3.mp4 | Nửa đêm
+clip: ts1789-4.mp4 |  | tiktok=5-10
+clip: ts1789-5.mp4 |  | tiktok=0-5
+clip: ts1789-6.mp4 | Sáng mùng 4 Tết
+
+sub: 1 | 0.5-4.8 | Đêm nay việc của mày / chỉ có một: hô. Thật to.
+sub: 1 | 5.0-9.5 | Đánh giặc... / bằng mồm ạ?
+sub: 2 | 5.0-9.5 | Tập hô mà phải hô khẽ... / khó hơn cả hô to.
+sub: 3 | 0.5-4.8 | Tiếng hô dội khắp cánh đồng / như có cả vạn quân.
+sub: 3 | 5.0-9.5 | Mình có mấy trăm người... / mà nghe như mấy vạn.
+sub: 4 | 0.5-4.8 | Cổng đồn mở. / Quân Thanh ra hàng.
+sub: 4 | 5.0-9.5 | Chưa ai rút gươm... / mà nó đã ra hàng.
+sub: 5 | 0.5-4.8 | Giọng em... mất rồi.
+sub: 5 | 5.0-9.5 | Đổi được cả cái đồn. Đáng.
+sub: 6 | 0.3-4.8 | Đêm mùng 3 Tết, / vây đồn Hà Hồi, hô vang. / Quân Thanh ra hàng.
+sub: 6 | 5.0-8.4 | Trận này... / em thắng bằng giọng.

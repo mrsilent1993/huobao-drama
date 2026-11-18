@@ -1,4 +1,4 @@
-# Tập 4: Bị lệnh vây một tòa thành, đến nơi mới biết đó là thành của chính phe mình (anh em Tây Sơn bất hòa, 1787)
+# Tập 6: Bị lệnh vây một tòa thành, đến nơi mới biết đó là thành của chính phe mình (anh em Tây Sơn bất hòa, 1787)
 
 **Độ dài:** hai video từ cùng 6 clip: **bản dài** (YouTube, khoảng 58 giây sau chuyển cảnh) và **bản ngắn** (TikTok, khoảng 38 giây) vẫn đủ cả 6 cảnh: clip chính giữ nguyên, clip phụ cắt lấy 5 giây chứa câu chính (xem ghi chú "Bản TikTok" ở từng clip)
 
@@ -167,9 +167,9 @@ Khi đăng: ở mục "Nội dung bị thay đổi" (Altered content) chọn **C
 ## Chữ trên video (mình chèn ở hậu kỳ)
 
 ```
-# Dựng: python3 ../tools/tiktok.py tap-4-vay-thanh-phe-minh-1787.plan.txt tap-4-vay-thanh-phe-minh-1787.mp4  (ra tap-4-vay-thanh-phe-minh-1787-youtube.mp4 và tap-4-vay-thanh-phe-minh-1787-tiktok.mp4)
+# Dựng: python3 ../tools/tiktok.py tap-6-vay-thanh-phe-minh-1787.plan.txt tap-6-vay-thanh-phe-minh-1787.mp4  (ra tap-6-vay-thanh-phe-minh-1787-youtube.mp4 và tap-6-vay-thanh-phe-minh-1787-tiktok.mp4)
 hook: POV: Bị lệnh / vây thành / của chính phe mình
-end: Follow để xem mốc tiếp: / lên ngôi năm 1788 →
+end: Follow để xem mốc tiếp: / rút về Tam Điệp 1788 →
 nhan: AI tái hiện · lời thoại hư cấu
 
 clip: ts1787-1.mp4 | Tây Sơn từng mốc · 1787 | tiktok=5-10

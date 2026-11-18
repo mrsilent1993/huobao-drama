@@ -1,0 +1,25 @@
+# Dựng: python3 ../tools/tiktok.py tap-7-rut-ve-tam-diep-1788.plan.txt tap-7-rut-ve-tam-diep-1788.mp4  (ra tap-7-rut-ve-tam-diep-1788-youtube.mp4 và tap-7-rut-ve-tam-diep-1788-tiktok.mp4)
+hook: POV: Bỏ Thăng Long / rút về núi / khi chưa đánh
+end: Follow để xem mốc tiếp: / lên ngôi ở núi Bân →
+nhan: AI tái hiện · lời thoại hư cấu
+end_giay: 1.6
+
+clip: ts1788b-1.mp4 | Tây Sơn từng mốc · 11/1788 | tiktok=5-10
+clip: ts1788b-2.mp4 |  | tiktok=0-5
+clip: ts1788b-3.mp4 | 
+clip: ts1788b-4.mp4 | Tam Điệp, Ninh Bình | tiktok=5-10
+clip: ts1788b-5.mp4 |  | tiktok=5-10
+clip: ts1788b-6.mp4 | Tháng Chạp năm Mậu Thân
+
+sub: 1 | 0.5-4.8 | Thu dọn. / Đêm nay rút khỏi Thăng Long.
+sub: 1 | 5.0-9.5 | Giặc chưa đến... / mình đã đi rồi ạ?
+sub: 2 | 0.5-4.8 | Mang hết gạo đi... / giặc đến ăn gì?
+sub: 2 | 5.0-9.5 | Thì để nó tự lo.
+sub: 3 | 0.5-4.8 | Các anh đi... / bỏ chúng tôi à?
+sub: 3 | 5.0-9.5 | Không đâu cụ. / Đi... để quay lại.
+sub: 4 | 0.5-4.8 | Núi chặn đường bộ, / biển chặn đường thủy.
+sub: 4 | 5.0-9.5 | Rút về chỗ hiểm... / là để chờ ai ạ?
+sub: 5 | 0.5-4.8 | Giữ được quân / là giữ được nước. Chờ.
+sub: 5 | 5.0-9.5 | Rút chạy... mà ông ấy / nói như thắng rồi.
+sub: 6 | 0.3-4.8 | Rút về Tam Điệp, giữ nguyên / lực lượng. Một tháng sau, / vua Quang Trung ra đến nơi.
+sub: 6 | 5.0-8.4 | Chờ một tháng... / đúng người mình chờ!

@@ -1,0 +1,26 @@
+# Dựng: python3 ../tools/tiktok.py tap-2-xin-hang-de-danh-tiep-1775.plan.txt tap-2-xin-hang-de-danh-tiep-1775.mp4  (ra tap-2-xin-hang-de-danh-tiep-1775-youtube.mp4 và tap-2-xin-hang-de-danh-tiep-1775-tiktok.mp4)
+hook: POV: Đi xin hàng / dù chưa thua / trận nào
+end: Follow để xem mốc tiếp: / năm 1778 →
+nhan: AI tái hiện · lời thoại hư cấu
+end_giay: 1.6
+
+clip: ts1775-1.mp4 | Tây Sơn từng mốc · 1775 | tiktok=5-10
+clip: ts1775-2.mp4 |  | tiktok=0-5
+clip: ts1775-3.mp4 | Trại quân Trịnh · Quảng Nam
+clip: ts1775-4.mp4 | Mấy hôm sau | tiktok=5-10
+clip: ts1775-5.mp4 | Phú Yên · năm 1775 | tiktok=5-10
+clip: ts1775-6.mp4 | 
+
+sub: 1 | 0.5-4.8 | Phía bắc quân Trịnh, / phía nam quân Nguyễn. / Đánh cả hai thì thua cả hai.
+sub: 1 | 5.0-7.6 | Thế... mình đánh / ai trước ạ?
+sub: 1 | 7.6-9.6 | Chưa đánh ai cả.
+sub: 2 | 0.5-4.8 | Mang sang trại họ Hoàng. / Nói ta xin làm tiên phong / cho chúa Trịnh.
+sub: 2 | 5.0-9.5 | Xin hàng... / mà chưa thua trận nào?
+sub: 3 | 0.5-4.8 | Được! Phong làm / Tráng tiết tướng quân!
+sub: 3 | 5.0-9.5 | Đi xin hàng... / mà được phong chức về.
+sub: 4 | 0.5-4.8 | Phía bắc yên rồi. / Giờ quay vào nam.
+sub: 4 | 5.0-9.5 | Hàng phía bắc... / để đánh phía nam. Hiểu rồi.
+sub: 5 | 0.5-4.8 | Năm 1775, Nguyễn Huệ / khoảng 22 tuổi đánh tan / quân Nguyễn ở Phú Yên.
+sub: 5 | 5.0-9.5 | Em út nhà ấy... / trận đầu đã đánh thế này à?
+sub: 6 | 0.3-4.8 | Năm 1775, Tây Sơn tạm hàng / chúa Trịnh để rảnh tay / đánh chúa Nguyễn.
+sub: 6 | 5.0-8.4 | Xin hàng một lần... / đỡ phải đánh hai đầu!

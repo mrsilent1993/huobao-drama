@@ -1,0 +1,25 @@
+# Dựng: python3 ../tools/tiktok.py tap-4-duoi-theo-ra-dao-1783.plan.txt tap-4-duoi-theo-ra-dao-1783.mp4  (ra tap-4-duoi-theo-ra-dao-1783-youtube.mp4 và tap-4-duoi-theo-ra-dao-1783-tiktok.mp4)
+hook: POV: Đuổi theo một người / từ đảo này / sang đảo khác
+end: Follow để xem mốc tiếp: / Rạch Gầm 1785 →
+nhan: AI tái hiện · lời thoại hư cấu
+end_giay: 1.6
+
+clip: ts1783-1.mp4 | Tây Sơn từng mốc · 1783 | tiktok=5-10
+clip: ts1783-2.mp4 | Phú Quốc | tiktok=0-5
+clip: ts1783-3.mp4 | Côn Lôn
+clip: ts1783-4.mp4 | Đêm hôm ấy | tiktok=5-10
+clip: ts1783-5.mp4 | Sáng hôm sau | tiktok=5-10
+clip: ts1783-6.mp4 | Năm 1784
+
+sub: 1 | 0.5-4.8 | Đuổi theo thuyền chúa Nguyễn. / Bắt sống.
+sub: 1 | 5.0-9.5 | Bắt sống... / giữa biển này ạ?
+sub: 2 | 0.5-4.8 | Đi hôm qua rồi.
+sub: 2 | 5.0-9.5 | Mình đến đâu... / ông ấy vừa đi khỏi đó.
+sub: 3 | 0.5-4.8 | Lần này hết đường chạy rồi!
+sub: 3 | 5.0-9.5 | Mây đen kéo đến rất nhanh.
+sub: 4 | 0.5-4.8 | Vòng vây tan trong bão.
+sub: 4 | 5.0-9.5 | Trời ơi... trời đứng / về phía ai thế này?!
+sub: 5 | 0.5-4.8 | Thoát rồi.
+sub: 5 | 5.0-9.5 | Đuổi cả năm trời... / như đuổi gió.
+sub: 6 | 0.3-4.8 | Năm 1784, Nguyễn Ánh / sang Xiêm cầu viện. / Quân Xiêm gặp Nguyễn Huệ / ở Rạch Gầm.
+sub: 6 | 5.0-8.4 | Đuổi hụt một người... / gặp nguyên một đạo quân!

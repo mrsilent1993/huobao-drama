@@ -13,22 +13,27 @@ Mỗi mốc của phong trào Tây Sơn là một video, theo công thức Anh T
 | Mốc | Năm | Video | File | Clip Muse |
 |---|---|---|---|---|
 | 1 | 1771 | Được chia gạo nhà giàu, người chia sau này là vua | `../pov-nguoi-binh-thuong/tap-8-chia-gao-tay-son-1771.md` | `nbt8-1..5` (đã có) |
-| 2 | 1773 | Khiêng cái cũi có người vào thành Quy Nhơn (**bản đầy đủ 6 cảnh**: YouTube khoảng 58 giây, TikTok khoảng 38 giây, cả hai đủ 6 cảnh) | `tap-1-khieng-cui-quy-nhon-1773.md` | `ts1773-1..6` (**mới**) |
-| 3 | 1778 | Thay biển tên cả tòa thành: Nguyễn Nhạc lên ngôi | `tap-2-thay-bien-thanh-hoang-de-1778.md` | `ts1778-1..6` (**mới**, bản đầy đủ 6 cảnh) |
-| 4 | 1785 | Dẫn đường cho thuyền Xiêm vào Rạch Gầm | `../pov-nguoi-binh-thuong/tap-11-dan-duong-rach-gam-1785.md` | `nbt11-1..5` (đã có) |
-| 4b | 1785 | Đêm cấm đập muỗi trước trận Rạch Gầm | `../pov-nguoi-binh-thuong/tap-5-cam-dap-muoi-rach-gam-1785.md` | `nbt5-1..5` (đã có) |
-| 5 | 1786 | Canh kho báu phủ chúa mà cấm sờ: phù Lê diệt Trịnh | `tap-3-canh-kho-phu-chua-1786.md` | `ts1786-1..6` (**mới**, bản đầy đủ 6 cảnh) |
-| 6 | 1787 | Vây thành của chính phe mình: "nồi da nấu thịt" | `tap-4-vay-thanh-phe-minh-1787.md` | `ts1787-1..6` (**mới**, bản đầy đủ 6 cảnh) |
-| 7 | 1788 | Đưa thư mời La Sơn Phu Tử | `../pov-nguoi-binh-thuong/tap-9-dua-thu-la-son-1788.md` | `nbt9-1..5` (đã có) |
-| 8 | 1788 | Dựng đàn ở núi Bân: sáng lên ngôi, chiều xuất quân | `tap-5-dung-dan-nui-ban-1788.md` | `ts1788-1..6` (**mới**, bản đầy đủ 6 cảnh) |
-| 9 | 1789 | Canh cầu phao cho quân Thanh dịp Tết | `../pov-nguoi-binh-thuong/tap-12-canh-cau-phao-1789.md` | `nbt12-1..5` (đã có) |
-| 10 | 1790 | Theo hầu ông vua… giả sang mừng thọ Càn Long | `../pov-nguoi-binh-thuong/tap-10-theo-hau-vua-gia-1790.md` | `nbt10-1..5` (đã có) |
-| 11 | 1791–1792 | Làm "thẻ căn cước" tín bài; mùa thu 1792 vua mất | `tap-6-the-can-cuoc-tin-bai-1792.md` | `ts1792-1..6` (**mới**, bản đầy đủ 6 cảnh) |
-| Ngoại truyện | khoảng 1797 | Đồng đội mới ai cũng xăm kín tay (cướp biển thời Cảnh Thịnh) | `../pov-nguoi-binh-thuong/tap-7-dong-doi-moi-tay-son-1797.md` | `nbt7-1..5` (đã có) |
+| 2 | 1773 | Khiêng cái cũi có người vào thành Quy Nhơn | `tap-1-khieng-cui-quy-nhon-1773.md` | `ts1773-1..6` |
+| 3 | 1775 | **Mang quà xin hàng chúa Trịnh dù chưa thua trận nào**; Nguyễn Huệ lần đầu nổi danh ở Phú Yên | `tap-2-xin-hang-de-danh-tiep-1775.md` | `ts1775-1..6` (**mới**) |
+| 4 | 1778 | Thay biển tên thành: Nguyễn Nhạc lên ngôi | `tap-3-thay-bien-thanh-hoang-de-1778.md` | `ts1778-1..6` |
+| 5 | 1783 | **Đuổi theo Nguyễn Ánh từ đảo này sang đảo khác**, cơn bão ở Côn Lôn | `tap-4-duoi-theo-ra-dao-1783.md` | `ts1783-1..6` (**mới**) |
+| 6 | 1785 | Dẫn đường cho thuyền Xiêm vào Rạch Gầm | `../pov-nguoi-binh-thuong/tap-11-dan-duong-rach-gam-1785.md` | `nbt11-1..5` (đã đăng) |
+| 6b | 1785 | Đêm cấm đập muỗi trước trận Rạch Gầm | `../pov-nguoi-binh-thuong/tap-5-cam-dap-muoi-rach-gam-1785.md` | `nbt5-1..5` |
+| 7 | 1786 | Canh kho báu phủ chúa mà cấm sờ: phù Lê diệt Trịnh | `tap-5-canh-kho-phu-chua-1786.md` | `ts1786-1..6` |
+| 8 | 1787 | Vây thành của chính phe mình: "nồi da nấu thịt" | `tap-6-vay-thanh-phe-minh-1787.md` | `ts1787-1..6` |
+| 9 | 1786–1788 | Đưa thư mời La Sơn Phu Tử | `../pov-nguoi-binh-thuong/tap-9-dua-thu-la-son-1788.md` | `nbt9-1..5` |
+| 10 | 11/1788 | **Bỏ Thăng Long rút về Tam Điệp khi chưa đánh** | `tap-7-rut-ve-tam-diep-1788.md` | `ts1788b-1..6` (**mới**) |
+| 11 | 22/12/1788 | Dựng đàn núi Bân: sáng lên ngôi, chiều xuất quân | `tap-8-dung-dan-nui-ban-1788.md` | `ts1788-1..6` |
+| 12 | mùng 3 Tết 1789 | **Đêm Hà Hồi: hô thật to, đồn giặc ra hàng** | `tap-9-ho-hang-ha-hoi-1789.md` | `ts1789-1..6` (**mới**) |
+| 13 | mùng 5 Tết 1789 | Canh cầu phao cho quân Thanh | `../pov-nguoi-binh-thuong/tap-12-canh-cau-phao-1789.md` | `nbt12-1..5` |
+| 14 | 1790 | Theo hầu ông vua… giả sang mừng thọ Càn Long | `../pov-nguoi-binh-thuong/tap-10-theo-hau-vua-gia-1790.md` | `nbt10-1..5` |
+| 15 | 1790–1791 | **Xây Phượng Hoàng Trung Đô: kinh đô chưa ai kịp ở** | `tap-10-xay-kinh-do-phuong-hoang-1790.md` | `ts1790-1..6` (**mới**) |
+| 16 | 1791–1792 | Làm "thẻ căn cước" tín bài; mùa thu 1792 vua mất | `tap-11-the-can-cuoc-tin-bai-1792.md` | `ts1792-1..6` |
+| Ngoại truyện | khoảng 1797 | Đồng đội mới ai cũng xăm kín tay (cướp biển thời Cảnh Thịnh) | `../pov-nguoi-binh-thuong/tap-7-dong-doi-moi-tay-son-1797.md` | `nbt7-1..5` |
 
-Loạt có 6 tập mới (30 clip Muse) và 7 tập đã có sẵn. Trận Ngọc Hồi có thêm bản POV lính Tây Sơn ở `../pov-tay-son/`.
+Loạt có 16 mốc và 1 ngoại truyện: 11 tập trong thư mục này (66 clip Muse) và 6 tập ở loạt "POV người bình thường". Trận Ngọc Hồi có thêm bản POV lính Tây Sơn ở `../pov-tay-son/`.
 
-Mốc 2–11 đăng mỗi ngày một tập. Mốc 11 có giọng trang trọng ở clip cuối, nên đăng cuối loạt. Hashtag riêng của loạt: `#taysontungmoc`. Ở mỗi video, bình luận ghim nhắc mốc trước để người xem đi tìm cả loạt.
+Đăng mỗi ngày một mốc. Mốc 16 có giọng trang trọng ở clip cuối, nên đăng cuối loạt. Hashtag riêng của loạt: `#taysontungmoc`. Dòng kết của mỗi tập dẫn sang mốc tiếp theo, bình luận ghim nhắc mốc trước.
 
 ## Không làm thành video
 
@@ -39,7 +44,10 @@ Mốc 2–11 đăng mỗi ngày một tập. Mốc 11 có giọng trang trọng 
 
 - **1773:** chuyện vào cũi theo sử nhà Nguyễn, có màu giai thoại (mức B/C).
 - **1787:** câu "nồi da nấu thịt, lòng em sao nỡ" theo sử nhà Nguyễn (mức B), chưa đối chiếu được văn bản gốc trong đợt tìm nguồn này.
-- **1788:** ngày lên ngôi 22/12/1788 là mức B. Việc dựng đàn "trong ba ngày" là hư cấu.
+- **1775, 1783:** việc tạm hàng chúa Trịnh và cơn bão ở Côn Lôn theo sử nhà Nguyễn (mức B, chuyện cơn bão có màu giai thoại). Tập 1783 giữ giọng trung tính, không chế giễu nhân vật lịch sử.
+- **1788:** ngày lên ngôi 22/12/1788 là mức B. Việc dựng đàn "trong ba ngày" là hư cấu. Việc rút về Tam Điệp là kế của Ngô Văn Sở và Ngô Thì Nhậm (mức B).
+- **1789 Hà Hồi:** theo *Hoàng Lê nhất thống chí* và sử nhà Nguyễn (mức B).
+- **1790:** thư vua Quang Trung nhờ Nguyễn Thiếp xem đất xây Phượng Hoàng Trung Đô còn giữ được (mức B).
 - **1791:** tín bài có dấu "Thiên hạ đại tín" là mức B. Gọi là "thẻ căn cước" là cách nói vui cho người xem hôm nay, caption đã ghi rõ.
 
 Sửa nội dung trong `_nguon.py` rồi chạy `python3 _nguon.py`.

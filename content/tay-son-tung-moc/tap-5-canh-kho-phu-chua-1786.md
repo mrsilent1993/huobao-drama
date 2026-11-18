@@ -1,4 +1,4 @@
-# Tập 3: Ra Bắc được giao canh kho báu phủ chúa mà cấm sờ vào bất cứ thứ gì (phù Lê diệt Trịnh, 1786)
+# Tập 5: Ra Bắc được giao canh kho báu phủ chúa mà cấm sờ vào bất cứ thứ gì (phù Lê diệt Trịnh, 1786)
 
 **Độ dài:** hai video từ cùng 6 clip: **bản dài** (YouTube, khoảng 58 giây sau chuyển cảnh) và **bản ngắn** (TikTok, khoảng 38 giây) vẫn đủ cả 6 cảnh: clip chính giữ nguyên, clip phụ cắt lấy 5 giây chứa câu chính (xem ghi chú "Bản TikTok" ở từng clip)
 
@@ -167,7 +167,7 @@ Khi đăng: ở mục "Nội dung bị thay đổi" (Altered content) chọn **C
 ## Chữ trên video (mình chèn ở hậu kỳ)
 
 ```
-# Dựng: python3 ../tools/tiktok.py tap-3-canh-kho-phu-chua-1786.plan.txt tap-3-canh-kho-phu-chua-1786.mp4  (ra tap-3-canh-kho-phu-chua-1786-youtube.mp4 và tap-3-canh-kho-phu-chua-1786-tiktok.mp4)
+# Dựng: python3 ../tools/tiktok.py tap-5-canh-kho-phu-chua-1786.plan.txt tap-5-canh-kho-phu-chua-1786.mp4  (ra tap-5-canh-kho-phu-chua-1786-youtube.mp4 và tap-5-canh-kho-phu-chua-1786-tiktok.mp4)
 hook: POV: Canh kho báu / mà cấm sờ / vào bất cứ thứ gì
 end: Follow để xem mốc tiếp: / năm 1787 →
 nhan: AI tái hiện · lời thoại hư cấu

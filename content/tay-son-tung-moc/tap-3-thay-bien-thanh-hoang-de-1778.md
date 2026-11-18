@@ -1,4 +1,4 @@
-# Tập 2: Bị sai thay biển tên cả tòa thành trong một đêm, sáng ra phải gọi anh cả bằng tên khác (Nguyễn Nhạc lên ngôi, 1778)
+# Tập 3: Bị sai thay biển tên cả tòa thành trong một đêm, sáng ra phải gọi anh cả bằng tên khác (Nguyễn Nhạc lên ngôi, 1778)
 
 **Độ dài:** hai video từ cùng 6 clip: **bản dài** (YouTube, khoảng 58 giây sau chuyển cảnh) và **bản ngắn** (TikTok, khoảng 38 giây) vẫn đủ cả 6 cảnh: clip chính giữ nguyên, clip phụ cắt lấy 5 giây chứa câu chính (xem ghi chú "Bản TikTok" ở từng clip)
 
@@ -168,9 +168,9 @@ Khi đăng: ở mục "Nội dung bị thay đổi" (Altered content) chọn **C
 ## Chữ trên video (mình chèn ở hậu kỳ)
 
 ```
-# Dựng: python3 ../tools/tiktok.py tap-2-thay-bien-thanh-hoang-de-1778.plan.txt tap-2-thay-bien-thanh-hoang-de-1778.mp4  (ra tap-2-thay-bien-thanh-hoang-de-1778-youtube.mp4 và tap-2-thay-bien-thanh-hoang-de-1778-tiktok.mp4)
+# Dựng: python3 ../tools/tiktok.py tap-3-thay-bien-thanh-hoang-de-1778.plan.txt tap-3-thay-bien-thanh-hoang-de-1778.mp4  (ra tap-3-thay-bien-thanh-hoang-de-1778-youtube.mp4 và tap-3-thay-bien-thanh-hoang-de-1778-tiktok.mp4)
 hook: POV: Thay biển tên / cả tòa thành / trong một đêm
-end: Follow để xem mốc tiếp: / năm 1785 →
+end: Follow để xem mốc tiếp: / năm 1783 →
 nhan: AI tái hiện · lời thoại hư cấu
 
 clip: ts1778-1.mp4 | Tây Sơn từng mốc · 1778 | tiktok=5-10

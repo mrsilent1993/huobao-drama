@@ -1,6 +1,6 @@
-# Dựng: python3 ../tools/tiktok.py tap-4-vay-thanh-phe-minh-1787.plan.txt tap-4-vay-thanh-phe-minh-1787.mp4  (ra tap-4-vay-thanh-phe-minh-1787-youtube.mp4 và tap-4-vay-thanh-phe-minh-1787-tiktok.mp4)
+# Dựng: python3 ../tools/tiktok.py tap-6-vay-thanh-phe-minh-1787.plan.txt tap-6-vay-thanh-phe-minh-1787.mp4  (ra tap-6-vay-thanh-phe-minh-1787-youtube.mp4 và tap-6-vay-thanh-phe-minh-1787-tiktok.mp4)
 hook: POV: Bị lệnh / vây thành / của chính phe mình
-end: Follow để xem mốc tiếp: / lên ngôi năm 1788 →
+end: Follow để xem mốc tiếp: / rút về Tam Điệp 1788 →
 nhan: AI tái hiện · lời thoại hư cấu
 
 clip: ts1787-1.mp4 | Tây Sơn từng mốc · 1787 | tiktok=5-10

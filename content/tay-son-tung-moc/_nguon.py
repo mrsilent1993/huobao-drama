@@ -26,6 +26,9 @@ LEN_FULL6 = ("hai video từ cùng 6 clip: **bản dài** (YouTube, khoảng 58 
              "(TikTok, khoảng 38 giây) vẫn đủ cả 6 cảnh: clip chính giữ nguyên, clip phụ cắt lấy 5 giây chứa câu "
              "chính (xem ghi chú \"Bản TikTok\" ở từng clip)")
 
+QING_VIS = '**Chuẩn hình ảnh quân Thanh 1789 (⚠️ hiểu biết chung, xem `../nghien-cuu/chuan-hinh-anh-quan-doi.md`):** lính cạo nửa đầu trước, tết đuôi sam, áo vải dài quá gối màu sẫm (xanh lam hoặc nâu), ủng vải, nón tre hoặc nón dạ; quan mặc triều phục có bổ tử thêu, mũ có quả đỉnh. Không có chữ trên áo hay trên cờ, không quân phục kiểu Âu, không cờ hiện đại.'
+QING_EN = 'Qing soldiers of 1789 have shaved foreheads and long braided queues, wear plain dark-blue or brown knee-length cotton tunics over trousers, cloth boots and conical bamboo or felt hats; Qing officers wear court robes with an embroidered square rank badge and a hat with a finial. Absolutely NO European uniforms, NO epaulettes, NO modern rifles, NO characters or writing on any clothing, flag or sign.'
+
 NOTE = ("**Tây Sơn từng mốc:** mỗi mốc là một video, theo công thức Anh Tư (sẹo ngang lông mày trái, răng cửa mẻ, "
         "cười toe; ảnh tham chiếu trong `../bach-dang/README.md`). Nguyễn Huệ chỉ xuất hiện từ phía sau hoặc từ xa, "
         "mọi câu đùa nhắm vào Anh Tư. **Hai video từ cùng bộ clip:** bản dài (YouTube) đủ mọi clip; bản ngắn (TikTok) vẫn đủ mọi cảnh, chỉ cắt mỗi cảnh phụ còn 5 giây chứa câu chính. "
@@ -113,6 +116,84 @@ EPISODES = [
         yt_tags=("tây sơn, nguyễn nhạc, thành quy nhơn, khởi nghĩa tây sơn, 1773, tây sơn từng mốc, quang trung, "
                  "lịch sử việt nam, pov lịch sử, anh tư, đại việt, shorts"),
     ),
+    # ------------------------------------------------------------------ 1775 (bản đầy đủ 6 cảnh)
+    dict(
+        slug="xin-hang-de-danh-tiep-1775", prefix="ts1775", giong="Central Vietnamese (Bình Định) accent",
+        voices={"Hoàng Ngũ Phúc": "an old, gravelly, self-satisfied male voice in his 60s, slow and loud"},
+        title="Bị sai mang quà sang trại giặc xin hàng, dù chưa thua trận nào (Tây Sơn bị kẹp giữa Trịnh và Nguyễn, 1775)",
+        length=LEN_FULL6,
+        history=("**Lịch sử:** cuối năm 1774, chúa Trịnh sai Hoàng Ngũ Phúc đem quân vào Nam, đầu năm 1775 chiếm Phú Xuân, "
+                 "rồi tiến vào Quảng Nam. Tây Sơn bị kẹp giữa quân Trịnh ở phía bắc và quân chúa Nguyễn ở phía nam. Nguyễn "
+                 "Nhạc sai người mang lễ vật sang xin hàng Hoàng Ngũ Phúc, xin làm tiên phong đánh chúa Nguyễn; chúa Trịnh "
+                 "phong cho Nhạc chức Tây Sơn hiệu trưởng, Tráng tiết tướng quân (mức B). Rảnh tay phía bắc, Tây Sơn quay "
+                 "vào nam; cũng năm 1775, Nguyễn Huệ khoảng 22 tuổi đánh tan quân Nguyễn ở Phú Yên, lần đầu nổi danh (mức "
+                 "B). **Hư cấu:** Anh Tư mang lễ, mọi lời thoại."),
+        setting=("Vietnam, 1775, central coast: the Tây Sơn camp near Quy Nhơn with a sand map on the ground, a river "
+                 "landing, then the camp of the Trịnh army in Quảng Nam with rows of tents. Tây Sơn fighters with "
+                 "black-lacquered teeth in plain dark-indigo or brown clothes with red head wraps. Trịnh soldiers in plain "
+                 "dark cotton uniforms with cloth head wraps; the old Trịnh general Hoàng Ngũ Phúc is a heavy man in his "
+                 f"60s with a white beard in a dark embroidered robe. {NHAC}. Anh Tư is {FACE}. No visible writing, no flags."),
+        hook="POV: Đi xin hàng / dù chưa thua / trận nào",
+        end=END_NEXT.format("năm 1778"),
+        end_secs=1.6,
+        clips=[
+            dict(name="Kẹp giữa", tiktok="5-10", label="Tây Sơn từng mốc · 1775",
+                 img=f"First-person view in a rebel camp, {NHAC} crouching over a sand map drawn on the ground, pointing at the north and at the south, Tây Sơn fighters around him, {FACE} beside the viewer, worried, realistic, vertical 9:16.",
+                 vid=("0-5s: Nguyễn Nhạc points at the sand map: \"Phía bắc quân Trịnh, phía nam quân Nguyễn. Đánh cả hai "
+                      "thì thua cả hai.\" 5-10s: Anh Tư whispers to the viewer: \"Thế... mình đánh ai trước ạ?\" Nhạc "
+                      "smiles: \"Chưa đánh ai cả.\""),
+                 subs=[(0.5, 4.8, "Phía bắc quân Trịnh, / phía nam quân Nguyễn. / Đánh cả hai thì thua cả hai."),
+                       (5.0, 7.6, "Thế... mình đánh / ai trước ạ?"),
+                       (7.6, 9.6, "Chưa đánh ai cả.")]),
+            dict(name="Mang quà", tiktok="0-5", label="",
+                 img=f"First-person view at a river landing, men loading a boat with chests of gifts and rolls of silk, {NHAC} handing a sealed letter to {FACE}, realistic, vertical 9:16.",
+                 vid=("Two clearly different men: the GIVER is Nguyễn Nhạc, stout and cheerful; the RECEIVER is Anh Tư. "
+                      "0-5s: Nhạc hands Anh Tư a sealed letter: \"Mang sang trại họ Hoàng. Nói ta xin làm tiên phong cho "
+                      "chúa Trịnh.\" 5-10s: Anh Tư looks at the chests of gifts and whispers to the viewer: \"Xin hàng... "
+                      "mà chưa thua trận nào?\""),
+                 subs=[(0.5, 4.8, "Mang sang trại họ Hoàng. / Nói ta xin làm tiên phong / cho chúa Trịnh."),
+                       (5.0, 9.5, "Xin hàng... / mà chưa thua trận nào?")]),
+            dict(name="Được phong chức", label="Trại quân Trịnh · Quảng Nam",
+                 img=f"First-person view inside a large army tent, the heavy white-bearded old general laughing on a seat while opening a chest of gifts, {FACE} kneeling in front of him, bowing, realistic, vertical 9:16.",
+                 vid=("0-5s: The old general opens a chest of gifts, laughs loudly: \"Được! Phong làm Tráng tiết tướng "
+                      "quân!\" 5-10s: Anh Tư, still kneeling, whispers to the viewer: \"Đi xin hàng... mà được phong chức "
+                      "về.\""),
+                 subs=[(0.5, 4.8, "Được! Phong làm / Tráng tiết tướng quân!"),
+                       (5.0, 9.5, "Đi xin hàng... / mà được phong chức về.")]),
+            dict(name="Quay vào nam", tiktok="5-10", label="Mấy hôm sau",
+                 img=f"First-person view in the Tây Sơn camp, {NHAC} holding the title document and laughing, then pointing south, fighters picking up spears, {FACE} beside the viewer, realistic, vertical 9:16.",
+                 vid=("0-5s: Nguyễn Nhạc reads the title document and laughs, then points south: \"Phía bắc yên rồi. Giờ "
+                      "quay vào nam.\" 5-10s: Anh Tư nods slowly to the viewer: \"Hàng phía bắc... để đánh phía nam. Hiểu "
+                      "rồi.\""),
+                 subs=[(0.5, 4.8, "Phía bắc yên rồi. / Giờ quay vào nam."),
+                       (5.0, 9.5, "Hàng phía bắc... / để đánh phía nam. Hiểu rồi.")]),
+            dict(name="Em út ra trận", tiktok="5-10", label="Phú Yên · năm 1775",
+                 img=f"First-person view on a hillside at dawn, a young commander seen only from behind leading a fast charge of Tây Sơn fighters down toward an enemy camp, no blood, {FACE} running beside the viewer, amazed, realistic, vertical 9:16.",
+                 vid=("0-5s: At dawn a young commander, seen only from behind, leads a fast charge down the hill; the enemy "
+                      "camp below breaks and scatters, no blood shown. 5-10s: Anh Tư, running, gasps to the viewer: \"Em út "
+                      "nhà ấy... trận đầu đã đánh thế này à?\""),
+                 subs=[(0.5, 4.8, "Năm 1775, Nguyễn Huệ / khoảng 22 tuổi đánh tan / quân Nguyễn ở Phú Yên."),
+                       (5.0, 9.5, "Em út nhà ấy... / trận đầu đã đánh thế này à?")]),
+            dict(name="Câu chốt", label="",
+                 img=f"First-person view at sunset on a hill, Tây Sơn fighters cheering with raised spears, {FACE} sitting down and laughing, realistic, vertical 9:16.",
+                 vid=("0-5s: Sunset; the fighters cheer on the hill. A calm narrator's voice says: \"Năm 1775, Tây Sơn tạm "
+                      "hàng chúa Trịnh để rảnh tay đánh chúa Nguyễn. Cái tên Nguyễn Huệ bắt đầu vang lên.\" 5-10s: Anh Tư "
+                      "grins at the camera: \"Xin hàng một lần... đỡ phải đánh hai đầu!\""),
+                 subs=[(0.3, 4.8, "Năm 1775, Tây Sơn tạm hàng / chúa Trịnh để rảnh tay / đánh chúa Nguyễn."),
+                       (5.0, 8.4, "Xin hàng một lần... / đỡ phải đánh hai đầu!")]),
+        ],
+        caption=("Bị sai mang quà sang trại giặc xin hàng, dù chưa thua trận nào 🤔 Năm 1775, Tây Sơn bị kẹp giữa quân Trịnh "
+                 "và quân Nguyễn, Nguyễn Nhạc tạm hàng chúa Trịnh để rảnh tay đánh phía nam. Cũng năm ấy, Nguyễn Huệ khoảng "
+                 "22 tuổi lần đầu nổi danh ở Phú Yên. Một mốc trong loạt Tây Sơn từng mốc. Nước cờ này bạn thấy khôn hay liều? 👇"),
+        tags="#taysontungmoc #nguyennhac #nguyenhue #hoangnguphuc #1775",
+        tt_title="Bị sai mang quà sang trại giặc xin hàng, dù chưa thua trận nào",
+        hooks_alt=["POV: Xin hàng / mà được phong chức", "POV: Kẹp giữa / hai đạo quân"],
+        pin=("Mốc trước: năm 1773 khiêng cũi vào thành Quy Nhơn 👆 Tạm hàng phía bắc để đánh phía nam: bạn thấy nước cờ "
+             "này thế nào? Follow để xem mốc 1778!"),
+        yt_title="Năm 1775: xin hàng chúa Trịnh dù chưa thua trận nào | Tây Sơn từng mốc",
+        yt_tags=("tây sơn, nguyễn nhạc, nguyễn huệ, hoàng ngũ phúc, chúa trịnh, chúa nguyễn, 1775, tây sơn từng mốc, "
+                 "lịch sử việt nam, pov lịch sử, anh tư, đại việt, shorts"),
+    ),
     # ------------------------------------------------------------------ 1778
     dict(
         slug="thay-bien-thanh-hoang-de-1778", giong="Central Vietnamese (Bình Định) accent", prefix="ts1778",
@@ -125,7 +206,7 @@ EPISODES = [
                  "towers in the distance, a big wooden gate with a large horizontal signboard whose lettering is not legible (no readable text), officials in new court robes. "
                  f"{REBELS}. {NHAC}, now in a yellow imperial robe. Anh Tư is {FACE}, in a neat dark-red uniform."),
         hook="POV: Thay biển tên / cả tòa thành / trong một đêm",
-        end=END_NEXT.format("năm 1785"),
+        end=END_NEXT.format("năm 1783"),
         clips=[
             dict(name="Từ Quảng Nam đến Gia Định", tiktok="5-10", label="Tây Sơn từng mốc · 1778",
                  img=f"First-person view in a wooden hall of the Đồ Bàn citadel, a messenger kneeling with news, {NHAC} standing with arms crossed and a satisfied smile, officials around, {FACE} standing guard beside the viewer, realistic, vertical 9:16.",
@@ -172,6 +253,76 @@ EPISODES = [
         yt_title="Năm 1778: Nguyễn Nhạc lên ngôi, cả tòa thành đổi tên trong một đêm | Tây Sơn từng mốc",
         yt_tags=("tây sơn, nguyễn nhạc, thái đức, thành hoàng đế, thành đồ bàn, 1778, tây sơn từng mốc, "
                  "lịch sử việt nam, pov lịch sử, anh tư, đại việt, shorts"),
+    ),
+    # ------------------------------------------------------------------ 1783 (bản đầy đủ 6 cảnh)
+    dict(
+        slug="duoi-theo-ra-dao-1783", prefix="ts1783", giong="Central Vietnamese (Bình Định) accent",
+        title="Bị lệnh chèo thuyền đuổi theo một người chạy từ đảo này sang đảo khác, đuổi hụt thì... (Tây Sơn làm chủ Gia Định, 1783)",
+        length=LEN_FULL6,
+        history=("**Lịch sử:** năm 1782 và 1783, quân Tây Sơn của Nguyễn Nhạc, Nguyễn Huệ vào đánh Gia Định, làm chủ đất "
+                 "phía nam. Nguyễn Ánh chạy ra Phú Quốc, rồi ra Côn Lôn; thủy quân Tây Sơn vây đảo nhưng gặp gió bão, Nguyễn "
+                 "Ánh thoát được (sử nhà Nguyễn chép, mức B, có màu giai thoại). Năm 1784, Nguyễn Ánh sang Xiêm cầu viện; "
+                 "quân Xiêm kéo sang và thua ở Rạch Gầm – Xoài Mút đầu năm 1785. **Hư cấu:** Anh Tư chèo thuyền đuổi, lời "
+                 "dân trên đảo và mọi lời thoại. Tập phim giữ giọng trung tính, không chế giễu nhân vật lịch sử."),
+        setting=("Southern Vietnam, 1783: the open sea and green islands of Phú Quốc and Côn Lôn, a fleet of Tây Sơn war "
+                 "boats with oars and matting sails, fishing villages with thatched huts on the shore. Tây Sơn sailors with "
+                 "black-lacquered teeth in dark-red or brown clothes with red head wraps; island villagers in brown clothes. "
+                 f"Anh Tư is {FACE}, a rower. No visible writing, no flags."),
+        hook="POV: Đuổi theo một người / từ đảo này / sang đảo khác",
+        end=END_NEXT.format("Rạch Gầm 1785"),
+        end_secs=1.6,
+        clips=[
+            dict(name="Bắt sống", tiktok="5-10", label="Tây Sơn từng mốc · 1783",
+                 img=f"First-person view from the oars of a Tây Sơn war boat on the open sea, an officer pointing at the horizon, other boats in a line behind, {FACE} rowing beside the viewer, realistic, vertical 9:16.",
+                 vid=("0-5s: The officer points at the horizon: \"Đuổi theo thuyền chúa Nguyễn. Bắt sống.\" 5-10s: Anh Tư, "
+                      "rowing, looks at the endless sea and whispers to the viewer: \"Bắt sống... giữa biển này ạ?\""),
+                 subs=[(0.5, 4.8, "Đuổi theo thuyền chúa Nguyễn. / Bắt sống."),
+                       (5.0, 9.5, "Bắt sống... / giữa biển này ạ?")]),
+            dict(name="Vừa đi hôm qua", tiktok="0-5", label="Phú Quốc",
+                 img=f"First-person view on a sandy beach of a green island, an old fisherman mending a net and pointing out to sea, {FACE} standing beside the viewer, breathless, realistic, vertical 9:16.",
+                 vid=("0-5s: On the beach an old fisherman mending a net points out to sea without looking up: \"Đi hôm qua "
+                      "rồi.\" 5-10s: Anh Tư sighs to the viewer: \"Mình đến đâu... ông ấy vừa đi khỏi đó.\""),
+                 subs=[(0.5, 4.8, "Đi hôm qua rồi."),
+                       (5.0, 9.5, "Mình đến đâu... / ông ấy vừa đi khỏi đó.")]),
+            dict(name="Vây đảo", label="Côn Lôn",
+                 img=f"First-person view from a war boat as a ring of Tây Sơn boats surrounds a rocky island at dusk, {FACE} grinning confidently beside the viewer, dark clouds gathering on the horizon, realistic, vertical 9:16.",
+                 vid=("0-5s: At dusk the Tây Sơn boats close a ring around the rocky island. Anh Tư grins: \"Lần này hết "
+                      "đường chạy rồi!\" 5-10s: Behind him, black clouds roll in fast over the sea and the wind starts to "
+                      "howl; his grin fades."),
+                 subs=[(0.5, 4.8, "Lần này hết đường chạy rồi!"),
+                       (5.0, 9.5, "Mây đen kéo đến rất nhanh.")]),
+            dict(name="Bão", tiktok="5-10", label="Đêm hôm ấy",
+                 img=f"First-person view at night in a violent storm at sea, huge waves tossing the war boats apart, rain lashing, {FACE} clinging to the side of the boat, realistic, vertical 9:16.",
+                 vid=("0-5s: A violent storm: huge waves toss the boats apart, rain lashes, the ring breaks. 5-10s: Anh Tư, "
+                      "clinging to the side, shouts at the sky: \"Trời ơi... trời đứng về phía ai thế này?!\""),
+                 subs=[(0.5, 4.8, "Vòng vây tan trong bão."),
+                       (5.0, 9.5, "Trời ơi... trời đứng / về phía ai thế này?!")]),
+            dict(name="Biển trống", tiktok="5-10", label="Sáng hôm sau",
+                 img=f"First-person view at dawn on a calm empty sea after the storm, scattered battered war boats, no other boat in sight, {FACE} soaked and exhausted at the oars, realistic, vertical 9:16.",
+                 vid=("0-5s: Dawn; the sea is calm and empty; the battered boats drift apart. The officer says flatly: \"Thoát "
+                      "rồi.\" 5-10s: Anh Tư, soaked, says to the viewer: \"Đuổi cả năm trời... như đuổi gió.\""),
+                 subs=[(0.5, 4.8, "Thoát rồi."),
+                       (5.0, 9.5, "Đuổi cả năm trời... / như đuổi gió.")]),
+            dict(name="Câu chốt", label="Năm 1784",
+                 img=f"First-person view at a riverside camp, a messenger reporting to a Tây Sơn officer, {FACE} beside the viewer, his eyes widening, realistic, vertical 9:16.",
+                 vid=("0-5s: A messenger reports at the camp. A calm narrator's voice says: \"Năm 1784, Nguyễn Ánh sang Xiêm "
+                      "cầu viện. Quân Xiêm kéo sang... và gặp Nguyễn Huệ ở Rạch Gầm.\" 5-10s: Anh Tư turns to the camera: "
+                      "\"Đuổi hụt một người... gặp nguyên một đạo quân!\""),
+                 subs=[(0.3, 4.8, "Năm 1784, Nguyễn Ánh / sang Xiêm cầu viện. / Quân Xiêm gặp Nguyễn Huệ / ở Rạch Gầm."),
+                       (5.0, 8.4, "Đuổi hụt một người... / gặp nguyên một đạo quân!")]),
+        ],
+        caption=("Bị lệnh chèo thuyền đuổi theo một người chạy từ đảo này sang đảo khác 🌊 Năm 1783, Tây Sơn làm chủ Gia "
+                 "Định, Nguyễn Ánh chạy ra Phú Quốc rồi Côn Lôn và thoát được nhờ một cơn bão (sử nhà Nguyễn chép). Năm sau, "
+                 "ông sang Xiêm cầu viện, dẫn tới trận Rạch Gầm. Một mốc trong loạt Tây Sơn từng mốc. Theo bạn, cơn bão ấy "
+                 "đã đổi lịch sử thế nào? 👇"),
+        tags="#taysontungmoc #giadinh #conlon #phuquoc #1783",
+        tt_title="Chèo thuyền đuổi theo một người chạy từ đảo này sang đảo khác, đuổi hụt thì...",
+        hooks_alt=["POV: Đến đâu / người ta vừa đi khỏi đó", "POV: Vây kín đảo / thì bão đến"],
+        pin=("Đuổi hụt ở Côn Lôn năm 1783, và đó là lý do có trận Rạch Gầm năm 1785 🔥 Xem tập Rạch Gầm ở trang cá nhân 👆 "
+             "Follow để xem mốc tiếp!"),
+        yt_title="Năm 1783: đuổi theo Nguyễn Ánh từ đảo này sang đảo khác | Tây Sơn từng mốc",
+        yt_tags=("tây sơn, nguyễn ánh, gia định, côn lôn, phú quốc, 1783, rạch gầm, tây sơn từng mốc, lịch sử việt nam, "
+                 "pov lịch sử, anh tư, đại việt, shorts"),
     ),
     # ------------------------------------------------------------------ 1786
     dict(
@@ -253,7 +404,7 @@ EPISODES = [
                  f"the walls. {NHAC} appears on the wall in a yellow robe. Anh Tư is {FACE}, a soldier outside the walls. "
                  "No fighting, no injuries."),
         hook="POV: Bị lệnh / vây thành / của chính phe mình",
-        end=END_NEXT.format("lên ngôi năm 1788"),
+        end=END_NEXT.format("rút về Tam Điệp 1788"),
         clips=[
             dict(name="Hai anh lại cãi nhau", tiktok="5-10", label="Tây Sơn từng mốc · 1787",
                  img=f"First-person view at a campfire at night, Tây Sơn soldiers in dark-red uniforms whispering and gossiping in a circle, {FACE} leaning in with a bowl of rice, realistic, vertical 9:16.",
@@ -300,6 +451,77 @@ EPISODES = [
         yt_tags=("tây sơn, nguyễn nhạc, nguyễn huệ, nồi da nấu thịt, thành hoàng đế, 1787, tây sơn từng mốc, "
                  "lịch sử việt nam, pov lịch sử, anh tư, đại việt, shorts"),
     ),
+    # ------------------------------------------------------------------ 11/1788 rút về Tam Điệp (bản đầy đủ 6 cảnh)
+    dict(
+        slug="rut-ve-tam-diep-1788", prefix="ts1788b",
+        voices={"Ngô Thì Nhậm": "a clear, measured, scholarly male voice around 40, confident and calm"},
+        title="Bị lệnh bỏ Thăng Long rút về núi khi chưa đánh trận nào (rút về Tam Điệp, cuối năm 1788)",
+        length=LEN_FULL6,
+        history=("**Lịch sử:** cuối năm 1788, quân Thanh do Tôn Sĩ Nghị chỉ huy kéo sang. Các tướng Tây Sơn ở Bắc Hà là "
+                 "Ngô Văn Sở và Ngô Thì Nhậm quyết định không đánh ngay, mà rút khỏi Thăng Long về giữ phòng tuyến Tam Điệp "
+                 "– Biện Sơn (Ninh Bình), núi chặn đường bộ, biển chặn đường thủy, để giữ nguyên lực lượng chờ viện binh "
+                 "(mức B). Quân Thanh vào Thăng Long không gặp chống cự. Khoảng một tháng sau, vua Quang Trung kéo đại quân "
+                 "ra đến Tam Điệp. **Hư cấu:** Anh Tư, bà cụ ở Thăng Long và mọi lời thoại."),
+        setting=("Vietnam, late 1788: first Thăng Long at night with Tây Sơn soldiers packing up supplies, townspeople "
+                 "watching from doorways; then the limestone mountain passes of Tam Điệp (Ninh Bình) with the sea in the "
+                 "distance. Tây Sơn soldiers in dark-red uniforms with red head wraps. Ngô Thì Nhậm is a lean Vietnamese "
+                 f"scholar-official around 40 in a dark robe with a short beard. Anh Tư is {FACE}, a soldier. "
+                 "No visible writing, no flags."),
+        hook="POV: Bỏ Thăng Long / rút về núi / khi chưa đánh",
+        end=END_NEXT.format("lên ngôi ở núi Bân"),
+        end_secs=1.6,
+        clips=[
+            dict(name="Rút", tiktok="5-10", label="Tây Sơn từng mốc · 11/1788",
+                 img=f"First-person view in a Thăng Long street at night lit by torches, an officer giving orders to soldiers, {FACE} beside the viewer holding a spear, confused, realistic, vertical 9:16.",
+                 vid=("0-5s: At night the officer orders: \"Thu dọn. Đêm nay rút khỏi Thăng Long.\" 5-10s: Anh Tư "
+                      "whispers to the viewer: \"Giặc chưa đến... mình đã đi rồi ạ?\""),
+                 subs=[(0.5, 4.8, "Thu dọn. / Đêm nay rút khỏi Thăng Long."),
+                       (5.0, 9.5, "Giặc chưa đến... / mình đã đi rồi ạ?")]),
+            dict(name="Mang hết gạo", tiktok="0-5", label="",
+                 img=f"First-person view in a granary yard at night, soldiers carrying sacks of rice onto carts, {FACE} lifting a heavy sack, realistic, vertical 9:16.",
+                 vid=("0-5s: Soldiers carry every sack of rice out of the granary onto carts. Anh Tư, lifting a heavy sack: "
+                      "\"Mang hết gạo đi... giặc đến ăn gì?\" 5-10s: The officer, passing: \"Thì để nó tự lo.\""),
+                 subs=[(0.5, 4.8, "Mang hết gạo đi... / giặc đến ăn gì?"),
+                       (5.0, 9.5, "Thì để nó tự lo.")]),
+            dict(name="Bà cụ hỏi", label="",
+                 img=f"First-person view at a doorway in a Thăng Long street at night, an old woman holding a lamp looking at the departing soldiers with worry, {FACE} stopping in front of her, realistic, vertical 9:16.",
+                 vid=("0-5s: An old woman at her door, holding a lamp, asks: \"Các anh đi... bỏ chúng tôi à?\" 5-10s: "
+                      "Anh Tư stops, bows to her and says gently: \"Không đâu cụ. Đi... để quay lại.\""),
+                 subs=[(0.5, 4.8, "Các anh đi... / bỏ chúng tôi à?"),
+                       (5.0, 9.5, "Không đâu cụ. / Đi... để quay lại.")]),
+            dict(name="Tam Điệp", tiktok="5-10", label="Tam Điệp, Ninh Bình",
+                 img=f"First-person view on a steep mountain pass among limestone peaks, the sea visible in the distance, soldiers setting up a defensive line, {FACE} looking around, realistic, vertical 9:16.",
+                 vid=("0-5s: On the mountain pass the officer points around: \"Núi chặn đường bộ, biển chặn đường thủy.\" "
+                      "5-10s: Anh Tư looks at the peaks and asks the viewer: \"Rút về chỗ hiểm... là để chờ ai ạ?\""),
+                 subs=[(0.5, 4.8, "Núi chặn đường bộ, / biển chặn đường thủy."),
+                       (5.0, 9.5, "Rút về chỗ hiểm... / là để chờ ai ạ?")]),
+            dict(name="Giữ quân là giữ nước", tiktok="5-10", label="",
+                 img=f"First-person view in a mountain camp at dusk, a lean scholar-official in a dark robe speaking calmly to worried officers, {FACE} beside the viewer listening, realistic, vertical 9:16.",
+                 vid=("0-5s: The lean scholar-official says calmly to the worried officers: \"Giữ được quân là giữ được "
+                      "nước. Chờ.\" 5-10s: Anh Tư whispers to the viewer: \"Rút chạy... mà ông ấy nói như thắng rồi.\""),
+                 subs=[(0.5, 4.8, "Giữ được quân / là giữ được nước. Chờ."),
+                       (5.0, 9.5, "Rút chạy... mà ông ấy / nói như thắng rồi.")]),
+            dict(name="Câu chốt", label="Tháng Chạp năm Mậu Thân",
+                 img=f"First-person view from the mountain pass at dawn, a vast army with red banners arriving along the road from the south, {FACE} standing up with a huge grin, realistic, vertical 9:16.",
+                 vid=("0-5s: Dawn; a vast army stretches along the road from the south toward the pass. A calm narrator's "
+                      "voice says: \"Quân Tây Sơn rút về Tam Điệp, giữ nguyên lực lượng. Một tháng sau, vua Quang Trung kéo "
+                      "đại quân ra đến nơi.\" 5-10s: Anh Tư grins at the camera: \"Chờ một tháng... đúng người mình "
+                      "chờ!\""),
+                 subs=[(0.3, 4.8, "Rút về Tam Điệp, giữ nguyên / lực lượng. Một tháng sau, / vua Quang Trung ra đến nơi."),
+                       (5.0, 8.4, "Chờ một tháng... / đúng người mình chờ!")]),
+        ],
+        caption=("Bị lệnh bỏ Thăng Long rút về núi khi chưa đánh trận nào 😳 Cuối năm 1788, quân Thanh kéo sang, các tướng "
+                 "Tây Sơn Ngô Văn Sở, Ngô Thì Nhậm rút về Tam Điệp để giữ nguyên lực lượng. Một tháng sau, vua Quang Trung ra "
+                 "đến nơi. Một mốc trong loạt Tây Sơn từng mốc. Rút lui có phải là thua không? 👇"),
+        tags="#taysontungmoc #tamdiep #ngothinham #quangtrung #1788",
+        tt_title="Bị lệnh bỏ Thăng Long rút về núi khi chưa đánh trận nào",
+        hooks_alt=["POV: Giặc chưa đến / mình đã đi", "POV: Rút chạy / mà nói như thắng"],
+        pin=("Rút về Tam Điệp là nước cờ của Ngô Thì Nhậm: giữ quân để giữ nước 🔥 Bạn có biết vua Quang Trung khen ông "
+             "thế nào không? Follow để xem mốc tiếp: lên ngôi ở núi Bân!"),
+        yt_title="Cuối năm 1788: bỏ Thăng Long rút về Tam Điệp khi chưa đánh | Tây Sơn từng mốc",
+        yt_tags=("tam điệp, ngô thì nhậm, ngô văn sở, tây sơn, quân thanh, 1788, quang trung, tây sơn từng mốc, "
+                 "lịch sử việt nam, pov lịch sử, anh tư, đại việt, shorts"),
+    ),
     # ------------------------------------------------------------------ 1788
     dict(
         slug="dung-dan-nui-ban-1788", giong="Central Vietnamese (Huế) accent", prefix="ts1788",
@@ -314,7 +536,7 @@ EPISODES = [
                  "in dark-red uniforms assembling below. The new emperor is seen only from behind or at a distance, in "
                  f"a yellow robe. Anh Tư is {FACE}, a laborer-soldier in a dark-red uniform."),
         hook="POV: Dựng đàn tế / cho vua lên ngôi / gấp trong ba ngày",
-        end=END_NEXT.format("Tết Kỷ Dậu 1789"),
+        end=END_NEXT.format("đêm Hà Hồi, Tết 1789"),
         clips=[
             dict(name="Tin dữ", tiktok="5-10", label="Tây Sơn từng mốc · 1788",
                  setting=("Vietnam, late 1788, a wooden hall in Phú Xuân (Huế) lit by oil lamps, generals and officials in "
@@ -363,6 +585,152 @@ EPISODES = [
         yt_title="Năm 1788: vua Quang Trung lên ngôi buổi sáng, chiều đã xuất quân | Tây Sơn từng mốc",
         yt_tags=("quang trung lên ngôi, núi bân, nguyễn huệ, tây sơn, 1788, tây sơn từng mốc, lịch sử việt nam, "
                  "pov lịch sử, anh tư, đại việt, shorts"),
+    ),
+    # ------------------------------------------------------------------ mùng 3 Tết 1789 Hà Hồi (bản đầy đủ 6 cảnh)
+    dict(
+        slug="ho-hang-ha-hoi-1789", prefix="ts1789",
+        title="Được giao một nhiệm vụ đêm mùng 3 Tết: hô thật to. Và đồn giặc ra hàng (Hà Hồi, 1789)",
+        length=LEN_FULL6,
+        history=("**Lịch sử:** đêm mùng 3 Tết Kỷ Dậu (28/1/1789), quân Tây Sơn bí mật vây đồn Hà Hồi (Thường Tín, Hà Nội), "
+                 "rồi đồng loạt hô vang, tiếng dội như có cả vạn quân. Quân Thanh trong đồn hoảng sợ, xin hàng, quân Tây Sơn "
+                 "thu hết lương thực khí giới mà không phải giao chiến (theo *Hoàng Lê nhất thống chí* và sử nhà Nguyễn, mức "
+                 "B). Hai ngày sau, mùng 5 Tết, là trận Ngọc Hồi – Đống Đa. **Hư cấu:** Anh Tư, cái loa tre, buổi tập hô và "
+                 "mọi lời thoại."),
+        setting=("Vietnam, the night of the third day of Tết, late January 1789, flat winter rice fields around a Qing "
+                 "earthen fort with a wooden palisade at Hà Hồi, cold mist, torches. Tây Sơn soldiers in dark-red uniforms "
+                 f"with red head wraps, some holding large rolled bamboo-bark megaphones. {QING_EN} "
+                 f"Anh Tư is {FACE}, a soldier. No flags."),
+        visual=QING_VIS,
+        hook="POV: Nhiệm vụ đêm Tết / chỉ có một việc: / hô thật to",
+        end=END_NEXT.format("cầu phao mùng 5 Tết"),
+        end_secs=1.6,
+        clips=[
+            dict(name="Nhiệm vụ", tiktok="5-10", label="Tây Sơn từng mốc · Tết 1789",
+                 img=f"First-person view on a misty field at night, an officer handing a large rolled bamboo-bark megaphone to {FACE}, soldiers behind, realistic, vertical 9:16.",
+                 vid=("Two clearly different men: the GIVER is the officer; the RECEIVER is Anh Tư. 0-5s: The officer hands "
+                      "Anh Tư a large bamboo-bark megaphone: \"Đêm nay việc của mày chỉ có một: hô. Thật to.\" 5-10s: Anh "
+                      "Tư turns it over in his hands and whispers to the viewer: \"Đánh giặc... bằng mồm ạ?\""),
+                 subs=[(0.5, 4.8, "Đêm nay việc của mày / chỉ có một: hô. Thật to."),
+                       (5.0, 9.5, "Đánh giặc... / bằng mồm ạ?")]),
+            dict(name="Tập hô", tiktok="5-10", label="",
+                 img=f"First-person view behind a bamboo hedge at night, a group of soldiers practicing shouting in whispers, {FACE} trying with a squeaky voice, realistic, vertical 9:16.",
+                 vid=("0-5s: Behind a bamboo hedge, the soldiers rehearse the shout in a whisper, all together. Anh Tư tries "
+                      "and his voice cracks into a squeak; the others glare. 5-10s: He whispers to the viewer: \"Tập hô mà "
+                      "phải hô khẽ... khó hơn cả hô to.\""),
+                 subs=[(5.0, 9.5, "Tập hô mà phải hô khẽ... / khó hơn cả hô to.")]),
+            dict(name="Hô", label="Nửa đêm",
+                 img=f"First-person view at midnight from the ring of soldiers surrounding a Qing earthen fort with a wooden palisade, hundreds of torches lighting up at once, {FACE} shouting into his bamboo megaphone, realistic, vertical 9:16.",
+                 vid=("0-5s: At a signal, hundreds of torches flare up around the fort and every soldier shouts at once; the "
+                      "roar echoes across the fields like an army of ten thousand; inside the fort, lanterns run back and "
+                      "forth in panic. 5-10s: Anh Tư, hoarse, lowers his megaphone and whispers: \"Mình có mấy trăm người... "
+                      "mà nghe như mấy vạn.\""),
+                 subs=[(0.5, 4.8, "Tiếng hô dội khắp cánh đồng / như có cả vạn quân."),
+                       (5.0, 9.5, "Mình có mấy trăm người... / mà nghe như mấy vạn.")]),
+            dict(name="Ra hàng", tiktok="5-10", label="",
+                 img=f"First-person view at the fort gate at dawn, the gate opening and Qing soldiers coming out with empty hands raised, no fighting, {FACE} standing with his megaphone, amazed, realistic, vertical 9:16.",
+                 vid=("0-5s: At dawn the fort gate creaks open; Qing soldiers walk out with empty hands raised; no fighting. "
+                      "5-10s: Anh Tư whispers to the viewer: \"Chưa ai rút gươm... mà nó đã ra hàng.\""),
+                 subs=[(0.5, 4.8, "Cổng đồn mở. / Quân Thanh ra hàng."),
+                       (5.0, 9.5, "Chưa ai rút gươm... / mà nó đã ra hàng.")]),
+            dict(name="Mất giọng", tiktok="0-5", label="",
+                 img=f"First-person view inside the captured fort, soldiers carrying out sacks of rice and bundles of weapons, {FACE} holding his throat, trying to speak, realistic, vertical 9:16.",
+                 vid=("0-5s: Inside the captured fort, soldiers carry out sacks of rice and weapons. Anh Tư tries to speak "
+                      "and only a croak comes out: \"Giọng em... mất rồi.\" 5-10s: The officer pats his shoulder: \"Đổi "
+                      "được cả cái đồn. Đáng.\""),
+                 subs=[(0.5, 4.8, "Giọng em... mất rồi."),
+                       (5.0, 9.5, "Đổi được cả cái đồn. Đáng.")]),
+            dict(name="Câu chốt", label="Sáng mùng 4 Tết",
+                 img=f"First-person view at sunrise on the road north, the Tây Sơn army marching toward the next Qing forts, {FACE} walking with his megaphone on his shoulder, grinning, realistic, vertical 9:16.",
+                 vid=("0-5s: Sunrise; the army marches north on the road. A calm narrator's voice says: \"Đêm mùng 3 Tết Kỷ "
+                      "Dậu, quân Tây Sơn vây đồn Hà Hồi, hô vang như có cả vạn người. Quân Thanh ra hàng, không đánh.\" "
+                      "5-10s: Anh Tư grins at the camera and croaks: \"Trận này... em thắng bằng giọng.\""),
+                 subs=[(0.3, 4.8, "Đêm mùng 3 Tết, / vây đồn Hà Hồi, hô vang. / Quân Thanh ra hàng."),
+                       (5.0, 8.4, "Trận này... / em thắng bằng giọng.")]),
+        ],
+        caption=("Được giao một nhiệm vụ đêm mùng 3 Tết: hô thật to. Và đồn giặc ra hàng 😳 Đêm mùng 3 Tết Kỷ Dậu (1789), "
+                 "quân Tây Sơn vây đồn Hà Hồi, đồng loạt hô vang như có cả vạn quân, quân Thanh trong đồn ra hàng mà không "
+                 "phải đánh. Hai ngày sau là trận Ngọc Hồi – Đống Đa. Một mốc trong loạt Tây Sơn từng mốc. Tag đứa bạn có "
+                 "giọng to nhất 👇"),
+        tags="#taysontungmoc #hahoi #quangtrung #tetkydau #1789",
+        tt_title="Nhiệm vụ đêm mùng 3 Tết chỉ có một việc: hô thật to. Và đồn giặc ra hàng",
+        hooks_alt=["POV: Đánh giặc / bằng mồm", "POV: Mấy trăm người / hô như mấy vạn"],
+        pin=("Trận Hà Hồi đêm mùng 3 Tết là trận \"thắng không cần đánh\" hiếm có 😮 Tag đứa bạn có giọng to nhất! "
+             "Follow để xem mốc tiếp: cầu phao mùng 5 Tết!"),
+        yt_title="Đêm mùng 3 Tết 1789: hô thật to, đồn giặc ra hàng (Hà Hồi) | Tây Sơn từng mốc",
+        yt_tags=("hà hồi, quang trung, tết kỷ dậu, quân thanh, 1789, ngọc hồi đống đa, tây sơn, tây sơn từng mốc, "
+                 "lịch sử việt nam, pov lịch sử, anh tư, đại việt, shorts"),
+    ),
+    # ------------------------------------------------------------------ 1790–1791 Phượng Hoàng Trung Đô (bản đầy đủ 6 cảnh)
+    dict(
+        slug="xay-kinh-do-phuong-hoang-1790", prefix="ts1790", giong="Central Vietnamese (Nghệ An) accent",
+        voices={"Nguyễn Thiếp": "a thin, dry, elderly male voice, slow and gently ironic"},
+        title="Bị điều đi xây một kinh đô mới, dù cả nước đã có hai kinh đô (Phượng Hoàng Trung Đô, 1790–1791)",
+        length=LEN_FULL6,
+        history=("**Lịch sử:** sau khi đánh tan quân Thanh, vua Quang Trung muốn dời đô về Nghệ An, nơi ở giữa đất nước, "
+                 "ra Bắc vào Nam đều gần. Năm 1789, vua viết thư nhờ La Sơn Phu Tử Nguyễn Thiếp xem đất; thành được xây "
+                 "dưới chân núi Dũng Quyết (TP Vinh ngày nay), đặt tên Phượng Hoàng Trung Đô (thư từ còn giữ được, mức B). "
+                 "Kinh đô chưa kịp dùng thì năm 1792 vua mất; nay còn dấu tích trên núi Dũng Quyết. **Hư cấu:** Anh Tư, "
+                 "mọi lời thoại (lời Nguyễn Thiếp phỏng theo ý thư từ, không phải nguyên văn)."),
+        setting=("Vietnam, 1790 to 1791, the foot of Dũng Quyết mountain in Nghệ An: a wide plain with a river, a large "
+                 "construction site with earthen ramparts rising, laterite blocks, bamboo scaffolding, workers in brown "
+                 "clothes. Nguyễn Thiếp is an elderly Vietnamese scholar in his late sixties with a long thin white beard "
+                 f"in a plain brown robe. Anh Tư is {FACE}, a builder in a brown shirt. No visible writing, no flags."),
+        hook="POV: Xây kinh đô mới / dù cả nước / đã có hai kinh đô",
+        end=END_NEXT.format("năm 1792"),
+        end_secs=1.6,
+        clips=[
+            dict(name="Kinh đô thứ ba", tiktok="5-10", label="Tây Sơn từng mốc · 1790",
+                 img=f"First-person view on a wide plain at the foot of a mountain in Nghệ An, an officer pointing at stakes marking out a huge square, workers arriving with tools, {FACE} beside the viewer with a hoe, realistic, vertical 9:16.",
+                 vid=("0-5s: The officer points at the stakes marking out a huge square on the plain: \"Xây kinh đô mới "
+                      "ở đây.\" 5-10s: Anh Tư whispers to the viewer: \"Có Phú Xuân, có Thăng Long rồi... thêm kinh đô "
+                      "thứ ba ạ?\""),
+                 subs=[(0.5, 4.8, "Xây kinh đô mới ở đây."),
+                       (5.0, 9.5, "Có Phú Xuân, / có Thăng Long rồi... / thêm kinh đô thứ ba ạ?")]),
+            dict(name="Ông đồ chọn đất", tiktok="5-10", label="",
+                 img=f"First-person view on a hillside, the elderly white-bearded scholar studying the land with a geomancer's compass and pointing, officials beside him, {FACE} behind the viewer, eyes wide in recognition, realistic, vertical 9:16.",
+                 vid=("0-5s: The elderly white-bearded scholar studies the land with a compass and points: \"Đất này "
+                      "được.\" 5-10s: Anh Tư whispers to the viewer, amazed: \"Ơ... ông đồ em mời ba năm... giờ đi chọn "
+                      "đất xây kinh đô!\""),
+                 subs=[(0.5, 4.8, "Đất này được."),
+                       (5.0, 9.5, "Ông đồ em mời ba năm... / giờ đi chọn đất xây kinh đô!")]),
+            dict(name="Ở giữa", label="",
+                 img=f"First-person view on the construction site, workers carrying laterite blocks up bamboo ramps, the officer drawing a long line in the dirt from north to south, {FACE} carrying a block on his shoulder, realistic, vertical 9:16.",
+                 vid=("0-5s: The officer draws a long line in the dirt and taps its middle: \"Nghệ An ở giữa. Ra Bắc, vào "
+                      "Nam đều gần.\" 5-10s: Anh Tư, carrying a block, nods to the viewer: \"Ở giữa... để cả nước đi "
+                      "họp cho gần.\""),
+                 subs=[(0.5, 4.8, "Nghệ An ở giữa. / Ra Bắc, vào Nam đều gần."),
+                       (5.0, 9.5, "Ở giữa... để cả nước / đi họp cho gần.")]),
+            dict(name="Tường lên", tiktok="5-10", label="Năm 1791",
+                 img=f"First-person view from the top of a newly built earthen and laterite wall at sunset, the walled square spreading below, {FACE} standing proudly with his hands on his hips, realistic, vertical 9:16.",
+                 vid=("0-5s: Sunset from the top of the new wall; the walled square spreads below. 5-10s: Anh Tư, hands on "
+                      "his hips, says proudly to the viewer: \"Thành này em xây... chắc trăm năm.\""),
+                 subs=[(0.5, 4.8, "Tường thành lên dần / dưới chân núi Dũng Quyết."),
+                       (5.0, 9.5, "Thành này em xây... / chắc trăm năm.")]),
+            dict(name="Chờ vua", tiktok="0-5", label="",
+                 img=f"First-person view inside an empty new palace hall with fresh wooden pillars and nothing inside, {FACE} sweeping the floor and looking at the empty throne platform, realistic, vertical 9:16.",
+                 vid=("0-5s: Inside the empty new hall, Anh Tư sweeps the fresh floor and looks at the empty platform: "
+                      "\"Quét sạch rồi... chỉ còn chờ vua về.\" 5-10s: Wind blows dust across the empty hall."),
+                 subs=[(0.5, 4.8, "Quét sạch rồi... / chỉ còn chờ vua về.")]),
+            dict(name="Câu chốt", label="Ngày nay",
+                 img=f"First-person view of grassy remains of old earthen ramparts on a mountain slope with modern trees, a quiet landscape, {FACE} standing among the grass, realistic, vertical 9:16.",
+                 vid=("0-5s: Grassy remains of old ramparts on the mountain slope, quiet and overgrown. A calm narrator's "
+                      "voice says: \"Phượng Hoàng Trung Đô chưa bao giờ được dùng làm kinh đô. Nay chỉ còn dấu tích trên núi "
+                      "Dũng Quyết, thành phố Vinh.\" 5-10s: Anh Tư looks at the ramparts and says quietly to the camera: "
+                      "\"Kinh đô em xây... chưa ai kịp ở.\""),
+                 subs=[(0.3, 4.8, "Phượng Hoàng Trung Đô / chưa bao giờ được dùng. / Nay còn dấu tích ở TP Vinh."),
+                       (5.0, 8.4, "Kinh đô em xây... / chưa ai kịp ở.")]),
+        ],
+        caption=("Bị điều đi xây một kinh đô mới, dù cả nước đã có hai kinh đô 🏯 Vua Quang Trung muốn dời đô về Nghệ An, "
+                 "nhờ La Sơn Phu Tử xem đất, xây Phượng Hoàng Trung Đô dưới chân núi Dũng Quyết. Kinh đô chưa kịp dùng thì "
+                 "vua mất. Một mốc trong loạt Tây Sơn từng mốc. Bạn ở Vinh đã lên núi Dũng Quyết chưa? 👇"),
+        tags="#taysontungmoc #phuonghoangtrungdo #nuidungquyet #quangtrung #1790",
+        tt_title="Bị điều đi xây một kinh đô mới, dù cả nước đã có hai kinh đô",
+        hooks_alt=["POV: Kinh đô thứ ba / ở Nghệ An", "POV: Xây xong kinh đô / chưa ai kịp ở"],
+        pin=("Phượng Hoàng Trung Đô ở núi Dũng Quyết, TP Vinh: ai ở Nghệ An đã lên xem dấu tích chưa? 👇 Follow để xem "
+             "mốc cuối: năm 1792!"),
+        yt_title="Phượng Hoàng Trung Đô: kinh đô thứ ba của vua Quang Trung chưa ai kịp ở | Tây Sơn từng mốc",
+        yt_tags=("phượng hoàng trung đô, núi dũng quyết, quang trung, nguyễn thiếp, la sơn phu tử, nghệ an, vinh, 1790, "
+                 "tây sơn từng mốc, lịch sử việt nam, pov lịch sử, anh tư, đại việt, shorts"),
     ),
     # ------------------------------------------------------------------ 1791-1792
     dict(

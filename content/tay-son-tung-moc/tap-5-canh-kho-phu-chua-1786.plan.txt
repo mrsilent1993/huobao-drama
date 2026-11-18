@@ -1,4 +1,4 @@
-# Dựng: python3 ../tools/tiktok.py tap-3-canh-kho-phu-chua-1786.plan.txt tap-3-canh-kho-phu-chua-1786.mp4  (ra tap-3-canh-kho-phu-chua-1786-youtube.mp4 và tap-3-canh-kho-phu-chua-1786-tiktok.mp4)
+# Dựng: python3 ../tools/tiktok.py tap-5-canh-kho-phu-chua-1786.plan.txt tap-5-canh-kho-phu-chua-1786.mp4  (ra tap-5-canh-kho-phu-chua-1786-youtube.mp4 và tap-5-canh-kho-phu-chua-1786-tiktok.mp4)
 hook: POV: Canh kho báu / mà cấm sờ / vào bất cứ thứ gì
 end: Follow để xem mốc tiếp: / năm 1787 →
 nhan: AI tái hiện · lời thoại hư cấu

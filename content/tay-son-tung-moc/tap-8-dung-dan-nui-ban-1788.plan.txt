@@ -1,6 +1,6 @@
-# Dựng: python3 ../tools/tiktok.py tap-5-dung-dan-nui-ban-1788.plan.txt tap-5-dung-dan-nui-ban-1788.mp4  (ra tap-5-dung-dan-nui-ban-1788-youtube.mp4 và tap-5-dung-dan-nui-ban-1788-tiktok.mp4)
+# Dựng: python3 ../tools/tiktok.py tap-8-dung-dan-nui-ban-1788.plan.txt tap-8-dung-dan-nui-ban-1788.mp4  (ra tap-8-dung-dan-nui-ban-1788-youtube.mp4 và tap-8-dung-dan-nui-ban-1788-tiktok.mp4)
 hook: POV: Dựng đàn tế / cho vua lên ngôi / gấp trong ba ngày
-end: Follow để xem mốc tiếp: / Tết Kỷ Dậu 1789 →
+end: Follow để xem mốc tiếp: / đêm Hà Hồi, Tết 1789 →
 nhan: AI tái hiện · lời thoại hư cấu
 
 clip: ts1788-1.mp4 | Tây Sơn từng mốc · 1788 | tiktok=5-10

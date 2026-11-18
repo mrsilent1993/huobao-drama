@@ -1,4 +1,4 @@
-# Tập 5: Bị sai dựng đàn tế trên núi gấp mấy ngày, buổi sáng vua lên ngôi, buổi chiều đã xuất quân (lên ngôi ở núi Bân, 1788)
+# Tập 8: Bị sai dựng đàn tế trên núi gấp mấy ngày, buổi sáng vua lên ngôi, buổi chiều đã xuất quân (lên ngôi ở núi Bân, 1788)
 
 **Độ dài:** hai video từ cùng 6 clip: **bản dài** (YouTube, khoảng 58 giây sau chuyển cảnh) và **bản ngắn** (TikTok, khoảng 38 giây) vẫn đủ cả 6 cảnh: clip chính giữ nguyên, clip phụ cắt lấy 5 giây chứa câu chính (xem ghi chú "Bản TikTok" ở từng clip)
 
@@ -166,9 +166,9 @@ Khi đăng: ở mục "Nội dung bị thay đổi" (Altered content) chọn **C
 ## Chữ trên video (mình chèn ở hậu kỳ)
 
 ```
-# Dựng: python3 ../tools/tiktok.py tap-5-dung-dan-nui-ban-1788.plan.txt tap-5-dung-dan-nui-ban-1788.mp4  (ra tap-5-dung-dan-nui-ban-1788-youtube.mp4 và tap-5-dung-dan-nui-ban-1788-tiktok.mp4)
+# Dựng: python3 ../tools/tiktok.py tap-8-dung-dan-nui-ban-1788.plan.txt tap-8-dung-dan-nui-ban-1788.mp4  (ra tap-8-dung-dan-nui-ban-1788-youtube.mp4 và tap-8-dung-dan-nui-ban-1788-tiktok.mp4)
 hook: POV: Dựng đàn tế / cho vua lên ngôi / gấp trong ba ngày
-end: Follow để xem mốc tiếp: / Tết Kỷ Dậu 1789 →
+end: Follow để xem mốc tiếp: / đêm Hà Hồi, Tết 1789 →
 nhan: AI tái hiện · lời thoại hư cấu
 
 clip: ts1788-1.mp4 | Tây Sơn từng mốc · 1788 | tiktok=5-10
