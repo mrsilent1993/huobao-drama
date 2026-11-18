@@ -2,19 +2,25 @@
 hook: POV: Khiêng cũi / có người / vào thành giặc
 end: Sử không ghi tên Anh Tư. / Follow để xem mốc tiếp: / năm 1778 →
 nhan: AI tái hiện · lời thoại hư cấu
+end_giay: 1.6
 
-clip: ts1773-1.mp4 | Tây Sơn · năm 1773
-clip: ts1773-2.mp4 | Trước cổng thành Quy Nhơn | tiktok=bo
-clip: ts1773-3.mp4 | 
-clip: ts1773-4.mp4 | Nửa đêm | tiktok=bo
-clip: ts1773-5.mp4 | 
+clip: ts1773-1.mp4 | Tây Sơn từng mốc · 1773
+clip: ts1773-2.mp4 |  | tiktok=0-5
+clip: ts1773-3.mp4 | Trước cổng thành Quy Nhơn | tiktok=5-10
+clip: ts1773-4.mp4 |  | tiktok=5-10
+clip: ts1773-5.mp4 | Nửa đêm | tiktok=5-10
+clip: ts1773-6.mp4 | 
 
-sub: 1 | 0.5-4.8 | Khiêng ta vào thành. / Nói là bắt được tướng giặc.
-sub: 1 | 5.0-9.5 | Anh cả... / tự chui vào cũi ạ?
-sub: 2 | 0.5-4.8 | Bắt được tướng giặc đây ạ!
-sub: 2 | 5.0-9.5 | Bắt khó lắm... / anh ấy tự chui vào.
-sub: 3 | 0.5-4.8 | Bắt được thủ lĩnh giặc rồi! / Mở tiệc!
-sub: 3 | 5.0-9.5 | Quan mừng quá... mà trong cũi, / anh cả đang ngủ ngáy.
-sub: 4 | 5.0-9.5 | Chốt cũi em làm... / lắp ngược từ đầu.
-sub: 5 | 0.3-4.8 | Năm 1773, Tây Sơn lấy thành / Quy Nhơn bằng mưu: thủ lĩnh / tự vào cũi để lọt vào thành.
-sub: 5 | 5.0-9.8 | Cái cũi ấy em khiêng! / Ghi tên em vào sử nhé!
+sub: 1 | 0.5-4.8 | Thành cao, quân ta ít, / đánh thì không vào được.
+sub: 1 | 5.0-7.6 | Thì để quan... / tự khiêng ta vào.
+sub: 1 | 7.6-9.6 | Khiêng... anh cả vào ạ?
+sub: 2 | 0.5-4.8 | Cứ nói là bắt được / thủ lĩnh giặc. Diễn cho khéo.
+sub: 2 | 5.0-9.5 | Anh cả... / tự chui vào cũi thật ạ?
+sub: 3 | 0.5-4.8 | Bắt được thủ lĩnh giặc đây ạ!
+sub: 3 | 5.0-9.5 | Bắt khó lắm... / anh ấy tự chui vào.
+sub: 4 | 0.5-4.8 | Bắt được thủ lĩnh rồi! / Mở tiệc!
+sub: 4 | 5.0-9.5 | Quan mừng quá... mà trong cũi, / anh cả đang ngủ ngáy.
+sub: 5 | 0.5-4.8 | Cửa cũi mở không một tiếng động.
+sub: 5 | 5.0-9.5 | Chốt cũi em làm... / lắp ngược từ đầu.
+sub: 6 | 0.3-4.8 | Năm 1773, Tây Sơn lấy thành / Quy Nhơn bằng mưu: thành lớn / đầu tiên của nghĩa quân.
+sub: 6 | 5.0-8.4 | Cái cũi ấy em khiêng! / Ghi tên em vào sử nhé!

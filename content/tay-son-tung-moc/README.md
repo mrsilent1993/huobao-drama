@@ -7,7 +7,7 @@ Mỗi mốc của phong trào Tây Sơn là một video, theo công thức Anh T
 | Mốc | Năm | Video | File | Clip Muse |
 |---|---|---|---|---|
 | 1 | 1771 | Được chia gạo nhà giàu, người chia sau này là vua | `../pov-nguoi-binh-thuong/tap-8-chia-gao-tay-son-1771.md` | `nbt8-1..5` (đã có) |
-| 2 | 1773 | Khiêng cái cũi có người vào thành Quy Nhơn | `tap-1-khieng-cui-quy-nhon-1773.md` | `ts1773-1..5` (**mới**) |
+| 2 | 1773 | Khiêng cái cũi có người vào thành Quy Nhơn (**bản đầy đủ 6 cảnh**: YouTube khoảng 58 giây, TikTok khoảng 38 giây, cả hai đủ 6 cảnh) | `tap-1-khieng-cui-quy-nhon-1773.md` | `ts1773-1..6` (**mới**) |
 | 3 | 1778 | Thay biển tên cả tòa thành: Nguyễn Nhạc lên ngôi | `tap-2-thay-bien-thanh-hoang-de-1778.md` | `ts1778-1..5` (**mới**) |
 | 4 | 1785 | Dẫn đường cho thuyền Xiêm vào Rạch Gầm | `../pov-nguoi-binh-thuong/tap-11-dan-duong-rach-gam-1785.md` | `nbt11-1..5` (đã có) |
 | 4b | 1785 | Đêm cấm đập muỗi trước trận Rạch Gầm | `../pov-nguoi-binh-thuong/tap-5-cam-dap-muoi-rach-gam-1785.md` | `nbt5-1..5` (đã có) |

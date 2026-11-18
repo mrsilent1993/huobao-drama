@@ -26,59 +26,85 @@ NOTE = ("**Tây Sơn từng mốc:** mỗi mốc là một video, theo công th�
 END_NEXT = "Sử không ghi tên Anh Tư. / Follow để xem mốc tiếp: / {} →"
 
 EPISODES = [
-    # ------------------------------------------------------------------ 1773
+    # ------------------------------------------------------------------ 1773 (bản đầy đủ 6 cảnh)
     dict(
-        slug="khieng-cui-quy-nhon-1773", giong="Central Vietnamese (Bình Định) accent", prefix="ts1773",
+        slug="khieng-cui-quy-nhon-1773", prefix="ts1773", giong="Central Vietnamese (Bình Định) accent",
         title="Bị sai khiêng một cái cũi có người vào thành, không ai nói người trong cũi là ai (lấy thành Quy Nhơn, 1773)",
-        length="YouTube 50 giây (5 clip) · TikTok 30 giây (clip 1, 3, 5)",
-        history=("**Lịch sử:** năm 1773, nghĩa quân Tây Sơn lấy được thành Quy Nhơn bằng mưu. Theo sử nhà Nguyễn (mức B, "
-                 "có màu giai thoại), Nguyễn Nhạc tự vào cũi, sai người khiêng nộp cho viên quan giữ thành Nguyễn Khắc "
-                 "Tuyên như thể đã bắt được thủ lĩnh giặc; quan mừng, đem giam. Nửa đêm Nhạc ra khỏi cũi, mở cổng thành "
-                 "cho quân vào. Đây là thành lớn đầu tiên Tây Sơn chiếm được. **Hư cấu:** Anh Tư khiêng cũi, chiếc chốt "
-                 "\"lắp ngược\" và mọi lời thoại."),
-        setting=("Vietnam, autumn 1773, Quy Nhơn citadel in Bình Định: earth-and-brick walls, a wooden gate, the garrison "
-                 "of the Nguyễn lords in plain dark cotton uniforms with cloth head wraps, a provincial official in an "
-                 "embroidered robe. No visible writing on clothes or signs, no flags. "
+        length=("hai video từ cùng 6 clip: **bản dài** (YouTube, khoảng 58 giây sau chuyển cảnh) và **bản ngắn** "
+                "(TikTok, khoảng 38 giây) vẫn đủ cả 6 cảnh: cảnh mở đầu và cảnh kết giữ nguyên 10 giây, 4 cảnh giữa "
+                "mỗi cảnh cắt lấy 5 giây chứa câu quan trọng nhất"),
+        history=("**Lịch sử:** năm 1771, ba anh em Nguyễn Nhạc, Nguyễn Huệ, Nguyễn Lữ dấy binh ở Tây Sơn. Năm 1773, nghĩa "
+                 "quân lấy được thành Quy Nhơn bằng mưu, đây là thành lớn đầu tiên Tây Sơn chiếm được. Theo sử nhà Nguyễn "
+                 "(mức B, có màu giai thoại), Nguyễn Nhạc tự vào cũi, sai người khiêng nộp cho viên quan giữ thành Nguyễn "
+                 "Khắc Tuyên như thể đã bắt được thủ lĩnh giặc; quan mừng, đem giam. Nửa đêm Nhạc ra khỏi cũi, mở cổng "
+                 "thành cho quân vào. **Hư cấu:** Anh Tư khiêng cũi, chiếc chốt \"lắp ngược\", bữa tiệc mừng và mọi lời "
+                 "thoại."),
+        setting=("Vietnam, autumn 1773, Quy Nhơn citadel in Bình Định: high earth-and-brick walls, a heavy wooden gate, "
+                 "the garrison of the Nguyễn lords in plain dark cotton uniforms with cloth head wraps, a provincial "
+                 "official in an embroidered robe. No visible writing on clothes or signs, no flags. "
                  f"{REBELS}. {NHAC}. Anh Tư is {FACE}, in a brown shirt with a red head wrap."),
         hook="POV: Khiêng cũi / có người / vào thành giặc",
         end=END_NEXT.format("năm 1778"),
         clips=[
-            dict(name="Việc lạ", label="Tây Sơn · năm 1773",
-                 img=f"First-person view in a rebel camp, a sturdy wooden cage on carrying poles, {NHAC} sitting cross-legged inside it, smiling, {FACE} beside the viewer holding one pole and staring at him, realistic, vertical 9:16.",
-                 vid="0-5s: Inside the wooden cage, Nguyễn Nhạc settles comfortably and says: \"Khiêng ta vào thành. Nói là bắt được tướng giặc.\" 5-10s: Anh Tư, holding a carrying pole, stares at him: \"Anh cả... tự chui vào cũi ạ?\" Nhạc just grins.",
-                 subs=[(0.5, 4.8, "Khiêng ta vào thành. / Nói là bắt được tướng giặc."),
-                       (5.0, 9.5, "Anh cả... / tự chui vào cũi ạ?")]),
-            dict(name="Cổng thành", tiktok="bo", label="Trước cổng thành Quy Nhơn",
+            dict(name="Thành cao", label="Tây Sơn từng mốc · 1773",
+                 img=f"First-person view at dusk from a hill outside a high earth-and-brick citadel wall, a group of rebels with red head wraps looking at the wall, {NHAC} standing in front with his hand on an empty wooden cage on carrying poles, {FACE} beside the viewer, realistic, vertical 9:16.",
+                 vid=("0-5s: At dusk the rebels stare up at the high citadel wall. Nguyễn Nhạc says: \"Thành cao, quân ta "
+                      "ít, đánh thì không vào được.\" 5-10s: He grins and pats an empty wooden cage on carrying poles: "
+                      "\"Thì để quan... tự khiêng ta vào.\" Anh Tư, beside the viewer, stares at the cage: \"Khiêng... anh "
+                      "cả vào ạ?\""),
+                 subs=[(0.5, 4.8, "Thành cao, quân ta ít, / đánh thì không vào được."),
+                       (5.0, 7.6, "Thì để quan... / tự khiêng ta vào."),
+                       (7.6, 9.6, "Khiêng... anh cả vào ạ?")]),
+            dict(name="Vào cũi", tiktok="0-5", noi=True, label="",
+                 img=f"First-person view in the rebel camp at dusk, {NHAC} climbing into a sturdy wooden cage on carrying poles and sitting cross-legged, smiling, {FACE} holding one pole and staring at him, realistic, vertical 9:16.",
+                 vid=("0-5s: Nguyễn Nhạc climbs into the wooden cage, settles comfortably and says: \"Cứ nói là bắt được "
+                      "thủ lĩnh giặc. Diễn cho khéo.\" 5-10s: Anh Tư, holding a carrying pole, whispers to the viewer: "
+                      "\"Anh cả... tự chui vào cũi thật ạ?\""),
+                 subs=[(0.5, 4.8, "Cứ nói là bắt được / thủ lĩnh giặc. Diễn cho khéo."),
+                       (5.0, 9.5, "Anh cả... / tự chui vào cũi thật ạ?")]),
+            dict(name="Cổng thành", tiktok="5-10", label="Trước cổng thành Quy Nhơn",
                  img=f"First-person view carrying a wooden cage on a pole toward a citadel gate, guards in plain dark cotton uniforms with spears blocking the way, {FACE} at the front of the pole, putting on a serious face, realistic, vertical 9:16.",
-                 vid="0-5s: At the gate, a guard blocks them; Anh Tư puts on a grave face and announces loudly: \"Bắt được tướng giặc đây ạ!\" 5-10s: As the guard waves them through, Anh Tư mutters to the viewer: \"Bắt khó lắm... anh ấy tự chui vào.\"",
-                 subs=[(0.5, 4.8, "Bắt được tướng giặc đây ạ!"),
+                 vid=("0-5s: At the gate, a guard blocks them; Anh Tư puts on a grave face and announces loudly: \"Bắt "
+                      "được thủ lĩnh giặc đây ạ!\" 5-10s: As the guard waves them through, Anh Tư mutters to the viewer: "
+                      "\"Bắt khó lắm... anh ấy tự chui vào.\""),
+                 subs=[(0.5, 4.8, "Bắt được thủ lĩnh giặc đây ạ!"),
                        (5.0, 9.5, "Bắt khó lắm... / anh ấy tự chui vào.")]),
-            dict(name="Quan mừng", label="",
+            dict(name="Quan mừng", tiktok="5-10", label="",
                  img=f"First-person view in a citadel courtyard, a delighted official in an embroidered robe laughing and pointing at the cage, servants bringing wine, inside the cage {NHAC} lying on his side asleep, {FACE} beside the viewer, realistic, vertical 9:16.",
-                 vid="0-5s: The official laughs with delight and orders wine and a feast; soldiers cheer around the cage. 5-10s: Anh Tư leans toward the viewer and whispers: \"Quan mừng quá... mà trong cũi, anh cả đang ngủ ngáy.\" Soft snoring comes from the cage.",
-                 subs=[(0.5, 4.8, "Bắt được thủ lĩnh giặc rồi! / Mở tiệc!"),
+                 vid=("0-5s: The official laughs with delight: \"Bắt được thủ lĩnh rồi! Mở tiệc!\" Soldiers cheer around "
+                      "the cage. 5-10s: Anh Tư leans toward the viewer and whispers: \"Quan mừng quá... mà trong cũi, anh "
+                      "cả đang ngủ ngáy.\" Soft snoring comes from the cage."),
+                 subs=[(0.5, 4.8, "Bắt được thủ lĩnh rồi! / Mở tiệc!"),
                        (5.0, 9.5, "Quan mừng quá... mà trong cũi, / anh cả đang ngủ ngáy.")]),
-            dict(name="Nửa đêm", tiktok="bo", label="Nửa đêm",
+            dict(name="Nửa đêm", tiktok="5-10", label="Nửa đêm",
                  img=f"First-person view at night in a dark storeroom lit by moonlight, the wooden cage door swinging open, {NHAC} stepping out quietly, {FACE} crouching beside it holding a wooden latch, realistic, vertical 9:16.",
-                 vid="0-5s: Moonlight; Anh Tư pulls out a wooden latch and the cage door swings open silently; Nguyễn Nhạc steps out and stretches. 5-10s: Anh Tư holds up the latch to the viewer with a proud whisper: \"Chốt cũi em làm... lắp ngược từ đầu.\"",
-                 subs=[(5.0, 9.5, "Chốt cũi em làm... / lắp ngược từ đầu.")]),
+                 vid=("0-5s: Moonlight; Anh Tư pulls out a wooden latch and the cage door swings open silently; Nguyễn Nhạc "
+                      "steps out and stretches. 5-10s: Anh Tư holds up the latch to the viewer with a proud whisper: \"Chốt "
+                      "cũi em làm... lắp ngược từ đầu.\""),
+                 subs=[(0.5, 4.8, "Cửa cũi mở không một tiếng động."),
+                       (5.0, 9.5, "Chốt cũi em làm... / lắp ngược từ đầu.")]),
             dict(name="Ghi tên em vào sử", label="",
                  img=f"First-person view at night from inside a citadel as the big wooden gate swings open and hundreds of torches of rebels with red head wraps pour in, no fighting, {FACE} beside the gate with a huge chipped-tooth grin, realistic, vertical 9:16.",
-                 vid="0-5s: The heavy gate swings open; hundreds of torches pour into the citadel. A calm narrator's voice says: \"Năm 1773, Tây Sơn lấy thành Quy Nhơn bằng mưu. Sử chép Nguyễn Nhạc tự vào cũi để lọt vào thành.\" 5-10s: Anh Tư turns to the camera with his chipped-tooth grin: \"Cái cũi ấy em khiêng! Ghi tên em vào sử nhé!\"",
-                 subs=[(0.3, 4.8, "Năm 1773, Tây Sơn lấy thành / Quy Nhơn bằng mưu: thủ lĩnh / tự vào cũi để lọt vào thành."),
-                       (5.0, 9.8, "Cái cũi ấy em khiêng! / Ghi tên em vào sử nhé!")]),
+                 vid=("0-5s: The heavy gate swings open; hundreds of torches pour into the citadel; no fighting shown. A calm "
+                      "narrator's voice says: \"Năm 1773, Tây Sơn lấy thành Quy Nhơn bằng mưu, thành lớn đầu tiên của nghĩa "
+                      "quân.\" 5-10s: Anh Tư turns to the camera with his chipped-tooth grin: \"Cái cũi ấy em khiêng! Ghi "
+                      "tên em vào sử nhé!\""),
+                 subs=[(0.3, 4.8, "Năm 1773, Tây Sơn lấy thành / Quy Nhơn bằng mưu: thành lớn / đầu tiên của nghĩa quân."),
+                       (5.0, 8.4, "Cái cũi ấy em khiêng! / Ghi tên em vào sử nhé!")]),
         ],
-        caption=("Bị sai khiêng một cái cũi có người vào thành giặc 😳 Năm 1773, Tây Sơn lấy thành Quy Nhơn bằng mưu: sử nhà "
-                 "Nguyễn chép Nguyễn Nhạc tự vào cũi để được khiêng vào thành. Một mốc trong loạt Tây Sơn từng mốc. Bạn "
-                 "có dám tự chui vào cũi như anh cả không? 👇"),
+        end_secs=1.6,
+        caption=("Bị sai khiêng một cái cũi có người vào thành giặc 😳 Năm 1773, Tây Sơn lấy thành Quy Nhơn bằng mưu: sử "
+                 "nhà Nguyễn chép Nguyễn Nhạc tự vào cũi, giả làm thủ lĩnh bị bắt để được khiêng vào thành. Mở đầu loạt "
+                 "Tây Sơn từng mốc, mỗi mốc một video, đến tận vua Quang Trung. Bạn có dám tự chui vào cũi như anh cả "
+                 "không? 👇"),
         tags="#taysontungmoc #nguyennhac #quynhon #tayson #1773",
         tt_title="Bị sai khiêng một cái cũi có người vào thành giặc, không ai nói người trong cũi là ai",
         hooks_alt=["POV: Thủ lĩnh / tự chui vào cũi", "POV: Lấy thành / bằng một cái cũi"],
-        pin=("Mốc trước (năm 1771, chia gạo nhà giàu) ở trang cá nhân 👆 Bạn đoán mốc tiếp theo năm 1778 là chuyện gì? "
-             "Follow để xem!"),
+        pin=("Loạt Tây Sơn từng mốc bắt đầu từ đây: mỗi mốc một video, đến khi Nguyễn Huệ lên ngôi Quang Trung 🔥 "
+             "Bạn đoán mốc tiếp theo năm 1778 là chuyện gì? Follow để xem!"),
         yt_title="Năm 1773: lấy thành Quy Nhơn bằng một cái cũi | Tây Sơn từng mốc",
-        yt_tags=("tây sơn, nguyễn nhạc, thành quy nhơn, khởi nghĩa tây sơn, 1773, tây sơn từng mốc, lịch sử việt nam, "
-                 "pov lịch sử, anh tư, đại việt, shorts"),
+        yt_tags=("tây sơn, nguyễn nhạc, thành quy nhơn, khởi nghĩa tây sơn, 1773, tây sơn từng mốc, quang trung, "
+                 "lịch sử việt nam, pov lịch sử, anh tư, đại việt, shorts"),
     ),
     # ------------------------------------------------------------------ 1778
     dict(
