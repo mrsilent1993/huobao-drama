@@ -8,6 +8,15 @@ Mỗi mốc của phong trào Tây Sơn là một video, theo công thức Anh T
 
 Áp dụng cho mọi tập trong bảng dưới, trừ tập 11 Rạch Gầm (đã đăng, giữ bản cuối). Các mốc đã có tập ở loạt "POV người bình thường" thì dùng lại, không làm lại.
 
+## Video giới thiệu chuỗi (đăng trước mốc 1 một ngày)
+
+`gioi-thieu-tay-son.md`: khoảng 39 giây, 4 clip Muse `gt-tayson-1..4`, quay kiểu trailer.
+- 3 cảnh lướt nhanh hành trình: ấp Tây Sơn năm 1771 → sông Tiền và Tết 1789 → ngai vàng ở núi Bân.
+- Cảnh cuối Anh Tư tự giới thiệu: "Mốc nào em cũng có mặt… và lần nào cũng bị giao việc lạ."
+- Một bản dùng chung cho TikTok và YouTube.
+- Ghim video lên trang cá nhân trong suốt thời gian đăng loạt; trên YouTube đặt đầu danh sách phát "Tây Sơn từng mốc".
+- Sửa nội dung trong `_gioi_thieu.py` rồi chạy `python3 _gioi_thieu.py`.
+
 ## Thứ tự đăng (theo thời gian)
 
 | Mốc | Năm | Video | File | Clip Muse |

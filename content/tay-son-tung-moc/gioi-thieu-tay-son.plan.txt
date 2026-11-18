@@ -1,0 +1,18 @@
+# Dựng: python3 ../tools/tiktok.py gioi-thieu-tay-son.plan.txt gioi-thieu-tay-son.mp4  (một bản dùng chung TikTok và YouTube)
+hook: Từ người áo vải / đến hoàng đế / Quang Trung
+end: Tây Sơn từng mốc · 16 tập / Follow để xem mốc 1 →
+end_giay: 1.6
+nhan: AI tái hiện · lời thoại hư cấu
+
+clip: gt-tayson-1.mp4 | Tây Sơn từng mốc · 16 tập
+clip: gt-tayson-2.mp4 |  | chuyen=fadewhite:0.3
+clip: gt-tayson-3.mp4 |  | chuyen=fadeblack:0.6
+clip: gt-tayson-4.mp4 |  | chuyen=fadeblack:0.5
+
+sub: 1 | 4.0-9.6 | Năm 1771, ba anh em nông dân / ở ấp Tây Sơn đứng lên.
+sub: 2 | 0.5-4.6 | Đánh tan quân Xiêm / trên sông Tiền.
+sub: 2 | 5.0-9.6 | Phá quân Thanh / giữa mấy ngày Tết.
+sub: 3 | 0.5-4.8 | Từ ấp Tây Sơn / đến ngai vàng Quang Trung.
+sub: 3 | 5.0-9.6 | Mười sáu mốc. / Và một người lính / có mặt ở tất cả.
+sub: 4 | 0.5-4.8 | Em là Anh Tư. / Mốc nào em cũng có mặt... / lần nào cũng bị giao việc lạ.
+sub: 4 | 5.0-8.2 | Mai bắt đầu từ năm 1771. / Mỗi ngày một mốc!
