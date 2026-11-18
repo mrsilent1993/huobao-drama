@@ -2,7 +2,7 @@
 
 Mỗi sự kiện được kể qua góc nhìn **một người thường** (thường là Anh Tư, hoặc lính phía bên kia), theo đúng công thức video thắng: bị giao việc vô lý, không ai giải thích, có câu đáng gửi bạn bè, vỡ lẽ ở cuối.
 
-**Đã làm, không lặp lại:** dời đô 1010, Ung Châu 1076, Như Nguyệt 1077, Bạch Đằng 938/981/1288, vườn không nhà trống 1285, Chi Lăng 1427, Rạch Gầm 1785, Ngọc Hồi 1789 (POV lính Tây Sơn).
+**Đã làm, không lặp lại:** dời đô 1010, Ung Châu 1076, Như Nguyệt 1077, Bạch Đằng 938/981/1288, vườn không nhà trống 1285, Chi Lăng 1427, Rạch Gầm 1785, Ngọc Hồi 1789 (POV lính Tây Sơn), Đông Quan 1427 (Anh Tư tập 6), khởi nghĩa Tây Sơn 1771 (Anh Tư tập 8).
 
 Mức nguồn: **A** = có xác nhận độc lập (khảo cổ, di sản) · **B** = chính sử Việt Nam (*Đại Việt sử ký toàn thư*…) · **C** = giai thoại, tiểu thuyết lịch sử. **Các chi tiết dưới đây là từ hiểu biết chung về sử, cần kiểm tra lại khi viết thành tập.**
 

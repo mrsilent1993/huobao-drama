@@ -22,6 +22,7 @@ Mỗi tập có hai bản: **TikTok 30 giây** gồm clip 1, 3, 5, đúng độ 
 | 5 | Bị cấm ho, cấm đập muỗi cả đêm… (Rạch Gầm – Xoài Mút, 1785) | "Thế muỗi có bị cấm cắn không anh?" → muỗi đậu mũi sĩ quan → "Giờ thì đập được rồi!" | Cả thuyền bịt mũi Anh Tư để chặn cái hắt hơi | `nbt5-1..5` |
 | 6 | Bị bắt đóng năm trăm chiếc thuyền… (Hội thề Đông Quan, 1427) | "Năm trăm chiếc? Mình đi đánh ở đâu mà xa thế anh?" → "Đánh nhau mười năm, giờ mình đóng thuyền tiễn nó về?" → "Thuyền em đóng có trong Bình Ngô đại cáo! Ghi tên em vào sử nhé!" | "Gói cơm cho khách." / "Giết thêm thì hận thêm. Tiễn về thì yên lâu." | `nbt6-1..5` |
 | 7 | Tiếp đón đồng đội mới ai cũng xăm kín tay… (thủy quân Tây Sơn thuê cướp biển, khoảng 1797) | "Đừng hỏi nghề cũ." → "Sếp mới được phong vương, mà CV nghề cũ ghi là… cướp biển?" → "Ghi tên em vào sử nhé! …Mà thôi. Đừng ghi." | "Ngành vận tải. Nhận hàng không cần hỏi chủ." / "Như áo đội bóng." | `nbt7-1..5` |
+| 8 | Được chia gạo nhà giàu không mất một đồng… (khởi nghĩa Tây Sơn, 1771) | "Gạo chia không lấy tiền… nghe đã thấy có chuyện." → "Ông ấy nhìn em một cái… em suýt trả lại cả bao gạo." → "Ông ấy chia gạo cho em đấy! Ghi tên em vào sử nhé!" | "Người thu thuế… đi chia gạo?" / "Biết làm gì?" "Em ăn khỏe ạ." | `nbt8-1..5` |
 
 ## Đăng
 

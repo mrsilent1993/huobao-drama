@@ -17,6 +17,9 @@ from series import build  # noqa: E402
 FACE = ("a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a "
         "chipped front tooth, very expressive face")
 
+HUE = ("a lean young man of about 18 with curly hair, very bright piercing eyes and a ringing voice, in plain "
+       "dark-indigo clothes with a red headband")
+
 NOTE = ("**Anh Tư:** nhân vật của video 1,4 triệu. Mỗi tập là một đời con cháu, cùng một gương mặt: **sẹo ngang "
         "lông mày trái, răng cửa mẻ, cười toe**. Dùng lại ảnh chân dung Anh Tư (prompt trong `../bach-dang/README.md`) "
         "làm ảnh tham chiếu trong Muse, chỉ đổi trang phục theo thời. **Bản TikTok 30 giây** gồm clip 1, 3, 5; **bản "
@@ -357,6 +360,59 @@ EPISODES = [
                  "người phụ nữ cầm đầu (theo nghiên cứu của Dian Murray). Bạn có biết người phụ nữ đó là ai không? Viết "
                  "dưới bình luận 👇"),
         tags="#taysoncanhthinh #cuopbientauo #trinhnhattau #hamdoicoden #thuyquantayson",
+    ),
+    # ------------------------------------------------------------------ 1771 khởi nghĩa Tây Sơn
+    dict(
+        slug="chia-gao-tay-son-1771", prefix="nbt8",
+        title="Được chia gạo nhà giàu không mất một đồng, mấy năm sau mới biết người chia gạo là ai (khởi nghĩa Tây Sơn, 1771)",
+        length="YouTube 50 giây (5 clip) · TikTok 30 giây (clip 1, 3, 5)",
+        history=("**Lịch sử:** năm 1771, ba anh em Nguyễn Nhạc, Nguyễn Huệ, Nguyễn Lữ dấy binh ở ấp Tây Sơn (Bình Định), "
+                 "chống quyền thần Trương Phúc Loan ở Đàng Trong. Họ lấy của nhà giàu chia cho dân nghèo nên được dân "
+                 "theo đông; năm 1773 chiếm thành Quy Nhơn. Nguyễn Nhạc từng làm biện lại, tức chức thu thuế. Nguyễn Huệ "
+                 "(sinh 1753, năm ấy khoảng 18 tuổi) cuối năm 1788 lên ngôi, hiệu **Quang Trung**, Tết Kỷ Dậu 1789 đánh "
+                 "tan quân Thanh, vào Thăng Long. Sử nhà Nguyễn gọi Tây Sơn là \"giặc\", sử hiện đại gọi là khởi nghĩa; "
+                 "tập phim theo cách gọi của sử hiện đại. Tả Nguyễn Huệ tóc quăn, mắt sáng, tiếng như chuông là theo "
+                 "ghi chép đời sau, không chắc chắn. **Hư cấu:** Anh Tư, các tình huống và mọi lời thoại, kể cả lời của "
+                 "Nguyễn Huệ và Nguyễn Nhạc trong phim."),
+        setting=("Vietnam, Đàng Trong under the Nguyễn lords, 1771, the upland village of Tây Sơn in Bình Định: bamboo "
+                 "hedges, dusty road, the big wooden granary of a rich landlord with its doors flung open, rice sacks "
+                 "being carried out. Adult villagers only, in brown clothes and conical hats, black-lacquered teeth, "
+                 "barefoot. The rebels wear plain dark-indigo clothes with red headbands. "
+                 f"Anh Tư is {FACE}, a poor farmer in a patched brown shirt."),
+        hook="POV: Có người chia gạo / không lấy một đồng",
+        end="Sử không ghi tên Anh Tư. / Follow để xem đời sau nhà Anh Tư / bị giao việc gì nữa →",
+        clips=[
+            dict(name="Gạo không lấy tiền", label="Ấp Tây Sơn · năm 1771",
+                 img=f"First-person view in a queue of adult villagers in front of a rich landlord's granary with its doors open, rebels in red headbands handing out rice, {FACE} in front of the viewer holding an empty sack and frowning suspiciously, realistic, vertical 9:16.",
+                 vid=f"0-5s: In the queue, Anh Tư watches rebels in red headbands pour rice into villagers' sacks for free and whispers to the viewer: \"Gạo chia không lấy tiền... nghe đã thấy có chuyện.\" 5-10s: He reaches the front; {HUE} fills his sack and says clearly: \"Của nhà giàu. Trả lại cho dân.\" Anh Tư blinks.",
+                 subs=[(0.5, 4.8, "Gạo chia không lấy tiền... / nghe đã thấy có chuyện."),
+                       (5.0, 9.5, "Của nhà giàu. / Trả lại cho dân.")]),
+            dict(name="Ông thu thuế", tiktok="bo", label="Cùng buổi",
+                 img=f"First-person view beside a rice-distribution table, a stout cheerful man in his thirties with a tally ledger at his belt counting sacks, {FACE} staring at him wide-eyed, realistic, vertical 9:16.",
+                 vid="0-5s: A stout cheerful man with a ledger counts sacks; an old villager nudges Anh Tư: \"Ông anh cả đấy. Trước làm thu thuế.\" 5-10s: Anh Tư turns to the viewer, deeply confused: \"Người thu thuế... đi chia gạo? Ngược đời thật.\"",
+                 subs=[(0.5, 4.8, "Ông anh cả đấy. / Trước làm thu thuế."),
+                       (5.0, 9.5, "Người thu thuế... đi chia gạo? / Ngược đời thật.")]),
+            dict(name="Đôi mắt", label="Lúc ra về",
+                 img=f"First-person view on a dusty village road, {HUE} looking straight into the camera with an intense calm gaze, {FACE} next to the viewer clutching his rice sack nervously, realistic, vertical 9:16.",
+                 vid=f"0-5s: As Anh Tư walks away with his sack, the young man with piercing eyes looks straight at him for a long silent moment. Anh Tư freezes. 5-10s: Anh Tư whispers to the viewer, sweating: \"Ông ấy nhìn em một cái... em suýt trả lại cả bao gạo.\"",
+                 subs=[(5.0, 9.5, "Ông ấy nhìn em một cái... / em suýt trả lại cả bao gạo.")]),
+            dict(name="Xin theo", tiktok="bo", label="Mấy hôm sau",
+                 img=f"First-person view in a rebel camp among bamboo, {FACE} standing eagerly in front of {HUE}, who looks him up and down, realistic, vertical 9:16.",
+                 vid="0-5s: Anh Tư bows eagerly: \"Cho em theo với!\" The young man asks: \"Biết làm gì?\" Anh Tư thinks hard: \"Em... ăn khỏe ạ.\" 5-10s: The young man nods once: \"Được. Đi gánh gạo.\" Anh Tư grins and lifts two heavy baskets on a carrying pole.",
+                 subs=[(0.5, 2.6, "Cho em theo với!"),
+                       (2.6, 4.8, "Biết làm gì? / ...Em ăn khỏe ạ."),
+                       (5.0, 9.5, "Được. Đi gánh gạo.")]),
+            dict(name="Ghi tên em vào sử", label="Thăng Long · Xuân 1789",
+                 img=f"First-person view from a festive crowd on a Thăng Long street in spring 1789, a royal procession with yellow banners passing, a commander on horseback at a distance with curly hair and piercing eyes, {FACE} in the crowd, older now, pointing excitedly, realistic, vertical 9:16.",
+                 vid="0-5s: Spring; a festive crowd lines a Thăng Long street as a royal procession with yellow banners passes, the commander on horseback seen at a distance. A calm narrator's voice says: \"Người chia gạo năm ấy là Nguyễn Huệ. Cuối năm 1788 lên ngôi, hiệu Quang Trung.\" 5-10s: Anh Tư, older, turns to the camera with his chipped-tooth grin: \"Ông ấy chia gạo cho em đấy! Ghi tên em vào sử nhé!\"",
+                 subs=[(0.3, 4.8, "Người chia gạo năm ấy / là Nguyễn Huệ. / Cuối năm 1788 lên ngôi, / hiệu Quang Trung."),
+                       (5.0, 9.8, "Ông ấy chia gạo cho em đấy! / Ghi tên em vào sử nhé!")]),
+        ],
+        caption=("Được chia gạo nhà giàu không mất một đồng, mấy năm sau mới biết người chia gạo là ai 😳 Năm 1771, ba anh "
+                 "em nhà Tây Sơn dấy binh, lấy của nhà giàu chia cho dân nghèo (theo sử hiện đại gọi là khởi nghĩa Tây "
+                 "Sơn). Người em thứ sau này là vua Quang Trung. Nếu được ông chia gạo, bạn sẽ xin theo không? Viết dưới "
+                 "bình luận 👇"),
+        tags="#khoinghiatayson #nguyenhue #quangtrung #nguyennhac #1771",
     ),
 ]
 
