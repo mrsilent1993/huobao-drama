@@ -304,7 +304,7 @@ EPISODES = [
     dict(
         slug="dong-doi-moi-tay-son-1797", prefix="nbt7",
         title="Được giao tiếp đón đồng đội mới, ai cũng xăm kín tay và không ai nói nghề cũ (thủy quân Tây Sơn, khoảng 1797)",
-        length="YouTube 50 giây (5 clip) · TikTok 30 giây (clip 1, 3, 5)",
+        length="YouTube 50 giây (5 clip) · TikTok 40 giây (clip 1, 2, 3, 5)",
         history=("**Lịch sử:** từ những năm 1780, và nhiều nhất dưới thời vua **Cảnh Thịnh** (con Quang Trung, trị vì "
                  "1792–1802), nhà Tây Sơn thu nạp các nhóm cướp biển người Hoa ở Quảng Đông (sử Việt gọi là giặc Tàu Ô) "
                  "vào thủy quân, cấp thuyền, căn cứ và chức tước để đánh nhau với Nguyễn Ánh trên biển. Thủ lĩnh **Mạc "
@@ -328,7 +328,7 @@ EPISODES = [
                  vid="0-5s: Close-up: the viewer coils rope on the pier; Anh Tư watches a group of tattooed seafarers with long braids step off a junk, waving cheerfully, and whispers: \"Đồng đội mới... sao ai cũng xăm kín tay thế anh?\" 5-10s: The officer walks past without stopping: \"Tiếp cho tử tế. Đừng hỏi nghề cũ.\" Anh Tư slowly closes his mouth.",
                  subs=[(0.5, 4.8, "Đồng đội mới... / sao ai cũng xăm kín tay thế anh?"),
                        (5.0, 9.5, "Tiếp cho tử tế. / Đừng hỏi nghề cũ.")]),
-            dict(name="Nghề cũ", tiktok="bo", label="Buổi trưa",
+            dict(name="Nghề cũ", label="Buổi trưa",
                  img=f"First-person view on a ship deck at noon, {FACE} sitting cross-legged sharing a bowl of rice with a grinning tattooed Cantonese seafarer with a long braid, both relaxed, realistic, vertical 9:16.",
                  vid="0-5s: Over a shared bowl of rice, Anh Tư asks the tattooed seafarer, miming with his hands: \"Trước anh làm nghề gì?\" The seafarer grins and mimes, with a friendly wink, grabbing a big ship and pulling it toward himself. 5-10s: Anh Tư nods slowly and says to the viewer, deadpan: \"...À. Ngành vận tải. Nhận hàng không cần hỏi chủ.\"",
                  subs=[(0.5, 4.8, "Trước anh làm nghề gì?"),
