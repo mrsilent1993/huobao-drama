@@ -21,6 +21,7 @@ plan.txt (dòng trống và dòng bắt đầu bằng # được bỏ qua; " / "
     hook: POV: Bạn là dân Hoa Lư / ngày dời đô năm 1010     # chữ lớn giữa màn hình, 0-2.5s
     end: Năm 1010, Lý Thái Tổ dời đô / về Đại La, đặt tên Thăng Long.   # 3 giây cuối
     end_giay: 1.5                                                   # (tùy chọn) đổi số giây dòng kết
+    toi_da_giay: 179.5                                              # (tùy chọn) tổng độ dài tối đa
     clip: dl-1.mp4 | Hoa Lư · sáng sớm          # file | mốc thời gian hiện 3s đầu clip
     sub: 1 | 0.5-4.8 | Đang yên đang lành, vua lại bắt cả kinh thành dọn nhà!
     # sub: <số clip> | <giây bắt đầu>-<giây kết thúc trong clip đó> | lời thoại
@@ -86,7 +87,7 @@ def probe_duration(path):
 
 def parse(plan_path):
     base = os.path.dirname(os.path.abspath(plan_path))
-    plan = {"hook": "", "end": "", "end_secs": 3.0, "clips": [], "subs": []}
+    plan = {"hook": "", "end": "", "end_secs": 3.0, "max_secs": None, "clips": [], "subs": []}
     with open(plan_path, encoding="utf-8") as fh:
         for n, raw in enumerate(fh, 1):
             line = raw.strip()
@@ -98,6 +99,8 @@ def parse(plan_path):
                 plan[key] = val
             elif key == "end_giay":             # số giây dòng chữ kết hiện ở cuối video (mặc định 3)
                 plan["end_secs"] = float(val)
+            elif key == "toi_da_giay":          # (tùy chọn) tổng độ dài tối đa, cắt bớt đuôi clip cuối
+                plan["max_secs"] = float(val)
             elif key == "clip":
                 parts = [p.strip() for p in val.split("|")]
                 f, cap = parts[0], (parts[1] if len(parts) > 1 else "")
@@ -181,6 +184,10 @@ def render(plan, out, version):
         picked.append((idx, path, cap, a, b))
     if not picked:
         die("bản TikTok không còn clip nào")
+    total = sum(p[4] - p[3] for p in picked)
+    if plan["max_secs"] and total > plan["max_secs"]:
+        idx, path, cap, a, b = picked[-1]
+        picked[-1] = (idx, path, cap, a, b - (total - plan["max_secs"]))
 
     end_text = plan["end"]
     if version == "youtube":

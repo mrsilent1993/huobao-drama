@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Bạch Đằng 938: trailer 30 giây và video trận đánh 2 phút 30 là HAI video riêng. Sửa ở đây rồi chạy: python3 _nguon.py
+"""Bạch Đằng 938: trailer 30 giây (TikTok) và trận đánh 3 phút (YouTube) là HAI video riêng. Sửa ở đây rồi chạy: python3 _nguon.py
 
 Sinh ra:
 - bach-dang-938-trailer.md / .plan.txt     trailer 30 giây (3 clip Muse), đăng nhử trước một ngày
-- bach-dang-938-tran-danh.md / .plan.txt   trận đánh 150 giây (15 clip Muse)
+- bach-dang-938-tran-danh.md / .plan.txt   trận đánh 3 phút (18 clip Muse), bản YouTube
 """
 import os
 import sys
@@ -65,6 +65,11 @@ BATTLE = [
          vid="0-5s: The viewer and Anh Tư drive a huge stake into the mud with mallets, row after row of stakes stretching away by torchlight. 5-10s: An officer walks along the line: \"Nhanh lên! Trước khi nước lên!\" Anh Tư, covered in mud: \"Bùn đến đùi rồi anh ơi!\"",
          subs=[(5.0, 7.4, "Nhanh lên! Trước khi nước lên!"),
                (7.4, 9.6, "Bùn đến đùi rồi anh ơi!")]),
+    dict(name="Ngô Quyền kiểm tra cọc", label="",
+         img=f"First-person view at night by torchlight on the muddy riverbed among rows of iron-tipped stakes, {NGO} gripping one stake and testing it, {FACE} standing beside the viewer with a mallet, nervous, realistic, vertical 9:16.",
+         vid=f"0-5s: {NGO} walks along the rows of stakes by torchlight, pushes one with both hands; it does not move. He stops at the next one: \"Nghiêng thêm. Mũi cọc phải chĩa vào đường thuyền chạy ra.\" 5-10s: Anh Tư, who planted it, says quickly: \"Dạ! Cọc này em cắm, thẳng như lưng em ạ.\" Ngô Quyền just looks at him; Anh Tư immediately starts hammering it to a slant.",
+         subs=[(0.5, 4.8, "Nghiêng thêm. Mũi cọc phải chĩa / vào đường thuyền chạy ra."),
+               (5.0, 9.6, "Dạ! Cọc này em cắm, / thẳng như lưng em ạ.")]),
     dict(name="Nước lên, cọc biến mất", label="",
          img=f"First-person view at dawn from a small boat on a wide calm river, the tide high, the surface smooth with no stakes visible, mist, {FACE} in the boat looking down at the water, realistic, vertical 9:16.",
          vid="0-5s: Dawn; the tide has come in and the river is smooth and calm, no stake visible anywhere. The officer in the boat: \"Nhớ chỗ này. Lát nữa đừng có chèo vào đây.\" 5-10s: Anh Tư looks around at the identical water in every direction: \"Em nhớ rồi! ...Mà chỗ nào cũng là nước anh ạ.\"",
@@ -102,6 +107,11 @@ BATTLE = [
          vid="0-5s: Hundreds of small boats burst out of the side creeks; volleys of arrows arc from both banks and thud into the warships' wooden sides and sails. 5-10s: The warships try to turn back toward the sea with the falling tide; Anh Tư rows and yells: \"Giờ thì đến lượt mình đuổi!\"",
          subs=[(0.5, 4.8, "Hai bên bờ cùng đánh ra. / Giặc quay đầu về biển."),
                (5.0, 9.6, "Giờ thì đến lượt mình đuổi!")]),
+    dict(name="Giặc quay đầu", label="",
+         img=f"First-person view from a small boat, huge warships in confusion trying to turn around toward the sea, oars tangling, officers on deck shouting and waving, the water visibly lower along the hulls, {FACE} rowing beside the viewer, laughing, realistic, vertical 9:16.",
+         vid="0-5s: The big warships try to swing their bows back toward the sea; oars clash and tangle, officers on the decks shout and wave in panic, the waterline drops fast along their hulls. 5-10s: Anh Tư rows hard and shouts at them, laughing: \"Muộn rồi! Nước rút nhanh hơn các anh chèo!\"",
+         subs=[(0.5, 4.8, "Thuyền giặc cuống cuồng / quay mũi ra biển."),
+               (5.0, 9.6, "Muộn rồi! Nước rút / nhanh hơn các anh chèo!")]),
     dict(name="Thuyền đâm cọc", label="",
          img=f"First-person view from a small boat as a huge warship fleeing toward the sea crashes onto iron-tipped stakes just under the falling water, timber splintering, the ship lurching and stuck, {FACE} pointing at it with a huge chipped-tooth grin, realistic, vertical 9:16.",
          vid="0-5s: A fleeing warship hits the hidden stakes with a deep crunch of timber; it lurches, stuck fast; another ship behind slams into it. 5-10s: Anh Tư stands up in the boat, pointing and laughing: \"Cọc nhà em! Cọc nhà em trúng rồi!\"",
@@ -118,11 +128,17 @@ BATTLE = [
          vid="0-5s: Sunset; the estuary is full of stuck, tilted warships; disarmed enemy soldiers sit quietly on the bank under guard. 5-10s: A messenger runs past shouting: \"Chủ tướng giặc Hoằng Tháo đã tử trận!\" The viewer and Anh Tư look at each other in silence.",
          subs=[(0.5, 4.8, "Quân giặc chết đuối quá nửa / (Đại Việt sử ký toàn thư)."),
                (5.0, 9.6, "Chủ tướng giặc Hoằng Tháo / đã tử trận!")]),
+    dict(name="Cọc để lần sau", label="Sáng hôm sau · triều rút",
+         img=f"First-person view at low tide on the muddy riverbed among the stakes, wrecked warships being towed away by small boats in the background, {FACE} hugging one stake with both arms and pulling hard to get it out of the mud, realistic, vertical 9:16.",
+         vid="0-5s: Low tide; small boats tow captured warships away. Anh Tư hugs a stake and pulls with all his strength; it does not budge: \"Cọc của em... em xin mang về làm kỷ niệm.\" 5-10s: The officer passes by: \"Để đấy. Lần sau còn dùng.\" Anh Tư lets go and stares at the river: \"...Lần sau á?\"",
+         subs=[(0.5, 4.8, "Cọc của em... / em xin mang về làm kỷ niệm."),
+               (5.0, 7.6, "Để đấy. Lần sau còn dùng."),
+               (7.6, 9.6, "...Lần sau á?")]),
     dict(name="Ghi tên em vào sử", label="Cổ Loa · mùa xuân năm 939",
          img=f"First-person view from a joyful crowd at the earthen walls of Cổ Loa citadel in spring, {NGO} standing on a platform before banners, {FACE} in the crowd beside the viewer with a proud chipped-tooth grin, realistic, vertical 9:16.",
          vid=f"0-5s: Spring; a joyful crowd before the walls of Cổ Loa; {NGO} stands on a platform. A calm narrator's voice says: \"Năm 939, Ngô Quyền xưng vương, đóng đô ở Cổ Loa.\" 5-10s: Anh Tư turns to the camera, grinning: \"Cọc thứ ba hàng thứ bảy là em cắm đấy! Ghi tên em vào sử nhé!\"",
          subs=[(0.3, 4.6, "Năm 939, Ngô Quyền xưng vương, / đóng đô ở Cổ Loa."),
-               (4.8, 8.4, "Cọc thứ ba hàng thứ bảy là em cắm! / Ghi tên em vào sử nhé!")]),
+               (4.8, 7.9, "Cọc thứ ba hàng thứ bảy là em cắm! / Ghi tên em vào sử nhé!")]),
 ]
 
 HISTORY = """**Lịch sử (theo *Đại Việt sử ký toàn thư*, sử Trung Quốc cũng chép trận thua này):**
@@ -147,15 +163,15 @@ NOTE_TRAILER = """**Video riêng, 30 giây, 3 clip Muse** quay kiểu phim (khô
 
 **Kiểm duyệt:** không có máu, không có xác, không có trẻ em."""
 
-NOTE_BATTLE = """**Video riêng, 2 phút 30 giây, 15 clip Muse** (mỗi clip 10 giây), góc nhìn thứ nhất, có Anh Tư. Trailer 30 giây nằm ở file `bach-dang-938-trailer.md`.
+NOTE_BATTLE = """**Video riêng, 3 phút, 18 clip Muse** (mỗi clip 10 giây), góc nhìn thứ nhất, có Anh Tư. Bản này để đăng **YouTube** (dọc, tối đa 3 phút vẫn là Shorts; file dựng tự cắt còn 2:59,5 cho chắc). Trailer 30 giây ở file `bach-dang-938-trailer.md`, đăng TikTok để dẫn người xem sang.
 
 | Hồi | Clip | Thời gian | Nội dung |
 |---|---|---|---|
 | 1 · Quyết định | 1–3 | 0:00–0:30 | Bàn kế ở Đại La, kế cắm cọc, đẽo cọc lim bịt sắt |
-| 2 · Cắm cọc | 4–5 | 0:30–0:50 | Cắm cọc đêm triều rút, sáng ra nước lên che hết cọc |
-| 3 · Nhử giặc | 6–9 | 0:50–1:30 | Mai phục, hạm đội Nam Hán vào, thuyền nhẹ khiêu chiến, giả thua kéo giặc qua bãi cọc |
-| 4 · Phản công | 10–13 | 1:30–2:10 | Chờ nước rút, hai bờ đánh ra, thuyền đâm cọc, móc thuyền không cho chiếc nào ra |
-| 5 · Kết | 14–15 | 2:10–2:30 | Tin Hoằng Tháo tử trận, Ngô Quyền xưng vương ở Cổ Loa |
+| 2 · Cắm cọc | 4–6 | 0:30–1:00 | Cắm cọc đêm triều rút, Ngô Quyền đi kiểm tra từng cọc, sáng ra nước lên che hết cọc |
+| 3 · Nhử giặc | 7–10 | 1:00–1:40 | Mai phục, hạm đội Nam Hán vào, thuyền nhẹ khiêu chiến, giả thua kéo giặc qua bãi cọc |
+| 4 · Phản công | 11–15 | 1:40–2:30 | Chờ nước rút, hai bờ đánh ra, giặc cuống cuồng quay đầu, thuyền đâm cọc, móc thuyền không cho chiếc nào ra |
+| 5 · Kết | 16–18 | 2:30–3:00 | Tin Hoằng Tháo tử trận, "cọc để lần sau" (nối sang trận 981), Ngô Quyền xưng vương ở Cổ Loa |
 
 **Anh Tư** dùng lại ảnh chân dung trong `../bach-dang/README.md`. **Ngô Quyền** dùng ảnh tham chiếu bên dưới (giống file trailer) để mặt giữ nguyên qua các clip.
 
@@ -164,19 +180,19 @@ NOTE_BATTLE = """**Video riêng, 2 phút 30 giây, 15 clip Muse** (mỗi clip 10
 TAGS = "#povlichsu #lichsuvietnam #bachdang #bachdang938 #ngoquyen #anhtu #xuhuong #fyp"
 
 BATTLE_POST = dict(
-    hook="Trận Bạch Đằng 938 / diễn biến từng bước",
+    hook="Trận Bạch Đằng 938 / trọn vẹn trong 3 phút",
     hooks_alt=["Thuyền giặc vào được / nhưng không ra được", "Vì sao Ngô Quyền / chờ nước rút mới đánh?"],
-    end="Follow để xem / Bạch Đằng lần thứ hai (981) →", end_secs=1.5,
-    tt_title="Trận Bạch Đằng 938 diễn biến từng bước: vì sao thuyền giặc vào được mà không ra được?",
-    caption=("Trận Bạch Đằng năm 938, diễn biến từng bước ⚔️ Ngô Quyền cắm cọc bịt sắt ngầm ở cửa biển, nhử thuyền "
+    end="Đăng ký để xem / Bạch Đằng lần thứ hai (981) →", end_secs=1.5, max_secs=179.5,
+    tt_title="Trận Bạch Đằng 938 trọn vẹn trong 3 phút: vì sao thuyền giặc vào được mà không ra được?",
+    caption=("Trận Bạch Đằng năm 938 trọn vẹn trong 3 phút ⚔️ Ngô Quyền cắm cọc bịt sắt ngầm ở cửa biển, nhử thuyền "
              "Nam Hán vào lúc triều lên, chờ nước rút mới đánh. Kết quả: chủ tướng Lưu Hoằng Tháo tử trận, năm sau "
              "Ngô Quyền xưng vương. Theo bạn, chi tiết nào trong trận này hay nhất? 👇"),
     pin=("Câu đố: trận Bạch Đằng 938 đánh lúc nước lên hay nước rút? Trả lời mà không xem lại video nhé 😏 "
          "Follow để xem Bạch Đằng lần thứ hai năm 981!"),
-    yt_title="Trận Bạch Đằng 938 diễn biến từng bước: vì sao thuyền giặc vào mà không ra được?",
+    yt_title="Trận Bạch Đằng 938 trọn vẹn 3 phút: vì sao thuyền giặc vào mà không ra được?",
     yt_tags=("trận bạch đằng, bạch đằng 938, ngô quyền, lưu hoằng tháo, nam hán, cắm cọc bạch đằng, "
              "lịch sử việt nam, pov lịch sử, anh tư, đại việt, chiến thắng bạch đằng, shorts"),
-    yt_note=("Video dọc 2 phút 30 giây vẫn được tính là Shorts (tối đa 3 phút). Ở mục \"Video liên quan\" chọn "
+    yt_note=("Video dọc tối đa 3 phút được tính là Shorts; file dựng đã cắt còn 2:59,5. Ở mục \"Video liên quan\" chọn "
              "trailer, và ngược lại ở trailer chọn video này."),
     desc_extra=("Video do AI tạo, dựa trên Đại Việt sử ký toàn thư; nhân vật Anh Tư và lời thoại là hư cấu, một số "
                 "chi tiết trận đánh là dựng lại. Đăng ký kênh để xem mỗi ngày một ngày sống ở Đại Việt."),
@@ -188,9 +204,12 @@ TRAILER_POST = dict(
     end="Trận đầy đủ / ở trang cá nhân →", end_secs=1.8,
     tt_title="Năm 938, hạm đội Nam Hán vượt biển sang. Thuyền vào được... nhưng không ra được",
     caption=("Năm 938. Hạm đội Nam Hán vượt biển sang. Thuyền chúng vào được... nhưng không ra được ⚔️ Trận đánh "
-             "đầy đủ, diễn biến từng bước, đăng ngày mai. Follow để không lỡ!"),
-    pin=("Bạn đoán Ngô Quyền dùng cách gì để thuyền giặc \"không ra được\"? 👇 "
-         "(Đăng video trận đánh xong thì sửa thành: \"Trận đầy đủ đã lên, xem ở trang cá nhân 👆\")"),
+             "đầy đủ 3 phút: xem bình luận ghim 👇"),
+    yt_caption=("Năm 938. Hạm đội Nam Hán vượt biển sang. Thuyền chúng vào được... nhưng không ra được ⚔️ "
+                "Trận đánh đầy đủ 3 phút: bấm video liên quan ngay dưới tiêu đề 👇"),
+    pin=("Trận đầy đủ 3 phút ở YouTube kênh \"POV - Một Ngày Ở Đại Việt\": bấm biểu tượng YouTube trên trang "
+         "cá nhân 👆 Còn bạn đoán Ngô Quyền dùng cách gì để thuyền giặc \"không ra được\"?"),
+    yt_pin="Bạn đoán Ngô Quyền dùng cách gì để thuyền giặc \"không ra được\"? Xem trận đầy đủ 3 phút ở video liên quan 👇",
     yt_title="Năm 938: thuyền giặc vào được… nhưng không ra được",
     yt_tags=("trận bạch đằng, bạch đằng 938, ngô quyền, trailer lịch sử, nam hán, lịch sử việt nam, đại việt, "
              "shorts"),
@@ -211,16 +230,17 @@ def posting(p):
             "Khi đăng: bật nhãn \"Nội dung do AI tạo\".", "",
             "## Đăng YouTube Shorts", "",
             "**Tiêu đề:**", "```", f"{p['yt_title']} #Shorts", "```", "",
-            "**Mô tả:**", "```", p["caption"], "", p["desc_extra"], "", f"#Shorts {yt_hash}", "```", "",
+            "**Mô tả:**", "```", p.get("yt_caption", p["caption"]), "", p["desc_extra"], "", f"#Shorts {yt_hash}", "```", "",
             "**Thẻ:**", "```", p["yt_tags"], "```", "",
-            "**Bình luận ghim:**", "```", p["pin"].replace("Follow", "Đăng ký"), "```", "",
+            "**Bình luận ghim:**", "```", p.get("yt_pin", p["pin"].replace("Follow", "Đăng ký")), "```", "",
             p["yt_note"], "",
             "Khi đăng: ở mục \"Nội dung bị thay đổi\" chọn **Có**.", ""]
 
 
 def plan_head(base, p):
     return [f"# Dựng: python3 ../tools/tiktok.py {base}.plan.txt {base}.mp4",
-            f"hook: {p['hook']}", f"end: {p['end']}", f"end_giay: {p['end_secs']}", ""]
+            f"hook: {p['hook']}", f"end: {p['end']}", f"end_giay: {p['end_secs']}"] + (
+        [f"toi_da_giay: {p['max_secs']}"] if p.get("max_secs") else []) + [""]
 
 
 def main():
@@ -244,7 +264,7 @@ def main():
     out = {"bach-dang-938-trailer.md": md, "bach-dang-938-trailer.plan.txt": plan}
 
     # ---------------- trận đánh
-    md = ["# Trận Bạch Đằng 938: diễn biến trận đánh (2 phút 30 giây)", "",
+    md = ["# Trận Bạch Đằng 938: trọn vẹn trận đánh (3 phút, bản YouTube)", "",
           "Copy từng khối dán thẳng vào phần mềm. Prompt đã ghép đủ, không cần thay gì.", "",
           NOTE_BATTLE, "", HISTORY, "", "## Ảnh tham chiếu Ngô Quyền (giống file trailer)", "",
           "```", NGO_REF, "```", ""]

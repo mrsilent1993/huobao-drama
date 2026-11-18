@@ -71,13 +71,13 @@ Năm 938, hạm đội Nam Hán vượt biển sang. Thuyền vào được... n
 
 **Mô tả và hashtag:**
 ```
-Năm 938. Hạm đội Nam Hán vượt biển sang. Thuyền chúng vào được... nhưng không ra được ⚔️ Trận đánh đầy đủ, diễn biến từng bước, đăng ngày mai. Follow để không lỡ!
+Năm 938. Hạm đội Nam Hán vượt biển sang. Thuyền chúng vào được... nhưng không ra được ⚔️ Trận đánh đầy đủ 3 phút: xem bình luận ghim 👇
 #povlichsu #lichsuvietnam #bachdang #bachdang938 #ngoquyen #anhtu #xuhuong #fyp
 ```
 
 **Bình luận ghim:**
 ```
-Bạn đoán Ngô Quyền dùng cách gì để thuyền giặc "không ra được"? 👇 (Đăng video trận đánh xong thì sửa thành: "Trận đầy đủ đã lên, xem ở trang cá nhân 👆")
+Trận đầy đủ 3 phút ở YouTube kênh "POV - Một Ngày Ở Đại Việt": bấm biểu tượng YouTube trên trang cá nhân 👆 Còn bạn đoán Ngô Quyền dùng cách gì để thuyền giặc "không ra được"?
 ```
 
 Khi đăng: bật nhãn "Nội dung do AI tạo".
@@ -91,7 +91,7 @@ Năm 938: thuyền giặc vào được… nhưng không ra được #Shorts
 
 **Mô tả:**
 ```
-Năm 938. Hạm đội Nam Hán vượt biển sang. Thuyền chúng vào được... nhưng không ra được ⚔️ Trận đánh đầy đủ, diễn biến từng bước, đăng ngày mai. Follow để không lỡ!
+Năm 938. Hạm đội Nam Hán vượt biển sang. Thuyền chúng vào được... nhưng không ra được ⚔️ Trận đánh đầy đủ 3 phút: bấm video liên quan ngay dưới tiêu đề 👇
 
 Video do AI tạo, dựa trên Đại Việt sử ký toàn thư. Đăng ký kênh để xem trận đánh đầy đủ.
 
@@ -105,7 +105,7 @@ trận bạch đằng, bạch đằng 938, ngô quyền, trailer lịch sử, na
 
 **Bình luận ghim:**
 ```
-Bạn đoán Ngô Quyền dùng cách gì để thuyền giặc "không ra được"? 👇 (Đăng video trận đánh xong thì sửa thành: "Trận đầy đủ đã lên, xem ở trang cá nhân 👆")
+Bạn đoán Ngô Quyền dùng cách gì để thuyền giặc "không ra được"? Xem trận đầy đủ 3 phút ở video liên quan 👇
 ```
 
 Ở mục "Video liên quan" chọn video trận đánh khi đã đăng.

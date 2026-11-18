@@ -1,16 +1,16 @@
-# Trận Bạch Đằng 938: diễn biến trận đánh (2 phút 30 giây)
+# Trận Bạch Đằng 938: trọn vẹn trận đánh (3 phút, bản YouTube)
 
 Copy từng khối dán thẳng vào phần mềm. Prompt đã ghép đủ, không cần thay gì.
 
-**Video riêng, 2 phút 30 giây, 15 clip Muse** (mỗi clip 10 giây), góc nhìn thứ nhất, có Anh Tư. Trailer 30 giây nằm ở file `bach-dang-938-trailer.md`.
+**Video riêng, 3 phút, 18 clip Muse** (mỗi clip 10 giây), góc nhìn thứ nhất, có Anh Tư. Bản này để đăng **YouTube** (dọc, tối đa 3 phút vẫn là Shorts; file dựng tự cắt còn 2:59,5 cho chắc). Trailer 30 giây ở file `bach-dang-938-trailer.md`, đăng TikTok để dẫn người xem sang.
 
 | Hồi | Clip | Thời gian | Nội dung |
 |---|---|---|---|
 | 1 · Quyết định | 1–3 | 0:00–0:30 | Bàn kế ở Đại La, kế cắm cọc, đẽo cọc lim bịt sắt |
-| 2 · Cắm cọc | 4–5 | 0:30–0:50 | Cắm cọc đêm triều rút, sáng ra nước lên che hết cọc |
-| 3 · Nhử giặc | 6–9 | 0:50–1:30 | Mai phục, hạm đội Nam Hán vào, thuyền nhẹ khiêu chiến, giả thua kéo giặc qua bãi cọc |
-| 4 · Phản công | 10–13 | 1:30–2:10 | Chờ nước rút, hai bờ đánh ra, thuyền đâm cọc, móc thuyền không cho chiếc nào ra |
-| 5 · Kết | 14–15 | 2:10–2:30 | Tin Hoằng Tháo tử trận, Ngô Quyền xưng vương ở Cổ Loa |
+| 2 · Cắm cọc | 4–6 | 0:30–1:00 | Cắm cọc đêm triều rút, Ngô Quyền đi kiểm tra từng cọc, sáng ra nước lên che hết cọc |
+| 3 · Nhử giặc | 7–10 | 1:00–1:40 | Mai phục, hạm đội Nam Hán vào, thuyền nhẹ khiêu chiến, giả thua kéo giặc qua bãi cọc |
+| 4 · Phản công | 11–15 | 1:40–2:30 | Chờ nước rút, hai bờ đánh ra, giặc cuống cuồng quay đầu, thuyền đâm cọc, móc thuyền không cho chiếc nào ra |
+| 5 · Kết | 16–18 | 2:30–3:00 | Tin Hoằng Tháo tử trận, "cọc để lần sau" (nối sang trận 981), Ngô Quyền xưng vương ở Cổ Loa |
 
 **Anh Tư** dùng lại ảnh chân dung trong `../bach-dang/README.md`. **Ngô Quyền** dùng ảnh tham chiếu bên dưới (giống file trailer) để mặt giữ nguyên qua các clip.
 
@@ -86,8 +86,21 @@ First-person view at night on a wide muddy riverbed at low tide, torches along t
 First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. Vietnam, winter of 938, the Bạch Đằng River estuary near the sea: a wide brown tidal river, mangrove banks, limestone hills, broad mudflats at low tide. Vietnamese soldiers with hair in topknots and black-lacquered teeth, in brown tunics or bare-chested, with spears, crossbows and bows, small light wooden boats. The Southern Han forces: tall multi-deck wooden warships with red banners, soldiers in Tang-style lamellar armor. No blood, no gore, no dead bodies shown. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, hair in a topknot, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face. 0-5s: The viewer and Anh Tư drive a huge stake into the mud with mallets, row after row of stakes stretching away by torchlight. 5-10s: An officer walks along the line: "Nhanh lên! Trước khi nước lên!" Anh Tư, covered in mud: "Bùn đến đùi rồi anh ơi!" Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync, no background music.
 ```
 
-## Clip 5: Nước lên, cọc biến mất
+## Clip 5: Ngô Quyền kiểm tra cọc
 File Muse đặt tên: `bd938-05.mp4`
+
+**Ảnh khung đầu**
+```
+First-person view at night by torchlight on the muddy riverbed among rows of iron-tipped stakes, Ngô Quyền, a stern, calm Vietnamese commander around 40 with a short black beard and topknot, in dark lacquered leather armor and a deep-red cloak, dignified gripping one stake and testing it, a Vietnamese man around 30 with deeply tanned skin, hair in a topknot, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face standing beside the viewer with a mallet, nervous, realistic, vertical 9:16.
+```
+
+**Video (Muse)**
+```
+First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. Vietnam, winter of 938, the Bạch Đằng River estuary near the sea: a wide brown tidal river, mangrove banks, limestone hills, broad mudflats at low tide. Vietnamese soldiers with hair in topknots and black-lacquered teeth, in brown tunics or bare-chested, with spears, crossbows and bows, small light wooden boats. The Southern Han forces: tall multi-deck wooden warships with red banners, soldiers in Tang-style lamellar armor. No blood, no gore, no dead bodies shown. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, hair in a topknot, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face. 0-5s: Ngô Quyền, a stern, calm Vietnamese commander around 40 with a short black beard and topknot, in dark lacquered leather armor and a deep-red cloak, dignified walks along the rows of stakes by torchlight, pushes one with both hands; it does not move. He stops at the next one: "Nghiêng thêm. Mũi cọc phải chĩa vào đường thuyền chạy ra." 5-10s: Anh Tư, who planted it, says quickly: "Dạ! Cọc này em cắm, thẳng như lưng em ạ." Ngô Quyền just looks at him; Anh Tư immediately starts hammering it to a slant. Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync, no background music.
+```
+
+## Clip 6: Nước lên, cọc biến mất
+File Muse đặt tên: `bd938-06.mp4`
 
 **Ảnh khung đầu**
 ```
@@ -99,8 +112,8 @@ First-person view at dawn from a small boat on a wide calm river, the tide high,
 First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. Vietnam, winter of 938, the Bạch Đằng River estuary near the sea: a wide brown tidal river, mangrove banks, limestone hills, broad mudflats at low tide. Vietnamese soldiers with hair in topknots and black-lacquered teeth, in brown tunics or bare-chested, with spears, crossbows and bows, small light wooden boats. The Southern Han forces: tall multi-deck wooden warships with red banners, soldiers in Tang-style lamellar armor. No blood, no gore, no dead bodies shown. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, hair in a topknot, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face. 0-5s: Dawn; the tide has come in and the river is smooth and calm, no stake visible anywhere. The officer in the boat: "Nhớ chỗ này. Lát nữa đừng có chèo vào đây." 5-10s: Anh Tư looks around at the identical water in every direction: "Em nhớ rồi! ...Mà chỗ nào cũng là nước anh ạ." Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync, no background music.
 ```
 
-## Clip 6: Mai phục
-File Muse đặt tên: `bd938-06.mp4`
+## Clip 7: Mai phục
+File Muse đặt tên: `bd938-07.mp4`
 
 **Ảnh khung đầu**
 ```
@@ -112,8 +125,8 @@ First-person view hidden among dense mangrove roots on the riverbank, rows of Vi
 First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. Vietnam, winter of 938, the Bạch Đằng River estuary near the sea: a wide brown tidal river, mangrove banks, limestone hills, broad mudflats at low tide. Vietnamese soldiers with hair in topknots and black-lacquered teeth, in brown tunics or bare-chested, with spears, crossbows and bows, small light wooden boats. The Southern Han forces: tall multi-deck wooden warships with red banners, soldiers in Tang-style lamellar armor. No blood, no gore, no dead bodies shown. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, hair in a topknot, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face. 0-6s: Silence in the mangroves; archers crouch, boats hidden in a side creek, only birds and water. A lookout in a tree suddenly hisses: "Buồm! Ngoài cửa biển!" 6-10s: Every head turns toward the sea; Anh Tư grips his spear and swallows hard. Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync, no background music.
 ```
 
-## Clip 7: Hạm đội Nam Hán
-File Muse đặt tên: `bd938-07.mp4`
+## Clip 8: Hạm đội Nam Hán
+File Muse đặt tên: `bd938-08.mp4`
 
 **Ảnh khung đầu**
 ```
@@ -125,8 +138,8 @@ First-person view from a small low boat at water level, a huge multi-deck Southe
 First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. Vietnam, winter of 938, the Bạch Đằng River estuary near the sea: a wide brown tidal river, mangrove banks, limestone hills, broad mudflats at low tide. Vietnamese soldiers with hair in topknots and black-lacquered teeth, in brown tunics or bare-chested, with spears, crossbows and bows, small light wooden boats. The Southern Han forces: tall multi-deck wooden warships with red banners, soldiers in Tang-style lamellar armor. No blood, no gore, no dead bodies shown. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, hair in a topknot, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face. 0-6s: From the low boat, the giant warships slide past, rows of oars, red banners, a young armored commander at the prow pointing forward. 6-10s: Anh Tư stares up and whispers: "Thuyền nó to bằng cả cái làng em..." Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync, no background music.
 ```
 
-## Clip 8: Ra khiêu chiến
-File Muse đặt tên: `bd938-08.mp4`
+## Clip 9: Ra khiêu chiến
+File Muse đặt tên: `bd938-09.mp4`
 
 **Ảnh khung đầu**
 ```
@@ -138,8 +151,8 @@ First-person view from a light boat rowing fast toward a line of huge warships, 
 First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. Vietnam, winter of 938, the Bạch Đằng River estuary near the sea: a wide brown tidal river, mangrove banks, limestone hills, broad mudflats at low tide. Vietnamese soldiers with hair in topknots and black-lacquered teeth, in brown tunics or bare-chested, with spears, crossbows and bows, small light wooden boats. The Southern Han forces: tall multi-deck wooden warships with red banners, soldiers in Tang-style lamellar armor. No blood, no gore, no dead bodies shown. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, hair in a topknot, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face. 0-5s: The light boats dart toward the huge fleet; soldiers shout taunts and loose a few arrows that thud into the wooden hulls. The officer: "Đánh vài miếng rồi chạy. Chạy cho thật!" 5-10s: The warships turn toward them, drums booming. Anh Tư grins: "Khoản chạy em giỏi nhất!" Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync, no background music.
 ```
 
-## Clip 9: Giả thua
-File Muse đặt tên: `bd938-09.mp4`
+## Clip 10: Giả thua
+File Muse đặt tên: `bd938-10.mp4`
 
 **Ảnh khung đầu**
 ```
@@ -151,8 +164,8 @@ First-person view from a fleeing light boat looking back over the stern, huge wa
 First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. Vietnam, winter of 938, the Bạch Đằng River estuary near the sea: a wide brown tidal river, mangrove banks, limestone hills, broad mudflats at low tide. Vietnamese soldiers with hair in topknots and black-lacquered teeth, in brown tunics or bare-chested, with spears, crossbows and bows, small light wooden boats. The Southern Han forces: tall multi-deck wooden warships with red banners, soldiers in Tang-style lamellar armor. No blood, no gore, no dead bodies shown. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, hair in a topknot, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face. 0-5s: The light boats flee upstream; behind them the huge warships give chase over the calm high water, arrows splashing short. 5-10s: Anh Tư looks back and whispers excitedly: "Nó qua bãi cọc rồi... qua hết rồi!" Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync, no background music.
 ```
 
-## Clip 10: Chờ nước rút
-File Muse đặt tên: `bd938-10.mp4`
+## Clip 11: Chờ nước rút
+File Muse đặt tên: `bd938-11.mp4`
 
 **Ảnh khung đầu**
 ```
@@ -164,8 +177,8 @@ First-person view on a hilltop above the estuary, Ngô Quyền, a stern, calm Vi
 First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. Vietnam, winter of 938, the Bạch Đằng River estuary near the sea: a wide brown tidal river, mangrove banks, limestone hills, broad mudflats at low tide. Vietnamese soldiers with hair in topknots and black-lacquered teeth, in brown tunics or bare-chested, with spears, crossbows and bows, small light wooden boats. The Southern Han forces: tall multi-deck wooden warships with red banners, soldiers in Tang-style lamellar armor. No blood, no gore, no dead bodies shown. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, hair in a topknot, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face. 0-6s: Close on the marker pole: the waterline slowly drops. Ngô Quyền, a stern, calm Vietnamese commander around 40 with a short black beard and topknot, in dark lacquered leather armor and a deep-red cloak, dignified watches without moving. 6-10s: He raises the signal flag high: "Nước rút rồi. Đánh!" The great war drums thunder from both banks. Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync, no background music.
 ```
 
-## Clip 11: Phản công
-File Muse đặt tên: `bd938-11.mp4`
+## Clip 12: Phản công
+File Muse đặt tên: `bd938-12.mp4`
 
 **Ảnh khung đầu**
 ```
@@ -177,8 +190,21 @@ First-person view from a light boat surging forward among hundreds of small boat
 First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. Vietnam, winter of 938, the Bạch Đằng River estuary near the sea: a wide brown tidal river, mangrove banks, limestone hills, broad mudflats at low tide. Vietnamese soldiers with hair in topknots and black-lacquered teeth, in brown tunics or bare-chested, with spears, crossbows and bows, small light wooden boats. The Southern Han forces: tall multi-deck wooden warships with red banners, soldiers in Tang-style lamellar armor. No blood, no gore, no dead bodies shown. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, hair in a topknot, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face. 0-5s: Hundreds of small boats burst out of the side creeks; volleys of arrows arc from both banks and thud into the warships' wooden sides and sails. 5-10s: The warships try to turn back toward the sea with the falling tide; Anh Tư rows and yells: "Giờ thì đến lượt mình đuổi!" Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync, no background music.
 ```
 
-## Clip 12: Thuyền đâm cọc
-File Muse đặt tên: `bd938-12.mp4`
+## Clip 13: Giặc quay đầu
+File Muse đặt tên: `bd938-13.mp4`
+
+**Ảnh khung đầu**
+```
+First-person view from a small boat, huge warships in confusion trying to turn around toward the sea, oars tangling, officers on deck shouting and waving, the water visibly lower along the hulls, a Vietnamese man around 30 with deeply tanned skin, hair in a topknot, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face rowing beside the viewer, laughing, realistic, vertical 9:16.
+```
+
+**Video (Muse)**
+```
+First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. Vietnam, winter of 938, the Bạch Đằng River estuary near the sea: a wide brown tidal river, mangrove banks, limestone hills, broad mudflats at low tide. Vietnamese soldiers with hair in topknots and black-lacquered teeth, in brown tunics or bare-chested, with spears, crossbows and bows, small light wooden boats. The Southern Han forces: tall multi-deck wooden warships with red banners, soldiers in Tang-style lamellar armor. No blood, no gore, no dead bodies shown. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, hair in a topknot, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face. 0-5s: The big warships try to swing their bows back toward the sea; oars clash and tangle, officers on the decks shout and wave in panic, the waterline drops fast along their hulls. 5-10s: Anh Tư rows hard and shouts at them, laughing: "Muộn rồi! Nước rút nhanh hơn các anh chèo!" Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync, no background music.
+```
+
+## Clip 14: Thuyền đâm cọc
+File Muse đặt tên: `bd938-14.mp4`
 
 **Ảnh khung đầu**
 ```
@@ -190,8 +216,8 @@ First-person view from a small boat as a huge warship fleeing toward the sea cra
 First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. Vietnam, winter of 938, the Bạch Đằng River estuary near the sea: a wide brown tidal river, mangrove banks, limestone hills, broad mudflats at low tide. Vietnamese soldiers with hair in topknots and black-lacquered teeth, in brown tunics or bare-chested, with spears, crossbows and bows, small light wooden boats. The Southern Han forces: tall multi-deck wooden warships with red banners, soldiers in Tang-style lamellar armor. No blood, no gore, no dead bodies shown. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, hair in a topknot, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face. 0-5s: A fleeing warship hits the hidden stakes with a deep crunch of timber; it lurches, stuck fast; another ship behind slams into it. 5-10s: Anh Tư stands up in the boat, pointing and laughing: "Cọc nhà em! Cọc nhà em trúng rồi!" Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync, no background music.
 ```
 
-## Clip 13: Không cho chiếc nào ra
-File Muse đặt tên: `bd938-13.mp4`
+## Clip 15: Không cho chiếc nào ra
+File Muse đặt tên: `bd938-15.mp4`
 
 **Ảnh khung đầu**
 ```
@@ -203,8 +229,8 @@ First-person view among stuck and tilting warships in a forest of stakes, Vietna
 First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. Vietnam, winter of 938, the Bạch Đằng River estuary near the sea: a wide brown tidal river, mangrove banks, limestone hills, broad mudflats at low tide. Vietnamese soldiers with hair in topknots and black-lacquered teeth, in brown tunics or bare-chested, with spears, crossbows and bows, small light wooden boats. The Southern Han forces: tall multi-deck wooden warships with red banners, soldiers in Tang-style lamellar armor. No blood, no gore, no dead bodies shown. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, hair in a topknot, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face. 0-5s: Warships tilt and jam against each other among the stakes; one slowly capsizes onto its side. Enemy soldiers drop their weapons and wade through the shallow water toward the banks. 5-10s: The officer shouts: "Móc lấy thuyền! Không để chiếc nào ra!" Anh Tư hooks a ship's rail with a long pole and pulls hard. Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync, no background music.
 ```
 
-## Clip 14: Tin báo
-File Muse đặt tên: `bd938-14.mp4`
+## Clip 16: Tin báo
+File Muse đặt tên: `bd938-16.mp4`
 
 **Ảnh khung đầu**
 ```
@@ -216,8 +242,21 @@ First-person view at sunset over the estuary full of stuck, tilted warships amon
 First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. Vietnam, winter of 938, the Bạch Đằng River estuary near the sea: a wide brown tidal river, mangrove banks, limestone hills, broad mudflats at low tide. Vietnamese soldiers with hair in topknots and black-lacquered teeth, in brown tunics or bare-chested, with spears, crossbows and bows, small light wooden boats. The Southern Han forces: tall multi-deck wooden warships with red banners, soldiers in Tang-style lamellar armor. No blood, no gore, no dead bodies shown. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, hair in a topknot, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face. 0-5s: Sunset; the estuary is full of stuck, tilted warships; disarmed enemy soldiers sit quietly on the bank under guard. 5-10s: A messenger runs past shouting: "Chủ tướng giặc Hoằng Tháo đã tử trận!" The viewer and Anh Tư look at each other in silence. Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync, no background music.
 ```
 
-## Clip 15: Ghi tên em vào sử
-File Muse đặt tên: `bd938-15.mp4`
+## Clip 17: Cọc để lần sau
+File Muse đặt tên: `bd938-17.mp4`
+
+**Ảnh khung đầu**
+```
+First-person view at low tide on the muddy riverbed among the stakes, wrecked warships being towed away by small boats in the background, a Vietnamese man around 30 with deeply tanned skin, hair in a topknot, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face hugging one stake with both arms and pulling hard to get it out of the mud, realistic, vertical 9:16.
+```
+
+**Video (Muse)**
+```
+First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. Vietnam, winter of 938, the Bạch Đằng River estuary near the sea: a wide brown tidal river, mangrove banks, limestone hills, broad mudflats at low tide. Vietnamese soldiers with hair in topknots and black-lacquered teeth, in brown tunics or bare-chested, with spears, crossbows and bows, small light wooden boats. The Southern Han forces: tall multi-deck wooden warships with red banners, soldiers in Tang-style lamellar armor. No blood, no gore, no dead bodies shown. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, hair in a topknot, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face. 0-5s: Low tide; small boats tow captured warships away. Anh Tư hugs a stake and pulls with all his strength; it does not budge: "Cọc của em... em xin mang về làm kỷ niệm." 5-10s: The officer passes by: "Để đấy. Lần sau còn dùng." Anh Tư lets go and stares at the river: "...Lần sau á?" Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync, no background music.
+```
+
+## Clip 18: Ghi tên em vào sử
+File Muse đặt tên: `bd938-18.mp4`
 
 **Ảnh khung đầu**
 ```
@@ -233,7 +272,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 **Hook** (chữ to ở giây đầu, đã có trong video; dùng làm chữ trên ảnh bìa):
 ```
-Trận Bạch Đằng 938 diễn biến từng bước
+Trận Bạch Đằng 938 trọn vẹn trong 3 phút
 ```
 
 Hook dự phòng:
@@ -244,12 +283,12 @@ Vì sao Ngô Quyền chờ nước rút mới đánh?
 
 **Tiêu đề:**
 ```
-Trận Bạch Đằng 938 diễn biến từng bước: vì sao thuyền giặc vào được mà không ra được?
+Trận Bạch Đằng 938 trọn vẹn trong 3 phút: vì sao thuyền giặc vào được mà không ra được?
 ```
 
 **Mô tả và hashtag:**
 ```
-Trận Bạch Đằng năm 938, diễn biến từng bước ⚔️ Ngô Quyền cắm cọc bịt sắt ngầm ở cửa biển, nhử thuyền Nam Hán vào lúc triều lên, chờ nước rút mới đánh. Kết quả: chủ tướng Lưu Hoằng Tháo tử trận, năm sau Ngô Quyền xưng vương. Theo bạn, chi tiết nào trong trận này hay nhất? 👇
+Trận Bạch Đằng năm 938 trọn vẹn trong 3 phút ⚔️ Ngô Quyền cắm cọc bịt sắt ngầm ở cửa biển, nhử thuyền Nam Hán vào lúc triều lên, chờ nước rút mới đánh. Kết quả: chủ tướng Lưu Hoằng Tháo tử trận, năm sau Ngô Quyền xưng vương. Theo bạn, chi tiết nào trong trận này hay nhất? 👇
 #povlichsu #lichsuvietnam #bachdang #bachdang938 #ngoquyen #anhtu #xuhuong #fyp
 ```
 
@@ -264,12 +303,12 @@ Khi đăng: bật nhãn "Nội dung do AI tạo".
 
 **Tiêu đề:**
 ```
-Trận Bạch Đằng 938 diễn biến từng bước: vì sao thuyền giặc vào mà không ra được? #Shorts
+Trận Bạch Đằng 938 trọn vẹn 3 phút: vì sao thuyền giặc vào mà không ra được? #Shorts
 ```
 
 **Mô tả:**
 ```
-Trận Bạch Đằng năm 938, diễn biến từng bước ⚔️ Ngô Quyền cắm cọc bịt sắt ngầm ở cửa biển, nhử thuyền Nam Hán vào lúc triều lên, chờ nước rút mới đánh. Kết quả: chủ tướng Lưu Hoằng Tháo tử trận, năm sau Ngô Quyền xưng vương. Theo bạn, chi tiết nào trong trận này hay nhất? 👇
+Trận Bạch Đằng năm 938 trọn vẹn trong 3 phút ⚔️ Ngô Quyền cắm cọc bịt sắt ngầm ở cửa biển, nhử thuyền Nam Hán vào lúc triều lên, chờ nước rút mới đánh. Kết quả: chủ tướng Lưu Hoằng Tháo tử trận, năm sau Ngô Quyền xưng vương. Theo bạn, chi tiết nào trong trận này hay nhất? 👇
 
 Video do AI tạo, dựa trên Đại Việt sử ký toàn thư; nhân vật Anh Tư và lời thoại là hư cấu, một số chi tiết trận đánh là dựng lại. Đăng ký kênh để xem mỗi ngày một ngày sống ở Đại Việt.
 
@@ -286,7 +325,7 @@ trận bạch đằng, bạch đằng 938, ngô quyền, lưu hoằng tháo, nam
 Câu đố: trận Bạch Đằng 938 đánh lúc nước lên hay nước rút? Trả lời mà không xem lại video nhé 😏 Đăng ký để xem Bạch Đằng lần thứ hai năm 981!
 ```
 
-Video dọc 2 phút 30 giây vẫn được tính là Shorts (tối đa 3 phút). Ở mục "Video liên quan" chọn trailer, và ngược lại ở trailer chọn video này.
+Video dọc tối đa 3 phút được tính là Shorts; file dựng đã cắt còn 2:59,5. Ở mục "Video liên quan" chọn trailer, và ngược lại ở trailer chọn video này.
 
 Khi đăng: ở mục "Nội dung bị thay đổi" chọn **Có**.
 
@@ -294,25 +333,29 @@ Khi đăng: ở mục "Nội dung bị thay đổi" chọn **Có**.
 
 ```
 # Dựng: python3 ../tools/tiktok.py bach-dang-938-tran-danh.plan.txt bach-dang-938-tran-danh.mp4
-hook: Trận Bạch Đằng 938 / diễn biến từng bước
-end: Follow để xem / Bạch Đằng lần thứ hai (981) →
+hook: Trận Bạch Đằng 938 / trọn vẹn trong 3 phút
+end: Đăng ký để xem / Bạch Đằng lần thứ hai (981) →
 end_giay: 1.5
+toi_da_giay: 179.5
 
 clip: bd938-01.mp4 | Đại La · cuối năm 938
 clip: bd938-02.mp4 | 
 clip: bd938-03.mp4 | 
 clip: bd938-04.mp4 | Cửa sông Bạch Đằng · đêm, triều rút
 clip: bd938-05.mp4 | 
-clip: bd938-06.mp4 | Sáng hôm sau · triều lên
-clip: bd938-07.mp4 | 
+clip: bd938-06.mp4 | 
+clip: bd938-07.mp4 | Sáng hôm sau · triều lên
 clip: bd938-08.mp4 | 
 clip: bd938-09.mp4 | 
-clip: bd938-10.mp4 | Quá trưa · triều bắt đầu rút
-clip: bd938-11.mp4 | 
+clip: bd938-10.mp4 | 
+clip: bd938-11.mp4 | Quá trưa · triều bắt đầu rút
 clip: bd938-12.mp4 | 
 clip: bd938-13.mp4 | 
-clip: bd938-14.mp4 | Chiều tối
-clip: bd938-15.mp4 | Cổ Loa · mùa xuân năm 939
+clip: bd938-14.mp4 | 
+clip: bd938-15.mp4 | 
+clip: bd938-16.mp4 | Chiều tối
+clip: bd938-17.mp4 | Sáng hôm sau · triều rút
+clip: bd938-18.mp4 | Cổ Loa · mùa xuân năm 939
 
 sub: 1 | 0.5-4.8 | Hoằng Tháo từ xa đến, quân mỏi mệt, / lại mất nội ứng.
 sub: 1 | 5.0-9.6 | Nhưng chúng mạnh về thuyền. / Ta phải đánh vào thuyền.
@@ -322,27 +365,34 @@ sub: 2 | 6.3-9.6 | Ở lại... luôn ạ?
 sub: 3 | 5.0-9.6 | Mài nhọn rồi còn bịt sắt... / cọc còn sang hơn cả em.
 sub: 4 | 5.0-7.4 | Nhanh lên! Trước khi nước lên!
 sub: 4 | 7.4-9.6 | Bùn đến đùi rồi anh ơi!
-sub: 5 | 0.5-4.8 | Nhớ chỗ này. / Lát nữa đừng có chèo vào đây.
-sub: 5 | 5.0-9.6 | Em nhớ rồi! ...Mà chỗ nào / cũng là nước anh ạ.
-sub: 6 | 0.5-4.0 | Bờ bên kia cũng mai phục. / Không ai được thở mạnh.
-sub: 6 | 4.0-6.5 | Buồm! Ngoài cửa biển!
-sub: 7 | 0.5-5.5 | Chủ tướng Nam Hán: Lưu Hoằng Tháo, / con trai vua Nam Hán.
-sub: 7 | 6.0-9.6 | Thuyền nó to / bằng cả cái làng em...
-sub: 8 | 0.5-4.8 | Đánh vài miếng rồi chạy. / Chạy cho thật!
-sub: 8 | 5.0-9.6 | Khoản chạy em giỏi nhất!
-sub: 9 | 0.5-4.8 | Nước đang lên, cọc ngập sâu. / Thuyền giặc cứ thế đi qua.
-sub: 9 | 5.0-9.6 | Nó qua bãi cọc rồi... / qua hết rồi!
-sub: 10 | 0.5-5.5 | Nước rút dần. / Cả đội chờ một lá cờ.
-sub: 10 | 6.0-9.6 | Nước rút rồi. Đánh!
-sub: 11 | 0.5-4.8 | Hai bên bờ cùng đánh ra. / Giặc quay đầu về biển.
-sub: 11 | 5.0-9.6 | Giờ thì đến lượt mình đuổi!
-sub: 12 | 0.5-4.8 | Nước rút gấp. / Thuyền giặc mắc cọc, không lùi được.
-sub: 12 | 5.0-9.6 | Cọc nhà em! / Cọc nhà em trúng rồi!
-sub: 13 | 0.5-4.8 | Thuyền lật, thuyền mắc, / quân giặc bỏ thuyền lội vào bờ.
-sub: 13 | 5.0-9.6 | Móc lấy thuyền! / Không để chiếc nào ra!
-sub: 14 | 0.5-4.8 | Quân giặc chết đuối quá nửa / (Đại Việt sử ký toàn thư).
-sub: 14 | 5.0-9.6 | Chủ tướng giặc Hoằng Tháo / đã tử trận!
-sub: 15 | 0.3-4.6 | Năm 939, Ngô Quyền xưng vương, / đóng đô ở Cổ Loa.
-sub: 15 | 4.8-8.4 | Cọc thứ ba hàng thứ bảy là em cắm! / Ghi tên em vào sử nhé!
+sub: 5 | 0.5-4.8 | Nghiêng thêm. Mũi cọc phải chĩa / vào đường thuyền chạy ra.
+sub: 5 | 5.0-9.6 | Dạ! Cọc này em cắm, / thẳng như lưng em ạ.
+sub: 6 | 0.5-4.8 | Nhớ chỗ này. / Lát nữa đừng có chèo vào đây.
+sub: 6 | 5.0-9.6 | Em nhớ rồi! ...Mà chỗ nào / cũng là nước anh ạ.
+sub: 7 | 0.5-4.0 | Bờ bên kia cũng mai phục. / Không ai được thở mạnh.
+sub: 7 | 4.0-6.5 | Buồm! Ngoài cửa biển!
+sub: 8 | 0.5-5.5 | Chủ tướng Nam Hán: Lưu Hoằng Tháo, / con trai vua Nam Hán.
+sub: 8 | 6.0-9.6 | Thuyền nó to / bằng cả cái làng em...
+sub: 9 | 0.5-4.8 | Đánh vài miếng rồi chạy. / Chạy cho thật!
+sub: 9 | 5.0-9.6 | Khoản chạy em giỏi nhất!
+sub: 10 | 0.5-4.8 | Nước đang lên, cọc ngập sâu. / Thuyền giặc cứ thế đi qua.
+sub: 10 | 5.0-9.6 | Nó qua bãi cọc rồi... / qua hết rồi!
+sub: 11 | 0.5-5.5 | Nước rút dần. / Cả đội chờ một lá cờ.
+sub: 11 | 6.0-9.6 | Nước rút rồi. Đánh!
+sub: 12 | 0.5-4.8 | Hai bên bờ cùng đánh ra. / Giặc quay đầu về biển.
+sub: 12 | 5.0-9.6 | Giờ thì đến lượt mình đuổi!
+sub: 13 | 0.5-4.8 | Thuyền giặc cuống cuồng / quay mũi ra biển.
+sub: 13 | 5.0-9.6 | Muộn rồi! Nước rút / nhanh hơn các anh chèo!
+sub: 14 | 0.5-4.8 | Nước rút gấp. / Thuyền giặc mắc cọc, không lùi được.
+sub: 14 | 5.0-9.6 | Cọc nhà em! / Cọc nhà em trúng rồi!
+sub: 15 | 0.5-4.8 | Thuyền lật, thuyền mắc, / quân giặc bỏ thuyền lội vào bờ.
+sub: 15 | 5.0-9.6 | Móc lấy thuyền! / Không để chiếc nào ra!
+sub: 16 | 0.5-4.8 | Quân giặc chết đuối quá nửa / (Đại Việt sử ký toàn thư).
+sub: 16 | 5.0-9.6 | Chủ tướng giặc Hoằng Tháo / đã tử trận!
+sub: 17 | 0.5-4.8 | Cọc của em... / em xin mang về làm kỷ niệm.
+sub: 17 | 5.0-7.6 | Để đấy. Lần sau còn dùng.
+sub: 17 | 7.6-9.6 | ...Lần sau á?
+sub: 18 | 0.3-4.6 | Năm 939, Ngô Quyền xưng vương, / đóng đô ở Cổ Loa.
+sub: 18 | 4.8-7.9 | Cọc thứ ba hàng thứ bảy là em cắm! / Ghi tên em vào sử nhé!
 ```
 
