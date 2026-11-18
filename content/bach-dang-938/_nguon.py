@@ -10,7 +10,7 @@ import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.join(HERE, "..", "tools"))
-from series import POV, AUDIO  # noqa: E402
+from series import POV, AUDIO, CONT, NOI_NOTE  # noqa: E402
 
 FACE = ("a Vietnamese man around 30 with deeply tanned skin, hair in a topknot, a scar across his left eyebrow and a "
         "wide grin with a chipped front tooth, very expressive face")
@@ -65,7 +65,7 @@ BATTLE = [
          vid="0-5s: The viewer and Anh Tư drive a huge stake into the mud with mallets, row after row of stakes stretching away by torchlight. 5-10s: An officer walks along the line: \"Nhanh lên! Trước khi nước lên!\" Anh Tư, covered in mud: \"Bùn đến đùi rồi anh ơi!\"",
          subs=[(5.0, 7.4, "Nhanh lên! Trước khi nước lên!"),
                (7.4, 9.6, "Bùn đến đùi rồi anh ơi!")]),
-    dict(name="Ngô Quyền kiểm tra cọc", label="",
+    dict(name="Ngô Quyền kiểm tra cọc", noi=True, label="",
          img=f"First-person view at night by torchlight on the muddy riverbed among rows of iron-tipped stakes, {NGO} gripping one stake and testing it, {FACE} standing beside the viewer with a mallet, nervous, realistic, vertical 9:16.",
          vid=f"0-5s: {NGO} walks along the rows of stakes by torchlight, pushes one with both hands; it does not move. He stops at the next one: \"Nghiêng thêm. Mũi cọc phải chĩa vào đường thuyền chạy ra.\" 5-10s: Anh Tư, who planted it, says quickly: \"Dạ! Cọc này em cắm, thẳng như lưng em ạ.\" Ngô Quyền just looks at him; Anh Tư immediately starts hammering it to a slant.",
          subs=[(0.5, 4.8, "Nghiêng thêm. Mũi cọc phải chĩa / vào đường thuyền chạy ra."),
@@ -86,12 +86,12 @@ BATTLE = [
          vid="0-6s: From the low boat, the giant warships slide past, rows of oars, red banners, a young armored commander at the prow pointing forward. 6-10s: Anh Tư stares up and whispers: \"Thuyền nó to bằng cả cái làng em...\"",
          subs=[(0.5, 5.5, "Chủ tướng Nam Hán: Lưu Hoằng Tháo, / con trai vua Nam Hán."),
                (6.0, 9.6, "Thuyền nó to / bằng cả cái làng em...")]),
-    dict(name="Ra khiêu chiến", label="",
+    dict(name="Ra khiêu chiến", noi=True, label="",
          img=f"First-person view from a light boat rowing fast toward a line of huge warships, Vietnamese soldiers in the boat shouting and shooting a few arrows, {FACE} rowing hard beside the viewer, realistic, vertical 9:16.",
          vid="0-5s: The light boats dart toward the huge fleet; soldiers shout taunts and loose a few arrows that thud into the wooden hulls. The officer: \"Đánh vài miếng rồi chạy. Chạy cho thật!\" 5-10s: The warships turn toward them, drums booming. Anh Tư grins: \"Khoản chạy em giỏi nhất!\"",
          subs=[(0.5, 4.8, "Đánh vài miếng rồi chạy. / Chạy cho thật!"),
                (5.0, 9.6, "Khoản chạy em giỏi nhất!")]),
-    dict(name="Giả thua", label="",
+    dict(name="Giả thua", noi=True, label="",
          img=f"First-person view from a fleeing light boat looking back over the stern, huge warships chasing upstream on the high tide over calm water, arrows falling short into the water, {FACE} looking back excitedly, realistic, vertical 9:16.",
          vid="0-5s: The light boats flee upstream; behind them the huge warships give chase over the calm high water, arrows splashing short. 5-10s: Anh Tư looks back and whispers excitedly: \"Nó qua bãi cọc rồi... qua hết rồi!\"",
          subs=[(0.5, 4.8, "Nước đang lên, cọc ngập sâu. / Thuyền giặc cứ thế đi qua."),
@@ -107,17 +107,17 @@ BATTLE = [
          vid="0-5s: Hundreds of small boats burst out of the side creeks; volleys of arrows arc from both banks and thud into the warships' wooden sides and sails. 5-10s: The warships try to turn back toward the sea with the falling tide; Anh Tư rows and yells: \"Giờ thì đến lượt mình đuổi!\"",
          subs=[(0.5, 4.8, "Hai bên bờ cùng đánh ra. / Giặc quay đầu về biển."),
                (5.0, 9.6, "Giờ thì đến lượt mình đuổi!")]),
-    dict(name="Giặc quay đầu", chuyen="fade:0.25", label="",
+    dict(name="Giặc quay đầu", noi=True, chuyen="fade:0.25", label="",
          img=f"First-person view from a small boat, huge warships in confusion trying to turn around toward the sea, oars tangling, officers on deck shouting and waving, the water visibly lower along the hulls, {FACE} rowing beside the viewer, laughing, realistic, vertical 9:16.",
          vid="0-5s: The big warships try to swing their bows back toward the sea; oars clash and tangle, officers on the decks shout and wave in panic, the waterline drops fast along their hulls. 5-10s: Anh Tư rows hard and shouts at them, laughing: \"Muộn rồi! Nước rút nhanh hơn các anh chèo!\"",
          subs=[(0.5, 4.8, "Thuyền giặc cuống cuồng / quay mũi ra biển."),
                (5.0, 9.6, "Muộn rồi! Nước rút / nhanh hơn các anh chèo!")]),
-    dict(name="Thuyền đâm cọc", chuyen="fade:0.25", label="",
+    dict(name="Thuyền đâm cọc", noi=True, chuyen="fade:0.25", label="",
          img=f"First-person view from a small boat as a huge warship fleeing toward the sea crashes onto iron-tipped stakes just under the falling water, timber splintering, the ship lurching and stuck, {FACE} pointing at it with a huge chipped-tooth grin, realistic, vertical 9:16.",
          vid="0-5s: A fleeing warship hits the hidden stakes with a deep crunch of timber; it lurches, stuck fast; another ship behind slams into it. 5-10s: Anh Tư stands up in the boat, pointing and laughing: \"Cọc nhà em! Cọc nhà em trúng rồi!\"",
          subs=[(0.5, 4.8, "Nước rút gấp. / Thuyền giặc mắc cọc, không lùi được."),
                (5.0, 9.6, "Cọc nhà em! / Cọc nhà em trúng rồi!")]),
-    dict(name="Không cho chiếc nào ra", chuyen="fade:0.25", label="",
+    dict(name="Không cho chiếc nào ra", noi=True, chuyen="fade:0.25", label="",
          img=f"First-person view among stuck and tilting warships in a forest of stakes, Vietnamese soldiers in small boats hooking the ships' sides with long hooked poles and climbing aboard, enemy soldiers abandoning ships and wading through shallow water, {FACE} throwing a hooked pole, realistic, vertical 9:16.",
          vid="0-5s: Warships tilt and jam against each other among the stakes; one slowly capsizes onto its side. Enemy soldiers drop their weapons and wade through the shallow water toward the banks. 5-10s: The officer shouts: \"Móc lấy thuyền! Không để chiếc nào ra!\" Anh Tư hooks a ship's rail with a long pole and pulls hard.",
          subs=[(0.5, 4.8, "Thuyền lật, thuyền mắc, / quân giặc bỏ thuyền lội vào bờ."),
@@ -271,9 +271,11 @@ def main():
     plan, subs = plan_head("bach-dang-938-tran-danh", BATTLE_POST), []
     for j, c in enumerate(BATTLE, 1):
         f = f"bd938-{j:02d}.mp4"
-        md += [f"## Clip {j}: {c['name']}", f"File Muse đặt tên: `{f}`", "",
+        md += [f"## Clip {j}: {c['name']}", f"File Muse đặt tên: `{f}`", ""] + (
+            [NOI_NOTE, ""] if c.get("noi") else []) + [
                "**Ảnh khung đầu**", "```", c["img"], "```", "",
-               "**Video (Muse)**", "```", f"{POV} {SETTING} Anh Tư is {FACE}. {c['vid']} {AUDIO}", "```", ""]
+               "**Video (Muse)**", "```", f"{POV} {SETTING} Anh Tư is {FACE}. "
+               + (f"{CONT} " if c.get("noi") else "") + f"{c['vid']} {AUDIO}", "```", ""]
         plan.append(f"clip: {f} | {c['label']}" + (f" | chuyen={c['chuyen']}" if c.get("chuyen") else ""))
         subs += [f"sub: {j} | {a}-{b} | {t}" for a, b, t in c["subs"]]
     plan += [""] + subs

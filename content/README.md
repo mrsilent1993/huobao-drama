@@ -81,6 +81,16 @@ Công cụ dựng `tools/tiktok.py` mặc định **hòa hình và hòa tiếng 
 
 Mỗi chỗ chuyển cảnh làm video ngắn đi đúng bằng thời lượng chuyển: 5 clip ngắn khoảng 1,6 giây, 18 clip khoảng 8 giây.
 
+### Nối cảnh liền mạch giữa các clip Muse
+
+Chuyển cảnh lúc dựng chỉ che được chỗ nối. Hai clip cùng một cảnh mà người, ánh sáng hoặc góc máy đổi đột ngột thì phải sửa từ lúc tạo clip:
+
+1. Tạo clip trước trên Muse.
+2. Cắt khung cuối: `python3 tools/khung-cuoi.py <file clip>` (ra `khung-cuoi/<tên>-cuoi.png`, đúng độ phân giải gốc). Hoặc gửi clip cho mình cắt.
+3. Dùng ảnh đó làm **ảnh khung đầu** của clip sau. Prompt video của clip sau đã có sẵn câu "continue seamlessly from the previous shot".
+
+Clip cần làm vậy có ghi chú **"Nối cảnh với clip trước"** trong file .md (khai báo bằng `noi=True` trong `_nguon.py`). Ghép xong muốn kiểm tra chỗ nào còn nhảy: `python3 tools/khung-cuoi.py <thư mục clip> --so-sanh`.
+
 ## Thông tin đăng (có sẵn trong file .md của mỗi tập)
 
 Mỗi tập có hai mục "Đăng TikTok" và "Đăng YouTube Shorts" để copy dán thẳng lúc đăng:

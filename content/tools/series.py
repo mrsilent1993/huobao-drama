@@ -12,6 +12,9 @@ POV = ("First-person POV video, handheld camera at eye level as if seen through 
        "any child appears only from behind or at a distance.")
 AUDIO = "Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync, no background music."
 TAGS = "#povlichsu #POV #lichsuvietnam #xuhuong #fyp"
+# Clip có noi=True: nối liền cảnh với clip trước (ảnh khung đầu = khung cuối clip trước, cắt bằng tools/khung-cuoi.py)
+NOI_NOTE = '**Nối cảnh với clip trước:** tạo clip trước xong, chạy `python3 ../tools/khung-cuoi.py <file clip trước>` (hoặc gửi clip cho mình cắt), rồi dùng ảnh `...-cuoi.png` làm **ảnh khung đầu** cho clip này. Prompt ảnh bên dưới chỉ để dự phòng.'
+CONT = 'Continue seamlessly from the previous shot: the first frame is exactly the last frame of the previous clip, same people, clothes, light and camera position.'
 # Mặc định khi tập không tự khai báo. Từng tập có thể ghi đè bằng các khóa:
 # tt_title, hooks_alt (list), pin, yt_title, yt_tags, yt_pin, yt_desc_extra.
 # Mỗi clip có thể thêm chuyen="fadeblack:0.8" (chuyển cảnh vào clip đó; mặc định fade 0.4 của tools/tiktok.py).
@@ -49,7 +52,7 @@ def build(episodes, here, series_tag="", note="", unit="Phần", file_unit="phan
         subs = []
         for i, c in enumerate(ep["clips"], 1):
             fname = f"{ep['prefix']}-{i}.mp4"
-            video = f"{POV} {ep['setting']} {c['vid']} {AUDIO}"
+            video = f"{POV} {ep['setting']} " + (f"{CONT} " if c.get("noi") else "") + f"{c['vid']} {AUDIO}"
             cut = c.get("tiktok")
             cut_note = ("" if cut is None else
                         "**Bản TikTok:** bỏ clip này." if cut == "bo" else
@@ -57,6 +60,8 @@ def build(episodes, here, series_tag="", note="", unit="Phần", file_unit="phan
             md += [f"## Clip {i}: {c['name']}", f"File Muse đặt tên: `{fname}`", ""]
             if cut_note:
                 md += [cut_note, ""]
+            if c.get("noi"):
+                md += [NOI_NOTE, ""]
             md += [
                    "**Ảnh khung đầu**", "```", c["img"], "```", "",
                    "**Video (Muse)**", "```", video, "```", ""]
