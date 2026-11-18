@@ -300,6 +300,64 @@ EPISODES = [
                  "Ngô đại cáo còn chép lại. Bạn có biết câu nào trong Bình Ngô đại cáo không? Viết dưới bình luận 👇"),
         tags="#hoithedongquan #binhngodaicao #leloi #nguyentrai #1427",
     ),
+    # ------------------------------------------------------------------ khoảng 1797, Tây Sơn thuê cướp biển
+    dict(
+        slug="dong-doi-moi-tay-son-1797", prefix="nbt7",
+        title="Được giao tiếp đón đồng đội mới, ai cũng xăm kín tay và không ai nói nghề cũ (thủy quân Tây Sơn, khoảng 1797)",
+        length="YouTube 50 giây (5 clip) · TikTok 30 giây (clip 1, 3, 5)",
+        history=("**Lịch sử:** từ những năm 1780, và nhiều nhất dưới thời vua **Cảnh Thịnh** (con Quang Trung, trị vì "
+                 "1792–1802), nhà Tây Sơn thu nạp các nhóm cướp biển người Hoa ở Quảng Đông (sử Việt gọi là giặc Tàu Ô) "
+                 "vào thủy quân, cấp thuyền, căn cứ và chức tước để đánh nhau với Nguyễn Ánh trên biển. Thủ lĩnh **Mạc "
+                 "Quan Phù** được phong \"Đông Hải vương\", **Trịnh Thất** làm đô đốc. Sau khi Tây Sơn mất (1802), số "
+                 "còn lại về Quảng Đông. Năm 1805 **Trịnh Nhất** lập liên minh sáu hạm đội theo màu cờ (Đỏ, Đen, Trắng, "
+                 "Lục, Lam, Vàng). Sau khi ông mất năm 1807, vợ ông là **Trịnh Nhất Tẩu** chỉ huy, có lúc vài vạn người, "
+                 "đến năm 1810 thì đầu hàng nhà Thanh. Nguồn: Dian Murray, *Pirates of the South China Coast, 1790–1810* "
+                 "(1987), dựa trên hồ sơ triều Thanh, cùng sử nhà Nguyễn. Năm phong tước các nguồn ghi khác nhau, nên tập "
+                 "phim chỉ ghi \"khoảng\". **Hư cấu:** Anh Tư, viên quan, người thủy thủ Quảng Đông và mọi lời thoại."),
+        setting=("Vietnam, Tây Sơn dynasty, around 1797, a Tây Sơn naval harbor on the northern coast: big wooden "
+                 "warships with eyes painted on the bow, ropes, oars, sea wind. Tây Sơn sailors with black-lacquered "
+                 "teeth in brown and dark-indigo clothes with red headbands, barefoot; an officer in a dark-red "
+                 "uniform. Newly arrived Cantonese seafarers of the 1790s with Qing-style shaved foreheads and long "
+                 "braids, loose dark clothes, arms covered in tattoos, friendly and relaxed, speaking Cantonese. "
+                 f"Anh Tư is {FACE}, in a brown shirt with a red headband. No fighting, no weapons being used."),
+        hook="POV: Đồng đội mới / ai cũng xăm kín tay",
+        end="Sử không ghi tên Anh Tư. / Follow để xem đời sau nhà Anh Tư / bị giao việc gì nữa →",
+        clips=[
+            dict(name="Đồng đội mới", label="Bến thủy quân Tây Sơn · khoảng 1797",
+                 img=f"First-person close-up on a wooden harbor deck, the viewer's hands coiling a thick rope, {FACE} beside the viewer staring at a group of tattooed Cantonese seafarers with long braids stepping off a junk onto the pier, realistic, vertical 9:16.",
+                 vid="0-5s: Close-up: the viewer coils rope on the pier; Anh Tư watches a group of tattooed seafarers with long braids step off a junk, waving cheerfully, and whispers: \"Đồng đội mới... sao ai cũng xăm kín tay thế anh?\" 5-10s: The officer walks past without stopping: \"Tiếp cho tử tế. Đừng hỏi nghề cũ.\" Anh Tư slowly closes his mouth.",
+                 subs=[(0.5, 4.8, "Đồng đội mới... / sao ai cũng xăm kín tay thế anh?"),
+                       (5.0, 9.5, "Tiếp cho tử tế. / Đừng hỏi nghề cũ.")]),
+            dict(name="Nghề cũ", tiktok="bo", label="Buổi trưa",
+                 img=f"First-person view on a ship deck at noon, {FACE} sitting cross-legged sharing a bowl of rice with a grinning tattooed Cantonese seafarer with a long braid, both relaxed, realistic, vertical 9:16.",
+                 vid="0-5s: Over a shared bowl of rice, Anh Tư asks the tattooed seafarer, miming with his hands: \"Trước anh làm nghề gì?\" The seafarer grins and mimes, with a friendly wink, grabbing a big ship and pulling it toward himself. 5-10s: Anh Tư nods slowly and says to the viewer, deadpan: \"...À. Ngành vận tải. Nhận hàng không cần hỏi chủ.\"",
+                 subs=[(0.5, 4.8, "Trước anh làm nghề gì?"),
+                       (5.0, 9.5, "...À. Ngành vận tải. / Nhận hàng không cần hỏi chủ.")]),
+            dict(name="Sếp được phong vương", label="Lễ phong tước",
+                 img=f"First-person view on a harbor at a solemn ceremony, a Tây Sơn official in red robes reading from a long scroll, a tattooed Cantonese captain with a long braid kneeling to receive a seal, {FACE} in the crowd of sailors with his jaw dropped, realistic, vertical 9:16.",
+                 vid="0-5s: A Tây Sơn official reads loudly from a scroll: \"...phong làm Đông Hải vương!\" The tattooed captain kneels and receives a seal. 5-10s: Anh Tư turns to the viewer, whispering, completely lost: \"Sếp mới được phong vương... mà CV nghề cũ ghi là... cướp biển?\"",
+                 subs=[(0.5, 4.8, "...phong làm Đông Hải vương!"),
+                       (5.0, 9.8, "Sếp mới được phong vương... / mà CV nghề cũ / ghi là... cướp biển?")]),
+            dict(name="Cờ màu", tiktok="bo", label="Mấy hôm sau",
+                 img=f"First-person view of a harbor, the Cantonese seafarers hoisting flags of different colors, red, black, white, on different junks, {FACE} holding a flag and looking confused, realistic, vertical 9:16.",
+                 vid="0-5s: The seafarers hoist a different-colored flag on each junk: red, black, white. Anh Tư holds a black flag and asks: \"Cùng một quân, sao mỗi thuyền một màu cờ?\" 5-10s: The tattooed seafarer answers in broken Vietnamese, grinning: \"Đỏ, đen, trắng... dễ nhận nhà!\" Anh Tư nods to the viewer: \"Như áo đội bóng. Hiểu rồi.\"",
+                 subs=[(0.5, 4.8, "Cùng một quân, / sao mỗi thuyền một màu cờ?"),
+                       (5.0, 7.3, "Đỏ, đen, trắng... dễ nhận nhà!"),
+                       (7.3, 9.6, "Như áo đội bóng. Hiểu rồi.")]),
+            dict(name="Ghi tên em vào sử", label="Nhiều năm sau",
+                 img=f"First-person view at sunset from a hilltop over the open sea, a huge fleet of junks with red, black and white sails heading north toward the horizon, {FACE} standing beside the viewer with arms crossed, his chipped-tooth grin slowly fading, realistic, vertical 9:16.",
+                 vid="0-5s: Sunset; a huge fleet of junks with colored flags sails north toward the horizon. A calm narrator's voice says: \"Năm 1802 Tây Sơn mất. Họ về Quảng Đông, lập sáu hạm đội cờ màu, vài vạn người.\" 5-10s: Anh Tư grins proudly at the camera: \"Em dạy họ đi đội hình đấy! Ghi tên em vào sử nhé!\" Then his grin fades and he adds quickly: \"...Mà thôi. Đừng ghi.\"",
+                 subs=[(0.3, 4.8, "Năm 1802 Tây Sơn mất. / Họ về Quảng Đông, / lập sáu hạm đội cờ màu."),
+                       (5.0, 8.0, "Em dạy họ đi đội hình đấy! / Ghi tên em vào sử nhé!"),
+                       (8.0, 9.8, "...Mà thôi. Đừng ghi.")]),
+        ],
+        caption=("Được giao tiếp đón đồng đội mới, ai cũng xăm kín tay, không ai nói nghề cũ 😳 Cuối thế kỷ 18, nhà Tây "
+                 "Sơn từng thu nạp cướp biển Quảng Đông vào thủy quân, có người được phong \"Đông Hải vương\". Sau năm "
+                 "1802 họ về nước, lập liên minh cướp biển cờ màu lớn nhất Biển Đông, có cả Hạm đội Cờ Đen, sau do một "
+                 "người phụ nữ cầm đầu (theo nghiên cứu của Dian Murray). Bạn có biết người phụ nữ đó là ai không? Viết "
+                 "dưới bình luận 👇"),
+        tags="#taysoncanhthinh #cuopbientauo #trinhnhattau #hamdoicoden #thuyquantayson",
+    ),
 ]
 
 if __name__ == "__main__":

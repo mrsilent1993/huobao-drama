@@ -1,0 +1,22 @@
+# Dựng: python3 ../tools/tiktok.py tap-7-dong-doi-moi-tay-son-1797.plan.txt tap-7-dong-doi-moi-tay-son-1797.mp4  (ra tap-7-dong-doi-moi-tay-son-1797-youtube.mp4 và tap-7-dong-doi-moi-tay-son-1797-tiktok.mp4)
+hook: POV: Đồng đội mới / ai cũng xăm kín tay
+end: Sử không ghi tên Anh Tư. / Follow để xem đời sau nhà Anh Tư / bị giao việc gì nữa →
+
+clip: nbt7-1.mp4 | Bến thủy quân Tây Sơn · khoảng 1797
+clip: nbt7-2.mp4 | Buổi trưa | tiktok=bo
+clip: nbt7-3.mp4 | Lễ phong tước
+clip: nbt7-4.mp4 | Mấy hôm sau | tiktok=bo
+clip: nbt7-5.mp4 | Nhiều năm sau
+
+sub: 1 | 0.5-4.8 | Đồng đội mới... / sao ai cũng xăm kín tay thế anh?
+sub: 1 | 5.0-9.5 | Tiếp cho tử tế. / Đừng hỏi nghề cũ.
+sub: 2 | 0.5-4.8 | Trước anh làm nghề gì?
+sub: 2 | 5.0-9.5 | ...À. Ngành vận tải. / Nhận hàng không cần hỏi chủ.
+sub: 3 | 0.5-4.8 | ...phong làm Đông Hải vương!
+sub: 3 | 5.0-9.8 | Sếp mới được phong vương... / mà CV nghề cũ / ghi là... cướp biển?
+sub: 4 | 0.5-4.8 | Cùng một quân, / sao mỗi thuyền một màu cờ?
+sub: 4 | 5.0-7.3 | Đỏ, đen, trắng... dễ nhận nhà!
+sub: 4 | 7.3-9.6 | Như áo đội bóng. Hiểu rồi.
+sub: 5 | 0.3-4.8 | Năm 1802 Tây Sơn mất. / Họ về Quảng Đông, / lập sáu hạm đội cờ màu.
+sub: 5 | 5.0-8.0 | Em dạy họ đi đội hình đấy! / Ghi tên em vào sử nhé!
+sub: 5 | 8.0-9.8 | ...Mà thôi. Đừng ghi.

@@ -21,6 +21,7 @@ Mỗi tập có hai bản: **TikTok 30 giây** gồm clip 1, 3, 5, đúng độ 
 | 4 | Bị lệnh chạy thua cả ngày… (Chi Lăng, 1427) | "Chạy thua mà còn phải canh tốc độ cho giặc à?!" → "Để nó cười. Cười nốt hôm nay." | Chạy nhanh quá bị kéo lại, phải vẫy giặc: "Bên này! Bên này cơ mà!" | `nbt4-1..5` |
 | 5 | Bị cấm ho, cấm đập muỗi cả đêm… (Rạch Gầm – Xoài Mút, 1785) | "Thế muỗi có bị cấm cắn không anh?" → muỗi đậu mũi sĩ quan → "Giờ thì đập được rồi!" | Cả thuyền bịt mũi Anh Tư để chặn cái hắt hơi | `nbt5-1..5` |
 | 6 | Bị bắt đóng năm trăm chiếc thuyền… (Hội thề Đông Quan, 1427) | "Năm trăm chiếc? Mình đi đánh ở đâu mà xa thế anh?" → "Đánh nhau mười năm, giờ mình đóng thuyền tiễn nó về?" → "Thuyền em đóng có trong Bình Ngô đại cáo! Ghi tên em vào sử nhé!" | "Gói cơm cho khách." / "Giết thêm thì hận thêm. Tiễn về thì yên lâu." | `nbt6-1..5` |
+| 7 | Tiếp đón đồng đội mới ai cũng xăm kín tay… (thủy quân Tây Sơn thuê cướp biển, khoảng 1797) | "Đừng hỏi nghề cũ." → "Sếp mới được phong vương, mà CV nghề cũ ghi là… cướp biển?" → "Ghi tên em vào sử nhé! …Mà thôi. Đừng ghi." | "Ngành vận tải. Nhận hàng không cần hỏi chủ." / "Như áo đội bóng." | `nbt7-1..5` |
 
 ## Đăng
 
@@ -33,6 +34,7 @@ Mỗi tập có hai bản: **TikTok 30 giây** gồm clip 1, 3, 5, đúng độ 
 
 - Mỗi tập ghi rõ phần sử chép và phần hư cấu. Anh Tư, mẹ Anh Tư, các tình huống hài và mọi lời thoại đều là hư cấu.
 - **Tập 2:** chưa tìm thấy nguồn chép dân tự **đốt** thóc năm 1285, nên tập phim dùng "mang đi".
+- **Tập 7:** việc Tây Sơn thu nạp cướp biển Quảng Đông theo Dian Murray (1987) và sử nhà Nguyễn; phần lớn diễn ra dưới thời Cảnh Thịnh, không phải Quang Trung. Không nhầm với Quân Cờ Đen của Lưu Vĩnh Phúc (1860–1885). Chỉ chê chính sách thuê cướp biển, không bêu người Hoa.
 - **Tập 4 và 5:** các nguồn ghi ngày và quân số khác nhau, nên tập phim chỉ ghi năm và tháng.
 
 Toàn bộ nội dung nằm trong `_nguon.py`. Sửa ở đó rồi chạy `python3 _nguon.py`.
