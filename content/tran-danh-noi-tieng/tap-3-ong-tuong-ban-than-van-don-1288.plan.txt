@@ -1,19 +1,29 @@
 # Dựng: python3 ../tools/tiktok.py tap-3-ong-tuong-ban-than-van-don-1288.plan.txt tap-3-ong-tuong-ban-than-van-don-1288.mp4  (ra tap-3-ong-tuong-ban-than-van-don-1288-youtube.mp4 và tap-3-ong-tuong-ban-than-van-don-1288-tiktok.mp4)
 hook: POV: Ông bán than / nói chuyện / toàn binh pháp
-end: Sử không ghi tên Anh Tư. / Follow để xem / trận đánh tiếp theo →
+end: Ba tháng sau: Bạch Đằng 1288. / Follow để xem / trận đánh tiếp theo →
 nhan: AI tái hiện · lời thoại hư cấu
+end_giay: 1.6
 
-clip: td1288-1.mp4 | Chợ Chí Linh · mấy năm trước
-clip: td1288-2.mp4 |  | tiktok=bo
-clip: td1288-3.mp4 | Vân Đồn · cuối năm 1287
-clip: td1288-4.mp4 | Mấy hôm sau | tiktok=bo
-clip: td1288-5.mp4 | 
+clip: td1288-1.mp4 | Chí Linh · năm 1282 | tiktok=5-10
+clip: td1288-2.mp4 |  | tiktok=0-5
+clip: td1288-3.mp4 | Vân Đồn · cuối năm 1287 | tiktok=5-10
+clip: td1288-4.mp4 |  | tiktok=0-5
+clip: td1288-5.mp4 | Mấy hôm sau
+clip: td1288-6.mp4 | Đêm hôm ấy | tiktok=0-5
+clip: td1288-7.mp4 | Rạng sáng
 
-sub: 1 | 0.5-4.8 | Than xếp thế này mới cháy đều. / Cũng như dàn quân.
+sub: 1 | 0.5-4.8 | Xếp than cũng như xếp quân: / xếp đúng thì mới cháy đều.
 sub: 1 | 5.0-9.5 | Bác bán than... / sao nói toàn binh pháp?
-sub: 2 | 5.0-9.5 | Em vừa mặc cả với ông ấy / mất hai đồng!
-sub: 3 | 0.5-4.8 | Xin cho vài ngày / để lập công chuộc tội.
-sub: 3 | 5.0-9.5 | Sếp bị dọa đuổi việc... / còn xin thêm mấy ngày / chạy KPI.
-sub: 4 | 5.0-9.5 | Thuyền gì mà chở toàn gạo... / nồi cơm của cả đạo quân à?
-sub: 5 | 0.3-4.8 | Trần Khánh Dư phá đoàn / thuyền lương ở Vân Đồn. / Quân Nguyên hết lương.
-sub: 5 | 5.0-9.8 | Ông bán than ấy, / em mua than của ông ấy đấy! / Ghi tên em vào sử nhé!
+sub: 2 | 0.5-4.8 | Bệ hạ nhận ra ông. / Mời ông về triều.
+sub: 2 | 5.0-9.5 | Em vừa mặc cả với ông ấy... / mất hai đồng!
+sub: 3 | 0.5-4.8 | Giữ Vân Đồn. / Không để thuyền giặc nào qua.
+sub: 3 | 5.0-9.5 | Hôm trước bán than... / hôm nay giữ cả cửa biển.
+sub: 4 | 0.5-4.8 | To quá, cản không nổi!
+sub: 4 | 5.0-9.5 | Đoàn chiến thuyền của Ô Mã Nhi / vượt qua được Vân Đồn.
+sub: 5 | 0.3-2.5 | Thượng hoàng cho bắt / tướng quân về trị tội.
+sub: 5 | 2.5-4.9 | Xin khoan vài ngày, / để lập công chuộc tội.
+sub: 5 | 5.0-9.5 | Sếp bị dọa đuổi việc... / còn xin thêm mấy ngày / chạy KPI.
+sub: 6 | 0.5-4.8 | Thuyền gì mà toàn gạo... / nồi cơm của cả đạo quân à?
+sub: 6 | 5.0-9.5 | Đánh.
+sub: 7 | 0.3-4.8 | Trần Khánh Dư phá tan / đoàn thuyền lương. / Thượng hoàng tha tội.
+sub: 7 | 5.0-8.4 | Ông bán than ấy, em mua than / của ông ấy đấy! / Ghi tên em vào sử nhé!

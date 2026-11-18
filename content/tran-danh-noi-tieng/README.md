@@ -1,12 +1,12 @@
 # Trận đánh nổi tiếng
 
-Mỗi trận một tập theo công thức Anh Tư (YouTube 50 giây, TikTok 30 giây gồm clip 1, 3, 5). Chỉ làm những trận chưa có trên kênh.
+Mỗi trận một tập theo công thức Anh Tư (YouTube 50 giây, TikTok 30 giây gồm clip 1, 3, 5). Riêng tập 3 là bản đầy đủ: bản TikTok không bỏ cảnh nào, mỗi cảnh cắt lấy 5 giây chứa câu chính. Chỉ làm những trận chưa có trên kênh.
 
 | Tập | Năm | Trận | Video | Câu đáng gửi | Nguồn | Clip Muse |
 |---|---|---|---|---|---|---|
 | 1 | 1258 | Đông Bộ Đầu | Chèo thuyền đưa vua đi lánh giặc | "Ông ấy nói câu đó… mà mặt tỉnh như đi chợ." | B | `td1258-1..5` |
 | 2 | 1285 | Hàm Tử | Mặc giáp nhà Tống ra trận, giặc nhìn thấy đã chạy | "Mặc nhầm áo… mà giặc chạy mất dép." | B | `td1285-1..5` |
-| 3 | 1288 | Vân Đồn | Ông bán than ngoài chợ hóa ra là tướng | "Sếp bị dọa đuổi việc… còn xin thêm mấy ngày chạy KPI." | A/B | `td1288-1..5` |
+| 3 | 1288 | Vân Đồn | **Bản đầy đủ 7 cảnh:** ông bán than được vua nhận ra, giữ Vân Đồn, để lọt Ô Mã Nhi, xin vài ngày lập công, phá thuyền lương | "Sếp bị dọa đuổi việc… còn xin thêm mấy ngày chạy KPI." | A/B | `td1288-1..7` (YouTube khoảng 68 giây, TikTok khoảng 43 giây, cả hai đủ 7 cảnh) |
 | 4 | 1426 | Tốt Động – Chúc Động | Cấy lúa giả ngay bên đường giặc đi qua | "Diễn nông dân thôi… mà em cấy nhanh hơn cả nông dân thật." | A | `td1426-1..5` |
 
 ## Đăng

@@ -176,73 +176,102 @@ EPISODES = [
         yt_tags=("hàm tử, trần nhật duật, triệu trung, chương dương cướp giáo giặc, kháng chiến chống nguyên, 1285, "
                  "nhà trần, lịch sử việt nam, pov lịch sử, anh tư, đại việt, shorts"),
     ),
-    # ------------------------------------------------------------------ 1288
+    # ------------------------------------------------------------------ 1288 (bản đầy đủ 7 cảnh)
     dict(
         slug="ong-tuong-ban-than-van-don-1288", prefix="td1288",
-        title="Khách quen bán than ngoài chợ nói chuyện toàn binh pháp, mấy năm sau mới biết ông ấy là ai (Vân Đồn, 1288)",
-        length="YouTube 50 giây (5 clip) · TikTok 30 giây (clip 1, 3, 5)",
-        history=("**Lịch sử:** theo *Đại Việt sử ký toàn thư* (mức B), Trần Khánh Dư từng bị cách chức, về Chí Linh làm nghề "
-                 "bán than. Sau được vua gọi lại, giao trấn giữ Vân Đồn (Quảng Ninh). Cuối năm 1287, đoàn thuyền chiến của "
-                 "Ô Mã Nhi vượt qua được Vân Đồn; Thượng hoàng sai người đến bắt Khánh Dư về trị tội. Ông xin khoan vài ngày "
-                 "để lập công chuộc tội, rồi đánh tan đoàn thuyền lương của Trương Văn Hổ theo sau. Quân Nguyên mất lương, "
-                 "phải tính đường rút, mở đường cho trận Bạch Đằng tháng 4 năm 1288. Sử nhà Nguyên cũng chép việc mất thuyền "
-                 "lương (mức A). **Hư cấu:** Anh Tư mua than, cách xếp than \"như dàn quân\" và mọi lời thoại. Không dựng cảnh "
+        title="Khách quen bán than trên sông nói chuyện toàn binh pháp, mấy năm sau ông ấy cứu cả cuộc kháng chiến (Vân Đồn, 1288)",
+        length=("hai video từ cùng 7 clip: **bản dài** (YouTube, khoảng 68 giây sau chuyển cảnh) và **bản ngắn** "
+                "(TikTok, khoảng 43 giây) vẫn đủ cả 7 cảnh: mỗi cảnh cắt lấy 5 giây chứa câu quan trọng nhất, riêng "
+                "cảnh lệnh bắt và cảnh kết giữ nguyên 10 giây"),
+        history=("**Lịch sử (theo *Đại Việt sử ký toàn thư*, mức B; sử nhà Nguyên cũng chép việc mất thuyền lương, mức A):**\n\n"
+                 "- **Năm 1282:** Trần Khánh Dư, một tướng giỏi, đang bị cách chức và tịch thu gia sản, về Chí Linh làm nghề "
+                 "buôn than. Vua Trần Nhân Tông đi thuyền qua, thấy một chiếc thuyền buôn than, người lái đội nón lá, mặc áo "
+                 "ngắn, nhận ra là Khánh Dư, liền cho mời về triều và dùng lại.\n"
+                 "- **Cuối năm 1287:** ông làm phó tướng trấn giữ Vân Đồn (Quảng Ninh). Đoàn chiến thuyền của Ô Mã Nhi đánh "
+                 "vượt qua được. Thượng hoàng sai sứ đến bắt ông về trị tội; ông xin khoan vài ngày để lập công chuộc tội.\n"
+                 "- **Mấy hôm sau:** đoàn thuyền lương của Trương Văn Hổ theo sau đến nơi; Trần Khánh Dư đánh tan, bắt được "
+                 "rất nhiều lương thực, khí giới. Thượng hoàng tha tội, nói rằng quân Nguyên trông vào lương thực, nay đã bị "
+                 "bắt thì thế giặc không còn hung hăng được nữa. Hết lương, quân Nguyên phải tính đường rút, dẫn tới trận "
+                 "Bạch Đằng tháng 4 năm 1288.\n\n"
+                 "**Hư cấu:** Anh Tư, chuyện mặc cả hai đồng, mọi lời thoại (câu của sứ giả và Trần Khánh Dư phỏng theo ý sử "
+                 "chép, không phải nguyên văn). Không dựng chuyện riêng tư dẫn tới việc ông bị cách chức. Không dựng cảnh "
                  "người chết đuối."),
-        setting=("Vietnam, 1280s: first a charcoal market in Chí Linh with sacks of charcoal and a plain stall; then the "
-                 "rocky islands and bays of Vân Đồn (Quảng Ninh) at night. Trần Khánh Dư is a lean, sharp-eyed Vietnamese "
-                 "man around 40, first in a conical hat and short brown tunic with charcoal-black hands, later in dark Trần "
-                 f"armor. {TRAN}, some with dark tattoo marks on their forearms (not legible). {YUAN}. "
-                 f"Anh Tư is {FACE}. {NO_TEXT}"),
+        setting=("Vietnam, 1280s, northern Đại Việt. Trần Khánh Dư is a lean, sharp-eyed Vietnamese man around 40 with a "
+                 "short beard: first as a charcoal trader in a conical hat and short brown tunic with charcoal-black hands "
+                 "on a small wooden boat loaded with charcoal sacks; later in dark Trần-era armor. "
+                 f"{TRAN}, some with dark tattoo marks on their forearms (not legible). {YUAN}. "
+                 f"Anh Tư is {FACE}, first a villager in a brown shirt, later a sailor. {NO_TEXT}"),
         visual=VIS["nguyen"],
         hook="POV: Ông bán than / nói chuyện / toàn binh pháp",
-        end=END,
+        end="Ba tháng sau: Bạch Đằng 1288. / Follow để xem / trận đánh tiếp theo →",
+        end_secs=1.6,
         clips=[
-            dict(name="Ông bán than", label="Chợ Chí Linh · mấy năm trước",
-                 img=f"First-person view at a charcoal stall in a village market, a lean sharp-eyed man in a conical hat with charcoal-black hands arranging pieces of charcoal in neat rows, {FACE} holding an empty basket and watching, realistic, vertical 9:16.",
-                 vid=("0-5s: The charcoal seller arranges pieces in neat rows before bagging them: \"Than xếp thế này mới cháy "
-                      "đều. Cũng như dàn quân.\" 5-10s: Anh Tư takes his basket and whispers to the viewer: \"Bác bán than... "
-                      "sao nói toàn binh pháp?\""),
-                 subs=[(0.5, 4.8, "Than xếp thế này mới cháy đều. / Cũng như dàn quân."),
+            dict(name="Ông bán than", tiktok="5-10", label="Chí Linh · năm 1282",
+                 img=f"First-person view at a riverbank landing, a small wooden boat loaded with charcoal sacks, a lean sharp-eyed man in a conical hat with charcoal-black hands arranging charcoal pieces in neat rows on a mat, {FACE} holding an empty basket and watching, realistic, vertical 9:16.",
+                 vid=("0-5s: On his charcoal boat at the landing, the trader arranges charcoal pieces in neat rows on a mat "
+                      "and says calmly: \"Xếp than cũng như xếp quân: xếp đúng thì mới cháy đều.\" 5-10s: Anh Tư, holding "
+                      "his basket, whispers to the viewer: \"Bác bán than... sao nói toàn binh pháp?\""),
+                 subs=[(0.5, 4.8, "Xếp than cũng như xếp quân: / xếp đúng thì mới cháy đều."),
                        (5.0, 9.5, "Bác bán than... / sao nói toàn binh pháp?")]),
-            dict(name="Vua gọi", tiktok="bo", label="",
-                 img=f"First-person view in the market, a royal escort stopping at the charcoal stall, a messenger bowing to the charcoal seller, {FACE} dropping his basket of charcoal in shock, realistic, vertical 9:16.",
-                 vid=("0-5s: A royal escort stops at the stall; a messenger bows low to the charcoal seller and invites him "
-                      "to come to court. 5-10s: Anh Tư drops his basket, charcoal rolling everywhere: \"Em... em vừa mặc cả "
-                      "với ông ấy mất hai đồng!\""),
-                 subs=[(5.0, 9.5, "Em vừa mặc cả với ông ấy / mất hai đồng!")]),
-            dict(name="Xin thêm ba ngày", label="Vân Đồn · cuối năm 1287",
-                 img=f"First-person view on a war boat among rocky islands, an envoy holding out an arrest order (no visible text) to the lean general in dark armor, the general bowing calmly, {FACE} beside the viewer holding an oar, realistic, vertical 9:16.",
-                 vid=("0-5s: An envoy announces that the general is to be taken back for punishment; the general bows calmly: "
-                      "\"Xin cho vài ngày để lập công chuộc tội.\" 5-10s: Anh Tư whispers to the viewer: \"Sếp bị dọa đuổi "
+            dict(name="Vua mời", tiktok="0-5", noi=True, label="",
+                 img=f"First-person view at the same riverbank landing, a long royal boat with a carved dragon prow stopping beside the small charcoal boat, a royal messenger bowing low to the charcoal trader, {FACE} beside the viewer with his basket, realistic, vertical 9:16.",
+                 vid=("0-5s: A royal boat glides up and stops beside the charcoal boat; a messenger bows low to the trader: "
+                      "\"Bệ hạ nhận ra ông. Mời ông về triều.\" 5-10s: Anh Tư drops his basket, charcoal rolling everywhere, "
+                      "and whispers to the viewer: \"Em vừa mặc cả với ông ấy... mất hai đồng!\""),
+                 subs=[(0.5, 4.8, "Bệ hạ nhận ra ông. / Mời ông về triều."),
+                       (5.0, 9.5, "Em vừa mặc cả với ông ấy... / mất hai đồng!")]),
+            dict(name="Lên làm tướng", tiktok="5-10", label="Vân Đồn · cuối năm 1287",
+                 img=f"First-person view on a Trần war boat among steep rocky limestone islands in a bay, the lean sharp-eyed man now in dark armor addressing sailors, {FACE} among the sailors with an oar, amazed, realistic, vertical 9:16.",
+                 vid=("0-5s: Among the rocky islands of the bay, the former charcoal trader, now in dark armor, addresses the "
+                      "sailors: \"Giữ Vân Đồn. Không để thuyền giặc nào qua.\" 5-10s: Anh Tư, among the sailors, whispers to "
+                      "the viewer: \"Hôm trước bán than... hôm nay giữ cả cửa biển.\""),
+                 subs=[(0.5, 4.8, "Giữ Vân Đồn. / Không để thuyền giặc nào qua."),
+                       (5.0, 9.5, "Hôm trước bán than... / hôm nay giữ cả cửa biển.")]),
+            dict(name="Giặc vượt qua", tiktok="0-5", label="",
+                 img=f"First-person view from a small Trần war boat as huge Yuan warships with matting sails push through a channel between rocky islands, small boats unable to stop them, {FACE} rowing desperately, realistic, vertical 9:16.",
+                 vid=("0-5s: Huge Yuan warships with matting sails force their way through the channel between the rocks; the "
+                      "small Trần boats cannot stop them. Anh Tư, rowing desperately, shouts: \"To quá, cản không nổi!\" "
+                      "5-10s: The general stands on his boat, jaw clenched, silently watching the enemy fleet sail away "
+                      "toward the mainland."),
+                 subs=[(0.5, 4.8, "To quá, cản không nổi!"),
+                       (5.0, 9.5, "Đoàn chiến thuyền của Ô Mã Nhi / vượt qua được Vân Đồn.")]),
+            dict(name="Lệnh bắt", label="Mấy hôm sau",
+                 img=f"First-person view on the deck of a war boat, a royal envoy holding out an arrest order (no visible text) to the lean general in dark armor, the general bowing calmly, {FACE} beside the viewer holding an oar, tense, realistic, vertical 9:16.",
+                 vid=("Two clearly different men: the envoy in a dark court robe holds the order; the general in dark armor "
+                      "bows. 0-5s: The envoy: \"Thượng hoàng cho bắt tướng quân về trị tội.\" The general bows calmly: \"Xin "
+                      "khoan vài ngày, để lập công chuộc tội.\" 5-10s: Anh Tư whispers to the viewer: \"Sếp bị dọa đuổi "
                       "việc... còn xin thêm mấy ngày chạy KPI.\""),
-                 subs=[(0.5, 4.8, "Xin cho vài ngày / để lập công chuộc tội."),
+                 subs=[(0.3, 2.5, "Thượng hoàng cho bắt / tướng quân về trị tội."),
+                       (2.5, 4.9, "Xin khoan vài ngày, / để lập công chuộc tội."),
                        (5.0, 9.5, "Sếp bị dọa đuổi việc... / còn xin thêm mấy ngày / chạy KPI.")]),
-            dict(name="Thuyền cơm", tiktok="bo", label="Mấy hôm sau",
-                 img=f"First-person view at night from a small war boat hidden behind a rocky island, a long line of heavy, low-riding wooden junks loaded with rice sacks sailing past slowly, {FACE} peering out, realistic, vertical 9:16.",
+            dict(name="Thuyền lương", tiktok="0-5", label="Đêm hôm ấy",
+                 img=f"First-person view at night from a small war boat hidden behind a rocky island, a long line of heavy, low-riding wooden junks loaded with rice sacks sailing past slowly, the general crouching at the bow, {FACE} peering out beside the viewer, realistic, vertical 9:16.",
                  vid=("0-5s: At night, from behind a rocky island, a long line of heavy junks loaded with rice sacks glides "
-                      "past slowly. 5-10s: Anh Tư whispers to the viewer: \"Thuyền gì mà chở toàn gạo... đây là nồi cơm "
-                      "của cả đạo quân à?\""),
-                 subs=[(5.0, 9.5, "Thuyền gì mà chở toàn gạo... / nồi cơm của cả đạo quân à?")]),
-            dict(name="Ghi tên em vào sử", label="",
+                      "past slowly. Anh Tư whispers: \"Thuyền gì mà toàn gạo... nồi cơm của cả đạo quân à?\" 5-10s: The "
+                      "general, crouching at the bow, raises one hand and says quietly: \"Đánh.\""),
+                 subs=[(0.5, 4.8, "Thuyền gì mà toàn gạo... / nồi cơm của cả đạo quân à?"),
+                       (5.0, 9.5, "Đánh.")]),
+            dict(name="Ghi tên em vào sử", label="Rạng sáng",
                  img=f"First-person view at dawn among rocky islands, heavy grain junks captured and surrounded by small Trần war boats, rice sacks being unloaded, no people in the water, the lean general standing on a boat, {FACE} holding up a sack of rice with a huge grin, realistic, vertical 9:16.",
                  vid=("0-5s: Dawn; small Trần war boats surround the captured grain junks and unload sacks; no people in the "
-                      "water. A calm narrator's voice says: \"Trần Khánh Dư phá đoàn thuyền lương của quân Nguyên ở Vân Đồn. "
-                      "Hết lương, quân Nguyên phải tính đường rút.\" 5-10s: Anh Tư holds up a sack of rice and grins at the "
-                      "camera: \"Ông bán than ấy, em mua than của ông ấy đấy! Ghi tên em vào sử nhé!\""),
-                 subs=[(0.3, 4.8, "Trần Khánh Dư phá đoàn / thuyền lương ở Vân Đồn. / Quân Nguyên hết lương."),
-                       (5.0, 9.8, "Ông bán than ấy, / em mua than của ông ấy đấy! / Ghi tên em vào sử nhé!")]),
+                      "water. A calm narrator's voice says: \"Trần Khánh Dư phá tan đoàn thuyền lương. Thượng hoàng tha tội: "
+                      "giặc mất lương, hết đường hung hăng.\" 5-10s: Anh Tư holds up a sack of rice and grins at the camera: "
+                      "\"Ông bán than ấy, em mua than của ông ấy đấy! Ghi tên em vào sử nhé!\""),
+                 subs=[(0.3, 4.8, "Trần Khánh Dư phá tan / đoàn thuyền lương. / Thượng hoàng tha tội."),
+                       (5.0, 8.4, "Ông bán than ấy, em mua than / của ông ấy đấy! / Ghi tên em vào sử nhé!")]),
         ],
-        caption=("Khách quen bán than ngoài chợ nói chuyện toàn binh pháp, mấy năm sau mới biết ông ấy là ai 😳 Trần Khánh Dư "
-                 "từng bị cách chức, về Chí Linh bán than. Năm 1288 ông phá đoàn thuyền lương quân Nguyên ở Vân Đồn, mở "
-                 "đường cho trận Bạch Đằng. Bạn đã từng gặp \"cao nhân ẩn mình\" nào ngoài đời chưa? 👇"),
+        caption=("Khách quen bán than trên sông nói chuyện toàn binh pháp, mấy năm sau ông ấy cứu cả cuộc kháng chiến 😳 "
+                 "Trần Khánh Dư từng bị cách chức, về Chí Linh buôn than, được vua Trần Nhân Tông nhận ra và dùng lại. "
+                 "Năm 1288, sau khi để lọt chiến thuyền Ô Mã Nhi, ông xin vài ngày lập công, rồi phá tan đoàn thuyền lương "
+                 "quân Nguyên ở Vân Đồn, mở đường cho trận Bạch Đằng. Bạn đã từng gặp \"cao nhân ẩn mình\" nào chưa? 👇"),
         tags="#trandanhnoitieng #vandon #trankhanhdu #chongnguyen #1288",
-        tt_title="Ông bán than ngoài chợ nói chuyện toàn binh pháp, mấy năm sau mới biết là ai",
-        hooks_alt=["POV: Sếp bị dọa đuổi việc / còn xin thêm ba ngày", "POV: Mặc cả với / một vị tướng"],
+        tt_title="Ông bán than trên sông nói toàn binh pháp, mấy năm sau cứu cả cuộc kháng chiến",
+        hooks_alt=["POV: Sếp bị dọa đuổi việc / còn xin thêm mấy ngày", "POV: Mặc cả / với một vị tướng"],
         pin=("Không có trận Vân Đồn thì chưa chắc có trận Bạch Đằng 1288 🔥 Xem trận Bạch Đằng ở trang cá nhân 👆 "
              "Follow để xem trận đánh tiếp theo!"),
-        yt_title="Năm 1288: ông bán than ngoài chợ phá đoàn thuyền lương quân Nguyên (Vân Đồn)",
-        yt_tags=("vân đồn, trần khánh dư, thuyền lương, trương văn hổ, kháng chiến chống nguyên, 1288, nhà trần, "
-                 "lịch sử việt nam, pov lịch sử, anh tư, đại việt, shorts"),
+        yt_title="Năm 1288: ông bán than được vua nhận ra, phá đoàn thuyền lương quân Nguyên ở Vân Đồn",
+        yt_tags=("vân đồn, trần khánh dư, thuyền lương, trương văn hổ, ô mã nhi, trần nhân tông, kháng chiến chống "
+                 "nguyên, 1288, nhà trần, lịch sử việt nam, pov lịch sử, anh tư, đại việt, shorts"),
     ),
     # ------------------------------------------------------------------ 1426
     dict(

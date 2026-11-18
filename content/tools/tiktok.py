@@ -255,7 +255,8 @@ def render(plan, out, version):
         if cap:
             v.append(drawtext(cap, 50, SAFE_TOP, "lt(t,3)", box=True))
         if i == 0 and plan["tag"]:
-            v.append(drawtext(plan["tag"], 34, SAFE_TOP + (110 if cap else 0), "lt(t,3)"))
+            cap_lines = len(layout(cap, 50)[0]) if cap else 0   # nhãn mốc thời gian dài thì lùi nhãn AI xuống
+            v.append(drawtext(plan["tag"], 34, SAFE_TOP + (40 + 66 * cap_lines if cap else 0), "lt(t,3)"))
         if i == 0 and plan["hook"]:
             v.append(drawtext(plan["hook"], 76, "(h-th)*0.40", "lt(t,2.5)"))
         for sidx, sa, sb, text in plan["subs"]:
