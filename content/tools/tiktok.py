@@ -17,11 +17,19 @@ Mỗi bản: 1080x1920, 30fps, H.264 + AAC, -14 LUFS, kèm ảnh bìa .jpg cùng
     clip: tg-3.mp4 | Mấy hôm sau | tiktok=bo       # bỏ cả clip ở bản TikTok
 Phụ đề tự cắt và dời theo đoạn được giữ.
 
+Chuyển cảnh (mặc định "fade 0.4": hòa hình và hòa tiếng 0,4 giây giữa hai clip; "cat" = cắt thẳng):
+    chuyen: fade 0.4                                   # mặc định cho mọi chỗ nối
+    clip: bd-4.mp4 | Đêm hôm ấy | chuyen=fadeblack:0.8 # riêng chỗ nối VÀO clip này
+Kiểu hay dùng: fade (hòa hình), fadeblack (tối dần rồi sáng, hợp khi nhảy thời gian),
+fadewhite (lóe trắng, hợp trailer), dissolve, smoothleft/smoothright (lướt ngang),
+zoomin, hblur, cat (cắt thẳng). Mỗi chỗ chuyển cảnh làm video ngắn đi đúng bằng thời lượng chuyển.
+
 plan.txt (dòng trống và dòng bắt đầu bằng # được bỏ qua; " / " là xuống dòng bắt buộc):
     hook: POV: Bạn là dân Hoa Lư / ngày dời đô năm 1010     # chữ lớn giữa màn hình, 0-2.5s
     end: Năm 1010, Lý Thái Tổ dời đô / về Đại La, đặt tên Thăng Long.   # 3 giây cuối
     end_giay: 1.5                                                   # (tùy chọn) đổi số giây dòng kết
     toi_da_giay: 179.5                                              # (tùy chọn) tổng độ dài tối đa
+    chuyen: fade 0.4                                                # (tùy chọn) chuyển cảnh mặc định
     clip: dl-1.mp4 | Hoa Lư · sáng sớm          # file | mốc thời gian hiện 3s đầu clip
     sub: 1 | 0.5-4.8 | Đang yên đang lành, vua lại bắt cả kinh thành dọn nhà!
     # sub: <số clip> | <giây bắt đầu>-<giây kết thúc trong clip đó> | lời thoại
@@ -85,9 +93,30 @@ def probe_duration(path):
     return float(out)
 
 
+XFADE = {"fade", "fadeblack", "fadewhite", "dissolve", "smoothleft", "smoothright", "smoothup", "smoothdown",
+         "zoomin", "hblur", "circleopen", "circleclose", "slideleft", "slideright", "wipeleft", "wiperight",
+         "radial", "pixelize", "distance", "fadegrays"}
+
+
+def parse_trans(val, n):
+    """"fade", "fade:0.6", "cat" -> (kiểu, giây)."""
+    kind, _, secs = val.partition(":")
+    kind = kind.strip()
+    if kind in ("cat", "cut"):
+        return ("cat", 0.0)
+    if kind not in XFADE:
+        die(f"dòng {n}: chuyển cảnh '{kind}' không có; dùng một trong: cat, " + ", ".join(sorted(XFADE)))
+    try:
+        secs = float(secs) if secs.strip() else 0.4
+    except ValueError:
+        die(f"dòng {n}: thời lượng chuyển cảnh phải là số giây, ví dụ fade:0.5")
+    return (kind, max(0.1, min(secs, 2.0)))
+
+
 def parse(plan_path):
     base = os.path.dirname(os.path.abspath(plan_path))
-    plan = {"hook": "", "end": "", "end_secs": 3.0, "max_secs": None, "clips": [], "subs": []}
+    plan = {"hook": "", "end": "", "end_secs": 3.0, "max_secs": None, "trans": ("fade", 0.4),
+            "clips": [], "subs": []}
     with open(plan_path, encoding="utf-8") as fh:
         for n, raw in enumerate(fh, 1):
             line = raw.strip()
@@ -101,12 +130,18 @@ def parse(plan_path):
                 plan["end_secs"] = float(val)
             elif key == "toi_da_giay":          # (tùy chọn) tổng độ dài tối đa, cắt bớt đuôi clip cuối
                 plan["max_secs"] = float(val)
+            elif key == "chuyen":
+                plan["trans"] = parse_trans(val.replace(" ", ":", 1), n)
             elif key == "clip":
                 parts = [p.strip() for p in val.split("|")]
                 f, cap = parts[0], (parts[1] if len(parts) > 1 else "")
                 cut = None                      # None = cả clip, "bo" = bỏ, (a, b) = đoạn giữ lại
+                trans = None                    # None = theo mặc định của plan
                 for extra in parts[2:]:
                     k, _, v = extra.partition("=")
+                    if k.strip() == "chuyen":
+                        trans = parse_trans(v.strip(), n)
+                        continue
                     if k.strip() != "tiktok":
                         die(f"dòng {n}: không hiểu '{extra}'")
                     v = v.strip()
@@ -118,7 +153,7 @@ def parse(plan_path):
                         except ValueError:
                             die(f"dòng {n}: tiktok= phải là 'bo' hoặc dạng 0-5")
                         cut = (a, b)
-                plan["clips"].append((f if os.path.isabs(f) else os.path.join(base, f), cap, cut))
+                plan["clips"].append((f if os.path.isabs(f) else os.path.join(base, f), cap, cut, trans))
             elif key == "sub":
                 try:
                     idx, span, text = [p.strip() for p in val.split("|", 2)]
@@ -172,7 +207,7 @@ def render(plan, out, version):
 
     # chọn clip và đoạn giữ lại cho bản này
     picked = []
-    for idx, (path, cap, cut) in enumerate(plan["clips"], 1):
+    for idx, (path, cap, cut, trans) in enumerate(plan["clips"], 1):
         if not os.path.isfile(path):
             die(f"không thấy file {path}")
         dur = probe_duration(path)
@@ -181,24 +216,36 @@ def render(plan, out, version):
             continue
         if version == "tiktok" and isinstance(cut, tuple):
             a, b = max(0.0, cut[0]), min(dur, cut[1])
-        picked.append((idx, path, cap, a, b))
+        picked.append((idx, path, cap, a, b, trans or plan["trans"]))
     if not picked:
         die("bản TikTok không còn clip nào")
-    total = sum(p[4] - p[3] for p in picked)
+    # chuyển cảnh vào clip k (k >= 1); không dài quá nửa clip ngắn hơn
+    joins = [None] + [(t[0], min(t[1], (p[4] - p[3]) / 2, (q[4] - q[3]) / 2))
+                      for q, p in zip(picked, picked[1:]) for t in [p[5]]]
+    total = sum(p[4] - p[3] for p in picked) - sum(0 if j[0] == "cat" else j[1] for j in joins[1:])
     if plan["max_secs"] and total > plan["max_secs"]:
-        idx, path, cap, a, b = picked[-1]
-        picked[-1] = (idx, path, cap, a, b - (total - plan["max_secs"]))
+        idx, path, cap, a, b, tr = picked[-1]
+        picked[-1] = (idx, path, cap, a, b - (total - plan["max_secs"]) - 1 / FPS, tr)
 
     end_text = plan["end"]
     if version == "youtube":
         end_text = end_text.replace("Follow", "Đăng ký")
 
-    inputs, chain = [], []
+    def ff(args):
+        r = subprocess.run(["ffmpeg", "-v", "error", "-y", *args], capture_output=True, text=True)
+        if r.returncode != 0:
+            die("ffmpeg lỗi:\n" + r.stderr.strip()[-1500:])
+
+    def q(t):                           # làm tròn về đúng mép khung hình để hình và tiếng không lệch dần
+        return round(t * FPS) / FPS
+
+    # Chuỗi lọc riêng của từng clip: cắt, khung 9:16, chữ, âm lượng (áp lên cả clip rồi mới cắt từng đoạn,
+    # nên mọi đoạn cắt ra từ cùng một clip đều khớp nhau tuyệt đối)
     n = len(picked)
-    for i, (idx, path, cap, a, b) in enumerate(picked):
-        d = b - a
-        inputs += ["-i", path]
-        v = [f"[{i}:v]trim=start={a}:end={b},setpts=PTS-STARTPTS,"
+    base = []
+    for i, (idx, path, cap, a, b, _tr) in enumerate(picked):
+        d = q(b - a)
+        v = [f"trim=start={a}:end={a + d},setpts=PTS-STARTPTS,"
              f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},setsar=1,fps={FPS}"]
         if cap:
             v.append(drawtext(cap, 50, SAFE_TOP, "lt(t,3)", box=True))
@@ -214,24 +261,58 @@ def render(plan, out, version):
             e0 = max(0.0, d - plan["end_secs"])
             v.append(f"drawbox=x=0:y=ih*0.36:w=iw:h=ih*0.22:color=black@0.6:t=fill:enable='gte(t,{e0})'")
             v.append(drawtext(end_text, 52, "(h-th)*0.45", f"gte(t,{e0})"))
-        chain.append(",".join(v) + f",format=yuv420p[v{i}]")
+        vf = ",".join(v) + ",format=yuv420p"
         # loudnorm kéo dài đuôi âm thanh; cắt về đúng đoạn hình để không lệch tiếng
-        chain.append(f"[{i}:a]aresample=48000,aformat=channel_layouts=stereo,"
-                     f"loudnorm=I={LUFS}:TP=-1.5:LRA=11,aresample=48000,atrim={a}:{b},asetpts=PTS-STARTPTS,"
-                     f"afade=t=in:d=0.05,afade=t=out:st={d - 0.05}:d=0.05[a{i}]")
-    chain.append("".join(f"[v{i}][a{i}]" for i in range(n)) + f"concat=n={n}:v=1:a=1[v][a]")
+        af = (f"aresample=48000,aformat=channel_layouts=stereo,loudnorm=I={LUFS}:TP=-1.5:LRA=11,"
+              f"aresample=48000,atrim={a}:{a + d},asetpts=PTS-STARTPTS,apad=whole_dur={d},atrim=0:{d},"
+              f"afade=t=in:d=0.05,afade=t=out:st={d - 0.05}:d=0.05")
+        base.append((path, d, vf, af))
 
-    subprocess.run(["ffmpeg", "-v", "error", "-y", *inputs, "-filter_complex", ";".join(chain),
-                    "-map", "[v]", "-map", "[a]",
-                    "-c:v", "libx264", "-profile:v", "high", "-preset", "medium", "-crf", "18",
-                    "-maxrate", "12M", "-bufsize", "24M", "-r", str(FPS),
-                    "-c:a", "aac", "-b:a", "192k", "-ar", "48000",
-                    "-movflags", "+faststart", out], check=True)
+    # độ dài chuyển cảnh vào clip k, làm tròn theo khung hình; "cat" = 0
+    td = [0.0] + [0.0 if joins[k][0] == "cat" else max(q(joins[k][1]), 2 / FPS) for k in range(1, n)]
+    venc = ["-c:v", "libx264", "-pix_fmt", "yuv420p", "-profile:v", "high", "-preset", "medium", "-crf", "18",
+            "-maxrate", "12M", "-bufsize", "24M", "-r", str(FPS), "-video_track_timescale", "15360",
+            "-c:a", "pcm_s16le", "-ar", "48000", "-ac", "2"]
+
+    # Dựng từng đoạn nhỏ (mỗi lệnh ffmpeg chỉ mở 1-2 clip nên không tràn bộ nhớ dù video dài):
+    # thân clip 0, chuyển cảnh 1, thân clip 1, chuyển cảnh 2, ... rồi nối thẳng không mã hóa lại.
+    pieces = []
+    for i, (path, d, vf, af) in enumerate(base):
+        if i > 0 and td[i] > 0:
+            ppath, pd, pvf, paf = base[i - 1]
+            t = td[i]
+            piece = os.path.join(tmp, f"p{len(pieces):03d}.mov")
+            ff(["-threads", "2", "-i", ppath, "-threads", "2", "-i", path, "-filter_complex",
+                f"[0:v]{pvf},trim=start={pd - t}:end={pd},setpts=PTS-STARTPTS[va];"
+                f"[1:v]{vf},trim=start=0:end={t},setpts=PTS-STARTPTS[vb];"
+                f"[va][vb]xfade=transition={joins[i][0]}:duration={t}:offset=0[v];"
+                f"[0:a]{paf},atrim={pd - t}:{pd},asetpts=PTS-STARTPTS[aa];"
+                f"[1:a]{af},atrim=0:{t},asetpts=PTS-STARTPTS[ab];"
+                f"[aa][ab]acrossfade=d={t}:c1=tri:c2=tri,apad=whole_dur={t},atrim=0:{t}[a]",
+                "-map", "[v]", "-map", "[a]", *venc, piece])
+            pieces.append(piece)
+        head = td[i]
+        tail = td[i + 1] if i + 1 < n else 0.0
+        if d - head - tail >= 1 / FPS:
+            L = d - head - tail
+            piece = os.path.join(tmp, f"p{len(pieces):03d}.mov")
+            ff(["-threads", "2", "-i", path, "-filter_complex",
+                f"[0:v]{vf},trim=start={head}:end={d - tail},setpts=PTS-STARTPTS[v];"
+                f"[0:a]{af},atrim={head}:{d - tail},asetpts=PTS-STARTPTS,apad=whole_dur={L},atrim=0:{L}[a]",
+                "-map", "[v]", "-map", "[a]", *venc, piece])
+            pieces.append(piece)
+
+    listing = os.path.join(tmp, "list.txt")
+    with open(listing, "w", encoding="utf-8") as fh:
+        fh.writelines(f"file '{p}'\n" for p in pieces)
+    ff(["-f", "concat", "-safe", "0", "-i", listing, "-c:v", "copy",
+        "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-movflags", "+faststart", out])
+    total = sum(x[1] for x in base) - sum(td)
     fix_loudness(out)
     cover = os.path.splitext(out)[0] + ".jpg"
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", "1.2", "-i", out, "-frames:v", "1",
                     "-q:v", "2", cover], check=True)
-    print(f"Đã xuất: {out} ({sum(p[4] - p[3] for p in picked):.0f} giây)\nẢnh bìa: {cover}")
+    print(f"Đã xuất: {out} ({total:.1f} giây)\nẢnh bìa: {cover}")
 
 
 def main():

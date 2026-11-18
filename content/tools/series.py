@@ -14,6 +14,7 @@ AUDIO = "Audio: natural ambient sound, Vietnamese dialogue spoken naturally with
 TAGS = "#povlichsu #POV #lichsuvietnam #xuhuong #fyp"
 # Mặc định khi tập không tự khai báo. Từng tập có thể ghi đè bằng các khóa:
 # tt_title, hooks_alt (list), pin, yt_title, yt_tags, yt_pin, yt_desc_extra.
+# Mỗi clip có thể thêm chuyen="fadeblack:0.8" (chuyển cảnh vào clip đó; mặc định fade 0.4 của tools/tiktok.py).
 PIN_DEFAULT = "Bạn đoán đúng cái kết từ giây thứ mấy? 👇 Follow để xem tập tiếp theo nhé!"
 YT_DESC_EXTRA = ("Video do AI tạo, dựa trên sử liệu; nhân vật và lời thoại là hư cấu. "
                  "Đăng ký kênh để xem mỗi ngày một ngày sống ở Đại Việt.")
@@ -59,7 +60,8 @@ def build(episodes, here, series_tag="", note="", unit="Phần", file_unit="phan
             md += [
                    "**Ảnh khung đầu**", "```", c["img"], "```", "",
                    "**Video (Muse)**", "```", video, "```", ""]
-            plan.append(f"clip: {fname} | {c['label']}" + (f" | tiktok={cut}" if cut else ""))
+            plan.append(f"clip: {fname} | {c['label']}" + (f" | tiktok={cut}" if cut else "")
+                        + (f" | chuyen={c['chuyen']}" if c.get("chuyen") else ""))
             subs += [f"sub: {i} | {a}-{b} | {t}" for a, b, t in c["subs"]]
         plan += [""] + subs
         tags = " ".join(t for t in (TAGS, series_tag, ep["tags"]) if t)

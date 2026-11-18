@@ -70,6 +70,17 @@ Giới hạn:
 - Không đùa cợt anh hùng dân tộc, lời thề hay thơ thiêng (Hai Bà Trưng, "Nam quốc sơn hà", Điện Biên). Tiếng cười đặt vào nhân vật phụ.
 - Không lấy dân tộc thiểu số hay cảnh nghèo khó làm trò cười.
 
+## Chuyển cảnh
+
+Công cụ dựng `tools/tiktok.py` mặc định **hòa hình và hòa tiếng 0,4 giây** giữa các clip (thay cho cắt thẳng). Đổi riêng từng chỗ nối bằng `chuyen=` ở dòng clip, hoặc khóa `chuyen` của clip trong `_nguon.py`:
+
+- `fadeblack:0.8`: tối dần rồi sáng lại, dùng khi nhảy thời gian (đêm sang sáng, năm này sang năm khác).
+- `fadewhite:0.3`: lóe trắng, hợp trailer.
+- `fade:0.25`: hòa nhanh, dùng trong cảnh hành động.
+- `cat`: cắt thẳng, dùng cho cú bất ngờ (phất cờ, tiếng hô).
+
+Mỗi chỗ chuyển cảnh làm video ngắn đi đúng bằng thời lượng chuyển: 5 clip ngắn khoảng 1,6 giây, 18 clip khoảng 8 giây.
+
 ## Thông tin đăng (có sẵn trong file .md của mỗi tập)
 
 Mỗi tập có hai mục "Đăng TikTok" và "Đăng YouTube Shorts" để copy dán thẳng lúc đăng:

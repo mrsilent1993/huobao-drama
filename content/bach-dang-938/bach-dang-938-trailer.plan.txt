@@ -4,8 +4,8 @@ end: Trận đầy đủ / ở trang cá nhân →
 end_giay: 1.8
 
 clip: bd938-t1.mp4 |
-clip: bd938-t2.mp4 |
-clip: bd938-t3.mp4 |
+clip: bd938-t2.mp4 | | chuyen=fadeblack:0.6
+clip: bd938-t3.mp4 | | chuyen=fadewhite:0.3
 
 sub: 1 | 4.0-9.6 | Năm 938. / Quân Nam Hán vượt biển sang.
 sub: 2 | 4.5-9.6 | Thuyền chúng vào được... / nhưng không ra được.

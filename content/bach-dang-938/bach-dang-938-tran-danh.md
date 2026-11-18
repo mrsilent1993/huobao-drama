@@ -2,7 +2,7 @@
 
 Copy từng khối dán thẳng vào phần mềm. Prompt đã ghép đủ, không cần thay gì.
 
-**Video riêng, 3 phút, 18 clip Muse** (mỗi clip 10 giây), góc nhìn thứ nhất, có Anh Tư. Bản này để đăng **YouTube** (dọc, tối đa 3 phút vẫn là Shorts; file dựng tự cắt còn 2:59,5 cho chắc). Trailer 30 giây ở file `bach-dang-938-trailer.md`, đăng TikTok để dẫn người xem sang.
+**Video riêng, 3 phút, 18 clip Muse** (mỗi clip 10 giây), góc nhìn thứ nhất, có Anh Tư. Bản này để đăng **YouTube** (dọc, tối đa 3 phút vẫn là Shorts). 18 clip × 10 giây, trừ phần hòa cảnh giữa các clip, video ra khoảng **2 phút 52 giây**. Chuyển cảnh đã đặt sẵn: tối dần khi nhảy thời gian (đêm, sáng, trưa, chiều), cắt thẳng lúc phất cờ tấn công, hòa nhanh trong đoạn giao chiến. Trailer 30 giây ở file `bach-dang-938-trailer.md`, đăng TikTok để dẫn người xem sang.
 
 | Hồi | Clip | Thời gian | Nội dung |
 |---|---|---|---|
@@ -341,21 +341,21 @@ toi_da_giay: 179.5
 clip: bd938-01.mp4 | Đại La · cuối năm 938
 clip: bd938-02.mp4 | 
 clip: bd938-03.mp4 | 
-clip: bd938-04.mp4 | Cửa sông Bạch Đằng · đêm, triều rút
+clip: bd938-04.mp4 | Cửa sông Bạch Đằng · đêm, triều rút | chuyen=fadeblack:0.8
 clip: bd938-05.mp4 | 
-clip: bd938-06.mp4 | 
+clip: bd938-06.mp4 |  | chuyen=fadeblack:0.8
 clip: bd938-07.mp4 | Sáng hôm sau · triều lên
 clip: bd938-08.mp4 | 
 clip: bd938-09.mp4 | 
 clip: bd938-10.mp4 | 
-clip: bd938-11.mp4 | Quá trưa · triều bắt đầu rút
-clip: bd938-12.mp4 | 
-clip: bd938-13.mp4 | 
-clip: bd938-14.mp4 | 
-clip: bd938-15.mp4 | 
-clip: bd938-16.mp4 | Chiều tối
-clip: bd938-17.mp4 | Sáng hôm sau · triều rút
-clip: bd938-18.mp4 | Cổ Loa · mùa xuân năm 939
+clip: bd938-11.mp4 | Quá trưa · triều bắt đầu rút | chuyen=fadeblack:0.8
+clip: bd938-12.mp4 |  | chuyen=cat
+clip: bd938-13.mp4 |  | chuyen=fade:0.25
+clip: bd938-14.mp4 |  | chuyen=fade:0.25
+clip: bd938-15.mp4 |  | chuyen=fade:0.25
+clip: bd938-16.mp4 | Chiều tối | chuyen=fadeblack:0.8
+clip: bd938-17.mp4 | Sáng hôm sau · triều rút | chuyen=fadeblack:0.8
+clip: bd938-18.mp4 | Cổ Loa · mùa xuân năm 939 | chuyen=fadeblack:1.0
 
 sub: 1 | 0.5-4.8 | Hoằng Tháo từ xa đến, quân mỏi mệt, / lại mất nội ứng.
 sub: 1 | 5.0-9.6 | Nhưng chúng mạnh về thuyền. / Ta phải đánh vào thuyền.
