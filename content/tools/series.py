@@ -9,7 +9,9 @@ POV = ("First-person POV video, handheld camera at eye level as if seen through 
        "the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, "
        "cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. "
        "No children in close-up, no children's faces, no children crying or in distress; "
-       "any child appears only from behind or at a distance.")
+       "any child appears only from behind or at a distance. "
+       "No modern national flags anywhere (never a red flag with a yellow star); no flags at all unless the "
+       "scene describes a period-accurate one.")
 AUDIO = "Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync, no background music."
 TAGS = "#povlichsu #POV #lichsuvietnam #xuhuong #fyp"
 # Clip có noi=True: nối liền cảnh với clip trước (ảnh khung đầu = khung cuối clip trước, cắt bằng tools/khung-cuoi.py)
@@ -17,6 +19,8 @@ NOI_NOTE = '**Nối cảnh với clip trước:** tạo clip trước xong, ch�
 CONT = 'Continue seamlessly from the previous shot: the first frame is exactly the last frame of the previous clip, same people, clothes, light and camera position.'
 # Mặc định khi tập không tự khai báo. Từng tập có thể ghi đè bằng các khóa:
 # tt_title, hooks_alt (list), pin, yt_title, yt_tags, yt_pin, yt_desc_extra.
+# Tập: visual="..." (đoạn chuẩn trang phục/thuyền/cờ in vào file .md), md_frozen=True (file .md là bản cuối đã quay,
+#      không ghi đè). Clip: setting="..." (bối cảnh riêng cho clip, thay bối cảnh chung của tập).
 # Mỗi clip có thể thêm chuyen="fadeblack:0.8" (chuyển cảnh vào clip đó; mặc định fade 0.4 của tools/tiktok.py).
 PIN_DEFAULT = "Bạn đoán đúng cái kết từ giây thứ mấy? 👇 Follow để xem tập tiếp theo nhé!"
 YT_DESC_EXTRA = ("Video do AI tạo, dựa trên sử liệu; nhân vật và lời thoại là hư cấu. "
@@ -42,6 +46,8 @@ def build(episodes, here, series_tag="", note="", unit="Phần", file_unit="phan
         if note:
             md += [note, ""]
         md += [ep["history"], ""]
+        if ep.get("visual"):             # chuẩn trang phục, thuyền, cờ dùng chung cả tập (xem nghien-cuu/chuan-hinh-anh-quan-doi.md)
+            md += [ep["visual"], ""]
         plan = [f"# Dựng: python3 ../tools/tiktok.py {base}.plan.txt {base}.mp4"
                 + (f"  (ra {base}-youtube.mp4 và {base}-tiktok.mp4)" if any(
                     c.get("tiktok") for c in ep["clips"]) else ""),
@@ -52,7 +58,9 @@ def build(episodes, here, series_tag="", note="", unit="Phần", file_unit="phan
         subs = []
         for i, c in enumerate(ep["clips"], 1):
             fname = f"{ep['prefix']}-{i}.mp4"
-            video = f"{POV} {ep['setting']} " + (f"{CONT} " if c.get("noi") else "") + f"{c['vid']} {AUDIO}"
+            # clip có thể ghi đè bối cảnh riêng (ví dụ cảnh chỉ có một phe: liệt kê rõ ai có, ai tuyệt đối không có)
+            video = (f"{POV} {c.get('setting', ep['setting'])} " + (f"{CONT} " if c.get("noi") else "")
+                     + f"{c['vid']} {AUDIO}")
             cut = c.get("tiktok")
             cut_note = ("" if cut is None else
                         "**Bản TikTok:** bỏ clip này." if cut == "bo" else
@@ -98,8 +106,12 @@ def build(episodes, here, series_tag="", note="", unit="Phần", file_unit="phan
                    "Khi đăng: ở mục \"Nội dung bị thay đổi\" (Altered content) chọn **Có**, vì video do AI tạo.", ""]
         md += [
                "## Chữ trên video (mình chèn ở hậu kỳ)", "", "```", "\n".join(plan).strip(), "```", ""]
-        with open(os.path.join(here, base + ".md"), "w", encoding="utf-8") as fh:
-            fh.write("\n".join(md))
+        md_path = os.path.join(here, base + ".md")
+        if ep.get("md_frozen") and os.path.isfile(md_path):
+            pass                         # bản cuối đã dùng để quay: giữ nguyên, không ghi đè
+        else:
+            with open(md_path, "w", encoding="utf-8") as fh:
+                fh.write("\n".join(md))
         with open(os.path.join(here, base + ".plan.txt"), "w", encoding="utf-8") as fh:
             fh.write("\n".join(plan) + "\n")
         lines.append(f"{base}: {len(ep['clips'])} clip")

@@ -20,6 +20,9 @@ FACE = ("a Vietnamese man around 30 with deeply tanned skin, a scar across his l
 HUE = ("a lean young man of about 18 with curly hair, very bright piercing eyes and a ringing voice, in plain "
        "dark-indigo clothes with a red headband")
 
+QING_VIS = '**Chuẩn hình ảnh quân Thanh 1789 (⚠️ hiểu biết chung, xem `../nghien-cuu/chuan-hinh-anh-quan-doi.md`):** lính cạo nửa đầu trước, tết đuôi sam, áo vải dài quá gối màu sẫm (xanh lam hoặc nâu), ủng vải, nón tre hoặc nón dạ; quan mặc triều phục có bổ tử thêu, mũ có quả đỉnh. Không có chữ trên áo hay trên cờ, không quân phục kiểu Âu, không cờ hiện đại.'
+QING_EN = 'Qing soldiers of 1789 have shaved foreheads and long braided queues, wear plain dark-blue or brown knee-length cotton tunics over trousers, cloth boots and conical bamboo or felt hats; Qing officers wear court robes with an embroidered square rank badge and a hat with a finial. Absolutely NO European uniforms, NO epaulettes, NO modern rifles, NO characters or writing on any clothing, flag or sign.'
+
 NOTE = ("**Anh Tư:** nhân vật của video 1,4 triệu. Mỗi tập là một đời con cháu, cùng một gương mặt: **sẹo ngang "
         "lông mày trái, răng cửa mẻ, cười toe**. Dùng lại ảnh chân dung Anh Tư (prompt trong `../bach-dang/README.md`) "
         "làm ảnh tham chiếu trong Muse, chỉ đổi trang phục theo thời. **Bản TikTok 30 giây** gồm clip 1, 3, 5; **bản "
@@ -504,7 +507,8 @@ EPISODES = [
                  "summer palace at Rehe (Chengde) with golden roofs, Manchu officials with queues in Qing court robes. "
                  "The Đại Việt envoy playing the king is a dignified Vietnamese man around 35 with curly hair and bright "
                  "eyes, in a yellow-and-red Vietnamese royal robe and hat. The Qianlong Emperor is a dignified elderly "
-                 f"man around 80 in a yellow dragon robe. Anh Tư is {FACE}, an attendant in a neat dark-red uniform."),
+                 "man around 80 in a yellow dragon robe. No visible writing on robes, banners or signboards; no modern "
+                 f"flags; no European clothing. Anh Tư is {FACE}, an attendant in a neat dark-red uniform."),
         hook="POV: Theo hầu vua / sang nước Thanh / mà vua... hơi lạ",
         end="Sử không ghi tên Anh Tư. / Follow để xem đời sau / nhà Anh Tư bị giao việc gì →",
         clips=[
@@ -549,6 +553,9 @@ EPISODES = [
     # ------------------------------------------------------------------ 1785 Rạch Gầm (tiền truyện tập 5)
     dict(
         slug="dan-duong-rach-gam-1785", prefix="nbt11",
+        # Bản cuối đã quay nằm ở tap-11-dan-duong-rach-gam-1785.md (anh sửa trang phục, thuyền, cờ quân Xiêm 1785
+        # và tách rõ hai người ở clip 2). File đó là nguồn đúng; ở đây chỉ còn dùng để sinh plan.txt.
+        md_frozen=True,
         title="Được thuê dẫn đường cho đoàn thuyền giặc, dẫn đến khúc sông yên tĩnh nhất thì... (Rạch Gầm – Xoài Mút, 1785)",
         length="YouTube 50 giây (5 clip) · TikTok 30 giây (clip 1, 3, 5)",
         history=("**Lịch sử:** năm 1784, theo lời cầu viện của Nguyễn Ánh, vua Xiêm sai quân thủy bộ sang đánh Gia Định, "
@@ -615,10 +622,11 @@ EPISODES = [
                  "giáp\" theo *Hoàng Lê nhất thống chí* (tiểu thuyết lịch sử, mức C). **Hư cấu:** Anh Tư, người phiên "
                  "dịch và mọi lời thoại. Không dựng cảnh người rơi xuống sông."),
         setting=("Vietnam, Tết Kỷ Dậu (late January 1789), Thăng Long on the Red River: a long pontoon bridge of wooden "
-                 "boats lashed together under planks, the Qing camp on the bank with many banners and red lanterns, "
-                 "Qing soldiers with queues in Qing uniforms, a Vietnamese interpreter in a dark Lê-era official robe. "
+                 "boats lashed together under planks, the Qing camp on the bank with plain banners without writing and red "
+                 f"lanterns. {QING_EN} A Vietnamese interpreter in a dark Lê-era official robe. "
                  f"Anh Tư is {FACE}, a Thăng Long laborer in a patched brown shirt and cloth head wrap. "
                  "Tây Sơn troops in dark-red uniforms appear only at the end, at a distance."),
+        visual=QING_VIS,
         hook="POV: Canh cầu phao / cho quân Thanh / dịp Tết",
         end="Sử không ghi tên Anh Tư. / Follow để xem đời sau / nhà Anh Tư bị giao việc gì →",
         clips=[

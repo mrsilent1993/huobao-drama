@@ -91,6 +91,17 @@ Chuyển cảnh lúc dựng chỉ che được chỗ nối. Hai clip cùng một
 
 Clip cần làm vậy có ghi chú **"Nối cảnh với clip trước"** trong file .md (khai báo bằng `noi=True` trong `_nguon.py`). Ghép xong muốn kiểm tra chỗ nào còn nhảy: `python3 tools/khung-cuoi.py <thư mục clip> --so-sanh`.
 
+## Trang phục, thuyền, cờ đúng thời (bắt buộc)
+
+Theo bản cuối tập 11 (Rạch Gầm 1785), có 7 quy tắc viết prompt, ghi ở `nghien-cuu/chuan-hinh-anh-quan-doi.md`. Tóm tắt:
+
+- Mỗi phe có một đoạn "chuẩn hình ảnh" (trang phục, thuyền, cờ) đúng năm, kèm danh sách cấm in hoa (`Absolutely NO European uniforms…`).
+- Cảnh chỉ có một phe thì ghi `The frame contains ONLY … Absolutely NO …`.
+- Hai người trao nhau vật gì thì tách rõ người trao và người nhận: mặc gì, đứng bên nào.
+- Mọi prompt đã cấm cờ hiện đại (Muse từng tự chèn cờ đỏ sao vàng). Cảnh cao trào nhiều thuyền, nhiều quân thì cấm hẳn mọi loại cờ.
+- Không có chữ trên áo, cờ, biển hiệu.
+- Prompt nào sửa sau khi quay thì lưu bản cuối và đặt `md_frozen=True`.
+
 ## Thông tin đăng (có sẵn trong file .md của mỗi tập)
 
 Mỗi tập có hai mục "Đăng TikTok" và "Đăng YouTube Shorts" để copy dán thẳng lúc đăng:

@@ -37,7 +37,8 @@ EPISODES = [
                  "cho quân vào. Đây là thành lớn đầu tiên Tây Sơn chiếm được. **Hư cấu:** Anh Tư khiêng cũi, chiếc chốt "
                  "\"lắp ngược\" và mọi lời thoại."),
         setting=("Vietnam, autumn 1773, Quy Nhơn citadel in Bình Định: earth-and-brick walls, a wooden gate, the garrison "
-                 "of the Nguyễn lords in dark-blue uniforms, a provincial official in an embroidered robe. "
+                 "of the Nguyễn lords in plain dark cotton uniforms with cloth head wraps, a provincial official in an "
+                 "embroidered robe. No visible writing on clothes or signs, no flags. "
                  f"{REBELS}. {NHAC}. Anh Tư is {FACE}, in a brown shirt with a red head wrap."),
         hook="POV: Khiêng cũi / có người / vào thành giặc",
         end=END_NEXT.format("năm 1778"),
@@ -48,7 +49,7 @@ EPISODES = [
                  subs=[(0.5, 4.8, "Khiêng ta vào thành. / Nói là bắt được tướng giặc."),
                        (5.0, 9.5, "Anh cả... / tự chui vào cũi ạ?")]),
             dict(name="Cổng thành", tiktok="bo", label="Trước cổng thành Quy Nhơn",
-                 img=f"First-person view carrying a wooden cage on a pole toward a citadel gate, guards in dark-blue uniforms with spears blocking the way, {FACE} at the front of the pole, putting on a serious face, realistic, vertical 9:16.",
+                 img=f"First-person view carrying a wooden cage on a pole toward a citadel gate, guards in plain dark cotton uniforms with spears blocking the way, {FACE} at the front of the pole, putting on a serious face, realistic, vertical 9:16.",
                  vid="0-5s: At the gate, a guard blocks them; Anh Tư puts on a grave face and announces loudly: \"Bắt được tướng giặc đây ạ!\" 5-10s: As the guard waves them through, Anh Tư mutters to the viewer: \"Bắt khó lắm... anh ấy tự chui vào.\"",
                  subs=[(0.5, 4.8, "Bắt được tướng giặc đây ạ!"),
                        (5.0, 9.5, "Bắt khó lắm... / anh ấy tự chui vào.")]),
@@ -88,7 +89,7 @@ EPISODES = [
                  "(Bình Định) và đổi tên là thành Hoàng Đế (mức B). Nguyễn Lữ và Nguyễn Huệ được phong tước, cầm quân. "
                  "**Hư cấu:** Anh Tư thay biển, may áo, ghi lại năm tháng trên giấy tờ và mọi lời thoại."),
         setting=("Vietnam, 1778, the old Cham-built citadel of Đồ Bàn in Bình Định being renovated as a capital: brick "
-                 "towers in the distance, a big wooden gate with a large horizontal signboard, officials in new court robes. "
+                 "towers in the distance, a big wooden gate with a large horizontal signboard whose lettering is not legible (no readable text), officials in new court robes. "
                  f"{REBELS}. {NHAC}, now in a yellow imperial robe. Anh Tư is {FACE}, in a neat dark-red uniform."),
         hook="POV: Thay biển tên / cả tòa thành / trong một đêm",
         end=END_NEXT.format("năm 1785"),

@@ -20,7 +20,9 @@ SETTING = ("Vietnam, winter of 938, the Bạch Đằng River estuary near the se
            "banks, limestone hills, broad mudflats at low tide. Vietnamese soldiers with hair in topknots and "
            "black-lacquered teeth, in brown tunics or bare-chested, with spears, crossbows and bows, small light "
            "wooden boats. The Southern Han forces: tall multi-deck wooden warships with red banners, soldiers in "
-           "Tang-style lamellar armor. No blood, no gore, no dead bodies shown.")
+           "Tang-style lamellar armor and helmets with neck guards. Absolutely NO European plate armor, NO European "
+           "sailing ships, NO writing on flags or clothing (plain red banners only), NO modern flags. No blood, no gore, "
+           "no dead bodies shown.")
 TRAILER_STYLE = ("Cinematic epic trailer shot, live-action realistic, dramatic natural light, sweeping camera, "
                  "vertical 9:16. No modern objects, no on-screen text. No blood, no gore, no children.")
 TRAILER_AUDIO = ("Audio: deep war drums and natural ambient sound (wind, water, wood creaking); only the noted "
