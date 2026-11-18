@@ -1,0 +1,20 @@
+# Dựng: python3 ../tools/tiktok.py tap-5-dung-dan-nui-ban-1788.plan.txt tap-5-dung-dan-nui-ban-1788.mp4  (ra tap-5-dung-dan-nui-ban-1788-youtube.mp4 và tap-5-dung-dan-nui-ban-1788-tiktok.mp4)
+hook: POV: Dựng đàn tế / cho vua lên ngôi / gấp trong ba ngày
+end: Sử không ghi tên Anh Tư. / Follow để xem mốc tiếp: / Tết Kỷ Dậu 1789 →
+
+clip: ts1788-1.mp4 | Núi Bân, Phú Xuân · cuối năm 1788
+clip: ts1788-2.mp4 | Đêm thứ ba | tiktok=bo
+clip: ts1788-3.mp4 | Ngày 22/12/1788
+clip: ts1788-4.mp4 | Buổi chiều | tiktok=bo
+clip: ts1788-5.mp4 | 
+
+sub: 1 | 0.5-4.8 | Ba ngày nữa xong đàn. / Không được chậm một canh.
+sub: 1 | 5.0-7.6 | Đàn để làm gì / mà gấp thế ạ?
+sub: 1 | 7.6-9.6 | Không hỏi. Đắp.
+sub: 2 | 5.0-9.5 | Được người ta lạy / có một lần... mà em run / hơn cả lúc ra trận.
+sub: 3 | 0.5-4.8 | Vạn tuế! Vạn tuế! / Vạn vạn tuế!
+sub: 3 | 5.0-9.5 | Vừa lên ngôi xong... / sao ông ấy cứ nhìn / về phía Bắc thế?
+sub: 4 | 0.5-4.8 | Dỡ đàn đi.
+sub: 4 | 5.0-9.5 | Đắp ba ngày, / dùng một buổi sáng... / giờ lại dỡ.
+sub: 5 | 0.3-4.8 | Lên ngôi ở núi Bân, / niên hiệu Quang Trung, / rồi lập tức ra Bắc.
+sub: 5 | 5.0-9.8 | Cái đàn ấy em đắp! / Ghi tên em vào sử nhé!

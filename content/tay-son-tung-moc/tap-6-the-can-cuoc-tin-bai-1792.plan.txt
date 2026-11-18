@@ -1,0 +1,19 @@
+# Dựng: python3 ../tools/tiktok.py tap-6-the-can-cuoc-tin-bai-1792.plan.txt tap-6-the-can-cuoc-tin-bai-1792.mp4  (ra tap-6-the-can-cuoc-tin-bai-1792-youtube.mp4 và tap-6-the-can-cuoc-tin-bai-1792-tiktok.mp4)
+hook: POV: Bị sai đi làm / thẻ căn cước / từ thế kỷ 18
+end: Sử không ghi tên Anh Tư. / Follow để xem cả loạt / Tây Sơn từng mốc →
+
+clip: ts1792-1.mp4 | Nghệ An · năm 1791
+clip: ts1792-2.mp4 |  | tiktok=bo
+clip: ts1792-3.mp4 | 
+clip: ts1792-4.mp4 | Năm 1792 | tiktok=bo
+clip: ts1792-5.mp4 | Mùa thu năm 1792
+
+sub: 1 | 0.5-4.8 | Ai không có tín bài / thì coi như dân lậu!
+sub: 1 | 5.0-9.5 | Làm thẻ căn cước... / thời này đã có rồi à?
+sub: 2 | 0.5-4.8 | "Thiên hạ đại tín"
+sub: 2 | 5.0-9.5 | Em là người đầu tiên / trong làng được đóng dấu.
+sub: 3 | 0.5-4.8 | Tôi năm nay... / sáu mươi mốt.
+sub: 3 | 5.0-9.5 | Sáu mươi mốt... / mà da căng hơn cả em.
+sub: 4 | 5.0-9.5 | Vua bảo ai về quê nấy / cày ruộng. Ruộng hoang / giờ xanh hết rồi.
+sub: 5 | 0.3-4.8 | Mùa thu năm 1792, / vua Quang Trung mất, / khi mới 40 tuổi.
+sub: 5 | 5.0-9.8 | Tấm thẻ này em giữ đến giờ. / Ghi tên em vào sử nhé.
