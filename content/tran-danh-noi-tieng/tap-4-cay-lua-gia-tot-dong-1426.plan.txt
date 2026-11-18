@@ -1,6 +1,6 @@
 # Dựng: python3 ../tools/tiktok.py tap-4-cay-lua-gia-tot-dong-1426.plan.txt tap-4-cay-lua-gia-tot-dong-1426.mp4  (ra tap-4-cay-lua-gia-tot-dong-1426-youtube.mp4 và tap-4-cay-lua-gia-tot-dong-1426-tiktok.mp4)
 hook: POV: Cấy lúa / ngay bên đường / giặc đi qua
-end: Sử không ghi tên Anh Tư. / Follow để xem / trận đánh tiếp theo →
+end: Follow để xem / trận đánh tiếp theo →
 nhan: AI tái hiện · lời thoại hư cấu
 
 clip: td1426-1.mp4 | Tốt Động · tháng 11 năm 1426
@@ -17,4 +17,4 @@ sub: 2 | 5.0-9.5 | Em... cấy kiểu mới cụ ạ.
 sub: 3 | 5.0-9.5 | Diễn nông dân thôi... / mà em cấy nhanh hơn / cả nông dân thật.
 sub: 4 | 5.0-9.5 | Cả cánh đồng này... / không có ai là nông dân thật.
 sub: 5 | 0.3-4.8 | Năm 1426, Lam Sơn phục kích / ở Tốt Động – Chúc Động. / Vương Thông chạy về Đông Quan.
-sub: 5 | 5.0-9.8 | Ruộng ấy em cấy đấy! / Ghi tên em vào sử nhé!
+sub: 5 | 5.0-9.8 | Ruộng ấy em cấy đấy! / Cấy ngược mà vẫn thắng!

@@ -1,6 +1,6 @@
 # Dựng: python3 ../tools/tiktok.py tap-1-khieng-cui-quy-nhon-1773.plan.txt tap-1-khieng-cui-quy-nhon-1773.mp4  (ra tap-1-khieng-cui-quy-nhon-1773-youtube.mp4 và tap-1-khieng-cui-quy-nhon-1773-tiktok.mp4)
 hook: POV: Khiêng cũi / có người / vào thành giặc
-end: Sử không ghi tên Anh Tư. / Follow để xem mốc tiếp: / năm 1778 →
+end: Follow để xem mốc tiếp: / năm 1778 →
 nhan: AI tái hiện · lời thoại hư cấu
 end_giay: 1.6
 
@@ -23,4 +23,4 @@ sub: 4 | 5.0-9.5 | Quan mừng quá... mà trong cũi, / anh cả đang ngủ ng
 sub: 5 | 0.5-4.8 | Cửa cũi mở không một tiếng động.
 sub: 5 | 5.0-9.5 | Chốt cũi em làm... / lắp ngược từ đầu.
 sub: 6 | 0.3-4.8 | Năm 1773, Tây Sơn lấy thành / Quy Nhơn bằng mưu: thành lớn / đầu tiên của nghĩa quân.
-sub: 6 | 5.0-8.4 | Cái cũi ấy em khiêng! / Ghi tên em vào sử nhé!
+sub: 6 | 5.0-8.4 | Cái cũi ấy em khiêng! / Lần sau anh cả tự đi bộ nhé!

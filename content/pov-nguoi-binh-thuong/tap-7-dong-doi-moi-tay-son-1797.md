@@ -64,7 +64,7 @@ First-person view of a harbor, the Cantonese seafarers hoisting flags of differe
 First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. No modern national flags anywhere (never a red flag with a yellow star); no flags at all unless the scene describes a period-accurate one. Vietnam, Tây Sơn dynasty, around 1797, a Tây Sơn naval harbor on the northern coast: big wooden warships with eyes painted on the bow, ropes, oars, sea wind. Tây Sơn sailors with black-lacquered teeth in brown and dark-indigo clothes with red headbands, barefoot; an officer in a dark-red uniform. Newly arrived Cantonese seafarers of the 1790s with Qing-style shaved foreheads and long braids, loose dark clothes, arms covered in tattoos, friendly and relaxed, speaking Cantonese. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face, in a brown shirt with a red headband. No fighting, no weapons being used. 0-5s: The seafarers hoist a different-colored flag on each junk: red, black, white. Anh Tư holds a black flag and asks: "Cùng một quân, sao mỗi thuyền một màu cờ?" 5-10s: The tattooed seafarer answers in broken Vietnamese, grinning: "Đỏ, đen, trắng... dễ nhận nhà!" Anh Tư nods to the viewer: "Như áo đội bóng. Hiểu rồi." Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync in a natural Northern Vietnamese (Hà Nội) accent, no background music.
 ```
 
-## Clip 5: Ghi tên em vào sử
+## Clip 5: Câu chốt
 File Muse đặt tên: `nbt7-5.mp4`
 
 **Ảnh khung đầu**
@@ -74,7 +74,7 @@ First-person view at sunset from a hilltop over the open sea, a huge fleet of ju
 
 **Video (Muse)**
 ```
-First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. No modern national flags anywhere (never a red flag with a yellow star); no flags at all unless the scene describes a period-accurate one. Vietnam, Tây Sơn dynasty, around 1797, a Tây Sơn naval harbor on the northern coast: big wooden warships with eyes painted on the bow, ropes, oars, sea wind. Tây Sơn sailors with black-lacquered teeth in brown and dark-indigo clothes with red headbands, barefoot; an officer in a dark-red uniform. Newly arrived Cantonese seafarers of the 1790s with Qing-style shaved foreheads and long braids, loose dark clothes, arms covered in tattoos, friendly and relaxed, speaking Cantonese. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face, in a brown shirt with a red headband. No fighting, no weapons being used. 0-5s: Sunset; a huge fleet of junks with colored flags sails north toward the horizon. A calm narrator's voice says: "Năm 1802 Tây Sơn mất. Họ về Quảng Đông, lập sáu hạm đội cờ màu, vài vạn người." 5-10s: Anh Tư grins proudly at the camera: "Em dạy họ đi đội hình đấy! Ghi tên em vào sử nhé!" Then his grin fades and he adds quickly: "...Mà thôi. Đừng ghi." Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync in a natural Northern Vietnamese (Hà Nội) accent, no background music.
+First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. No modern national flags anywhere (never a red flag with a yellow star); no flags at all unless the scene describes a period-accurate one. Vietnam, Tây Sơn dynasty, around 1797, a Tây Sơn naval harbor on the northern coast: big wooden warships with eyes painted on the bow, ropes, oars, sea wind. Tây Sơn sailors with black-lacquered teeth in brown and dark-indigo clothes with red headbands, barefoot; an officer in a dark-red uniform. Newly arrived Cantonese seafarers of the 1790s with Qing-style shaved foreheads and long braids, loose dark clothes, arms covered in tattoos, friendly and relaxed, speaking Cantonese. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face, in a brown shirt with a red headband. No fighting, no weapons being used. 0-5s: Sunset; a huge fleet of junks with colored flags sails north toward the horizon. A calm narrator's voice says: "Năm 1802 Tây Sơn mất. Họ về Quảng Đông, lập sáu hạm đội cờ màu, vài vạn người." 5-10s: Anh Tư grins proudly at the camera: "Em dạy họ đi đội hình đấy!" Then his grin fades and he adds quickly: "...Mà thôi, đừng ai biết là em." Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync in a natural Northern Vietnamese (Hà Nội) accent, no background music.
 ```
 
 ## Đăng TikTok
@@ -141,7 +141,7 @@ Khi đăng: ở mục "Nội dung bị thay đổi" (Altered content) chọn **C
 ```
 # Dựng: python3 ../tools/tiktok.py tap-7-dong-doi-moi-tay-son-1797.plan.txt tap-7-dong-doi-moi-tay-son-1797.mp4  (ra tap-7-dong-doi-moi-tay-son-1797-youtube.mp4 và tap-7-dong-doi-moi-tay-son-1797-tiktok.mp4)
 hook: POV: Đồng đội mới / ai cũng xăm kín tay
-end: Sử không ghi tên Anh Tư. / Follow để xem đời sau / nhà Anh Tư bị giao việc gì →
+end: Follow để xem đời sau / nhà Anh Tư bị giao việc gì →
 nhan: AI tái hiện · lời thoại hư cấu
 
 clip: nbt7-1.mp4 | Bến thủy quân Tây Sơn · khoảng 1797
@@ -160,6 +160,6 @@ sub: 4 | 0.5-4.8 | Cùng một quân, / sao mỗi thuyền một màu cờ?
 sub: 4 | 5.0-7.3 | Đỏ, đen, trắng... dễ nhận nhà!
 sub: 4 | 7.3-9.6 | Như áo đội bóng. Hiểu rồi.
 sub: 5 | 0.3-4.8 | Năm 1802 Tây Sơn mất. / Họ về Quảng Đông, / lập sáu hạm đội cờ màu.
-sub: 5 | 5.0-8.0 | Em dạy họ đi đội hình đấy! / Ghi tên em vào sử nhé!
-sub: 5 | 8.0-9.8 | ...Mà thôi. Đừng ghi.
+sub: 5 | 5.0-8.0 | Em dạy họ đi đội hình đấy!
+sub: 5 | 8.0-9.8 | ...Mà thôi, đừng ai biết là em.
 ```

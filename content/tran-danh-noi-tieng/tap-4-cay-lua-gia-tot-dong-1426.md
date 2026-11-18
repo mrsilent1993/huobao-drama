@@ -68,7 +68,7 @@ First-person view in a misty rice field, a Vietnamese man around 30 with deeply 
 First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. No modern national flags anywhere (never a red flag with a yellow star); no flags at all unless the scene describes a period-accurate one. Vietnam, November 1426, flat muddy rice fields and marshes beside a raised dirt road at Tốt Động – Chúc Động: bamboo hedges, buffalo, mist. Lam Sơn fighters disguised as farmers in brown clothes and conical hats; real local farmers. Ming soldiers in red padded cotton coats, round iron helmets with a red tassel, some in studded brigandine armor, with spears and swords; officers in round-collared robes and black gauze caps. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face, disguised as a farmer, barefoot in the mud. No visible writing or characters on clothes, boats, banners or signs; no flags; no European clothing, armor or ships; no blood, no dead bodies. 0-5s: Anh Tư straightens up and raises his conical hat high; all around, dozens of 'farmers' rise from the mud and pull spears out from under bundles of straw. 5-10s: Anh Tư whispers to the viewer: "Cả cánh đồng này... không có ai là nông dân thật." Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync in a natural Northern Vietnamese (Hà Nội) accent, no background music.
 ```
 
-## Clip 5: Ghi tên em vào sử
+## Clip 5: Câu chốt
 File Muse đặt tên: `td1426-5.mp4`
 
 **Ảnh khung đầu**
@@ -78,7 +78,7 @@ First-person view from a rice field at dusk, the Ming column on the road broken 
 
 **Video (Muse)**
 ```
-First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. No modern national flags anywhere (never a red flag with a yellow star); no flags at all unless the scene describes a period-accurate one. Vietnam, November 1426, flat muddy rice fields and marshes beside a raised dirt road at Tốt Động – Chúc Động: bamboo hedges, buffalo, mist. Lam Sơn fighters disguised as farmers in brown clothes and conical hats; real local farmers. Ming soldiers in red padded cotton coats, round iron helmets with a red tassel, some in studded brigandine armor, with spears and swords; officers in round-collared robes and black gauze caps. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face, disguised as a farmer, barefoot in the mud. No visible writing or characters on clothes, boats, banners or signs; no flags; no European clothing, armor or ships; no blood, no dead bodies. 0-5s: Dusk; the Ming column, broken up, retreats in disorder toward the distant city, leaving weapons in the mud; no bodies shown. A calm narrator's voice says: "Tháng 11 năm 1426, nghĩa quân Lam Sơn phục kích ở Tốt Động – Chúc Động. Vương Thông bị thương, chạy về Đông Quan." 5-10s: Anh Tư grins at the camera: "Ruộng ấy em cấy đấy! Ghi tên em vào sử nhé!" Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync in a natural Northern Vietnamese (Hà Nội) accent, no background music.
+First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. No modern national flags anywhere (never a red flag with a yellow star); no flags at all unless the scene describes a period-accurate one. Vietnam, November 1426, flat muddy rice fields and marshes beside a raised dirt road at Tốt Động – Chúc Động: bamboo hedges, buffalo, mist. Lam Sơn fighters disguised as farmers in brown clothes and conical hats; real local farmers. Ming soldiers in red padded cotton coats, round iron helmets with a red tassel, some in studded brigandine armor, with spears and swords; officers in round-collared robes and black gauze caps. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face, disguised as a farmer, barefoot in the mud. No visible writing or characters on clothes, boats, banners or signs; no flags; no European clothing, armor or ships; no blood, no dead bodies. 0-5s: Dusk; the Ming column, broken up, retreats in disorder toward the distant city, leaving weapons in the mud; no bodies shown. A calm narrator's voice says: "Tháng 11 năm 1426, nghĩa quân Lam Sơn phục kích ở Tốt Động – Chúc Động. Vương Thông bị thương, chạy về Đông Quan." 5-10s: Anh Tư grins at the camera: "Ruộng ấy em cấy đấy! Cấy ngược mà vẫn thắng!" Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync in a natural Northern Vietnamese (Hà Nội) accent, no background music.
 ```
 
 ## Đăng TikTok
@@ -145,7 +145,7 @@ Khi đăng: ở mục "Nội dung bị thay đổi" (Altered content) chọn **C
 ```
 # Dựng: python3 ../tools/tiktok.py tap-4-cay-lua-gia-tot-dong-1426.plan.txt tap-4-cay-lua-gia-tot-dong-1426.mp4  (ra tap-4-cay-lua-gia-tot-dong-1426-youtube.mp4 và tap-4-cay-lua-gia-tot-dong-1426-tiktok.mp4)
 hook: POV: Cấy lúa / ngay bên đường / giặc đi qua
-end: Sử không ghi tên Anh Tư. / Follow để xem / trận đánh tiếp theo →
+end: Follow để xem / trận đánh tiếp theo →
 nhan: AI tái hiện · lời thoại hư cấu
 
 clip: td1426-1.mp4 | Tốt Động · tháng 11 năm 1426
@@ -162,5 +162,5 @@ sub: 2 | 5.0-9.5 | Em... cấy kiểu mới cụ ạ.
 sub: 3 | 5.0-9.5 | Diễn nông dân thôi... / mà em cấy nhanh hơn / cả nông dân thật.
 sub: 4 | 5.0-9.5 | Cả cánh đồng này... / không có ai là nông dân thật.
 sub: 5 | 0.3-4.8 | Năm 1426, Lam Sơn phục kích / ở Tốt Động – Chúc Động. / Vương Thông chạy về Đông Quan.
-sub: 5 | 5.0-9.8 | Ruộng ấy em cấy đấy! / Ghi tên em vào sử nhé!
+sub: 5 | 5.0-9.8 | Ruộng ấy em cấy đấy! / Cấy ngược mà vẫn thắng!
 ```

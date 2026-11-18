@@ -37,7 +37,7 @@ VIS = {
 NOTE = ("**Trận đánh nổi tiếng:** mỗi trận một tập theo công thức Anh Tư (sẹo ngang lông mày trái, răng cửa mẻ, cười "
         "toe; ảnh tham chiếu trong `../bach-dang/README.md`). Các vị tướng, vua chỉ xuất hiện trang trọng; mọi câu đùa "
         "nhắm vào Anh Tư. **Bản TikTok 30 giây** gồm clip 1, 3, 5; **bản YouTube 50 giây** gồm đủ 5 clip.")
-END = "Sử không ghi tên Anh Tư. / Follow để xem / trận đánh tiếp theo →"
+END = "Follow để xem / trận đánh tiếp theo →"
 
 EPISODES = [
     # ------------------------------------------------------------------ 1258
@@ -87,14 +87,14 @@ EPISODES = [
                       "khẽ thôi.\""),
                  subs=[(0.5, 4.8, "Ơ... chạy rồi, / giờ chèo ngược lại ạ?"),
                        (5.0, 9.5, "Đêm nay đánh. / Chèo khẽ thôi.")]),
-            dict(name="Ghi tên em vào sử", label="Đông Bộ Đầu · đầu năm 1258",
+            dict(name="Câu chốt", label="Đông Bộ Đầu · đầu năm 1258",
                  img=f"First-person view at dawn from a boat on the river, on the far bank a long column of Mongol horsemen retreating north in an orderly line, villagers watching from a distance, {FACE} at the oars with a huge chipped-tooth grin, realistic, vertical 9:16.",
                  vid=("0-5s: Dawn; on the far bank a long column of Mongol horsemen retreats north quietly, passing villages "
                       "without stopping. A calm narrator's voice says: \"Đầu năm 1258, vua Trần đánh úp ở Đông Bộ Đầu. Quân "
                       "Mông Cổ rút về, dọc đường không dám cướp phá, dân gọi là giặc Phật.\" 5-10s: Anh Tư grins at the "
-                      "camera: \"Thuyền vua em chèo đấy! Ghi tên em vào sử nhé!\""),
+                      "camera: \"Thuyền vua em chèo đấy! Tay em giờ hết run rồi!\""),
                  subs=[(0.3, 4.8, "Năm 1258, vua Trần / đánh úp ở Đông Bộ Đầu. / Giặc rút, dân gọi \"giặc Phật\"."),
-                       (5.0, 9.8, "Thuyền vua em chèo đấy! / Ghi tên em vào sử nhé!")]),
+                       (5.0, 9.8, "Thuyền vua em chèo đấy! / Tay em giờ hết run rồi!")]),
         ],
         caption=("Chèo thuyền đưa vua đi lánh giặc, nghe ông Thái sư nói một câu mà hết sợ 😮 Năm 1258, Trần Thủ Độ nói: "
                  "\"Đầu thần chưa rơi xuống đất, xin bệ hạ đừng lo.\" Ít ngày sau, quân Trần thắng ở Đông Bộ Đầu, lần đầu "
@@ -155,14 +155,14 @@ EPISODES = [
                       "language; they laugh together. 5-10s: Anh Tư whispers to the viewer: \"Ông hoàng nói được tiếng nước "
                       "người ta... em nói tiếng nước mình còn ngọng.\""),
                  subs=[(5.0, 9.5, "Ông hoàng nói được / tiếng nước người... em nói / tiếng nước mình còn ngọng.")]),
-            dict(name="Ghi tên em vào sử", label="",
+            dict(name="Câu chốt", label="",
                  img=f"First-person view at sunset on the riverbank after victory, Trần and Song refugee soldiers cheering together, captured Yuan weapons piled up, {FACE} taking off the Song helmet with a huge chipped-tooth grin, realistic, vertical 9:16.",
                  vid=("0-5s: Sunset; Trần and Song soldiers cheer together beside a pile of captured weapons. A calm narrator's "
                       "voice says: \"Năm 1285, Trần Nhật Duật cùng quân Triệu Trung thắng ở Hàm Tử. Thơ Trần Quang Khải: "
                       "Chương Dương cướp giáo giặc, Hàm Tử bắt quân thù.\" 5-10s: Anh Tư takes off the helmet and grins at the "
-                      "camera: \"Bộ giáp ấy em mặc! Ghi tên em vào sử nhé!\""),
+                      "camera: \"Bộ giáp ấy em mặc! Mặc nhầm áo một lần, giặc nhớ cả đời!\""),
                  subs=[(0.3, 4.8, "Năm 1285, thắng ở Hàm Tử. / \"Chương Dương cướp giáo giặc, / Hàm Tử bắt quân thù.\""),
-                       (5.0, 9.8, "Bộ giáp ấy em mặc! / Ghi tên em vào sử nhé!")]),
+                       (5.0, 9.8, "Bộ giáp ấy em mặc! / Mặc nhầm áo một lần, / giặc nhớ cả đời!")]),
         ],
         caption=("Bị bắt mặc giáp của nước khác ra trận, giặc vừa nhìn thấy đã bỏ chạy 😂 Năm 1285 ở Hàm Tử, quân của tướng "
                  "Tống Triệu Trung (chạy sang Đại Việt sau khi nhà Tống mất) đánh cùng quân Trần, quân Nguyên tưởng nhà Tống "
@@ -251,14 +251,14 @@ EPISODES = [
                       "general, crouching at the bow, raises one hand and says quietly: \"Đánh.\""),
                  subs=[(0.5, 4.8, "Thuyền gì mà toàn gạo... / nồi cơm của cả đạo quân à?"),
                        (5.0, 9.5, "Đánh.")]),
-            dict(name="Ghi tên em vào sử", label="Rạng sáng",
+            dict(name="Câu chốt", label="Rạng sáng",
                  img=f"First-person view at dawn among rocky islands, heavy grain junks captured and surrounded by small Trần war boats, rice sacks being unloaded, no people in the water, the lean general standing on a boat, {FACE} holding up a sack of rice with a huge grin, realistic, vertical 9:16.",
                  vid=("0-5s: Dawn; small Trần war boats surround the captured grain junks and unload sacks; no people in the "
                       "water. A calm narrator's voice says: \"Trần Khánh Dư phá tan đoàn thuyền lương. Thượng hoàng tha tội: "
                       "giặc mất lương, hết đường hung hăng.\" 5-10s: Anh Tư holds up a sack of rice and grins at the camera: "
-                      "\"Ông bán than ấy, em mua than của ông ấy đấy! Ghi tên em vào sử nhé!\""),
+                      "\"Ông bán than ấy, em mua than của ông ấy đấy! ...Em còn nợ ông ấy hai đồng.\""),
                  subs=[(0.3, 4.8, "Trần Khánh Dư phá tan / đoàn thuyền lương. / Thượng hoàng tha tội."),
-                       (5.0, 8.4, "Ông bán than ấy, em mua than / của ông ấy đấy! / Ghi tên em vào sử nhé!")]),
+                       (5.0, 8.4, "Ông bán than ấy, em mua than / của ông ấy đấy! / ...Em còn nợ ông ấy hai đồng.")]),
         ],
         caption=("Khách quen bán than trên sông nói chuyện toàn binh pháp, mấy năm sau ông ấy cứu cả cuộc kháng chiến 😳 "
                  "Trần Khánh Dư từng bị cách chức, về Chí Linh buôn than, được vua Trần Nhân Tông nhận ra và dùng lại. "
@@ -320,14 +320,14 @@ EPISODES = [
                       "the mud and pull spears out from under bundles of straw. 5-10s: Anh Tư whispers to the viewer: \"Cả "
                       "cánh đồng này... không có ai là nông dân thật.\""),
                  subs=[(5.0, 9.5, "Cả cánh đồng này... / không có ai là nông dân thật.")]),
-            dict(name="Ghi tên em vào sử", label="",
+            dict(name="Câu chốt", label="",
                  img=f"First-person view from a rice field at dusk, the Ming column on the road broken up and retreating in disorder toward the distant city, abandoned weapons in the mud, no bodies, {FACE} standing in the field with a huge chipped-tooth grin, realistic, vertical 9:16.",
                  vid=("0-5s: Dusk; the Ming column, broken up, retreats in disorder toward the distant city, leaving weapons "
                       "in the mud; no bodies shown. A calm narrator's voice says: \"Tháng 11 năm 1426, nghĩa quân Lam Sơn phục "
                       "kích ở Tốt Động – Chúc Động. Vương Thông bị thương, chạy về Đông Quan.\" 5-10s: Anh Tư grins at the "
-                      "camera: \"Ruộng ấy em cấy đấy! Ghi tên em vào sử nhé!\""),
+                      "camera: \"Ruộng ấy em cấy đấy! Cấy ngược mà vẫn thắng!\""),
                  subs=[(0.3, 4.8, "Năm 1426, Lam Sơn phục kích / ở Tốt Động – Chúc Động. / Vương Thông chạy về Đông Quan."),
-                       (5.0, 9.8, "Ruộng ấy em cấy đấy! / Ghi tên em vào sử nhé!")]),
+                       (5.0, 9.8, "Ruộng ấy em cấy đấy! / Cấy ngược mà vẫn thắng!")]),
         ],
         caption=("Bị sai ra ruộng cấy lúa ngay bên đường giặc đi qua, mắt không được nhìn lúa 🌾 Tháng 11 năm 1426, nghĩa "
                  "quân Lam Sơn phục kích quân Minh ở vùng đồng lầy Tốt Động – Chúc Động (Chương Mỹ, Hà Nội), Vương Thông "

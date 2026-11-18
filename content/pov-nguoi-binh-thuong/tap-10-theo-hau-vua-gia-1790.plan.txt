@@ -1,6 +1,6 @@
 # Dựng: python3 ../tools/tiktok.py tap-10-theo-hau-vua-gia-1790.plan.txt tap-10-theo-hau-vua-gia-1790.mp4  (ra tap-10-theo-hau-vua-gia-1790-youtube.mp4 và tap-10-theo-hau-vua-gia-1790-tiktok.mp4)
 hook: POV: Theo hầu vua / sang nước Thanh / mà vua... hơi lạ
-end: Sử không ghi tên Anh Tư. / Follow để xem đời sau / nhà Anh Tư bị giao việc gì →
+end: Follow để xem đời sau / nhà Anh Tư bị giao việc gì →
 nhan: AI tái hiện · lời thoại hư cấu
 
 clip: nbt10-1.mp4 | Nghệ An · mùa xuân năm 1790
@@ -18,4 +18,4 @@ sub: 3 | 5.0-9.5 | Đi bốn tháng, tỉnh nào / cũng mở tiệc... / em lê
 sub: 4 | 0.5-4.8 | Sử nhà Thanh chép: / hoàng đế làm lễ ôm, / như cha con.
 sub: 4 | 5.0-9.5 | Hoàng đế ôm ông ấy / như cha con... em chỉ mong / ông ấy đừng hắt hơi.
 sub: 5 | 0.3-4.8 | Sử Thanh: Quang Trung sang. / Sử Việt: người sang là / Phạm Công Trị, đóng thế.
-sub: 5 | 5.0-9.8 | Em biết ai thật ai giả... / nhưng em không nói đâu. / Ghi tên em vào sử nhé!
+sub: 5 | 5.0-9.8 | Em biết ai thật ai giả... / nhưng em không nói đâu. / Các bác đoán đi!

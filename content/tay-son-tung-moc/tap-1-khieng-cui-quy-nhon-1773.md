@@ -85,7 +85,7 @@ First-person view at night in a dark storeroom lit by moonlight, the wooden cage
 First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. No modern national flags anywhere (never a red flag with a yellow star); no flags at all unless the scene describes a period-accurate one. Vietnam, autumn 1773, Quy Nhơn citadel in Bình Định: high earth-and-brick walls, a heavy wooden gate, the garrison of the Nguyễn lords in plain dark cotton uniforms with cloth head wraps, a provincial official in an embroidered robe. No visible writing on clothes or signs, no flags. Tây Sơn fighters with black-lacquered teeth in plain dark-indigo or brown clothes with red head wraps, spears and swords. Nguyễn Nhạc, a stout, cheerful Vietnamese man in his thirties with a short beard. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face, in a brown shirt with a red head wrap. 0-5s: Moonlight; Anh Tư pulls out a wooden latch and the cage door swings open silently; Nguyễn Nhạc steps out and stretches. 5-10s: Anh Tư holds up the latch to the viewer with a proud whisper: "Chốt cũi em làm... lắp ngược từ đầu." Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync in Central Vietnamese (Bình Định) accent, no background music.
 ```
 
-## Clip 6: Ghi tên em vào sử
+## Clip 6: Câu chốt
 File Muse đặt tên: `ts1773-6.mp4`
 
 **Ảnh khung đầu**
@@ -95,7 +95,7 @@ First-person view at night from inside a citadel as the big wooden gate swings o
 
 **Video (Muse)**
 ```
-First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. No modern national flags anywhere (never a red flag with a yellow star); no flags at all unless the scene describes a period-accurate one. Vietnam, autumn 1773, Quy Nhơn citadel in Bình Định: high earth-and-brick walls, a heavy wooden gate, the garrison of the Nguyễn lords in plain dark cotton uniforms with cloth head wraps, a provincial official in an embroidered robe. No visible writing on clothes or signs, no flags. Tây Sơn fighters with black-lacquered teeth in plain dark-indigo or brown clothes with red head wraps, spears and swords. Nguyễn Nhạc, a stout, cheerful Vietnamese man in his thirties with a short beard. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face, in a brown shirt with a red head wrap. 0-5s: The heavy gate swings open; hundreds of torches pour into the citadel; no fighting shown. A calm narrator's voice says: "Năm 1773, Tây Sơn lấy thành Quy Nhơn bằng mưu, thành lớn đầu tiên của nghĩa quân." 5-10s: Anh Tư turns to the camera with his chipped-tooth grin: "Cái cũi ấy em khiêng! Ghi tên em vào sử nhé!" Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync in Central Vietnamese (Bình Định) accent, no background music.
+First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. No modern national flags anywhere (never a red flag with a yellow star); no flags at all unless the scene describes a period-accurate one. Vietnam, autumn 1773, Quy Nhơn citadel in Bình Định: high earth-and-brick walls, a heavy wooden gate, the garrison of the Nguyễn lords in plain dark cotton uniforms with cloth head wraps, a provincial official in an embroidered robe. No visible writing on clothes or signs, no flags. Tây Sơn fighters with black-lacquered teeth in plain dark-indigo or brown clothes with red head wraps, spears and swords. Nguyễn Nhạc, a stout, cheerful Vietnamese man in his thirties with a short beard. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face, in a brown shirt with a red head wrap. 0-5s: The heavy gate swings open; hundreds of torches pour into the citadel; no fighting shown. A calm narrator's voice says: "Năm 1773, Tây Sơn lấy thành Quy Nhơn bằng mưu, thành lớn đầu tiên của nghĩa quân." 5-10s: Anh Tư turns to the camera with his chipped-tooth grin: "Cái cũi ấy em khiêng! Lần sau anh cả tự đi bộ nhé!" Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync in Central Vietnamese (Bình Định) accent, no background music.
 ```
 
 ## Đăng TikTok
@@ -162,7 +162,7 @@ Khi đăng: ở mục "Nội dung bị thay đổi" (Altered content) chọn **C
 ```
 # Dựng: python3 ../tools/tiktok.py tap-1-khieng-cui-quy-nhon-1773.plan.txt tap-1-khieng-cui-quy-nhon-1773.mp4  (ra tap-1-khieng-cui-quy-nhon-1773-youtube.mp4 và tap-1-khieng-cui-quy-nhon-1773-tiktok.mp4)
 hook: POV: Khiêng cũi / có người / vào thành giặc
-end: Sử không ghi tên Anh Tư. / Follow để xem mốc tiếp: / năm 1778 →
+end: Follow để xem mốc tiếp: / năm 1778 →
 nhan: AI tái hiện · lời thoại hư cấu
 end_giay: 1.6
 
@@ -185,5 +185,5 @@ sub: 4 | 5.0-9.5 | Quan mừng quá... mà trong cũi, / anh cả đang ngủ ng
 sub: 5 | 0.5-4.8 | Cửa cũi mở không một tiếng động.
 sub: 5 | 5.0-9.5 | Chốt cũi em làm... / lắp ngược từ đầu.
 sub: 6 | 0.3-4.8 | Năm 1773, Tây Sơn lấy thành / Quy Nhơn bằng mưu: thành lớn / đầu tiên của nghĩa quân.
-sub: 6 | 5.0-8.4 | Cái cũi ấy em khiêng! / Ghi tên em vào sử nhé!
+sub: 6 | 5.0-8.4 | Cái cũi ấy em khiêng! / Lần sau anh cả tự đi bộ nhé!
 ```

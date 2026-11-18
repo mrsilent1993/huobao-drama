@@ -1,6 +1,6 @@
 # Dựng: python3 ../tools/tiktok.py tap-4-chay-thua-chi-lang-1427.plan.txt tap-4-chay-thua-chi-lang-1427.mp4  (ra tap-4-chay-thua-chi-lang-1427-youtube.mp4 và tap-4-chay-thua-chi-lang-1427-tiktok.mp4)
 hook: POV: Bị lệnh chạy thua / cả ngày
-end: Chạy cả ngày, giờ ai phải chạy? / Follow để xem đời sau nhà Anh Tư / bị cấm đập muỗi cả đêm →
+end: Chạy cả ngày, giờ ai phải chạy? / Follow để xem Anh Tư / bị cấm đập muỗi cả đêm →
 nhan: AI tái hiện · lời thoại hư cấu
 
 clip: nbt4-1.mp4 | Đường lên ải · năm 1427
@@ -17,4 +17,4 @@ sub: 3 | 0.5-4.8 | Nó cười mình kìa anh!
 sub: 3 | 5.0-9.5 | Để nó cười. Cười nốt hôm nay.
 sub: 4 | 0.5-4.8 | Sao núi im thế... / chim cũng nín thở à?
 sub: 5 | 0.5-4.8 | Hết giờ chạy. Quay lại!
-sub: 5 | 5.0-9.8 | Chạy cả ngày rồi, giờ đến lượt nó! / Ghi tên em vào sử nhé!
+sub: 5 | 5.0-9.8 | Chạy cả ngày rồi, / giờ đến lượt nó! Đổi vai: / nó chạy, em đứng xem!

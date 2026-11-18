@@ -1,6 +1,6 @@
 # Dựng: python3 ../tools/tiktok.py tap-2-mac-giap-nha-tong-ham-tu-1285.plan.txt tap-2-mac-giap-nha-tong-ham-tu-1285.mp4  (ra tap-2-mac-giap-nha-tong-ham-tu-1285-youtube.mp4 và tap-2-mac-giap-nha-tong-ham-tu-1285-tiktok.mp4)
 hook: POV: Mặc giáp / nước khác / ra trận
-end: Sử không ghi tên Anh Tư. / Follow để xem / trận đánh tiếp theo →
+end: Follow để xem / trận đánh tiếp theo →
 nhan: AI tái hiện · lời thoại hư cấu
 
 clip: td1285-1.mp4 | Hàm Tử · mùa xuân năm 1285
@@ -16,4 +16,4 @@ sub: 3 | 0.5-4.8 | Quân Nguyên tưởng / nhà Tống sang đánh!
 sub: 3 | 5.0-9.5 | Mặc nhầm áo... / mà giặc chạy mất dép.
 sub: 4 | 5.0-9.5 | Ông hoàng nói được / tiếng nước người... em nói / tiếng nước mình còn ngọng.
 sub: 5 | 0.3-4.8 | Năm 1285, thắng ở Hàm Tử. / "Chương Dương cướp giáo giặc, / Hàm Tử bắt quân thù."
-sub: 5 | 5.0-9.8 | Bộ giáp ấy em mặc! / Ghi tên em vào sử nhé!
+sub: 5 | 5.0-9.8 | Bộ giáp ấy em mặc! / Mặc nhầm áo một lần, / giặc nhớ cả đời!

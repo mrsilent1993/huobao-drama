@@ -66,7 +66,7 @@ First-person view in a rebel camp among bamboo, a Vietnamese man around 30 with 
 First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. No modern national flags anywhere (never a red flag with a yellow star); no flags at all unless the scene describes a period-accurate one. Vietnam, Đàng Trong under the Nguyễn lords, 1771, the upland village of Tây Sơn in Bình Định: bamboo hedges, dusty road, the big wooden granary of a rich landlord with its doors flung open, rice sacks being carried out. Adult villagers only, in brown clothes and conical hats, black-lacquered teeth, barefoot. The rebels wear plain dark-indigo clothes with red headbands. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face, a poor farmer in a patched brown shirt. 0-5s: Anh Tư bows eagerly: "Cho em theo với!" The young man asks: "Biết làm gì?" Anh Tư thinks hard: "Em... ăn khỏe ạ." 5-10s: The young man nods once: "Được. Đi gánh gạo." Anh Tư grins and lifts two heavy baskets on a carrying pole. Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync in Central Vietnamese (Bình Định) accent, no background music.
 ```
 
-## Clip 5: Ghi tên em vào sử
+## Clip 5: Câu chốt
 File Muse đặt tên: `nbt8-5.mp4`
 
 **Ảnh khung đầu**
@@ -76,7 +76,7 @@ First-person view from a festive crowd on a Thăng Long street in spring 1789, a
 
 **Video (Muse)**
 ```
-First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. No modern national flags anywhere (never a red flag with a yellow star); no flags at all unless the scene describes a period-accurate one. Vietnam, Đàng Trong under the Nguyễn lords, 1771, the upland village of Tây Sơn in Bình Định: bamboo hedges, dusty road, the big wooden granary of a rich landlord with its doors flung open, rice sacks being carried out. Adult villagers only, in brown clothes and conical hats, black-lacquered teeth, barefoot. The rebels wear plain dark-indigo clothes with red headbands. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face, a poor farmer in a patched brown shirt. 0-5s: Spring; a festive crowd lines a Thăng Long street as a royal procession with yellow banners passes, the commander on horseback seen at a distance. A calm narrator's voice says: "Người chia gạo năm ấy là Nguyễn Huệ. Cuối năm 1788 lên ngôi, hiệu Quang Trung." 5-10s: Anh Tư, older, turns to the camera with his chipped-tooth grin: "Ông ấy chia gạo cho em đấy! Ghi tên em vào sử nhé!" Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync in Central Vietnamese (Bình Định) accent, no background music.
+First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. No modern national flags anywhere (never a red flag with a yellow star); no flags at all unless the scene describes a period-accurate one. Vietnam, Đàng Trong under the Nguyễn lords, 1771, the upland village of Tây Sơn in Bình Định: bamboo hedges, dusty road, the big wooden granary of a rich landlord with its doors flung open, rice sacks being carried out. Adult villagers only, in brown clothes and conical hats, black-lacquered teeth, barefoot. The rebels wear plain dark-indigo clothes with red headbands. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face, a poor farmer in a patched brown shirt. 0-5s: Spring; a festive crowd lines a Thăng Long street as a royal procession with yellow banners passes, the commander on horseback seen at a distance. A calm narrator's voice says: "Người chia gạo năm ấy là Nguyễn Huệ. Cuối năm 1788 lên ngôi, hiệu Quang Trung." 5-10s: Anh Tư, older, turns to the camera with his chipped-tooth grin: "Ông ấy chia gạo cho em đấy! Bao gạo ấy... em chưa nỡ ăn." Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync in Central Vietnamese (Bình Định) accent, no background music.
 ```
 
 ## Đăng TikTok
@@ -143,7 +143,7 @@ Khi đăng: ở mục "Nội dung bị thay đổi" (Altered content) chọn **C
 ```
 # Dựng: python3 ../tools/tiktok.py tap-8-chia-gao-tay-son-1771.plan.txt tap-8-chia-gao-tay-son-1771.mp4  (ra tap-8-chia-gao-tay-son-1771-youtube.mp4 và tap-8-chia-gao-tay-son-1771-tiktok.mp4)
 hook: POV: Có người chia gạo / không lấy một đồng
-end: Sử không ghi tên Anh Tư. / Follow để xem đời sau / nhà Anh Tư bị giao việc gì →
+end: Follow để xem đời sau / nhà Anh Tư bị giao việc gì →
 nhan: AI tái hiện · lời thoại hư cấu
 
 clip: nbt8-1.mp4 | Ấp Tây Sơn · năm 1771
@@ -161,5 +161,5 @@ sub: 4 | 0.5-2.6 | Cho em theo với!
 sub: 4 | 2.6-4.8 | Biết làm gì? / ...Em ăn khỏe ạ.
 sub: 4 | 5.0-9.5 | Được. Đi gánh gạo.
 sub: 5 | 0.3-4.8 | Người chia gạo năm ấy / là Nguyễn Huệ. / Cuối năm 1788 lên ngôi, / hiệu Quang Trung.
-sub: 5 | 5.0-9.8 | Ông ấy chia gạo cho em đấy! / Ghi tên em vào sử nhé!
+sub: 5 | 5.0-9.8 | Ông ấy chia gạo cho em đấy! / Bao gạo ấy... em chưa nỡ ăn.
 ```

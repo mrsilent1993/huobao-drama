@@ -12,4 +12,4 @@ clip: nbt5-5.mp4 | Ngay sau đó
 sub: 1 | 0.5-4.8 | Cấm nói, cấm ho, cấm đập muỗi!
 sub: 1 | 5.0-9.5 | Cấm đập muỗi... / thế muỗi có bị cấm cắn không anh?
 sub: 4 | 5.0-9.5 | Giặc chưa đánh mình, / muỗi đã đánh mình tan tác rồi.
-sub: 5 | 5.0-9.8 | Giờ thì đập được rồi! / Ghi tên em vào sử nhé!
+sub: 5 | 5.0-9.8 | Giờ thì đập được rồi! / Đập muỗi xong... / đập luôn giặc!

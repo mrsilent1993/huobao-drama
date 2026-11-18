@@ -137,11 +137,11 @@ BATTLE = [
          subs=[(0.5, 4.8, "Cọc của em... / em xin mang về làm kỷ niệm."),
                (5.0, 7.6, "Để đấy. Lần sau còn dùng."),
                (7.6, 9.6, "...Lần sau á?")]),
-    dict(name="Ghi tên em vào sử", chuyen="fadeblack:1.0", label="Cổ Loa · mùa xuân năm 939",
+    dict(name="Câu chốt", chuyen="fadeblack:1.0", label="Cổ Loa · mùa xuân năm 939",
          img=f"First-person view from a joyful crowd at the earthen walls of Cổ Loa citadel in spring, {NGO} standing on a platform before banners, {FACE} in the crowd beside the viewer with a proud chipped-tooth grin, realistic, vertical 9:16.",
-         vid=f"0-5s: Spring; a joyful crowd before the walls of Cổ Loa; {NGO} stands on a platform. A calm narrator's voice says: \"Năm 939, Ngô Quyền xưng vương, đóng đô ở Cổ Loa.\" 5-10s: Anh Tư turns to the camera, grinning: \"Cọc thứ ba hàng thứ bảy là em cắm đấy! Ghi tên em vào sử nhé!\"",
+         vid=f"0-5s: Spring; a joyful crowd before the walls of Cổ Loa; {NGO} stands on a platform. A calm narrator's voice says: \"Năm 939, Ngô Quyền xưng vương, đóng đô ở Cổ Loa.\" 5-10s: Anh Tư turns to the camera, grinning: \"Cọc thứ ba hàng thứ bảy là em cắm đấy! Lần sau... để lại cho con cháu.\"",
          subs=[(0.3, 4.6, "Năm 939, Ngô Quyền xưng vương, / đóng đô ở Cổ Loa."),
-               (4.8, 7.9, "Cọc thứ ba hàng thứ bảy là em cắm! / Ghi tên em vào sử nhé!")]),
+               (4.8, 7.9, "Cọc thứ ba hàng thứ bảy / là em cắm! Lần sau... / để lại cho con cháu.")]),
 ]
 
 HISTORY = """**Lịch sử (theo *Đại Việt sử ký toàn thư*, sử Trung Quốc cũng chép trận thua này):**

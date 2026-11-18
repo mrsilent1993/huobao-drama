@@ -1,6 +1,6 @@
 # Dựng: python3 ../tools/tiktok.py tap-12-canh-cau-phao-1789.plan.txt tap-12-canh-cau-phao-1789.mp4  (ra tap-12-canh-cau-phao-1789-youtube.mp4 và tap-12-canh-cau-phao-1789-tiktok.mp4)
 hook: POV: Canh cầu phao / cho quân Thanh / dịp Tết
-end: Sử không ghi tên Anh Tư. / Follow để xem đời sau / nhà Anh Tư bị giao việc gì →
+end: Follow để xem đời sau / nhà Anh Tư bị giao việc gì →
 nhan: AI tái hiện · lời thoại hư cấu
 
 clip: nbt12-1.mp4 | Thăng Long · Tết Kỷ Dậu 1789
@@ -18,4 +18,4 @@ sub: 3 | 5.0-9.5 | Ơ... pháo Tết nhà ai / mà to thế?
 sub: 4 | 0.5-4.8 | Ngựa không kịp đóng yên, / người không kịp mặc giáp.
 sub: 4 | 5.0-9.5 | Tổng đốc chạy / nhanh hơn cả ngựa... / ngựa chưa kịp đóng yên.
 sub: 5 | 0.3-4.8 | Trưa mùng 5 Tết, vua / Quang Trung vào Thăng Long. / Tôn Sĩ Nghị bỏ lại ấn tín.
-sub: 5 | 5.0-9.8 | Cầu này em giữ đấy... / giữ đến lúc nó sập! / Ghi tên em vào sử nhé!
+sub: 5 | 5.0-9.8 | Cầu này em giữ đấy... / giữ đến lúc nó sập! / Tết này em ăn bù!

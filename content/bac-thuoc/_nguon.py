@@ -33,7 +33,7 @@ NOTE = ("**Làm thuê cho quan đô hộ:** loạt thời Bắc thuộc theo cô
         "mẻ, cười toe; ảnh tham chiếu trong `../bach-dang/README.md`). Câu đùa nhắm vào việc vô lý và quan tham, "
         "không nhắm vào dân tộc nào. **Bản TikTok 30 giây** gồm clip 1, 3, 5; **bản YouTube 50 giây** gồm đủ 5 clip.")
 
-END = "Sử không ghi tên Anh Tư. / Follow để xem Anh Tư / làm thuê cho quan đô hộ →"
+END = "Follow để xem Anh Tư / làm thuê cho quan đô hộ →"
 
 EPISODES = [
     # ------------------------------------------------------------------ năm 105
@@ -84,14 +84,14 @@ EPISODES = [
                       "rồi... mà chỉ đếm quả dập.\""),
                  subs=[(0.5, 4.8, "Quả này dập. Phạt."),
                        (5.0, 9.5, "Người dập cả rồi... / mà chỉ đếm quả dập.")]),
-            dict(name="Ghi tên em vào sử", label="Năm 105",
+            dict(name="Câu chốt", label="Năm 105",
                  img=f"First-person view at a relay station at sunset, an official reading an order to the runners, baskets put down on the ground, {FACE} sitting down on a step for the first time, stretching his legs with a huge chipped-tooth grin, realistic, vertical 9:16.",
                  vid=("0-5s: Sunset; an official reads out an order (no visible text) and the runners put their baskets down. "
                       "A calm narrator's voice says: \"Năm 105, quan huyện Đường Khương dâng sớ can. Vua Hán bãi lệ cống "
                       "vải, nhãn.\" 5-10s: Anh Tư finally sits down on a step, stretches his legs and grins at the camera: "
-                      "\"Từ nay quả vải... tự đi bộ! Ghi tên em vào sử nhé!\""),
+                      "\"Từ nay quả vải... tự đi bộ! Em xin nghỉ phép... một nghìn năm.\""),
                  subs=[(0.3, 4.8, "Năm 105, quan huyện / Đường Khương dâng sớ can. / Vua Hán bãi lệ cống vải."),
-                       (5.0, 9.8, "Từ nay quả vải... tự đi bộ! / Ghi tên em vào sử nhé!")]),
+                       (5.0, 9.8, "Từ nay quả vải / tự đi bộ! Em xin nghỉ phép / một nghìn năm.")]),
         ],
         caption=("Bị bắt chạy tiếp sức chở một giỏ hàng hỏa tốc lên kinh đô, mở ra mới biết là... quả vải 🍒 Thời Đông Hán, "
                  "vải nhãn phương Nam phải chạy trạm ngày đêm lên Lạc Dương, \"mười dặm một trạm, năm dặm một chốt\". "
@@ -155,14 +155,14 @@ EPISODES = [
                       "says: \"Về quê.\""),
                  subs=[(0.5, 4.8, "Anh mở cổng cho người ta / vào làm quan... / còn anh đứng ngoài."),
                        (5.0, 9.5, "Về quê.")]),
-            dict(name="Ghi tên em vào sử", label="Năm 544",
+            dict(name="Câu chốt", label="Năm 544",
                  img=f"First-person view in a simple wooden palace hall in Giao Châu, a new king seen from behind on a plain throne, the thin scholar now in a dignified official robe standing first among the officials, {FACE} beside the viewer grinning, realistic, vertical 9:16.",
                  vid=("0-5s: In a simple wooden palace hall, officials bow to a new king seen only from behind; the scholar, "
                       "now in a dignified robe, stands at the head of the civil officials. A calm narrator's voice says: "
                       "\"Tinh Thiều bỏ về theo Lý Bí. Năm 544, Lý Bí lập nước Vạn Xuân, Tinh Thiều đứng đầu hàng quan văn.\" "
-                      "5-10s: Anh Tư grins at the camera: \"Ông thượng thư ấy chắc giờ tiếc lắm! Ghi tên em vào sử nhé!\""),
+                      "5-10s: Anh Tư grins at the camera: \"Ông thượng thư ấy chắc giờ tiếc lắm! Họ Tinh giờ danh giá rồi nhé!\""),
                  subs=[(0.3, 4.8, "Tinh Thiều về theo Lý Bí. / Năm 544, nước Vạn Xuân ra đời, / Tinh Thiều đứng đầu quan văn."),
-                       (5.0, 9.8, "Ông thượng thư ấy / chắc giờ tiếc lắm! / Ghi tên em vào sử nhé!")]),
+                       (5.0, 9.8, "Ông thượng thư ấy / chắc giờ tiếc lắm! / Họ Tinh giờ danh giá rồi nhé!")]),
         ],
         caption=("Đi theo một ông đồ giỏi lên kinh đô xin làm quan, bị loại chỉ vì... cái họ 😤 Sử chép Tinh Thiều giỏi "
                  "văn mà chỉ được cho làm chức coi cổng vì \"họ Tinh không ai danh giá\". Ông bỏ về theo Lý Bí, rồi đứng "
@@ -220,14 +220,14 @@ EPISODES = [
                       "thóc thứ hai... em giữ lại nấu cơm được không?\""),
                  subs=[(0.5, 4.8, "Không nộp nữa."),
                        (5.0, 9.5, "Thế bao thóc thứ hai... / em giữ lại nấu cơm được không?")]),
-            dict(name="Ghi tên em vào sử", label="",
+            dict(name="Câu chốt", label="",
                  img=f"First-person view at dawn of a huge crowd of farmers with torches and bamboo poles surrounding the wooden walls of a government citadel, no fighting, {FACE} in the crowd raising his empty basket, grinning, realistic, vertical 9:16.",
                  vid=("0-5s: Dawn; a huge crowd of farmers with torches and bamboo poles surrounds the citadel walls, "
                       "shouting together; no fighting shown. A calm narrator's voice says: \"Năm 687, đô hộ Lưu Diên Hựu "
                       "bắt nộp thuế gấp đôi. Đinh Kiến cùng dân nổi dậy, vây phủ thành Tống Bình.\" 5-10s: Anh Tư raises his "
-                      "empty basket and grins at the camera: \"Bao thóc thứ hai ấy, em không nộp! Ghi tên em vào sử nhé!\""),
+                      "empty basket and grins at the camera: \"Bao thóc thứ hai ấy, em không nộp! Để dành nấu cơm cho cả làng.\""),
                  subs=[(0.3, 4.8, "Năm 687, đô hộ bắt nộp / thuế gấp đôi. Đinh Kiến / cùng dân vây phủ thành."),
-                       (5.0, 9.8, "Bao thóc thứ hai ấy, / em không nộp! / Ghi tên em vào sử nhé!")]),
+                       (5.0, 9.8, "Bao thóc thứ hai ấy, / em không nộp! / Để dành nấu cơm cho cả làng.")]),
         ],
         caption=("Đang nộp nửa thuế bỗng bị bắt nộp gấp đôi, cả làng đứng dậy 😤 Năm 687, đô hộ Lưu Diên Hựu bắt dân An Nam "
                  "nộp đủ thuế thay vì một nửa như trước. Lý Tự Tiên, Đinh Kiến cùng dân nổi dậy, vây phủ thành Tống Bình. "
@@ -286,14 +286,14 @@ EPISODES = [
                       "ai ạ?\" The column turns back silently."),
                  subs=[(0.5, 4.8, "Quay về."),
                        (5.0, 9.5, "Quay về... / đánh rừng hay đánh ai ạ?")]),
-            dict(name="Ghi tên em vào sử", label="",
+            dict(name="Câu chốt", label="",
                  img=f"First-person view at night as a column of soldiers with torches pours through an open citadel gate, no fighting shown, {FACE} at the gate grinning, realistic, vertical 9:16.",
                  vid=("0-5s: At night, soldiers with torches pour through the open citadel gate; no fighting shown. A calm "
                       "narrator's voice says: \"Năm 819, Dương Thanh quay quân về giữa đêm, chiếm phủ thành, lật đổ quan đô "
                       "hộ tham tàn Lý Tượng Cổ.\" 5-10s: Anh Tư grins at the camera: \"Sếp giao việc khó... thì nhận kết "
-                      "quả khó! Ghi tên em vào sử nhé!\""),
+                      "quả khó! Tag sếp bạn vào xem!\""),
                  subs=[(0.3, 4.8, "Năm 819, Dương Thanh / quay quân về, lật đổ / quan đô hộ Lý Tượng Cổ."),
-                       (5.0, 9.8, "Sếp giao việc khó... / thì nhận kết quả khó! / Ghi tên em vào sử nhé!")]),
+                       (5.0, 9.8, "Sếp giao việc khó... / thì nhận kết quả khó! / Tag sếp bạn vào xem!")]),
         ],
         caption=("Sếp được \"thăng chức\", rồi bị giao việc khó nhất, nửa đêm sếp quay quân về 😏 Năm 819, đô hộ Lý Tượng "
                  "Cổ đưa Dương Thanh về làm nha môn tướng để kiềm chế, rồi sai đi đánh vùng rừng núi. Dương Thanh quay quân "

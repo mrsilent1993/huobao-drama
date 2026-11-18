@@ -66,7 +66,7 @@ First-person view at a palace gate, a crowd of Thăng Long townspeople peering i
 First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. No modern national flags anywhere (never a red flag with a yellow star); no flags at all unless the scene describes a period-accurate one. Vietnam, summer 1786, Thăng Long: the grand palace of the Trịnh lords with red-lacquered halls, a treasury room with chests, porcelain and silk, Thăng Long townspeople in brown and indigo clothes watching cautiously. Tây Sơn soldiers in dark-red uniforms with red head wraps. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face, in a dark-red uniform. 0-5s: Townspeople peer through the gate; an old woman offers Anh Tư a bowl of green tea: "Nghe đồn quân Tây Sơn dữ lắm, hóa ra hiền thế." 5-10s: Anh Tư sips and smiles: "Dữ với giặc thôi cụ ạ. Với cụ thì em... uống nước." Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync in Central Vietnamese (Bình Định) accent, no background music.
 ```
 
-## Clip 5: Ghi tên em vào sử
+## Clip 5: Câu chốt
 File Muse đặt tên: `ts1786-5.mp4`
 
 **Ảnh khung đầu**
@@ -76,7 +76,7 @@ First-person view at dusk from the palace steps over the rooftops of Thăng Long
 
 **Video (Muse)**
 ```
-First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. No modern national flags anywhere (never a red flag with a yellow star); no flags at all unless the scene describes a period-accurate one. Vietnam, summer 1786, Thăng Long: the grand palace of the Trịnh lords with red-lacquered halls, a treasury room with chests, porcelain and silk, Thăng Long townspeople in brown and indigo clothes watching cautiously. Tây Sơn soldiers in dark-red uniforms with red head wraps. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face, in a dark-red uniform. 0-5s: Dusk; Tây Sơn banners rise on the walls; the commander, seen only from behind, walks toward the royal palace. A calm narrator's voice says: "Năm 1786, Nguyễn Huệ ra Bắc phù Lê diệt Trịnh. Hơn hai trăm năm chúa Trịnh nắm quyền khép lại." 5-10s: Anh Tư grins at the camera: "Kho ấy em canh, không mất một xu! Ghi tên em vào sử nhé!" Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync in Central Vietnamese (Bình Định) accent, no background music.
+First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. No modern national flags anywhere (never a red flag with a yellow star); no flags at all unless the scene describes a period-accurate one. Vietnam, summer 1786, Thăng Long: the grand palace of the Trịnh lords with red-lacquered halls, a treasury room with chests, porcelain and silk, Thăng Long townspeople in brown and indigo clothes watching cautiously. Tây Sơn soldiers in dark-red uniforms with red head wraps. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face, in a dark-red uniform. 0-5s: Dusk; Tây Sơn banners rise on the walls; the commander, seen only from behind, walks toward the royal palace. A calm narrator's voice says: "Năm 1786, Nguyễn Huệ ra Bắc phù Lê diệt Trịnh. Hơn hai trăm năm chúa Trịnh nắm quyền khép lại." 5-10s: Anh Tư grins at the camera: "Kho ấy em canh, không mất một xu! ...Cọng rau cũng không." Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync in Central Vietnamese (Bình Định) accent, no background music.
 ```
 
 ## Đăng TikTok
@@ -143,7 +143,7 @@ Khi đăng: ở mục "Nội dung bị thay đổi" (Altered content) chọn **C
 ```
 # Dựng: python3 ../tools/tiktok.py tap-3-canh-kho-phu-chua-1786.plan.txt tap-3-canh-kho-phu-chua-1786.mp4  (ra tap-3-canh-kho-phu-chua-1786-youtube.mp4 và tap-3-canh-kho-phu-chua-1786-tiktok.mp4)
 hook: POV: Canh kho báu / mà cấm sờ / vào bất cứ thứ gì
-end: Sử không ghi tên Anh Tư. / Follow để xem mốc tiếp: / năm 1787 →
+end: Follow để xem mốc tiếp: / năm 1787 →
 nhan: AI tái hiện · lời thoại hư cấu
 
 clip: ts1786-1.mp4 | Thăng Long · mùa hè năm 1786
@@ -161,5 +161,5 @@ sub: 3 | 5.0-9.5 | Canh kho vàng... mà cấm sờ. / Khổ hơn cả cấm đ�
 sub: 4 | 0.5-4.8 | Nghe đồn quân Tây Sơn / dữ lắm, hóa ra hiền thế.
 sub: 4 | 5.0-9.5 | Dữ với giặc thôi cụ ạ. / Với cụ thì em... uống nước.
 sub: 5 | 0.3-4.8 | Năm 1786, Nguyễn Huệ ra Bắc / phù Lê diệt Trịnh. Hơn 200 năm / chúa Trịnh nắm quyền khép lại.
-sub: 5 | 5.0-9.8 | Kho ấy em canh, / không mất một xu! / Ghi tên em vào sử nhé!
+sub: 5 | 5.0-9.8 | Kho ấy em canh, / không mất một xu! / ...Cọng rau cũng không.
 ```

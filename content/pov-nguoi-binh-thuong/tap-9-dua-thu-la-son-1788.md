@@ -66,7 +66,7 @@ First-person view in a Tây Sơn camp tent, the elderly scholar bowing politely 
 First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. No modern national flags anywhere (never a red flag with a yellow star); no flags at all unless the scene describes a period-accurate one. Vietnam, 1786 to 1788, the forested Thiên Nhẫn mountains of Nghệ An: a steep stone path, bamboo groves, a small thatched hermit house with a wooden desk and stacks of books, a stream. The hermit scholar Nguyễn Thiếp is an elderly Vietnamese man in his sixties with a long thin white beard, a plain brown scholar's robe and a calm, dry sense of humor. Tây Sơn soldiers in dark-red uniforms with red head wraps. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face, a Tây Sơn messenger with a cloth letter pouch. 0-5s: In the camp, the scholar bows politely to the commander, seen only from behind, and says calmly: "Đa tạ tấm lòng. Nhưng già này xin về núi." 5-10s: Anh Tư, holding the walking stick, whispers to the viewer, devastated: "Xuống núi... để từ chối trực tiếp ạ?" Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync in Central Vietnamese (Nghệ An) accent, no background music.
 ```
 
-## Clip 5: Ghi tên em vào sử
+## Clip 5: Câu chốt
 File Muse đặt tên: `nbt9-5.mp4`
 
 **Ảnh khung đầu**
@@ -76,7 +76,7 @@ First-person view at dusk outside the hermit house, a great Tây Sơn army with 
 
 **Video (Muse)**
 ```
-First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. No modern national flags anywhere (never a red flag with a yellow star); no flags at all unless the scene describes a period-accurate one. Vietnam, 1786 to 1788, the forested Thiên Nhẫn mountains of Nghệ An: a steep stone path, bamboo groves, a small thatched hermit house with a wooden desk and stacks of books, a stream. The hermit scholar Nguyễn Thiếp is an elderly Vietnamese man in his sixties with a long thin white beard, a plain brown scholar's robe and a calm, dry sense of humor. Tây Sơn soldiers in dark-red uniforms with red head wraps. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face, a Tây Sơn messenger with a cloth letter pouch. 0-5s: Dusk; a great army with torches marches through the valley; the king, seen only from behind, speaks with the scholar at the gate. A calm narrator's voice says: "Cuối năm 1788, vua Quang Trung ra Bắc, ghé hỏi kế. Ông đồ nói: không quá mười ngày, quân Thanh sẽ tan." 5-10s: Anh Tư turns to the camera with his chipped-tooth grin: "Ông đồ ấy em mời đấy! Ghi tên em vào sử nhé!" Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync in Central Vietnamese (Nghệ An) accent, no background music.
+First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. No modern national flags anywhere (never a red flag with a yellow star); no flags at all unless the scene describes a period-accurate one. Vietnam, 1786 to 1788, the forested Thiên Nhẫn mountains of Nghệ An: a steep stone path, bamboo groves, a small thatched hermit house with a wooden desk and stacks of books, a stream. The hermit scholar Nguyễn Thiếp is an elderly Vietnamese man in his sixties with a long thin white beard, a plain brown scholar's robe and a calm, dry sense of humor. Tây Sơn soldiers in dark-red uniforms with red head wraps. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face, a Tây Sơn messenger with a cloth letter pouch. 0-5s: Dusk; a great army with torches marches through the valley; the king, seen only from behind, speaks with the scholar at the gate. A calm narrator's voice says: "Cuối năm 1788, vua Quang Trung ra Bắc, ghé hỏi kế. Ông đồ nói: không quá mười ngày, quân Thanh sẽ tan." 5-10s: Anh Tư turns to the camera with his chipped-tooth grin: "Ông đồ ấy em mời đấy! Ba đôi dép... đáng lắm!" Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync in Central Vietnamese (Nghệ An) accent, no background music.
 ```
 
 ## Đăng TikTok
@@ -143,7 +143,7 @@ Khi đăng: ở mục "Nội dung bị thay đổi" (Altered content) chọn **C
 ```
 # Dựng: python3 ../tools/tiktok.py tap-9-dua-thu-la-son-1788.plan.txt tap-9-dua-thu-la-son-1788.mp4  (ra tap-9-dua-thu-la-son-1788-youtube.mp4 và tap-9-dua-thu-la-son-1788-tiktok.mp4)
 hook: POV: Đưa thư mời / một ông đồ / ba năm bị từ chối
-end: Sử không ghi tên Anh Tư. / Follow để xem Anh Tư / theo hầu ông vua... giả →
+end: Follow để xem Anh Tư / theo hầu ông vua... giả →
 nhan: AI tái hiện · lời thoại hư cấu
 
 clip: nbt9-1.mp4 | Núi Thiên Nhẫn, Nghệ An · năm 1786
@@ -161,5 +161,5 @@ sub: 3 | 5.0-9.5 | Ba năm, mòn ba đôi dép, / cụ mới chịu xuống núi
 sub: 4 | 0.5-4.8 | Đa tạ tấm lòng. / Nhưng già này xin về núi.
 sub: 4 | 5.0-9.5 | Xuống núi... / để từ chối trực tiếp ạ?
 sub: 5 | 0.3-4.8 | Vua Quang Trung ghé hỏi kế. / Ông đồ nói: không quá / mười ngày, quân Thanh sẽ tan.
-sub: 5 | 5.0-9.8 | Ông đồ ấy em mời đấy! / Ghi tên em vào sử nhé!
+sub: 5 | 5.0-9.8 | Ông đồ ấy em mời đấy! / Ba đôi dép... đáng lắm!
 ```

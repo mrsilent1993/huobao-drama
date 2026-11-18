@@ -66,7 +66,7 @@ First-person view in a tailor's workshop, tailors sewing yellow silk, a Vietname
 First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. No modern national flags anywhere (never a red flag with a yellow star); no flags at all unless the scene describes a period-accurate one. Vietnam, 1778, the old Cham-built citadel of Đồ Bàn in Bình Định being renovated as a capital: brick towers in the distance, a big wooden gate with a large horizontal signboard whose lettering is not legible (no readable text), officials in new court robes. Tây Sơn fighters with black-lacquered teeth in plain dark-indigo or brown clothes with red head wraps, spears and swords. Nguyễn Nhạc, a stout, cheerful Vietnamese man in his thirties with a short beard, now in a yellow imperial robe. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face, in a neat dark-red uniform. 0-5s: Anh Tư picks up a piece of yellow silk and holds it against himself, admiring it. 5-10s: A tailor snatches it back: "Màu này cả nước chỉ một người được mặc!" Anh Tư to the viewer: "Thế thôi, em mặc... màu nâu cho lành." Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync in Central Vietnamese (Bình Định) accent, no background music.
 ```
 
-## Clip 5: Ghi tên em vào sử
+## Clip 5: Câu chốt
 File Muse đặt tên: `ts1778-5.mp4`
 
 **Ảnh khung đầu**
@@ -76,7 +76,7 @@ First-person view at sunrise looking up at the big citadel gate with its new sig
 
 **Video (Muse)**
 ```
-First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. No modern national flags anywhere (never a red flag with a yellow star); no flags at all unless the scene describes a period-accurate one. Vietnam, 1778, the old Cham-built citadel of Đồ Bàn in Bình Định being renovated as a capital: brick towers in the distance, a big wooden gate with a large horizontal signboard whose lettering is not legible (no readable text), officials in new court robes. Tây Sơn fighters with black-lacquered teeth in plain dark-indigo or brown clothes with red head wraps, spears and swords. Nguyễn Nhạc, a stout, cheerful Vietnamese man in his thirties with a short beard, now in a yellow imperial robe. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face, in a neat dark-red uniform. 0-5s: Sunrise over the gate with its new signboard; crowds gather. A calm narrator's voice says: "Năm 1778, Nguyễn Nhạc lên ngôi Hoàng đế, niên hiệu Thái Đức, đổi thành Đồ Bàn thành thành Hoàng Đế." 5-10s: Anh Tư points up at the signboard and grins at the camera: "Tấm biển ấy em treo! Ghi tên em vào sử nhé!" Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync in Central Vietnamese (Bình Định) accent, no background music.
+First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. No modern national flags anywhere (never a red flag with a yellow star); no flags at all unless the scene describes a period-accurate one. Vietnam, 1778, the old Cham-built citadel of Đồ Bàn in Bình Định being renovated as a capital: brick towers in the distance, a big wooden gate with a large horizontal signboard whose lettering is not legible (no readable text), officials in new court robes. Tây Sơn fighters with black-lacquered teeth in plain dark-indigo or brown clothes with red head wraps, spears and swords. Nguyễn Nhạc, a stout, cheerful Vietnamese man in his thirties with a short beard, now in a yellow imperial robe. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face, in a neat dark-red uniform. 0-5s: Sunrise over the gate with its new signboard; crowds gather. A calm narrator's voice says: "Năm 1778, Nguyễn Nhạc lên ngôi Hoàng đế, niên hiệu Thái Đức, đổi thành Đồ Bàn thành thành Hoàng Đế." 5-10s: Anh Tư points up at the signboard and grins at the camera: "Tấm biển ấy em treo! Lệch một tí... không ai dám nói." Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync in Central Vietnamese (Bình Định) accent, no background music.
 ```
 
 ## Đăng TikTok
@@ -143,7 +143,7 @@ Khi đăng: ở mục "Nội dung bị thay đổi" (Altered content) chọn **C
 ```
 # Dựng: python3 ../tools/tiktok.py tap-2-thay-bien-thanh-hoang-de-1778.plan.txt tap-2-thay-bien-thanh-hoang-de-1778.mp4  (ra tap-2-thay-bien-thanh-hoang-de-1778-youtube.mp4 và tap-2-thay-bien-thanh-hoang-de-1778-tiktok.mp4)
 hook: POV: Thay biển tên / cả tòa thành / trong một đêm
-end: Sử không ghi tên Anh Tư. / Follow để xem mốc tiếp: / năm 1785 →
+end: Follow để xem mốc tiếp: / năm 1785 →
 nhan: AI tái hiện · lời thoại hư cấu
 
 clip: ts1778-1.mp4 | Thành Đồ Bàn · năm 1778
@@ -162,5 +162,5 @@ sub: 3 | 7.0-9.6 | ...Anh cả hoàng thượng.
 sub: 4 | 0.5-4.8 | Màu này cả nước / chỉ một người được mặc!
 sub: 4 | 5.0-9.5 | Thế thôi, em mặc / màu nâu cho lành.
 sub: 5 | 0.3-4.8 | Năm 1778, Nguyễn Nhạc / lên ngôi, niên hiệu Thái Đức, / đổi tên thành Đồ Bàn / thành thành Hoàng Đế.
-sub: 5 | 5.0-9.8 | Tấm biển ấy em treo! / Ghi tên em vào sử nhé!
+sub: 5 | 5.0-9.8 | Tấm biển ấy em treo! / Lệch một tí... / không ai dám nói.
 ```

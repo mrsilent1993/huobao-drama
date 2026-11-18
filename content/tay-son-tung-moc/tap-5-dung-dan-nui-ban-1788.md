@@ -66,7 +66,7 @@ First-person view on the hill in the afternoon, the long army column marching no
 First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. No modern national flags anywhere (never a red flag with a yellow star); no flags at all unless the scene describes a period-accurate one. Vietnam, December 1788, Bân mountain near Phú Xuân (Huế): a low pine-covered hill, a square three-tiered earthen altar with banners and incense, officials in court robes, a huge Tây Sơn army in dark-red uniforms assembling below. The new emperor is seen only from behind or at a distance, in a yellow robe. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face, a laborer-soldier in a dark-red uniform. 0-5s: The army marches north in a long column; an official hands Anh Tư a shovel: "Dỡ đàn đi." 5-10s: Anh Tư looks at the altar and sighs to the viewer: "Đắp ba ngày, dùng một buổi sáng... giờ lại dỡ." Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync in Central Vietnamese (Huế) accent, no background music.
 ```
 
-## Clip 5: Ghi tên em vào sử
+## Clip 5: Câu chốt
 File Muse đặt tên: `ts1788-5.mp4`
 
 **Ảnh khung đầu**
@@ -76,7 +76,7 @@ First-person view from the hilltop at sunset, a vast army with red banners march
 
 **Video (Muse)**
 ```
-First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. No modern national flags anywhere (never a red flag with a yellow star); no flags at all unless the scene describes a period-accurate one. Vietnam, December 1788, Bân mountain near Phú Xuân (Huế): a low pine-covered hill, a square three-tiered earthen altar with banners and incense, officials in court robes, a huge Tây Sơn army in dark-red uniforms assembling below. The new emperor is seen only from behind or at a distance, in a yellow robe. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face, a laborer-soldier in a dark-red uniform. 0-5s: Sunset; the army stretches north to the horizon. A calm narrator's voice says: "Ngày 22/12/1788, Nguyễn Huệ lên ngôi ở núi Bân, niên hiệu Quang Trung, rồi lập tức ra Bắc. Hơn một tháng sau, quân Thanh tan." 5-10s: Anh Tư grins at the camera: "Cái đàn ấy em đắp! Ghi tên em vào sử nhé!" Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync in Central Vietnamese (Huế) accent, no background music.
+First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. No modern national flags anywhere (never a red flag with a yellow star); no flags at all unless the scene describes a period-accurate one. Vietnam, December 1788, Bân mountain near Phú Xuân (Huế): a low pine-covered hill, a square three-tiered earthen altar with banners and incense, officials in court robes, a huge Tây Sơn army in dark-red uniforms assembling below. The new emperor is seen only from behind or at a distance, in a yellow robe. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face, a laborer-soldier in a dark-red uniform. 0-5s: Sunset; the army stretches north to the horizon. A calm narrator's voice says: "Ngày 22/12/1788, Nguyễn Huệ lên ngôi ở núi Bân, niên hiệu Quang Trung, rồi lập tức ra Bắc. Hơn một tháng sau, quân Thanh tan." 5-10s: Anh Tư grins at the camera: "Cái đàn ấy em đắp! Đắp ba ngày, đổi cả một triều đại." Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync in Central Vietnamese (Huế) accent, no background music.
 ```
 
 ## Đăng TikTok
@@ -143,7 +143,7 @@ Khi đăng: ở mục "Nội dung bị thay đổi" (Altered content) chọn **C
 ```
 # Dựng: python3 ../tools/tiktok.py tap-5-dung-dan-nui-ban-1788.plan.txt tap-5-dung-dan-nui-ban-1788.mp4  (ra tap-5-dung-dan-nui-ban-1788-youtube.mp4 và tap-5-dung-dan-nui-ban-1788-tiktok.mp4)
 hook: POV: Dựng đàn tế / cho vua lên ngôi / gấp trong ba ngày
-end: Sử không ghi tên Anh Tư. / Follow để xem mốc tiếp: / Tết Kỷ Dậu 1789 →
+end: Follow để xem mốc tiếp: / Tết Kỷ Dậu 1789 →
 nhan: AI tái hiện · lời thoại hư cấu
 
 clip: ts1788-1.mp4 | Núi Bân, Phú Xuân · cuối năm 1788
@@ -161,5 +161,5 @@ sub: 3 | 5.0-9.5 | Vừa lên ngôi xong... / sao ông ấy cứ nhìn / về ph
 sub: 4 | 0.5-4.8 | Dỡ đàn đi.
 sub: 4 | 5.0-9.5 | Đắp ba ngày, / dùng một buổi sáng... / giờ lại dỡ.
 sub: 5 | 0.3-4.8 | Lên ngôi ở núi Bân, / niên hiệu Quang Trung, / rồi lập tức ra Bắc.
-sub: 5 | 5.0-9.8 | Cái đàn ấy em đắp! / Ghi tên em vào sử nhé!
+sub: 5 | 5.0-9.8 | Cái đàn ấy em đắp! / Đắp ba ngày, / đổi cả một triều đại.
 ```

@@ -66,7 +66,7 @@ First-person view running into a narrow pass between steep forested limestone cl
 First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. No modern national flags anywhere (never a red flag with a yellow star); no flags at all unless the scene describes a period-accurate one. Vietnam, Lam Sơn uprising, autumn 1427, the mountain road to the Chi Lăng pass in Lạng Sơn: steep forested limestone cliffs, a narrow valley, rocky paths. Lam Sơn soldiers in plain brown and dark-blue clothes with head wraps, spears and shields; a stern officer; Ming cavalry in red-and-black armor; a Ming general in ornate armor on a horse. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face, in a brown tunic and head wrap. 0-5s: They run into a narrow pass between steep forested cliffs; suddenly it is completely silent. Anh Tư whispers: "Sao núi im thế... chim cũng nín thở à?" 5-10s: The viewer looks up and notices a spear tip glinting among the leaves, then another, then dozens. Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync in a natural Northern Vietnamese (Hà Nội) accent, no background music.
 ```
 
-## Clip 5: Ghi tên em vào sử
+## Clip 5: Câu chốt
 File Muse đặt tên: `nbt4-5.mp4`
 
 **Ảnh khung đầu**
@@ -76,7 +76,7 @@ First-person view in a narrow mountain pass, hundreds of Lam Sơn soldiers risin
 
 **Video (Muse)**
 ```
-First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. No modern national flags anywhere (never a red flag with a yellow star); no flags at all unless the scene describes a period-accurate one. Vietnam, Lam Sơn uprising, autumn 1427, the mountain road to the Chi Lăng pass in Lạng Sơn: steep forested limestone cliffs, a narrow valley, rocky paths. Lam Sơn soldiers in plain brown and dark-blue clothes with head wraps, spears and shields; a stern officer; Ming cavalry in red-and-black armor; a Ming general in ornate armor on a horse. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face, in a brown tunic and head wrap. 0-5s: A drum booms; hundreds of hidden soldiers rise from both cliffsides with crossbows and banners; the Ming cavalry is trapped in the pass. The officer shouts: "Hết giờ chạy. Quay lại!" 5-10s: Anh Tư turns around, cracks his knuckles and grins at the camera: "Chạy cả ngày rồi, giờ đến lượt nó! Ghi tên em vào sử nhé!" Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync in a natural Northern Vietnamese (Hà Nội) accent, no background music.
+First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. No modern national flags anywhere (never a red flag with a yellow star); no flags at all unless the scene describes a period-accurate one. Vietnam, Lam Sơn uprising, autumn 1427, the mountain road to the Chi Lăng pass in Lạng Sơn: steep forested limestone cliffs, a narrow valley, rocky paths. Lam Sơn soldiers in plain brown and dark-blue clothes with head wraps, spears and shields; a stern officer; Ming cavalry in red-and-black armor; a Ming general in ornate armor on a horse. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face, in a brown tunic and head wrap. 0-5s: A drum booms; hundreds of hidden soldiers rise from both cliffsides with crossbows and banners; the Ming cavalry is trapped in the pass. The officer shouts: "Hết giờ chạy. Quay lại!" 5-10s: Anh Tư turns around, cracks his knuckles and grins at the camera: "Chạy cả ngày rồi, giờ đến lượt nó! Giờ đổi vai: nó chạy, em đứng xem!" Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync in a natural Northern Vietnamese (Hà Nội) accent, no background music.
 ```
 
 ## Đăng TikTok
@@ -137,7 +137,7 @@ Khi đăng: ở mục "Nội dung bị thay đổi" (Altered content) chọn **C
 ```
 # Dựng: python3 ../tools/tiktok.py tap-4-chay-thua-chi-lang-1427.plan.txt tap-4-chay-thua-chi-lang-1427.mp4  (ra tap-4-chay-thua-chi-lang-1427-youtube.mp4 và tap-4-chay-thua-chi-lang-1427-tiktok.mp4)
 hook: POV: Bị lệnh chạy thua / cả ngày
-end: Chạy cả ngày, giờ ai phải chạy? / Follow để xem đời sau nhà Anh Tư / bị cấm đập muỗi cả đêm →
+end: Chạy cả ngày, giờ ai phải chạy? / Follow để xem Anh Tư / bị cấm đập muỗi cả đêm →
 nhan: AI tái hiện · lời thoại hư cấu
 
 clip: nbt4-1.mp4 | Đường lên ải · năm 1427
@@ -154,5 +154,5 @@ sub: 3 | 0.5-4.8 | Nó cười mình kìa anh!
 sub: 3 | 5.0-9.5 | Để nó cười. Cười nốt hôm nay.
 sub: 4 | 0.5-4.8 | Sao núi im thế... / chim cũng nín thở à?
 sub: 5 | 0.5-4.8 | Hết giờ chạy. Quay lại!
-sub: 5 | 5.0-9.8 | Chạy cả ngày rồi, giờ đến lượt nó! / Ghi tên em vào sử nhé!
+sub: 5 | 5.0-9.8 | Chạy cả ngày rồi, / giờ đến lượt nó! Đổi vai: / nó chạy, em đứng xem!
 ```

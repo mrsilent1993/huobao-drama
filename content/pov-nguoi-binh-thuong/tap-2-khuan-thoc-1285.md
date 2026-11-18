@@ -66,7 +66,7 @@ First-person view peeking over a wall in an empty ancient city, Mongol-Yuan sold
 First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. No modern national flags anywhere (never a red flag with a yellow star); no flags at all unless the scene describes a period-accurate one. Vietnam, Trần dynasty, early 1285, a village near Thăng Long, a mountain hideout, and the empty capital. Villagers with short cropped hair, black-lacquered teeth, brown clothes, carrying rice sacks and baskets on shoulder poles; a village elder; Mongol-Yuan soldiers in leather armor and fur-trimmed hats. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face. His mother, Mẹ Anh Tư, is a tiny, fierce, sharp-tongued woman around 55 with black teeth, chewing betel. 0-5s: Sent down to scout, the viewer peeks over a wall: Mongol-Yuan soldiers kick open granary after granary, all empty; one shakes an empty basket upside down. 5-10s: A soldier holds up a single forgotten pumpkin; a crowd of soldiers immediately gathers around it, staring at it hungrily. Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync in a natural Northern Vietnamese (Hà Nội) accent, no background music.
 ```
 
-## Clip 5: Ghi tên mẹ em vào sử
+## Clip 5: Câu chốt
 File Muse đặt tên: `nbt2-5.mp4`
 
 **Ảnh khung đầu**
@@ -76,7 +76,7 @@ First-person view from behind a bush on a hillside, thin exhausted Mongol-Yuan s
 
 **Video (Muse)**
 ```
-First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. No modern national flags anywhere (never a red flag with a yellow star); no flags at all unless the scene describes a period-accurate one. Vietnam, Trần dynasty, early 1285, a village near Thăng Long, a mountain hideout, and the empty capital. Villagers with short cropped hair, black-lacquered teeth, brown clothes, carrying rice sacks and baskets on shoulder poles; a village elder; Mongol-Yuan soldiers in leather armor and fur-trimmed hats. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face. His mother, Mẹ Anh Tư, is a tiny, fierce, sharp-tongued woman around 55 with black teeth, chewing betel. 0-5s: Three days later; from behind a bush, they watch thin, exhausted enemy soldiers dig for roots, one chewing a blade of grass. Mẹ Anh Tư nods with satisfaction: "Mời giặc vào nhà mà không mời cơm. Thế mới là lễ." 5-10s: Anh Tư turns to the camera, grinning with his chipped tooth: "Ghi tên mẹ em vào sử nhé!" Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync in a natural Northern Vietnamese (Hà Nội) accent, no background music.
+First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. No modern national flags anywhere (never a red flag with a yellow star); no flags at all unless the scene describes a period-accurate one. Vietnam, Trần dynasty, early 1285, a village near Thăng Long, a mountain hideout, and the empty capital. Villagers with short cropped hair, black-lacquered teeth, brown clothes, carrying rice sacks and baskets on shoulder poles; a village elder; Mongol-Yuan soldiers in leather armor and fur-trimmed hats. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face. His mother, Mẹ Anh Tư, is a tiny, fierce, sharp-tongued woman around 55 with black teeth, chewing betel. 0-5s: Three days later; from behind a bush, they watch thin, exhausted enemy soldiers dig for roots, one chewing a blade of grass. Mẹ Anh Tư nods with satisfaction: "Mời giặc vào nhà mà không mời cơm. Thế mới là lễ." 5-10s: Anh Tư turns to the camera, grinning with his chipped tooth: "Mẹ em mà cầm quân... giặc còn đói sớm hơn!" Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync in a natural Northern Vietnamese (Hà Nội) accent, no background music.
 ```
 
 ## Đăng TikTok
@@ -137,7 +137,7 @@ Khi đăng: ở mục "Nội dung bị thay đổi" (Altered content) chọn **C
 ```
 # Dựng: python3 ../tools/tiktok.py tap-2-khuan-thoc-1285.plan.txt tap-2-khuan-thoc-1285.mp4  (ra tap-2-khuan-thoc-1285-youtube.mp4 và tap-2-khuan-thoc-1285-tiktok.mp4)
 hook: POV: Khuân hết thóc đi / bỏ trống cả nhà
-end: Ba ngày sau, giặc ăn gì? / Follow để xem đời sau nhà Anh Tư / bị lệnh phải thua trận →
+end: Ba ngày sau, giặc ăn gì? / Follow để xem Anh Tư / bị lệnh phải thua trận →
 nhan: AI tái hiện · lời thoại hư cấu
 
 clip: nbt2-1.mp4 | Làng ven Thăng Long · đầu năm 1285
@@ -153,5 +153,5 @@ sub: 2 | 5.0-9.5 | Giặc không ăn thì mày ăn. Vác.
 sub: 3 | 0.5-4.8 | Cả bao thóc mà nấu một nắm... / khổ thế này để làm gì?
 sub: 3 | 5.0-9.5 | Để đứa khác khổ hơn.
 sub: 5 | 0.5-4.8 | Mời giặc vào nhà mà không mời cơm. / Thế mới là lễ.
-sub: 5 | 5.0-9.5 | Ghi tên mẹ em vào sử nhé!
+sub: 5 | 5.0-9.5 | Mẹ em mà cầm quân... / giặc còn đói sớm hơn!
 ```

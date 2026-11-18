@@ -1,6 +1,6 @@
 # Dựng: python3 ../tools/tiktok.py tap-4-vay-thanh-phe-minh-1787.plan.txt tap-4-vay-thanh-phe-minh-1787.mp4  (ra tap-4-vay-thanh-phe-minh-1787-youtube.mp4 và tap-4-vay-thanh-phe-minh-1787-tiktok.mp4)
 hook: POV: Bị lệnh / vây thành / của chính phe mình
-end: Sử không ghi tên Anh Tư. / Follow để xem mốc tiếp: / lên ngôi năm 1788 →
+end: Follow để xem mốc tiếp: / lên ngôi năm 1788 →
 nhan: AI tái hiện · lời thoại hư cấu
 
 clip: ts1787-1.mp4 | Thành Hoàng Đế · năm 1787
@@ -18,4 +18,4 @@ sub: 3 | 0.5-4.8 | Nồi da nấu thịt... / lòng em sao nỡ!
 sub: 3 | 5.0-9.5 | Hai anh em giận nhau... / mà cả hai đạo quân đứng giữa.
 sub: 4 | 5.0-9.5 | Mới hôm trước còn vây nhau... / giờ ăn chung một nồi.
 sub: 5 | 0.3-4.8 | Năm 1787, hai anh em / giảng hòa, chia nhau / cai quản đất nước.
-sub: 5 | 5.0-9.8 | May mà không ai / bắt em chọn phe! / Ghi tên em vào sử nhé!
+sub: 5 | 5.0-9.8 | May mà không ai / bắt em chọn phe! / Về nhà mẹ hỏi đánh ai... / em biết nói sao?

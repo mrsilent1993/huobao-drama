@@ -60,4 +60,4 @@ sub: 17 | 0.5-4.8 | Cọc của em... / em xin mang về làm kỷ niệm.
 sub: 17 | 5.0-7.6 | Để đấy. Lần sau còn dùng.
 sub: 17 | 7.6-9.6 | ...Lần sau á?
 sub: 18 | 0.3-4.6 | Năm 939, Ngô Quyền xưng vương, / đóng đô ở Cổ Loa.
-sub: 18 | 4.8-7.9 | Cọc thứ ba hàng thứ bảy là em cắm! / Ghi tên em vào sử nhé!
+sub: 18 | 4.8-7.9 | Cọc thứ ba hàng thứ bảy / là em cắm! Lần sau... / để lại cho con cháu.

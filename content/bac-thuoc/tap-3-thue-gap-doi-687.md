@@ -68,7 +68,7 @@ First-person view at night under a banyan tree lit by a small fire, village men 
 First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. No modern national flags anywhere (never a red flag with a yellow star); no flags at all unless the scene describes a period-accurate one. Tống Bình (Hanoi), year 687, under the Tang: a dusty tax yard in front of a wooden government building, a big wooden balance scale, sacks and baskets of rice, a village with thatched houses and a banyan tree. Tang dynasty officials in round-collared robes (red, green or blue by rank) with black futou hats and leather belts, guards in Tang-style lamellar armor. Local farmers with black-lacquered teeth, barefoot, in brown clothes. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face, a farmer in a patched brown shirt. No visible writing or characters on clothes, documents, signboards or banners; no flags; no European clothing or armor. 0-5s: Under the banyan tree at night, a broad-shouldered leader seen only from behind says quietly: "Không nộp nữa." The men nod one by one. 5-10s: Anh Tư whispers to the viewer: "Ơ... thế bao thóc thứ hai... em giữ lại nấu cơm được không?" Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync in a natural Northern Vietnamese (Hà Nội) accent, no background music.
 ```
 
-## Clip 5: Ghi tên em vào sử
+## Clip 5: Câu chốt
 File Muse đặt tên: `bt687-5.mp4`
 
 **Ảnh khung đầu**
@@ -78,7 +78,7 @@ First-person view at dawn of a huge crowd of farmers with torches and bamboo pol
 
 **Video (Muse)**
 ```
-First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. No modern national flags anywhere (never a red flag with a yellow star); no flags at all unless the scene describes a period-accurate one. Tống Bình (Hanoi), year 687, under the Tang: a dusty tax yard in front of a wooden government building, a big wooden balance scale, sacks and baskets of rice, a village with thatched houses and a banyan tree. Tang dynasty officials in round-collared robes (red, green or blue by rank) with black futou hats and leather belts, guards in Tang-style lamellar armor. Local farmers with black-lacquered teeth, barefoot, in brown clothes. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face, a farmer in a patched brown shirt. No visible writing or characters on clothes, documents, signboards or banners; no flags; no European clothing or armor. 0-5s: Dawn; a huge crowd of farmers with torches and bamboo poles surrounds the citadel walls, shouting together; no fighting shown. A calm narrator's voice says: "Năm 687, đô hộ Lưu Diên Hựu bắt nộp thuế gấp đôi. Đinh Kiến cùng dân nổi dậy, vây phủ thành Tống Bình." 5-10s: Anh Tư raises his empty basket and grins at the camera: "Bao thóc thứ hai ấy, em không nộp! Ghi tên em vào sử nhé!" Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync in a natural Northern Vietnamese (Hà Nội) accent, no background music.
+First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. No modern national flags anywhere (never a red flag with a yellow star); no flags at all unless the scene describes a period-accurate one. Tống Bình (Hanoi), year 687, under the Tang: a dusty tax yard in front of a wooden government building, a big wooden balance scale, sacks and baskets of rice, a village with thatched houses and a banyan tree. Tang dynasty officials in round-collared robes (red, green or blue by rank) with black futou hats and leather belts, guards in Tang-style lamellar armor. Local farmers with black-lacquered teeth, barefoot, in brown clothes. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face, a farmer in a patched brown shirt. No visible writing or characters on clothes, documents, signboards or banners; no flags; no European clothing or armor. 0-5s: Dawn; a huge crowd of farmers with torches and bamboo poles surrounds the citadel walls, shouting together; no fighting shown. A calm narrator's voice says: "Năm 687, đô hộ Lưu Diên Hựu bắt nộp thuế gấp đôi. Đinh Kiến cùng dân nổi dậy, vây phủ thành Tống Bình." 5-10s: Anh Tư raises his empty basket and grins at the camera: "Bao thóc thứ hai ấy, em không nộp! Để dành nấu cơm cho cả làng." Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync in a natural Northern Vietnamese (Hà Nội) accent, no background music.
 ```
 
 ## Đăng TikTok
@@ -145,7 +145,7 @@ Khi đăng: ở mục "Nội dung bị thay đổi" (Altered content) chọn **C
 ```
 # Dựng: python3 ../tools/tiktok.py tap-3-thue-gap-doi-687.plan.txt tap-3-thue-gap-doi-687.mp4  (ra tap-3-thue-gap-doi-687-youtube.mp4 và tap-3-thue-gap-doi-687-tiktok.mp4)
 hook: POV: Lương không tăng / thuế tăng gấp đôi
-end: Sử không ghi tên Anh Tư. / Follow để xem Anh Tư / làm thuê cho quan đô hộ →
+end: Follow để xem Anh Tư / làm thuê cho quan đô hộ →
 nhan: AI tái hiện · lời thoại hư cấu
 
 clip: bt687-1.mp4 | Tống Bình · năm 687
@@ -162,5 +162,5 @@ sub: 3 | 5.0-9.5 | Năm ngoái một bao, / năm nay hai bao... sang năm / ch�
 sub: 4 | 0.5-4.8 | Không nộp nữa.
 sub: 4 | 5.0-9.5 | Thế bao thóc thứ hai... / em giữ lại nấu cơm được không?
 sub: 5 | 0.3-4.8 | Năm 687, đô hộ bắt nộp / thuế gấp đôi. Đinh Kiến / cùng dân vây phủ thành.
-sub: 5 | 5.0-9.8 | Bao thóc thứ hai ấy, / em không nộp! / Ghi tên em vào sử nhé!
+sub: 5 | 5.0-9.8 | Bao thóc thứ hai ấy, / em không nộp! / Để dành nấu cơm cho cả làng.
 ```

@@ -66,7 +66,7 @@ First-person view in a rice field, a Vietnamese man around 30 with deeply tanned
 First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. No modern national flags anywhere (never a red flag with a yellow star); no flags at all unless the scene describes a period-accurate one. Vietnam, 1791 to 1792, a village in Nghệ An: a banyan tree, a communal house yard with a long wooden table, a district clerk in a dark robe with a register, a pile of small wooden tags and a large red seal, adult villagers queuing (no children), rice fields around. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face, the clerk's helper in a brown shirt. 0-5s: Anh Tư plows a rice field behind a buffalo, the wooden tag swinging at his belt; around him every field is being worked again. 5-10s: He wipes his brow and says to the viewer: "Vua bảo ai về quê nấy cày ruộng. Ruộng bỏ hoang... giờ xanh hết rồi." Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync in Central Vietnamese (Nghệ An) accent, no background music.
 ```
 
-## Clip 5: Ghi tên em vào sử
+## Clip 5: Câu chốt
 File Muse đặt tên: `ts1792-5.mp4`
 
 **Ảnh khung đầu**
@@ -76,7 +76,7 @@ First-person view in a rice field at dusk in autumn, villagers stopping work and
 
 **Video (Muse)**
 ```
-First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. No modern national flags anywhere (never a red flag with a yellow star); no flags at all unless the scene describes a period-accurate one. Vietnam, 1791 to 1792, a village in Nghệ An: a banyan tree, a communal house yard with a long wooden table, a district clerk in a dark robe with a register, a pile of small wooden tags and a large red seal, adult villagers queuing (no children), rice fields around. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face, the clerk's helper in a brown shirt. 0-5s: Autumn dusk; a slow drum sounds from the village; one by one the villagers stop working and take off their hats in silence. A calm narrator's voice says: "Mùa thu năm 1792, vua Quang Trung mất, khi mới 40 tuổi." 5-10s: Anh Tư looks at the wooden tag in his hand, then quietly at the camera: "Tấm thẻ này em giữ đến giờ. Ghi tên em vào sử nhé." Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync in Central Vietnamese (Nghệ An) accent, no background music.
+First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. No modern national flags anywhere (never a red flag with a yellow star); no flags at all unless the scene describes a period-accurate one. Vietnam, 1791 to 1792, a village in Nghệ An: a banyan tree, a communal house yard with a long wooden table, a district clerk in a dark robe with a register, a pile of small wooden tags and a large red seal, adult villagers queuing (no children), rice fields around. Anh Tư is a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a chipped front tooth, very expressive face, the clerk's helper in a brown shirt. 0-5s: Autumn dusk; a slow drum sounds from the village; one by one the villagers stop working and take off their hats in silence. A calm narrator's voice says: "Mùa thu năm 1792, vua Quang Trung mất, khi mới 40 tuổi." 5-10s: Anh Tư looks at the wooden tag in his hand, then quietly at the camera: "Tấm thẻ này em giữ đến giờ. Ít ra... nhà vua biết tên em." Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync in Central Vietnamese (Nghệ An) accent, no background music.
 ```
 
 ## Đăng TikTok
@@ -143,7 +143,7 @@ Khi đăng: ở mục "Nội dung bị thay đổi" (Altered content) chọn **C
 ```
 # Dựng: python3 ../tools/tiktok.py tap-6-the-can-cuoc-tin-bai-1792.plan.txt tap-6-the-can-cuoc-tin-bai-1792.mp4  (ra tap-6-the-can-cuoc-tin-bai-1792-youtube.mp4 và tap-6-the-can-cuoc-tin-bai-1792-tiktok.mp4)
 hook: POV: Bị sai đi làm / thẻ căn cước / từ thế kỷ 18
-end: Sử không ghi tên Anh Tư. / Follow để xem cả loạt / Tây Sơn từng mốc →
+end: Follow để xem cả loạt / Tây Sơn từng mốc →
 nhan: AI tái hiện · lời thoại hư cấu
 
 clip: ts1792-1.mp4 | Nghệ An · năm 1791
@@ -160,5 +160,5 @@ sub: 3 | 0.5-4.8 | Tôi năm nay... / sáu mươi mốt.
 sub: 3 | 5.0-9.5 | Sáu mươi mốt... / mà da căng hơn cả em.
 sub: 4 | 5.0-9.5 | Vua bảo ai về quê nấy / cày ruộng. Ruộng hoang / giờ xanh hết rồi.
 sub: 5 | 0.3-4.8 | Mùa thu năm 1792, / vua Quang Trung mất, / khi mới 40 tuổi.
-sub: 5 | 5.0-9.8 | Tấm thẻ này em giữ đến giờ. / Ghi tên em vào sử nhé.
+sub: 5 | 5.0-9.8 | Tấm thẻ này em giữ đến giờ. / Ít ra... nhà vua biết tên em.
 ```

@@ -5,7 +5,8 @@ Công thức (từ video Bạch Đằng 938: 1,4 triệu lượt xem, 43,6% xem 
 - Nhân vật quen mặt: ANH TƯ (sẹo ngang lông mày trái, răng cửa mẻ, cười toe). Mỗi tập là một đời con cháu,
   đời nào cũng bị giao một việc vô lý mà không ai giải thích.
 - Giây 0: lao động cận cảnh + câu lệnh vô lý. Mỗi clip đúng MỘT câu chốt ngắn.
-- Clip cuối: vỡ lẽ bằng cảnh lớn + câu cửa miệng "Ghi tên em vào sử nhé!"
+- Clip cuối: vỡ lẽ bằng cảnh lớn + một câu chốt RIÊNG của tập, nối lại chi tiết trong tập (từ 19/11/2026 không dùng
+  câu "Ghi tên em vào sử nhé!" nữa; câu này chỉ còn ở các tập đã đăng).
 - TikTok 30 giây = clip 1, 3, 5. YouTube 50 giây = đủ 5 clip (clip 2, 4 là trò cười riêng, không phải clip đệm).
 """
 import os
@@ -49,7 +50,7 @@ EPISODES = [
                  "the river a huge Song army camp. Villagers and soldiers with short cropped hair, black-lacquered teeth, "
                  f"brown clothes, barefoot; an officer in a dark-red uniform. Anh Tư is {FACE}, in a brown shirt."),
         hook="POV: Cắm tre cả đêm / không ai nói để làm gì",
-        end="Sử không ghi tên Anh Tư. / Follow để xem đời sau nhà Anh Tư / bị bắt khuân hết thóc đi →",
+        end="Follow để xem Anh Tư / bị bắt khuân hết thóc đi →",
         clips=[
             dict(name="Lệnh vô lý", label="Bờ sông Như Nguyệt · đêm 1077",
                  img=f"First-person close-up at night by moonlight of muddy hands hammering a sharpened bamboo stake into an earthen rampart, {FACE} beside the viewer holding the stake and frowning, rows of stakes behind, realistic, vertical 9:16.",
@@ -69,10 +70,10 @@ EPISODES = [
                  img="First-person view from an earthen rampart, Song soldiers wading across a shallow part of the river, stumbling into hidden pits and getting stuck among bamboo stakes, then retreating in confusion, no blood, realistic, vertical 9:16.",
                  vid="0-5s: A group of Song soldiers tries to wade across a shallow stretch; one after another they plunge into hidden pits and tangle in the bamboo stakes, then scramble back to their own bank. 5-10s: Anh Tư jumps up on the rampart, pointing: \"Cái hố kia em đào! Em cũng ngã rồi, em biết nó đau!\"",
                  subs=[(5.0, 9.5, "Cái hố kia em đào! / Em cũng ngã rồi, em biết nó đau!")]),
-            dict(name="Ghi tên em vào sử", label="Mấy tuần sau",
+            dict(name="Câu chốt", label="Mấy tuần sau",
                  img=f"First-person view from an earthen rampart lined with bamboo stakes, across the river Song soldiers sitting idle at their camp, one fishing, {FACE} on the rampart eating a rice ball and waving at them cheerfully, realistic, vertical 9:16.",
-                 vid="0-5s: Weeks later; across the river, Song soldiers sit idle, one of them fishing, staring at the wall of bamboo. 5-10s: Anh Tư, eating a rice ball on the rampart, waves at them, then turns to the camera with his chipped-tooth grin: \"Cắm một đêm, nó đứng nhìn cả tháng. Ghi tên em vào sử nhé!\"",
-                 subs=[(5.0, 9.8, "Cắm một đêm, nó đứng nhìn cả tháng. / Ghi tên em vào sử nhé!")]),
+                 vid="0-5s: Weeks later; across the river, Song soldiers sit idle, one of them fishing, staring at the wall of bamboo. 5-10s: Anh Tư, eating a rice ball on the rampart, waves at them, then turns to the camera with his chipped-tooth grin: \"Cắm một đêm, nó đứng nhìn cả tháng. Tre làng em... bảo hành trọn đời!\"",
+                 subs=[(5.0, 9.8, "Cắm một đêm, nó đứng / nhìn cả tháng. Tre làng em / bảo hành trọn đời!")]),
         ],
         caption=("Bị bắt cắm tre cả đêm mà không ai nói để làm gì, sáng ra mới hiểu 😳 Năm 1077, lũy đất, cọc tre "
                  "nhiều tầng và hố chông ngầm ở sông Như Nguyệt giữ chân quân Tống hàng tuần liền. Sử không ghi tên "
@@ -94,7 +95,7 @@ EPISODES = [
                  f"hats. Anh Tư is {FACE}. His mother, Mẹ Anh Tư, is a tiny, fierce, sharp-tongued woman around 55 with "
                  "black teeth, chewing betel."),
         hook="POV: Khuân hết thóc đi / bỏ trống cả nhà",
-        end="Ba ngày sau, giặc ăn gì? / Follow để xem đời sau nhà Anh Tư / bị lệnh phải thua trận →",
+        end="Ba ngày sau, giặc ăn gì? / Follow để xem Anh Tư / bị lệnh phải thua trận →",
         clips=[
             dict(name="Lệnh vô lý", label="Làng ven Thăng Long · đầu năm 1285",
                  img="First-person close-up of hands heaving a heavy rice sack onto a shoulder pole in a dim thatched granary, grains spilling, a tiny fierce old woman with black teeth grabbing the other end of the sack, a village elder with a torch at the door, realistic, vertical 9:16.",
@@ -115,11 +116,11 @@ EPISODES = [
                  img="First-person view peeking over a wall in an empty ancient city, Mongol-Yuan soldiers kicking open empty granaries, one soldier shaking an empty basket upside down, another holding up a single forgotten pumpkin as others crowd around it, realistic, vertical 9:16.",
                  vid="0-5s: Sent down to scout, the viewer peeks over a wall: Mongol-Yuan soldiers kick open granary after granary, all empty; one shakes an empty basket upside down. 5-10s: A soldier holds up a single forgotten pumpkin; a crowd of soldiers immediately gathers around it, staring at it hungrily.",
                  subs=[]),
-            dict(name="Ghi tên mẹ em vào sử", label="Ba ngày sau",
+            dict(name="Câu chốt", label="Ba ngày sau",
                  img=f"First-person view from behind a bush on a hillside, thin exhausted Mongol-Yuan soldiers below digging for roots in an empty field, one chewing grass, a tiny fierce old woman with black teeth peeking beside {FACE}, realistic, vertical 9:16.",
-                 vid="0-5s: Three days later; from behind a bush, they watch thin, exhausted enemy soldiers dig for roots, one chewing a blade of grass. Mẹ Anh Tư nods with satisfaction: \"Mời giặc vào nhà mà không mời cơm. Thế mới là lễ.\" 5-10s: Anh Tư turns to the camera, grinning with his chipped tooth: \"Ghi tên mẹ em vào sử nhé!\"",
+                 vid="0-5s: Three days later; from behind a bush, they watch thin, exhausted enemy soldiers dig for roots, one chewing a blade of grass. Mẹ Anh Tư nods with satisfaction: \"Mời giặc vào nhà mà không mời cơm. Thế mới là lễ.\" 5-10s: Anh Tư turns to the camera, grinning with his chipped tooth: \"Mẹ em mà cầm quân... giặc còn đói sớm hơn!\"",
                  subs=[(0.5, 4.8, "Mời giặc vào nhà mà không mời cơm. / Thế mới là lễ."),
-                       (5.0, 9.5, "Ghi tên mẹ em vào sử nhé!")]),
+                       (5.0, 9.5, "Mẹ em mà cầm quân... / giặc còn đói sớm hơn!")]),
         ],
         caption=("Bị bắt khuân hết thóc đi, bỏ trống cả nhà, ba ngày sau mới hiểu 😏 Năm 1285, kế \"vườn không nhà "
                  "trống\" khiến quân Nguyên chiếm được Thăng Long mà không có gì ăn. Mẹ bạn có chịu bỏ lại vại cà "
@@ -141,7 +142,7 @@ EPISODES = [
                  f"'Sát Thát' tattooed on their forearms; a stern officer. Anh Tư is {FACE}, with 'Sát Thát' tattooed on "
                  "his forearm."),
         hook="POV: Bị lệnh phải thua / không ai nói vì sao",
-        end="Thua một buổi sáng thì được gì? / Follow để xem đời sau nhà Anh Tư / bị lệnh chạy thua cả ngày →",
+        end="Thua một buổi sáng thì được gì? / Follow để xem Anh Tư / bị lệnh chạy thua cả ngày →",
         clips=[
             dict(name="Lệnh phải thua", label="Cửa sông Bạch Đằng · năm 1288",
                  img=f"First-person close-up of tattooed forearms digging a paddle into the water in a small light boat at dawn, {FACE} paddling in front and looking back, a stern officer in the next boat pointing at huge enemy sails on the horizon, realistic, vertical 9:16.",
@@ -161,10 +162,10 @@ EPISODES = [
                  img=f"First-person view from a small boat hidden among mangroves, the river water dropping and rows of sharpened stakes rising out of it around huge enemy warships, {FACE} pointing at one stake excitedly, realistic, vertical 9:16.",
                  vid="0-5s: Hidden among the mangroves, the crew catches its breath; the water drops fast and rows of sharpened stakes rise out of the river around the enemy warships. 5-10s: Anh Tư points at one stake, delighted: \"Ơ! Cái cọc kia nhà em cắm hôm trước đây mà!\"",
                  subs=[(5.0, 9.5, "Ơ! Cái cọc kia / nhà em cắm hôm trước đây mà!")]),
-            dict(name="Ghi tên em vào sử", label="Ngay sau đó",
+            dict(name="Câu chốt", label="Ngay sau đó",
                  img=f"First-person view from a small boat charging out of the mangroves toward huge Yuan warships stuck and tilting on stakes, drums from both banks, {FACE} standing in the boat grinning at the camera, realistic, vertical 9:16.",
-                 vid="0-5s: The giant warships grind onto the stakes, tilt and crack; drums roar from both banks and the small boats charge back out. 5-10s: Anh Tư stands up in the boat and turns to the camera: \"Thua một buổi, thắng cả cuộc chiến. Ghi tên em vào sử nhé!\"",
-                 subs=[(5.0, 9.8, "Thua một buổi, thắng cả cuộc chiến. / Ghi tên em vào sử nhé!")]),
+                 vid="0-5s: The giant warships grind onto the stakes, tilt and crack; drums roar from both banks and the small boats charge back out. 5-10s: Anh Tư stands up in the boat and turns to the camera: \"Thua một buổi, thắng cả cuộc chiến. Thua kiểu này, em xin thua cả đời!\"",
+                 subs=[(5.0, 9.8, "Thua một buổi, / thắng cả cuộc chiến. / Thua kiểu này, em xin / thua cả đời!")]),
         ],
         caption=("Bị lệnh phải thua trận mà không ai nói vì sao, tưởng thua thật, hóa ra... 😎 Năm 1288, quân Trần giả "
                  "thua nhử thủy quân Nguyên vào bãi cọc sông Bạch Đằng. Bạn có \"lỡ tay giỏi\" như Anh Tư không? 👇"),
@@ -184,7 +185,7 @@ EPISODES = [
                  "clothes with head wraps, spears and shields; a stern officer; Ming cavalry in red-and-black armor; a "
                  f"Ming general in ornate armor on a horse. Anh Tư is {FACE}, in a brown tunic and head wrap."),
         hook="POV: Bị lệnh chạy thua / cả ngày",
-        end="Chạy cả ngày, giờ ai phải chạy? / Follow để xem đời sau nhà Anh Tư / bị cấm đập muỗi cả đêm →",
+        end="Chạy cả ngày, giờ ai phải chạy? / Follow để xem Anh Tư / bị cấm đập muỗi cả đêm →",
         clips=[
             dict(name="Lệnh chạy chậm", label="Đường lên ải · năm 1427",
                  img=f"First-person close-up of muddy feet running on a rocky mountain path, {FACE} running beside the viewer with a spear, a stern officer ahead looking back, Ming banners appearing behind, realistic, vertical 9:16.",
@@ -205,11 +206,11 @@ EPISODES = [
                  img=f"First-person view running into a narrow pass between steep forested limestone cliffs, eerily silent, a spear tip glinting among the leaves above, {FACE} glancing up nervously, realistic, vertical 9:16.",
                  vid="0-5s: They run into a narrow pass between steep forested cliffs; suddenly it is completely silent. Anh Tư whispers: \"Sao núi im thế... chim cũng nín thở à?\" 5-10s: The viewer looks up and notices a spear tip glinting among the leaves, then another, then dozens.",
                  subs=[(0.5, 4.8, "Sao núi im thế... / chim cũng nín thở à?")]),
-            dict(name="Ghi tên em vào sử", label="Ngay sau đó",
+            dict(name="Câu chốt", label="Ngay sau đó",
                  img=f"First-person view in a narrow mountain pass, hundreds of Lam Sơn soldiers rising from hiding on both cliffsides with crossbows and banners, Ming cavalry trapped below, {FACE} turning around and cracking his knuckles with a grin, realistic, vertical 9:16.",
-                 vid="0-5s: A drum booms; hundreds of hidden soldiers rise from both cliffsides with crossbows and banners; the Ming cavalry is trapped in the pass. The officer shouts: \"Hết giờ chạy. Quay lại!\" 5-10s: Anh Tư turns around, cracks his knuckles and grins at the camera: \"Chạy cả ngày rồi, giờ đến lượt nó! Ghi tên em vào sử nhé!\"",
+                 vid="0-5s: A drum booms; hundreds of hidden soldiers rise from both cliffsides with crossbows and banners; the Ming cavalry is trapped in the pass. The officer shouts: \"Hết giờ chạy. Quay lại!\" 5-10s: Anh Tư turns around, cracks his knuckles and grins at the camera: \"Chạy cả ngày rồi, giờ đến lượt nó! Giờ đổi vai: nó chạy, em đứng xem!\"",
                  subs=[(0.5, 4.8, "Hết giờ chạy. Quay lại!"),
-                       (5.0, 9.8, "Chạy cả ngày rồi, giờ đến lượt nó! / Ghi tên em vào sử nhé!")]),
+                       (5.0, 9.8, "Chạy cả ngày rồi, / giờ đến lượt nó! Đổi vai: / nó chạy, em đứng xem!")]),
         ],
         caption=("Bị lệnh chạy thua cả ngày mà không ai nói vì sao, đến ải Chi Lăng mới hiểu 😤 Năm 1427, Trần Lựu "
                  "giả thua nhử Liễu Thăng vào ải Chi Lăng, nơi quân Lam Sơn mai phục sẵn. Bạn chịu bị giặc cười được "
@@ -249,10 +250,10 @@ EPISODES = [
                  img=f"First-person view in a small hidden boat, soldiers with faces swollen from mosquito bites gripping their weapons, {FACE} with one eye swollen shut grinning, Siamese sails visible through the leaves, realistic, vertical 9:16.",
                  vid="0-5s: The viewer looks around the boat: every face is swollen from mosquito bites; Anh Tư's left eye is completely swollen shut. 5-10s: Anh Tư whispers, still grinning: \"Giặc chưa đánh mình, muỗi đã đánh mình tan tác rồi.\"",
                  subs=[(5.0, 9.5, "Giặc chưa đánh mình, / muỗi đã đánh mình tan tác rồi.")]),
-            dict(name="Ghi tên em vào sử", label="Ngay sau đó",
+            dict(name="Câu chốt", label="Ngay sau đó",
                  img=f"First-person view from a small boat bursting out of a creek onto a wide river at dawn, dozens of Tây Sơn boats charging from creeks and islets on both sides, drums, the Siamese fleet trapped in the middle, {FACE} slapping a mosquito on his arm with a huge grin, realistic, vertical 9:16.",
-                 vid="0-5s: A drum booms; boats burst out of every creek and islet at once, trapping the Siamese fleet in the middle of the river. 5-10s: Paddling hard, Anh Tư finally slaps the mosquito on his arm with a loud smack and shouts at the camera: \"Giờ thì đập được rồi! Ghi tên em vào sử nhé!\"",
-                 subs=[(5.0, 9.8, "Giờ thì đập được rồi! / Ghi tên em vào sử nhé!")]),
+                 vid="0-5s: A drum booms; boats burst out of every creek and islet at once, trapping the Siamese fleet in the middle of the river. 5-10s: Paddling hard, Anh Tư finally slaps the mosquito on his arm with a loud smack and shouts at the camera: \"Giờ thì đập được rồi! Đập muỗi xong... đập luôn giặc!\"",
+                 subs=[(5.0, 9.8, "Giờ thì đập được rồi! / Đập muỗi xong... / đập luôn giặc!")]),
         ],
         caption=("Bị cấm ho, cấm đập muỗi cả đêm mà không ai nói chờ gì, sáng ra mới hiểu 🦟 Tháng 1 năm 1785, quân "
                  "Tây Sơn của Nguyễn Huệ mai phục ở khúc sông Tiền giữa Rạch Gầm và Xoài Mút, đánh tan thủy quân Xiêm. "
@@ -333,7 +334,7 @@ EPISODES = [
                  "braids, loose dark clothes, arms covered in tattoos, friendly and relaxed, speaking Cantonese. "
                  f"Anh Tư is {FACE}, in a brown shirt with a red headband. No fighting, no weapons being used."),
         hook="POV: Đồng đội mới / ai cũng xăm kín tay",
-        end="Sử không ghi tên Anh Tư. / Follow để xem đời sau / nhà Anh Tư bị giao việc gì →",
+        end="Follow để xem đời sau / nhà Anh Tư bị giao việc gì →",
         clips=[
             dict(name="Đồng đội mới", label="Bến thủy quân Tây Sơn · khoảng 1797",
                  img=f"First-person close-up on a wooden harbor deck, the viewer's hands coiling a thick rope, {FACE} beside the viewer staring at a group of tattooed Cantonese seafarers with long braids stepping off a junk onto the pier, realistic, vertical 9:16.",
@@ -356,12 +357,12 @@ EPISODES = [
                  subs=[(0.5, 4.8, "Cùng một quân, / sao mỗi thuyền một màu cờ?"),
                        (5.0, 7.3, "Đỏ, đen, trắng... dễ nhận nhà!"),
                        (7.3, 9.6, "Như áo đội bóng. Hiểu rồi.")]),
-            dict(name="Ghi tên em vào sử", label="Nhiều năm sau",
+            dict(name="Câu chốt", label="Nhiều năm sau",
                  img=f"First-person view at sunset from a hilltop over the open sea, a huge fleet of junks with red, black and white sails heading north toward the horizon, {FACE} standing beside the viewer with arms crossed, his chipped-tooth grin slowly fading, realistic, vertical 9:16.",
-                 vid="0-5s: Sunset; a huge fleet of junks with colored flags sails north toward the horizon. A calm narrator's voice says: \"Năm 1802 Tây Sơn mất. Họ về Quảng Đông, lập sáu hạm đội cờ màu, vài vạn người.\" 5-10s: Anh Tư grins proudly at the camera: \"Em dạy họ đi đội hình đấy! Ghi tên em vào sử nhé!\" Then his grin fades and he adds quickly: \"...Mà thôi. Đừng ghi.\"",
+                 vid="0-5s: Sunset; a huge fleet of junks with colored flags sails north toward the horizon. A calm narrator's voice says: \"Năm 1802 Tây Sơn mất. Họ về Quảng Đông, lập sáu hạm đội cờ màu, vài vạn người.\" 5-10s: Anh Tư grins proudly at the camera: \"Em dạy họ đi đội hình đấy!\" Then his grin fades and he adds quickly: \"...Mà thôi, đừng ai biết là em.\"",
                  subs=[(0.3, 4.8, "Năm 1802 Tây Sơn mất. / Họ về Quảng Đông, / lập sáu hạm đội cờ màu."),
-                       (5.0, 8.0, "Em dạy họ đi đội hình đấy! / Ghi tên em vào sử nhé!"),
-                       (8.0, 9.8, "...Mà thôi. Đừng ghi.")]),
+                       (5.0, 8.0, "Em dạy họ đi đội hình đấy!"),
+                       (8.0, 9.8, "...Mà thôi, đừng ai biết là em.")]),
         ],
         caption=("Được giao tiếp đón đồng đội mới, ai cũng xăm kín tay, không ai nói nghề cũ 😳 Cuối thế kỷ 18, nhà Tây "
                  "Sơn từng thu nạp cướp biển Quảng Đông vào thủy quân, có người được phong \"Đông Hải vương\". Sau năm "
@@ -396,7 +397,7 @@ EPISODES = [
                  "barefoot. The rebels wear plain dark-indigo clothes with red headbands. "
                  f"Anh Tư is {FACE}, a poor farmer in a patched brown shirt."),
         hook="POV: Có người chia gạo / không lấy một đồng",
-        end="Sử không ghi tên Anh Tư. / Follow để xem đời sau / nhà Anh Tư bị giao việc gì →",
+        end="Follow để xem đời sau / nhà Anh Tư bị giao việc gì →",
         clips=[
             dict(name="Gạo không lấy tiền", label="Ấp Tây Sơn · năm 1771",
                  img=f"First-person view in a queue of adult villagers in front of a rich landlord's granary with its doors open, rebels in red headbands handing out rice, {FACE} in front of the viewer holding an empty sack and frowning suspiciously, realistic, vertical 9:16.",
@@ -418,11 +419,11 @@ EPISODES = [
                  subs=[(0.5, 2.6, "Cho em theo với!"),
                        (2.6, 4.8, "Biết làm gì? / ...Em ăn khỏe ạ."),
                        (5.0, 9.5, "Được. Đi gánh gạo.")]),
-            dict(name="Ghi tên em vào sử", label="Thăng Long · Xuân 1789",
+            dict(name="Câu chốt", label="Thăng Long · Xuân 1789",
                  img=f"First-person view from a festive crowd on a Thăng Long street in spring 1789, a royal procession with yellow banners passing, a commander on horseback at a distance with curly hair and piercing eyes, {FACE} in the crowd, older now, pointing excitedly, realistic, vertical 9:16.",
-                 vid="0-5s: Spring; a festive crowd lines a Thăng Long street as a royal procession with yellow banners passes, the commander on horseback seen at a distance. A calm narrator's voice says: \"Người chia gạo năm ấy là Nguyễn Huệ. Cuối năm 1788 lên ngôi, hiệu Quang Trung.\" 5-10s: Anh Tư, older, turns to the camera with his chipped-tooth grin: \"Ông ấy chia gạo cho em đấy! Ghi tên em vào sử nhé!\"",
+                 vid="0-5s: Spring; a festive crowd lines a Thăng Long street as a royal procession with yellow banners passes, the commander on horseback seen at a distance. A calm narrator's voice says: \"Người chia gạo năm ấy là Nguyễn Huệ. Cuối năm 1788 lên ngôi, hiệu Quang Trung.\" 5-10s: Anh Tư, older, turns to the camera with his chipped-tooth grin: \"Ông ấy chia gạo cho em đấy! Bao gạo ấy... em chưa nỡ ăn.\"",
                  subs=[(0.3, 4.8, "Người chia gạo năm ấy / là Nguyễn Huệ. / Cuối năm 1788 lên ngôi, / hiệu Quang Trung."),
-                       (5.0, 9.8, "Ông ấy chia gạo cho em đấy! / Ghi tên em vào sử nhé!")]),
+                       (5.0, 9.8, "Ông ấy chia gạo cho em đấy! / Bao gạo ấy... em chưa nỡ ăn.")]),
         ],
         caption=("Được chia gạo nhà giàu không mất một đồng, mấy năm sau mới biết người chia gạo là ai 😳 Năm 1771, ba anh "
                  "em nhà Tây Sơn dấy binh, lấy của nhà giàu chia cho dân nghèo (theo sử hiện đại gọi là khởi nghĩa Tây "
@@ -456,7 +457,7 @@ EPISODES = [
                  "scholar's robe and a calm, dry sense of humor. Tây Sơn soldiers in dark-red uniforms with red head "
                  f"wraps. Anh Tư is {FACE}, a Tây Sơn messenger with a cloth letter pouch."),
         hook="POV: Đưa thư mời / một ông đồ / ba năm bị từ chối",
-        end="Sử không ghi tên Anh Tư. / Follow để xem Anh Tư / theo hầu ông vua... giả →",
+        end="Follow để xem Anh Tư / theo hầu ông vua... giả →",
         clips=[
             dict(name="Thư lần thứ nhất", label="Núi Thiên Nhẫn, Nghệ An · năm 1786",
                  img=f"First-person view at the door of a small thatched hermit house on a forested mountain, the elderly white-bearded scholar holding an opened letter, {FACE} standing beside the viewer, sweaty from the climb, holding out a letter pouch, realistic, vertical 9:16.",
@@ -478,11 +479,11 @@ EPISODES = [
                  vid="0-5s: In the camp, the scholar bows politely to the commander, seen only from behind, and says calmly: \"Đa tạ tấm lòng. Nhưng già này xin về núi.\" 5-10s: Anh Tư, holding the walking stick, whispers to the viewer, devastated: \"Xuống núi... để từ chối trực tiếp ạ?\"",
                  subs=[(0.5, 4.8, "Đa tạ tấm lòng. / Nhưng già này xin về núi."),
                        (5.0, 9.5, "Xuống núi... / để từ chối trực tiếp ạ?")]),
-            dict(name="Ghi tên em vào sử", label="Nghệ An · cuối năm 1788",
+            dict(name="Câu chốt", label="Nghệ An · cuối năm 1788",
                  img=f"First-person view at dusk outside the hermit house, a great Tây Sơn army with torches and red banners marching along the valley below, a royal figure in a dark robe seen from behind talking with the elderly scholar at the gate, {FACE} beside the viewer, proud, realistic, vertical 9:16.",
-                 vid="0-5s: Dusk; a great army with torches marches through the valley; the king, seen only from behind, speaks with the scholar at the gate. A calm narrator's voice says: \"Cuối năm 1788, vua Quang Trung ra Bắc, ghé hỏi kế. Ông đồ nói: không quá mười ngày, quân Thanh sẽ tan.\" 5-10s: Anh Tư turns to the camera with his chipped-tooth grin: \"Ông đồ ấy em mời đấy! Ghi tên em vào sử nhé!\"",
+                 vid="0-5s: Dusk; a great army with torches marches through the valley; the king, seen only from behind, speaks with the scholar at the gate. A calm narrator's voice says: \"Cuối năm 1788, vua Quang Trung ra Bắc, ghé hỏi kế. Ông đồ nói: không quá mười ngày, quân Thanh sẽ tan.\" 5-10s: Anh Tư turns to the camera with his chipped-tooth grin: \"Ông đồ ấy em mời đấy! Ba đôi dép... đáng lắm!\"",
                  subs=[(0.3, 4.8, "Vua Quang Trung ghé hỏi kế. / Ông đồ nói: không quá / mười ngày, quân Thanh sẽ tan."),
-                       (5.0, 9.8, "Ông đồ ấy em mời đấy! / Ghi tên em vào sử nhé!")]),
+                       (5.0, 9.8, "Ông đồ ấy em mời đấy! / Ba đôi dép... đáng lắm!")]),
         ],
         caption=("Bị sai đưa thư mời một ông đồ trên núi, ba năm bị từ chối 😅 Ông đồ ấy là La Sơn Phu Tử Nguyễn Thiếp. "
                  "Cuối năm 1788, vua Quang Trung ghé hỏi kế trước khi đánh quân Thanh, và câu trả lời của ông được sách "
@@ -516,7 +517,7 @@ EPISODES = [
                  "man around 80 in a yellow dragon robe. No visible writing on robes, banners or signboards; no modern "
                  f"flags; no European clothing. Anh Tư is {FACE}, an attendant in a neat dark-red uniform."),
         hook="POV: Theo hầu vua / sang nước Thanh / mà vua... hơi lạ",
-        end="Sử không ghi tên Anh Tư. / Follow để xem đời sau / nhà Anh Tư bị giao việc gì →",
+        end="Follow để xem đời sau / nhà Anh Tư bị giao việc gì →",
         clips=[
             dict(name="Chọn người", label="Nghệ An · mùa xuân năm 1790",
                  img=f"First-person view in a Tây Sơn courtyard, a stern official pointing at one man in a line of men, a dignified man with curly hair and bright eyes stepping forward, {FACE} beside the viewer frowning in confusion, realistic, vertical 9:16.",
@@ -538,11 +539,11 @@ EPISODES = [
                  vid="0-5s: In the grand hall, the elderly emperor rises and warmly embraces the kneeling envoy like a father; the officials murmur in surprise. 5-10s: Anh Tư, frozen, whispers to the viewer through clenched teeth: \"Hoàng đế ôm ông ấy như cha con... em chỉ mong ông ấy đừng hắt hơi.\"",
                  subs=[(0.5, 4.8, "Sử nhà Thanh chép: / hoàng đế làm lễ ôm, / như cha con."),
                        (5.0, 9.5, "Hoàng đế ôm ông ấy / như cha con... em chỉ mong / ông ấy đừng hắt hơi.")]),
-            dict(name="Ghi tên em vào sử", label="Chiều hôm ấy",
+            dict(name="Câu chốt", label="Chiều hôm ấy",
                  img=f"First-person view at dusk in the courtyard of the Qing palace, the curly-haired envoy in the royal robe walking away calmly, {FACE} turning toward the viewer with a sly chipped-tooth grin and a finger on his lips, realistic, vertical 9:16.",
-                 vid="0-5s: Dusk; the envoy walks calmly away across the palace courtyard. A calm narrator's voice says: \"Sử Thanh chép: vua Quang Trung sang mừng thọ. Sử Việt chép: người sang là Phạm Công Trị, đóng thế. Đến nay vẫn còn tranh luận.\" 5-10s: Anh Tư turns to the camera, finger on his lips, grinning: \"Em biết ai thật ai giả... nhưng em không nói đâu. Ghi tên em vào sử nhé!\"",
+                 vid="0-5s: Dusk; the envoy walks calmly away across the palace courtyard. A calm narrator's voice says: \"Sử Thanh chép: vua Quang Trung sang mừng thọ. Sử Việt chép: người sang là Phạm Công Trị, đóng thế. Đến nay vẫn còn tranh luận.\" 5-10s: Anh Tư turns to the camera, finger on his lips, grinning: \"Em biết ai thật ai giả... nhưng em không nói đâu. Các bác đoán đi!\"",
                  subs=[(0.3, 4.8, "Sử Thanh: Quang Trung sang. / Sử Việt: người sang là / Phạm Công Trị, đóng thế."),
-                       (5.0, 9.8, "Em biết ai thật ai giả... / nhưng em không nói đâu. / Ghi tên em vào sử nhé!")]),
+                       (5.0, 9.8, "Em biết ai thật ai giả... / nhưng em không nói đâu. / Các bác đoán đi!")]),
         ],
         caption=("Được cử theo hầu nhà vua sang mừng thọ hoàng đế Càn Long năm 1790, đi nửa đường mới thấy vua… hơi lạ 🤫 "
                  "Sử nhà Thanh chép vua Quang Trung sang tận nơi, còn sử Việt chép người sang là Phạm Công Trị đóng thế. "
@@ -634,7 +635,7 @@ EPISODES = [
                  "Tây Sơn troops in dark-red uniforms appear only at the end, at a distance."),
         visual=QING_VIS,
         hook="POV: Canh cầu phao / cho quân Thanh / dịp Tết",
-        end="Sử không ghi tên Anh Tư. / Follow để xem đời sau / nhà Anh Tư bị giao việc gì →",
+        end="Follow để xem đời sau / nhà Anh Tư bị giao việc gì →",
         clips=[
             dict(name="Việc canh cầu", label="Thăng Long · Tết Kỷ Dậu 1789",
                  img=f"First-person view on a long pontoon bridge of boats and planks over a wide river, a Qing officer with a queue pointing at the ropes while a Vietnamese interpreter in a dark robe translates, {FACE} beside the viewer holding a coil of rope, realistic, vertical 9:16.",
@@ -656,11 +657,11 @@ EPISODES = [
                  vid="0-5s: A high-ranking Qing commander, without armor, gallops across the swaying bridge on a horse with no saddle, his guards running behind; planks bounce. 5-10s: Anh Tư, pressed against the rail, whispers to the viewer: \"Tổng đốc chạy nhanh hơn cả ngựa... ngựa còn chưa kịp đóng yên.\"",
                  subs=[(0.5, 4.8, "Ngựa không kịp đóng yên, / người không kịp mặc giáp."),
                        (5.0, 9.5, "Tổng đốc chạy / nhanh hơn cả ngựa... / ngựa chưa kịp đóng yên.")]),
-            dict(name="Ghi tên em vào sử", label="Trưa mùng 5 Tết",
+            dict(name="Câu chốt", label="Trưa mùng 5 Tết",
                  img=f"First-person view from the riverbank at noon, the pontoon bridge broken in the middle and drifting apart with no people on it, across the city a great Tây Sơn army with red banners entering Thăng Long in the distance, {FACE} holding a cut rope end, grinning, realistic, vertical 9:16.",
-                 vid="0-5s: Noon; the pontoon bridge has broken in the middle and its boats drift apart, empty; in the distance a great army with red banners enters the city. A calm narrator's voice says: \"Trưa mùng 5 Tết Kỷ Dậu, vua Quang Trung vào Thăng Long. Tôn Sĩ Nghị chạy về nước, bỏ lại cả ấn tín.\" 5-10s: Anh Tư holds up a cut rope end and grins at the camera: \"Cầu này em giữ đấy... giữ đến lúc nó sập! Ghi tên em vào sử nhé!\"",
+                 vid="0-5s: Noon; the pontoon bridge has broken in the middle and its boats drift apart, empty; in the distance a great army with red banners enters the city. A calm narrator's voice says: \"Trưa mùng 5 Tết Kỷ Dậu, vua Quang Trung vào Thăng Long. Tôn Sĩ Nghị chạy về nước, bỏ lại cả ấn tín.\" 5-10s: Anh Tư holds up a cut rope end and grins at the camera: \"Cầu này em giữ đấy... giữ đến lúc nó sập! Tết này em ăn bù!\"",
                  subs=[(0.3, 4.8, "Trưa mùng 5 Tết, vua / Quang Trung vào Thăng Long. / Tôn Sĩ Nghị bỏ lại ấn tín."),
-                       (5.0, 9.8, "Cầu này em giữ đấy... / giữ đến lúc nó sập! / Ghi tên em vào sử nhé!")]),
+                       (5.0, 9.8, "Cầu này em giữ đấy... / giữ đến lúc nó sập! / Tết này em ăn bù!")]),
         ],
         caption=("Bị bắt canh cầu phao cho quân Thanh dịp Tết, sáng mùng 5 thấy Tổng đốc phi qua cầu mà ngựa chưa kịp đóng "
                  "yên 😳 Mùng 5 Tết Kỷ Dậu (1789), vua Quang Trung phá đồn Ngọc Hồi, Đống Đa và vào Thăng Long. Bạn biết "

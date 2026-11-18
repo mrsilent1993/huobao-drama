@@ -1,6 +1,6 @@
 # Dựng: python3 ../tools/tiktok.py tap-3-canh-kho-phu-chua-1786.plan.txt tap-3-canh-kho-phu-chua-1786.mp4  (ra tap-3-canh-kho-phu-chua-1786-youtube.mp4 và tap-3-canh-kho-phu-chua-1786-tiktok.mp4)
 hook: POV: Canh kho báu / mà cấm sờ / vào bất cứ thứ gì
-end: Sử không ghi tên Anh Tư. / Follow để xem mốc tiếp: / năm 1787 →
+end: Follow để xem mốc tiếp: / năm 1787 →
 nhan: AI tái hiện · lời thoại hư cấu
 
 clip: ts1786-1.mp4 | Thăng Long · mùa hè năm 1786
@@ -18,4 +18,4 @@ sub: 3 | 5.0-9.5 | Canh kho vàng... mà cấm sờ. / Khổ hơn cả cấm đ�
 sub: 4 | 0.5-4.8 | Nghe đồn quân Tây Sơn / dữ lắm, hóa ra hiền thế.
 sub: 4 | 5.0-9.5 | Dữ với giặc thôi cụ ạ. / Với cụ thì em... uống nước.
 sub: 5 | 0.3-4.8 | Năm 1786, Nguyễn Huệ ra Bắc / phù Lê diệt Trịnh. Hơn 200 năm / chúa Trịnh nắm quyền khép lại.
-sub: 5 | 5.0-9.8 | Kho ấy em canh, / không mất một xu! / Ghi tên em vào sử nhé!
+sub: 5 | 5.0-9.8 | Kho ấy em canh, / không mất một xu! / ...Cọng rau cũng không.

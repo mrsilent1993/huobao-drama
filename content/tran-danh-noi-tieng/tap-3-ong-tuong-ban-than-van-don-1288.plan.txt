@@ -26,4 +26,4 @@ sub: 5 | 5.0-9.5 | Sếp bị dọa đuổi việc... / còn xin thêm mấy ng�
 sub: 6 | 0.5-4.8 | Thuyền gì mà toàn gạo... / nồi cơm của cả đạo quân à?
 sub: 6 | 5.0-9.5 | Đánh.
 sub: 7 | 0.3-4.8 | Trần Khánh Dư phá tan / đoàn thuyền lương. / Thượng hoàng tha tội.
-sub: 7 | 5.0-8.4 | Ông bán than ấy, em mua than / của ông ấy đấy! / Ghi tên em vào sử nhé!
+sub: 7 | 5.0-8.4 | Ông bán than ấy, em mua than / của ông ấy đấy! / ...Em còn nợ ông ấy hai đồng.

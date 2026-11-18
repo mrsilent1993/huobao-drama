@@ -1,6 +1,6 @@
 # Dựng: python3 ../tools/tiktok.py tap-8-chia-gao-tay-son-1771.plan.txt tap-8-chia-gao-tay-son-1771.mp4  (ra tap-8-chia-gao-tay-son-1771-youtube.mp4 và tap-8-chia-gao-tay-son-1771-tiktok.mp4)
 hook: POV: Có người chia gạo / không lấy một đồng
-end: Sử không ghi tên Anh Tư. / Follow để xem đời sau / nhà Anh Tư bị giao việc gì →
+end: Follow để xem đời sau / nhà Anh Tư bị giao việc gì →
 nhan: AI tái hiện · lời thoại hư cấu
 
 clip: nbt8-1.mp4 | Ấp Tây Sơn · năm 1771
@@ -18,4 +18,4 @@ sub: 4 | 0.5-2.6 | Cho em theo với!
 sub: 4 | 2.6-4.8 | Biết làm gì? / ...Em ăn khỏe ạ.
 sub: 4 | 5.0-9.5 | Được. Đi gánh gạo.
 sub: 5 | 0.3-4.8 | Người chia gạo năm ấy / là Nguyễn Huệ. / Cuối năm 1788 lên ngôi, / hiệu Quang Trung.
-sub: 5 | 5.0-9.8 | Ông ấy chia gạo cho em đấy! / Ghi tên em vào sử nhé!
+sub: 5 | 5.0-9.8 | Ông ấy chia gạo cho em đấy! / Bao gạo ấy... em chưa nỡ ăn.

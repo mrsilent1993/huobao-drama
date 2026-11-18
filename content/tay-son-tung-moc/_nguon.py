@@ -27,7 +27,7 @@ NOTE = ("**Tây Sơn từng mốc:** mỗi mốc là một video, theo công th�
         "mọi câu đùa nhắm vào Anh Tư. **Hai video từ cùng bộ clip:** bản dài (YouTube) đủ mọi clip; bản ngắn (TikTok) vẫn đủ mọi cảnh, chỉ cắt mỗi cảnh phụ còn 5 giây chứa câu chính. "
         "Thứ tự đăng cả loạt (kể cả các tập đã có) xem `README.md`.")
 
-END_NEXT = "Sử không ghi tên Anh Tư. / Follow để xem mốc tiếp: / {} →"
+END_NEXT = "Follow để xem mốc tiếp: / {} →"
 
 EPISODES = [
     # ------------------------------------------------------------------ 1773 (bản đầy đủ 6 cảnh)
@@ -87,14 +87,13 @@ EPISODES = [
                       "cũi em làm... lắp ngược từ đầu.\""),
                  subs=[(0.5, 4.8, "Cửa cũi mở không một tiếng động."),
                        (5.0, 9.5, "Chốt cũi em làm... / lắp ngược từ đầu.")]),
-            dict(name="Ghi tên em vào sử", label="",
+            dict(name="Câu chốt", label="",
                  img=f"First-person view at night from inside a citadel as the big wooden gate swings open and hundreds of torches of rebels with red head wraps pour in, no fighting, {FACE} beside the gate with a huge chipped-tooth grin, realistic, vertical 9:16.",
                  vid=("0-5s: The heavy gate swings open; hundreds of torches pour into the citadel; no fighting shown. A calm "
                       "narrator's voice says: \"Năm 1773, Tây Sơn lấy thành Quy Nhơn bằng mưu, thành lớn đầu tiên của nghĩa "
-                      "quân.\" 5-10s: Anh Tư turns to the camera with his chipped-tooth grin: \"Cái cũi ấy em khiêng! Ghi "
-                      "tên em vào sử nhé!\""),
+                      "quân.\" 5-10s: Anh Tư turns to the camera with his chipped-tooth grin: \"Cái cũi ấy em khiêng! Lần sau anh cả tự đi bộ nhé!\""),
                  subs=[(0.3, 4.8, "Năm 1773, Tây Sơn lấy thành / Quy Nhơn bằng mưu: thành lớn / đầu tiên của nghĩa quân."),
-                       (5.0, 8.4, "Cái cũi ấy em khiêng! / Ghi tên em vào sử nhé!")]),
+                       (5.0, 8.4, "Cái cũi ấy em khiêng! / Lần sau anh cả tự đi bộ nhé!")]),
         ],
         end_secs=1.6,
         caption=("Bị sai khiêng một cái cũi có người vào thành giặc 😳 Năm 1773, Tây Sơn lấy thành Quy Nhơn bằng mưu: sử "
@@ -145,11 +144,11 @@ EPISODES = [
                  vid="0-5s: Anh Tư picks up a piece of yellow silk and holds it against himself, admiring it. 5-10s: A tailor snatches it back: \"Màu này cả nước chỉ một người được mặc!\" Anh Tư to the viewer: \"Thế thôi, em mặc... màu nâu cho lành.\"",
                  subs=[(0.5, 4.8, "Màu này cả nước / chỉ một người được mặc!"),
                        (5.0, 9.5, "Thế thôi, em mặc / màu nâu cho lành.")]),
-            dict(name="Ghi tên em vào sử", label="",
+            dict(name="Câu chốt", label="",
                  img=f"First-person view at sunrise looking up at the big citadel gate with its new signboard, crowds and soldiers in front of it, {FACE} pointing proudly at the signboard, realistic, vertical 9:16.",
-                 vid="0-5s: Sunrise over the gate with its new signboard; crowds gather. A calm narrator's voice says: \"Năm 1778, Nguyễn Nhạc lên ngôi Hoàng đế, niên hiệu Thái Đức, đổi thành Đồ Bàn thành thành Hoàng Đế.\" 5-10s: Anh Tư points up at the signboard and grins at the camera: \"Tấm biển ấy em treo! Ghi tên em vào sử nhé!\"",
+                 vid="0-5s: Sunrise over the gate with its new signboard; crowds gather. A calm narrator's voice says: \"Năm 1778, Nguyễn Nhạc lên ngôi Hoàng đế, niên hiệu Thái Đức, đổi thành Đồ Bàn thành thành Hoàng Đế.\" 5-10s: Anh Tư points up at the signboard and grins at the camera: \"Tấm biển ấy em treo! Lệch một tí... không ai dám nói.\"",
                  subs=[(0.3, 4.8, "Năm 1778, Nguyễn Nhạc / lên ngôi, niên hiệu Thái Đức, / đổi tên thành Đồ Bàn / thành thành Hoàng Đế."),
-                       (5.0, 9.8, "Tấm biển ấy em treo! / Ghi tên em vào sử nhé!")]),
+                       (5.0, 9.8, "Tấm biển ấy em treo! / Lệch một tí... / không ai dám nói.")]),
         ],
         caption=("Bị sai thay biển tên cả tòa thành trong một đêm, sáng ra phải gọi anh cả bằng tên khác 😅 Năm 1778, "
                  "Nguyễn Nhạc lên ngôi Hoàng đế, niên hiệu Thái Đức, đóng đô ở thành Đồ Bàn và đổi tên là thành Hoàng Đế. "
@@ -200,11 +199,11 @@ EPISODES = [
                  vid="0-5s: Townspeople peer through the gate; an old woman offers Anh Tư a bowl of green tea: \"Nghe đồn quân Tây Sơn dữ lắm, hóa ra hiền thế.\" 5-10s: Anh Tư sips and smiles: \"Dữ với giặc thôi cụ ạ. Với cụ thì em... uống nước.\"",
                  subs=[(0.5, 4.8, "Nghe đồn quân Tây Sơn / dữ lắm, hóa ra hiền thế."),
                        (5.0, 9.5, "Dữ với giặc thôi cụ ạ. / Với cụ thì em... uống nước.")]),
-            dict(name="Ghi tên em vào sử", label="",
+            dict(name="Câu chốt", label="",
                  img=f"First-person view at dusk from the palace steps over the rooftops of Thăng Long, Tây Sơn banners raised on the walls, a commander seen only from behind walking toward the royal palace, {FACE} beside the viewer, proud, realistic, vertical 9:16.",
-                 vid="0-5s: Dusk; Tây Sơn banners rise on the walls; the commander, seen only from behind, walks toward the royal palace. A calm narrator's voice says: \"Năm 1786, Nguyễn Huệ ra Bắc phù Lê diệt Trịnh. Hơn hai trăm năm chúa Trịnh nắm quyền khép lại.\" 5-10s: Anh Tư grins at the camera: \"Kho ấy em canh, không mất một xu! Ghi tên em vào sử nhé!\"",
+                 vid="0-5s: Dusk; Tây Sơn banners rise on the walls; the commander, seen only from behind, walks toward the royal palace. A calm narrator's voice says: \"Năm 1786, Nguyễn Huệ ra Bắc phù Lê diệt Trịnh. Hơn hai trăm năm chúa Trịnh nắm quyền khép lại.\" 5-10s: Anh Tư grins at the camera: \"Kho ấy em canh, không mất một xu! ...Cọng rau cũng không.\"",
                  subs=[(0.3, 4.8, "Năm 1786, Nguyễn Huệ ra Bắc / phù Lê diệt Trịnh. Hơn 200 năm / chúa Trịnh nắm quyền khép lại."),
-                       (5.0, 9.8, "Kho ấy em canh, / không mất một xu! / Ghi tên em vào sử nhé!")]),
+                       (5.0, 9.8, "Kho ấy em canh, / không mất một xu! / ...Cọng rau cũng không.")]),
         ],
         caption=("Ra Bắc được giao canh kho báu phủ chúa mà cấm sờ vào bất cứ thứ gì 😭 Năm 1786, Nguyễn Huệ tiến ra Thăng "
                  "Long với danh nghĩa phù Lê diệt Trịnh, khép lại hơn hai trăm năm chúa Trịnh nắm quyền. Một mốc trong "
@@ -255,11 +254,11 @@ EPISODES = [
                  img=f"First-person view at the open citadel gate, soldiers from both sides sitting together on mats sharing rice and fish, {FACE} handing a bowl to the soldier from the wall, both laughing, realistic, vertical 9:16.",
                  vid="0-5s: The gate is open; soldiers from both sides sit together on mats sharing rice and dried fish. 5-10s: Anh Tư passes a bowl to his friend from the wall and says to the viewer: \"Mới hôm trước còn vây nhau... giờ ăn chung một nồi.\"",
                  subs=[(5.0, 9.5, "Mới hôm trước còn vây nhau... / giờ ăn chung một nồi.")]),
-            dict(name="Ghi tên em vào sử", label="",
+            dict(name="Câu chốt", label="",
                  img=f"First-person view at sunset outside the citadel as the besieging army packs up and marches away peacefully, banners lowered, soldiers on the wall waving goodbye, {FACE} waving back with a relieved grin, realistic, vertical 9:16.",
-                 vid="0-5s: Sunset; the army outside packs up and marches away in peace while the soldiers on the wall wave goodbye. A calm narrator's voice says: \"Năm 1787, Nguyễn Huệ vây thành của anh. Nguyễn Nhạc lên thành khóc. Hai anh em giảng hòa, chia nhau cai quản đất nước.\" 5-10s: Anh Tư waves back, then grins at the camera: \"May mà không ai bắt em chọn phe! Ghi tên em vào sử nhé!\"",
+                 vid="0-5s: Sunset; the army outside packs up and marches away in peace while the soldiers on the wall wave goodbye. A calm narrator's voice says: \"Năm 1787, Nguyễn Huệ vây thành của anh. Nguyễn Nhạc lên thành khóc. Hai anh em giảng hòa, chia nhau cai quản đất nước.\" 5-10s: Anh Tư waves back, then grins at the camera: \"May mà không ai bắt em chọn phe! Về nhà mẹ hỏi đánh ai... em biết nói sao?\"",
                  subs=[(0.3, 4.8, "Năm 1787, hai anh em / giảng hòa, chia nhau / cai quản đất nước."),
-                       (5.0, 9.8, "May mà không ai / bắt em chọn phe! / Ghi tên em vào sử nhé!")]),
+                       (5.0, 9.8, "May mà không ai / bắt em chọn phe! / Về nhà mẹ hỏi đánh ai... / em biết nói sao?")]),
         ],
         caption=("Bị lệnh vây một tòa thành, đến nơi mới biết đó là thành của chính phe mình 😳 Năm 1787, Nguyễn Huệ vây "
                  "thành Hoàng Đế của anh là Nguyễn Nhạc. Sử nhà Nguyễn chép Nguyễn Nhạc lên thành khóc: \"nồi da nấu "
@@ -309,11 +308,11 @@ EPISODES = [
                  vid="0-5s: The army marches north in a long column; an official hands Anh Tư a shovel: \"Dỡ đàn đi.\" 5-10s: Anh Tư looks at the altar and sighs to the viewer: \"Đắp ba ngày, dùng một buổi sáng... giờ lại dỡ.\"",
                  subs=[(0.5, 4.8, "Dỡ đàn đi."),
                        (5.0, 9.5, "Đắp ba ngày, / dùng một buổi sáng... / giờ lại dỡ.")]),
-            dict(name="Ghi tên em vào sử", label="",
+            dict(name="Câu chốt", label="",
                  img=f"First-person view from the hilltop at sunset, a vast army with red banners marching north along the road toward the horizon, {FACE} beside the viewer, shovel on his shoulder, grinning, realistic, vertical 9:16.",
-                 vid="0-5s: Sunset; the army stretches north to the horizon. A calm narrator's voice says: \"Ngày 22/12/1788, Nguyễn Huệ lên ngôi ở núi Bân, niên hiệu Quang Trung, rồi lập tức ra Bắc. Hơn một tháng sau, quân Thanh tan.\" 5-10s: Anh Tư grins at the camera: \"Cái đàn ấy em đắp! Ghi tên em vào sử nhé!\"",
+                 vid="0-5s: Sunset; the army stretches north to the horizon. A calm narrator's voice says: \"Ngày 22/12/1788, Nguyễn Huệ lên ngôi ở núi Bân, niên hiệu Quang Trung, rồi lập tức ra Bắc. Hơn một tháng sau, quân Thanh tan.\" 5-10s: Anh Tư grins at the camera: \"Cái đàn ấy em đắp! Đắp ba ngày, đổi cả một triều đại.\"",
                  subs=[(0.3, 4.8, "Lên ngôi ở núi Bân, / niên hiệu Quang Trung, / rồi lập tức ra Bắc."),
-                       (5.0, 9.8, "Cái đàn ấy em đắp! / Ghi tên em vào sử nhé!")]),
+                       (5.0, 9.8, "Cái đàn ấy em đắp! / Đắp ba ngày, / đổi cả một triều đại.")]),
         ],
         caption=("Bị sai dựng đàn tế gấp trong mấy ngày, buổi sáng vua lên ngôi, buổi chiều đã xuất quân 😳 Ngày 22/12/1788, "
                  "Nguyễn Huệ lên ngôi ở núi Bân (Huế), niên hiệu Quang Trung, rồi lập tức kéo quân ra Bắc đánh quân "
@@ -343,7 +342,7 @@ EPISODES = [
                  "seal, adult villagers queuing (no children), rice fields around. "
                  f"Anh Tư is {FACE}, the clerk's helper in a brown shirt."),
         hook="POV: Bị sai đi làm / thẻ căn cước / từ thế kỷ 18",
-        end="Sử không ghi tên Anh Tư. / Follow để xem cả loạt / Tây Sơn từng mốc →",
+        end="Follow để xem cả loạt / Tây Sơn từng mốc →",
         clips=[
             dict(name="Thẻ căn cước", label="Nghệ An · năm 1791",
                  img=f"First-person view at a long wooden table under a banyan tree, a clerk with a register, a pile of small wooden tags and a big red seal, a queue of adult villagers, {FACE} beside the viewer holding the seal, realistic, vertical 9:16.",
@@ -364,11 +363,11 @@ EPISODES = [
                  img=f"First-person view in a rice field, {FACE} plowing with a buffalo, a wooden tag hanging from his belt, villagers working in the fields around, realistic, vertical 9:16.",
                  vid="0-5s: Anh Tư plows a rice field behind a buffalo, the wooden tag swinging at his belt; around him every field is being worked again. 5-10s: He wipes his brow and says to the viewer: \"Vua bảo ai về quê nấy cày ruộng. Ruộng bỏ hoang... giờ xanh hết rồi.\"",
                  subs=[(5.0, 9.5, "Vua bảo ai về quê nấy / cày ruộng. Ruộng hoang / giờ xanh hết rồi.")]),
-            dict(name="Ghi tên em vào sử", label="Mùa thu năm 1792",
+            dict(name="Câu chốt", label="Mùa thu năm 1792",
                  img=f"First-person view in a rice field at dusk in autumn, villagers stopping work and taking off their hats, a distant drum sounding from the village, {FACE} standing still holding his wooden tag, serious and quiet, realistic, vertical 9:16.",
-                 vid="0-5s: Autumn dusk; a slow drum sounds from the village; one by one the villagers stop working and take off their hats in silence. A calm narrator's voice says: \"Mùa thu năm 1792, vua Quang Trung mất, khi mới 40 tuổi.\" 5-10s: Anh Tư looks at the wooden tag in his hand, then quietly at the camera: \"Tấm thẻ này em giữ đến giờ. Ghi tên em vào sử nhé.\"",
+                 vid="0-5s: Autumn dusk; a slow drum sounds from the village; one by one the villagers stop working and take off their hats in silence. A calm narrator's voice says: \"Mùa thu năm 1792, vua Quang Trung mất, khi mới 40 tuổi.\" 5-10s: Anh Tư looks at the wooden tag in his hand, then quietly at the camera: \"Tấm thẻ này em giữ đến giờ. Ít ra... nhà vua biết tên em.\"",
                  subs=[(0.3, 4.8, "Mùa thu năm 1792, / vua Quang Trung mất, / khi mới 40 tuổi."),
-                       (5.0, 9.8, "Tấm thẻ này em giữ đến giờ. / Ghi tên em vào sử nhé.")]),
+                       (5.0, 9.8, "Tấm thẻ này em giữ đến giờ. / Ít ra... nhà vua biết tên em.")]),
         ],
         caption=("Bị sai đi làm thẻ căn cước cho cả làng... từ năm 1791 🪪 Thời vua Quang Trung, đàn ông phải mang \"tín "
                  "bài\" có dấu \"Thiên hạ đại tín\", không có thì bị coi là dân lậu. Mùa thu năm 1792, nhà vua mất khi mới "

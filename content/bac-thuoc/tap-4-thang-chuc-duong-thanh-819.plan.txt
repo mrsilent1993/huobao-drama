@@ -1,6 +1,6 @@
 # Dựng: python3 ../tools/tiktok.py tap-4-thang-chuc-duong-thanh-819.plan.txt tap-4-thang-chuc-duong-thanh-819.mp4  (ra tap-4-thang-chuc-duong-thanh-819-youtube.mp4 và tap-4-thang-chuc-duong-thanh-819-tiktok.mp4)
 hook: POV: Sếp được / thăng chức / mà cả đội khổ
-end: Sử không ghi tên Anh Tư. / Follow để xem Anh Tư / làm thuê cho quan đô hộ →
+end: Follow để xem Anh Tư / làm thuê cho quan đô hộ →
 nhan: AI tái hiện · lời thoại hư cấu
 
 clip: bt819-1.mp4 | Phủ Tống Bình · năm 819
@@ -17,4 +17,4 @@ sub: 3 | 5.0-9.5 | Thăng chức kiểu gì... / mà nhận việc khó nhất?
 sub: 4 | 0.5-4.8 | Quay về.
 sub: 4 | 5.0-9.5 | Quay về... / đánh rừng hay đánh ai ạ?
 sub: 5 | 0.3-4.8 | Năm 819, Dương Thanh / quay quân về, lật đổ / quan đô hộ Lý Tượng Cổ.
-sub: 5 | 5.0-9.8 | Sếp giao việc khó... / thì nhận kết quả khó! / Ghi tên em vào sử nhé!
+sub: 5 | 5.0-9.8 | Sếp giao việc khó... / thì nhận kết quả khó! / Tag sếp bạn vào xem!
