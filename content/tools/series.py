@@ -24,6 +24,53 @@ STAKE_SPEC = ("The stakes are massive: whole ironwood tree trunks about 20 to 30
               "crossbar to press each stake down; never thin sticks, never small hand hammers.")
 DRAGON_SPEC = ("Any dragon shown is in Lý dynasty style: a slender, sinuous, snake-like body in continuous wave-like "
                "loops, a small head with a long curling crest and no horns; never a heavy horned Chinese Qing dragon.")
+# Bảng giọng cố định: cùng một nhân vật luôn nhận đúng một mô tả giọng ở mọi clip, mọi tập (Muse tạo tiếng riêng
+# từng clip nên dễ đổi giọng). Khóa = từ khóa tìm trong prompt clip; giá trị = (tên hiển thị, mô tả giọng).
+# Mô tả chỉ nói âm sắc, tuổi, nhịp nói; vùng miền do ACCENT / khóa giong quyết định.
+VOICES = [
+    ("Anh Tư", ("Anh Tư", "a bright, slightly husky male voice around 30, quick and cheerful, a little cheeky when "
+                "joking, the SAME voice in every clip")),
+    ("narrator", ("người dẫn chuyện", "a calm, deep, slow male baritone, documentary style, warm and serious, the SAME "
+                  "narrator voice in every video of the channel")),
+    ("Anh Tư's mother", ("mẹ Anh Tư", "a sharp, quick-tongued woman's voice in her 50s, slightly raspy")),
+    ("Mẹ Anh Tư", ("mẹ Anh Tư", "a sharp, quick-tongued woman's voice in her 50s, slightly raspy")),
+    ("Nguyễn Nhạc", ("Nguyễn Nhạc", "a jovial, round, booming male voice in his late 30s, unhurried")),
+    ("Ngô Quyền", ("Ngô Quyền", "a low, steady, authoritative male voice around 40, few words, never shouting")),
+    ("Thái sư", ("Trần Thủ Độ", "an old, dry, very calm male voice in his 60s, slow and unshakeable")),
+    ("officer", ("viên chỉ huy", "a gruff, clipped male voice in his 40s, short commands, clearly different from Anh "
+                 "Tư's voice")),
+    ("messenger", ("sứ giả, người đưa tin", "a formal, crisp male voice, slightly breathless")),
+    ("envoy", ("sứ giả, người đưa tin", "a formal, crisp male voice, slightly breathless")),
+    ("old woman", ("bà cụ", "a warm, raspy elderly woman's voice")),
+    ("old farmer", ("ông cụ", "a creaky, grumpy elderly man's voice")),
+    ("interpreter", ("người phiên dịch", "a nervous, precise, thin male voice in his 30s")),
+]
+
+VOICE_EN = {"người dẫn chuyện": "Narrator", "mẹ Anh Tư": "Anh Tư's mother", "viên chỉ huy": "The officer",
+            "sứ giả, người đưa tin": "The messenger or envoy", "bà cụ": "The old woman", "ông cụ": "The old farmer",
+            "người phiên dịch": "The interpreter", "Trần Thủ Độ": "Thái sư Trần Thủ Độ"}
+
+
+def voices_prompt(vl):
+    if not vl:
+        return ""
+    return ("VOICES (keep each character's voice exactly the same in every clip; each speaking character sounds "
+            "clearly different from the others): "
+            + "; ".join(f"{VOICE_EN.get(n, n)} = {d}" for n, d in vl) + ". ")
+
+
+def voice_lines(text, extra=None):
+    """Mô tả giọng cho các nhân vật có mặt trong clip (theo từ khóa) + giọng riêng của tập (khóa voices)."""
+    found, seen = [], set()
+    for key, (name, desc) in VOICES:
+        if key.lower() in text.lower() and name not in seen:
+            found.append((name, desc)); seen.add(name)
+    for name, desc in (extra or {}).items():
+        if name.lower() in text.lower() and name not in seen:
+            found.append((name, desc)); seen.add(name)
+    return found
+
+
 AI_TAG = "AI tái hiện · lời thoại hư cấu"
 AI_TAG_LEGEND = "AI tái hiện · theo truyền thuyết"
 TAGS = "#povlichsu #POV #lichsuvietnam #xuhuong #fyp"
@@ -59,6 +106,12 @@ def build(episodes, here, series_tag="", note="", unit="Phần", file_unit="phan
         if note:
             md += [note, ""]
         md += [ep["history"], ""]
+        allv = voice_lines(" ".join(f"{c.get('setting', ep['setting'])} {c['vid']}" for c in ep["clips"]), ep.get("voices"))
+        if allv:
+            md += ["**Giọng nhân vật (đã chèn sẵn vào prompt từng clip, giữ nguyên ở mọi clip):**", ""]
+            md += [f"- **{n}:** {d}" for n, d in allv]
+            md += ["", "Nếu Muse cho chọn hoặc tải **giọng tham chiếu** (voice reference), hãy dùng đúng một giọng cho mỗi "
+                   "nhân vật ở mọi clip, nhất là Anh Tư và người dẫn chuyện. Xem `../nghien-cuu/giong-nhan-vat.md`.", ""]
         if ep.get("visual"):             # chuẩn trang phục, thuyền, cờ dùng chung cả tập (xem nghien-cuu/chuan-hinh-anh-quan-doi.md)
             md += [ep["visual"], ""]
         plan = [f"# Dựng: python3 ../tools/tiktok.py {base}.plan.txt {base}.mp4"
@@ -75,9 +128,11 @@ def build(episodes, here, series_tag="", note="", unit="Phần", file_unit="phan
             # clip có thể ghi đè bối cảnh riêng (ví dụ cảnh chỉ có một phe: liệt kê rõ ai có, ai tuyệt đối không có)
             scene = f"{c.get('setting', ep['setting'])} {c['vid']}".lower()
             audio = AUDIO.replace(ACCENT, ep["giong"]) if ep.get("giong") else AUDIO
+            vl = voice_lines(f"{c.get('setting', ep['setting'])} {c['vid']}", ep.get("voices"))
+            voices = voices_prompt(vl)
             video = (f"{POV} {c.get('setting', ep['setting'])} " + (f"{CONT} " if c.get("noi") else "")
                      + f"{c['vid']} " + (f"{STAKE_SPEC} " if "stake" in scene else "")
-                     + (f"{DRAGON_SPEC} " if "dragon" in scene else "") + audio)
+                     + (f"{DRAGON_SPEC} " if "dragon" in scene else "") + voices + audio)
             cut = c.get("tiktok")
             cut_note = ("" if cut is None else
                         "**Bản TikTok:** bỏ clip này." if cut == "bo" else

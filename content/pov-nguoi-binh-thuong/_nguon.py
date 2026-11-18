@@ -440,7 +440,7 @@ EPISODES = [
     ),
     # ------------------------------------------------------------------ 1786-1788 La Sơn Phu Tử
     dict(
-        slug="dua-thu-la-son-1788", giong="Central Vietnamese (Nghệ An) accent", prefix="nbt9",
+        slug="dua-thu-la-son-1788", voices={'Nguyễn Thiếp': 'a thin, dry, elderly male voice, slow and gently ironic'}, giong="Central Vietnamese (Nghệ An) accent", prefix="nbt9",
         title="Bị sai đưa thư mời một ông đồ trên núi, ba năm bị từ chối, đến khi ông nói một câu thì cả nước nhớ (La Sơn Phu Tử, 1786–1788)",
         length=LEN_FULL,
         history=("**Lịch sử:** Nguyễn Thiếp (1723–1804), hiệu La Sơn Phu Tử, bỏ quan về ở ẩn ở Nghệ An. Từ năm 1786, "

@@ -108,6 +108,10 @@ Theo bản cuối tập 11 (Rạch Gầm 1785), có 7 quy tắc viết prompt, g
 - Không có chữ trên áo, cờ, biển hiệu.
 - Prompt nào sửa sau khi quay thì lưu bản cuối và đặt `md_frozen=True`.
 
+## Giọng nhân vật đồng nhất
+
+Mỗi nhân vật có **một mô tả giọng cố định**, tự chèn vào prompt của mọi clip có nhân vật đó. Ví dụ Anh Tư: giọng nam khoảng 30 tuổi, sáng, hơi khàn, nhanh, vui; người dẫn chuyện: giọng nam trầm, chậm, kiểu phim tài liệu. Bảng đầy đủ và cách làm trên Muse ở `nghien-cuu/giong-nhan-vat.md`.
+
 ## Thông tin đăng (có sẵn trong file .md của mỗi tập)
 
 Mỗi tập có hai mục "Đăng TikTok" và "Đăng YouTube Shorts" để copy dán thẳng lúc đăng:

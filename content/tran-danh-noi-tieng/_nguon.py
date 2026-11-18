@@ -110,7 +110,7 @@ EPISODES = [
     ),
     # ------------------------------------------------------------------ 1285
     dict(
-        slug="mac-giap-nha-tong-ham-tu-1285", prefix="td1285",
+        slug="mac-giap-nha-tong-ham-tu-1285", voices={'Song refugee': "a warm older man's voice speaking Vietnamese with a light Chinese accent", 'Trần Nhật Duật': "a lively, quick, cheerful young nobleman's voice"}, prefix="td1285",
         title="Bị bắt mặc giáp của nước khác ra trận, giặc vừa nhìn thấy đã bỏ chạy (Hàm Tử, 1285)",
         length="YouTube 50 giây (5 clip) · TikTok 30 giây (clip 1, 3, 5)",
         history=("**Lịch sử:** sau khi nhà Tống mất (1279), tướng Tống là Triệu Trung cùng thủ hạ chạy sang Đại Việt. Năm "
@@ -178,7 +178,7 @@ EPISODES = [
     ),
     # ------------------------------------------------------------------ 1288 (bản đầy đủ 7 cảnh)
     dict(
-        slug="ong-tuong-ban-than-van-don-1288", prefix="td1288",
+        slug="ong-tuong-ban-than-van-don-1288", voices={'Trần Khánh Dư': 'a low, dry, unhurried male voice around 40, calm even under pressure'}, prefix="td1288",
         title="Khách quen bán than trên sông nói chuyện toàn binh pháp, mấy năm sau ông ấy cứu cả cuộc kháng chiến (Vân Đồn, 1288)",
         length=("hai video từ cùng 7 clip: **bản dài** (YouTube, khoảng 68 giây sau chuyển cảnh) và **bản ngắn** "
                 "(TikTok, khoảng 43 giây) vẫn đủ cả 7 cảnh: mỗi cảnh cắt lấy 5 giây chứa câu quan trọng nhất, riêng "

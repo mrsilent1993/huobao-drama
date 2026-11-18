@@ -8,6 +8,12 @@ Copy từng khối dán thẳng vào phần mềm. Prompt đã ghép đủ, khô
 
 **Lịch sử (độ tin cậy B) và truyền thuyết (C):** thế kỷ 6, sau khi Lý Nam Đế thua quân Lương, Triệu Quang Phục rút vào **đầm Dạ Trạch** (Hưng Yên). Theo *Toàn thư*, đầm rộng mênh mông, cỏ lau um tùm; ban ngày tuyệt không có khói lửa, ban đêm dùng thuyền độc mộc ra đánh úp trại giặc, nên người đương thời gọi ông là **Dạ Trạch Vương**. Truyền thuyết kể thần Chử Đồng Tử cưỡi rồng hiện về, trao cho ông một móng rồng để cài lên mũ đâu mâu. Đầm Dạ Trạch cũng chính là đầm Nhất Dạ trong truyện Chử Đồng Tử.
 
+**Giọng nhân vật (đã chèn sẵn vào prompt từng clip, giữ nguyên ở mọi clip):**
+
+- **viên chỉ huy:** a gruff, clipped male voice in his 40s, short commands, clearly different from Anh Tư's voice
+
+Nếu Muse cho chọn hoặc tải **giọng tham chiếu** (voice reference), hãy dùng đúng một giọng cho mỗi nhân vật ở mọi clip, nhất là Anh Tư và người dẫn chuyện. Xem `../nghien-cuu/giong-nhan-vat.md`.
+
 ## Clip 1: Cấm khói bếp
 File Muse đặt tên: `cl5-1.mp4`
 
@@ -18,7 +24,7 @@ First-person view on a hidden island in a vast reed swamp, the viewer crouching 
 
 **Video (Muse)**
 ```
-First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. No modern national flags anywhere (never a red flag with a yellow star); no flags at all unless the scene describes a period-accurate one. Vietnam, mid-6th century, the vast Dạ Trạch swamp: endless tall reeds and marsh grass, narrow water channels, a hidden island of high ground with small huts; dugout canoes. Fighters with short cropped hair, black-lacquered teeth, simple brown clothes and leaf camouflage; Triệu Quang Phục is a calm, sharp commander around 35 in simple dark armor; enemy Liang soldiers in heavy armor; the viewer is a young fighter who loves to eat. 0-5s: The viewer crouches by a small clay stove and strikes a flint; the officer rushes over and stamps out the spark: "Ban ngày cấm đỏ lửa! Khói bay lên là giặc biết chỗ!" 5-10s: The viewer looks sadly at the pot of raw rice in his hands; somewhere in the reeds, his stomach growls. Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync in a natural Northern Vietnamese (Hà Nội) accent, no background music.
+First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. No modern national flags anywhere (never a red flag with a yellow star); no flags at all unless the scene describes a period-accurate one. Vietnam, mid-6th century, the vast Dạ Trạch swamp: endless tall reeds and marsh grass, narrow water channels, a hidden island of high ground with small huts; dugout canoes. Fighters with short cropped hair, black-lacquered teeth, simple brown clothes and leaf camouflage; Triệu Quang Phục is a calm, sharp commander around 35 in simple dark armor; enemy Liang soldiers in heavy armor; the viewer is a young fighter who loves to eat. 0-5s: The viewer crouches by a small clay stove and strikes a flint; the officer rushes over and stamps out the spark: "Ban ngày cấm đỏ lửa! Khói bay lên là giặc biết chỗ!" 5-10s: The viewer looks sadly at the pot of raw rice in his hands; somewhere in the reeds, his stomach growls. VOICES (keep each character's voice exactly the same in every clip; each speaking character sounds clearly different from the others): The officer = a gruff, clipped male voice in his 40s, short commands, clearly different from Anh Tư's voice. Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync in a natural Northern Vietnamese (Hà Nội) accent, no background music.
 ```
 
 ## Clip 2: Cơm nguội

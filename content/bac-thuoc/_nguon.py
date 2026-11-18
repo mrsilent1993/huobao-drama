@@ -108,7 +108,7 @@ EPISODES = [
     ),
     # ------------------------------------------------------------------ năm 541
     dict(
-        slug="xin-viec-thua-cai-ho-541", prefix="bt541",
+        slug="xin-viec-thua-cai-ho-541", voices={'Tinh Thiều': 'a soft, refined, measured male voice around 30'}, prefix="bt541",
         title="Đi theo một ông đồ giỏi lên kinh đô xin làm quan, bị loại chỉ vì... cái họ (Tinh Thiều, khoảng năm 541)",
         length="YouTube 50 giây (5 clip) · TikTok 30 giây (clip 1, 3, 5)",
         history=("**Lịch sử:** theo *Đại Việt sử ký toàn thư* (mức B), Tinh Thiều người Giao Châu, giỏi văn, sang kinh "
@@ -243,7 +243,7 @@ EPISODES = [
     ),
     # ------------------------------------------------------------------ năm 819
     dict(
-        slug="thang-chuc-duong-thanh-819", prefix="bt819",
+        slug="thang-chuc-duong-thanh-819", voices={'Dương Thanh': 'a deep, quiet, hard male voice around 45'}, prefix="bt819",
         title="Sếp được \"thăng chức\", rồi bị giao việc khó nhất, nửa đêm sếp quay quân về (Dương Thanh, năm 819)",
         length="YouTube 50 giây (5 clip) · TikTok 30 giây (clip 1, 3, 5)",
         history=("**Lịch sử:** theo *Đại Việt sử ký toàn thư* (mức B), đô hộ An Nam là Lý Tượng Cổ tham lam, hà khắc. "

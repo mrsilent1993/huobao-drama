@@ -10,7 +10,7 @@ import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.join(HERE, "..", "tools"))
-from series import POV, AUDIO, CONT, NOI_NOTE, STAKE_SPEC, AI_TAG  # noqa: E402
+from series import POV, AUDIO, CONT, NOI_NOTE, STAKE_SPEC, AI_TAG, voice_lines, voices_prompt  # noqa: E402
 
 FACE = ("a Vietnamese man around 30 with deeply tanned skin, hair in a topknot, a scar across his left eyebrow and a "
         "wide grin with a chipped front tooth, very expressive face")
@@ -221,6 +221,10 @@ TRAILER_POST = dict(
 )
 
 
+def vtext(vid):
+    return voices_prompt(voice_lines(f"Anh Tư {vid}" if "Anh Tư" in vid else vid))
+
+
 def posting(p):
     hook_line = p["hook"].replace(" / ", " ")
     yt_hash = " ".join(t for t in TAGS.split() if t not in ("#fyp", "#xuhuong"))
@@ -258,7 +262,7 @@ def main():
         md += [f"## Clip {i}: {c['name']}", f"File Muse đặt tên: `{f}`", "",
                "**Ảnh khung đầu**", "```", c["img"], "```", "",
                "**Video (Muse)**", "```", f"{TRAILER_STYLE} {SETTING} {c['vid']} "
-               + (f"{STAKE_SPEC} " if "stake" in (c['vid'] + c['img']).lower() else "") + f"{TRAILER_AUDIO}", "```", ""]
+               + (f"{STAKE_SPEC} " if "stake" in (c['vid'] + c['img']).lower() else "") + vtext(c['vid']) + f"{TRAILER_AUDIO}", "```", ""]
         plan.append(f"clip: {f} |" + (f" | chuyen={c['chuyen']}" if c.get("chuyen") else ""))
         # clip cuối: câu chữ kết thúc trước dòng kết để không đè nhau
         subs += [f"sub: {i} | {a}-{min(b, 8.0) if i == len(TRAILER) else b} | {t}" for a, b, t in c["subs"]]
@@ -280,7 +284,7 @@ def main():
                "**Ảnh khung đầu**", "```", c["img"], "```", "",
                "**Video (Muse)**", "```", f"{POV} {SETTING} Anh Tư is {FACE}. "
                + (f"{CONT} " if c.get("noi") else "") + f"{c['vid']} "
-               + (f"{STAKE_SPEC} " if "stake" in (c['vid'] + c['img']).lower() else "") + f"{AUDIO}", "```", ""]
+               + (f"{STAKE_SPEC} " if "stake" in (c['vid'] + c['img']).lower() else "") + vtext(c['vid']) + f"{AUDIO}", "```", ""]
         plan.append(f"clip: {f} | {c['label']}" + (f" | chuyen={c['chuyen']}" if c.get("chuyen") else ""))
         subs += [f"sub: {j} | {a}-{b} | {t}" for a, b, t in c["subs"]]
     plan += [""] + subs
