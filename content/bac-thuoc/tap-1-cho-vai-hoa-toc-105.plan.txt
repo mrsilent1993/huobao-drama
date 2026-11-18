@@ -1,6 +1,7 @@
 # Dựng: python3 ../tools/tiktok.py tap-1-cho-vai-hoa-toc-105.plan.txt tap-1-cho-vai-hoa-toc-105.mp4  (ra tap-1-cho-vai-hoa-toc-105-youtube.mp4 và tap-1-cho-vai-hoa-toc-105-tiktok.mp4)
 hook: POV: Chạy tiếp sức / chở hàng hỏa tốc / lên kinh đô
 end: Sử không ghi tên Anh Tư. / Follow để xem Anh Tư / làm thuê cho quan đô hộ →
+nhan: AI tái hiện · lời thoại hư cấu
 
 clip: bt105-1.mp4 | Lĩnh Nam · khoảng năm 100
 clip: bt105-2.mp4 |  | tiktok=bo

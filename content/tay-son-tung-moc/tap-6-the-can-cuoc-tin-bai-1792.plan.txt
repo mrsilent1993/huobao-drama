@@ -1,6 +1,7 @@
 # Dựng: python3 ../tools/tiktok.py tap-6-the-can-cuoc-tin-bai-1792.plan.txt tap-6-the-can-cuoc-tin-bai-1792.mp4  (ra tap-6-the-can-cuoc-tin-bai-1792-youtube.mp4 và tap-6-the-can-cuoc-tin-bai-1792-tiktok.mp4)
 hook: POV: Bị sai đi làm / thẻ căn cước / từ thế kỷ 18
 end: Sử không ghi tên Anh Tư. / Follow để xem cả loạt / Tây Sơn từng mốc →
+nhan: AI tái hiện · lời thoại hư cấu
 
 clip: ts1792-1.mp4 | Nghệ An · năm 1791
 clip: ts1792-2.mp4 |  | tiktok=bo

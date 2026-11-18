@@ -2,6 +2,7 @@
 hook: Trận Bạch Đằng 938 / trọn vẹn trong 3 phút
 end: Đăng ký để xem / Bạch Đằng lần thứ hai (981) →
 end_giay: 1.5
+nhan: AI tái hiện · lời thoại hư cấu
 toi_da_giay: 179.5
 
 clip: bd938-01.mp4 | Đại La · cuối năm 938

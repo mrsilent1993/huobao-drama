@@ -1,6 +1,7 @@
 # Dựng: python3 ../tools/tiktok.py tap-4-vay-thanh-phe-minh-1787.plan.txt tap-4-vay-thanh-phe-minh-1787.mp4  (ra tap-4-vay-thanh-phe-minh-1787-youtube.mp4 và tap-4-vay-thanh-phe-minh-1787-tiktok.mp4)
 hook: POV: Bị lệnh / vây thành / của chính phe mình
 end: Sử không ghi tên Anh Tư. / Follow để xem mốc tiếp: / lên ngôi năm 1788 →
+nhan: AI tái hiện · lời thoại hư cấu
 
 clip: ts1787-1.mp4 | Thành Hoàng Đế · năm 1787
 clip: ts1787-2.mp4 |  | tiktok=bo

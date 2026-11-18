@@ -1,6 +1,7 @@
 # Dựng: python3 ../tools/tiktok.py phan-1-ngo-quyen-938.plan.txt phan-1-ngo-quyen-938.mp4
 hook: Ba lần Bạch Đằng · Phần 1: / Bạn cắm cọc cho Ngô Quyền
 end: Cọc nhà Anh Tư còn dùng lại không? / Follow xem phần 2: / Lê Hoàn, năm 981 →
+nhan: AI tái hiện · lời thoại hư cấu
 
 clip: bd1-1.mp4 | Sông Bạch Đằng · năm 938
 clip: bd1-2.mp4 | Triều lên · nhử địch

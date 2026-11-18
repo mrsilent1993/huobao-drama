@@ -10,7 +10,7 @@ import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.join(HERE, "..", "tools"))
-from series import POV, AUDIO, CONT, NOI_NOTE  # noqa: E402
+from series import POV, AUDIO, CONT, NOI_NOTE, STAKE_SPEC, AI_TAG  # noqa: E402
 
 FACE = ("a Vietnamese man around 30 with deeply tanned skin, hair in a topknot, a scar across his left eyebrow and a "
         "wide grin with a chipped front tooth, very expressive face")
@@ -26,7 +26,8 @@ SETTING = ("Vietnam, winter of 938, the Bạch Đằng River estuary near the se
 TRAILER_STYLE = ("Cinematic epic trailer shot, live-action realistic, dramatic natural light, sweeping camera, "
                  "vertical 9:16. No modern objects, no on-screen text. No blood, no gore, no children.")
 TRAILER_AUDIO = ("Audio: deep war drums and natural ambient sound (wind, water, wood creaking); only the noted "
-                 "Vietnamese line is spoken, with lip sync; no modern music.")
+                 "Vietnamese line is spoken, with lip sync, in a natural Northern Vietnamese (Hà Nội) accent; "
+                 "no modern music.")
 
 TRAILER = [
     dict(name="Hạm đội vượt biển",
@@ -241,7 +242,7 @@ def posting(p):
 
 def plan_head(base, p):
     return [f"# Dựng: python3 ../tools/tiktok.py {base}.plan.txt {base}.mp4",
-            f"hook: {p['hook']}", f"end: {p['end']}", f"end_giay: {p['end_secs']}"] + (
+            f"hook: {p['hook']}", f"end: {p['end']}", f"end_giay: {p['end_secs']}", f"nhan: {AI_TAG}"] + (
         [f"toi_da_giay: {p['max_secs']}"] if p.get("max_secs") else []) + [""]
 
 
@@ -256,7 +257,8 @@ def main():
         f = f"bd938-t{i}.mp4"
         md += [f"## Clip {i}: {c['name']}", f"File Muse đặt tên: `{f}`", "",
                "**Ảnh khung đầu**", "```", c["img"], "```", "",
-               "**Video (Muse)**", "```", f"{TRAILER_STYLE} {SETTING} {c['vid']} {TRAILER_AUDIO}", "```", ""]
+               "**Video (Muse)**", "```", f"{TRAILER_STYLE} {SETTING} {c['vid']} "
+               + (f"{STAKE_SPEC} " if "stake" in (c['vid'] + c['img']).lower() else "") + f"{TRAILER_AUDIO}", "```", ""]
         plan.append(f"clip: {f} |" + (f" | chuyen={c['chuyen']}" if c.get("chuyen") else ""))
         # clip cuối: câu chữ kết thúc trước dòng kết để không đè nhau
         subs += [f"sub: {i} | {a}-{min(b, 8.0) if i == len(TRAILER) else b} | {t}" for a, b, t in c["subs"]]
@@ -277,7 +279,8 @@ def main():
             [NOI_NOTE, ""] if c.get("noi") else []) + [
                "**Ảnh khung đầu**", "```", c["img"], "```", "",
                "**Video (Muse)**", "```", f"{POV} {SETTING} Anh Tư is {FACE}. "
-               + (f"{CONT} " if c.get("noi") else "") + f"{c['vid']} {AUDIO}", "```", ""]
+               + (f"{CONT} " if c.get("noi") else "") + f"{c['vid']} "
+               + (f"{STAKE_SPEC} " if "stake" in (c['vid'] + c['img']).lower() else "") + f"{AUDIO}", "```", ""]
         plan.append(f"clip: {f} | {c['label']}" + (f" | chuyen={c['chuyen']}" if c.get("chuyen") else ""))
         subs += [f"sub: {j} | {a}-{b} | {t}" for a, b, t in c["subs"]]
     plan += [""] + subs

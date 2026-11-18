@@ -1,6 +1,7 @@
 # Dựng: python3 ../tools/tiktok.py tap-11-dan-duong-rach-gam-1785.plan.txt tap-11-dan-duong-rach-gam-1785.mp4  (ra tap-11-dan-duong-rach-gam-1785-youtube.mp4 và tap-11-dan-duong-rach-gam-1785-tiktok.mp4)
 hook: POV: Được thuê / dẫn đường cho giặc
 end: Sử không ghi tên Anh Tư. / Follow để xem đời sau / nhà Anh Tư bị giao việc gì →
+nhan: AI tái hiện · lời thoại hư cấu
 
 clip: nbt11-1.mp4 | Sông Tiền · tháng Giêng năm 1785
 clip: nbt11-2.mp4 | Sáng hôm sau | tiktok=bo

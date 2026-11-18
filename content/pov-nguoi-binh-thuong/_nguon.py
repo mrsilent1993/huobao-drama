@@ -212,7 +212,7 @@ EPISODES = [
     ),
     # ------------------------------------------------------------------ 1785
     dict(
-        slug="cam-dap-muoi-rach-gam-1785", prefix="nbt5",
+        slug="cam-dap-muoi-rach-gam-1785", giong="Central Vietnamese (Bình Định) accent", prefix="nbt5",
         title="Bị cấm ho, cấm đập muỗi cả đêm mà không ai nói chờ gì, sáng ra mới hiểu (Rạch Gầm – Xoài Mút, 1785)",
         length="YouTube 50 giây (5 clip) · TikTok 30 giây (clip 1, 3, 5)",
         history=("**Lịch sử:** tháng 1 năm 1785, Nguyễn Huệ cho quân Tây Sơn mai phục trên khúc sông Tiền giữa rạch "
@@ -373,7 +373,7 @@ EPISODES = [
     ),
     # ------------------------------------------------------------------ 1771 khởi nghĩa Tây Sơn
     dict(
-        slug="chia-gao-tay-son-1771", prefix="nbt8",
+        slug="chia-gao-tay-son-1771", giong="Central Vietnamese (Bình Định) accent", prefix="nbt8",
         title="Được chia gạo nhà giàu không mất một đồng, mấy năm sau mới biết người chia gạo là ai (khởi nghĩa Tây Sơn, 1771)",
         length="YouTube 50 giây (5 clip) · TikTok 30 giây (clip 1, 3, 5)",
         history=("**Lịch sử:** năm 1771, ba anh em Nguyễn Nhạc, Nguyễn Huệ, Nguyễn Lữ dấy binh ở ấp Tây Sơn (Bình Định), "
@@ -433,7 +433,7 @@ EPISODES = [
     ),
     # ------------------------------------------------------------------ 1786-1788 La Sơn Phu Tử
     dict(
-        slug="dua-thu-la-son-1788", prefix="nbt9",
+        slug="dua-thu-la-son-1788", giong="Central Vietnamese (Nghệ An) accent", prefix="nbt9",
         title="Bị sai đưa thư mời một ông đồ trên núi, ba năm bị từ chối, đến khi ông nói một câu thì cả nước nhớ (La Sơn Phu Tử, 1786–1788)",
         length="YouTube 50 giây (5 clip) · TikTok 30 giây (clip 1, 3, 5)",
         history=("**Lịch sử:** Nguyễn Thiếp (1723–1804), hiệu La Sơn Phu Tử, bỏ quan về ở ẩn ở Nghệ An. Từ năm 1786, "
@@ -492,7 +492,7 @@ EPISODES = [
     ),
     # ------------------------------------------------------------------ 1790 vua giả mừng thọ Càn Long
     dict(
-        slug="theo-hau-vua-gia-1790", prefix="nbt10",
+        slug="theo-hau-vua-gia-1790", giong="Central Vietnamese (Nghệ An) accent", prefix="nbt10",
         title="Được cử theo hầu nhà vua sang mừng thọ hoàng đế nhà Thanh, đi nửa đường mới biết vua là… người đóng thế (năm 1790)",
         length="YouTube 50 giây (5 clip) · TikTok 30 giây (clip 1, 4, 5)",
         history=("**Lịch sử:** năm 1790, hoàng đế Càn Long nhà Thanh mừng thọ 80 tuổi. Sứ bộ Đại Việt với danh nghĩa "

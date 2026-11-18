@@ -1,6 +1,7 @@
 # Dựng: python3 ../tools/tiktok.py tap-3-thue-gap-doi-687.plan.txt tap-3-thue-gap-doi-687.mp4  (ra tap-3-thue-gap-doi-687-youtube.mp4 và tap-3-thue-gap-doi-687-tiktok.mp4)
 hook: POV: Lương không tăng / thuế tăng gấp đôi
 end: Sử không ghi tên Anh Tư. / Follow để xem Anh Tư / làm thuê cho quan đô hộ →
+nhan: AI tái hiện · lời thoại hư cấu
 
 clip: bt687-1.mp4 | Tống Bình · năm 687
 clip: bt687-2.mp4 |  | tiktok=bo

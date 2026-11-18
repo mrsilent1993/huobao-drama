@@ -1,6 +1,7 @@
 # Dựng: python3 ../tools/tiktok.py tap-3-lenh-phai-thua-1288.plan.txt tap-3-lenh-phai-thua-1288.mp4  (ra tap-3-lenh-phai-thua-1288-youtube.mp4 và tap-3-lenh-phai-thua-1288-tiktok.mp4)
 hook: POV: Bị lệnh phải thua / không ai nói vì sao
 end: Thua một buổi sáng thì được gì? / Follow để xem đời sau nhà Anh Tư / bị lệnh chạy thua cả ngày →
+nhan: AI tái hiện · lời thoại hư cấu
 
 clip: nbt3-1.mp4 | Cửa sông Bạch Đằng · năm 1288
 clip: nbt3-2.mp4 | Triều lên | tiktok=bo

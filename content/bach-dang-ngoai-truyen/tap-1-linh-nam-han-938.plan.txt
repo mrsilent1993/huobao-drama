@@ -1,6 +1,7 @@
 # Dựng: python3 ../tools/tiktok.py tap-1-linh-nam-han-938.plan.txt tap-1-linh-nam-han-938.mp4  (ra tap-1-linh-nam-han-938-youtube.mp4 và tap-1-linh-nam-han-938-tiktok.mp4)
 hook: POV: Bạn là lính giặc / ở sông Bạch Đằng năm 938
 end: Hoằng Tháo có thoát được không? / Follow để xem mai bạn đốn gỗ / làm cọc cho Trần Hưng Đạo →
+nhan: AI tái hiện · lời thoại hư cấu
 
 clip: ngt1-1.mp4 | Trên biển · năm 938
 clip: ngt1-2.mp4 | Gần cửa sông Bạch Đằng

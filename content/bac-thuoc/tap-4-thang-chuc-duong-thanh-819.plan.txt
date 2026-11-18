@@ -1,6 +1,7 @@
 # Dựng: python3 ../tools/tiktok.py tap-4-thang-chuc-duong-thanh-819.plan.txt tap-4-thang-chuc-duong-thanh-819.mp4  (ra tap-4-thang-chuc-duong-thanh-819-youtube.mp4 và tap-4-thang-chuc-duong-thanh-819-tiktok.mp4)
 hook: POV: Sếp được / thăng chức / mà cả đội khổ
 end: Sử không ghi tên Anh Tư. / Follow để xem Anh Tư / làm thuê cho quan đô hộ →
+nhan: AI tái hiện · lời thoại hư cấu
 
 clip: bt819-1.mp4 | Phủ Tống Bình · năm 819
 clip: bt819-2.mp4 |  | tiktok=bo

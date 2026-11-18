@@ -1,6 +1,7 @@
 # Dựng: python3 ../tools/tiktok.py tap-2-thay-bien-thanh-hoang-de-1778.plan.txt tap-2-thay-bien-thanh-hoang-de-1778.mp4  (ra tap-2-thay-bien-thanh-hoang-de-1778-youtube.mp4 và tap-2-thay-bien-thanh-hoang-de-1778-tiktok.mp4)
 hook: POV: Thay biển tên / cả tòa thành / trong một đêm
 end: Sử không ghi tên Anh Tư. / Follow để xem mốc tiếp: / năm 1785 →
+nhan: AI tái hiện · lời thoại hư cấu
 
 clip: ts1778-1.mp4 | Thành Đồ Bàn · năm 1778
 clip: ts1778-2.mp4 | Sáng hôm sau | tiktok=bo

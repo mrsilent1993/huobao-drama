@@ -1,6 +1,7 @@
 # Dựng: python3 ../tools/tiktok.py tap-2-khuan-thoc-1285.plan.txt tap-2-khuan-thoc-1285.mp4  (ra tap-2-khuan-thoc-1285-youtube.mp4 và tap-2-khuan-thoc-1285-tiktok.mp4)
 hook: POV: Khuân hết thóc đi / bỏ trống cả nhà
 end: Ba ngày sau, giặc ăn gì? / Follow để xem đời sau nhà Anh Tư / bị lệnh phải thua trận →
+nhan: AI tái hiện · lời thoại hư cấu
 
 clip: nbt2-1.mp4 | Làng ven Thăng Long · đầu năm 1285
 clip: nbt2-2.mp4 | Sáng hôm sau | tiktok=bo

@@ -1,6 +1,7 @@
 # Dựng: python3 ../tools/tiktok.py tap-5-dung-dan-nui-ban-1788.plan.txt tap-5-dung-dan-nui-ban-1788.mp4  (ra tap-5-dung-dan-nui-ban-1788-youtube.mp4 và tap-5-dung-dan-nui-ban-1788-tiktok.mp4)
 hook: POV: Dựng đàn tế / cho vua lên ngôi / gấp trong ba ngày
 end: Sử không ghi tên Anh Tư. / Follow để xem mốc tiếp: / Tết Kỷ Dậu 1789 →
+nhan: AI tái hiện · lời thoại hư cấu
 
 clip: ts1788-1.mp4 | Núi Bân, Phú Xuân · cuối năm 1788
 clip: ts1788-2.mp4 | Đêm thứ ba | tiktok=bo

@@ -71,6 +71,41 @@ Mức kiểm chứng:
 - **Quân Trần:** búi tóc, răng đen, áo vải nâu sẫm, chân đất. Năm 1285 có hình xăm "Sát Thát" ở cánh tay: chỉ dựng vết xăm sẫm, không có chữ đọc được.
 - **Quân Tống lưu vong (Triệu Trung, 1285):** giáp vảy kiểu Tống, mũ có chóp, áo đỏ nâu.
 
+## Chuẩn rút ra từ bình luận người xem (18/11/2026)
+
+### Cọc Bạch Đằng ⚠️
+
+- **Lỗi bị chê nhiều nhất:** khoảng 30 bình luận chê "cọc bé như que tăm".
+- **Prompt mới tự kèm mô tả cỡ cọc và cách đóng** (hằng `STAKE_SPEC` trong `tools/series.py`):
+  - Cọc là cả thân cây lim, dày khoảng 20–30 cm (bằng bắp đùi), dài 2,5–3 m.
+  - Đóng lúc triều rút, nhiều người cùng làm: kéo dây nâng vồ gỗ nặng rồi thả, hoặc đứng trên thanh ngang buộc vào cọc để dồn sức ép xuống.
+  - Không dùng que nhỏ, không dùng búa tay.
+- **Số đo là ước lượng theo các bãi cọc đã khai quật của trận 1288, cần đối chiếu báo cáo khảo cổ.** Người xem nêu nhiều cách đóng khác nhau và có chỗ mâu thuẫn, nên không coi cách nào là sự thật.
+- Cọc trận 938 "đầu bịt sắt" là theo *Toàn thư*. Cọc khai quật của trận 1288 không bịt sắt.
+
+### Rồng thời Lý ⚠️
+
+Người xem chê rồng trong video dời đô "không phải rồng thời Lý". Rồng thời Lý thân mảnh, uốn lượn như rắn thành nhiều khúc đều, đầu nhỏ, mào dài cuộn, không có sừng. Prompt có rồng tự kèm mô tả này (hằng `DRAGON_SPEC`). Tốt nhất là không quay cận cảnh rồng.
+
+### Giọng nói
+
+Nhiều người chê giọng miền Nam trong các trận ở miền Bắc ("thời đó chưa có vùng đất Nam Bộ").
+- **Mặc định:** giọng Bắc (Hà Nội).
+- **Tập ở miền Trung:** ghi đè bằng khóa `giong`, ví dụ "Central Vietnamese (Bình Định) accent".
+- Muse có thể không luôn nghe theo. Quay xong nên nghe lại, giọng sai rõ thì tạo lại clip.
+
+### Từ hiện đại (KPI, ship, CV…)
+
+- Người xem chia hai phe: phần đông đùa theo, một số cho là sai thời.
+- **Giữ, nhưng mỗi tập tối đa một từ hiện đại**, đặt ở câu chốt hài.
+- Nhãn "lời thoại hư cấu" hiện ở 3 giây đầu cho người xem hiểu đây là cách nói cố ý.
+
+### Nhãn trên màn hình
+
+- `tools/tiktok.py` tự in nhãn nhỏ "AI tái hiện · lời thoại hư cấu" ở 3 giây đầu.
+- Tập truyền thuyết (khóa `legend=True`) đổi thành "AI tái hiện · theo truyền thuyết".
+- Lý do: có người hỏi thật hay giả, có người tưởng là tư liệu được AI tô màu, có người nhầm truyền thuyết ngựa trắng với rùa thần.
+
 ## Cần làm
 
 - Tra quân phục Tây Sơn và quân Thanh ở tư liệu bảo tàng (Bảo tàng Quang Trung, sách *Huangchao Liqi Tushi* năm 1766 của nhà Thanh) rồi đổi ⚠️ thành ✅.

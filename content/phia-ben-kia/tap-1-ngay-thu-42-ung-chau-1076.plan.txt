@@ -1,6 +1,7 @@
 # Dựng: python3 ../tools/tiktok.py tap-1-ngay-thu-42-ung-chau-1076.plan.txt tap-1-ngay-thu-42-ung-chau-1076.mp4  (ra tap-1-ngay-thu-42-ung-chau-1076-youtube.mp4 và tap-1-ngay-thu-42-ung-chau-1076-tiktok.mp4)
 hook: POV: Lính giữ thành / Ngày thứ 42
 end: Follow để xem / quân Tống phản công →
+nhan: AI tái hiện · lời thoại hư cấu
 end_giay: 1.2
 
 clip: pbk1-1.mp4 | Ngày thứ 42

@@ -1,6 +1,7 @@
 # Dựng: python3 ../tools/tiktok.py tap-9-dua-thu-la-son-1788.plan.txt tap-9-dua-thu-la-son-1788.mp4  (ra tap-9-dua-thu-la-son-1788-youtube.mp4 và tap-9-dua-thu-la-son-1788-tiktok.mp4)
 hook: POV: Đưa thư mời / một ông đồ / ba năm bị từ chối
 end: Sử không ghi tên Anh Tư. / Follow để xem Anh Tư / theo hầu ông vua... giả →
+nhan: AI tái hiện · lời thoại hư cấu
 
 clip: nbt9-1.mp4 | Núi Thiên Nhẫn, Nghệ An · năm 1786
 clip: nbt9-2.mp4 | Một năm sau | tiktok=bo

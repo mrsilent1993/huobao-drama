@@ -1,6 +1,7 @@
 # Dựng: python3 ../tools/tiktok.py tap-2-mac-giap-nha-tong-ham-tu-1285.plan.txt tap-2-mac-giap-nha-tong-ham-tu-1285.mp4  (ra tap-2-mac-giap-nha-tong-ham-tu-1285-youtube.mp4 và tap-2-mac-giap-nha-tong-ham-tu-1285-tiktok.mp4)
 hook: POV: Mặc giáp / nước khác / ra trận
 end: Sử không ghi tên Anh Tư. / Follow để xem / trận đánh tiếp theo →
+nhan: AI tái hiện · lời thoại hư cấu
 
 clip: td1285-1.mp4 | Hàm Tử · mùa xuân năm 1285
 clip: td1285-2.mp4 |  | tiktok=bo

@@ -1,6 +1,7 @@
 # Dựng: python3 ../tools/tiktok.py tap-1-cam-tre-nhu-nguyet-1077.plan.txt tap-1-cam-tre-nhu-nguyet-1077.mp4  (ra tap-1-cam-tre-nhu-nguyet-1077-youtube.mp4 và tap-1-cam-tre-nhu-nguyet-1077-tiktok.mp4)
 hook: POV: Cắm tre cả đêm / không ai nói để làm gì
 end: Sử không ghi tên Anh Tư. / Follow để xem đời sau nhà Anh Tư / bị bắt khuân hết thóc đi →
+nhan: AI tái hiện · lời thoại hư cấu
 
 clip: nbt1-1.mp4 | Bờ sông Như Nguyệt · đêm 1077
 clip: nbt1-2.mp4 | Nửa đêm | tiktok=bo

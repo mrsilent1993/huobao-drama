@@ -1,6 +1,7 @@
 # Dựng: python3 ../tools/tiktok.py tap-4-no-than-co-loa.plan.txt tap-4-no-than-co-loa.mp4  (ra tap-4-no-than-co-loa-youtube.mp4 và tap-4-no-than-co-loa-tiktok.mp4)
 hook: POV: Bạn giữ kho nỏ thần / thành Cổ Loa
 end: Lông ngỗng dẫn giặc đến đâu? / Follow để xem mai bạn đánh du kích / trong đầm Dạ Trạch →
+nhan: AI tái hiện · theo truyền thuyết
 
 clip: cl4-1.mp4 | Thành Cổ Loa · nước Âu Lạc | tiktok=0-5
 clip: cl4-2.mp4 | Mấy hôm sau

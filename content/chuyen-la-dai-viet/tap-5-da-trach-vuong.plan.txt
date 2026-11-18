@@ -1,6 +1,7 @@
 # Dựng: python3 ../tools/tiktok.py tap-5-da-trach-vuong.plan.txt tap-5-da-trach-vuong.mp4  (ra tap-5-da-trach-vuong-youtube.mp4 và tap-5-da-trach-vuong-tiktok.mp4)
 hook: POV: Bạn đánh du kích / trong đầm Dạ Trạch
 end: Móng rồng ấy giúp ông thế nào? / Follow để xem tập sau →
+nhan: AI tái hiện · theo truyền thuyết
 
 clip: cl5-1.mp4 | Đầm Dạ Trạch · thế kỷ 6
 clip: cl5-2.mp4 | Ngày thứ mười | tiktok=5-10

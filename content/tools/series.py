@@ -12,7 +12,20 @@ POV = ("First-person POV video, handheld camera at eye level as if seen through 
        "any child appears only from behind or at a distance. "
        "No modern national flags anywhere (never a red flag with a yellow star); no flags at all unless the "
        "scene describes a period-accurate one.")
-AUDIO = "Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync, no background music."
+# Giọng mặc định: Bắc (người xem chê giọng Nam trong trận Bạch Đằng, Thăng Long). Tập ở miền Trung, miền Nam ghi đè bằng
+# khóa giong="Central Vietnamese (Bình Định) accent" hoặc "Southern Vietnamese (Mekong delta) accent".
+ACCENT = "a natural Northern Vietnamese (Hà Nội) accent"
+AUDIO = ("Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync in "
+         f"{ACCENT}, no background music.")
+# Người xem chê "cọc bé như que tăm": mọi cảnh có cọc tự kèm mô tả cỡ cọc và cách đóng (xem nghien-cuu/chuan-hinh-anh-quan-doi.md).
+STAKE_SPEC = ("The stakes are massive: whole ironwood tree trunks about 20 to 30 cm thick (as thick as a man's thigh) "
+              "and 2.5 to 3 m long, sharpened at the tip, driven deep into the riverbed mud at low tide by teams of "
+              "several men working together, lifting and dropping a heavy wooden ram on ropes or standing on a lashed "
+              "crossbar to press each stake down; never thin sticks, never small hand hammers.")
+DRAGON_SPEC = ("Any dragon shown is in Lý dynasty style: a slender, sinuous, snake-like body in continuous wave-like "
+               "loops, a small head with a long curling crest and no horns; never a heavy horned Chinese Qing dragon.")
+AI_TAG = "AI tái hiện · lời thoại hư cấu"
+AI_TAG_LEGEND = "AI tái hiện · theo truyền thuyết"
 TAGS = "#povlichsu #POV #lichsuvietnam #xuhuong #fyp"
 # Clip có noi=True: nối liền cảnh với clip trước (ảnh khung đầu = khung cuối clip trước, cắt bằng tools/khung-cuoi.py)
 NOI_NOTE = '**Nối cảnh với clip trước:** tạo clip trước xong, chạy `python3 ../tools/khung-cuoi.py <file clip trước>` (hoặc gửi clip cho mình cắt), rồi dùng ảnh `...-cuoi.png` làm **ảnh khung đầu** cho clip này. Prompt ảnh bên dưới chỉ để dự phòng.'
@@ -51,7 +64,8 @@ def build(episodes, here, series_tag="", note="", unit="Phần", file_unit="phan
         plan = [f"# Dựng: python3 ../tools/tiktok.py {base}.plan.txt {base}.mp4"
                 + (f"  (ra {base}-youtube.mp4 và {base}-tiktok.mp4)" if any(
                     c.get("tiktok") for c in ep["clips"]) else ""),
-                f"hook: {ep['hook']}", f"end: {ep['end']}"]
+                f"hook: {ep['hook']}", f"end: {ep['end']}",
+                f"nhan: {AI_TAG_LEGEND if ep.get('legend') else AI_TAG}"]
         if ep.get("end_secs"):
             plan.append(f"end_giay: {ep['end_secs']}")
         plan.append("")
@@ -59,8 +73,11 @@ def build(episodes, here, series_tag="", note="", unit="Phần", file_unit="phan
         for i, c in enumerate(ep["clips"], 1):
             fname = f"{ep['prefix']}-{i}.mp4"
             # clip có thể ghi đè bối cảnh riêng (ví dụ cảnh chỉ có một phe: liệt kê rõ ai có, ai tuyệt đối không có)
+            scene = f"{c.get('setting', ep['setting'])} {c['vid']}".lower()
+            audio = AUDIO.replace(ACCENT, ep["giong"]) if ep.get("giong") else AUDIO
             video = (f"{POV} {c.get('setting', ep['setting'])} " + (f"{CONT} " if c.get("noi") else "")
-                     + f"{c['vid']} {AUDIO}")
+                     + f"{c['vid']} " + (f"{STAKE_SPEC} " if "stake" in scene else "")
+                     + (f"{DRAGON_SPEC} " if "dragon" in scene else "") + audio)
             cut = c.get("tiktok")
             cut_note = ("" if cut is None else
                         "**Bản TikTok:** bỏ clip này." if cut == "bo" else

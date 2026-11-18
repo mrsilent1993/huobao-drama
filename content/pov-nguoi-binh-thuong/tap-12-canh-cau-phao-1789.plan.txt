@@ -1,6 +1,7 @@
 # Dựng: python3 ../tools/tiktok.py tap-12-canh-cau-phao-1789.plan.txt tap-12-canh-cau-phao-1789.mp4  (ra tap-12-canh-cau-phao-1789-youtube.mp4 và tap-12-canh-cau-phao-1789-tiktok.mp4)
 hook: POV: Canh cầu phao / cho quân Thanh / dịp Tết
 end: Sử không ghi tên Anh Tư. / Follow để xem đời sau / nhà Anh Tư bị giao việc gì →
+nhan: AI tái hiện · lời thoại hư cấu
 
 clip: nbt12-1.mp4 | Thăng Long · Tết Kỷ Dậu 1789
 clip: nbt12-2.mp4 | Mùng 3 Tết | tiktok=bo

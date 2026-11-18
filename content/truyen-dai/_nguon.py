@@ -13,7 +13,7 @@ VAN_LANG = ("Ancient Vietnam, Hùng king era (Văn Lang): people with hair in to
 EPISODES = [
     # ------------------------------------------------------------------ 1
     dict(
-        slug="chu-dong-tu", prefix="cdt", title="Bạn hầu công chúa Tiên Dung đi tắm",
+        slug="chu-dong-tu", legend=True, prefix="cdt", title="Bạn hầu công chúa Tiên Dung đi tắm",
         length="60 giây · 6 clip (truyện có nhiều khúc: gặp gỡ, cưới, bị vua giận, thành tiên)",
         history=("**Truyền thuyết:** Chử Đồng Tử nghèo đến mức hai cha con chỉ có chung một cái khố. Khi cha mất, "
                  "chàng mặc khố cho cha rồi chôn, còn mình thì không có gì che thân. Một hôm công chúa Tiên Dung, con "
@@ -64,7 +64,7 @@ EPISODES = [
     ),
     # ------------------------------------------------------------------ 2
     dict(
-        slug="thanh-giong", prefix="tg", title="Bạn đúc ngựa sắt cho Thánh Gióng",
+        slug="thanh-giong", legend=True, prefix="tg", title="Bạn đúc ngựa sắt cho Thánh Gióng",
         length="60 giây · 6 clip (từ lúc biết nói đến lúc bay về trời)",
         history=("**Truyền thuyết:** đời Hùng Vương thứ 6, giặc Ân sang xâm lược. Ở làng Phù Đổng có cậu bé lên ba "
                  "chưa biết nói, nghe sứ giả rao tìm người tài thì bỗng nói, xin vua đúc ngựa sắt, roi sắt, áo giáp sắt. "
@@ -112,7 +112,7 @@ EPISODES = [
     ),
     # ------------------------------------------------------------------ 3
     dict(
-        slug="mai-an-tiem", prefix="mat", title="Bạn theo Mai An Tiêm ra đảo hoang",
+        slug="mai-an-tiem", legend=True, prefix="mat", title="Bạn theo Mai An Tiêm ra đảo hoang",
         length="50 giây · 5 clip (bị đày, sinh tồn, tìm ra dưa hấu, được đón về)",
         history=("**Truyền thuyết:** Mai An Tiêm là con nuôi vua Hùng. Vì nói câu \"Của biếu là của lo, của cho là "
                  "của nợ\" (ý là của cải phải do sức mình làm ra), ông bị vua giận, đày ra đảo hoang. Một hôm thấy chim "
@@ -159,7 +159,7 @@ EPISODES = [
     ),
     # ------------------------------------------------------------------ 4
     dict(
-        slug="luong-the-vinh", prefix="ltv", title="Bạn khuân đá giúp trạng Lương Thế Vinh cân voi",
+        slug="luong-the-vinh", legend=True, prefix="ltv", title="Bạn khuân đá giúp trạng Lương Thế Vinh cân voi",
         length="50 giây · 5 clip (đề bài, cách làm, khuân đá, ra kết quả, câu đố thêm)",
         history=("**Lịch sử và giai thoại:** Lương Thế Vinh đỗ Trạng nguyên năm 1463 đời vua Lê Thánh Tông, giỏi "
                  "toán, được gọi là \"Trạng Lường\" và được cho là tác giả sách toán *Đại thành toán pháp*. Giai thoại "

@@ -1,6 +1,7 @@
 # Dựng: python3 ../tools/tiktok.py tap-2-tran-quoc-toan.plan.txt tap-2-tran-quoc-toan.mp4  (ra tap-2-tran-quoc-toan-youtube.mp4 và tap-2-tran-quoc-toan-tiktok.mp4)
 hook: POV: Bạn là người hầu / của Trần Quốc Toản
 end: Đội quân đầu bếp ra trận thế nào? / Follow để xem mai bạn cầm kim xăm / đuổi theo vua →
+nhan: AI tái hiện · lời thoại hư cấu
 
 clip: cl2-1.mp4 | Bến Bình Than · năm 1282 | tiktok=0-5
 clip: cl2-2.mp4 | Ít phút sau

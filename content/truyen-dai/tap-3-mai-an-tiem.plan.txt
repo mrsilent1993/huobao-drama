@@ -1,6 +1,7 @@
 # Dựng: python3 ../tools/tiktok.py tap-3-mai-an-tiem.plan.txt tap-3-mai-an-tiem.mp4  (ra tap-3-mai-an-tiem-youtube.mp4 và tap-3-mai-an-tiem-tiktok.mp4)
 hook: POV: Bạn theo Mai An Tiêm / ra đảo hoang
 end: Về đất liền, ông có bớt nói không? / Follow để xem mai bạn khuân đá / giúp trạng cân voi →
+nhan: AI tái hiện · theo truyền thuyết
 
 clip: mat-1.mp4 | Hoàng cung · đời Hùng Vương
 clip: mat-2.mp4 | Đảo hoang ngoài biển | tiktok=bo

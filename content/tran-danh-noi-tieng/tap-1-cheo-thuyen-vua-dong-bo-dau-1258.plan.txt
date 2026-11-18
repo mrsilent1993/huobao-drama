@@ -1,6 +1,7 @@
 # Dựng: python3 ../tools/tiktok.py tap-1-cheo-thuyen-vua-dong-bo-dau-1258.plan.txt tap-1-cheo-thuyen-vua-dong-bo-dau-1258.mp4  (ra tap-1-cheo-thuyen-vua-dong-bo-dau-1258-youtube.mp4 và tap-1-cheo-thuyen-vua-dong-bo-dau-1258-tiktok.mp4)
 hook: POV: Chèo thuyền / đưa vua / đi lánh giặc
 end: Sử không ghi tên Anh Tư. / Follow để xem / trận đánh tiếp theo →
+nhan: AI tái hiện · lời thoại hư cấu
 
 clip: td1258-1.mp4 | Sông Hồng · cuối năm 1257
 clip: td1258-2.mp4 |  | tiktok=bo

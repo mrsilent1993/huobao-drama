@@ -1,6 +1,7 @@
 # Dựng: python3 ../tools/tiktok.py phan-2-le-hoan-981.plan.txt phan-2-le-hoan-981.mp4
 hook: Ba lần Bạch Đằng · Phần 2: / Bạn cắm cọc cho Lê Hoàn
 end: Kế giả hàng có lừa được tướng Tống? / Follow xem phần 3: / Trần Hưng Đạo, năm 1288 →
+nhan: AI tái hiện · lời thoại hư cấu
 
 clip: bd2-1.mp4 | Sông Bạch Đằng · năm 981
 clip: bd2-2.mp4 | Đêm hôm ấy

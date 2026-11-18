@@ -1,6 +1,7 @@
 # Dựng: python3 ../tools/tiktok.py tap-4-cay-lua-gia-tot-dong-1426.plan.txt tap-4-cay-lua-gia-tot-dong-1426.mp4  (ra tap-4-cay-lua-gia-tot-dong-1426-youtube.mp4 và tap-4-cay-lua-gia-tot-dong-1426-tiktok.mp4)
 hook: POV: Cấy lúa / ngay bên đường / giặc đi qua
 end: Sử không ghi tên Anh Tư. / Follow để xem / trận đánh tiếp theo →
+nhan: AI tái hiện · lời thoại hư cấu
 
 clip: td1426-1.mp4 | Tốt Động · tháng 11 năm 1426
 clip: td1426-2.mp4 |  | tiktok=bo

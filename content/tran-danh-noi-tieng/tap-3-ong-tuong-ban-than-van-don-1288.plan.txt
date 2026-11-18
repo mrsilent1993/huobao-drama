@@ -1,6 +1,7 @@
 # Dựng: python3 ../tools/tiktok.py tap-3-ong-tuong-ban-than-van-don-1288.plan.txt tap-3-ong-tuong-ban-than-van-don-1288.mp4  (ra tap-3-ong-tuong-ban-than-van-don-1288-youtube.mp4 và tap-3-ong-tuong-ban-than-van-don-1288-tiktok.mp4)
 hook: POV: Ông bán than / nói chuyện / toàn binh pháp
 end: Sử không ghi tên Anh Tư. / Follow để xem / trận đánh tiếp theo →
+nhan: AI tái hiện · lời thoại hư cấu
 
 clip: td1288-1.mp4 | Chợ Chí Linh · mấy năm trước
 clip: td1288-2.mp4 |  | tiktok=bo

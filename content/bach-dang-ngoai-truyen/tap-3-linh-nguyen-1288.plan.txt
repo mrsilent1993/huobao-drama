@@ -1,6 +1,7 @@
 # Dựng: python3 ../tools/tiktok.py tap-3-linh-nguyen-1288.plan.txt tap-3-linh-nguyen-1288.mp4  (ra tap-3-linh-nguyen-1288-youtube.mp4 và tap-3-linh-nguyen-1288-tiktok.mp4)
 hook: POV: Bạn là lính Nguyên / trên sông Bạch Đằng năm 1288
 end: Ô Mã Nhi về nước bằng cách nào? / Follow để xem tập sau →
+nhan: AI tái hiện · lời thoại hư cấu
 
 clip: ngt3-1.mp4 | Thủy quân Nguyên · năm 1288
 clip: ngt3-2.mp4 | Sông Bạch Đằng · buổi sáng | tiktok=bo

@@ -2,6 +2,7 @@
 hook: Thuyền vào được / nhưng không ra được
 end: Trận đầy đủ / ở trang cá nhân →
 end_giay: 1.8
+nhan: AI tái hiện · lời thoại hư cấu
 
 clip: bd938-t1.mp4 |
 clip: bd938-t2.mp4 | | chuyen=fadeblack:0.6

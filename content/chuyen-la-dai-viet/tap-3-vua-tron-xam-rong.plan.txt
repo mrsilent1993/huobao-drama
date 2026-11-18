@@ -1,6 +1,7 @@
 # Dựng: python3 ../tools/tiktok.py tap-3-vua-tron-xam-rong.plan.txt tap-3-vua-tron-xam-rong.mp4  (ra tap-3-vua-tron-xam-rong-youtube.mp4 và tap-3-vua-tron-xam-rong-tiktok.mp4)
 hook: POV: Bạn là thợ xăm trong cung / và vua thì sợ kim
 end: Đời sau, vua Trần còn xăm rồng? / Follow để xem mai bạn giữ kho / nỏ thần Cổ Loa →
+nhan: AI tái hiện · lời thoại hư cấu
 
 clip: cl3-1.mp4 | Hoàng cung Thăng Long · thời Trần
 clip: cl3-2.mp4 | Ít phút sau | tiktok=5-10

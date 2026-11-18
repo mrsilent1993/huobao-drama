@@ -1,6 +1,7 @@
 # Dựng: python3 ../tools/tiktok.py tap-4-chay-thua-chi-lang-1427.plan.txt tap-4-chay-thua-chi-lang-1427.mp4  (ra tap-4-chay-thua-chi-lang-1427-youtube.mp4 và tap-4-chay-thua-chi-lang-1427-tiktok.mp4)
 hook: POV: Bị lệnh chạy thua / cả ngày
 end: Chạy cả ngày, giờ ai phải chạy? / Follow để xem đời sau nhà Anh Tư / bị cấm đập muỗi cả đêm →
+nhan: AI tái hiện · lời thoại hư cấu
 
 clip: nbt4-1.mp4 | Đường lên ải · năm 1427
 clip: nbt4-2.mp4 | Giữa trưa | tiktok=bo

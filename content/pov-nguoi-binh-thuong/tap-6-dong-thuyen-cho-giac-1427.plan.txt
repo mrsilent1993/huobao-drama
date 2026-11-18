@@ -1,6 +1,7 @@
 # Dựng: python3 ../tools/tiktok.py tap-6-dong-thuyen-cho-giac-1427.plan.txt tap-6-dong-thuyen-cho-giac-1427.mp4  (ra tap-6-dong-thuyen-cho-giac-1427-youtube.mp4 và tap-6-dong-thuyen-cho-giac-1427-tiktok.mp4)
 hook: POV: Đóng 500 thuyền / không ai nói làm gì
 end: Thuyền ra đến biển rồi sao? / Follow để xem đời sau nhà Anh Tư →
+nhan: AI tái hiện · lời thoại hư cấu
 
 clip: nbt6-1.mp4 | Bến sông Đông Quan / cuối năm 1427
 clip: nbt6-2.mp4 | Mấy hôm sau | tiktok=bo

@@ -144,7 +144,7 @@ EPISODES = [
     ),
     # ------------------------------------------------------------------ 4
     dict(
-        slug="no-than-co-loa", prefix="cl4", title="Bạn giữ kho nỏ thần thành Cổ Loa",
+        slug="no-than-co-loa", legend=True, prefix="cl4", title="Bạn giữ kho nỏ thần thành Cổ Loa",
         length="60 giây · 6 clip (kho nỏ, phò mã hỏi han, đêm lén, chia tay, nỏ mất linh, lông ngỗng)",
         history=("**Truyền thuyết (độ tin cậy C) và khảo cổ (độ tin cậy A):** truyện An Dương Vương trong *Lĩnh Nam "
                  "chích quái* kể rùa vàng giúp vua xây thành Cổ Loa và cho móng làm lẫy nỏ thần. Triệu Đà cầu hòa, cho "
@@ -194,7 +194,7 @@ EPISODES = [
     ),
     # ------------------------------------------------------------------ 5
     dict(
-        slug="da-trach-vuong", prefix="cl5", title="Bạn đánh du kích cùng Dạ Trạch Vương",
+        slug="da-trach-vuong", legend=True, prefix="cl5", title="Bạn đánh du kích cùng Dạ Trạch Vương",
         length="50 giây · 5 clip (cấm khói bếp, cơm nguội, thuyền đêm, đánh úp, móng rồng)",
         history=("**Lịch sử (độ tin cậy B) và truyền thuyết (C):** thế kỷ 6, sau khi Lý Nam Đế thua quân Lương, Triệu "
                  "Quang Phục rút vào **đầm Dạ Trạch** (Hưng Yên). Theo *Toàn thư*, đầm rộng mênh mông, cỏ lau um tùm; "

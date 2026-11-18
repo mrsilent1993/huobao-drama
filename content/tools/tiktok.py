@@ -28,6 +28,8 @@ plan.txt (dòng trống và dòng bắt đầu bằng # được bỏ qua; " / "
     hook: POV: Bạn là dân Hoa Lư / ngày dời đô năm 1010     # chữ lớn giữa màn hình, 0-2.5s
     end: Năm 1010, Lý Thái Tổ dời đô / về Đại La, đặt tên Thăng Long.   # 3 giây cuối
     end_giay: 1.5                                                   # (tùy chọn) đổi số giây dòng kết
+    nhan: AI tái hiện · theo truyền thuyết                          # (tùy chọn) nhãn nhỏ 3 giây đầu, mặc định
+                                                                    # "AI tái hiện · lời thoại hư cấu"; "khong" để tắt
     toi_da_giay: 179.5                                              # (tùy chọn) tổng độ dài tối đa
     chuyen: fade 0.4                                                # (tùy chọn) chuyển cảnh mặc định
     clip: dl-1.mp4 | Hoa Lư · sáng sớm          # file | mốc thời gian hiện 3s đầu clip
@@ -116,6 +118,7 @@ def parse_trans(val, n):
 def parse(plan_path):
     base = os.path.dirname(os.path.abspath(plan_path))
     plan = {"hook": "", "end": "", "end_secs": 3.0, "max_secs": None, "trans": ("fade", 0.4),
+            "tag": "AI tái hiện · lời thoại hư cấu",
             "clips": [], "subs": []}
     with open(plan_path, encoding="utf-8") as fh:
         for n, raw in enumerate(fh, 1):
@@ -124,7 +127,9 @@ def parse(plan_path):
                 continue
             key, _, val = line.partition(":")
             key, val = key.strip(), val.strip()
-            if key in ("hook", "end"):
+            if key == "nhan":                   # nhãn nhỏ 3 giây đầu; "khong" = tắt
+                plan["tag"] = "" if val.lower() in ("khong", "không") else val
+            elif key in ("hook", "end"):
                 plan[key] = val
             elif key == "end_giay":             # số giây dòng chữ kết hiện ở cuối video (mặc định 3)
                 plan["end_secs"] = float(val)
@@ -249,6 +254,8 @@ def render(plan, out, version):
              f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},setsar=1,fps={FPS}"]
         if cap:
             v.append(drawtext(cap, 50, SAFE_TOP, "lt(t,3)", box=True))
+        if i == 0 and plan["tag"]:
+            v.append(drawtext(plan["tag"], 34, SAFE_TOP + (110 if cap else 0), "lt(t,3)"))
         if i == 0 and plan["hook"]:
             v.append(drawtext(plan["hook"], 76, "(h-th)*0.40", "lt(t,2.5)"))
         for sidx, sa, sb, text in plan["subs"]:

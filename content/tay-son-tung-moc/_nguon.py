@@ -28,7 +28,7 @@ END_NEXT = "Sử không ghi tên Anh Tư. / Follow để xem mốc tiếp: / {} 
 EPISODES = [
     # ------------------------------------------------------------------ 1773
     dict(
-        slug="khieng-cui-quy-nhon-1773", prefix="ts1773",
+        slug="khieng-cui-quy-nhon-1773", giong="Central Vietnamese (Bình Định) accent", prefix="ts1773",
         title="Bị sai khiêng một cái cũi có người vào thành, không ai nói người trong cũi là ai (lấy thành Quy Nhơn, 1773)",
         length="YouTube 50 giây (5 clip) · TikTok 30 giây (clip 1, 3, 5)",
         history=("**Lịch sử:** năm 1773, nghĩa quân Tây Sơn lấy được thành Quy Nhơn bằng mưu. Theo sử nhà Nguyễn (mức B, "
@@ -82,7 +82,7 @@ EPISODES = [
     ),
     # ------------------------------------------------------------------ 1778
     dict(
-        slug="thay-bien-thanh-hoang-de-1778", prefix="ts1778",
+        slug="thay-bien-thanh-hoang-de-1778", giong="Central Vietnamese (Bình Định) accent", prefix="ts1778",
         title="Bị sai thay biển tên cả tòa thành trong một đêm, sáng ra phải gọi anh cả bằng tên khác (Nguyễn Nhạc lên ngôi, 1778)",
         length="YouTube 50 giây (5 clip) · TikTok 30 giây (clip 1, 3, 5)",
         history=("**Lịch sử:** năm 1778, Nguyễn Nhạc lên ngôi Hoàng đế, đặt niên hiệu Thái Đức, đóng đô ở thành Đồ Bàn "
@@ -135,7 +135,7 @@ EPISODES = [
     ),
     # ------------------------------------------------------------------ 1786
     dict(
-        slug="canh-kho-phu-chua-1786", prefix="ts1786",
+        slug="canh-kho-phu-chua-1786", giong="Central Vietnamese (Bình Định) accent", prefix="ts1786",
         title="Ra Bắc được giao canh kho báu phủ chúa mà cấm sờ vào bất cứ thứ gì (phù Lê diệt Trịnh, 1786)",
         length="YouTube 50 giây (5 clip) · TikTok 30 giây (clip 1, 3, 5)",
         history=("**Lịch sử:** giữa năm 1786, Nguyễn Huệ đánh chiếm Phú Xuân rồi tiến ra Bắc với danh nghĩa \"phù Lê "
@@ -190,7 +190,7 @@ EPISODES = [
     ),
     # ------------------------------------------------------------------ 1787
     dict(
-        slug="vay-thanh-phe-minh-1787", prefix="ts1787",
+        slug="vay-thanh-phe-minh-1787", giong="Central Vietnamese (Bình Định) accent", prefix="ts1787",
         title="Bị lệnh vây một tòa thành, đến nơi mới biết đó là thành của chính phe mình (anh em Tây Sơn bất hòa, 1787)",
         length="YouTube 50 giây (5 clip) · TikTok 30 giây (clip 1, 3, 5)",
         history=("**Lịch sử:** năm 1787, Nguyễn Nhạc và Nguyễn Huệ bất hòa sau chuyến ra Bắc. Nguyễn Huệ đem quân vây "
@@ -245,7 +245,7 @@ EPISODES = [
     ),
     # ------------------------------------------------------------------ 1788
     dict(
-        slug="dung-dan-nui-ban-1788", prefix="ts1788",
+        slug="dung-dan-nui-ban-1788", giong="Central Vietnamese (Huế) accent", prefix="ts1788",
         title="Bị sai dựng đàn tế trên núi gấp mấy ngày, buổi sáng vua lên ngôi, buổi chiều đã xuất quân (lên ngôi ở núi Bân, 1788)",
         length="YouTube 50 giây (5 clip) · TikTok 30 giây (clip 1, 3, 5)",
         history=("**Lịch sử:** cuối năm 1788, nghe tin quân Thanh chiếm Thăng Long, Nguyễn Huệ lập đàn ở núi Bân (Phú "
@@ -299,7 +299,7 @@ EPISODES = [
     ),
     # ------------------------------------------------------------------ 1791-1792
     dict(
-        slug="the-can-cuoc-tin-bai-1792", prefix="ts1792",
+        slug="the-can-cuoc-tin-bai-1792", giong="Central Vietnamese (Nghệ An) accent", prefix="ts1792",
         title="Bị sai đi làm thẻ căn cước cho cả làng từ hơn 200 năm trước, đến mùa thu năm ấy thì... (tín bài thời Quang Trung, 1791–1792)",
         length="YouTube 50 giây (5 clip) · TikTok 30 giây (clip 1, 3, 5)",
         history=("**Lịch sử:** sau khi đánh tan quân Thanh, vua Quang Trung lo dựng lại đất nước: ban chiếu khuyến nông "

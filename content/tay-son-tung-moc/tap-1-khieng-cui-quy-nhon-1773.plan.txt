@@ -1,6 +1,7 @@
 # Dựng: python3 ../tools/tiktok.py tap-1-khieng-cui-quy-nhon-1773.plan.txt tap-1-khieng-cui-quy-nhon-1773.mp4  (ra tap-1-khieng-cui-quy-nhon-1773-youtube.mp4 và tap-1-khieng-cui-quy-nhon-1773-tiktok.mp4)
 hook: POV: Khiêng cũi / có người / vào thành giặc
 end: Sử không ghi tên Anh Tư. / Follow để xem mốc tiếp: / năm 1778 →
+nhan: AI tái hiện · lời thoại hư cấu
 
 clip: ts1773-1.mp4 | Tây Sơn · năm 1773
 clip: ts1773-2.mp4 | Trước cổng thành Quy Nhơn | tiktok=bo

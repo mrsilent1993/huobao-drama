@@ -1,6 +1,7 @@
 # Dựng: python3 ../tools/tiktok.py tap-4-luong-the-vinh.plan.txt tap-4-luong-the-vinh.mp4  (ra tap-4-luong-the-vinh-youtube.mp4 và tap-4-luong-the-vinh-tiktok.mp4)
 hook: POV: Bạn khuân đá / giúp trạng Lương Thế Vinh cân voi
 end: Sứ Tàu còn đố gì nữa? / Follow để xem tập sau →
+nhan: AI tái hiện · theo truyền thuyết
 
 clip: ltv-1.mp4 | Thăng Long · đời Lê Thánh Tông
 clip: ltv-2.mp4 | Bờ sông | tiktok=bo

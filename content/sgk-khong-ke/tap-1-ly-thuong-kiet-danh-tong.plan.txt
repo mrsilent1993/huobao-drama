@@ -1,6 +1,7 @@
 # Dựng: python3 ../tools/tiktok.py tap-1-ly-thuong-kiet-danh-tong.plan.txt tap-1-ly-thuong-kiet-danh-tong.mp4  (ra tap-1-ly-thuong-kiet-danh-tong-youtube.mp4 và tap-1-ly-thuong-kiet-danh-tong-tiktok.mp4)
 hook: Lý Thường Kiệt đánh Tống: / điều sách giáo khoa / không kể
 end: Năm sau, quân Tống sang báo thù... / Follow để xem mai bạn giữ / phòng tuyến sông Như Nguyệt →
+nhan: AI tái hiện · lời thoại hư cấu
 
 clip: sgk1-1.mp4 | Thăng Long · cuối năm 1075
 clip: sgk1-2.mp4 | Đất Tống · đầu năm 1076 | tiktok=5-10
