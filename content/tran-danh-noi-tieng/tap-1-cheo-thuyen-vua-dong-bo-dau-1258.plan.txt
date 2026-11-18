@@ -1,0 +1,19 @@
+# Dựng: python3 ../tools/tiktok.py tap-1-cheo-thuyen-vua-dong-bo-dau-1258.plan.txt tap-1-cheo-thuyen-vua-dong-bo-dau-1258.mp4  (ra tap-1-cheo-thuyen-vua-dong-bo-dau-1258-youtube.mp4 và tap-1-cheo-thuyen-vua-dong-bo-dau-1258-tiktok.mp4)
+hook: POV: Chèo thuyền / đưa vua / đi lánh giặc
+end: Sử không ghi tên Anh Tư. / Follow để xem / trận đánh tiếp theo →
+
+clip: td1258-1.mp4 | Sông Hồng · cuối năm 1257
+clip: td1258-2.mp4 |  | tiktok=bo
+clip: td1258-3.mp4 | 
+clip: td1258-4.mp4 | Đêm hôm ấy | tiktok=bo
+clip: td1258-5.mp4 | Đông Bộ Đầu · đầu năm 1258
+
+sub: 1 | 0.5-4.8 | Chèo đều. Vua đi lánh giặc, / không được hoảng.
+sub: 1 | 5.0-9.5 | Em không hoảng... / tay em tự run thôi ạ.
+sub: 2 | 5.0-9.5 | Các quan bàn đi đâu... / mà nghe toàn tên nước khác.
+sub: 3 | 0.5-4.8 | Đầu thần chưa rơi xuống đất, / xin bệ hạ đừng lo.
+sub: 3 | 5.0-9.5 | Ông ấy nói câu đó... / mà mặt tỉnh như đi chợ.
+sub: 4 | 0.5-4.8 | Ơ... chạy rồi, / giờ chèo ngược lại ạ?
+sub: 4 | 5.0-9.5 | Đêm nay đánh. / Chèo khẽ thôi.
+sub: 5 | 0.3-4.8 | Năm 1258, vua Trần / đánh úp ở Đông Bộ Đầu. / Giặc rút, dân gọi "giặc Phật".
+sub: 5 | 5.0-9.8 | Thuyền vua em chèo đấy! / Ghi tên em vào sử nhé!

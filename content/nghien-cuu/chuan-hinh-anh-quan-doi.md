@@ -63,6 +63,14 @@ Mức kiểm chứng:
 - **Dân Giao Chỉ:** tóc cắt ngắn hoặc búi, răng nhuộm đen, chân đất, áo vải trơn quấn quanh người.
 - **Cấm:** chữ trên sổ sách, biển và cuộn văn, cờ các loại, quần áo và giáp kiểu châu Âu.
 
+### Quân Mông Cổ (1258), quân Nguyên (1285–1288), quân Minh (1426–1427) ⚠️
+
+- **Quân Mông Cổ:** áo dài viền lông (deel) hoặc giáp vảy da, mũ lông nhọn hoặc mũ tròn, cung sừng, ngựa thấp.
+- **Quân Nguyên:** giáp vảy da, mũ tròn. Thuyền lương là thuyền gỗ lớn kiểu Trung Hoa, buồm cót.
+- **Quân Minh:** áo bông độn màu đỏ, mũ sắt tròn có tua đỏ, một số mặc giáp đinh. Quan mặc áo cổ tròn, đội mũ sa đen.
+- **Quân Trần:** búi tóc, răng đen, áo vải nâu sẫm, chân đất. Năm 1285 có hình xăm "Sát Thát" ở cánh tay: chỉ dựng vết xăm sẫm, không có chữ đọc được.
+- **Quân Tống lưu vong (Triệu Trung, 1285):** giáp vảy kiểu Tống, mũ có chóp, áo đỏ nâu.
+
 ## Cần làm
 
 - Tra quân phục Tây Sơn và quân Thanh ở tư liệu bảo tàng (Bảo tàng Quang Trung, sách *Huangchao Liqi Tushi* năm 1766 của nhà Thanh) rồi đổi ⚠️ thành ✅.
