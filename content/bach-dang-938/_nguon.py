@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
-"""Bạch Đằng 938 bản 3 phút: 30 giây trailer + 150 giây trận đánh. Sửa ở đây rồi chạy: python3 _nguon.py
+"""Bạch Đằng 938: trailer 30 giây và video trận đánh 2 phút 30 là HAI video riêng. Sửa ở đây rồi chạy: python3 _nguon.py
 
 Sinh ra:
-- bach-dang-938-3-phut.md          prompt dán thẳng cho 18 clip Muse + thông tin đăng
-- bach-dang-938-3-phut.plan.txt    dựng bản đầy đủ 3 phút (trailer + trận)
-- bach-dang-938-trailer.plan.txt   dựng riêng trailer 30 giây để đăng nhử trước
+- bach-dang-938-trailer.md / .plan.txt     trailer 30 giây (3 clip Muse), đăng nhử trước một ngày
+- bach-dang-938-tran-danh.md / .plan.txt   trận đánh 150 giây (15 clip Muse)
 """
 import os
 import sys
@@ -126,10 +125,6 @@ BATTLE = [
                (4.8, 8.4, "Cọc thứ ba hàng thứ bảy là em cắm! / Ghi tên em vào sử nhé!")]),
 ]
 
-HOOK = "Trận Bạch Đằng 938 / trọn vẹn trong 3 phút"
-END = "Follow để xem / Bạch Đằng lần thứ hai (981) →"
-TRAILER_END = "Trận đầy đủ 3 phút / ở trang cá nhân →"
-
 HISTORY = """**Lịch sử (theo *Đại Việt sử ký toàn thư*, sử Trung Quốc cũng chép trận thua này):**
 
 - Mùa xuân năm 937, Kiều Công Tiễn giết Tiết độ sứ Dương Đình Nghệ. Ngô Quyền, con rể Dương Đình Nghệ, đem quân từ Ái Châu ra đánh.
@@ -140,117 +135,135 @@ HISTORY = """**Lịch sử (theo *Đại Việt sử ký toàn thư*, sử Trung
 
 **Phần dựng lại (sử không chép chi tiết):** mai phục hai bên bờ, cọc gỗ lim, cột đo mực nước, móc câu kéo thuyền, thời điểm "quá trưa". Bãi cọc của trận 938 hiện chưa xác định được vị trí. Các bãi cọc đã khai quật ở Quảng Yên là của trận năm 1288.
 
-**Hư cấu:** Anh Tư, người lính "bạn", viên chỉ huy thuyền nhẹ và mọi lời thoại. Lời Ngô Quyền ở clip 1, 2 và trailer phỏng theo lời ông chép trong *Toàn thư*, không phải nguyên văn."""
-
-NOTE = """**Cấu trúc 3 phút (18 clip Muse, mỗi clip 10 giây):**
-
-| Đoạn | Clip | Thời lượng | Nội dung |
-|---|---|---|---|
-| Trailer | T1–T3 | 0:00–0:30 | Cảnh hùng tráng, không POV: hạm đội vượt biển, đóng cọc bịt sắt, nước rút cọc lên |
-| Hồi 1 · Quyết định | 1–3 | 0:30–1:00 | Bàn kế ở Đại La, kế cắm cọc, đẽo cọc lim bịt sắt |
-| Hồi 2 · Cắm cọc | 4–5 | 1:00–1:20 | Cắm cọc đêm triều rút, sáng ra nước lên che hết cọc |
-| Hồi 3 · Nhử giặc | 6–9 | 1:20–2:00 | Mai phục, hạm đội Nam Hán vào, thuyền nhẹ khiêu chiến, giả thua kéo giặc qua bãi cọc |
-| Hồi 4 · Phản công | 10–13 | 2:00–2:40 | Chờ nước rút, hai bờ đánh ra, thuyền đâm cọc, móc thuyền không cho chiếc nào ra |
-| Hồi 5 · Kết | 14–15 | 2:40–3:00 | Tin Hoằng Tháo tử trận, Ngô Quyền xưng vương ở Cổ Loa |
-
-**Trailer** là 3 clip quay kiểu phim, không phải góc nhìn thứ nhất. Ngoài bản 3 phút, mình xuất thêm **trailer 30 giây riêng** để đăng nhử trước một ngày.
-
-**Anh Tư** dùng lại ảnh chân dung trong `../bach-dang/README.md`. Ngô Quyền dùng một ảnh tham chiếu riêng (prompt bên dưới) để mặt giữ nguyên qua các clip.
-
-**Kiểm duyệt:** cảnh đánh nhau không có máu, không có xác. Thuyền lật và quân giặc lội vào bờ, chuyện chết đuối và Hoằng Tháo tử trận chỉ nói bằng chữ và lời. Không có trẻ em. Hoằng Tháo dựng là người trưởng thành."""
+**Hư cấu:** Anh Tư, người lính "bạn", viên chỉ huy thuyền nhẹ và mọi lời thoại. Lời Ngô Quyền ở clip 1, 2 của trận đánh và ở trailer phỏng theo lời ông chép trong *Toàn thư*, không phải nguyên văn."""
 
 NGO_REF = ("Portrait photo of a stern, calm Vietnamese commander around 40 with a short black beard, hair in a "
            "topknot, dark lacquered leather armor and a deep-red cloak, standing on a riverbank with mangroves and "
            "limestone hills in mist behind, dignified expression, realistic, natural light, head and shoulders, "
            "vertical 9:16.")
 
-TT_TITLE = "Trận Bạch Đằng 938 trọn vẹn trong 3 phút: vì sao thuyền giặc vào được mà không ra được?"
-HOOKS_ALT = ["Thuyền vào được / nhưng không ra được", "Vì sao Ngô Quyền / chờ nước rút mới đánh?"]
-CAPTION = ("Trận Bạch Đằng năm 938 trọn vẹn trong 3 phút ⚔️ Ngô Quyền cắm cọc bịt sắt ngầm ở cửa biển, nhử thuyền "
-           "Nam Hán vào lúc triều lên, chờ nước rút mới đánh. Kết quả: chủ tướng Lưu Hoằng Tháo tử trận, năm sau Ngô "
-           "Quyền xưng vương. Theo bạn, chi tiết nào trong trận này hay nhất? 👇")
-TAGS = ("#povlichsu #lichsuvietnam #bachdang #bachdang938 #ngoquyen #anhtu #xuhuong #fyp")
-PIN = ("Câu đố: trận Bạch Đằng 938 đánh lúc nước lên hay nước rút? Trả lời mà không xem lại video nhé 😏 "
-       "Follow để xem Bạch Đằng lần thứ hai năm 981!")
-YT_TITLE = "Trận Bạch Đằng 938 trọn vẹn: vì sao thuyền giặc vào mà không ra được?"
-YT_TAGS = ("trận bạch đằng, bạch đằng 938, ngô quyền, lưu hoằng tháo, nam hán, cắm cọc bạch đằng, lịch sử việt nam, "
-           "pov lịch sử, anh tư, đại việt, chiến thắng bạch đằng, shorts")
-TRAILER_CAPTION = ("Năm 938. Hạm đội Nam Hán vượt biển sang. Thuyền chúng vào được... nhưng không ra được. Trận đầy đủ "
-                   "3 phút đăng ngày mai, follow để không lỡ ⚔️")
+
+NOTE_TRAILER = """**Video riêng, 30 giây, 3 clip Muse** quay kiểu phim (không phải góc nhìn thứ nhất). Đăng trước video trận đánh một ngày để nhử người xem. Prompt ảnh tham chiếu Ngô Quyền ở dưới, dùng chung với video trận đánh.
+
+**Kiểm duyệt:** không có máu, không có xác, không có trẻ em."""
+
+NOTE_BATTLE = """**Video riêng, 2 phút 30 giây, 15 clip Muse** (mỗi clip 10 giây), góc nhìn thứ nhất, có Anh Tư. Trailer 30 giây nằm ở file `bach-dang-938-trailer.md`.
+
+| Hồi | Clip | Thời gian | Nội dung |
+|---|---|---|---|
+| 1 · Quyết định | 1–3 | 0:00–0:30 | Bàn kế ở Đại La, kế cắm cọc, đẽo cọc lim bịt sắt |
+| 2 · Cắm cọc | 4–5 | 0:30–0:50 | Cắm cọc đêm triều rút, sáng ra nước lên che hết cọc |
+| 3 · Nhử giặc | 6–9 | 0:50–1:30 | Mai phục, hạm đội Nam Hán vào, thuyền nhẹ khiêu chiến, giả thua kéo giặc qua bãi cọc |
+| 4 · Phản công | 10–13 | 1:30–2:10 | Chờ nước rút, hai bờ đánh ra, thuyền đâm cọc, móc thuyền không cho chiếc nào ra |
+| 5 · Kết | 14–15 | 2:10–2:30 | Tin Hoằng Tháo tử trận, Ngô Quyền xưng vương ở Cổ Loa |
+
+**Anh Tư** dùng lại ảnh chân dung trong `../bach-dang/README.md`. **Ngô Quyền** dùng ảnh tham chiếu bên dưới (giống file trailer) để mặt giữ nguyên qua các clip.
+
+**Kiểm duyệt:** cảnh đánh nhau không có máu, không có xác. Thuyền lật và quân giặc lội vào bờ; chuyện chết đuối và Hoằng Tháo tử trận chỉ nói bằng chữ và lời. Không có trẻ em. Hoằng Tháo dựng là người trưởng thành."""
+
+TAGS = "#povlichsu #lichsuvietnam #bachdang #bachdang938 #ngoquyen #anhtu #xuhuong #fyp"
+
+BATTLE_POST = dict(
+    hook="Trận Bạch Đằng 938 / diễn biến từng bước",
+    hooks_alt=["Thuyền giặc vào được / nhưng không ra được", "Vì sao Ngô Quyền / chờ nước rút mới đánh?"],
+    end="Follow để xem / Bạch Đằng lần thứ hai (981) →", end_secs=1.5,
+    tt_title="Trận Bạch Đằng 938 diễn biến từng bước: vì sao thuyền giặc vào được mà không ra được?",
+    caption=("Trận Bạch Đằng năm 938, diễn biến từng bước ⚔️ Ngô Quyền cắm cọc bịt sắt ngầm ở cửa biển, nhử thuyền "
+             "Nam Hán vào lúc triều lên, chờ nước rút mới đánh. Kết quả: chủ tướng Lưu Hoằng Tháo tử trận, năm sau "
+             "Ngô Quyền xưng vương. Theo bạn, chi tiết nào trong trận này hay nhất? 👇"),
+    pin=("Câu đố: trận Bạch Đằng 938 đánh lúc nước lên hay nước rút? Trả lời mà không xem lại video nhé 😏 "
+         "Follow để xem Bạch Đằng lần thứ hai năm 981!"),
+    yt_title="Trận Bạch Đằng 938 diễn biến từng bước: vì sao thuyền giặc vào mà không ra được?",
+    yt_tags=("trận bạch đằng, bạch đằng 938, ngô quyền, lưu hoằng tháo, nam hán, cắm cọc bạch đằng, "
+             "lịch sử việt nam, pov lịch sử, anh tư, đại việt, chiến thắng bạch đằng, shorts"),
+    yt_note=("Video dọc 2 phút 30 giây vẫn được tính là Shorts (tối đa 3 phút). Ở mục \"Video liên quan\" chọn "
+             "trailer, và ngược lại ở trailer chọn video này."),
+    desc_extra=("Video do AI tạo, dựa trên Đại Việt sử ký toàn thư; nhân vật Anh Tư và lời thoại là hư cấu, một số "
+                "chi tiết trận đánh là dựng lại. Đăng ký kênh để xem mỗi ngày một ngày sống ở Đại Việt."),
+)
+
+TRAILER_POST = dict(
+    hook="Thuyền vào được / nhưng không ra được",
+    hooks_alt=["Năm 938 / hạm đội Nam Hán vượt biển", "Nước rút... / là lúc cọc lên"],
+    end="Trận đầy đủ / ở trang cá nhân →", end_secs=1.8,
+    tt_title="Năm 938, hạm đội Nam Hán vượt biển sang. Thuyền vào được... nhưng không ra được",
+    caption=("Năm 938. Hạm đội Nam Hán vượt biển sang. Thuyền chúng vào được... nhưng không ra được ⚔️ Trận đánh "
+             "đầy đủ, diễn biến từng bước, đăng ngày mai. Follow để không lỡ!"),
+    pin=("Bạn đoán Ngô Quyền dùng cách gì để thuyền giặc \"không ra được\"? 👇 "
+         "(Đăng video trận đánh xong thì sửa thành: \"Trận đầy đủ đã lên, xem ở trang cá nhân 👆\")"),
+    yt_title="Năm 938: thuyền giặc vào được… nhưng không ra được",
+    yt_tags=("trận bạch đằng, bạch đằng 938, ngô quyền, trailer lịch sử, nam hán, lịch sử việt nam, đại việt, "
+             "shorts"),
+    yt_note="Ở mục \"Video liên quan\" chọn video trận đánh khi đã đăng.",
+    desc_extra="Video do AI tạo, dựa trên Đại Việt sử ký toàn thư. Đăng ký kênh để xem trận đánh đầy đủ.",
+)
+
+
+def posting(p):
+    hook_line = p["hook"].replace(" / ", " ")
+    yt_hash = " ".join(t for t in TAGS.split() if t not in ("#fyp", "#xuhuong"))
+    return ["## Đăng TikTok", "",
+            "**Hook** (chữ to ở giây đầu, đã có trong video; dùng làm chữ trên ảnh bìa):", "```", hook_line, "```", "",
+            "Hook dự phòng:", "```", "\n".join(h.replace(" / ", " ") for h in p["hooks_alt"]), "```", "",
+            "**Tiêu đề:**", "```", p["tt_title"], "```", "",
+            "**Mô tả và hashtag:**", "```", p["caption"], TAGS, "```", "",
+            "**Bình luận ghim:**", "```", p["pin"], "```", "",
+            "Khi đăng: bật nhãn \"Nội dung do AI tạo\".", "",
+            "## Đăng YouTube Shorts", "",
+            "**Tiêu đề:**", "```", f"{p['yt_title']} #Shorts", "```", "",
+            "**Mô tả:**", "```", p["caption"], "", p["desc_extra"], "", f"#Shorts {yt_hash}", "```", "",
+            "**Thẻ:**", "```", p["yt_tags"], "```", "",
+            "**Bình luận ghim:**", "```", p["pin"].replace("Follow", "Đăng ký"), "```", "",
+            p["yt_note"], "",
+            "Khi đăng: ở mục \"Nội dung bị thay đổi\" chọn **Có**.", ""]
+
+
+def plan_head(base, p):
+    return [f"# Dựng: python3 ../tools/tiktok.py {base}.plan.txt {base}.mp4",
+            f"hook: {p['hook']}", f"end: {p['end']}", f"end_giay: {p['end_secs']}", ""]
 
 
 def main():
-    md = ["# Trận Bạch Đằng 938: bản 3 phút (30 giây trailer + 150 giây trận đánh)", "",
+    # ---------------- trailer
+    md = ["# Trận Bạch Đằng 938: trailer 30 giây", "",
           "Copy từng khối dán thẳng vào phần mềm. Prompt đã ghép đủ, không cần thay gì.", "",
-          NOTE, "", HISTORY, "",
-          "## Ảnh tham chiếu Ngô Quyền (làm một lần)", "", "```", NGO_REF, "```", ""]
-    full = [f"# Dựng: python3 ../tools/tiktok.py bach-dang-938-3-phut.plan.txt bach-dang-938-3-phut.mp4",
-            f"hook: {HOOK}", f"end: {END}", "end_giay: 1.5", ""]
-    trailer = [f"# Dựng: python3 ../tools/tiktok.py bach-dang-938-trailer.plan.txt bach-dang-938-trailer.mp4",
-               "hook:", f"end: {TRAILER_END}", "end_giay: 1.8", ""]
-    full_subs, trailer_subs = [], []
-
-    md += ["## Phần 1: Trailer (30 giây)", ""]
+          NOTE_TRAILER, "", "## Ảnh tham chiếu Ngô Quyền (làm một lần, dùng chung hai video)", "",
+          "```", NGO_REF, "```", ""]
+    plan, subs = plan_head("bach-dang-938-trailer", TRAILER_POST), []
     for i, c in enumerate(TRAILER, 1):
         f = f"bd938-t{i}.mp4"
-        md += [f"### Trailer {i}: {c['name']}", f"File Muse đặt tên: `{f}`", "",
+        md += [f"## Clip {i}: {c['name']}", f"File Muse đặt tên: `{f}`", "",
                "**Ảnh khung đầu**", "```", c["img"], "```", "",
                "**Video (Muse)**", "```", f"{TRAILER_STYLE} {SETTING} {c['vid']} {TRAILER_AUDIO}", "```", ""]
-        full.append(f"clip: {f} |")
-        trailer.append(f"clip: {f} |")
-        full_subs += [f"sub: {i} | {a}-{b} | {t}" for a, b, t in c["subs"]]
-        # Trailer riêng: dời câu chữ của clip cuối lên sớm để không đè dòng kết.
-        trailer_subs += [f"sub: {i} | {a}-{min(b, 8.0) if i == len(TRAILER) else b} | {t}" for a, b, t in c["subs"]]
+        plan.append(f"clip: {f} |")
+        # clip cuối: câu chữ kết thúc trước dòng kết để không đè nhau
+        subs += [f"sub: {i} | {a}-{min(b, 8.0) if i == len(TRAILER) else b} | {t}" for a, b, t in c["subs"]]
+    plan += [""] + subs
+    md += posting(TRAILER_POST) + ["## Chữ trên video (mình chèn ở hậu kỳ)", "", "```", "\n".join(plan).strip(),
+                                   "```", ""]
+    out = {"bach-dang-938-trailer.md": md, "bach-dang-938-trailer.plan.txt": plan}
 
-    md += ["## Phần 2: Trận đánh (150 giây)", ""]
+    # ---------------- trận đánh
+    md = ["# Trận Bạch Đằng 938: diễn biến trận đánh (2 phút 30 giây)", "",
+          "Copy từng khối dán thẳng vào phần mềm. Prompt đã ghép đủ, không cần thay gì.", "",
+          NOTE_BATTLE, "", HISTORY, "", "## Ảnh tham chiếu Ngô Quyền (giống file trailer)", "",
+          "```", NGO_REF, "```", ""]
+    plan, subs = plan_head("bach-dang-938-tran-danh", BATTLE_POST), []
     for j, c in enumerate(BATTLE, 1):
         f = f"bd938-{j:02d}.mp4"
-        md += [f"### Clip {j}: {c['name']}", f"File Muse đặt tên: `{f}`", "",
+        md += [f"## Clip {j}: {c['name']}", f"File Muse đặt tên: `{f}`", "",
                "**Ảnh khung đầu**", "```", c["img"], "```", "",
                "**Video (Muse)**", "```", f"{POV} {SETTING} Anh Tư is {FACE}. {c['vid']} {AUDIO}", "```", ""]
-        full.append(f"clip: {f} | {c['label']}")
-        full_subs += [f"sub: {len(TRAILER) + j} | {a}-{b} | {t}" for a, b, t in c["subs"]]
+        plan.append(f"clip: {f} | {c['label']}")
+        subs += [f"sub: {j} | {a}-{b} | {t}" for a, b, t in c["subs"]]
+    plan += [""] + subs
+    md += posting(BATTLE_POST) + ["## Chữ trên video (mình chèn ở hậu kỳ)", "", "```", "\n".join(plan).strip(),
+                                  "```", ""]
+    out.update({"bach-dang-938-tran-danh.md": md, "bach-dang-938-tran-danh.plan.txt": plan})
 
-    full += [""] + full_subs
-    trailer += [""] + trailer_subs
-
-    hook_line = HOOK.replace(" / ", " ")
-    yt_hash = " ".join(t for t in TAGS.split() if t not in ("#fyp", "#xuhuong"))
-    md += ["## Đăng bản 3 phút: TikTok", "",
-           "**Hook** (chữ to ở giây đầu, đã có trong video; dùng làm chữ trên ảnh bìa):", "```", hook_line, "```", "",
-           "Hook dự phòng:", "```", "\n".join(h.replace(" / ", " ") for h in HOOKS_ALT), "```", "",
-           "**Tiêu đề:**", "```", TT_TITLE, "```", "",
-           "**Mô tả và hashtag:**", "```", CAPTION, TAGS, "```", "",
-           "**Bình luận ghim:**", "```", PIN, "```", "",
-           "Khi đăng: bật nhãn \"Nội dung do AI tạo\". Video 3 phút nên đăng từ máy tính hoặc TikTok Studio "
-           "nếu app báo giới hạn độ dài.", "",
-           "## Đăng bản 3 phút: YouTube", "",
-           "Video dọc dài tối đa 3 phút được tính là Shorts. Nếu file xuất ra dài hơn 3:00 một chút, YouTube "
-           "sẽ xếp vào video thường, vẫn đăng được bình thường.", "",
-           "**Tiêu đề:**", "```", f"{YT_TITLE} #Shorts", "```", "",
-           "**Mô tả:**", "```", CAPTION, "",
-           "Video do AI tạo, dựa trên Đại Việt sử ký toàn thư; nhân vật Anh Tư và lời thoại là hư cấu, "
-           "một số chi tiết trận đánh là dựng lại. Đăng ký kênh để xem mỗi ngày một ngày sống ở Đại Việt.", "",
-           f"#Shorts {yt_hash}", "```", "",
-           "**Thẻ:**", "```", YT_TAGS, "```", "",
-           "**Bình luận ghim:**", "```", PIN.replace("Follow", "Đăng ký"), "```", "",
-           "Khi đăng: ở mục \"Nội dung bị thay đổi\" chọn **Có**.", "",
-           "## Đăng trailer 30 giây (đăng trước một ngày)", "",
-           "**Mô tả TikTok:**", "```", TRAILER_CAPTION, TAGS, "```", "",
-           "**Bình luận ghim:**", "```",
-           "Bạn đoán Ngô Quyền dùng cách gì để thuyền giặc \"không ra được\"? 👇", "```", "",
-           "Đăng bản 3 phút rồi thì sửa bình luận ghim của trailer thành \"Trận đầy đủ 3 phút đã lên, xem ở trang "
-           "cá nhân 👆\". Trên YouTube, ở trailer chọn \"Video liên quan\" là bản 3 phút.", "",
-           "## Chữ trên video (mình chèn ở hậu kỳ)", "",
-           "Bản 3 phút:", "```", "\n".join(full).strip(), "```", "",
-           "Trailer riêng:", "```", "\n".join(trailer).strip(), "```", ""]
-
-    files = {"bach-dang-938-3-phut.md": "\n".join(md),
-             "bach-dang-938-3-phut.plan.txt": "\n".join(full) + "\n",
-             "bach-dang-938-trailer.plan.txt": "\n".join(trailer) + "\n"}
-    for name, text in files.items():
+    for name, lines in out.items():
         with open(os.path.join(HERE, name), "w", encoding="utf-8") as fh:
-            fh.write(text)
+            fh.write("\n".join(lines) + "\n")
         print(name)
 
 

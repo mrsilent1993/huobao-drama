@@ -1,0 +1,51 @@
+# Dựng: python3 ../tools/tiktok.py bach-dang-938-tran-danh.plan.txt bach-dang-938-tran-danh.mp4
+hook: Trận Bạch Đằng 938 / diễn biến từng bước
+end: Follow để xem / Bạch Đằng lần thứ hai (981) →
+end_giay: 1.5
+
+clip: bd938-01.mp4 | Đại La · cuối năm 938
+clip: bd938-02.mp4 | 
+clip: bd938-03.mp4 | 
+clip: bd938-04.mp4 | Cửa sông Bạch Đằng · đêm, triều rút
+clip: bd938-05.mp4 | 
+clip: bd938-06.mp4 | Sáng hôm sau · triều lên
+clip: bd938-07.mp4 | 
+clip: bd938-08.mp4 | 
+clip: bd938-09.mp4 | 
+clip: bd938-10.mp4 | Quá trưa · triều bắt đầu rút
+clip: bd938-11.mp4 | 
+clip: bd938-12.mp4 | 
+clip: bd938-13.mp4 | 
+clip: bd938-14.mp4 | Chiều tối
+clip: bd938-15.mp4 | Cổ Loa · mùa xuân năm 939
+
+sub: 1 | 0.5-4.8 | Hoằng Tháo từ xa đến, quân mỏi mệt, / lại mất nội ứng.
+sub: 1 | 5.0-9.6 | Nhưng chúng mạnh về thuyền. / Ta phải đánh vào thuyền.
+sub: 2 | 0.3-3.2 | Cắm cọc lớn, đầu bịt sắt, / ngầm dưới cửa biển.
+sub: 2 | 3.2-6.0 | Triều lên, chúng vào. / Triều xuống... chúng ở lại.
+sub: 2 | 6.3-9.6 | Ở lại... luôn ạ?
+sub: 3 | 5.0-9.6 | Mài nhọn rồi còn bịt sắt... / cọc còn sang hơn cả em.
+sub: 4 | 5.0-7.4 | Nhanh lên! Trước khi nước lên!
+sub: 4 | 7.4-9.6 | Bùn đến đùi rồi anh ơi!
+sub: 5 | 0.5-4.8 | Nhớ chỗ này. / Lát nữa đừng có chèo vào đây.
+sub: 5 | 5.0-9.6 | Em nhớ rồi! ...Mà chỗ nào / cũng là nước anh ạ.
+sub: 6 | 0.5-4.0 | Bờ bên kia cũng mai phục. / Không ai được thở mạnh.
+sub: 6 | 4.0-6.5 | Buồm! Ngoài cửa biển!
+sub: 7 | 0.5-5.5 | Chủ tướng Nam Hán: Lưu Hoằng Tháo, / con trai vua Nam Hán.
+sub: 7 | 6.0-9.6 | Thuyền nó to / bằng cả cái làng em...
+sub: 8 | 0.5-4.8 | Đánh vài miếng rồi chạy. / Chạy cho thật!
+sub: 8 | 5.0-9.6 | Khoản chạy em giỏi nhất!
+sub: 9 | 0.5-4.8 | Nước đang lên, cọc ngập sâu. / Thuyền giặc cứ thế đi qua.
+sub: 9 | 5.0-9.6 | Nó qua bãi cọc rồi... / qua hết rồi!
+sub: 10 | 0.5-5.5 | Nước rút dần. / Cả đội chờ một lá cờ.
+sub: 10 | 6.0-9.6 | Nước rút rồi. Đánh!
+sub: 11 | 0.5-4.8 | Hai bên bờ cùng đánh ra. / Giặc quay đầu về biển.
+sub: 11 | 5.0-9.6 | Giờ thì đến lượt mình đuổi!
+sub: 12 | 0.5-4.8 | Nước rút gấp. / Thuyền giặc mắc cọc, không lùi được.
+sub: 12 | 5.0-9.6 | Cọc nhà em! / Cọc nhà em trúng rồi!
+sub: 13 | 0.5-4.8 | Thuyền lật, thuyền mắc, / quân giặc bỏ thuyền lội vào bờ.
+sub: 13 | 5.0-9.6 | Móc lấy thuyền! / Không để chiếc nào ra!
+sub: 14 | 0.5-4.8 | Quân giặc chết đuối quá nửa / (Đại Việt sử ký toàn thư).
+sub: 14 | 5.0-9.6 | Chủ tướng giặc Hoằng Tháo / đã tử trận!
+sub: 15 | 0.3-4.6 | Năm 939, Ngô Quyền xưng vương, / đóng đô ở Cổ Loa.
+sub: 15 | 4.8-8.4 | Cọc thứ ba hàng thứ bảy là em cắm! / Ghi tên em vào sử nhé!
