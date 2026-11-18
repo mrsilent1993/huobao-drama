@@ -141,7 +141,7 @@ Khi đăng: ở mục "Nội dung bị thay đổi" (Altered content) chọn **C
 ```
 # Dựng: python3 ../tools/tiktok.py tap-7-dong-doi-moi-tay-son-1797.plan.txt tap-7-dong-doi-moi-tay-son-1797.mp4  (ra tap-7-dong-doi-moi-tay-son-1797-youtube.mp4 và tap-7-dong-doi-moi-tay-son-1797-tiktok.mp4)
 hook: POV: Đồng đội mới / ai cũng xăm kín tay
-end: Sử không ghi tên Anh Tư. / Follow để xem đời sau nhà Anh Tư / bị giao việc gì nữa →
+end: Sử không ghi tên Anh Tư. / Follow để xem đời sau / nhà Anh Tư bị giao việc gì →
 
 clip: nbt7-1.mp4 | Bến thủy quân Tây Sơn · khoảng 1797
 clip: nbt7-2.mp4 | Buổi trưa

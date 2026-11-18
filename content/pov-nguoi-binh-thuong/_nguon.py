@@ -324,7 +324,7 @@ EPISODES = [
                  "braids, loose dark clothes, arms covered in tattoos, friendly and relaxed, speaking Cantonese. "
                  f"Anh Tư is {FACE}, in a brown shirt with a red headband. No fighting, no weapons being used."),
         hook="POV: Đồng đội mới / ai cũng xăm kín tay",
-        end="Sử không ghi tên Anh Tư. / Follow để xem đời sau nhà Anh Tư / bị giao việc gì nữa →",
+        end="Sử không ghi tên Anh Tư. / Follow để xem đời sau / nhà Anh Tư bị giao việc gì →",
         clips=[
             dict(name="Đồng đội mới", label="Bến thủy quân Tây Sơn · khoảng 1797",
                  img=f"First-person close-up on a wooden harbor deck, the viewer's hands coiling a thick rope, {FACE} beside the viewer staring at a group of tattooed Cantonese seafarers with long braids stepping off a junk onto the pier, realistic, vertical 9:16.",
@@ -387,7 +387,7 @@ EPISODES = [
                  "barefoot. The rebels wear plain dark-indigo clothes with red headbands. "
                  f"Anh Tư is {FACE}, a poor farmer in a patched brown shirt."),
         hook="POV: Có người chia gạo / không lấy một đồng",
-        end="Sử không ghi tên Anh Tư. / Follow để xem đời sau nhà Anh Tư / bị giao việc gì nữa →",
+        end="Sử không ghi tên Anh Tư. / Follow để xem đời sau / nhà Anh Tư bị giao việc gì →",
         clips=[
             dict(name="Gạo không lấy tiền", label="Ấp Tây Sơn · năm 1771",
                  img=f"First-person view in a queue of adult villagers in front of a rich landlord's granary with its doors open, rebels in red headbands handing out rice, {FACE} in front of the viewer holding an empty sack and frowning suspiciously, realistic, vertical 9:16.",
@@ -427,6 +427,124 @@ EPISODES = [
         yt_title="Được chia gạo nhà giàu miễn phí năm 1771… người chia gạo là ai? POV Anh Tư",
         yt_tags=("khởi nghĩa tây sơn, nguyễn huệ, quang trung, nguyễn nhạc, tây sơn 1771, lịch sử việt nam, "
                  "pov lịch sử, anh tư, đại việt, shorts"),
+    ),
+    # ------------------------------------------------------------------ 1786-1788 La Sơn Phu Tử
+    dict(
+        slug="dua-thu-la-son-1788", prefix="nbt9",
+        title="Bị sai đưa thư mời một ông đồ trên núi, ba năm bị từ chối, đến khi ông nói một câu thì cả nước nhớ (La Sơn Phu Tử, 1786–1788)",
+        length="YouTube 50 giây (5 clip) · TikTok 30 giây (clip 1, 3, 5)",
+        history=("**Lịch sử:** Nguyễn Thiếp (1723–1804), hiệu La Sơn Phu Tử, bỏ quan về ở ẩn ở Nghệ An. Từ năm 1786, "
+                 "Nguyễn Huệ nhiều lần gửi thư mời ông ra giúp nước; ông từ chối. Tháng 4 năm 1788, ông xuống núi gặp "
+                 "Nguyễn Huệ ở Lam Thành nhưng vẫn chưa nhận lời (thư từ hai bên còn giữ được, Hoàng Xuân Hãn tập hợp "
+                 "trong sách *La Sơn Phu Tử*). Cuối năm 1788, trên đường ra Bắc đánh quân Thanh, vua Quang Trung ghé "
+                 "hỏi kế; theo *Hoàng Lê nhất thống chí* (tiểu thuyết lịch sử, mức C), ông nói quân Thanh ở xa đến, "
+                 "không biết tình thế, \"không quá mười ngày\" sẽ bị phá. Mùng 5 Tết Kỷ Dậu (1789), vua vào Thăng Long. "
+                 "Về sau ông đứng đầu Sùng chính viện, dịch sách sang chữ Nôm. **Hư cấu:** Anh Tư, việc đưa thư đúng "
+                 "\"ba lần\" và mọi lời thoại."),
+        setting=("Vietnam, 1786 to 1788, the forested Thiên Nhẫn mountains of Nghệ An: a steep stone path, bamboo groves, "
+                 "a small thatched hermit house with a wooden desk and stacks of books, a stream. The hermit scholar "
+                 "Nguyễn Thiếp is an elderly Vietnamese man in his sixties with a long thin white beard, a plain brown "
+                 "scholar's robe and a calm, dry sense of humor. Tây Sơn soldiers in dark-red uniforms with red head "
+                 f"wraps. Anh Tư is {FACE}, a Tây Sơn messenger with a cloth letter pouch."),
+        hook="POV: Đưa thư mời / một ông đồ / ba năm bị từ chối",
+        end="Sử không ghi tên Anh Tư. / Follow để xem Anh Tư / theo hầu ông vua... giả →",
+        clips=[
+            dict(name="Thư lần thứ nhất", label="Núi Thiên Nhẫn, Nghệ An · năm 1786",
+                 img=f"First-person view at the door of a small thatched hermit house on a forested mountain, the elderly white-bearded scholar holding an opened letter, {FACE} standing beside the viewer, sweaty from the climb, holding out a letter pouch, realistic, vertical 9:16.",
+                 vid="0-5s: The elderly scholar reads the letter, folds it calmly and hands it back: \"Về thưa với tướng quân: già này chỉ biết dạy học.\" 5-10s: Anh Tư holds the returned letter, confused, and asks: \"Dạ... thế thư này em mang về, hay cụ giữ làm kỷ niệm?\" The scholar closes the door gently.",
+                 subs=[(0.5, 4.8, "Về thưa với tướng quân: / già này chỉ biết dạy học."),
+                       (5.0, 9.5, "Dạ... thế thư này em mang về, / hay cụ giữ làm kỷ niệm?")]),
+            dict(name="Thư lần thứ hai", tiktok="bo", label="Một năm sau",
+                 img=f"First-person view on a steep stone mountain path, the elderly scholar standing at the top near his hut pointing down at the viewer, {FACE} below, panting, holding up a letter, realistic, vertical 9:16.",
+                 vid="0-5s: Anh Tư climbs the last steps, panting, holding up a new letter. Before he can speak, the scholar at the top calls down: \"Lại là cậu à? Không!\" 5-10s: Anh Tư, out of breath, to the viewer: \"Em còn chưa kịp nói câu nào mà!\"",
+                 subs=[(0.5, 4.8, "Lại là cậu à? Không!"),
+                       (5.0, 9.5, "Em còn chưa kịp / nói câu nào mà!")]),
+            dict(name="Thư lần thứ ba", label="Đầu năm 1788",
+                 img=f"First-person view inside a thatched hermit house, the elderly scholar sitting at a wooden desk reading a letter with a slight smile, {FACE} kneeling in front of him with three worn-out pairs of straw sandals tied to his pouch, realistic, vertical 9:16.",
+                 vid="0-5s: The scholar reads the third letter slowly, then looks up with a faint smile: \"Được. Ta xuống núi... gặp một lần.\" 5-10s: Anh Tư jumps up and holds out three worn-out pairs of sandals to the viewer: \"Ba năm, mòn ba đôi dép, cụ mới chịu xuống núi một lần!\"",
+                 subs=[(0.5, 4.8, "Được. Ta xuống núi... / gặp một lần."),
+                       (5.0, 9.5, "Ba năm, mòn ba đôi dép, / cụ mới chịu xuống núi một lần!")]),
+            dict(name="Xuống núi để từ chối", tiktok="bo", label="Lam Thành · tháng 4 năm 1788",
+                 img=f"First-person view in a Tây Sơn camp tent, the elderly scholar bowing politely to a Tây Sơn commander seen from behind in a dark-red robe, {FACE} standing at the side holding the scholar's walking stick, realistic, vertical 9:16.",
+                 vid="0-5s: In the camp, the scholar bows politely to the commander, seen only from behind, and says calmly: \"Đa tạ tấm lòng. Nhưng già này xin về núi.\" 5-10s: Anh Tư, holding the walking stick, whispers to the viewer, devastated: \"Xuống núi... để từ chối trực tiếp ạ?\"",
+                 subs=[(0.5, 4.8, "Đa tạ tấm lòng. / Nhưng già này xin về núi."),
+                       (5.0, 9.5, "Xuống núi... / để từ chối trực tiếp ạ?")]),
+            dict(name="Ghi tên em vào sử", label="Nghệ An · cuối năm 1788",
+                 img=f"First-person view at dusk outside the hermit house, a great Tây Sơn army with torches and red banners marching along the valley below, a royal figure in a dark robe seen from behind talking with the elderly scholar at the gate, {FACE} beside the viewer, proud, realistic, vertical 9:16.",
+                 vid="0-5s: Dusk; a great army with torches marches through the valley; the king, seen only from behind, speaks with the scholar at the gate. A calm narrator's voice says: \"Cuối năm 1788, vua Quang Trung ra Bắc, ghé hỏi kế. Ông đồ nói: không quá mười ngày, quân Thanh sẽ tan.\" 5-10s: Anh Tư turns to the camera with his chipped-tooth grin: \"Ông đồ ấy em mời đấy! Ghi tên em vào sử nhé!\"",
+                 subs=[(0.3, 4.8, "Vua Quang Trung ghé hỏi kế. / Ông đồ nói: không quá / mười ngày, quân Thanh sẽ tan."),
+                       (5.0, 9.8, "Ông đồ ấy em mời đấy! / Ghi tên em vào sử nhé!")]),
+        ],
+        caption=("Bị sai đưa thư mời một ông đồ trên núi, ba năm bị từ chối 😅 Ông đồ ấy là La Sơn Phu Tử Nguyễn Thiếp. "
+                 "Cuối năm 1788, vua Quang Trung ghé hỏi kế trước khi đánh quân Thanh, và câu trả lời của ông được sách "
+                 "Hoàng Lê nhất thống chí chép lại. Bạn có biết câu ông nói không? Viết dưới bình luận 👇"),
+        tags="#quangtrung #lasonphutu #nguyenthiep #tayson #1788",
+        tt_title="Đưa thư mời một ông đồ suốt ba năm, bị từ chối cả ba lần",
+        hooks_alt=["POV: Ba năm mòn ba đôi dép / chỉ để đưa một lá thư", "POV: Ông đồ trên núi / từ chối cả tướng quân"],
+        pin=("Gợi ý: câu ông đồ nói có hai chữ \"mười ngày\" 😏 Ai đoán trúng cả câu, mình ghim lên đầu! "
+             "Follow để xem Anh Tư theo hầu ông vua... giả!"),
+        yt_title="Đưa thư mời La Sơn Phu Tử suốt ba năm: ông đồ nói gì với vua Quang Trung?",
+        yt_tags=("quang trung, la sơn phu tử, nguyễn thiếp, nguyễn huệ, tây sơn, đánh quân thanh 1789, "
+                 "lịch sử việt nam, pov lịch sử, anh tư, đại việt, shorts"),
+    ),
+    # ------------------------------------------------------------------ 1790 vua giả mừng thọ Càn Long
+    dict(
+        slug="theo-hau-vua-gia-1790", prefix="nbt10",
+        title="Được cử theo hầu nhà vua sang mừng thọ hoàng đế nhà Thanh, đi nửa đường mới biết vua là… người đóng thế (năm 1790)",
+        length="YouTube 50 giây (5 clip) · TikTok 30 giây (clip 1, 4, 5)",
+        history=("**Lịch sử:** năm 1790, hoàng đế Càn Long nhà Thanh mừng thọ 80 tuổi. Sứ bộ Đại Việt với danh nghĩa "
+                 "\"An Nam quốc vương Nguyễn Quang Bình\" (tức Quang Trung) sang dự, được tiếp đón rất trọng hậu ở hành "
+                 "cung Nhiệt Hà; sử nhà Thanh chép Càn Long cho làm lễ \"bão kiến\" (ôm gối, như cha con), một ân điển "
+                 "hiếm có. **Sử Việt** (theo nhiều sách đời sau, như của Hoa Bằng) chép người sang là **Phạm Công Trị**, "
+                 "cháu gọi vua bằng cậu, đóng giả vua; vua Quang Trung ở lại trong nước. Đến nay giới sử học **vẫn còn "
+                 "tranh luận** người sang là ai; tập phim để ngỏ, không kết luận. **Hư cấu:** Anh Tư, việc chọn người "
+                 "\"theo khuôn mặt\", buổi tập đi đứng, các bữa tiệc và mọi lời thoại."),
+        setting=("1790. First in Nghệ An, Vietnam: a Tây Sơn courtyard with red-lacquered pillars, officials in dark-red "
+                 "court robes. Then in Qing China: busy roadside towns with lantern-lit banquets, and the grand Qing "
+                 "summer palace at Rehe (Chengde) with golden roofs, Manchu officials with queues in Qing court robes. "
+                 "The Đại Việt envoy playing the king is a dignified Vietnamese man around 35 with curly hair and bright "
+                 "eyes, in a yellow-and-red Vietnamese royal robe and hat. The Qianlong Emperor is a dignified elderly "
+                 f"man around 80 in a yellow dragon robe. Anh Tư is {FACE}, an attendant in a neat dark-red uniform."),
+        hook="POV: Theo hầu vua / sang nước Thanh / mà vua... hơi lạ",
+        end="Sử không ghi tên Anh Tư. / Follow để xem đời sau / nhà Anh Tư bị giao việc gì →",
+        clips=[
+            dict(name="Chọn người", label="Nghệ An · mùa xuân năm 1790",
+                 img=f"First-person view in a Tây Sơn courtyard, a stern official pointing at one man in a line of men, a dignified man with curly hair and bright eyes stepping forward, {FACE} beside the viewer frowning in confusion, realistic, vertical 9:16.",
+                 vid="0-5s: A stern official walks along a line of men and stops at the one with curly hair and bright eyes: \"Người này. Từ mai, ông ấy là vua.\" 5-10s: Anh Tư whispers to the viewer: \"Đi sứ mà chọn người theo... khuôn mặt ạ?\" The official, without turning: \"Theo hầu cho tử tế. Không hỏi.\"",
+                 subs=[(0.5, 4.8, "Người này. / Từ mai, ông ấy là vua."),
+                       (5.0, 7.6, "Đi sứ mà chọn người / theo... khuôn mặt ạ?"),
+                       (7.6, 9.6, "Theo hầu cho tử tế. / Không hỏi.")]),
+            dict(name="Tập làm vua", tiktok="bo", label="Mấy hôm sau",
+                 img=f"First-person view in a courtyard, the curly-haired envoy in a royal robe practicing a slow regal walk and tripping on the long hem, {FACE} beside him coaching with both hands raised, realistic, vertical 9:16.",
+                 vid="0-5s: The envoy practices a slow regal walk, trips on the long hem of the royal robe and steadies himself. Anh Tư coaches: \"Bác đi chậm thôi, vua mình đi oai như hổ...\" 5-10s: The envoy tries again and stumbles again; Anh Tư sighs: \"...Thôi, bác cứ đứng yên là giống nhất.\"",
+                 subs=[(0.5, 4.8, "Bác đi chậm thôi, / vua mình đi oai như hổ..."),
+                       (5.0, 9.5, "...Thôi, bác cứ đứng yên / là giống nhất.")]),
+            dict(name="Tiệc dọc đường", tiktok="bo", label="Đường sang Nhiệt Hà · bốn tháng",
+                 img=f"First-person view at a lavish lantern-lit banquet table in a Qing town, endless dishes, Qing officials toasting the envoy in a royal robe, {FACE} beside the viewer, his cheeks full, loosening his belt, realistic, vertical 9:16.",
+                 vid="0-5s: Another lavish banquet; Qing officials raise cups to the envoy in the royal robe; servants keep bringing dishes. 5-10s: Anh Tư, cheeks full, loosens his belt and whispers: \"Đi bốn tháng, tỉnh nào cũng mở tiệc... em lên năm cân rồi.\"",
+                 subs=[(5.0, 9.5, "Đi bốn tháng, tỉnh nào / cũng mở tiệc... / em lên năm cân rồi.")]),
+            dict(name="Lễ ôm", label="Hành cung Nhiệt Hà · mùa thu năm 1790",
+                 img=f"First-person view from the back of a grand golden-roofed Qing palace hall, the elderly Qianlong Emperor in a yellow dragon robe warmly embracing the kneeling curly-haired Vietnamese envoy in a royal robe, rows of Manchu officials watching, {FACE} beside the viewer frozen with wide eyes, realistic, vertical 9:16.",
+                 vid="0-5s: In the grand hall, the elderly emperor rises and warmly embraces the kneeling envoy like a father; the officials murmur in surprise. 5-10s: Anh Tư, frozen, whispers to the viewer through clenched teeth: \"Hoàng đế ôm ông ấy như cha con... em chỉ mong ông ấy đừng hắt hơi.\"",
+                 subs=[(0.5, 4.8, "Sử nhà Thanh chép: / hoàng đế làm lễ ôm, / như cha con."),
+                       (5.0, 9.5, "Hoàng đế ôm ông ấy / như cha con... em chỉ mong / ông ấy đừng hắt hơi.")]),
+            dict(name="Ghi tên em vào sử", label="Chiều hôm ấy",
+                 img=f"First-person view at dusk in the courtyard of the Qing palace, the curly-haired envoy in the royal robe walking away calmly, {FACE} turning toward the viewer with a sly chipped-tooth grin and a finger on his lips, realistic, vertical 9:16.",
+                 vid="0-5s: Dusk; the envoy walks calmly away across the palace courtyard. A calm narrator's voice says: \"Sử Thanh chép: vua Quang Trung sang mừng thọ. Sử Việt chép: người sang là Phạm Công Trị, đóng thế. Đến nay vẫn còn tranh luận.\" 5-10s: Anh Tư turns to the camera, finger on his lips, grinning: \"Em biết ai thật ai giả... nhưng em không nói đâu. Ghi tên em vào sử nhé!\"",
+                 subs=[(0.3, 4.8, "Sử Thanh: Quang Trung sang. / Sử Việt: người sang là / Phạm Công Trị, đóng thế."),
+                       (5.0, 9.8, "Em biết ai thật ai giả... / nhưng em không nói đâu. / Ghi tên em vào sử nhé!")]),
+        ],
+        caption=("Được cử theo hầu nhà vua sang mừng thọ hoàng đế Càn Long năm 1790, đi nửa đường mới thấy vua… hơi lạ 🤫 "
+                 "Sử nhà Thanh chép vua Quang Trung sang tận nơi, còn sử Việt chép người sang là Phạm Công Trị đóng thế. "
+                 "Đến nay vẫn còn tranh luận. Theo bạn, ai đã gặp Càn Long? Viết dưới bình luận 👇"),
+        tags="#quangtrung #phamcongtri #canlong #tayson #1790",
+        tt_title="Theo hầu nhà vua sang mừng thọ Càn Long, đi nửa đường mới thấy vua... hơi lạ",
+        hooks_alt=["POV: Đi sứ mà được chọn / theo khuôn mặt", "POV: Hoàng đế nhà Thanh ôm vua mình / mà em run"],
+        pin=("Bình chọn nhanh: người gặp Càn Long năm 1790 là ai? Thả ❤️ nếu bạn nghĩ là vua Quang Trung, "
+             "bình luận \"Trị\" nếu bạn tin là Phạm Công Trị 👇 Follow để xem đời sau nhà Anh Tư!"),
+        yt_title="Năm 1790, ai đã sang gặp hoàng đế Càn Long: vua Quang Trung hay người đóng thế?",
+        yt_tags=("quang trung, phạm công trị, vua quang trung giả, càn long, mừng thọ càn long 1790, tây sơn, "
+                 "nhà thanh, lịch sử việt nam, pov lịch sử, anh tư, đại việt, shorts"),
     ),
 ]
 

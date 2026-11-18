@@ -1,0 +1,20 @@
+# Dựng: python3 ../tools/tiktok.py tap-9-dua-thu-la-son-1788.plan.txt tap-9-dua-thu-la-son-1788.mp4  (ra tap-9-dua-thu-la-son-1788-youtube.mp4 và tap-9-dua-thu-la-son-1788-tiktok.mp4)
+hook: POV: Đưa thư mời / một ông đồ / ba năm bị từ chối
+end: Sử không ghi tên Anh Tư. / Follow để xem Anh Tư / theo hầu ông vua... giả →
+
+clip: nbt9-1.mp4 | Núi Thiên Nhẫn, Nghệ An · năm 1786
+clip: nbt9-2.mp4 | Một năm sau | tiktok=bo
+clip: nbt9-3.mp4 | Đầu năm 1788
+clip: nbt9-4.mp4 | Lam Thành · tháng 4 năm 1788 | tiktok=bo
+clip: nbt9-5.mp4 | Nghệ An · cuối năm 1788
+
+sub: 1 | 0.5-4.8 | Về thưa với tướng quân: / già này chỉ biết dạy học.
+sub: 1 | 5.0-9.5 | Dạ... thế thư này em mang về, / hay cụ giữ làm kỷ niệm?
+sub: 2 | 0.5-4.8 | Lại là cậu à? Không!
+sub: 2 | 5.0-9.5 | Em còn chưa kịp / nói câu nào mà!
+sub: 3 | 0.5-4.8 | Được. Ta xuống núi... / gặp một lần.
+sub: 3 | 5.0-9.5 | Ba năm, mòn ba đôi dép, / cụ mới chịu xuống núi một lần!
+sub: 4 | 0.5-4.8 | Đa tạ tấm lòng. / Nhưng già này xin về núi.
+sub: 4 | 5.0-9.5 | Xuống núi... / để từ chối trực tiếp ạ?
+sub: 5 | 0.3-4.8 | Vua Quang Trung ghé hỏi kế. / Ông đồ nói: không quá / mười ngày, quân Thanh sẽ tan.
+sub: 5 | 5.0-9.8 | Ông đồ ấy em mời đấy! / Ghi tên em vào sử nhé!

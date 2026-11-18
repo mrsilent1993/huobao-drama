@@ -1,6 +1,6 @@
 # Dựng: python3 ../tools/tiktok.py tap-8-chia-gao-tay-son-1771.plan.txt tap-8-chia-gao-tay-son-1771.mp4  (ra tap-8-chia-gao-tay-son-1771-youtube.mp4 và tap-8-chia-gao-tay-son-1771-tiktok.mp4)
 hook: POV: Có người chia gạo / không lấy một đồng
-end: Sử không ghi tên Anh Tư. / Follow để xem đời sau nhà Anh Tư / bị giao việc gì nữa →
+end: Sử không ghi tên Anh Tư. / Follow để xem đời sau / nhà Anh Tư bị giao việc gì →
 
 clip: nbt8-1.mp4 | Ấp Tây Sơn · năm 1771
 clip: nbt8-2.mp4 | Cùng buổi | tiktok=bo
