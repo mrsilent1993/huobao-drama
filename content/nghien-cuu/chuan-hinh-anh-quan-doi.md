@@ -55,6 +55,14 @@ Mức kiểm chứng:
 - **Quan:** áo thụng có bổ tử, mũ cánh chuồn.
 - Không gán màu áo riêng cho từng phe khi chưa có nguồn. Phân biệt các phe bằng bối cảnh và vị trí (trong thành hay ngoài thành), không bằng màu áo.
 
+### Thời Bắc thuộc: quan nhà Hán, Lương, Đường và dân Giao Chỉ ⚠️
+
+- **Quan nhà Hán (thế kỷ 1–2):** áo rộng tay sẫm màu, thắt đai, đội mũ vải đen.
+- **Quan nhà Lương (thế kỷ 6):** áo rộng tay, đội mũ sa đen.
+- **Quan nhà Đường (thế kỷ 7–9):** áo cổ tròn có màu theo phẩm hàm (đỏ, lục, lam), đội mũ phốc đầu đen, đeo đai da. Lính mặc giáp vảy kiểu Đường.
+- **Dân Giao Chỉ:** tóc cắt ngắn hoặc búi, răng nhuộm đen, chân đất, áo vải trơn quấn quanh người.
+- **Cấm:** chữ trên sổ sách, biển và cuộn văn, cờ các loại, quần áo và giáp kiểu châu Âu.
+
 ## Cần làm
 
 - Tra quân phục Tây Sơn và quân Thanh ở tư liệu bảo tàng (Bảo tàng Quang Trung, sách *Huangchao Liqi Tushi* năm 1766 của nhà Thanh) rồi đổi ⚠️ thành ✅.

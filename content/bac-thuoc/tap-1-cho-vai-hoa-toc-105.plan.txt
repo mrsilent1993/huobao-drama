@@ -1,0 +1,19 @@
+# Dựng: python3 ../tools/tiktok.py tap-1-cho-vai-hoa-toc-105.plan.txt tap-1-cho-vai-hoa-toc-105.mp4  (ra tap-1-cho-vai-hoa-toc-105-youtube.mp4 và tap-1-cho-vai-hoa-toc-105-tiktok.mp4)
+hook: POV: Chạy tiếp sức / chở hàng hỏa tốc / lên kinh đô
+end: Sử không ghi tên Anh Tư. / Follow để xem Anh Tư / làm thuê cho quan đô hộ →
+
+clip: bt105-1.mp4 | Lĩnh Nam · khoảng năm 100
+clip: bt105-2.mp4 |  | tiktok=bo
+clip: bt105-3.mp4 | 
+clip: bt105-4.mp4 | Trạm tiếp theo | tiktok=bo
+clip: bt105-5.mp4 | Năm 105
+
+sub: 1 | 0.5-4.8 | Mười dặm một trạm, / năm dặm một chốt. / Quả hỏng là phạt.
+sub: 1 | 5.0-9.5 | Hàng hỏa tốc... / là quả vải ạ?
+sub: 2 | 5.0-9.5 | Ngựa được nghỉ, / người phải chạy... còn / quả vải thì ngồi kiệu.
+sub: 3 | 0.5-4.8 | Tránh ra! Hàng của vua!
+sub: 3 | 5.0-9.5 | Quả vải đi nhanh hơn / cả thư của quan!
+sub: 4 | 0.5-4.8 | Quả này dập. Phạt.
+sub: 4 | 5.0-9.5 | Người dập cả rồi... / mà chỉ đếm quả dập.
+sub: 5 | 0.3-4.8 | Năm 105, quan huyện / Đường Khương dâng sớ can. / Vua Hán bãi lệ cống vải.
+sub: 5 | 5.0-9.8 | Từ nay quả vải... tự đi bộ! / Ghi tên em vào sử nhé!

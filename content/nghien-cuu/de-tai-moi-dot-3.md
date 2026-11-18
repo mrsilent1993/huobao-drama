@@ -9,6 +9,8 @@ Mức nguồn: **A** = sử Việt và sử Trung Quốc hoặc khảo cổ cùn
 
 ## Nhóm 1: "Đi làm cho quan đô hộ" (thời Bắc thuộc, còn bỏ trống trên mạng)
 
+**Đã làm** (`../bac-thuoc/`): #1 chở vải (năm 105), #5 Tinh Thiều, #6 thuế năm 687, #7 Dương Thanh.
+
 | # | Tiêu đề theo công thức | Nguồn | Câu đáng gửi | Sách gắn được |
 |---|---|---|---|---|
 | 1 | **Bị bắt chạy tiếp sức chở vải, nhãn cả tháng, đến kinh đô mới biết vua chỉ ăn vài quả** (năm 105) | **A**, *Hậu Hán thư*: vải, nhãn từ Giao Chỉ chạy ngựa trạm lên phương Bắc, "người chết nối nhau trên đường". Quan Đường Khương can rằng hai thứ quả ấy không làm vua sống lâu thêm, vua bèn bỏ lệ cống | "Quả vải đi nhanh hơn cả người đưa thư!" · "Vua ăn ba quả, ba chục người ngã ngựa." | Sách giai thoại lịch sử |

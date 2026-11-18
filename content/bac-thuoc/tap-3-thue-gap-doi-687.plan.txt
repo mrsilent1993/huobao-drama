@@ -1,0 +1,19 @@
+# Dựng: python3 ../tools/tiktok.py tap-3-thue-gap-doi-687.plan.txt tap-3-thue-gap-doi-687.mp4  (ra tap-3-thue-gap-doi-687-youtube.mp4 và tap-3-thue-gap-doi-687-tiktok.mp4)
+hook: POV: Lương không tăng / thuế tăng gấp đôi
+end: Sử không ghi tên Anh Tư. / Follow để xem Anh Tư / làm thuê cho quan đô hộ →
+
+clip: bt687-1.mp4 | Tống Bình · năm 687
+clip: bt687-2.mp4 |  | tiktok=bo
+clip: bt687-3.mp4 | 
+clip: bt687-4.mp4 | Đêm hôm ấy | tiktok=bo
+clip: bt687-5.mp4 | 
+
+sub: 1 | 0.5-4.8 | Từ năm nay, nộp đủ thuế. / Không còn nộp nửa nữa.
+sub: 1 | 5.0-9.5 | Lương không tăng... / mà thuế tăng gấp đôi?
+sub: 2 | 0.5-4.8 | Thiếu.
+sub: 2 | 5.0-9.5 | Cân nhà quan... / có thêm một bàn chân.
+sub: 3 | 5.0-9.5 | Năm ngoái một bao, / năm nay hai bao... sang năm / chắc nộp luôn cả em.
+sub: 4 | 0.5-4.8 | Không nộp nữa.
+sub: 4 | 5.0-9.5 | Thế bao thóc thứ hai... / em giữ lại nấu cơm được không?
+sub: 5 | 0.3-4.8 | Năm 687, đô hộ bắt nộp / thuế gấp đôi. Đinh Kiến / cùng dân vây phủ thành.
+sub: 5 | 5.0-9.8 | Bao thóc thứ hai ấy, / em không nộp! / Ghi tên em vào sử nhé!

@@ -1,0 +1,20 @@
+# Dựng: python3 ../tools/tiktok.py tap-2-xin-viec-thua-cai-ho-541.plan.txt tap-2-xin-viec-thua-cai-ho-541.mp4  (ra tap-2-xin-viec-thua-cai-ho-541-youtube.mp4 và tap-2-xin-viec-thua-cai-ho-541-tiktok.mp4)
+hook: POV: Đi xin việc / bị loại / vì cái họ
+end: Sử không ghi tên Anh Tư. / Follow để xem Anh Tư / làm thuê cho quan đô hộ →
+
+clip: bt541-1.mp4 | Kinh đô nhà Lương · năm 540
+clip: bt541-2.mp4 |  | tiktok=bo
+clip: bt541-3.mp4 | 
+clip: bt541-4.mp4 | Mấy hôm sau | tiktok=bo
+clip: bt541-5.mp4 | Năm 544
+
+sub: 1 | 0.5-4.8 | Văn anh Thiều hay nhất / xứ Giao Châu, kiểu gì / cũng làm quan to!
+sub: 1 | 5.0-9.5 | Người ta tuyển / người tài mà.
+sub: 2 | 0.5-4.8 | Họ Tinh... / chưa có ai làm quan to.
+sub: 2 | 5.0-9.5 | Tra họ trước... / đọc văn sau ạ?
+sub: 3 | 0.5-4.8 | Cho làm... / coi cổng thành.
+sub: 3 | 5.0-9.5 | Giỏi cỡ nào... / cũng thua cái họ.
+sub: 4 | 0.5-4.8 | Anh mở cổng cho người ta / vào làm quan... / còn anh đứng ngoài.
+sub: 4 | 5.0-9.5 | Về quê.
+sub: 5 | 0.3-4.8 | Tinh Thiều về theo Lý Bí. / Năm 544, nước Vạn Xuân ra đời, / Tinh Thiều đứng đầu quan văn.
+sub: 5 | 5.0-9.8 | Ông thượng thư ấy / chắc giờ tiếc lắm! / Ghi tên em vào sử nhé!
