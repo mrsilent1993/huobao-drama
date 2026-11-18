@@ -81,25 +81,53 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 ## Đăng TikTok
 
+**Hook** (chữ to ở giây đầu, đã có sẵn trong video; dùng luôn làm chữ trên ảnh bìa):
+```
+POV: Đóng 500 thuyền không ai nói làm gì
+```
+
+**Tiêu đề** (ô Tiêu đề, hoặc dòng đầu của mô tả nếu không có ô này):
+```
+POV: Đóng 500 thuyền không ai nói làm gì
+```
+
+**Mô tả và hashtag:**
 ```
 Bị bắt đóng năm trăm chiếc thuyền mà không ai nói để làm gì, đến bến sông mới hiểu 😳 Cuối năm 1427, sau Hội thề Đông Quan, Lê Lợi và Nguyễn Trãi cấp thuyền, ngựa, lương thực cho quân Minh về nước. Bình Ngô đại cáo còn chép lại. Bạn có biết câu nào trong Bình Ngô đại cáo không? Viết dưới bình luận 👇
 #povlichsu #POV #lichsuvietnam #xuhuong #fyp #povnguoibinhthuong #anhtu #hoithedongquan #binhngodaicao #leloi #nguyentrai #1427
+```
+
+**Bình luận ghim** (đăng xong tự bình luận rồi ghim lên đầu):
+```
+Bạn đoán đúng cái kết từ giây thứ mấy? 👇 Follow để xem tập tiếp theo nhé!
 ```
 
 Khi đăng: bật nhãn "Nội dung do AI tạo".
 
 ## Đăng YouTube Shorts (bản đầy đủ)
 
-Tiêu đề:
+**Tiêu đề** (tối đa 100 ký tự):
 ```
 POV: Đóng 500 thuyền không ai nói làm gì #Shorts
 ```
 
-Mô tả:
+**Mô tả:**
 ```
 Bị bắt đóng năm trăm chiếc thuyền mà không ai nói để làm gì, đến bến sông mới hiểu 😳 Cuối năm 1427, sau Hội thề Đông Quan, Lê Lợi và Nguyễn Trãi cấp thuyền, ngựa, lương thực cho quân Minh về nước. Bình Ngô đại cáo còn chép lại. Bạn có biết câu nào trong Bình Ngô đại cáo không? Viết dưới bình luận 👇
 
+Video do AI tạo, dựa trên sử liệu; nhân vật và lời thoại là hư cấu. Đăng ký kênh để xem mỗi ngày một ngày sống ở Đại Việt.
+
 #Shorts #povlichsu #POV #lichsuvietnam #povnguoibinhthuong #anhtu #hoithedongquan #binhngodaicao #leloi #nguyentrai #1427
+```
+
+**Thẻ** (ô Thẻ/Tags trong "Hiện thêm", dán nguyên dòng):
+```
+povlichsu, lichsuvietnam, povnguoibinhthuong, anhtu, hoithedongquan, binhngodaicao, leloi, nguyentrai, 1427, lịch sử việt nam, pov lịch sử, pov, đại việt, sử việt, shorts, hài lịch sử
+```
+
+**Bình luận ghim:**
+```
+Bạn đoán đúng cái kết từ giây thứ mấy? 👇 Đăng ký để xem tập tiếp theo nhé!
 ```
 
 Khi đăng: ở mục "Nội dung bị thay đổi" (Altered content) chọn **Có**, vì video do AI tạo.

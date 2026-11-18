@@ -81,25 +81,53 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 ## Đăng TikTok
 
+**Hook** (chữ to ở giây đầu, đã có sẵn trong video; dùng luôn làm chữ trên ảnh bìa):
+```
+POV: Bạn là lính giặc ở sông Bạch Đằng năm 938
+```
+
+**Tiêu đề** (ô Tiêu đề, hoặc dòng đầu của mô tả nếu không có ô này):
+```
+POV: Bạn là lính giặc ở sông Bạch Đằng năm 938
+```
+
+**Mô tả và hashtag:**
 ```
 Được mời sang đánh, đến nơi thì người mời đã mất, rồi còn thấy "cái gì nhọn nhọn" dưới nước 😂 Năm 938, Hoằng Tháo dẫn thủy quân Nam Hán vào sông Bạch Đằng và mắc bẫy cọc của Ngô Quyền. Nếu là lính Nam Hán, bạn có dám lên tiếng không? 👇
 #povlichsu #POV #lichsuvietnam #xuhuong #fyp #bachdangngoaitruyen #bachdang #ngoquyen #938 #hoangthao
+```
+
+**Bình luận ghim** (đăng xong tự bình luận rồi ghim lên đầu):
+```
+Bạn đoán đúng cái kết từ giây thứ mấy? 👇 Follow để xem tập tiếp theo nhé!
 ```
 
 Khi đăng: bật nhãn "Nội dung do AI tạo".
 
 ## Đăng YouTube Shorts (bản đầy đủ)
 
-Tiêu đề:
+**Tiêu đề** (tối đa 100 ký tự):
 ```
 POV: Bạn là lính giặc ở sông Bạch Đằng năm 938 #Shorts
 ```
 
-Mô tả:
+**Mô tả:**
 ```
 Được mời sang đánh, đến nơi thì người mời đã mất, rồi còn thấy "cái gì nhọn nhọn" dưới nước 😂 Năm 938, Hoằng Tháo dẫn thủy quân Nam Hán vào sông Bạch Đằng và mắc bẫy cọc của Ngô Quyền. Nếu là lính Nam Hán, bạn có dám lên tiếng không? 👇
 
+Video do AI tạo, dựa trên sử liệu; nhân vật và lời thoại là hư cấu. Đăng ký kênh để xem mỗi ngày một ngày sống ở Đại Việt.
+
 #Shorts #povlichsu #POV #lichsuvietnam #bachdangngoaitruyen #bachdang #ngoquyen #938 #hoangthao
+```
+
+**Thẻ** (ô Thẻ/Tags trong "Hiện thêm", dán nguyên dòng):
+```
+povlichsu, lichsuvietnam, bachdangngoaitruyen, bachdang, ngoquyen, 938, hoangthao, lịch sử việt nam, pov lịch sử, pov, đại việt, sử việt, shorts, hài lịch sử
+```
+
+**Bình luận ghim:**
+```
+Bạn đoán đúng cái kết từ giây thứ mấy? 👇 Đăng ký để xem tập tiếp theo nhé!
 ```
 
 Khi đăng: ở mục "Nội dung bị thay đổi" (Altered content) chọn **Có**, vì video do AI tạo.

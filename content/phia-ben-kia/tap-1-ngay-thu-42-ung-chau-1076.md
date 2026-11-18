@@ -85,25 +85,53 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 ## Đăng TikTok
 
+**Hook** (chữ to ở giây đầu, đã có sẵn trong video; dùng luôn làm chữ trên ảnh bìa):
+```
+POV: Lính giữ thành Ngày thứ 42
+```
+
+**Tiêu đề** (ô Tiêu đề, hoặc dòng đầu của mô tả nếu không có ô này):
+```
+POV: Lính giữ thành Ngày thứ 42
+```
+
+**Mô tả và hashtag:**
 ```
 Bạn là lính giữ thành. Ngày thứ 42, viện binh vẫn chưa tới… 😶 Xem đến cuối mới biết mình đứng phía nào. (Video dựng bằng AI, lời thoại là hư cấu, chi tiết lịch sử ở bình luận ghim.)
 #povlichsu #POV #lichsuvietnam #xuhuong #fyp #anhtu #lythuongkiet #ungchau #1076 #phiabenkia
+```
+
+**Bình luận ghim** (đăng xong tự bình luận rồi ghim lên đầu):
+```
+Bạn đoán đúng cái kết từ giây thứ mấy? 👇 Follow để xem tập tiếp theo nhé!
 ```
 
 Khi đăng: bật nhãn "Nội dung do AI tạo".
 
 ## Đăng YouTube Shorts (bản đầy đủ)
 
-Tiêu đề:
+**Tiêu đề** (tối đa 100 ký tự):
 ```
 POV: Lính giữ thành Ngày thứ 42 #Shorts
 ```
 
-Mô tả:
+**Mô tả:**
 ```
 Bạn là lính giữ thành. Ngày thứ 42, viện binh vẫn chưa tới… 😶 Xem đến cuối mới biết mình đứng phía nào. (Video dựng bằng AI, lời thoại là hư cấu, chi tiết lịch sử ở bình luận ghim.)
 
+Video do AI tạo, dựa trên sử liệu; nhân vật và lời thoại là hư cấu. Đăng ký kênh để xem mỗi ngày một ngày sống ở Đại Việt.
+
 #Shorts #povlichsu #POV #lichsuvietnam #anhtu #lythuongkiet #ungchau #1076 #phiabenkia
+```
+
+**Thẻ** (ô Thẻ/Tags trong "Hiện thêm", dán nguyên dòng):
+```
+povlichsu, lichsuvietnam, anhtu, lythuongkiet, ungchau, 1076, phiabenkia, lịch sử việt nam, pov lịch sử, pov, đại việt, sử việt, shorts, hài lịch sử
+```
+
+**Bình luận ghim:**
+```
+Bạn đoán đúng cái kết từ giây thứ mấy? 👇 Đăng ký để xem tập tiếp theo nhé!
 ```
 
 Khi đăng: ở mục "Nội dung bị thay đổi" (Altered content) chọn **Có**, vì video do AI tạo.

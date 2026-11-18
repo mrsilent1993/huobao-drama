@@ -81,25 +81,53 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 ## Đăng TikTok
 
+**Hook** (chữ to ở giây đầu, đã có sẵn trong video; dùng luôn làm chữ trên ảnh bìa):
+```
+Ba lần Bạch Đằng · Phần 3: Bạn cắm cọc cho Trần Hưng Đạo
+```
+
+**Tiêu đề** (ô Tiêu đề, hoặc dòng đầu của mô tả nếu không có ô này):
+```
+Ba lần Bạch Đằng · Phần 3: Bạn cắm cọc cho Trần Hưng Đạo
+```
+
+**Mô tả và hashtag:**
 ```
 Ba trăm năm, ba đời nhà Anh Tư, ba lần cắm cọc trên cùng một con sông 🔥 Năm 1288, Trần Hưng Đạo đánh tan thủy quân Nguyên trên sông Bạch Đằng, bắt sống Ô Mã Nhi. Các bãi cọc ở Quảng Yên (Quảng Ninh) đến nay vẫn còn. Bạn đã đến xem bãi cọc Bạch Đằng chưa? 👇
 #povlichsu #POV #lichsuvietnam #xuhuong #fyp #balanbachdang #bachdang #tranhungdao #1288 #satthat
+```
+
+**Bình luận ghim** (đăng xong tự bình luận rồi ghim lên đầu):
+```
+Bạn đoán đúng cái kết từ giây thứ mấy? 👇 Follow để xem tập tiếp theo nhé!
 ```
 
 Khi đăng: bật nhãn "Nội dung do AI tạo".
 
 ## Đăng YouTube Shorts (bản đầy đủ)
 
-Tiêu đề:
+**Tiêu đề** (tối đa 100 ký tự):
 ```
 Ba lần Bạch Đằng · Phần 3: Bạn cắm cọc cho Trần Hưng Đạo #Shorts
 ```
 
-Mô tả:
+**Mô tả:**
 ```
 Ba trăm năm, ba đời nhà Anh Tư, ba lần cắm cọc trên cùng một con sông 🔥 Năm 1288, Trần Hưng Đạo đánh tan thủy quân Nguyên trên sông Bạch Đằng, bắt sống Ô Mã Nhi. Các bãi cọc ở Quảng Yên (Quảng Ninh) đến nay vẫn còn. Bạn đã đến xem bãi cọc Bạch Đằng chưa? 👇
 
+Video do AI tạo, dựa trên sử liệu; nhân vật và lời thoại là hư cấu. Đăng ký kênh để xem mỗi ngày một ngày sống ở Đại Việt.
+
 #Shorts #povlichsu #POV #lichsuvietnam #balanbachdang #bachdang #tranhungdao #1288 #satthat
+```
+
+**Thẻ** (ô Thẻ/Tags trong "Hiện thêm", dán nguyên dòng):
+```
+povlichsu, lichsuvietnam, balanbachdang, bachdang, tranhungdao, 1288, satthat, lịch sử việt nam, pov lịch sử, pov, đại việt, sử việt, shorts, hài lịch sử
+```
+
+**Bình luận ghim:**
+```
+Bạn đoán đúng cái kết từ giây thứ mấy? 👇 Đăng ký để xem tập tiếp theo nhé!
 ```
 
 Khi đăng: ở mục "Nội dung bị thay đổi" (Altered content) chọn **Có**, vì video do AI tạo.

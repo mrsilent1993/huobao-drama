@@ -360,6 +360,13 @@ EPISODES = [
                  "người phụ nữ cầm đầu (theo nghiên cứu của Dian Murray). Bạn có biết người phụ nữ đó là ai không? Viết "
                  "dưới bình luận 👇"),
         tags="#taysoncanhthinh #cuopbientauo #trinhnhattau #hamdoicoden #thuyquantayson",
+        tt_title="Đồng đội mới của thủy quân Tây Sơn: ai cũng xăm kín tay, không ai nói nghề cũ",
+        hooks_alt=["POV: Sếp mới được phong vương / nghề cũ là cướp biển", "POV: Thủy quân Tây Sơn / tuyển thêm... cướp biển?"],
+        pin=("Gợi ý: bà ấy được gọi là \"nữ hoàng cướp biển\" Biển Đông 🏴‍☠️ Ai đoán đúng tên, mình ghim bình luận "
+             "lên đầu! Follow để xem đời sau nhà Anh Tư nhé!"),
+        yt_title="Thủy quân Tây Sơn từng tuyển… cướp biển? POV Anh Tư",
+        yt_tags=("tây sơn, cướp biển tàu ô, cảnh thịnh, quang trung, trịnh nhất tẩu, ching shih, hạm đội cờ đen, "
+                 "thủy quân tây sơn, lịch sử việt nam, pov lịch sử, anh tư, đại việt, shorts"),
     ),
     # ------------------------------------------------------------------ 1771 khởi nghĩa Tây Sơn
     dict(
@@ -413,6 +420,13 @@ EPISODES = [
                  "Sơn). Người em thứ sau này là vua Quang Trung. Nếu được ông chia gạo, bạn sẽ xin theo không? Viết dưới "
                  "bình luận 👇"),
         tags="#khoinghiatayson #nguyenhue #quangtrung #nguyennhac #1771",
+        tt_title="Được chia gạo nhà giàu không mất một đồng, mấy năm sau mới biết người chia là ai",
+        hooks_alt=["POV: Người chia gạo cho bạn / có đôi mắt lạ lắm", "POV: Ông thu thuế / đi chia gạo miễn phí"],
+        pin=("Năm 1771 người chia gạo ấy mới khoảng 18 tuổi 😳 Bạn có muốn xem Anh Tư gánh gạo theo Tây Sơn "
+             "tiếp không? Follow để không lỡ nhé!"),
+        yt_title="Được chia gạo nhà giàu miễn phí năm 1771… người chia gạo là ai? POV Anh Tư",
+        yt_tags=("khởi nghĩa tây sơn, nguyễn huệ, quang trung, nguyễn nhạc, tây sơn 1771, lịch sử việt nam, "
+                 "pov lịch sử, anh tư, đại việt, shorts"),
     ),
 ]
 

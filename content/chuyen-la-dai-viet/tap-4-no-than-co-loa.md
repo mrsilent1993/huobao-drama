@@ -96,25 +96,53 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 ## Đăng TikTok
 
+**Hook** (chữ to ở giây đầu, đã có sẵn trong video; dùng luôn làm chữ trên ảnh bìa):
+```
+POV: Bạn giữ kho nỏ thần thành Cổ Loa
+```
+
+**Tiêu đề** (ô Tiêu đề, hoặc dòng đầu của mô tả nếu không có ô này):
+```
+POV: Bạn giữ kho nỏ thần thành Cổ Loa
+```
+
+**Mô tả và hashtag:**
 ```
 Phò mã hỏi han kho nỏ hơi nhiều, nửa đêm còn "đi dạo" trong kho vũ khí 🤨 Truyền thuyết nỏ thần và Mỵ Châu – Trọng Thủy. Còn khảo cổ thì có thật: năm 1959, một kho mũi tên đồng lớn được tìm thấy ở Cổ Loa. Nếu là lính gác, bạn có cho phò mã vào kho không? 👇
 #povlichsu #POV #lichsuvietnam #xuhuong #fyp #chuyenladaiviet #coloa #nothan #anduongvuong #mychau #trongthuy #truyenthuyet
+```
+
+**Bình luận ghim** (đăng xong tự bình luận rồi ghim lên đầu):
+```
+Bạn đoán đúng cái kết từ giây thứ mấy? 👇 Follow để xem tập tiếp theo nhé!
 ```
 
 Khi đăng: bật nhãn "Nội dung do AI tạo".
 
 ## Đăng YouTube Shorts (bản đầy đủ)
 
-Tiêu đề:
+**Tiêu đề** (tối đa 100 ký tự):
 ```
 POV: Bạn giữ kho nỏ thần thành Cổ Loa #Shorts
 ```
 
-Mô tả:
+**Mô tả:**
 ```
 Phò mã hỏi han kho nỏ hơi nhiều, nửa đêm còn "đi dạo" trong kho vũ khí 🤨 Truyền thuyết nỏ thần và Mỵ Châu – Trọng Thủy. Còn khảo cổ thì có thật: năm 1959, một kho mũi tên đồng lớn được tìm thấy ở Cổ Loa. Nếu là lính gác, bạn có cho phò mã vào kho không? 👇
 
+Video do AI tạo, dựa trên sử liệu; nhân vật và lời thoại là hư cấu. Đăng ký kênh để xem mỗi ngày một ngày sống ở Đại Việt.
+
 #Shorts #povlichsu #POV #lichsuvietnam #chuyenladaiviet #coloa #nothan #anduongvuong #mychau #trongthuy #truyenthuyet
+```
+
+**Thẻ** (ô Thẻ/Tags trong "Hiện thêm", dán nguyên dòng):
+```
+povlichsu, lichsuvietnam, chuyenladaiviet, coloa, nothan, anduongvuong, mychau, trongthuy, truyenthuyet, lịch sử việt nam, pov lịch sử, pov, đại việt, sử việt, shorts, hài lịch sử
+```
+
+**Bình luận ghim:**
+```
+Bạn đoán đúng cái kết từ giây thứ mấy? 👇 Đăng ký để xem tập tiếp theo nhé!
 ```
 
 Khi đăng: ở mục "Nội dung bị thay đổi" (Altered content) chọn **Có**, vì video do AI tạo.

@@ -12,6 +12,12 @@ POV = ("First-person POV video, handheld camera at eye level as if seen through 
        "any child appears only from behind or at a distance.")
 AUDIO = "Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync, no background music."
 TAGS = "#povlichsu #POV #lichsuvietnam #xuhuong #fyp"
+# Mặc định khi tập không tự khai báo. Từng tập có thể ghi đè bằng các khóa:
+# tt_title, hooks_alt (list), pin, yt_title, yt_tags, yt_pin, yt_desc_extra.
+PIN_DEFAULT = "Bạn đoán đúng cái kết từ giây thứ mấy? 👇 Follow để xem tập tiếp theo nhé!"
+YT_DESC_EXTRA = ("Video do AI tạo, dựa trên sử liệu; nhân vật và lời thoại là hư cấu. "
+                 "Đăng ký kênh để xem mỗi ngày một ngày sống ở Đại Việt.")
+YT_TAGS_BASE = ["lịch sử việt nam", "pov lịch sử", "pov", "đại việt", "sử việt", "shorts", "hài lịch sử"]
 
 
 def build(episodes, here, series_tag="", note="", unit="Phần", file_unit="phan"):
@@ -57,14 +63,31 @@ def build(episodes, here, series_tag="", note="", unit="Phần", file_unit="phan
             subs += [f"sub: {i} | {a}-{b} | {t}" for a, b, t in c["subs"]]
         plan += [""] + subs
         tags = " ".join(t for t in (TAGS, series_tag, ep["tags"]) if t)
-        md += ["## Đăng TikTok", "", "```", ep["caption"], tags, "```", "",
+        hook_line = ep["hook"].replace(" / ", " ")
+        tt_title = ep.get("tt_title", hook_line)
+        pin = ep.get("pin", PIN_DEFAULT)
+        md += ["## Đăng TikTok", "",
+               "**Hook** (chữ to ở giây đầu, đã có sẵn trong video; dùng luôn làm chữ trên ảnh bìa):",
+               "```", hook_line, "```", ""]
+        if ep.get("hooks_alt"):
+            md += ["Hook dự phòng (nếu đăng lại hoặc muốn đổi ảnh bìa):", "```",
+                   "\n".join(h.replace(" / ", " ") for h in ep["hooks_alt"]), "```", ""]
+        md += ["**Tiêu đề** (ô Tiêu đề, hoặc dòng đầu của mô tả nếu không có ô này):", "```", tt_title, "```", "",
+               "**Mô tả và hashtag:**", "```", ep["caption"], tags, "```", "",
+               "**Bình luận ghim** (đăng xong tự bình luận rồi ghim lên đầu):", "```", pin, "```", "",
                "Khi đăng: bật nhãn \"Nội dung do AI tạo\".", ""]
         if any(c is not None for c in cuts):
-            title = ep["hook"].replace(" / ", " ")
-            yt_tags = " ".join(t for t in tags.split() if t not in ("#fyp", "#xuhuong"))
+            yt_title = ep.get("yt_title", hook_line)
+            yt_hash = " ".join(t for t in tags.split() if t not in ("#fyp", "#xuhuong"))
+            yt_tags = ep.get("yt_tags") or ", ".join(dict.fromkeys(
+                [t.lstrip("#") for t in tags.split() if t not in ("#fyp", "#xuhuong", "#POV")] + YT_TAGS_BASE))
+            yt_pin = ep.get("yt_pin", pin.replace("Follow", "Đăng ký").replace("follow", "đăng ký"))
             md += ["## Đăng YouTube Shorts (bản đầy đủ)", "",
-                   "Tiêu đề:", "```", f"{title} #Shorts", "```", "",
-                   "Mô tả:", "```", ep["caption"], "", f"#Shorts {yt_tags}", "```", "",
+                   "**Tiêu đề** (tối đa 100 ký tự):", "```", f"{yt_title} #Shorts", "```", "",
+                   "**Mô tả:**", "```", ep["caption"], "", ep.get("yt_desc_extra", YT_DESC_EXTRA), "",
+                   f"#Shorts {yt_hash}", "```", "",
+                   "**Thẻ** (ô Thẻ/Tags trong \"Hiện thêm\", dán nguyên dòng):", "```", yt_tags, "```", "",
+                   "**Bình luận ghim:**", "```", yt_pin, "```", "",
                    "Khi đăng: ở mục \"Nội dung bị thay đổi\" (Altered content) chọn **Có**, vì video do AI tạo.", ""]
         md += [
                "## Chữ trên video (mình chèn ở hậu kỳ)", "", "```", "\n".join(plan).strip(), "```", ""]

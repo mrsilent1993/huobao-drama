@@ -79,25 +79,53 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 ## Đăng TikTok
 
+**Hook** (chữ to ở giây đầu, đã có sẵn trong video; dùng luôn làm chữ trên ảnh bìa):
+```
+POV: Bạn theo Mai An Tiêm ra đảo hoang
+```
+
+**Tiêu đề** (ô Tiêu đề, hoặc dòng đầu của mô tả nếu không có ô này):
+```
+POV: Bạn theo Mai An Tiêm ra đảo hoang
+```
+
+**Mô tả và hashtag:**
 ```
 Bị đày ra đảo hoang chỉ vì một câu nói, ông chủ vẫn không bớt nói 😂 Truyền thuyết Mai An Tiêm và quả dưa hấu: vỏ xanh, ruột đỏ, hạt đen, được gửi về đất liền qua đường biển. Bạn hiểu câu "Của biếu là của lo, của cho là của nợ" thế nào? 👇
 #povlichsu #POV #lichsuvietnam #xuhuong #fyp #maiantiem #duahau #truyenthuyet #sutichduahau
+```
+
+**Bình luận ghim** (đăng xong tự bình luận rồi ghim lên đầu):
+```
+Bạn đoán đúng cái kết từ giây thứ mấy? 👇 Follow để xem tập tiếp theo nhé!
 ```
 
 Khi đăng: bật nhãn "Nội dung do AI tạo".
 
 ## Đăng YouTube Shorts (bản đầy đủ)
 
-Tiêu đề:
+**Tiêu đề** (tối đa 100 ký tự):
 ```
 POV: Bạn theo Mai An Tiêm ra đảo hoang #Shorts
 ```
 
-Mô tả:
+**Mô tả:**
 ```
 Bị đày ra đảo hoang chỉ vì một câu nói, ông chủ vẫn không bớt nói 😂 Truyền thuyết Mai An Tiêm và quả dưa hấu: vỏ xanh, ruột đỏ, hạt đen, được gửi về đất liền qua đường biển. Bạn hiểu câu "Của biếu là của lo, của cho là của nợ" thế nào? 👇
 
+Video do AI tạo, dựa trên sử liệu; nhân vật và lời thoại là hư cấu. Đăng ký kênh để xem mỗi ngày một ngày sống ở Đại Việt.
+
 #Shorts #povlichsu #POV #lichsuvietnam #maiantiem #duahau #truyenthuyet #sutichduahau
+```
+
+**Thẻ** (ô Thẻ/Tags trong "Hiện thêm", dán nguyên dòng):
+```
+povlichsu, lichsuvietnam, maiantiem, duahau, truyenthuyet, sutichduahau, lịch sử việt nam, pov lịch sử, pov, đại việt, sử việt, shorts, hài lịch sử
+```
+
+**Bình luận ghim:**
+```
+Bạn đoán đúng cái kết từ giây thứ mấy? 👇 Đăng ký để xem tập tiếp theo nhé!
 ```
 
 Khi đăng: ở mục "Nội dung bị thay đổi" (Altered content) chọn **Có**, vì video do AI tạo.

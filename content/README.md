@@ -70,6 +70,16 @@ Giới hạn:
 - Không đùa cợt anh hùng dân tộc, lời thề hay thơ thiêng (Hai Bà Trưng, "Nam quốc sơn hà", Điện Biên). Tiếng cười đặt vào nhân vật phụ.
 - Không lấy dân tộc thiểu số hay cảnh nghèo khó làm trò cười.
 
+## Thông tin đăng (có sẵn trong file .md của mỗi tập)
+
+Mỗi tập có hai mục "Đăng TikTok" và "Đăng YouTube Shorts" để copy dán thẳng lúc đăng:
+
+- **TikTok:** hook (chữ trên ảnh bìa), hook dự phòng, tiêu đề, mô tả kèm hashtag, bình luận ghim.
+- **YouTube:** tiêu đề (có #Shorts), mô tả (thêm dòng ghi video do AI tạo, nhân vật hư cấu), thẻ (ô Tags, không có dấu #, viết có dấu), bình luận ghim (đổi "Follow" thành "Đăng ký").
+- **Tiêu đề và hook dự phòng không được lộ cú lật ở cuối.**
+- **Bình luận ghim là một câu hỏi hoặc gợi ý, không trả lời luôn câu hỏi ở caption**, để người xem tự bình luận. Đáp án thì trả lời bằng video sau.
+- Khai báo trong `_nguon.py` bằng các khóa `tt_title`, `hooks_alt`, `pin`, `yt_title`, `yt_tags`, `yt_pin`. Tập không khai báo thì `tools/series.py` tự điền mặc định.
+
 ## Quy ước cố định
 
 - Khung dọc 9:16. Giữ chủ thể ở giữa khung. Không để Muse tự chèn chữ.

@@ -79,25 +79,53 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 ## Đăng TikTok
 
+**Hook** (chữ to ở giây đầu, đã có sẵn trong video; dùng luôn làm chữ trên ảnh bìa):
+```
+POV: Bạn đi chợ bằng tiền giấy năm 1396
+```
+
+**Tiêu đề** (ô Tiêu đề, hoặc dòng đầu của mô tả nếu không có ô này):
+```
+POV: Bạn đi chợ bằng tiền giấy năm 1396
+```
+
+**Mô tả và hashtag:**
 ```
 Đổi cả hũ tiền đồng lấy mấy tờ giấy vẽ con rùa, ra chợ bị bà bán cá hỏi vặn 😂 Năm 1396, nước ta phát hành tiền giấy "Thông bảo hội sao": tờ 1 quan vẽ rồng, tờ 2 tiền vẽ rùa. Nếu sống năm đó, bạn có dám dùng tiền giấy không? 👇
 #povlichsu #POV #lichsuvietnam #xuhuong #fyp #chuyenladaiviet #tiengiay #hoquyly #nhaho #chuyenla #1396
+```
+
+**Bình luận ghim** (đăng xong tự bình luận rồi ghim lên đầu):
+```
+Bạn đoán đúng cái kết từ giây thứ mấy? 👇 Follow để xem tập tiếp theo nhé!
 ```
 
 Khi đăng: bật nhãn "Nội dung do AI tạo".
 
 ## Đăng YouTube Shorts (bản đầy đủ)
 
-Tiêu đề:
+**Tiêu đề** (tối đa 100 ký tự):
 ```
 POV: Bạn đi chợ bằng tiền giấy năm 1396 #Shorts
 ```
 
-Mô tả:
+**Mô tả:**
 ```
 Đổi cả hũ tiền đồng lấy mấy tờ giấy vẽ con rùa, ra chợ bị bà bán cá hỏi vặn 😂 Năm 1396, nước ta phát hành tiền giấy "Thông bảo hội sao": tờ 1 quan vẽ rồng, tờ 2 tiền vẽ rùa. Nếu sống năm đó, bạn có dám dùng tiền giấy không? 👇
 
+Video do AI tạo, dựa trên sử liệu; nhân vật và lời thoại là hư cấu. Đăng ký kênh để xem mỗi ngày một ngày sống ở Đại Việt.
+
 #Shorts #povlichsu #POV #lichsuvietnam #chuyenladaiviet #tiengiay #hoquyly #nhaho #chuyenla #1396
+```
+
+**Thẻ** (ô Thẻ/Tags trong "Hiện thêm", dán nguyên dòng):
+```
+povlichsu, lichsuvietnam, chuyenladaiviet, tiengiay, hoquyly, nhaho, chuyenla, 1396, lịch sử việt nam, pov lịch sử, pov, đại việt, sử việt, shorts, hài lịch sử
+```
+
+**Bình luận ghim:**
+```
+Bạn đoán đúng cái kết từ giây thứ mấy? 👇 Đăng ký để xem tập tiếp theo nhé!
 ```
 
 Khi đăng: ở mục "Nội dung bị thay đổi" (Altered content) chọn **Có**, vì video do AI tạo.

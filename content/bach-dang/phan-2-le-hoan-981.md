@@ -62,9 +62,25 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 ## Đăng TikTok
 
+**Hook** (chữ to ở giây đầu, đã có sẵn trong video; dùng luôn làm chữ trên ảnh bìa):
+```
+Ba lần Bạch Đằng · Phần 2: Bạn cắm cọc cho Lê Hoàn
+```
+
+**Tiêu đề** (ô Tiêu đề, hoặc dòng đầu của mô tả nếu không có ô này):
+```
+Ba lần Bạch Đằng · Phần 2: Bạn cắm cọc cho Lê Hoàn
+```
+
+**Mô tả và hashtag:**
 ```
 Ông nội cắm cọc cho Ngô Quyền, cháu cắm cọc cho Lê Hoàn, lần này còn thêm kế "đầu hàng" 😂 Năm 981, vua Lê Đại Hành đóng cọc ngăn sông Bạch Đằng và dùng kế giả hàng, quân Tống thua phải rút. Bạn đoán lần cắm cọc thứ ba là của ai? 👇
 #povlichsu #POV #lichsuvietnam #xuhuong #fyp #balanbachdang #bachdang #lehoan #ledaihanh #981
+```
+
+**Bình luận ghim** (đăng xong tự bình luận rồi ghim lên đầu):
+```
+Bạn đoán đúng cái kết từ giây thứ mấy? 👇 Follow để xem tập tiếp theo nhé!
 ```
 
 Khi đăng: bật nhãn "Nội dung do AI tạo".

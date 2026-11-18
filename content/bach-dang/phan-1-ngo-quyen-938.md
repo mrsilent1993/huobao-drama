@@ -49,9 +49,25 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 ## Đăng TikTok
 
+**Hook** (chữ to ở giây đầu, đã có sẵn trong video; dùng luôn làm chữ trên ảnh bìa):
+```
+Ba lần Bạch Đằng · Phần 1: Bạn cắm cọc cho Ngô Quyền
+```
+
+**Tiêu đề** (ô Tiêu đề, hoặc dòng đầu của mô tả nếu không có ô này):
+```
+Ba lần Bạch Đằng · Phần 1: Bạn cắm cọc cho Ngô Quyền
+```
+
+**Mô tả và hashtag:**
 ```
 Cắm cọc cả buổi sáng mà không ai giải thích, đến chiều mới hiểu 😎 Năm 938, Ngô Quyền dùng cọc gỗ bịt sắt và con nước triều đánh tan quân Nam Hán. Bạn có biết sông Bạch Đằng còn chứng kiến mấy lần cắm cọc nữa không? 👇
 #povlichsu #POV #lichsuvietnam #xuhuong #fyp #balanbachdang #bachdang #ngoquyen #938
+```
+
+**Bình luận ghim** (đăng xong tự bình luận rồi ghim lên đầu):
+```
+Bạn đoán đúng cái kết từ giây thứ mấy? 👇 Follow để xem tập tiếp theo nhé!
 ```
 
 Khi đăng: bật nhãn "Nội dung do AI tạo".

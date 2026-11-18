@@ -81,25 +81,53 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 ## Đăng TikTok
 
+**Hook** (chữ to ở giây đầu, đã có sẵn trong video; dùng luôn làm chữ trên ảnh bìa):
+```
+POV: Bạn đốn gỗ làm cọc cho Trần Hưng Đạo năm 1288
+```
+
+**Tiêu đề** (ô Tiêu đề, hoặc dòng đầu của mô tả nếu không có ô này):
+```
+POV: Bạn đốn gỗ làm cọc cho Trần Hưng Đạo năm 1288
+```
+
+**Mô tả và hashtag:**
 ```
 Ba ngày đốn lim, một đêm ngâm bùn cắm cọc, sáng ra mặt sông phẳng như chưa có gì xảy ra 😮‍💨 Năm 1288, những hàng cọc lim trên sông Bạch Đằng chờ đúng giờ nước rút. Ngày nay các bãi cọc ở Quảng Yên vẫn còn. Bạn nghĩ cắm một cây cọc lim mất bao lâu? 👇
 #povlichsu #POV #lichsuvietnam #xuhuong #fyp #bachdangngoaitruyen #bachdang #tranhungdao #1288 #baicoc
+```
+
+**Bình luận ghim** (đăng xong tự bình luận rồi ghim lên đầu):
+```
+Bạn đoán đúng cái kết từ giây thứ mấy? 👇 Follow để xem tập tiếp theo nhé!
 ```
 
 Khi đăng: bật nhãn "Nội dung do AI tạo".
 
 ## Đăng YouTube Shorts (bản đầy đủ)
 
-Tiêu đề:
+**Tiêu đề** (tối đa 100 ký tự):
 ```
 POV: Bạn đốn gỗ làm cọc cho Trần Hưng Đạo năm 1288 #Shorts
 ```
 
-Mô tả:
+**Mô tả:**
 ```
 Ba ngày đốn lim, một đêm ngâm bùn cắm cọc, sáng ra mặt sông phẳng như chưa có gì xảy ra 😮‍💨 Năm 1288, những hàng cọc lim trên sông Bạch Đằng chờ đúng giờ nước rút. Ngày nay các bãi cọc ở Quảng Yên vẫn còn. Bạn nghĩ cắm một cây cọc lim mất bao lâu? 👇
 
+Video do AI tạo, dựa trên sử liệu; nhân vật và lời thoại là hư cấu. Đăng ký kênh để xem mỗi ngày một ngày sống ở Đại Việt.
+
 #Shorts #povlichsu #POV #lichsuvietnam #bachdangngoaitruyen #bachdang #tranhungdao #1288 #baicoc
+```
+
+**Thẻ** (ô Thẻ/Tags trong "Hiện thêm", dán nguyên dòng):
+```
+povlichsu, lichsuvietnam, bachdangngoaitruyen, bachdang, tranhungdao, 1288, baicoc, lịch sử việt nam, pov lịch sử, pov, đại việt, sử việt, shorts, hài lịch sử
+```
+
+**Bình luận ghim:**
+```
+Bạn đoán đúng cái kết từ giây thứ mấy? 👇 Đăng ký để xem tập tiếp theo nhé!
 ```
 
 Khi đăng: ở mục "Nội dung bị thay đổi" (Altered content) chọn **Có**, vì video do AI tạo.

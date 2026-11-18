@@ -81,25 +81,59 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 ## Đăng TikTok
 
+**Hook** (chữ to ở giây đầu, đã có sẵn trong video; dùng luôn làm chữ trên ảnh bìa):
+```
+POV: Có người chia gạo không lấy một đồng
+```
+
+Hook dự phòng (nếu đăng lại hoặc muốn đổi ảnh bìa):
+```
+POV: Người chia gạo cho bạn có đôi mắt lạ lắm
+POV: Ông thu thuế đi chia gạo miễn phí
+```
+
+**Tiêu đề** (ô Tiêu đề, hoặc dòng đầu của mô tả nếu không có ô này):
+```
+Được chia gạo nhà giàu không mất một đồng, mấy năm sau mới biết người chia là ai
+```
+
+**Mô tả và hashtag:**
 ```
 Được chia gạo nhà giàu không mất một đồng, mấy năm sau mới biết người chia gạo là ai 😳 Năm 1771, ba anh em nhà Tây Sơn dấy binh, lấy của nhà giàu chia cho dân nghèo (theo sử hiện đại gọi là khởi nghĩa Tây Sơn). Người em thứ sau này là vua Quang Trung. Nếu được ông chia gạo, bạn sẽ xin theo không? Viết dưới bình luận 👇
 #povlichsu #POV #lichsuvietnam #xuhuong #fyp #povnguoibinhthuong #anhtu #khoinghiatayson #nguyenhue #quangtrung #nguyennhac #1771
+```
+
+**Bình luận ghim** (đăng xong tự bình luận rồi ghim lên đầu):
+```
+Năm 1771 người chia gạo ấy mới khoảng 18 tuổi 😳 Bạn có muốn xem Anh Tư gánh gạo theo Tây Sơn tiếp không? Follow để không lỡ nhé!
 ```
 
 Khi đăng: bật nhãn "Nội dung do AI tạo".
 
 ## Đăng YouTube Shorts (bản đầy đủ)
 
-Tiêu đề:
+**Tiêu đề** (tối đa 100 ký tự):
 ```
-POV: Có người chia gạo không lấy một đồng #Shorts
+Được chia gạo nhà giàu miễn phí năm 1771… người chia gạo là ai? POV Anh Tư #Shorts
 ```
 
-Mô tả:
+**Mô tả:**
 ```
 Được chia gạo nhà giàu không mất một đồng, mấy năm sau mới biết người chia gạo là ai 😳 Năm 1771, ba anh em nhà Tây Sơn dấy binh, lấy của nhà giàu chia cho dân nghèo (theo sử hiện đại gọi là khởi nghĩa Tây Sơn). Người em thứ sau này là vua Quang Trung. Nếu được ông chia gạo, bạn sẽ xin theo không? Viết dưới bình luận 👇
 
+Video do AI tạo, dựa trên sử liệu; nhân vật và lời thoại là hư cấu. Đăng ký kênh để xem mỗi ngày một ngày sống ở Đại Việt.
+
 #Shorts #povlichsu #POV #lichsuvietnam #povnguoibinhthuong #anhtu #khoinghiatayson #nguyenhue #quangtrung #nguyennhac #1771
+```
+
+**Thẻ** (ô Thẻ/Tags trong "Hiện thêm", dán nguyên dòng):
+```
+khởi nghĩa tây sơn, nguyễn huệ, quang trung, nguyễn nhạc, tây sơn 1771, lịch sử việt nam, pov lịch sử, anh tư, đại việt, shorts
+```
+
+**Bình luận ghim:**
+```
+Năm 1771 người chia gạo ấy mới khoảng 18 tuổi 😳 Bạn có muốn xem Anh Tư gánh gạo theo Tây Sơn tiếp không? Đăng ký để không lỡ nhé!
 ```
 
 Khi đăng: ở mục "Nội dung bị thay đổi" (Altered content) chọn **Có**, vì video do AI tạo.

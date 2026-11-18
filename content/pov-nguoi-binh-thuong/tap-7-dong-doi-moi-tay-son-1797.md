@@ -79,25 +79,59 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 ## Đăng TikTok
 
+**Hook** (chữ to ở giây đầu, đã có sẵn trong video; dùng luôn làm chữ trên ảnh bìa):
+```
+POV: Đồng đội mới ai cũng xăm kín tay
+```
+
+Hook dự phòng (nếu đăng lại hoặc muốn đổi ảnh bìa):
+```
+POV: Sếp mới được phong vương nghề cũ là cướp biển
+POV: Thủy quân Tây Sơn tuyển thêm... cướp biển?
+```
+
+**Tiêu đề** (ô Tiêu đề, hoặc dòng đầu của mô tả nếu không có ô này):
+```
+Đồng đội mới của thủy quân Tây Sơn: ai cũng xăm kín tay, không ai nói nghề cũ
+```
+
+**Mô tả và hashtag:**
 ```
 Được giao tiếp đón đồng đội mới, ai cũng xăm kín tay, không ai nói nghề cũ 😳 Cuối thế kỷ 18, nhà Tây Sơn từng thu nạp cướp biển Quảng Đông vào thủy quân, có người được phong "Đông Hải vương". Sau năm 1802 họ về nước, lập liên minh cướp biển cờ màu lớn nhất Biển Đông, có cả Hạm đội Cờ Đen, sau do một người phụ nữ cầm đầu (theo nghiên cứu của Dian Murray). Bạn có biết người phụ nữ đó là ai không? Viết dưới bình luận 👇
 #povlichsu #POV #lichsuvietnam #xuhuong #fyp #povnguoibinhthuong #anhtu #taysoncanhthinh #cuopbientauo #trinhnhattau #hamdoicoden #thuyquantayson
+```
+
+**Bình luận ghim** (đăng xong tự bình luận rồi ghim lên đầu):
+```
+Gợi ý: bà ấy được gọi là "nữ hoàng cướp biển" Biển Đông 🏴‍☠️ Ai đoán đúng tên, mình ghim bình luận lên đầu! Follow để xem đời sau nhà Anh Tư nhé!
 ```
 
 Khi đăng: bật nhãn "Nội dung do AI tạo".
 
 ## Đăng YouTube Shorts (bản đầy đủ)
 
-Tiêu đề:
+**Tiêu đề** (tối đa 100 ký tự):
 ```
-POV: Đồng đội mới ai cũng xăm kín tay #Shorts
+Thủy quân Tây Sơn từng tuyển… cướp biển? POV Anh Tư #Shorts
 ```
 
-Mô tả:
+**Mô tả:**
 ```
 Được giao tiếp đón đồng đội mới, ai cũng xăm kín tay, không ai nói nghề cũ 😳 Cuối thế kỷ 18, nhà Tây Sơn từng thu nạp cướp biển Quảng Đông vào thủy quân, có người được phong "Đông Hải vương". Sau năm 1802 họ về nước, lập liên minh cướp biển cờ màu lớn nhất Biển Đông, có cả Hạm đội Cờ Đen, sau do một người phụ nữ cầm đầu (theo nghiên cứu của Dian Murray). Bạn có biết người phụ nữ đó là ai không? Viết dưới bình luận 👇
 
+Video do AI tạo, dựa trên sử liệu; nhân vật và lời thoại là hư cấu. Đăng ký kênh để xem mỗi ngày một ngày sống ở Đại Việt.
+
 #Shorts #povlichsu #POV #lichsuvietnam #povnguoibinhthuong #anhtu #taysoncanhthinh #cuopbientauo #trinhnhattau #hamdoicoden #thuyquantayson
+```
+
+**Thẻ** (ô Thẻ/Tags trong "Hiện thêm", dán nguyên dòng):
+```
+tây sơn, cướp biển tàu ô, cảnh thịnh, quang trung, trịnh nhất tẩu, ching shih, hạm đội cờ đen, thủy quân tây sơn, lịch sử việt nam, pov lịch sử, anh tư, đại việt, shorts
+```
+
+**Bình luận ghim:**
+```
+Gợi ý: bà ấy được gọi là "nữ hoàng cướp biển" Biển Đông 🏴‍☠️ Ai đoán đúng tên, mình ghim bình luận lên đầu! Đăng ký để xem đời sau nhà Anh Tư nhé!
 ```
 
 Khi đăng: ở mục "Nội dung bị thay đổi" (Altered content) chọn **Có**, vì video do AI tạo.

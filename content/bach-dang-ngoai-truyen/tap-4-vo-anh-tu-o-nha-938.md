@@ -81,25 +81,53 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 ## Đăng TikTok
 
+**Hook** (chữ to ở giây đầu, đã có sẵn trong video; dùng luôn làm chữ trên ảnh bìa):
+```
+Sáng tiễn chồng ra trận chiều chưa biết có về
+```
+
+**Tiêu đề** (ô Tiêu đề, hoặc dòng đầu của mô tả nếu không có ô này):
+```
+Sáng tiễn chồng ra trận chiều chưa biết có về
+```
+
+**Mô tả và hashtag:**
 ```
 Sáng tiễn chồng đi cắm cọc mà không ai nói để làm gì, chiều nghe tiếng trống mới biết là đánh trận 🥲 Năm 938, khi trai làng ven sông Bạch Đằng theo Ngô Quyền ra trận, người ở nhà chỉ biết chờ. Sử không ghi tên những người chờ ở nhà. Tag người hay lo cho bạn nhất 👇
 #povlichsu #POV #lichsuvietnam #xuhuong #fyp #bachdangngoaitruyen #ngoquyen #938 #anhtu
+```
+
+**Bình luận ghim** (đăng xong tự bình luận rồi ghim lên đầu):
+```
+Bạn đoán đúng cái kết từ giây thứ mấy? 👇 Follow để xem tập tiếp theo nhé!
 ```
 
 Khi đăng: bật nhãn "Nội dung do AI tạo".
 
 ## Đăng YouTube Shorts (bản đầy đủ)
 
-Tiêu đề:
+**Tiêu đề** (tối đa 100 ký tự):
 ```
 Sáng tiễn chồng ra trận chiều chưa biết có về #Shorts
 ```
 
-Mô tả:
+**Mô tả:**
 ```
 Sáng tiễn chồng đi cắm cọc mà không ai nói để làm gì, chiều nghe tiếng trống mới biết là đánh trận 🥲 Năm 938, khi trai làng ven sông Bạch Đằng theo Ngô Quyền ra trận, người ở nhà chỉ biết chờ. Sử không ghi tên những người chờ ở nhà. Tag người hay lo cho bạn nhất 👇
 
+Video do AI tạo, dựa trên sử liệu; nhân vật và lời thoại là hư cấu. Đăng ký kênh để xem mỗi ngày một ngày sống ở Đại Việt.
+
 #Shorts #povlichsu #POV #lichsuvietnam #bachdangngoaitruyen #ngoquyen #938 #anhtu
+```
+
+**Thẻ** (ô Thẻ/Tags trong "Hiện thêm", dán nguyên dòng):
+```
+povlichsu, lichsuvietnam, bachdangngoaitruyen, ngoquyen, 938, anhtu, lịch sử việt nam, pov lịch sử, pov, đại việt, sử việt, shorts, hài lịch sử
+```
+
+**Bình luận ghim:**
+```
+Bạn đoán đúng cái kết từ giây thứ mấy? 👇 Đăng ký để xem tập tiếp theo nhé!
 ```
 
 Khi đăng: ở mục "Nội dung bị thay đổi" (Altered content) chọn **Có**, vì video do AI tạo.
