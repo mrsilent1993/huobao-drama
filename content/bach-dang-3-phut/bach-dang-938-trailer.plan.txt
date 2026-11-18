@@ -1,0 +1,13 @@
+# Dựng: python3 ../tools/tiktok.py bach-dang-938-trailer.plan.txt bach-dang-938-trailer.mp4
+hook:
+end: Trận đầy đủ 3 phút / ở trang cá nhân →
+end_giay: 1.8
+
+clip: bd938-t1.mp4 |
+clip: bd938-t2.mp4 |
+clip: bd938-t3.mp4 |
+
+sub: 1 | 4.0-9.6 | Năm 938. / Quân Nam Hán vượt biển sang.
+sub: 2 | 4.5-9.6 | Thuyền chúng vào được... / nhưng không ra được.
+sub: 3 | 0.5-4.5 | Nước rút... là lúc cọc lên.
+sub: 3 | 6.0-8.0 | TRẬN BẠCH ĐẰNG / 938
