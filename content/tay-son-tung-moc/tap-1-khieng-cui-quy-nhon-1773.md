@@ -6,7 +6,7 @@
 
 Copy từng khối dán thẳng vào phần mềm. Prompt đã ghép đủ, không cần thay gì.
 
-**Tây Sơn từng mốc:** mỗi mốc là một video, theo công thức Anh Tư (sẹo ngang lông mày trái, răng cửa mẻ, cười toe; ảnh tham chiếu trong `../bach-dang/README.md`). Nguyễn Huệ chỉ xuất hiện từ phía sau hoặc từ xa, mọi câu đùa nhắm vào Anh Tư. **Bản TikTok 30 giây** gồm clip 1, 3, 5; **bản YouTube 50 giây** gồm đủ 5 clip. Thứ tự đăng cả loạt (kể cả các tập đã có) xem `README.md`.
+**Tây Sơn từng mốc:** mỗi mốc là một video, theo công thức Anh Tư (sẹo ngang lông mày trái, răng cửa mẻ, cười toe; ảnh tham chiếu trong `../bach-dang/README.md`). Nguyễn Huệ chỉ xuất hiện từ phía sau hoặc từ xa, mọi câu đùa nhắm vào Anh Tư. **Hai video từ cùng bộ clip:** bản dài (YouTube) đủ mọi clip; bản ngắn (TikTok) vẫn đủ mọi cảnh, chỉ cắt mỗi cảnh phụ còn 5 giây chứa câu chính. Thứ tự đăng cả loạt (kể cả các tập đã có) xem `README.md`.
 
 **Lịch sử:** năm 1771, ba anh em Nguyễn Nhạc, Nguyễn Huệ, Nguyễn Lữ dấy binh ở Tây Sơn. Năm 1773, nghĩa quân lấy được thành Quy Nhơn bằng mưu, đây là thành lớn đầu tiên Tây Sơn chiếm được. Theo sử nhà Nguyễn (mức B, có màu giai thoại), Nguyễn Nhạc tự vào cũi, sai người khiêng nộp cho viên quan giữ thành Nguyễn Khắc Tuyên như thể đã bắt được thủ lĩnh giặc; quan mừng, đem giam. Nửa đêm Nhạc ra khỏi cũi, mở cổng thành cho quân vào. **Hư cấu:** Anh Tư khiêng cũi, chiếc chốt "lắp ngược", bữa tiệc mừng và mọi lời thoại.
 

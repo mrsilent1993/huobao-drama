@@ -4,8 +4,8 @@ end: Sử không ghi tên Anh Tư. / Follow để xem đời sau / nhà Anh Tư 
 nhan: AI tái hiện · lời thoại hư cấu
 
 clip: nbt10-1.mp4 | Nghệ An · mùa xuân năm 1790
-clip: nbt10-2.mp4 | Mấy hôm sau | tiktok=bo
-clip: nbt10-3.mp4 | Đường sang Nhiệt Hà · bốn tháng | tiktok=bo
+clip: nbt10-2.mp4 | Mấy hôm sau | tiktok=5-10
+clip: nbt10-3.mp4 | Đường sang Nhiệt Hà · bốn tháng | tiktok=5-10
 clip: nbt10-4.mp4 | Hành cung Nhiệt Hà · mùa thu năm 1790
 clip: nbt10-5.mp4 | Chiều hôm ấy
 

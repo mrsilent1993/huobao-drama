@@ -1,12 +1,12 @@
 # Tập 3: Ra Bắc được giao canh kho báu phủ chúa mà cấm sờ vào bất cứ thứ gì (phù Lê diệt Trịnh, 1786)
 
-**Độ dài:** YouTube 50 giây (5 clip) · TikTok 30 giây (clip 1, 3, 5)
+**Độ dài:** hai video từ cùng 5 clip: **bản dài** (YouTube, khoảng 48 giây sau chuyển cảnh) và **bản ngắn** (TikTok, khoảng 38 giây) vẫn đủ cả 5 cảnh: 3 clip chính giữ nguyên, 2 clip phụ cắt lấy 5 giây chứa câu chính (xem ghi chú "Bản TikTok" ở từng clip)
 
-**Hai bản từ cùng một bộ clip:** YouTube Shorts 50 giây (đủ clip) · TikTok 30 giây (rút gọn theo ghi chú "Bản TikTok" ở từng clip).
+**Hai bản từ cùng một bộ clip:** YouTube Shorts 50 giây (đủ clip) · TikTok 40 giây (rút gọn theo ghi chú "Bản TikTok" ở từng clip).
 
 Copy từng khối dán thẳng vào phần mềm. Prompt đã ghép đủ, không cần thay gì.
 
-**Tây Sơn từng mốc:** mỗi mốc là một video, theo công thức Anh Tư (sẹo ngang lông mày trái, răng cửa mẻ, cười toe; ảnh tham chiếu trong `../bach-dang/README.md`). Nguyễn Huệ chỉ xuất hiện từ phía sau hoặc từ xa, mọi câu đùa nhắm vào Anh Tư. **Bản TikTok 30 giây** gồm clip 1, 3, 5; **bản YouTube 50 giây** gồm đủ 5 clip. Thứ tự đăng cả loạt (kể cả các tập đã có) xem `README.md`.
+**Tây Sơn từng mốc:** mỗi mốc là một video, theo công thức Anh Tư (sẹo ngang lông mày trái, răng cửa mẻ, cười toe; ảnh tham chiếu trong `../bach-dang/README.md`). Nguyễn Huệ chỉ xuất hiện từ phía sau hoặc từ xa, mọi câu đùa nhắm vào Anh Tư. **Hai video từ cùng bộ clip:** bản dài (YouTube) đủ mọi clip; bản ngắn (TikTok) vẫn đủ mọi cảnh, chỉ cắt mỗi cảnh phụ còn 5 giây chứa câu chính. Thứ tự đăng cả loạt (kể cả các tập đã có) xem `README.md`.
 
 **Lịch sử:** giữa năm 1786, Nguyễn Huệ đánh chiếm Phú Xuân rồi tiến ra Bắc với danh nghĩa "phù Lê diệt Trịnh". Quân Tây Sơn vào Thăng Long, chính quyền chúa Trịnh (nắm quyền hơn hai trăm năm) sụp đổ, Nguyễn Huệ vào chầu vua Lê Hiển Tông. Sử chép quân Tây Sơn giữ kỷ luật nghiêm khi vào kinh thành (mức B). **Hư cấu:** Anh Tư canh kho, bắp cải, buổi học lễ nghi và mọi lời thoại. Tập phim không dựng chuyện số phận chúa Trịnh.
 
@@ -26,7 +26,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 ## Clip 2: Học lễ
 File Muse đặt tên: `ts1786-2.mp4`
 
-**Bản TikTok:** bỏ clip này.
+**Bản TikTok:** chỉ dùng giây 0 đến 5 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -54,7 +54,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 ## Clip 4: Dân xem
 File Muse đặt tên: `ts1786-4.mp4`
 
-**Bản TikTok:** bỏ clip này.
+**Bản TikTok:** chỉ dùng giây 0 đến 5 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -147,9 +147,9 @@ end: Sử không ghi tên Anh Tư. / Follow để xem mốc tiếp: / năm 1787 
 nhan: AI tái hiện · lời thoại hư cấu
 
 clip: ts1786-1.mp4 | Thăng Long · mùa hè năm 1786
-clip: ts1786-2.mp4 | Trước giờ vào chầu | tiktok=bo
+clip: ts1786-2.mp4 | Trước giờ vào chầu | tiktok=0-5
 clip: ts1786-3.mp4 | Phủ chúa Trịnh
-clip: ts1786-4.mp4 |  | tiktok=bo
+clip: ts1786-4.mp4 |  | tiktok=0-5
 clip: ts1786-5.mp4 | 
 
 sub: 1 | 0.5-4.8 | Ta ra giúp vua Lê. / Không lấy của dân / một cọng rau!

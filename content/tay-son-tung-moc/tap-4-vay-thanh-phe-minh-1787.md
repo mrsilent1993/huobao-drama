@@ -1,12 +1,12 @@
 # Tập 4: Bị lệnh vây một tòa thành, đến nơi mới biết đó là thành của chính phe mình (anh em Tây Sơn bất hòa, 1787)
 
-**Độ dài:** YouTube 50 giây (5 clip) · TikTok 30 giây (clip 1, 3, 5)
+**Độ dài:** hai video từ cùng 5 clip: **bản dài** (YouTube, khoảng 48 giây sau chuyển cảnh) và **bản ngắn** (TikTok, khoảng 38 giây) vẫn đủ cả 5 cảnh: 3 clip chính giữ nguyên, 2 clip phụ cắt lấy 5 giây chứa câu chính (xem ghi chú "Bản TikTok" ở từng clip)
 
-**Hai bản từ cùng một bộ clip:** YouTube Shorts 50 giây (đủ clip) · TikTok 30 giây (rút gọn theo ghi chú "Bản TikTok" ở từng clip).
+**Hai bản từ cùng một bộ clip:** YouTube Shorts 50 giây (đủ clip) · TikTok 40 giây (rút gọn theo ghi chú "Bản TikTok" ở từng clip).
 
 Copy từng khối dán thẳng vào phần mềm. Prompt đã ghép đủ, không cần thay gì.
 
-**Tây Sơn từng mốc:** mỗi mốc là một video, theo công thức Anh Tư (sẹo ngang lông mày trái, răng cửa mẻ, cười toe; ảnh tham chiếu trong `../bach-dang/README.md`). Nguyễn Huệ chỉ xuất hiện từ phía sau hoặc từ xa, mọi câu đùa nhắm vào Anh Tư. **Bản TikTok 30 giây** gồm clip 1, 3, 5; **bản YouTube 50 giây** gồm đủ 5 clip. Thứ tự đăng cả loạt (kể cả các tập đã có) xem `README.md`.
+**Tây Sơn từng mốc:** mỗi mốc là một video, theo công thức Anh Tư (sẹo ngang lông mày trái, răng cửa mẻ, cười toe; ảnh tham chiếu trong `../bach-dang/README.md`). Nguyễn Huệ chỉ xuất hiện từ phía sau hoặc từ xa, mọi câu đùa nhắm vào Anh Tư. **Hai video từ cùng bộ clip:** bản dài (YouTube) đủ mọi clip; bản ngắn (TikTok) vẫn đủ mọi cảnh, chỉ cắt mỗi cảnh phụ còn 5 giây chứa câu chính. Thứ tự đăng cả loạt (kể cả các tập đã có) xem `README.md`.
 
 **Lịch sử:** năm 1787, Nguyễn Nhạc và Nguyễn Huệ bất hòa sau chuyến ra Bắc. Nguyễn Huệ đem quân vây thành Hoàng Đế (Quy Nhơn) của anh. Theo sử nhà Nguyễn (mức B), Nguyễn Nhạc lên mặt thành khóc, kêu "nồi da nấu thịt, lòng em sao nỡ". Hai anh em giảng hòa, chia nhau cai quản: Nguyễn Nhạc ở Quy Nhơn, Nguyễn Lữ ở Gia Định, Nguyễn Huệ từ Quảng Nam trở ra. **Hư cấu:** Anh Tư, người lính quen trên mặt thành, bữa cơm ở cổng thành và mọi lời thoại.
 
@@ -26,7 +26,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 ## Clip 2: Người quen
 File Muse đặt tên: `ts1787-2.mp4`
 
-**Bản TikTok:** bỏ clip này.
+**Bản TikTok:** chỉ dùng giây 0 đến 5 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -54,7 +54,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 ## Clip 4: Bữa cơm ở cổng thành
 File Muse đặt tên: `ts1787-4.mp4`
 
-**Bản TikTok:** bỏ clip này.
+**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -147,9 +147,9 @@ end: Sử không ghi tên Anh Tư. / Follow để xem mốc tiếp: / lên ngôi
 nhan: AI tái hiện · lời thoại hư cấu
 
 clip: ts1787-1.mp4 | Thành Hoàng Đế · năm 1787
-clip: ts1787-2.mp4 |  | tiktok=bo
+clip: ts1787-2.mp4 |  | tiktok=0-5
 clip: ts1787-3.mp4 | 
-clip: ts1787-4.mp4 | Mấy hôm sau | tiktok=bo
+clip: ts1787-4.mp4 | Mấy hôm sau | tiktok=5-10
 clip: ts1787-5.mp4 | 
 
 sub: 1 | 0.5-4.8 | Vây kín thành Hoàng Đế. / Không ai ra vào.

@@ -23,6 +23,12 @@ HUE = ("a lean young man of about 18 with curly hair, very bright piercing eyes 
 QING_VIS = '**Chuẩn hình ảnh quân Thanh 1789 (⚠️ hiểu biết chung, xem `../nghien-cuu/chuan-hinh-anh-quan-doi.md`):** lính cạo nửa đầu trước, tết đuôi sam, áo vải dài quá gối màu sẫm (xanh lam hoặc nâu), ủng vải, nón tre hoặc nón dạ; quan mặc triều phục có bổ tử thêu, mũ có quả đỉnh. Không có chữ trên áo hay trên cờ, không quân phục kiểu Âu, không cờ hiện đại.'
 QING_EN = 'Qing soldiers of 1789 have shaved foreheads and long braided queues, wear plain dark-blue or brown knee-length cotton tunics over trousers, cloth boots and conical bamboo or felt hats; Qing officers wear court robes with an embroidered square rank badge and a hat with a finial. Absolutely NO European uniforms, NO epaulettes, NO modern rifles, NO characters or writing on any clothing, flag or sign.'
 
+LEN_FULL = ("hai video từ cùng 5 clip: **bản dài** (YouTube, khoảng 48 giây sau chuyển cảnh) và **bản ngắn** "
+            "(TikTok, khoảng 38 giây) vẫn đủ cả 5 cảnh: 3 clip chính giữ nguyên, 2 clip phụ cắt lấy 5 giây chứa "
+            "câu chính (xem ghi chú \"Bản TikTok\" ở từng clip)")
+LEN_FULL_45 = ("hai video từ cùng 5 clip: **bản dài** (YouTube, khoảng 48 giây) và **bản ngắn** (TikTok, khoảng 43 giây) "
+               "vẫn đủ cả 5 cảnh: clip 4 cắt lấy 5 giây chứa câu chính, các clip khác giữ nguyên")
+
 NOTE = ("**Anh Tư:** nhân vật của video 1,4 triệu. Mỗi tập là một đời con cháu, cùng một gương mặt: **sẹo ngang "
         "lông mày trái, răng cửa mẻ, cười toe**. Dùng lại ảnh chân dung Anh Tư (prompt trong `../bach-dang/README.md`) "
         "làm ảnh tham chiếu trong Muse, chỉ đổi trang phục theo thời. **Bản TikTok 30 giây** gồm clip 1, 3, 5; **bản "
@@ -214,7 +220,7 @@ EPISODES = [
     dict(
         slug="cam-dap-muoi-rach-gam-1785", giong="Central Vietnamese (Bình Định) accent", prefix="nbt5",
         title="Bị cấm ho, cấm đập muỗi cả đêm mà không ai nói chờ gì, sáng ra mới hiểu (Rạch Gầm – Xoài Mút, 1785)",
-        length="YouTube 50 giây (5 clip) · TikTok 30 giây (clip 1, 3, 5)",
+        length=LEN_FULL,
         history=("**Lịch sử:** tháng 1 năm 1785, Nguyễn Huệ cho quân Tây Sơn mai phục trên khúc sông Tiền giữa rạch "
                  "Gầm và rạch Xoài Mút (Tiền Giang ngày nay). Khi thủy quân Xiêm lọt vào trận địa, quân Tây Sơn từ các "
                  "rạch và cù lao đổ ra đánh, thủy quân Xiêm gần như bị tiêu diệt. Các nguồn ghi ngày và quân số khác "
@@ -231,7 +237,7 @@ EPISODES = [
                  vid="0-5s: Close-up at night: a hand grips a paddle under the nipa palms; an officer crawls past whispering: \"Cấm nói, cấm ho, cấm đập muỗi!\" A fat mosquito lands on the hand. 5-10s: Anh Tư whispers, horrified: \"Cấm đập muỗi... thế muỗi có bị cấm cắn không anh?\"",
                  subs=[(0.5, 4.8, "Cấm nói, cấm ho, cấm đập muỗi!"),
                        (5.0, 9.5, "Cấm đập muỗi... / thế muỗi có bị cấm cắn không anh?")]),
-            dict(name="Cái hắt hơi", tiktok="bo", label="Nửa đêm",
+            dict(name="Cái hắt hơi", tiktok="0-5", label="Nửa đêm",
                  img=f"First-person view in a dark creek under nipa palms, {FACE} about to sneeze with his head tilted back, three soldiers lunging to pinch his nose and cover his mouth at the same time, realistic, vertical 9:16.",
                  vid="0-5s: Midnight; Anh Tư's face scrunches up, his head tilts back, he is about to sneeze; three soldiers lunge at once to pinch his nose and clamp his mouth. 5-10s: The sneeze dies with a tiny squeak; everyone freezes, listening; the officer slowly lets out his breath and glares at Anh Tư.",
                  subs=[]),
@@ -239,7 +245,7 @@ EPISODES = [
                  img="First-person view peeking out from a hidden creek at dawn, a long line of Siamese warships with tall sails gliding past very close in the mist, a stern officer in the foreground with a mosquito sitting on his nose, not blinking, realistic, vertical 9:16.",
                  vid="0-5s: A line of Siamese warships glides past the creek mouth, so close the viewer can hear sailors chatting on deck. 5-10s: A mosquito lands right on the officer's nose; he doesn't blink. Anh Tư, beside the viewer, shakes with silent laughter, tears in his eyes, hands over his mouth.",
                  subs=[]),
-            dict(name="Mặt sưng", tiktok="bo", label="Cùng lúc",
+            dict(name="Mặt sưng", tiktok="5-10", label="Cùng lúc",
                  img=f"First-person view in a small hidden boat, soldiers with faces swollen from mosquito bites gripping their weapons, {FACE} with one eye swollen shut grinning, Siamese sails visible through the leaves, realistic, vertical 9:16.",
                  vid="0-5s: The viewer looks around the boat: every face is swollen from mosquito bites; Anh Tư's left eye is completely swollen shut. 5-10s: Anh Tư whispers, still grinning: \"Giặc chưa đánh mình, muỗi đã đánh mình tan tác rồi.\"",
                  subs=[(5.0, 9.5, "Giặc chưa đánh mình, / muỗi đã đánh mình tan tác rồi.")]),
@@ -310,7 +316,7 @@ EPISODES = [
     dict(
         slug="dong-doi-moi-tay-son-1797", prefix="nbt7",
         title="Được giao tiếp đón đồng đội mới, ai cũng xăm kín tay và không ai nói nghề cũ (thủy quân Tây Sơn, khoảng 1797)",
-        length="YouTube 50 giây (5 clip) · TikTok 40 giây (clip 1, 2, 3, 5)",
+        length=LEN_FULL_45,
         history=("**Lịch sử:** từ những năm 1780, và nhiều nhất dưới thời vua **Cảnh Thịnh** (con Quang Trung, trị vì "
                  "1792–1802), nhà Tây Sơn thu nạp các nhóm cướp biển người Hoa ở Quảng Đông (sử Việt gọi là giặc Tàu Ô) "
                  "vào thủy quân, cấp thuyền, căn cứ và chức tước để đánh nhau với Nguyễn Ánh trên biển. Thủ lĩnh **Mạc "
@@ -344,7 +350,7 @@ EPISODES = [
                  vid="0-5s: A Tây Sơn official reads loudly from a scroll: \"...phong làm Đông Hải vương!\" The tattooed captain kneels and receives a seal. 5-10s: Anh Tư turns to the viewer, whispering, completely lost: \"Sếp mới được phong vương... mà CV nghề cũ ghi là... cướp biển?\"",
                  subs=[(0.5, 4.8, "...phong làm Đông Hải vương!"),
                        (5.0, 9.8, "Sếp mới được phong vương... / mà CV nghề cũ / ghi là... cướp biển?")]),
-            dict(name="Cờ màu", tiktok="bo", label="Mấy hôm sau",
+            dict(name="Cờ màu", tiktok="0-5", label="Mấy hôm sau",
                  img=f"First-person view of a harbor, the Cantonese seafarers hoisting flags of different colors, red, black, white, on different junks, {FACE} holding a flag and looking confused, realistic, vertical 9:16.",
                  vid="0-5s: The seafarers hoist a different-colored flag on each junk: red, black, white. Anh Tư holds a black flag and asks: \"Cùng một quân, sao mỗi thuyền một màu cờ?\" 5-10s: The tattooed seafarer answers in broken Vietnamese, grinning: \"Đỏ, đen, trắng... dễ nhận nhà!\" Anh Tư nods to the viewer: \"Như áo đội bóng. Hiểu rồi.\"",
                  subs=[(0.5, 4.8, "Cùng một quân, / sao mỗi thuyền một màu cờ?"),
@@ -375,7 +381,7 @@ EPISODES = [
     dict(
         slug="chia-gao-tay-son-1771", giong="Central Vietnamese (Bình Định) accent", prefix="nbt8",
         title="Được chia gạo nhà giàu không mất một đồng, mấy năm sau mới biết người chia gạo là ai (khởi nghĩa Tây Sơn, 1771)",
-        length="YouTube 50 giây (5 clip) · TikTok 30 giây (clip 1, 3, 5)",
+        length=LEN_FULL,
         history=("**Lịch sử:** năm 1771, ba anh em Nguyễn Nhạc, Nguyễn Huệ, Nguyễn Lữ dấy binh ở ấp Tây Sơn (Bình Định), "
                  "chống quyền thần Trương Phúc Loan ở Đàng Trong. Họ lấy của nhà giàu chia cho dân nghèo nên được dân "
                  "theo đông; năm 1773 chiếm thành Quy Nhơn. Nguyễn Nhạc từng làm biện lại, tức chức thu thuế. Nguyễn Huệ "
@@ -397,7 +403,7 @@ EPISODES = [
                  vid=f"0-5s: In the queue, Anh Tư watches rebels in red headbands pour rice into villagers' sacks for free and whispers to the viewer: \"Gạo chia không lấy tiền... nghe đã thấy có chuyện.\" 5-10s: He reaches the front; {HUE} fills his sack and says clearly: \"Của nhà giàu. Trả lại cho dân.\" Anh Tư blinks.",
                  subs=[(0.5, 4.8, "Gạo chia không lấy tiền... / nghe đã thấy có chuyện."),
                        (5.0, 9.5, "Của nhà giàu. / Trả lại cho dân.")]),
-            dict(name="Ông thu thuế", tiktok="bo", label="Cùng buổi",
+            dict(name="Ông thu thuế", tiktok="0-5", label="Cùng buổi",
                  img=f"First-person view beside a rice-distribution table, a stout cheerful man in his thirties with a tally ledger at his belt counting sacks, {FACE} staring at him wide-eyed, realistic, vertical 9:16.",
                  vid="0-5s: A stout cheerful man with a ledger counts sacks; an old villager nudges Anh Tư: \"Ông anh cả đấy. Trước làm thu thuế.\" 5-10s: Anh Tư turns to the viewer, deeply confused: \"Người thu thuế... đi chia gạo? Ngược đời thật.\"",
                  subs=[(0.5, 4.8, "Ông anh cả đấy. / Trước làm thu thuế."),
@@ -406,7 +412,7 @@ EPISODES = [
                  img=f"First-person view on a dusty village road, {HUE} looking straight into the camera with an intense calm gaze, {FACE} next to the viewer clutching his rice sack nervously, realistic, vertical 9:16.",
                  vid=f"0-5s: As Anh Tư walks away with his sack, the young man with piercing eyes looks straight at him for a long silent moment. Anh Tư freezes. 5-10s: Anh Tư whispers to the viewer, sweating: \"Ông ấy nhìn em một cái... em suýt trả lại cả bao gạo.\"",
                  subs=[(5.0, 9.5, "Ông ấy nhìn em một cái... / em suýt trả lại cả bao gạo.")]),
-            dict(name="Xin theo", tiktok="bo", label="Mấy hôm sau",
+            dict(name="Xin theo", tiktok="0-5", label="Mấy hôm sau",
                  img=f"First-person view in a rebel camp among bamboo, {FACE} standing eagerly in front of {HUE}, who looks him up and down, realistic, vertical 9:16.",
                  vid="0-5s: Anh Tư bows eagerly: \"Cho em theo với!\" The young man asks: \"Biết làm gì?\" Anh Tư thinks hard: \"Em... ăn khỏe ạ.\" 5-10s: The young man nods once: \"Được. Đi gánh gạo.\" Anh Tư grins and lifts two heavy baskets on a carrying pole.",
                  subs=[(0.5, 2.6, "Cho em theo với!"),
@@ -435,7 +441,7 @@ EPISODES = [
     dict(
         slug="dua-thu-la-son-1788", giong="Central Vietnamese (Nghệ An) accent", prefix="nbt9",
         title="Bị sai đưa thư mời một ông đồ trên núi, ba năm bị từ chối, đến khi ông nói một câu thì cả nước nhớ (La Sơn Phu Tử, 1786–1788)",
-        length="YouTube 50 giây (5 clip) · TikTok 30 giây (clip 1, 3, 5)",
+        length=LEN_FULL,
         history=("**Lịch sử:** Nguyễn Thiếp (1723–1804), hiệu La Sơn Phu Tử, bỏ quan về ở ẩn ở Nghệ An. Từ năm 1786, "
                  "Nguyễn Huệ nhiều lần gửi thư mời ông ra giúp nước; ông từ chối. Tháng 4 năm 1788, ông xuống núi gặp "
                  "Nguyễn Huệ ở Lam Thành nhưng vẫn chưa nhận lời (thư từ hai bên còn giữ được, Hoàng Xuân Hãn tập hợp "
@@ -457,7 +463,7 @@ EPISODES = [
                  vid="0-5s: The elderly scholar reads the letter, folds it calmly and hands it back: \"Về thưa với tướng quân: già này chỉ biết dạy học.\" 5-10s: Anh Tư holds the returned letter, confused, and asks: \"Dạ... thế thư này em mang về, hay cụ giữ làm kỷ niệm?\" The scholar closes the door gently.",
                  subs=[(0.5, 4.8, "Về thưa với tướng quân: / già này chỉ biết dạy học."),
                        (5.0, 9.5, "Dạ... thế thư này em mang về, / hay cụ giữ làm kỷ niệm?")]),
-            dict(name="Thư lần thứ hai", tiktok="bo", label="Một năm sau",
+            dict(name="Thư lần thứ hai", tiktok="0-5", label="Một năm sau",
                  img=f"First-person view on a steep stone mountain path, the elderly scholar standing at the top near his hut pointing down at the viewer, {FACE} below, panting, holding up a letter, realistic, vertical 9:16.",
                  vid="0-5s: Anh Tư climbs the last steps, panting, holding up a new letter. Before he can speak, the scholar at the top calls down: \"Lại là cậu à? Không!\" 5-10s: Anh Tư, out of breath, to the viewer: \"Em còn chưa kịp nói câu nào mà!\"",
                  subs=[(0.5, 4.8, "Lại là cậu à? Không!"),
@@ -467,7 +473,7 @@ EPISODES = [
                  vid="0-5s: The scholar reads the third letter slowly, then looks up with a faint smile: \"Được. Ta xuống núi... gặp một lần.\" 5-10s: Anh Tư jumps up and holds out three worn-out pairs of sandals to the viewer: \"Ba năm, mòn ba đôi dép, cụ mới chịu xuống núi một lần!\"",
                  subs=[(0.5, 4.8, "Được. Ta xuống núi... / gặp một lần."),
                        (5.0, 9.5, "Ba năm, mòn ba đôi dép, / cụ mới chịu xuống núi một lần!")]),
-            dict(name="Xuống núi để từ chối", tiktok="bo", label="Lam Thành · tháng 4 năm 1788",
+            dict(name="Xuống núi để từ chối", tiktok="5-10", label="Lam Thành · tháng 4 năm 1788",
                  img=f"First-person view in a Tây Sơn camp tent, the elderly scholar bowing politely to a Tây Sơn commander seen from behind in a dark-red robe, {FACE} standing at the side holding the scholar's walking stick, realistic, vertical 9:16.",
                  vid="0-5s: In the camp, the scholar bows politely to the commander, seen only from behind, and says calmly: \"Đa tạ tấm lòng. Nhưng già này xin về núi.\" 5-10s: Anh Tư, holding the walking stick, whispers to the viewer, devastated: \"Xuống núi... để từ chối trực tiếp ạ?\"",
                  subs=[(0.5, 4.8, "Đa tạ tấm lòng. / Nhưng già này xin về núi."),
@@ -494,7 +500,7 @@ EPISODES = [
     dict(
         slug="theo-hau-vua-gia-1790", giong="Central Vietnamese (Nghệ An) accent", prefix="nbt10",
         title="Được cử theo hầu nhà vua sang mừng thọ hoàng đế nhà Thanh, đi nửa đường mới biết vua là… người đóng thế (năm 1790)",
-        length="YouTube 50 giây (5 clip) · TikTok 30 giây (clip 1, 4, 5)",
+        length=LEN_FULL,
         history=("**Lịch sử:** năm 1790, hoàng đế Càn Long nhà Thanh mừng thọ 80 tuổi. Sứ bộ Đại Việt với danh nghĩa "
                  "\"An Nam quốc vương Nguyễn Quang Bình\" (tức Quang Trung) sang dự, được tiếp đón rất trọng hậu ở hành "
                  "cung Nhiệt Hà; sử nhà Thanh chép Càn Long cho làm lễ \"bão kiến\" (ôm gối, như cha con), một ân điển "
@@ -518,12 +524,12 @@ EPISODES = [
                  subs=[(0.5, 4.8, "Người này. / Từ mai, ông ấy là vua."),
                        (5.0, 7.6, "Đi sứ mà chọn người / theo... khuôn mặt ạ?"),
                        (7.6, 9.6, "Theo hầu cho tử tế. / Không hỏi.")]),
-            dict(name="Tập làm vua", tiktok="bo", label="Mấy hôm sau",
+            dict(name="Tập làm vua", tiktok="5-10", label="Mấy hôm sau",
                  img=f"First-person view in a courtyard, the curly-haired envoy in a royal robe practicing a slow regal walk and tripping on the long hem, {FACE} beside him coaching with both hands raised, realistic, vertical 9:16.",
                  vid="0-5s: The envoy practices a slow regal walk, trips on the long hem of the royal robe and steadies himself. Anh Tư coaches: \"Bác đi chậm thôi, vua mình đi oai như hổ...\" 5-10s: The envoy tries again and stumbles again; Anh Tư sighs: \"...Thôi, bác cứ đứng yên là giống nhất.\"",
                  subs=[(0.5, 4.8, "Bác đi chậm thôi, / vua mình đi oai như hổ..."),
                        (5.0, 9.5, "...Thôi, bác cứ đứng yên / là giống nhất.")]),
-            dict(name="Tiệc dọc đường", tiktok="bo", label="Đường sang Nhiệt Hà · bốn tháng",
+            dict(name="Tiệc dọc đường", tiktok="5-10", label="Đường sang Nhiệt Hà · bốn tháng",
                  img=f"First-person view at a lavish lantern-lit banquet table in a Qing town, endless dishes, Qing officials toasting the envoy in a royal robe, {FACE} beside the viewer, his cheeks full, loosening his belt, realistic, vertical 9:16.",
                  vid="0-5s: Another lavish banquet; Qing officials raise cups to the envoy in the royal robe; servants keep bringing dishes. 5-10s: Anh Tư, cheeks full, loosens his belt and whispers: \"Đi bốn tháng, tỉnh nào cũng mở tiệc... em lên năm cân rồi.\"",
                  subs=[(5.0, 9.5, "Đi bốn tháng, tỉnh nào / cũng mở tiệc... / em lên năm cân rồi.")]),
@@ -613,7 +619,7 @@ EPISODES = [
     dict(
         slug="canh-cau-phao-1789", prefix="nbt12",
         title="Bị bắt canh cầu phao cho quân Thanh dịp Tết, sáng mùng 5 thấy Tổng đốc phi qua cầu mà ngựa chưa kịp đóng yên (Ngọc Hồi – Đống Đa, 1789)",
-        length="YouTube 50 giây (5 clip) · TikTok 30 giây (clip 1, 4, 5)",
+        length=LEN_FULL,
         history=("**Lịch sử:** cuối năm 1788, Tổng đốc Lưỡng Quảng Tôn Sĩ Nghị đem quân Thanh sang, đóng ở Thăng Long, "
                  "bắc cầu phao qua sông Nhị (sông Hồng) để tiện đi lại, định ra Giêng mới đánh tiếp. Vua Quang Trung "
                  "hành quân thần tốc ra Bắc; mùng 5 Tết Kỷ Dậu (30/1/1789) phá đồn Ngọc Hồi và Đống Đa, trưa hôm ấy "
@@ -636,12 +642,12 @@ EPISODES = [
                  subs=[(0.5, 4.8, "Ngày đêm giữ cầu cho chắc. / Đại quân còn đi lại."),
                        (5.0, 7.6, "Cầu này... để đi sang / hay để chạy về ạ?"),
                        (7.6, 9.6, "Đừng hỏi. Giữ cầu.")]),
-            dict(name="Ăn Tết trước", tiktok="bo", label="Mùng 3 Tết",
+            dict(name="Ăn Tết trước", tiktok="5-10", label="Mùng 3 Tết",
                  img=f"First-person view from the pontoon bridge at dusk, the Qing camp on the bank festive with red lanterns, soldiers feasting and setting off firecrackers, {FACE} tying ropes on the bridge, looking at the camp, realistic, vertical 9:16.",
                  vid="0-5s: In the lantern-lit camp, Qing soldiers feast and light firecrackers; the interpreter strolls past the bridge: \"Ra Giêng mới đánh. Tết thì cứ ăn đã.\" 5-10s: Anh Tư tightens a rope and mutters to the viewer: \"Người ta ăn Tết. Còn em... ăn dây thừng.\"",
                  subs=[(0.5, 4.8, "Ra Giêng mới đánh. / Tết thì cứ ăn đã."),
                        (5.0, 9.5, "Người ta ăn Tết. / Còn em... ăn dây thừng.")]),
-            dict(name="Tiếng pháo mùng 5", tiktok="bo", label="Sáng mùng 5 Tết",
+            dict(name="Tiếng pháo mùng 5", tiktok="5-10", label="Sáng mùng 5 Tết",
                  img=f"First-person view at dawn from the pontoon bridge, distant smoke rising on the southern horizon, Qing soldiers in the camp stopping and turning toward the sound, {FACE} with a hand cupped behind his ear, realistic, vertical 9:16.",
                  vid="0-5s: Dawn; deep booms roll from the south and smoke rises on the horizon; the camp falls silent, soldiers turn their heads. 5-10s: Anh Tư cups his ear and asks the viewer innocently: \"Ơ... pháo Tết nhà ai mà to thế?\"",
                  subs=[(5.0, 9.5, "Ơ... pháo Tết nhà ai / mà to thế?")]),

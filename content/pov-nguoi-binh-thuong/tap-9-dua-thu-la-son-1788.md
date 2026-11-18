@@ -1,8 +1,8 @@
 # Tập 9: Bị sai đưa thư mời một ông đồ trên núi, ba năm bị từ chối, đến khi ông nói một câu thì cả nước nhớ (La Sơn Phu Tử, 1786–1788)
 
-**Độ dài:** YouTube 50 giây (5 clip) · TikTok 30 giây (clip 1, 3, 5)
+**Độ dài:** hai video từ cùng 5 clip: **bản dài** (YouTube, khoảng 48 giây sau chuyển cảnh) và **bản ngắn** (TikTok, khoảng 38 giây) vẫn đủ cả 5 cảnh: 3 clip chính giữ nguyên, 2 clip phụ cắt lấy 5 giây chứa câu chính (xem ghi chú "Bản TikTok" ở từng clip)
 
-**Hai bản từ cùng một bộ clip:** YouTube Shorts 50 giây (đủ clip) · TikTok 30 giây (rút gọn theo ghi chú "Bản TikTok" ở từng clip).
+**Hai bản từ cùng một bộ clip:** YouTube Shorts 50 giây (đủ clip) · TikTok 40 giây (rút gọn theo ghi chú "Bản TikTok" ở từng clip).
 
 Copy từng khối dán thẳng vào phần mềm. Prompt đã ghép đủ, không cần thay gì.
 
@@ -26,7 +26,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 ## Clip 2: Thư lần thứ hai
 File Muse đặt tên: `nbt9-2.mp4`
 
-**Bản TikTok:** bỏ clip này.
+**Bản TikTok:** chỉ dùng giây 0 đến 5 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -54,7 +54,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 ## Clip 4: Xuống núi để từ chối
 File Muse đặt tên: `nbt9-4.mp4`
 
-**Bản TikTok:** bỏ clip này.
+**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -147,9 +147,9 @@ end: Sử không ghi tên Anh Tư. / Follow để xem Anh Tư / theo hầu ông 
 nhan: AI tái hiện · lời thoại hư cấu
 
 clip: nbt9-1.mp4 | Núi Thiên Nhẫn, Nghệ An · năm 1786
-clip: nbt9-2.mp4 | Một năm sau | tiktok=bo
+clip: nbt9-2.mp4 | Một năm sau | tiktok=0-5
 clip: nbt9-3.mp4 | Đầu năm 1788
-clip: nbt9-4.mp4 | Lam Thành · tháng 4 năm 1788 | tiktok=bo
+clip: nbt9-4.mp4 | Lam Thành · tháng 4 năm 1788 | tiktok=5-10
 clip: nbt9-5.mp4 | Nghệ An · cuối năm 1788
 
 sub: 1 | 0.5-4.8 | Về thưa với tướng quân: / già này chỉ biết dạy học.

@@ -1,12 +1,12 @@
 # Tập 5: Bị sai dựng đàn tế trên núi gấp mấy ngày, buổi sáng vua lên ngôi, buổi chiều đã xuất quân (lên ngôi ở núi Bân, 1788)
 
-**Độ dài:** YouTube 50 giây (5 clip) · TikTok 30 giây (clip 1, 3, 5)
+**Độ dài:** hai video từ cùng 5 clip: **bản dài** (YouTube, khoảng 48 giây sau chuyển cảnh) và **bản ngắn** (TikTok, khoảng 38 giây) vẫn đủ cả 5 cảnh: 3 clip chính giữ nguyên, 2 clip phụ cắt lấy 5 giây chứa câu chính (xem ghi chú "Bản TikTok" ở từng clip)
 
-**Hai bản từ cùng một bộ clip:** YouTube Shorts 50 giây (đủ clip) · TikTok 30 giây (rút gọn theo ghi chú "Bản TikTok" ở từng clip).
+**Hai bản từ cùng một bộ clip:** YouTube Shorts 50 giây (đủ clip) · TikTok 40 giây (rút gọn theo ghi chú "Bản TikTok" ở từng clip).
 
 Copy từng khối dán thẳng vào phần mềm. Prompt đã ghép đủ, không cần thay gì.
 
-**Tây Sơn từng mốc:** mỗi mốc là một video, theo công thức Anh Tư (sẹo ngang lông mày trái, răng cửa mẻ, cười toe; ảnh tham chiếu trong `../bach-dang/README.md`). Nguyễn Huệ chỉ xuất hiện từ phía sau hoặc từ xa, mọi câu đùa nhắm vào Anh Tư. **Bản TikTok 30 giây** gồm clip 1, 3, 5; **bản YouTube 50 giây** gồm đủ 5 clip. Thứ tự đăng cả loạt (kể cả các tập đã có) xem `README.md`.
+**Tây Sơn từng mốc:** mỗi mốc là một video, theo công thức Anh Tư (sẹo ngang lông mày trái, răng cửa mẻ, cười toe; ảnh tham chiếu trong `../bach-dang/README.md`). Nguyễn Huệ chỉ xuất hiện từ phía sau hoặc từ xa, mọi câu đùa nhắm vào Anh Tư. **Hai video từ cùng bộ clip:** bản dài (YouTube) đủ mọi clip; bản ngắn (TikTok) vẫn đủ mọi cảnh, chỉ cắt mỗi cảnh phụ còn 5 giây chứa câu chính. Thứ tự đăng cả loạt (kể cả các tập đã có) xem `README.md`.
 
 **Lịch sử:** cuối năm 1788, nghe tin quân Thanh chiếm Thăng Long, Nguyễn Huệ lập đàn ở núi Bân (Phú Xuân, Huế ngày nay), ngày 25 tháng 11 năm Mậu Thân (22/12/1788) lên ngôi Hoàng đế, niên hiệu Quang Trung, rồi lập tức kéo đại quân ra Bắc (mức B). Hơn một tháng sau, mùng 5 Tết Kỷ Dậu, vua vào Thăng Long. **Hư cấu:** Anh Tư dựng đàn, việc "dựng trong ba ngày", việc dỡ đàn và mọi lời thoại.
 
@@ -26,7 +26,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 ## Clip 2: Tập lễ
 File Muse đặt tên: `ts1788-2.mp4`
 
-**Bản TikTok:** bỏ clip này.
+**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -54,7 +54,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 ## Clip 4: Dỡ đàn
 File Muse đặt tên: `ts1788-4.mp4`
 
-**Bản TikTok:** bỏ clip này.
+**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -147,9 +147,9 @@ end: Sử không ghi tên Anh Tư. / Follow để xem mốc tiếp: / Tết Kỷ
 nhan: AI tái hiện · lời thoại hư cấu
 
 clip: ts1788-1.mp4 | Núi Bân, Phú Xuân · cuối năm 1788
-clip: ts1788-2.mp4 | Đêm thứ ba | tiktok=bo
+clip: ts1788-2.mp4 | Đêm thứ ba | tiktok=5-10
 clip: ts1788-3.mp4 | Ngày 22/12/1788
-clip: ts1788-4.mp4 | Buổi chiều | tiktok=bo
+clip: ts1788-4.mp4 | Buổi chiều | tiktok=5-10
 clip: ts1788-5.mp4 | 
 
 sub: 1 | 0.5-4.8 | Ba ngày nữa xong đàn. / Không được chậm một canh.

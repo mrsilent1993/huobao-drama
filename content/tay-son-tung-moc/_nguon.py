@@ -18,9 +18,13 @@ NHAC = "Nguyễn Nhạc, a stout, cheerful Vietnamese man in his thirties with a
 REBELS = ("Tây Sơn fighters with black-lacquered teeth in plain dark-indigo or brown clothes with red head wraps, "
           "spears and swords")
 
+LEN_FULL = ("hai video từ cùng 5 clip: **bản dài** (YouTube, khoảng 48 giây sau chuyển cảnh) và **bản ngắn** "
+            "(TikTok, khoảng 38 giây) vẫn đủ cả 5 cảnh: 3 clip chính giữ nguyên, 2 clip phụ cắt lấy 5 giây chứa "
+            "câu chính (xem ghi chú \"Bản TikTok\" ở từng clip)")
+
 NOTE = ("**Tây Sơn từng mốc:** mỗi mốc là một video, theo công thức Anh Tư (sẹo ngang lông mày trái, răng cửa mẻ, "
         "cười toe; ảnh tham chiếu trong `../bach-dang/README.md`). Nguyễn Huệ chỉ xuất hiện từ phía sau hoặc từ xa, "
-        "mọi câu đùa nhắm vào Anh Tư. **Bản TikTok 30 giây** gồm clip 1, 3, 5; **bản YouTube 50 giây** gồm đủ 5 clip. "
+        "mọi câu đùa nhắm vào Anh Tư. **Hai video từ cùng bộ clip:** bản dài (YouTube) đủ mọi clip; bản ngắn (TikTok) vẫn đủ mọi cảnh, chỉ cắt mỗi cảnh phụ còn 5 giây chứa câu chính. "
         "Thứ tự đăng cả loạt (kể cả các tập đã có) xem `README.md`.")
 
 END_NEXT = "Sử không ghi tên Anh Tư. / Follow để xem mốc tiếp: / {} →"
@@ -110,7 +114,7 @@ EPISODES = [
     dict(
         slug="thay-bien-thanh-hoang-de-1778", giong="Central Vietnamese (Bình Định) accent", prefix="ts1778",
         title="Bị sai thay biển tên cả tòa thành trong một đêm, sáng ra phải gọi anh cả bằng tên khác (Nguyễn Nhạc lên ngôi, 1778)",
-        length="YouTube 50 giây (5 clip) · TikTok 30 giây (clip 1, 3, 5)",
+        length=LEN_FULL,
         history=("**Lịch sử:** năm 1778, Nguyễn Nhạc lên ngôi Hoàng đế, đặt niên hiệu Thái Đức, đóng đô ở thành Đồ Bàn "
                  "(Bình Định) và đổi tên là thành Hoàng Đế (mức B). Nguyễn Lữ và Nguyễn Huệ được phong tước, cầm quân. "
                  "**Hư cấu:** Anh Tư thay biển, may áo, ghi lại năm tháng trên giấy tờ và mọi lời thoại."),
@@ -125,7 +129,7 @@ EPISODES = [
                  vid="0-5s: On ladders at night, Anh Tư and the viewer heave a big new signboard into place over the gate; an officer below calls up: \"Treo cho thẳng. Sáng mai tên thành đã khác.\" 5-10s: Anh Tư, straining, whispers: \"Đổi tên cả tòa thành... như đổi tên công ty ấy nhỉ?\"",
                  subs=[(0.5, 4.8, "Treo cho thẳng. / Sáng mai tên thành đã khác."),
                        (5.0, 9.5, "Đổi tên cả tòa thành... / như đổi tên công ty ấy nhỉ?")]),
-            dict(name="Năm thứ nhất", tiktok="bo", label="Sáng hôm sau",
+            dict(name="Năm thứ nhất", tiktok="0-5", label="Sáng hôm sau",
                  img=f"First-person view at a scribe's desk piled with documents, a brush and ink, a scribe crossing out dates, {FACE} holding a stack of papers, confused, realistic, vertical 9:16.",
                  vid="0-5s: A scribe hands Anh Tư a stack of papers: \"Từ nay ghi năm Thái Đức thứ nhất.\" 5-10s: Anh Tư flips through the pages and asks the viewer: \"Thế năm ngoái... giờ là năm thứ mấy ạ?\"",
                  subs=[(0.5, 4.8, "Từ nay ghi: / năm Thái Đức thứ nhất."),
@@ -136,7 +140,7 @@ EPISODES = [
                  subs=[(0.5, 4.8, "Hôm qua còn gọi là anh cả... / hôm nay gọi là gì ạ?"),
                        (5.0, 7.0, "Hoàng thượng!"),
                        (7.0, 9.6, "...Anh cả hoàng thượng.")]),
-            dict(name="Áo vàng", tiktok="bo", label="",
+            dict(name="Áo vàng", tiktok="0-5", label="",
                  img=f"First-person view in a tailor's workshop, tailors sewing yellow silk, {FACE} holding up a yellow cloth against himself and admiring it, a tailor snatching it back, realistic, vertical 9:16.",
                  vid="0-5s: Anh Tư picks up a piece of yellow silk and holds it against himself, admiring it. 5-10s: A tailor snatches it back: \"Màu này cả nước chỉ một người được mặc!\" Anh Tư to the viewer: \"Thế thôi, em mặc... màu nâu cho lành.\"",
                  subs=[(0.5, 4.8, "Màu này cả nước / chỉ một người được mặc!"),
@@ -163,7 +167,7 @@ EPISODES = [
     dict(
         slug="canh-kho-phu-chua-1786", giong="Central Vietnamese (Bình Định) accent", prefix="ts1786",
         title="Ra Bắc được giao canh kho báu phủ chúa mà cấm sờ vào bất cứ thứ gì (phù Lê diệt Trịnh, 1786)",
-        length="YouTube 50 giây (5 clip) · TikTok 30 giây (clip 1, 3, 5)",
+        length=LEN_FULL,
         history=("**Lịch sử:** giữa năm 1786, Nguyễn Huệ đánh chiếm Phú Xuân rồi tiến ra Bắc với danh nghĩa \"phù Lê "
                  "diệt Trịnh\". Quân Tây Sơn vào Thăng Long, chính quyền chúa Trịnh (nắm quyền hơn hai trăm năm) sụp "
                  "đổ, Nguyễn Huệ vào chầu vua Lê Hiển Tông. Sử chép quân Tây Sơn giữ kỷ luật nghiêm khi vào kinh thành "
@@ -181,7 +185,7 @@ EPISODES = [
                  vid="0-5s: Marching into the city, Anh Tư picks up a cabbage that rolled from a seller's basket. The officer barks: \"Ta ra giúp vua Lê. Không lấy của dân một cọng rau!\" 5-10s: Anh Tư quickly puts the cabbage back in the basket and bows to the seller: \"Dạ... em trả. Em chỉ nhặt hộ thôi.\"",
                  subs=[(0.5, 4.8, "Ta ra giúp vua Lê. / Không lấy của dân / một cọng rau!"),
                        (5.0, 9.5, "Dạ... em trả. / Em chỉ nhặt hộ thôi.")]),
-            dict(name="Học lễ", tiktok="bo", label="Trước giờ vào chầu",
+            dict(name="Học lễ", tiktok="0-5", label="Trước giờ vào chầu",
                  img=f"First-person view in a palace corridor, an elderly court official demonstrating a deep formal bow, {FACE} beside the viewer trying to copy it awkwardly, realistic, vertical 9:16.",
                  vid="0-5s: An elderly court official demonstrates: \"Lạy năm lạy, vái ba vái, không được ngẩng đầu.\" Anh Tư copies, loses count and bumps his head on a pillar. 5-10s: Rubbing his forehead, he whispers to the viewer: \"Đánh trận còn dễ hơn.\"",
                  subs=[(0.5, 4.8, "Lạy năm lạy, vái ba vái, / không được ngẩng đầu."),
@@ -191,7 +195,7 @@ EPISODES = [
                  vid="0-5s: Anh Tư stands guard among overflowing chests of silk and porcelain; the officer at the door says: \"Canh cho kỹ. Ai sờ vào là về quê cày ruộng.\" 5-10s: Anh Tư, hands clasped tightly behind his back, whispers: \"Canh kho vàng... mà cấm sờ. Khổ hơn cả cấm đập muỗi.\"",
                  subs=[(0.5, 4.8, "Canh cho kỹ. Ai sờ vào / là về quê cày ruộng."),
                        (5.0, 9.5, "Canh kho vàng... mà cấm sờ. / Khổ hơn cả cấm đập muỗi.")]),
-            dict(name="Dân xem", tiktok="bo", label="",
+            dict(name="Dân xem", tiktok="0-5", label="",
                  img=f"First-person view at a palace gate, a crowd of Thăng Long townspeople peering in curiously, an old woman offering a bowl of green tea, {FACE} accepting it politely, realistic, vertical 9:16.",
                  vid="0-5s: Townspeople peer through the gate; an old woman offers Anh Tư a bowl of green tea: \"Nghe đồn quân Tây Sơn dữ lắm, hóa ra hiền thế.\" 5-10s: Anh Tư sips and smiles: \"Dữ với giặc thôi cụ ạ. Với cụ thì em... uống nước.\"",
                  subs=[(0.5, 4.8, "Nghe đồn quân Tây Sơn / dữ lắm, hóa ra hiền thế."),
@@ -218,7 +222,7 @@ EPISODES = [
     dict(
         slug="vay-thanh-phe-minh-1787", giong="Central Vietnamese (Bình Định) accent", prefix="ts1787",
         title="Bị lệnh vây một tòa thành, đến nơi mới biết đó là thành của chính phe mình (anh em Tây Sơn bất hòa, 1787)",
-        length="YouTube 50 giây (5 clip) · TikTok 30 giây (clip 1, 3, 5)",
+        length=LEN_FULL,
         history=("**Lịch sử:** năm 1787, Nguyễn Nhạc và Nguyễn Huệ bất hòa sau chuyến ra Bắc. Nguyễn Huệ đem quân vây "
                  "thành Hoàng Đế (Quy Nhơn) của anh. Theo sử nhà Nguyễn (mức B), Nguyễn Nhạc lên mặt thành khóc, kêu "
                  "\"nồi da nấu thịt, lòng em sao nỡ\". Hai anh em giảng hòa, chia nhau cai quản: Nguyễn Nhạc ở Quy "
@@ -237,7 +241,7 @@ EPISODES = [
                  subs=[(0.5, 4.8, "Vây kín thành Hoàng Đế. / Không ai ra vào."),
                        (5.0, 7.6, "Thành Hoàng Đế... / là thành của anh cả mình mà?"),
                        (7.6, 9.6, "Vây. Không hỏi.")]),
-            dict(name="Người quen", tiktok="bo", label="",
+            dict(name="Người quen", tiktok="0-5", label="",
                  img=f"First-person view looking up at a citadel wall, a soldier on top in the same dark-red uniform waving cheerfully, {FACE} below waving back, realistic, vertical 9:16.",
                  vid="0-5s: A soldier on the wall leans out and waves: \"Ê Tư! Mẹ mày khỏe không?\" Anh Tư waves back happily: \"Khỏe! Bố mày khỏe không?\" 5-10s: The officer glares; Anh Tư freezes, lowers his hand and says to the viewer: \"...Đứa cùng làng.\"",
                  subs=[(0.5, 4.8, "Ê Tư! Mẹ mày khỏe không? / Khỏe! Bố mày khỏe không?"),
@@ -247,7 +251,7 @@ EPISODES = [
                  vid="0-5s: Nguyễn Nhạc appears on the wall, tears on his face, and calls down: \"Nồi da nấu thịt... lòng em sao nỡ!\" Both armies fall silent. 5-10s: Anh Tư lowers his head and whispers to the viewer: \"Hai anh em giận nhau... mà cả hai đạo quân đứng giữa.\"",
                  subs=[(0.5, 4.8, "Nồi da nấu thịt... / lòng em sao nỡ!"),
                        (5.0, 9.5, "Hai anh em giận nhau... / mà cả hai đạo quân đứng giữa.")]),
-            dict(name="Bữa cơm ở cổng thành", tiktok="bo", label="Mấy hôm sau",
+            dict(name="Bữa cơm ở cổng thành", tiktok="5-10", label="Mấy hôm sau",
                  img=f"First-person view at the open citadel gate, soldiers from both sides sitting together on mats sharing rice and fish, {FACE} handing a bowl to the soldier from the wall, both laughing, realistic, vertical 9:16.",
                  vid="0-5s: The gate is open; soldiers from both sides sit together on mats sharing rice and dried fish. 5-10s: Anh Tư passes a bowl to his friend from the wall and says to the viewer: \"Mới hôm trước còn vây nhau... giờ ăn chung một nồi.\"",
                  subs=[(5.0, 9.5, "Mới hôm trước còn vây nhau... / giờ ăn chung một nồi.")]),
@@ -273,7 +277,7 @@ EPISODES = [
     dict(
         slug="dung-dan-nui-ban-1788", giong="Central Vietnamese (Huế) accent", prefix="ts1788",
         title="Bị sai dựng đàn tế trên núi gấp mấy ngày, buổi sáng vua lên ngôi, buổi chiều đã xuất quân (lên ngôi ở núi Bân, 1788)",
-        length="YouTube 50 giây (5 clip) · TikTok 30 giây (clip 1, 3, 5)",
+        length=LEN_FULL,
         history=("**Lịch sử:** cuối năm 1788, nghe tin quân Thanh chiếm Thăng Long, Nguyễn Huệ lập đàn ở núi Bân (Phú "
                  "Xuân, Huế ngày nay), ngày 25 tháng 11 năm Mậu Thân (22/12/1788) lên ngôi Hoàng đế, niên hiệu Quang "
                  "Trung, rồi lập tức kéo đại quân ra Bắc (mức B). Hơn một tháng sau, mùng 5 Tết Kỷ Dậu, vua vào Thăng "
@@ -291,7 +295,7 @@ EPISODES = [
                  subs=[(0.5, 4.8, "Ba ngày nữa xong đàn. / Không được chậm một canh."),
                        (5.0, 7.6, "Đàn để làm gì / mà gấp thế ạ?"),
                        (7.6, 9.6, "Không hỏi. Đắp.")]),
-            dict(name="Tập lễ", tiktok="bo", label="Đêm thứ ba",
+            dict(name="Tập lễ", tiktok="5-10", label="Đêm thứ ba",
                  img=f"First-person view at night on the finished altar lit by torches, officials rehearsing a ceremony, {FACE} standing in for the emperor in the rehearsal, stiff and nervous, realistic, vertical 9:16.",
                  vid="0-5s: At night, officials rehearse the ceremony; for lack of anyone else, Anh Tư stands in the emperor's place while they bow to him. 5-10s: Anh Tư, stiff as a post, whispers to the viewer: \"Được người ta lạy có một lần... mà em run hơn cả lúc ra trận.\"",
                  subs=[(5.0, 9.5, "Được người ta lạy / có một lần... mà em run / hơn cả lúc ra trận.")]),
@@ -300,7 +304,7 @@ EPISODES = [
                  vid="0-5s: Dawn; incense smoke; officials kneel and shout \"Vạn tuế!\"; the emperor, seen only from behind, stands at the top of the altar looking north. 5-10s: Anh Tư whispers to the viewer: \"Vừa lên ngôi xong... sao ông ấy cứ nhìn về phía Bắc thế?\" Below, drums begin to beat.",
                  subs=[(0.5, 4.8, "Vạn tuế! Vạn tuế! / Vạn vạn tuế!"),
                        (5.0, 9.5, "Vừa lên ngôi xong... / sao ông ấy cứ nhìn / về phía Bắc thế?")]),
-            dict(name="Dỡ đàn", tiktok="bo", label="Buổi chiều",
+            dict(name="Dỡ đàn", tiktok="5-10", label="Buổi chiều",
                  img=f"First-person view on the hill in the afternoon, the long army column marching north into the distance, the empty altar with fallen banners, {FACE} alone with a shovel, looking at the altar, realistic, vertical 9:16.",
                  vid="0-5s: The army marches north in a long column; an official hands Anh Tư a shovel: \"Dỡ đàn đi.\" 5-10s: Anh Tư looks at the altar and sighs to the viewer: \"Đắp ba ngày, dùng một buổi sáng... giờ lại dỡ.\"",
                  subs=[(0.5, 4.8, "Dỡ đàn đi."),
@@ -327,7 +331,7 @@ EPISODES = [
     dict(
         slug="the-can-cuoc-tin-bai-1792", giong="Central Vietnamese (Nghệ An) accent", prefix="ts1792",
         title="Bị sai đi làm thẻ căn cước cho cả làng từ hơn 200 năm trước, đến mùa thu năm ấy thì... (tín bài thời Quang Trung, 1791–1792)",
-        length="YouTube 50 giây (5 clip) · TikTok 30 giây (clip 1, 3, 5)",
+        length=LEN_FULL,
         history=("**Lịch sử:** sau khi đánh tan quân Thanh, vua Quang Trung lo dựng lại đất nước: ban chiếu khuyến nông "
                  "bắt dân phiêu tán về quê cày cấy, dùng chữ Nôm trong giấy tờ, mở Sùng chính viện. Khoảng năm 1791, "
                  "triều đình phát **tín bài** cho đàn ông trong tuổi phải đăng ký, trên có dấu \"Thiên hạ đại tín\"; ai "
@@ -346,7 +350,7 @@ EPISODES = [
                  vid="0-5s: The clerk calls out to the queue: \"Ai không có tín bài thì coi như dân lậu!\" Anh Tư stamps a wooden tag with the red seal. 5-10s: He holds the tag up to the viewer, amazed: \"Làm thẻ căn cước... thời này đã có rồi à?\"",
                  subs=[(0.5, 4.8, "Ai không có tín bài / thì coi như dân lậu!"),
                        (5.0, 9.5, "Làm thẻ căn cước... / thời này đã có rồi à?")]),
-            dict(name="Đóng dấu", tiktok="bo", label="",
+            dict(name="Đóng dấu", tiktok="5-10", label="",
                  img=f"First-person view close on the table, {FACE} accidentally stamping the red seal on his own hand, villagers laughing, realistic, vertical 9:16.",
                  vid="0-5s: In a hurry, Anh Tư brings the big seal down on his own hand; the queue bursts out laughing. 5-10s: He shows the red mark \"Thiên hạ đại tín\" on his palm to the viewer: \"Em là người đầu tiên trong làng... được đóng dấu.\"",
                  subs=[(0.5, 4.8, "\"Thiên hạ đại tín\""),
@@ -356,7 +360,7 @@ EPISODES = [
                  vid="0-5s: A strong man around 30 leans on a cane, coughs theatrically and says: \"Tôi năm nay... sáu mươi mốt.\" 5-10s: Anh Tư stares at his smooth face and black hair, then whispers to the viewer: \"Sáu mươi mốt... mà da căng hơn cả em.\"",
                  subs=[(0.5, 4.8, "Tôi năm nay... / sáu mươi mốt."),
                        (5.0, 9.5, "Sáu mươi mốt... / mà da căng hơn cả em.")]),
-            dict(name="Về quê cày ruộng", tiktok="bo", label="Năm 1792",
+            dict(name="Về quê cày ruộng", tiktok="5-10", label="Năm 1792",
                  img=f"First-person view in a rice field, {FACE} plowing with a buffalo, a wooden tag hanging from his belt, villagers working in the fields around, realistic, vertical 9:16.",
                  vid="0-5s: Anh Tư plows a rice field behind a buffalo, the wooden tag swinging at his belt; around him every field is being worked again. 5-10s: He wipes his brow and says to the viewer: \"Vua bảo ai về quê nấy cày ruộng. Ruộng bỏ hoang... giờ xanh hết rồi.\"",
                  subs=[(5.0, 9.5, "Vua bảo ai về quê nấy / cày ruộng. Ruộng hoang / giờ xanh hết rồi.")]),

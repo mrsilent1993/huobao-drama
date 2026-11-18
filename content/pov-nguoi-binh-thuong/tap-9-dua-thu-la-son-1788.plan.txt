@@ -4,9 +4,9 @@ end: Sử không ghi tên Anh Tư. / Follow để xem Anh Tư / theo hầu ông 
 nhan: AI tái hiện · lời thoại hư cấu
 
 clip: nbt9-1.mp4 | Núi Thiên Nhẫn, Nghệ An · năm 1786
-clip: nbt9-2.mp4 | Một năm sau | tiktok=bo
+clip: nbt9-2.mp4 | Một năm sau | tiktok=0-5
 clip: nbt9-3.mp4 | Đầu năm 1788
-clip: nbt9-4.mp4 | Lam Thành · tháng 4 năm 1788 | tiktok=bo
+clip: nbt9-4.mp4 | Lam Thành · tháng 4 năm 1788 | tiktok=5-10
 clip: nbt9-5.mp4 | Nghệ An · cuối năm 1788
 
 sub: 1 | 0.5-4.8 | Về thưa với tướng quân: / già này chỉ biết dạy học.

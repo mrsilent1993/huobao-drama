@@ -1,8 +1,8 @@
 # Tập 12: Bị bắt canh cầu phao cho quân Thanh dịp Tết, sáng mùng 5 thấy Tổng đốc phi qua cầu mà ngựa chưa kịp đóng yên (Ngọc Hồi – Đống Đa, 1789)
 
-**Độ dài:** YouTube 50 giây (5 clip) · TikTok 30 giây (clip 1, 4, 5)
+**Độ dài:** hai video từ cùng 5 clip: **bản dài** (YouTube, khoảng 48 giây sau chuyển cảnh) và **bản ngắn** (TikTok, khoảng 38 giây) vẫn đủ cả 5 cảnh: 3 clip chính giữ nguyên, 2 clip phụ cắt lấy 5 giây chứa câu chính (xem ghi chú "Bản TikTok" ở từng clip)
 
-**Hai bản từ cùng một bộ clip:** YouTube Shorts 50 giây (đủ clip) · TikTok 30 giây (rút gọn theo ghi chú "Bản TikTok" ở từng clip).
+**Hai bản từ cùng một bộ clip:** YouTube Shorts 50 giây (đủ clip) · TikTok 40 giây (rút gọn theo ghi chú "Bản TikTok" ở từng clip).
 
 Copy từng khối dán thẳng vào phần mềm. Prompt đã ghép đủ, không cần thay gì.
 
@@ -28,7 +28,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 ## Clip 2: Ăn Tết trước
 File Muse đặt tên: `nbt12-2.mp4`
 
-**Bản TikTok:** bỏ clip này.
+**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -43,7 +43,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 ## Clip 3: Tiếng pháo mùng 5
 File Muse đặt tên: `nbt12-3.mp4`
 
-**Bản TikTok:** bỏ clip này.
+**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -149,8 +149,8 @@ end: Sử không ghi tên Anh Tư. / Follow để xem đời sau / nhà Anh Tư 
 nhan: AI tái hiện · lời thoại hư cấu
 
 clip: nbt12-1.mp4 | Thăng Long · Tết Kỷ Dậu 1789
-clip: nbt12-2.mp4 | Mùng 3 Tết | tiktok=bo
-clip: nbt12-3.mp4 | Sáng mùng 5 Tết | tiktok=bo
+clip: nbt12-2.mp4 | Mùng 3 Tết | tiktok=5-10
+clip: nbt12-3.mp4 | Sáng mùng 5 Tết | tiktok=5-10
 clip: nbt12-4.mp4 | Gần trưa
 clip: nbt12-5.mp4 | Trưa mùng 5 Tết
 

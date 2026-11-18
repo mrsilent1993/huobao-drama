@@ -4,9 +4,9 @@ end: Sử không ghi tên Anh Tư. / Follow để xem mốc tiếp: / năm 1785 
 nhan: AI tái hiện · lời thoại hư cấu
 
 clip: ts1778-1.mp4 | Thành Đồ Bàn · năm 1778
-clip: ts1778-2.mp4 | Sáng hôm sau | tiktok=bo
+clip: ts1778-2.mp4 | Sáng hôm sau | tiktok=0-5
 clip: ts1778-3.mp4 | Lễ lên ngôi
-clip: ts1778-4.mp4 |  | tiktok=bo
+clip: ts1778-4.mp4 |  | tiktok=0-5
 clip: ts1778-5.mp4 | 
 
 sub: 1 | 0.5-4.8 | Treo cho thẳng. / Sáng mai tên thành đã khác.

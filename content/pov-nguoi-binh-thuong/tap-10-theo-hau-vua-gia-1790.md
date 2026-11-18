@@ -1,8 +1,8 @@
 # Tập 10: Được cử theo hầu nhà vua sang mừng thọ hoàng đế nhà Thanh, đi nửa đường mới biết vua là… người đóng thế (năm 1790)
 
-**Độ dài:** YouTube 50 giây (5 clip) · TikTok 30 giây (clip 1, 4, 5)
+**Độ dài:** hai video từ cùng 5 clip: **bản dài** (YouTube, khoảng 48 giây sau chuyển cảnh) và **bản ngắn** (TikTok, khoảng 38 giây) vẫn đủ cả 5 cảnh: 3 clip chính giữ nguyên, 2 clip phụ cắt lấy 5 giây chứa câu chính (xem ghi chú "Bản TikTok" ở từng clip)
 
-**Hai bản từ cùng một bộ clip:** YouTube Shorts 50 giây (đủ clip) · TikTok 30 giây (rút gọn theo ghi chú "Bản TikTok" ở từng clip).
+**Hai bản từ cùng một bộ clip:** YouTube Shorts 50 giây (đủ clip) · TikTok 40 giây (rút gọn theo ghi chú "Bản TikTok" ở từng clip).
 
 Copy từng khối dán thẳng vào phần mềm. Prompt đã ghép đủ, không cần thay gì.
 
@@ -26,7 +26,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 ## Clip 2: Tập làm vua
 File Muse đặt tên: `nbt10-2.mp4`
 
-**Bản TikTok:** bỏ clip này.
+**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -41,7 +41,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 ## Clip 3: Tiệc dọc đường
 File Muse đặt tên: `nbt10-3.mp4`
 
-**Bản TikTok:** bỏ clip này.
+**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -147,8 +147,8 @@ end: Sử không ghi tên Anh Tư. / Follow để xem đời sau / nhà Anh Tư 
 nhan: AI tái hiện · lời thoại hư cấu
 
 clip: nbt10-1.mp4 | Nghệ An · mùa xuân năm 1790
-clip: nbt10-2.mp4 | Mấy hôm sau | tiktok=bo
-clip: nbt10-3.mp4 | Đường sang Nhiệt Hà · bốn tháng | tiktok=bo
+clip: nbt10-2.mp4 | Mấy hôm sau | tiktok=5-10
+clip: nbt10-3.mp4 | Đường sang Nhiệt Hà · bốn tháng | tiktok=5-10
 clip: nbt10-4.mp4 | Hành cung Nhiệt Hà · mùa thu năm 1790
 clip: nbt10-5.mp4 | Chiều hôm ấy
 

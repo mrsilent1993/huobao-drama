@@ -4,9 +4,9 @@ end: Sử không ghi tên Anh Tư. / Follow để xem đời sau / nhà Anh Tư 
 nhan: AI tái hiện · lời thoại hư cấu
 
 clip: nbt8-1.mp4 | Ấp Tây Sơn · năm 1771
-clip: nbt8-2.mp4 | Cùng buổi | tiktok=bo
+clip: nbt8-2.mp4 | Cùng buổi | tiktok=0-5
 clip: nbt8-3.mp4 | Lúc ra về
-clip: nbt8-4.mp4 | Mấy hôm sau | tiktok=bo
+clip: nbt8-4.mp4 | Mấy hôm sau | tiktok=0-5
 clip: nbt8-5.mp4 | Thăng Long · Xuân 1789
 
 sub: 1 | 0.5-4.8 | Gạo chia không lấy tiền... / nghe đã thấy có chuyện.

@@ -1,8 +1,8 @@
 # Tập 7: Được giao tiếp đón đồng đội mới, ai cũng xăm kín tay và không ai nói nghề cũ (thủy quân Tây Sơn, khoảng 1797)
 
-**Độ dài:** YouTube 50 giây (5 clip) · TikTok 40 giây (clip 1, 2, 3, 5)
+**Độ dài:** hai video từ cùng 5 clip: **bản dài** (YouTube, khoảng 48 giây) và **bản ngắn** (TikTok, khoảng 43 giây) vẫn đủ cả 5 cảnh: clip 4 cắt lấy 5 giây chứa câu chính, các clip khác giữ nguyên
 
-**Hai bản từ cùng một bộ clip:** YouTube Shorts 50 giây (đủ clip) · TikTok 40 giây (rút gọn theo ghi chú "Bản TikTok" ở từng clip).
+**Hai bản từ cùng một bộ clip:** YouTube Shorts 50 giây (đủ clip) · TikTok 45 giây (rút gọn theo ghi chú "Bản TikTok" ở từng clip).
 
 Copy từng khối dán thẳng vào phần mềm. Prompt đã ghép đủ, không cần thay gì.
 
@@ -52,7 +52,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 ## Clip 4: Cờ màu
 File Muse đặt tên: `nbt7-4.mp4`
 
-**Bản TikTok:** bỏ clip này.
+**Bản TikTok:** chỉ dùng giây 0 đến 5 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -147,7 +147,7 @@ nhan: AI tái hiện · lời thoại hư cấu
 clip: nbt7-1.mp4 | Bến thủy quân Tây Sơn · khoảng 1797
 clip: nbt7-2.mp4 | Buổi trưa
 clip: nbt7-3.mp4 | Lễ phong tước
-clip: nbt7-4.mp4 | Mấy hôm sau | tiktok=bo
+clip: nbt7-4.mp4 | Mấy hôm sau | tiktok=0-5
 clip: nbt7-5.mp4 | Nhiều năm sau
 
 sub: 1 | 0.5-4.8 | Đồng đội mới... / sao ai cũng xăm kín tay thế anh?

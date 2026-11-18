@@ -4,8 +4,8 @@ end: Sử không ghi tên Anh Tư. / Follow để xem đời sau / nhà Anh Tư 
 nhan: AI tái hiện · lời thoại hư cấu
 
 clip: nbt12-1.mp4 | Thăng Long · Tết Kỷ Dậu 1789
-clip: nbt12-2.mp4 | Mùng 3 Tết | tiktok=bo
-clip: nbt12-3.mp4 | Sáng mùng 5 Tết | tiktok=bo
+clip: nbt12-2.mp4 | Mùng 3 Tết | tiktok=5-10
+clip: nbt12-3.mp4 | Sáng mùng 5 Tết | tiktok=5-10
 clip: nbt12-4.mp4 | Gần trưa
 clip: nbt12-5.mp4 | Trưa mùng 5 Tết
 

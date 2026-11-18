@@ -6,7 +6,7 @@ nhan: AI tái hiện · lời thoại hư cấu
 clip: nbt7-1.mp4 | Bến thủy quân Tây Sơn · khoảng 1797
 clip: nbt7-2.mp4 | Buổi trưa
 clip: nbt7-3.mp4 | Lễ phong tước
-clip: nbt7-4.mp4 | Mấy hôm sau | tiktok=bo
+clip: nbt7-4.mp4 | Mấy hôm sau | tiktok=0-5
 clip: nbt7-5.mp4 | Nhiều năm sau
 
 sub: 1 | 0.5-4.8 | Đồng đội mới... / sao ai cũng xăm kín tay thế anh?

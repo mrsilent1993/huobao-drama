@@ -1,6 +1,12 @@
 # Tây Sơn từng mốc
 
-Mỗi mốc của phong trào Tây Sơn là một video, theo công thức Anh Tư (YouTube 50 giây, TikTok 30 giây). Các mốc đã có tập ở loạt "POV người bình thường" thì dùng lại, không làm lại.
+Mỗi mốc của phong trào Tây Sơn là một video, theo công thức Anh Tư.
+
+**Cả loạt dùng kiểu "hai video, đủ cảnh":** mỗi tập ra 2 video từ cùng một bộ clip.
+- **Bản dài (YouTube):** dùng đủ mọi clip.
+- **Bản ngắn (TikTok, khoảng 38–43 giây):** vẫn đủ mọi cảnh, không bỏ cảnh nào. Clip chính giữ nguyên, clip phụ cắt lấy 5 giây chứa câu chính.
+
+Áp dụng cho mọi tập trong bảng dưới, trừ tập 11 Rạch Gầm (đã đăng, giữ bản cuối). Các mốc đã có tập ở loạt "POV người bình thường" thì dùng lại, không làm lại.
 
 ## Thứ tự đăng (theo thời gian)
 

@@ -4,9 +4,9 @@ end: Sáng ấy, ai mới phải chạy? / Follow để xem đời sau nhà Anh 
 nhan: AI tái hiện · lời thoại hư cấu
 
 clip: nbt5-1.mp4 | Sông Tiền · tháng 1 năm 1785
-clip: nbt5-2.mp4 | Nửa đêm | tiktok=bo
+clip: nbt5-2.mp4 | Nửa đêm | tiktok=0-5
 clip: nbt5-3.mp4 | Rạng sáng
-clip: nbt5-4.mp4 | Cùng lúc | tiktok=bo
+clip: nbt5-4.mp4 | Cùng lúc | tiktok=5-10
 clip: nbt5-5.mp4 | Ngay sau đó
 
 sub: 1 | 0.5-4.8 | Cấm nói, cấm ho, cấm đập muỗi!

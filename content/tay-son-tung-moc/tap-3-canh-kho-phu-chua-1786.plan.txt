@@ -4,9 +4,9 @@ end: Sử không ghi tên Anh Tư. / Follow để xem mốc tiếp: / năm 1787 
 nhan: AI tái hiện · lời thoại hư cấu
 
 clip: ts1786-1.mp4 | Thăng Long · mùa hè năm 1786
-clip: ts1786-2.mp4 | Trước giờ vào chầu | tiktok=bo
+clip: ts1786-2.mp4 | Trước giờ vào chầu | tiktok=0-5
 clip: ts1786-3.mp4 | Phủ chúa Trịnh
-clip: ts1786-4.mp4 |  | tiktok=bo
+clip: ts1786-4.mp4 |  | tiktok=0-5
 clip: ts1786-5.mp4 | 
 
 sub: 1 | 0.5-4.8 | Ta ra giúp vua Lê. / Không lấy của dân / một cọng rau!

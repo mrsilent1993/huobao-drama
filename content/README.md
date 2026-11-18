@@ -70,6 +70,12 @@ Giới hạn:
 - Không đùa cợt anh hùng dân tộc, lời thề hay thơ thiêng (Hai Bà Trưng, "Nam quốc sơn hà", Điện Biên). Tiếng cười đặt vào nhân vật phụ.
 - Không lấy dân tộc thiểu số hay cảnh nghèo khó làm trò cười.
 
+## Bản ngắn vẫn đủ cảnh (từ 19/11/2026)
+
+Thay cho kiểu cũ (bản TikTok bỏ hẳn clip 2 và 4): **bản ngắn giữ mọi cảnh**. Clip chính giữ nguyên, clip phụ đánh dấu `tiktok=0-5` hoặc `tiktok=5-10` để lấy đúng 5 giây chứa câu chính. Bản ngắn dài khoảng 38–43 giây. Đang dùng cho:
+- Loạt Tây Sơn (cả loạt).
+- Vân Đồn 1288.
+
 ## Chuyển cảnh
 
 Công cụ dựng `tools/tiktok.py` mặc định **hòa hình và hòa tiếng 0,4 giây** giữa các clip (thay cho cắt thẳng). Đổi riêng từng chỗ nối bằng `chuyen=` ở dòng clip, hoặc khóa `chuyen` của clip trong `_nguon.py`:
