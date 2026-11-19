@@ -34,3 +34,28 @@ Mức nguồn: A = sử Việt và sử nước ngoài cùng chép · B = chính
 - **#8, #9:** giai thoại (mức C), phải gắn nhãn "theo giai thoại hoặc truyền thuyết".
 - **Không chọn** các chuyện tự hào nhưng gắn với cái chết hay hành quyết (Trần Bình Trọng, Giang Văn Minh): khó làm mà không có cảnh chết. Chỉ nhắc bằng lời nếu thật cần.
 - **Giọng kể tự hào nhưng không hạ thấp nước khác:** nhân nghĩa của ta, không phải sự yếu kém của người.
+
+## Đợt 2 (19/11/2026): ít người biết hơn, có cú lật bất ngờ hơn
+
+**Vì sao 1077 và 1285 chưa hay:** người xem biết trước đoạn kết (Diên Hồng thì hô "Đánh!"), nên cú lật không còn bất ngờ. Ngoài ra Anh Tư chỉ đứng nhìn, không cầm một vật gì lạ.
+Tiêu chí mới:
+1. Sự kiện **ít người biết**, hoặc ai cũng biết nhưng kể từ một góc lạ.
+2. Anh Tư **cầm một vật vô lý**: chăn, mâm vàng, rượu, chiếu.
+3. Đến cuối mới lộ ra người đứng sau là ai.
+
+| # | Năm, sự kiện | Việc vô lý của Anh Tư | Câu đáng gửi bạn bè | Nguồn |
+|---|---|---|---|---|
+| 11 | **1055 · Lý Thánh Tông thương tù nhân ngày rét** | Nửa đêm rét bị sai ôm chăn và cơm nóng vào ngục phát cho tội phạm | "Vua rét… nghĩ đến người trong ngục." | B |
+| 12 | **1179 · Tô Hiến Thành trả mâm vàng** | Bị sai bưng mâm vàng đến nhà một ông quan, rồi bị đuổi về nguyên mâm | "Lần đầu em thấy người ta trả lại vàng." | B |
+| 13 | **1416 · Hội thề Lũng Nhai** | Bị sai gánh rượu lên núi cho 19 người, không ai nói họ làm gì | "Mười chín người trên núi… mà định đuổi cả một đạo quân." | B |
+| 14 | **1285 · Hai chữ "Sát Thát"** | Bị sai đi pha mực cho cả đạo quân xăm cùng hai chữ lên tay (chữ làm mờ) | "Cả đạo quân xăm một chữ… không ai xăm tên người yêu." | B |
+| 15 | **1299 · Trần Nhân Tông lên Yên Tử** | Bị sai gánh đồ lên núi cho một ông sư. Đến đỉnh mới biết đó là Thượng hoàng | "Thắng quân Nguyên hai lần… rồi tự cởi áo vua." | B |
+| 16 | **Thế kỷ 17–18 · Đội Hoàng Sa** | Bị phát chiếu, dây mây, thẻ tre rồi đẩy lên thuyền ra biển, không ai nói đi đâu | "Đi giữ biển… mang theo cả chiếu của mình." | B |
+| 17 | **Khoảng 1473 · Lê Thánh Tông giữ đất** | Bị sai đi đo đất biên giới từng tấc, một tấc cũng không được thiếu | "Một thước núi, một tấc sông… không được để mất." | B/C |
+| 18 | **Khoảng 1340 · Chu Văn An treo mũ về quê** | Bị sai chở đồ cho ông thầy dạy vua, tự nhiên ông bỏ quan về làng | "Vua không nghe lời ngay… thầy về quê dạy học." | B |
+| 19 | **1428 · Lê Lợi trả gươm** | Bị sai chèo thuyền đưa vua ra giữa hồ, không ai nói ra làm gì | "Mượn thì phải trả… kể cả gươm thần." | C (gắn nhãn truyền thuyết) |
+
+**Lưu ý:**
+- #16 là đề tài chủ quyền: Kiểm duyệt duyệt kỹ, giọng tự hào, không nhắc nước khác. Cái chết chỉ gợi qua chiếc chiếu.
+- #18: chỉ nói "dâng sớ xin trị gian thần", không nói "trảm".
+- #14: chữ trên tay phải làm mờ, đúng quy tắc không có chữ đọc được.
