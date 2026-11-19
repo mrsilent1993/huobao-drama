@@ -2,7 +2,7 @@
 
 Mỗi video một phiếu theo cùng mẫu: thông tin chung, danh sách clip, bối cảnh và giọng, prompt từng clip, chữ trên video, thông tin đăng, bảng kiểm tra trước khi đăng. Xuất lại bằng `python3 tools/xuat_phieu.py` (chạy từ thư mục `content/`).
 
-**Tổng cộng 61 phiếu.** ✅ = đã đăng (theo trang quản lý TikTok ngày 18/11/2026), ☐ = chưa đăng.
+**Tổng cộng 63 phiếu.** ✅ = đã đăng (theo trang quản lý TikTok ngày 18/11/2026), ☐ = chưa đăng.
 
 ## Tự hào Đại Việt
 
@@ -10,6 +10,8 @@ Mỗi video một phiếu theo cùng mẫu: thông tin chung, danh sách clip, b
 |---|---|---|---|---|---|---|
 | 1 | Thắng thế rồi lại bị sai đi đưa thư xin hòa cho giặc (Như Nguyệt, 1077) | 6 | ~58s | ~38s | ☐ | `tu-hao-dai-viet/01-tap-1-dua-thu-giang-hoa-nhu-nguyet-1077.md` |
 | 2 | Bị sai đi rót nước cho các cụ già khắp nước về kinh, không ai nói họp gì (Hội nghị Diên Hồng, 1285) | 6 | ~58s | ~38s | ☐ | `tu-hao-dai-viet/02-tap-2-rot-nuoc-dien-hong-1285.md` |
+| 3 | Bị sai pha mực cả đêm cho cả đạo quân xăm chữ lên tay (Sát Thát, 1285) | 6 | ~58s | ~38s | ☐ | `tu-hao-dai-viet/03-tap-3-pha-muc-sat-that-1285.md` |
+| 4 | Bị sai đi đo đất biên giới từng tấc, thiếu một tấc cũng phải đo lại (Lê Thánh Tông, khoảng 1473) | 6 | ~58s | ~38s | ☐ | `tu-hao-dai-viet/04-tap-4-do-dat-bien-gioi-1473.md` |
 
 ## Tây Sơn từng mốc
 

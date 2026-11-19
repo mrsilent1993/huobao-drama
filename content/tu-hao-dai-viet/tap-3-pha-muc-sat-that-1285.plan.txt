@@ -1,0 +1,26 @@
+# Dựng: python3 ../tools/tiktok.py tap-3-pha-muc-sat-that-1285.plan.txt tap-3-pha-muc-sat-that-1285.mp4  (ra tap-3-pha-muc-sat-that-1285-youtube.mp4 và tap-3-pha-muc-sat-that-1285-tiktok.mp4)
+hook: POV: Pha mực / cho cả đạo quân / xăm tay
+end: Follow để xem / Tự hào Đại Việt / tập tiếp theo →
+nhan: AI tái hiện · lời thoại hư cấu
+end_giay: 1.6
+
+clip: th1285s-1.mp4 | Trại quân nhà Trần · cuối 1284 | tiktok=5-10
+clip: th1285s-2.mp4 |  | tiktok=5-10
+clip: th1285s-3.mp4 |  | tiktok=5-10
+clip: th1285s-4.mp4 | 
+clip: th1285s-5.mp4 |  | tiktok=5-10
+clip: th1285s-6.mp4 | 
+
+sub: 1 | 0.5-4.8 | Pha mực. / Pha cho đủ cả đạo quân.
+sub: 1 | 5.0-7.8 | Mực... để viết gì ạ? / Ai biết chữ đâu?
+sub: 1 | 7.8-9.6 | Không hỏi.
+sub: 2 | 5.0-9.5 | Em tưởng xếp hàng / lĩnh lương... / hóa ra xếp hàng đưa tay.
+sub: 3 | 0.5-4.8 | Hai chữ gì đấy ạ?
+sub: 3 | 5.0-9.5 | Sát Thát. Đánh giặc Thát. / Giặc sang... / thì nhìn tay mà nhớ.
+sub: 4 | 0.5-3.2 | Thêm tên người yêu em / vào được không?
+sub: 4 | 3.2-4.8 | Hai chữ thôi.
+sub: 4 | 5.0-9.5 | Cả đạo quân / xăm cùng một chữ... / không ai xăm tên người yêu.
+sub: 5 | 0.5-4.8 | Còn mày?
+sub: 5 | 5.0-9.5 | Em pha mực cả đêm... / thì em cũng phải có phần.
+sub: 6 | 0.3-4.8 | Năm 1285, quân sĩ nhà Trần / thích vào cánh tay / hai chữ: Sát Thát.
+sub: 6 | 5.0-8.4 | Mực em pha đấy... / cả đời không phai.

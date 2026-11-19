@@ -1,0 +1,25 @@
+# Dựng: python3 ../tools/tiktok.py tap-4-do-dat-bien-gioi-1473.plan.txt tap-4-do-dat-bien-gioi-1473.mp4  (ra tap-4-do-dat-bien-gioi-1473-youtube.mp4 và tap-4-do-dat-bien-gioi-1473-tiktok.mp4)
+hook: POV: Đo đất / biên giới / từng tấc một
+end: Follow để xem / Tự hào Đại Việt / tập tiếp theo →
+nhan: AI tái hiện · lời thoại hư cấu
+end_giay: 1.6
+
+clip: th1473-1.mp4 | Biên giới phía Bắc · khoảng 1473 | tiktok=5-10
+clip: th1473-2.mp4 |  | tiktok=5-10
+clip: th1473-3.mp4 |  | tiktok=5-10
+clip: th1473-4.mp4 | 
+clip: th1473-5.mp4 |  | tiktok=5-10
+clip: th1473-6.mp4 | 
+
+sub: 1 | 0.5-4.8 | Đo đất. / Từng tấc một.
+sub: 1 | 5.0-7.8 | Đo... / cả dãy núi này ạ?
+sub: 1 | 7.8-9.6 | Không hỏi.
+sub: 2 | 5.0-9.5 | Người ta đo ruộng / để thu thuế... / em đo cả núi.
+sub: 3 | 0.5-4.8 | Thiếu có một tấc... / bỏ qua đi ạ?
+sub: 3 | 5.0-9.5 | Thiếu một tấc... / thì đo lại.
+sub: 4 | 0.3-1.8 | Hay là nhường / cho yên chuyện?
+sub: 4 | 1.8-4.8 | Một thước núi, một tấc sông / của ta... / lẽ nào lại tự nhiên vứt bỏ?
+sub: 4 | 5.0-9.5 | Một tấc sông... / không được để mất.
+sub: 5 | 5.0-9.5 | Cái thừng của em... / thành biên giới.
+sub: 6 | 0.3-4.8 | Vua Lê Thánh Tông dặn: / Một thước núi, một tấc sông / của ta... lẽ nào vứt bỏ?
+sub: 6 | 5.0-8.4 | Em leo cả tháng... / mới biết một tấc đất / nặng thế nào.

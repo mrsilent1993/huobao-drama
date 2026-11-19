@@ -68,7 +68,7 @@ Mức kiểm chứng:
 - **Quân Mông Cổ:** áo dài viền lông (deel) hoặc giáp vảy da, mũ lông nhọn hoặc mũ tròn, cung sừng, ngựa thấp.
 - **Quân Nguyên:** giáp vảy da, mũ tròn. Thuyền lương là thuyền gỗ lớn kiểu Trung Hoa, buồm cót.
 - **Quân Minh:** áo bông độn màu đỏ, mũ sắt tròn có tua đỏ, một số mặc giáp đinh. Quan mặc áo cổ tròn, đội mũ sa đen.
-- **Quân Trần:** búi tóc, răng đen, áo vải nâu sẫm, chân đất. Năm 1285 có hình xăm "Sát Thát" ở cánh tay: chỉ dựng vết xăm sẫm, không có chữ đọc được.
+- **Quân Trần:** búi tóc, răng đen, áo vải nâu sẫm, chân đất. Năm 1285 có hình xăm "Sát Thát" ở cánh tay: chữ Hán **殺韃** xăm rõ bằng mực đen, không máu (anh duyệt 19/11/2026, tập "Pha mực Sát Thát"); ngoài hai chữ này không có chữ nào khác.
 - **Quân Tống lưu vong (Triệu Trung, 1285):** giáp vảy kiểu Tống, mũ có chóp, áo đỏ nâu.
 
 ## Chuẩn rút ra từ bình luận người xem (18/11/2026)

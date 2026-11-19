@@ -4,7 +4,7 @@ Cùng tinh thần với video Đông Quan 1427 (đóng 500 thuyền tiễn quân
 
 Mức nguồn: A = sử Việt và sử nước ngoài cùng chép · B = chính sử Việt (*Đại Việt sử ký toàn thư*…) · C = giai thoại, truyền thuyết. **Các mục dưới đây là hiểu biết chung, Sử gia phải tra lại trước khi viết.**
 
-**Đã làm:** Đông Quan 1427 (tha cho giặc về), Chiếu dời đô 1010, Quang Trung mời La Sơn Phu Tử (trọng người hiền), Lương Thế Vinh cân voi, Như Nguyệt 1077 và Hội nghị Diên Hồng 1285 (loạt [Tự hào Đại Việt](../tu-hao-dai-viet/README.md)).
+**Đã làm:** Đông Quan 1427 (tha cho giặc về), Chiếu dời đô 1010, Quang Trung mời La Sơn Phu Tử (trọng người hiền), Lương Thế Vinh cân voi, Như Nguyệt 1077, Hội nghị Diên Hồng 1285, Sát Thát 1285, Lê Thánh Tông giữ đất 1473 (loạt [Tự hào Đại Việt](../tu-hao-dai-viet/README.md)).
 
 | # | Năm, sự kiện | Việc vô lý của Anh Tư | Câu đáng gửi bạn bè | Điều làm người xem tự hào | Nguồn |
 |---|---|---|---|---|---|
