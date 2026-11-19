@@ -1,0 +1,27 @@
+# Dựng: python3 ../tools/tiktok.py tap-5-chieu-cau-hien-1789.plan.txt tap-5-chieu-cau-hien-1789.mp4  (ra tap-5-chieu-cau-hien-1789-youtube.mp4 và tap-5-chieu-cau-hien-1789-tiktok.mp4)
+hook: POV: Đi dán chiếu / mời người tài / ra làm quan
+end: Follow để xem / loạt Quang Trung / tập tiếp theo →
+nhan: AI tái hiện · lời thoại hư cấu
+end_giay: 1.6
+
+clip: qt5-1.mp4 | Thăng Long · 1789 | tiktok=0-5
+clip: qt5-2.mp4 |  | tiktok=5-10
+clip: qt5-3.mp4 |  | tiktok=5-10
+clip: qt5-4.mp4 |  | tiktok=5-10
+clip: qt5-5.mp4 |  | tiktok=5-10
+clip: qt5-6.mp4 |  | tiktok=5-10
+clip: qt5-7.mp4 |  | tiktok=3-10
+
+sub: 1 | 0.3-2.2 | Dán khắp chợ. / Mời người tài ra làm quan.
+sub: 1 | 2.2-3.4 | Người tài ở đâu ạ?
+sub: 1 | 3.4-4.9 | Ở chỗ họ đang trốn.
+sub: 1 | 5.2-9.5 | Mời người... / mà người ta đang trốn mình.
+sub: 2 | 5.0-9.5 | Em dán cả trăm tờ... / không đọc được chữ nào.
+sub: 3 | 0.5-4.8 | Ta từng làm quan nhà Lê. / Ta từng chống Tây Sơn.
+sub: 3 | 5.0-9.5 | Thế thì vua mời / đúng người rồi.
+sub: 4 | 5.0-9.5 | Hôm qua còn chống vua... / hôm nay được vua mời.
+sub: 5 | 5.0-9.5 | Hôm qua trốn kỹ thế... / hôm nay xếp hàng dài thế.
+sub: 6 | 0.5-4.8 | Mày cũng thi thử đi.
+sub: 6 | 5.0-9.5 | Em tài nhất trại... / khoản dán giấy.
+sub: 7 | 3.0-6.0 | Vua Quang Trung ban / Chiếu cầu hiền, mời / sĩ phu Bắc Hà giúp nước.
+sub: 7 | 6.1-8.4 | Thắng giặc bằng gươm... / giữ nước bằng người tài.

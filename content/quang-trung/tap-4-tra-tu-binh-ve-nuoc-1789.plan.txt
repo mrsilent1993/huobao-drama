@@ -1,0 +1,26 @@
+# Dựng: python3 ../tools/tiktok.py tap-4-tra-tu-binh-ve-nuoc-1789.plan.txt tap-4-tra-tu-binh-ve-nuoc-1789.mp4  (ra tap-4-tra-tu-binh-ve-nuoc-1789-youtube.mp4 và tap-4-tra-tu-binh-ve-nuoc-1789-tiktok.mp4)
+hook: POV: Thắng trận xong / bị sai nấu cơm / cho giặc
+end: Follow để xem / loạt Quang Trung / tập tiếp theo →
+nhan: AI tái hiện · lời thoại hư cấu
+end_giay: 1.6
+
+clip: qt4-1.mp4 | Thăng Long · Tết 1789 | tiktok=0-5
+clip: qt4-2.mp4 |  | tiktok=5-10
+clip: qt4-3.mp4 |  | tiktok=5-10
+clip: qt4-4.mp4 |  | tiktok=5-10
+clip: qt4-5.mp4 |  | tiktok=5-10
+clip: qt4-6.mp4 |  | tiktok=5-10
+clip: qt4-7.mp4 |  | tiktok=3-10
+
+sub: 1 | 0.3-2.2 | Nấu cơm. / Nấu cho cả trại tù binh.
+sub: 1 | 2.2-3.4 | Cho giặc ăn ạ?
+sub: 1 | 3.4-4.9 | Ăn no mới / đi đường xa được.
+sub: 1 | 5.2-9.5 | Hôm qua em đánh nó... / hôm nay em nấu cơm cho nó.
+sub: 2 | 5.0-9.5 | Bánh chưng nhà em... / nó ăn còn nhanh hơn em.
+sub: 3 | 5.0-9.5 | Áo em còn rách... / nó được áo mới.
+sub: 4 | 5.0-9.5 | Thắng xong... / còn gói cơm cho giặc ăn đường.
+sub: 5 | 0.5-4.8 | Đường... về nhà?
+sub: 5 | 5.0-9.5 | Thẳng đường này. / Đi thẳng... đừng quay lại.
+sub: 6 | 5.0-9.5 | Cơm Đại Việt ngon... / nhưng đừng sang ăn nữa.
+sub: 7 | 3.0-6.0 | Vua Quang Trung cho nuôi ăn / tù binh rồi thả về nước, / mở đường giảng hòa.
+sub: 7 | 6.1-8.4 | Đánh cho nó sợ... / nuôi cho nó nhớ.

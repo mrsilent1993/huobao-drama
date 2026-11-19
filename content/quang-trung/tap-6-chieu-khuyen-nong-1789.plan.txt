@@ -1,0 +1,28 @@
+# Dựng: python3 ../tools/tiktok.py tap-6-chieu-khuyen-nong-1789.plan.txt tap-6-chieu-khuyen-nong-1789.mp4  (ra tap-6-chieu-khuyen-nong-1789-youtube.mp4 và tap-6-chieu-khuyen-nong-1789-tiktok.mp4)
+hook: POV: Thắng giặc xong / bị sai đi / gọi dân về cày
+end: Follow để xem / loạt Quang Trung / tập tiếp theo →
+nhan: AI tái hiện · lời thoại hư cấu
+end_giay: 1.6
+
+clip: qt6-1.mp4 | Bắc Hà · 1789 | tiktok=0-5
+clip: qt6-2.mp4 |  | tiktok=5-10
+clip: qt6-3.mp4 |  | tiktok=5-10
+clip: qt6-4.mp4 |  | tiktok=5-10
+clip: qt6-5.mp4 |  | tiktok=5-10
+clip: qt6-6.mp4 |  | tiktok=5-10
+clip: qt6-7.mp4 |  | tiktok=3-10
+
+sub: 1 | 0.3-2.2 | Đi gọi dân về làng. / Về cày.
+sub: 1 | 2.2-3.4 | Vừa thắng giặc... / không ăn mừng ạ?
+sub: 1 | 3.4-4.9 | Ăn mừng xong thì đói.
+sub: 1 | 5.2-9.5 | Đánh giặc em quen... / gọi người về cày / thì lần đầu.
+sub: 2 | 5.0-9.5 | Cỏ cao hơn người... / ruộng bỏ mấy năm rồi.
+sub: 3 | 0.3-2.6 | Ai về quê cày ruộng / thì được yên ổn làm ăn!
+sub: 3 | 2.6-4.8 | Thật không? / Về lại có giặc thì sao?
+sub: 3 | 5.0-9.5 | Người ta chạy giặc mấy năm... / giờ mới dám về.
+sub: 4 | 5.0-9.5 | Đánh giặc xong... / việc tiếp theo là cày.
+sub: 5 | 0.5-4.8 | Làng nào để ruộng hoang... / thì bị phạt.
+sub: 5 | 5.0-9.5 | Ngày xưa sợ giặc... / giờ sợ cỏ.
+sub: 6 | 5.0-9.5 | Mùa trước là chiến trường... / mùa này là ruộng lúa.
+sub: 7 | 3.0-6.0 | Năm 1789, vua Quang Trung / ban Chiếu khuyến nông, / gọi dân về khai hoang.
+sub: 7 | 6.1-8.4 | Giữ được nước rồi... / giờ giữ cái nồi cơm.

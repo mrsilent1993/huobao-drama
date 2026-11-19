@@ -2,7 +2,7 @@
 
 Mỗi video một phiếu theo cùng mẫu: thông tin chung, danh sách clip, bối cảnh và giọng, prompt từng clip, chữ trên video, thông tin đăng, bảng kiểm tra trước khi đăng. Xuất lại bằng `python3 tools/xuat_phieu.py` (chạy từ thư mục `content/`).
 
-**Tổng cộng 66 phiếu.** ✅ = đã đăng (theo trang quản lý TikTok ngày 18/11/2026), ☐ = chưa đăng.
+**Tổng cộng 74 phiếu.** ✅ = đã đăng (theo trang quản lý TikTok ngày 18/11/2026), ☐ = chưa đăng.
 
 ## Tự hào Đại Việt
 
@@ -20,6 +20,19 @@ Mỗi video một phiếu theo cùng mẫu: thông tin chung, danh sách clip, b
 | 1 | Phần 1/3 · Chưa đến giao thừa đã bị bắt ăn Tết, ăn xong thì… xuất quân (Tam Điệp, Tết Kỷ Dậu 1789) | 7 | ~68s | ~35s | ☐ | `tet-ky-dau-1789/01-phan-1-an-tet-som-tam-diep-1789.md` |
 | 2 | Phần 2/3 · Đang hành quân đánh giặc thì bị lệnh… nằm ngủ (ba người một võng, Tết Kỷ Dậu 1789) | 7 | ~68s | ~35s | ☐ | `tet-ky-dau-1789/02-phan-2-ngu-tren-vong-1789.md` |
 | 3 | Phần 3/3 · Tết rét căm căm bị sai nhúng rơm vào nước, sáng ra mới biết để làm gì (Ngọc Hồi, mùng 5 Tết 1789) | 7 | ~68s | ~35s | ☐ | `tet-ky-dau-1789/03-phan-3-rom-uot-ngoc-hoi-1789.md` |
+
+## Loạt Quang Trung (Q1–Q8)
+
+| # | Video | Clip | YouTube | TikTok | Đã đăng | Phiếu |
+|---|---|---|---|---|---|---|
+| 1 | Q1 · Trải chiếu cho ông tướng vừa thắng cả Bắc Hà, hóa ra để ông… quỳ lạy (phù Lê, 1786) | 7 | ~68s | ~35s | ☐ | `quang-trung/01-tap-1-quy-lay-vua-le-1786.md` |
+| 2 | Q2 · Đang cày ruộng bị gọi ra bãi duyệt binh, nghe một câu mà nhớ cả đời (Nghệ An, cuối năm 1788) | 7 | ~68s | ~35s | ☐ | `quang-trung/02-tap-2-danh-cho-de-dai-toc-1788.md` |
+| 3 | Q3 · Phi ngựa mấy ngày đêm từ Thăng Long về Phú Xuân, chỉ để giữ một cành đào không rụng (Tết 1789, theo truyền tụng) | 7 | ~68s | ~35s | ☐ | `quang-trung/03-tap-3-canh-dao-ve-phu-xuan-1789.md` |
+| 4 | Q4 · Vừa thắng trận đã bị sai nấu cơm cho tù binh giặc ăn no rồi về (trả tù binh nhà Thanh, 1789) | 7 | ~68s | ~35s | ☐ | `quang-trung/04-tap-4-tra-tu-binh-ve-nuoc-1789.md` |
+| 5 | Q5 · Bị sai đi dán chiếu mời người tài ra làm quan, mà người tài toàn là người từng chống vua (chiếu cầu hiền, 1789) | 7 | ~68s | ~35s | ☐ | `quang-trung/05-tap-5-chieu-cau-hien-1789.md` |
+| 6 | Q6 · Vừa thắng giặc chưa kịp ăn mừng, bị sai đi gọi dân về… cày ruộng (Chiếu khuyến nông, 1789) | 7 | ~68s | ~35s | ☐ | `quang-trung/06-tap-6-chieu-khuyen-nong-1789.md` |
+| 7 | Q7 · Bị sai đọc chiếu vua cho cả làng, lần đầu tiên cả làng nghe là hiểu (chữ Nôm thời Quang Trung, 1791) | 7 | ~68s | ~35s | ☐ | `quang-trung/07-tap-7-chu-nom-chieu-vua-1791.md` |
+| 8 | Q8 · Khiêng lễ vật đi hỏi vợ cho vua, mà của hồi môn đòi kèm là… hai tỉnh (sứ bộ năm 1792, theo một số sách chép) | 7 | ~68s | ~35s | ☐ | `quang-trung/08-tap-8-hoi-vo-luong-quang-1792.md` |
 
 ## Tây Sơn từng mốc
 

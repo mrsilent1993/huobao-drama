@@ -1,0 +1,27 @@
+# Dựng: python3 ../tools/tiktok.py tap-7-chu-nom-chieu-vua-1791.plan.txt tap-7-chu-nom-chieu-vua-1791.mp4  (ra tap-7-chu-nom-chieu-vua-1791-youtube.mp4 và tap-7-chu-nom-chieu-vua-1791-tiktok.mp4)
+hook: POV: Đọc chiếu vua / cả làng / nghe là hiểu
+end: Follow để xem / loạt Quang Trung / tập tiếp theo →
+nhan: AI tái hiện · lời thoại hư cấu
+end_giay: 1.6
+
+clip: qt7-1.mp4 | Nghệ An · 1791 | tiktok=0-5
+clip: qt7-2.mp4 | Mấy năm trước | tiktok=5-10
+clip: qt7-3.mp4 |  | tiktok=5-10
+clip: qt7-4.mp4 |  | tiktok=5-10
+clip: qt7-5.mp4 |  | tiktok=5-10
+clip: qt7-6.mp4 | Viện Sùng Chính | tiktok=5-10
+clip: qt7-7.mp4 |  | tiktok=3-10
+
+sub: 1 | 0.3-2.2 | Đọc chiếu vua / cho cả làng nghe.
+sub: 1 | 2.2-3.4 | Chữ Hán em đọc / như chim hót mà ông?
+sub: 1 | 3.4-4.9 | Lần này chữ nhà mình.
+sub: 1 | 5.2-9.5 | Chữ này... / em đọc ra tiếng mình.
+sub: 2 | 5.0-9.5 | Mọi lần em đọc... / cả làng ngủ.
+sub: 3 | 5.0-9.5 | Lần này em đọc... / cả làng vểnh tai.
+sub: 4 | 0.5-4.8 | Ơ! Vua nói thế à?
+sub: 4 | 5.0-9.5 | Lần đầu vua viết... / mà cả làng nghe hiểu.
+sub: 5 | 0.5-4.8 | Vua bảo thế này! / Không, vua bảo thế kia!
+sub: 5 | 5.0-9.5 | Hiểu được rồi... / thì bắt đầu cãi nhau.
+sub: 6 | 5.0-9.5 | Cả viện ngồi... / dịch sách ra tiếng mình.
+sub: 7 | 3.0-6.0 | Thời Quang Trung, chữ Nôm / vào chiếu vua. Năm 1791, / Viện Sùng Chính dịch sách.
+sub: 7 | 6.1-8.4 | Vua nói tiếng của dân... / thì dân nghe lời vua.

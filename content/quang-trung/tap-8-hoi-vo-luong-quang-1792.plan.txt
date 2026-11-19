@@ -1,0 +1,26 @@
+# Dựng: python3 ../tools/tiktok.py tap-8-hoi-vo-luong-quang-1792.plan.txt tap-8-hoi-vo-luong-quang-1792.mp4  (ra tap-8-hoi-vo-luong-quang-1792-youtube.mp4 và tap-8-hoi-vo-luong-quang-1792-tiktok.mp4)
+hook: POV: Khiêng lễ vật / đi hỏi vợ / cho vua
+end: Follow để xem / loạt Quang Trung / tập tiếp theo →
+nhan: AI tái hiện · lời thoại hư cấu
+end_giay: 1.6
+
+clip: qt8-1.mp4 | Phú Xuân · đầu năm 1792 | tiktok=0-5
+clip: qt8-2.mp4 |  | tiktok=5-10
+clip: qt8-3.mp4 |  | tiktok=5-10
+clip: qt8-4.mp4 |  | tiktok=5-10
+clip: qt8-5.mp4 |  | tiktok=5-10
+clip: qt8-6.mp4 |  | tiktok=5-10
+clip: qt8-7.mp4 |  | tiktok=3-10
+
+sub: 1 | 0.3-2.2 | Khiêng lễ vật. / Đi hỏi vợ cho vua.
+sub: 1 | 2.2-3.4 | Hỏi con gái nhà ai ạ?
+sub: 1 | 3.4-4.9 | Nhà to nhất phương Bắc.
+sub: 1 | 5.2-9.5 | Em đi hỏi vợ cho mình... / còn chưa xong.
+sub: 2 | 5.0-9.5 | Lễ nhiều thế này... / nhà gái chắc phải ưng.
+sub: 3 | 0.5-4.8 | Xin cưới công chúa... / và xin đất Lưỡng Quảng.
+sub: 3 | 5.0-9.5 | Xin... / cái gì cơ ạ?
+sub: 4 | 5.0-9.5 | Đi hỏi vợ... / mà đòi của hồi môn / là hai tỉnh.
+sub: 5 | 5.0-9.5 | Ngày xưa người ta / sang đánh mình... / giờ mình sang hỏi vợ.
+sub: 6 | 5.0-9.5 | Chờ mãi... / nhà gái chưa trả lời.
+sub: 7 | 3.0-6.0 | Năm 1792, vua sai sứ / cầu hôn, xin Lưỡng Quảng. / Mùa thu năm ấy, vua mất.
+sub: 7 | 6.1-8.4 | Đám hỏi chưa xong... / mà cả nước đã nhớ ông ấy.
