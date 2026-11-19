@@ -1,5 +1,7 @@
 # Nội dung TikTok: quy trình và quy tắc chung
 
+> **Tiêu chuẩn viết kịch bản:** `TIEU-CHUAN-KICH-BAN.md` (mọi quy tắc đã chốt). **Mẫu cho từng video:** `MAU-KICH-BAN.md`.
+
 ## Quy trình
 
 1. Claude viết prompt, gồm ảnh khung đầu và video cho từng clip, kèm file kế hoạch dựng `.plan.txt` (chữ móc câu, mốc thời gian, phụ đề, dòng chữ kết).
