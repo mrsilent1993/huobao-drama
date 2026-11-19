@@ -13,8 +13,8 @@ clip: tkd1-6.mp4 |  | tiktok=5-10
 clip: tkd1-7.mp4 |  | tiktok=3-10
 
 sub: 1 | 0.3-2.0 | Tối nay ăn Tết.
-sub: 1 | 2.0-3.8 | Giao thừa còn chưa tới / mà ạ?
-sub: 1 | 3.8-4.9 | Không hỏi.
+sub: 1 | 2.0-3.4 | Giao thừa còn chưa tới / mà ạ?
+sub: 1 | 3.4-4.9 | Đợi giao thừa / thì muộn.
 sub: 1 | 5.2-9.5 | Tết chưa đến... / đã bị bắt ăn.
 sub: 2 | 0.5-4.8 | Ăn nhanh! / Ăn cho no!
 sub: 2 | 5.0-9.5 | Lần đầu em ăn Tết... / mà vội như ăn vụng.

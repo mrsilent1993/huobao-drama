@@ -13,7 +13,7 @@ clip: th1285-6.mp4 |
 
 sub: 1 | 0.5-4.8 | Đón các cụ cho khéo. / Rót nước cho đủ.
 sub: 1 | 5.0-7.6 | Các cụ khắp nước về kinh... / họp gì ạ?
-sub: 1 | 7.6-9.6 | Không hỏi.
+sub: 1 | 7.6-9.6 | Mày lo ấm nước thôi.
 sub: 2 | 0.5-4.8 | Giặc đến đâu rồi?
 sub: 2 | 5.0-9.5 | Cụ giọng Nghệ, / cụ giọng Thanh... / mà cụ nào cũng hỏi / giặc đến đâu rồi.
 sub: 3 | 0.5-4.8 | Vua đứng... / trước các cụ?

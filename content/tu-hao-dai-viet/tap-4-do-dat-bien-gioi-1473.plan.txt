@@ -13,7 +13,7 @@ clip: th1473-6.mp4 |
 
 sub: 1 | 0.5-4.8 | Đo đất. / Từng tấc một.
 sub: 1 | 5.0-7.8 | Đo... / cả dãy núi này ạ?
-sub: 1 | 7.8-9.6 | Không hỏi.
+sub: 1 | 7.8-9.6 | Cả dãy. Cả con sông.
 sub: 2 | 5.0-9.5 | Người ta đo ruộng / để thu thuế... / em đo cả núi.
 sub: 3 | 0.5-4.8 | Thiếu có một tấc... / bỏ qua đi ạ?
 sub: 3 | 5.0-9.5 | Thiếu một tấc... / thì đo lại.

@@ -13,8 +13,8 @@ clip: th1397a-6.mp4 |  | tiktok=5-10
 clip: th1397a-7.mp4 |  | tiktok=3-10 | chuyen=fade:0.4
 
 sub: 1 | 0.3-2.4 | Khiêng đá. / Xếp thành tường.
-sub: 1 | 2.4-3.8 | Vữa đâu ạ?
-sub: 1 | 3.8-4.9 | Không hỏi.
+sub: 1 | 2.4-3.4 | Vữa đâu ạ?
+sub: 1 | 3.4-4.9 | Có vữa / thì đã chẳng cần mày.
 sub: 1 | 5.2-9.5 | Hòn này... / to bằng cái giường nhà em.
 sub: 2 | 0.5-4.8 | Dô ta! Dô ta!
 sub: 2 | 5.0-9.5 | Hai mươi người / khiêng một hòn đá... / đá vẫn nằm im.

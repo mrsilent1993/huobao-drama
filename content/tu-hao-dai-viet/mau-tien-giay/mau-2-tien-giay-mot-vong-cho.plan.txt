@@ -13,8 +13,8 @@ clip: th1396b-6.mp4 | Đêm | tiktok=5-10
 clip: th1396b-7.mp4 |  | tiktok=3-10
 
 sub: 1 | 0.3-2.4 | Công cả tháng. / Một quan.
-sub: 1 | 2.4-3.8 | Tiền... bằng giấy ạ?
-sub: 1 | 3.8-4.9 | Không hỏi.
+sub: 1 | 2.4-3.4 | Tiền... bằng giấy ạ?
+sub: 1 | 3.4-4.9 | Giấy nhà nước. / Cầm cho chặt.
 sub: 1 | 5.2-9.5 | Cả tháng làm... / nhẹ hơn cái lá.
 sub: 2 | 0.5-4.8 | Tiền giấy à? / Thế tôi cắt nửa đầu thôi.
 sub: 2 | 5.0-9.5 | Tờ tiền mới nhất nước... / đổi được nửa cái đầu.

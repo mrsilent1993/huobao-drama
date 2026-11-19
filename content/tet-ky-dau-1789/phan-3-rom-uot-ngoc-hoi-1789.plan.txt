@@ -13,8 +13,8 @@ clip: tkd3-6.mp4 |  | tiktok=5-10
 clip: tkd3-7.mp4 |  | tiktok=3-10
 
 sub: 1 | 0.3-2.4 | Nhúng rơm. / Bọc kín tấm ván.
-sub: 1 | 2.4-3.8 | Rét thế này... / nhúng nước ạ?
-sub: 1 | 3.8-4.9 | Không hỏi.
+sub: 1 | 2.4-3.4 | Rét thế này... / nhúng nước ạ?
+sub: 1 | 3.4-4.9 | Sáng mai / mày sẽ cảm ơn nó.
 sub: 1 | 5.2-9.5 | Tết rét căm căm... / em đi dầm rơm.
 sub: 2 | 5.0-9.5 | Rơm ướt nặng / gấp mấy rơm khô... / mà lưng em chỉ có một.
 sub: 3 | 5.0-9.5 | Sương mù thế này... / giặc chỉ thấy / một bức tường rơm đi tới.

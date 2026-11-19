@@ -104,11 +104,11 @@ EPISODES = [
             dict(name="Cầm đèn", tiktok="5-10", label="Trại quân nhà Trần · cuối 1284",
                  img=f"First-person view at night in a Trần army camp, a stern officer handing an oil lamp to {FACE}, behind them a tattooer laying out bundles of bamboo needles, Anh Tư staring at the needles in horror, realistic, vertical 9:16.",
                  vid=("0-5s: The officer hands Anh Tư an oil lamp: \"Cầm đèn cho thợ. Cả đêm.\" Anh Tư sees the bundles of "
-                      "needles and freezes. 5-10s: Anh Tư whispers: \"Em... sợ kim nhất trại đấy ạ.\" The officer: \"Không "
-                      "hỏi.\""),
+                      "needles and freezes. 5-10s: Anh Tư whispers: \"Em... sợ kim nhất trại đấy ạ.\" The officer: \"Thì cầm "
+                      "đèn, có phải cầm kim đâu.\""),
                  subs=[(0.5, 4.8, "Cầm đèn cho thợ. / Cả đêm."),
                        (5.0, 7.6, "Em... sợ kim / nhất trại đấy ạ."),
-                       (7.6, 9.6, "Không hỏi.")]),
+                       (7.6, 9.6, "Thì cầm đèn, / có phải cầm kim đâu.")]),
             dict(name="Người xăm không kêu", tiktok="5-10", label="",
                  img=f"First-person close view by lamplight, a calm soldier with his forearm stretched out while the tattooer works with a bamboo needle bundle, no blood, {FACE} holding the lamp with his eyes squeezed shut, realistic, vertical 9:16.",
                  vid=("0-5s: By lamplight the tattooer works on a soldier's forearm; the soldier chats calmly. Anh Tư, holding "

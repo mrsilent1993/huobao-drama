@@ -13,8 +13,8 @@ clip: th1397c-6.mp4 |  | tiktok=5-10
 clip: th1397c-7.mp4 |  | tiktok=3-10
 
 sub: 1 | 0.3-2.6 | Khe nào lọt sợi tóc này / là dỡ ra xếp lại.
-sub: 1 | 2.6-3.9 | Không có vữa ạ?
-sub: 1 | 3.9-4.9 | Không hỏi.
+sub: 1 | 2.6-3.4 | Không có vữa ạ?
+sub: 1 | 3.4-4.9 | Vữa là / cho thợ vụng.
 sub: 2 | 0.5-4.8 | Dỡ.
 sub: 2 | 5.0-9.5 | Ông còn có ba sợi tóc... / mà đòi thử cả tòa thành.
 sub: 3 | 0.5-2.2 | Bùn à?

@@ -13,7 +13,7 @@ clip: th1285b-6.mp4 |
 
 sub: 1 | 0.5-4.8 | Cầm đèn cho thợ. / Cả đêm.
 sub: 1 | 5.0-7.6 | Em... sợ kim / nhất trại đấy ạ.
-sub: 1 | 7.6-9.6 | Không hỏi.
+sub: 1 | 7.6-9.6 | Thì cầm đèn, / có phải cầm kim đâu.
 sub: 2 | 0.5-4.8 | Ối... ối...
 sub: 2 | 5.0-9.5 | Tao xăm / chứ mày có xăm đâu?
 sub: 3 | 0.5-4.8 | Hai chữ gì / mà xăm cả trại thế ạ?

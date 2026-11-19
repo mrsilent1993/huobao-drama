@@ -44,11 +44,11 @@ EPISODES = [
             dict(name="Ăn Tết!", tiktok="0-5", label="Tam Điệp · cuối năm Mậu Thân",
                  img=f"First-person view in a misty mountain army camp, a stern officer pointing at a huge pile of bánh chưng and jars of rice wine, {FACE} beside the viewer, confused, realistic, vertical 9:16.",
                  vid=("0-5s: The officer points at piles of bánh chưng: \"Tối nay ăn Tết.\" Anh Tư: \"Giao thừa còn chưa tới "
-                      "mà ạ?\" The officer: \"Không hỏi.\" 5-10s: Anh Tư stares at the food and whispers: \"Tết chưa đến... "
+                      "mà ạ?\" The officer: \"Đợi giao thừa thì muộn.\" 5-10s: Anh Tư stares at the food and whispers: \"Tết chưa đến... "
                       "đã bị bắt ăn.\""),
                  subs=[(0.3, 2.0, "Tối nay ăn Tết."),
-                       (2.0, 3.8, "Giao thừa còn chưa tới / mà ạ?"),
-                       (3.8, 4.9, "Không hỏi."),
+                       (2.0, 3.4, "Giao thừa còn chưa tới / mà ạ?"),
+                       (3.4, 4.9, "Đợi giao thừa / thì muộn."),
                        (5.2, 9.5, "Tết chưa đến... / đã bị bắt ăn.")]),
             dict(name="Ăn nhanh", tiktok="5-10", label="",
                  img=f"First-person view by a campfire, soldiers gulping down slices of bánh chưng, the officer walking past clapping his hands to hurry them, {FACE} with his cheeks stuffed, realistic, vertical 9:16.",
@@ -121,11 +121,11 @@ EPISODES = [
             dict(name="Lệnh ngủ", tiktok="0-5", label="Hành quân ra Bắc · Tết 1789",
                  img=f"First-person view on a misty road, a stern officer handing a hammock on a long bamboo pole to {FACE} and a comrade, columns of soldiers passing, realistic, vertical 9:16.",
                  vid=("0-5s: The officer hands over a hammock on a bamboo pole: \"Ba người một võng. Hai khiêng, một ngủ.\" "
-                      "Anh Tư: \"Ngủ... lúc đi đánh giặc ạ?\" The officer: \"Không hỏi.\" 5-10s: Anh Tư whispers to the "
+                      "Anh Tư: \"Ngủ... lúc đi đánh giặc ạ?\" The officer: \"Ngủ để còn đi. Nằm xuống!\" 5-10s: Anh Tư whispers to the "
                       "viewer: \"Lần đầu em thấy có lệnh... bắt ngủ.\""),
                  subs=[(0.3, 2.4, "Ba người một võng. / Hai khiêng, một ngủ."),
-                       (2.4, 3.8, "Ngủ... / lúc đi đánh giặc ạ?"),
-                       (3.8, 4.9, "Không hỏi."),
+                       (2.4, 3.4, "Ngủ... / lúc đi đánh giặc ạ?"),
+                       (3.4, 4.9, "Ngủ để còn đi. / Nằm xuống!"),
                        (5.2, 9.5, "Lần đầu em thấy có lệnh... / bắt ngủ.")]),
             dict(name="Võng đưa", tiktok="5-10", label="",
                  img=f"First-person view from inside a swaying hammock carried on a bamboo pole by two soldiers, grey sky and bare trees passing above, {FACE} lying back with a blissful smile, realistic, vertical 9:16.",
@@ -198,11 +198,11 @@ EPISODES = [
             dict(name="Nhúng rơm", tiktok="0-5", label="Ngọc Hồi · mùng 5 Tết 1789",
                  img=f"First-person view before dawn by a pond in freezing fog, a stern officer pointing at piles of straw and large wooden boards, {FACE} beside the viewer shivering, realistic, vertical 9:16.",
                  vid=("0-5s: In freezing fog the officer points at straw and wooden boards: \"Nhúng rơm. Bọc kín tấm ván.\" Anh "
-                      "Tư, shivering: \"Rét thế này... nhúng nước ạ?\" The officer: \"Không hỏi.\" 5-10s: Anh Tư dunks an armful "
+                      "Tư, shivering: \"Rét thế này... nhúng nước ạ?\" The officer: \"Sáng mai mày sẽ cảm ơn nó.\" 5-10s: Anh Tư dunks an armful "
                       "of straw into the icy pond and gasps: \"Tết rét căm căm... em đi dầm rơm.\""),
                  subs=[(0.3, 2.4, "Nhúng rơm. / Bọc kín tấm ván."),
-                       (2.4, 3.8, "Rét thế này... / nhúng nước ạ?"),
-                       (3.8, 4.9, "Không hỏi."),
+                       (2.4, 3.4, "Rét thế này... / nhúng nước ạ?"),
+                       (3.4, 4.9, "Sáng mai / mày sẽ cảm ơn nó."),
                        (5.2, 9.5, "Tết rét căm căm... / em đi dầm rơm.")]),
             dict(name="Rơm ướt nặng", tiktok="5-10", label="",
                  img=f"First-person view as many soldiers lift a huge wooden board shield covered in dripping wet straw onto their shoulders, {FACE} at one corner straining, water running down his back, realistic, vertical 9:16.",

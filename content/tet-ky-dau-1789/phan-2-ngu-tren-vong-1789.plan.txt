@@ -13,8 +13,8 @@ clip: tkd2-6.mp4 |  | tiktok=5-10
 clip: tkd2-7.mp4 |  | tiktok=3-10
 
 sub: 1 | 0.3-2.4 | Ba người một võng. / Hai khiêng, một ngủ.
-sub: 1 | 2.4-3.8 | Ngủ... / lúc đi đánh giặc ạ?
-sub: 1 | 3.8-4.9 | Không hỏi.
+sub: 1 | 2.4-3.4 | Ngủ... / lúc đi đánh giặc ạ?
+sub: 1 | 3.4-4.9 | Ngủ để còn đi. / Nằm xuống!
 sub: 1 | 5.2-9.5 | Lần đầu em thấy có lệnh... / bắt ngủ.
 sub: 2 | 5.0-9.5 | Võng đưa... / êm hơn giường nhà em.
 sub: 3 | 0.5-4.8 | Đổi!

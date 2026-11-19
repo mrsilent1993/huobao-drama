@@ -154,10 +154,10 @@ EPISODES = [
                  img=f"First-person view at a river landing outside the capital, boats arriving with elderly men with white beards stepping ashore helped by servants, an official giving orders, {FACE} beside the viewer holding a teapot and a stack of cups, realistic, vertical 9:16.",
                  vid=("0-5s: Boats arrive at the landing; elderly men with white beards step ashore, helped by servants. The "
                       "official says to Anh Tư: \"Đón các cụ cho khéo. Rót nước cho đủ.\" 5-10s: Anh Tư whispers: \"Các cụ khắp "
-                      "nước về kinh... họp gì ạ?\" The official, without looking: \"Không hỏi.\""),
+                      "nước về kinh... họp gì ạ?\" The official, without looking: \"Mày lo ấm nước thôi.\""),
                  subs=[(0.5, 4.8, "Đón các cụ cho khéo. / Rót nước cho đủ."),
                        (5.0, 7.6, "Các cụ khắp nước về kinh... / họp gì ạ?"),
-                       (7.6, 9.6, "Không hỏi.")]),
+                       (7.6, 9.6, "Mày lo ấm nước thôi.")]),
             dict(name="Giọng khắp nơi", tiktok="5-10", label="",
                  img=f"First-person view in a palace hall with red pillars, groups of elderly men from different regions chatting at low tables, {FACE} pouring tea into their cups, listening, realistic, vertical 9:16.",
                  vid=("0-5s: In the hall, Anh Tư pours tea for groups of elderly men chatting in different regional accents; "
@@ -236,10 +236,10 @@ EPISODES = [
                  img=f"First-person view at night in a Trần army camp, an officer pointing at a huge stone mortar and sacks of soot beside a campfire, {FACE} holding a pestle, confused, realistic, vertical 9:16.",
                  vid=("0-5s: The officer points at a huge stone mortar and sacks of soot and says to Anh Tư: \"Pha mực. Pha cho "
                       "đủ cả đạo quân.\" 5-10s: Anh Tư whispers: \"Mực... để viết gì ạ? Ai biết chữ đâu?\" The officer, without "
-                      "looking: \"Không hỏi.\""),
+                      "looking: \"Sáng mai khắc biết.\""),
                  subs=[(0.5, 4.8, "Pha mực. / Pha cho đủ cả đạo quân."),
                        (5.0, 7.8, "Mực... để viết gì ạ? / Ai biết chữ đâu?"),
-                       (7.8, 9.6, "Không hỏi.")]),
+                       (7.8, 9.6, "Sáng mai khắc biết.")]),
             dict(name="Xếp hàng", tiktok="5-10", label="",
                  img=f"First-person view of a long line of Trần soldiers in the torchlight, each rolling up one sleeve, {FACE} carrying a heavy bowl of black ink along the line, realistic, vertical 9:16.",
                  vid=("0-5s: A long line of soldiers in torchlight, each rolling up one sleeve; Anh Tư walks along carrying a "
@@ -318,10 +318,10 @@ EPISODES = [
                  img=f"First-person view on a misty mountain trail, a strict Lê official handing over a huge coil of rope and a bamboo measuring stick, {FACE} looking at the endless ridges, dismayed, realistic, vertical 9:16.",
                  vid=("0-5s: On a misty mountain trail the official hands Anh Tư a huge coil of rope and a bamboo stick: \"Đo đất. "
                       "Từng tấc một.\" 5-10s: Anh Tư looks at the endless ridges and whispers: \"Đo... cả dãy núi này ạ?\" The "
-                      "official: \"Không hỏi.\""),
+                      "official: \"Cả dãy. Cả con sông.\""),
                  subs=[(0.5, 4.8, "Đo đất. / Từng tấc một."),
                        (5.0, 7.8, "Đo... / cả dãy núi này ạ?"),
-                       (7.8, 9.6, "Không hỏi.")]),
+                       (7.8, 9.6, "Cả dãy. Cả con sông.")]),
             dict(name="Leo núi", tiktok="5-10", label="",
                  img=f"First-person view on a steep ridge, {FACE} stretching the rope over rocks while the official counts, clouds below them, realistic, vertical 9:16.",
                  vid=("0-5s: Anh Tư stretches the rope over rocks up a steep ridge while the official counts each length out loud. "

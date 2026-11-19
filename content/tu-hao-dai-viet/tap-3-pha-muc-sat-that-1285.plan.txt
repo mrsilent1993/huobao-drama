@@ -13,7 +13,7 @@ clip: th1285s-6.mp4 |
 
 sub: 1 | 0.5-4.8 | Pha mực. / Pha cho đủ cả đạo quân.
 sub: 1 | 5.0-7.8 | Mực... để viết gì ạ? / Ai biết chữ đâu?
-sub: 1 | 7.8-9.6 | Không hỏi.
+sub: 1 | 7.8-9.6 | Sáng mai khắc biết.
 sub: 2 | 5.0-9.5 | Em tưởng xếp hàng / lĩnh lương... / hóa ra xếp hàng đưa tay.
 sub: 3 | 0.5-4.8 | Hai chữ gì đấy ạ?
 sub: 3 | 5.0-9.5 | Sát Thát. Đánh giặc Thát. / Giặc sang... / thì nhìn tay mà nhớ.

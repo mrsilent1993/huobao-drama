@@ -31,21 +31,21 @@ YT_TAGS = ("tiền giấy đầu tiên việt nam, thông bảo hội sao, hồ 
            "lịch sử việt nam, pov lịch sử, anh tư, đại việt, shorts")
 
 EPISODES = [
-    # ================================================================== Mẫu A: Không hỏi (người vẽ rồng)
+    # ================================================================== Mẫu A: Người vẽ rồng
     dict(COMMON,
         slug="tien-giay-ve-rong", prefix="th1396a",
         voices={"official": "a short, stern male voice", "teahouse woman": "a sharp, quick-witted middle-aged woman's voice"},
-        title="Mẫu A · Không hỏi: bị sai vẽ rồng lên giấy cả đêm, sáng ra mới biết mình vừa vẽ ra… tiền (tiền giấy 1396)",
+        title="Mẫu A · Người vẽ rồng: bị sai vẽ rồng lên giấy cả đêm, sáng ra mới biết mình vừa vẽ ra… tiền (tiền giấy 1396)",
         hook="POV: Vẽ rồng / cả đêm / mà không biết để làm gì",
         clips=[
             dict(name="Vẽ rồng", tiktok="0-5", label="Thăng Long · 1396",
                  img=f"First-person view at night in a lamplit workshop, a stern official dropping a tall stack of blank grayish paper sheets on a low table, a brush and a bowl of ink, {FACE} sitting before it, confused, realistic, vertical 9:16.",
                  vid=("0-5s: The official drops a tall stack of paper: \"Vẽ rồng. Mỗi tờ một con.\" Anh Tư: \"Vẽ rồng... để "
-                      "làm gì ạ?\" The official: \"Không hỏi.\" 5-10s: Anh Tư stares at the stack and whispers: \"Cả chồng "
+                      "làm gì ạ?\" The official: \"Vẽ xấu là vẽ lại.\" 5-10s: Anh Tư stares at the stack and whispers: \"Cả chồng "
                       "này... là cả đêm nay.\""),
                  subs=[(0.3, 2.4, "Vẽ rồng. / Mỗi tờ một con."),
-                       (2.4, 3.8, "Vẽ rồng... / để làm gì ạ?"),
-                       (3.8, 4.9, "Không hỏi."),
+                       (2.4, 3.4, "Vẽ rồng... / để làm gì ạ?"),
+                       (3.4, 4.9, "Vẽ xấu là vẽ lại."),
                        (5.2, 9.5, "Cả chồng này... / là cả đêm nay.")]),
             dict(name="Con giun", tiktok="5-10", label="",
                  img=f"Close view of a sheet of grayish paper with a clumsy, wiggly painted dragon that looks like an earthworm, {FACE} holding the brush and grinning sheepishly, the official frowning, realistic, vertical 9:16.",
@@ -107,11 +107,11 @@ EPISODES = [
             dict(name="Sáng: lĩnh công", tiktok="0-5", label="Sáng · chợ Thăng Long, 1396",
                  img=f"First-person view at a market gate in the morning, a stern official handing {FACE} a single grayish paper note with a painted dragon and a red seal instead of coins, Anh Tư holding it up, puzzled, realistic, vertical 9:16.",
                  vid=("0-5s: The official hands Anh Tư a single paper note with a dragon: \"Công cả tháng. Một quan.\" Anh Tư: "
-                      "\"Tiền... bằng giấy ạ?\" The official: \"Không hỏi.\" 5-10s: Anh Tư flaps the light note and whispers: "
+                      "\"Tiền... bằng giấy ạ?\" The official: \"Giấy nhà nước. Cầm cho chặt.\" 5-10s: Anh Tư flaps the light note and whispers: "
                       "\"Cả tháng làm... nhẹ hơn cái lá.\""),
                  subs=[(0.3, 2.4, "Công cả tháng. / Một quan."),
-                       (2.4, 3.8, "Tiền... bằng giấy ạ?"),
-                       (3.8, 4.9, "Không hỏi."),
+                       (2.4, 3.4, "Tiền... bằng giấy ạ?"),
+                       (3.4, 4.9, "Giấy nhà nước. / Cầm cho chặt."),
                        (5.2, 9.5, "Cả tháng làm... / nhẹ hơn cái lá.")]),
             dict(name="Cắt tóc", tiktok="5-10", label="Gần trưa",
                  img=f"First-person view at a roadside barber under a tree, a chatty old barber with a razor stopping halfway through cutting {FACE}'s hair to stare at the paper note, realistic, vertical 9:16.",
@@ -175,11 +175,11 @@ EPISODES = [
             dict(name="Đổi tiền", tiktok="0-5", label="Thăng Long · 1396",
                  img=f"First-person view at a government exchange table, a stern official pushing a stack of grayish paper notes with painted dragons toward {FACE} and pulling away his heavy strings of copper coins, realistic, vertical 9:16.",
                  vid=("0-5s: The official takes Anh Tư's copper strings and pushes a stack of paper notes back: \"Đổi hết. Đồng "
-                      "nộp lại.\" Anh Tư: \"Hết ạ? Cả tiền vợ em?\" The official: \"Không hỏi.\" 5-10s: Anh Tư hugs the paper "
+                      "nộp lại.\" Anh Tư: \"Hết ạ? Cả tiền vợ em?\" The official: \"Vợ mày cũng phải đổi.\" 5-10s: Anh Tư hugs the paper "
                       "stack, grinning: \"Mà lại còn được lãi!\""),
                  subs=[(0.3, 2.4, "Đổi hết. / Đồng nộp lại."),
-                       (2.4, 3.8, "Hết ạ? / Cả tiền vợ em?"),
-                       (3.8, 4.9, "Không hỏi."),
+                       (2.4, 3.4, "Hết ạ? / Cả tiền vợ em?"),
+                       (3.4, 4.9, "Vợ mày / cũng phải đổi."),
                        (5.2, 9.5, "Mà lại còn được lãi!")]),
             dict(name="Khoe vợ", tiktok="5-10", label="",
                  img=f"First-person view in a thatched house, {FACE} proudly fanning out a stack of dragon paper notes in front of his wife Chị Tư, who stands with hands on hips, unimpressed, realistic, vertical 9:16.",

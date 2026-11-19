@@ -35,22 +35,22 @@ YT_TAGS = ("thành nhà hồ, tây đô, hồ quý ly, 1397, thành đá, di s�
            "việt, lịch sử việt nam, pov lịch sử, anh tư, đại việt, shorts")
 
 EPISODES = [
-    # ================================================================== Mẫu A: Không hỏi (công thức cổ điển)
+    # ================================================================== Mẫu A: Đá không vữa (công thức cổ điển)
     dict(COMMON,
         slug="thanh-nha-ho-khong-hoi", prefix="th1397a",
         voices={"official": "a short, stern male voice", "old mason": "a slow, gravelly old male voice, dry humor",
                 "coworker": "a cheeky young adult male voice"},
-        title="Mẫu A · Không hỏi: bị sai khiêng đá to bằng cái giường, xếp thành tường mà không có vữa (Thành nhà Hồ, 1397)",
+        title="Mẫu A · Đá không vữa: bị sai khiêng đá to bằng cái giường, xếp thành tường mà không có vữa (Thành nhà Hồ, 1397)",
         hook="POV: Xây thành / không cần vữa / trong 3 tháng",
         clips=[
             dict(name="Lệnh", tiktok="0-5", label="An Tôn, Thanh Hóa · 1397",
                  img=f"First-person view at a vast stone-building site, a stern official pointing at a huge blue-grey limestone block as big as a bed, {FACE} beside the viewer holding a rope, jaw dropped, realistic, vertical 9:16.",
                  vid=("0-5s: The official points at a huge stone block: \"Khiêng đá. Xếp thành tường.\" Anh Tư: \"Vữa đâu ạ?\" "
-                      "The official: \"Không hỏi.\" 5-10s: Anh Tư walks around the block, measuring it with his arms, and "
+                      "The official: \"Có vữa thì đã chẳng cần mày.\" 5-10s: Anh Tư walks around the block, measuring it with his arms, and "
                       "whispers: \"Hòn này... to bằng cái giường nhà em.\""),
                  subs=[(0.3, 2.4, "Khiêng đá. / Xếp thành tường."),
-                       (2.4, 3.8, "Vữa đâu ạ?"),
-                       (3.8, 4.9, "Không hỏi."),
+                       (2.4, 3.4, "Vữa đâu ạ?"),
+                       (3.4, 4.9, "Có vữa / thì đã chẳng cần mày."),
                        (5.2, 9.5, "Hòn này... / to bằng cái giường nhà em.")]),
             dict(name="Hai mươi người", tiktok="5-10", label="",
                  img=f"First-person view as twenty bare-chested laborers strain on thick ropes around one giant stone block on wooden rollers, {FACE} pulling in the front, face red, realistic, vertical 9:16.",
@@ -113,11 +113,11 @@ EPISODES = [
             dict(name="Ngày 1", tiktok="0-5", label="Ngày 1 · An Tôn, 1397",
                  img=f"First-person view at dawn on an empty field below limestone mountains, a stern official pointing at rows of huge stone blocks, {FACE} holding a rope, stunned, realistic, vertical 9:16.",
                  vid=("0-5s: Dawn on an empty field. The official: \"Chín mươi ngày. Xong cả tòa thành.\" Anh Tư: \"Chín "
-                      "mươi... ngày ạ?\" The official: \"Không hỏi.\" 5-10s: Anh Tư looks at the empty field, then at the "
+                      "mươi... ngày ạ?\" The official: \"Giờ còn tám chín ngày rưỡi.\" 5-10s: Anh Tư looks at the empty field, then at the "
                       "camera: \"Ngày một. Cánh đồng này... chưa có gì.\""),
                  subs=[(0.3, 2.4, "Chín mươi ngày. / Xong cả tòa thành."),
-                       (2.4, 3.8, "Chín mươi... ngày ạ?"),
-                       (3.8, 4.9, "Không hỏi."),
+                       (2.4, 3.4, "Chín mươi... ngày ạ?"),
+                       (3.4, 4.9, "Giờ còn / tám chín ngày rưỡi."),
                        (5.2, 9.5, "Ngày một. / Cánh đồng này... chưa có gì.")]),
             dict(name="Ngày 5", tiktok="5-10", label="Ngày 5",
                  img=f"First-person view at a lunch break, {FACE} sitting on a huge stone block, rubbing his bruised shoulder and eating a rice ball, exhausted laborers around, realistic, vertical 9:16.",
@@ -176,11 +176,11 @@ EPISODES = [
             dict(name="Luật sợi tóc", tiktok="0-5", label="An Tôn, Thanh Hóa · 1397",
                  img=f"First-person view of a nearly bald, very strict old master mason with a thin white beard holding up a single strand of hair between two fingers in front of a stone wall, {FACE} beside him, confused, realistic, vertical 9:16.",
                  vid=("0-5s: The old master mason plucks one strand of hair and holds it up: \"Khe nào lọt sợi tóc này... là "
-                      "dỡ ra xếp lại.\" Anh Tư: \"Không có vữa ạ?\" The mason: \"Không hỏi.\" 5-10s: Anh Tư glances at the "
+                      "dỡ ra xếp lại.\" Anh Tư: \"Không có vữa ạ?\" The mason: \"Vữa là cho thợ vụng.\" 5-10s: Anh Tư glances at the "
                       "mason's nearly bald head and covers a smile."),
                  subs=[(0.3, 2.6, "Khe nào lọt sợi tóc này / là dỡ ra xếp lại."),
-                       (2.6, 3.9, "Không có vữa ạ?"),
-                       (3.9, 4.9, "Không hỏi.")]),
+                       (2.6, 3.4, "Không có vữa ạ?"),
+                       (3.4, 4.9, "Vữa là / cho thợ vụng.")]),
             dict(name="Dỡ!", tiktok="5-10", label="",
                  img=f"Close view of the old mason's fingers sliding a strand of hair into a tiny gap between two huge stone blocks, laborers groaning behind, {FACE} slapping his forehead, realistic, vertical 9:16.",
                  vid=("0-5s: The mason slides his hair into a joint; it goes in a little. He says flatly: \"Dỡ.\" Twenty "

@@ -19,7 +19,7 @@
 ## B. Ý tưởng
 
 - **Việc vô lý Anh Tư bị giao:**
-- **Câu "Không hỏi." của cấp trên:**
+- **Câu gạt của cấp trên (mỗi tập một câu riêng, hợp nhân vật; KHÔNG dùng "Không hỏi."):**
 - **Câu đáng gửi bạn bè (câu chính của tập):**
 - **Cú lật ở cuối (sự kiện thật, lời người dẫn chuyện):**
 - **Câu chốt cuối RIÊNG của tập, nối lại chi tiết nào trong tập:** (không dùng "Ghi tên em vào sử")
