@@ -11,8 +11,8 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.join(HERE, "..", "tools"))
 from series import build, MUC_MOI  # noqa: E402
 
-FACE = ("a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a "
-        "chipped front tooth, very expressive face")
+FACE = ("a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a chipped front tooth; "
+        "he acts naturally and understated, like a real person, not a performer")
 NO_TEXT = "No flags, no visible or legible writing anywhere, no modern objects, no blood, no dead bodies."
 
 NOTE = ("**Tự hào Đại Việt:** những lần tổ tiên khiến ta tự hào vì cách cư xử (nhân nghĩa, khôn ngoan, đoàn kết), kể theo "
@@ -76,9 +76,9 @@ EPISODES = [
                        (6.0, 7.9, "Cớ sao lũ giặc / sang xâm phạm?"),
                        (7.9, 9.8, "Chúng mày nhất định / phải tan vỡ.")]),
             dict(name="Thắng thế", tiktok="5-10", label="Mấy tuần sau",
-                 img=f"First-person view from the rampart at dawn across the river, the Song camp quiet and smoky with tired, sick soldiers sitting by fires, {FACE} grinning and gripping his spear, an officer beside him shaking his head, realistic, vertical 9:16.",
+                 img=f"First-person view from the rampart at dawn across the river, the Song camp quiet and smoky with tired, sick soldiers sitting by fires, {FACE} gripping his spear, an officer beside him shaking his head, realistic, vertical 9:16.",
                  vid=("0-5s: Dawn; across the river the Song camp is quiet and smoky, soldiers sitting tired and sick by the "
-                      "fires. Anh Tư grips his spear and grins: \"Giặc mệt lắm rồi! Mai đánh nốt là xong!\" 5-10s: The officer "
+                      "fires. Anh Tư grips his spear: \"Giặc mệt lắm rồi! Mai đánh nốt là xong!\" 5-10s: The officer "
                       "beside him shakes his head: \"Không đánh nữa. Thái úy gọi mày.\" Anh Tư blinks: \"Ơ...?\""),
                  subs=[(0.5, 4.8, "Giặc mệt lắm rồi! / Mai đánh nốt là xong!"),
                        (5.0, 7.6, "Không đánh nữa. / Thái úy gọi mày."),
@@ -106,10 +106,10 @@ EPISODES = [
                  subs=[(0.5, 4.8, "Thắng rồi... / mà còn mở đường cho nó về."),
                        (5.0, 9.5, "Đánh nữa thì hai bên / cùng mất người. / Để nó về, nó nhớ lâu.")]),
             dict(name="Câu chốt", label="",
-                 img=f"First-person view at sunset over the calm river and the empty north bank where the camp used to be, {FACE} sitting on the rampart, thoughtful, then smiling at the camera, realistic, vertical 9:16.",
+                 img=f"First-person view at sunset over the calm river and the empty north bank where the camp used to be, {FACE} sitting on the rampart, thoughtful, then looking at the camera, realistic, vertical 9:16.",
                  vid=("0-5s: Sunset over the calm river; the north bank is empty. A calm narrator's voice says: \"Năm 1077, "
                       "Lý Thường Kiệt chủ động giảng hòa khi đang thắng thế, mở đường cho quân Tống rút về.\" 5-10s: Anh Tư "
-                      "looks at the empty bank, then smiles at the camera: \"Đánh giỏi đã khó... biết dừng còn khó hơn.\""),
+                      "looks at the empty bank, then looks at the camera: \"Đánh giỏi đã khó... biết dừng còn khó hơn.\""),
                  subs=[(0.3, 4.8, "Năm 1077, đang thắng thế, / Lý Thường Kiệt chủ động / giảng hòa, mở đường / cho quân Tống rút về."),
                        (5.0, 8.4, "Đánh giỏi đã khó... / biết dừng còn khó hơn.")]),
         ],
@@ -254,9 +254,9 @@ EPISODES = [
                  subs=[(0.5, 4.8, "Hai chữ gì đấy ạ?"),
                        (5.0, 9.5, "Sát Thát. Đánh giặc Thát. / Giặc sang... / thì nhìn tay mà nhớ.")]),
             dict(name="Tên người yêu", label="",
-                 img=f"First-person view as a cheeky young soldier holds out his arm to the tattooer and grins, the tattooer shaking his head, other soldiers laughing, {FACE} in the foreground laughing, realistic, vertical 9:16.",
+                 img=f"First-person view as a cheeky young soldier holds out his arm to the tattooer, hopeful, the tattooer shaking his head, a few soldiers smirking, {FACE} in the foreground, trying not to smile, realistic, vertical 9:16.",
                  vid=("0-5s: A cheeky young soldier holds out his arm and asks: \"Thêm tên người yêu em vào được không?\" The "
-                      "tattooer: \"Hai chữ thôi.\" The soldiers laugh. 5-10s: Anh Tư turns to the viewer: \"Cả đạo quân xăm "
+                      "tattooer: \"Hai chữ thôi.\" A few soldiers snort. 5-10s: Anh Tư turns to the viewer: \"Cả đạo quân xăm "
                       "cùng một chữ... không ai xăm tên người yêu.\""),
                  subs=[(0.5, 3.2, "Thêm tên người yêu em / vào được không?"),
                        (3.2, 4.8, "Hai chữ thôi."),
@@ -272,7 +272,7 @@ EPISODES = [
                  img=f"First-person view at sunrise by the river, rows of soldiers with dark tattoos on their forearms marching off, {FACE} raising his own forearm with 殺韃 tattooed on it toward the camera, proud, realistic, vertical 9:16.",
                  vid=("0-5s: Sunrise; soldiers with dark tattoos on their forearms march off along the river. A calm narrator's "
                       "voice says: \"Năm 1285, trước khi quân Nguyên sang lần thứ hai, quân sĩ nhà Trần đều thích vào cánh tay "
-                      "hai chữ: Sát Thát.\" 5-10s: Anh Tư raises his own tattooed forearm to the camera and grins: \"Mực em pha "
+                      "hai chữ: Sát Thát.\" 5-10s: Anh Tư raises his own tattooed forearm to the camera: \"Mực em pha "
                       "đấy... cả đời không phai.\""),
                  subs=[(0.3, 4.8, "Năm 1285, quân sĩ nhà Trần / thích vào cánh tay / hai chữ: Sát Thát."),
                        (5.0, 8.4, "Mực em pha đấy... / cả đời không phai.")]),
@@ -345,7 +345,7 @@ EPISODES = [
             dict(name="Bản đồ", tiktok="5-10", label="",
                  img=f"First-person view of a hand-painted map of mountains and rivers on paper (no writing at all), an official marking a line along a ridge with a brush, {FACE} placing his knotted rope beside it, realistic, vertical 9:16.",
                  vid=("0-5s: An official carefully paints a line along a ridge on a hand-drawn map of mountains and rivers, "
-                      "following the knots on Anh Tư's rope. 5-10s: Anh Tư grins at the viewer: \"Cái thừng của em... thành biên "
+                      "following the knots on Anh Tư's rope. 5-10s: Anh Tư says quietly to the viewer: \"Cái thừng của em... thành biên "
                       "giới.\""),
                  subs=[(5.0, 9.5, "Cái thừng của em... / thành biên giới.")]),
             dict(name="Câu chốt", label="",
@@ -369,6 +369,14 @@ EPISODES = [
                  "lịch sử việt nam, pov lịch sử, anh tư, đại việt, shorts"),
     ),
 ]
+
+ACTING = ("Acting: natural and understated, like real people filmed in a documentary; small reactions (a sigh, a glance, a pause, a shake of the head) instead of big expressions. Anh Tư smiles at most once in the whole clip and never laughs at the camera; no exaggerated mugging or cartoonish faces.")
+for _ep in EPISODES:
+    _ep["setting"] = _ep["setting"] + " " + ACTING
+    for _c in _ep["clips"]:
+        if _c.get("setting"):
+            _c["setting"] = _c["setting"] + " " + ACTING
+
 
 if __name__ == "__main__":
     build(EPISODES, HERE, series_tag="#tuhaodaiviet #anhtu", note=NOTE, unit="Tập", file_unit="tap")

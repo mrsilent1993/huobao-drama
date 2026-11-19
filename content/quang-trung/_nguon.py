@@ -9,6 +9,7 @@ sys.path.insert(0, os.path.join(HERE, "..", "tay-son-tung-moc"))
 sys.path.insert(0, os.path.join(HERE, "..", "tools"))
 from series import build, MUC_MOI  # noqa: E402
 from _nguon import FACE, QING_EN, QING_VIS  # noqa: E402
+FACE = ("a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a chipped front tooth; he acts naturally and understated, like a real person, not a performer")
 
 HUE = "Central Vietnamese (Huế) accent"
 NGHE = "Central Vietnamese (Nghệ An) accent"
@@ -49,7 +50,7 @@ EPISODES = [
             c("Cuộn chiếu", "0-5", "Thăng Long · 1786",
               f"First-person view in a palace courtyard, a stern officer handing {FACE} a large rolled-up fine sedge mat",
               ("0-5s: The officer hands Anh Tư a large rolled mat: \"Vào điện trải chiếu. Trải cho phẳng.\" Anh Tư: \"Để ông "
-               "Tướng ngồi ạ?\" The officer: \"Trải đi rồi biết.\" 5-10s: Anh Tư strokes the fine mat and grins: \"Chiếu đẹp "
+               "Tướng ngồi ạ?\" The officer: \"Trải đi rồi biết.\" 5-10s: Anh Tư strokes the fine mat: \"Chiếu đẹp "
                "thế này... chắc để ông ấy ngồi lên ngai.\""),
               [(0.3, 2.2, "Vào điện trải chiếu. / Trải cho phẳng."), (2.2, 3.4, "Để ông Tướng ngồi ạ?"),
                (3.4, 4.9, "Trải đi rồi biết."), (5.2, 9.5, "Chiếu đẹp thế này... / chắc để ông ấy ngồi lên ngai.")]),
@@ -77,8 +78,8 @@ EPISODES = [
               [(0.5, 4.8, "Khanh có công lớn / với nhà Lê."),
                (5.0, 9.5, "Vua già yếu thế kia... / mà người thắng trận / vẫn cúi đầu.")]),
             c("Dân reo", "5-10", "",
-              f"First-person view at the palace gate, townspeople who were anxious before now smiling and cheering, an old man bowing toward the palace, {FACE} grinning",
-              ("0-5s: News spreads to the gate; the townspeople cheer: \"Phù Lê! Phù Lê!\" 5-10s: Anh Tư grins at the viewer: "
+              f"First-person view at the palace gate, townspeople who were anxious before now smiling and cheering, an old man bowing toward the palace, {FACE} watching, relieved",
+              ("0-5s: News spreads to the gate; the townspeople cheer: \"Phù Lê! Phù Lê!\" 5-10s: Anh Tư says quietly to the viewer: "
                "\"Hôm qua dân sợ... hôm nay dân reo.\""),
               [(0.5, 4.8, "Phù Lê! Phù Lê!"), (5.0, 9.5, "Hôm qua dân sợ... / hôm nay dân reo.")]),
             c("Câu chốt", "3-10", "",
@@ -144,8 +145,8 @@ EPISODES = [
                "Đánh cho để đen răng!\" The whole army roars and raises their spears."),
               [(5.0, 9.5, "Đánh cho để dài tóc! / Đánh cho để đen răng!")]),
             c("Tóc dài răng đen", "5-10", "",
-              f"Close first-person view as {FACE} touches his own long topknot and grins with his black-lacquered teeth, determined, the roaring army around him",
-              ("0-5s: As the army roars, Anh Tư touches his long topknot, then grins showing his black teeth. 5-10s: He says to "
+              f"Close first-person view as {FACE} touches his own long topknot and sets his jaw, determined, the roaring army around him",
+              ("0-5s: As the army roars, Anh Tư touches his long topknot, then looks ahead, his black teeth showing as he speaks. 5-10s: He says to "
                "the viewer: \"Tóc em dài, răng em đen... thì em phải đánh.\""),
               [(5.0, 9.5, "Tóc em dài, răng em đen... / thì em phải đánh.")]),
             c("Câu chốt", "3-10", "",
@@ -203,16 +204,16 @@ EPISODES = [
               [(5.0, 9.5, "Sợ nhất không phải giặc... / mà rụng một bông đào.")]),
             c("Mưa", "5-10", "",
               f"First-person view in heavy rain on the coastal plain, {FACE} soaked to the skin, the peach branch wrapped dry inside his shirt",
-              ("0-5s: Heavy rain; Anh Tư takes off his outer shirt and wraps the branch inside it. 5-10s: Soaked, he grins at "
+              ("0-5s: Heavy rain; Anh Tư takes off his outer shirt and wraps the branch inside it. 5-10s: Soaked, he says to "
                "the viewer: \"Em ướt hết... đào thì khô.\""),
               [(5.0, 9.5, "Em ướt hết... / đào thì khô.")]),
             c("Đếm bông", "5-10", "",
-              f"Close first-person view at dawn by the roadside, {FACE} carefully counting the pink blossoms on the branch with one fingertip, exhausted but smiling",
+              f"Close first-person view at dawn by the roadside, {FACE} carefully counting the pink blossoms on the branch with one fingertip, exhausted, relieved",
               ("0-5s: At dawn Anh Tư counts the blossoms with one fingertip, lips moving. 5-10s: He sighs with relief: \"Đi "
                "bao nhiêu bông... về đủ bấy nhiêu bông.\""),
               [(5.0, 9.5, "Đi bao nhiêu bông... / về đủ bấy nhiêu bông.")]),
             c("Câu chốt", "3-10", "Phú Xuân",
-              f"First-person view at the gate of the Phú Xuân palace, an adult palace attendant receiving the fresh peach branch with both hands, {FACE} mud-splattered and smiling",
+              f"First-person view at the gate of the Phú Xuân palace, an adult palace attendant receiving the fresh peach branch with both hands, {FACE} mud-splattered, quietly relieved",
               ("0-4.5s: At the Phú Xuân palace gate an adult palace attendant receives the fresh branch with both hands. A "
                "calm narrator's voice says: \"Theo truyền tụng, Tết Kỷ Dậu 1789, vua Quang Trung gửi cành đào Thăng Long về "
                "Phú Xuân. Đến nơi, hoa vẫn tươi.\" 4.5-10s: Anh Tư, mud-splattered, to the camera: \"Người ta báo tin thắng "
@@ -278,7 +279,7 @@ EPISODES = [
                "với người bên ấy... cơm Đại Việt ngon, nhưng đừng sang ăn nữa.\""),
               [(5.0, 9.5, "Cơm Đại Việt ngon... / nhưng đừng sang ăn nữa.")]),
             c("Câu chốt", "3-10", "",
-              f"First-person view in the empty courtyard at dusk, {FACE} scraping the bottom of the giant pot and eating the burnt rice crust himself, smiling",
+              f"First-person view in the empty courtyard at dusk, {FACE} scraping the bottom of the giant pot and eating the burnt rice crust himself",
               ("0-4.5s: Dusk; the courtyard is empty. A calm narrator's voice says: \"Sau chiến thắng Kỷ Dậu 1789, vua Quang "
                "Trung cho nuôi ăn tù binh nhà Thanh rồi thả về nước, mở đường giảng hòa.\" 4.5-10s: Anh Tư eats the burnt crust "
                "from the pot: \"Đánh cho nó sợ... nuôi cho nó nhớ.\""),
@@ -331,8 +332,8 @@ EPISODES = [
                "the viewer: \"Hôm qua còn chống vua... hôm nay được vua mời.\""),
               [(5.0, 9.5, "Hôm qua còn chống vua... / hôm nay được vua mời.")]),
             c("Xếp hàng", "5-10", "",
-              f"First-person view at a palace gate, a line of scholars in dark robes with cloth bundles waiting to enter, {FACE} standing guard and grinning",
-              ("0-5s: At the palace gate a line of scholars waits with their bundles. 5-10s: Anh Tư grins at the viewer: \"Hôm "
+              f"First-person view at a palace gate, a line of scholars in dark robes with cloth bundles waiting to enter, {FACE} standing guard, eyebrows raised",
+              ("0-5s: At the palace gate a line of scholars waits with their bundles. 5-10s: Anh Tư says quietly to the viewer: \"Hôm "
                "qua trốn kỹ thế... hôm nay xếp hàng dài thế.\""),
               [(5.0, 9.5, "Hôm qua trốn kỹ thế... / hôm nay xếp hàng dài thế.")]),
             c("Mày thì sao", "5-10", "",
@@ -392,7 +393,7 @@ EPISODES = [
                (5.0, 9.5, "Người ta chạy giặc mấy năm... / giờ mới dám về.")]),
             c("Gác giáo cầm cày", "5-10", "",
               f"First-person view in a field as {FACE} leans his spear against a tree and takes a plough from a farmer, a water buffalo waiting",
-              ("0-5s: Anh Tư leans his spear against a tree and takes the plough handle. 5-10s: He grins at the viewer: \"Đánh "
+              ("0-5s: Anh Tư leans his spear against a tree and takes the plough handle. 5-10s: He says quietly to the viewer: \"Đánh "
                "giặc xong... việc tiếp theo là cày.\""),
               [(5.0, 9.5, "Đánh giặc xong... / việc tiếp theo là cày.")]),
             c("Phạt", "5-10", "",
@@ -456,8 +457,8 @@ EPISODES = [
                "to the viewer: \"Lần này em đọc... cả làng vểnh tai.\""),
               [(5.0, 9.5, "Lần này em đọc... / cả làng vểnh tai.")]),
             c("Vua nói thế à", "5-10", "",
-              f"First-person view of an old woman in the front row slapping her knee in surprise, villagers nodding, {FACE} holding the edict and grinning",
-              ("0-5s: An old woman slaps her knee: \"Ơ! Vua nói thế à?\" 5-10s: Anh Tư grins at the viewer: \"Lần đầu vua viết... "
+              f"First-person view of an old woman in the front row slapping her knee in surprise, villagers nodding, {FACE} holding the edict",
+              ("0-5s: An old woman slaps her knee: \"Ơ! Vua nói thế à?\" 5-10s: Anh Tư says quietly to the viewer: \"Lần đầu vua viết... "
                "mà cả làng nghe hiểu.\""),
               [(0.5, 4.8, "Ơ! Vua nói thế à?"), (5.0, 9.5, "Lần đầu vua viết... / mà cả làng nghe hiểu.")]),
             c("Cãi nhau", "5-10", "",
@@ -521,7 +522,7 @@ EPISODES = [
                "5-10s: Anh Tư nearly drops his pole: \"Xin... cái gì cơ ạ?\""),
               [(0.5, 4.8, "Xin cưới công chúa... / và xin đất Lưỡng Quảng."), (5.0, 9.5, "Xin... / cái gì cơ ạ?")]),
             c("Của hồi môn", "5-10", "",
-              f"First-person view as {FACE} turns to the viewer on the mountain road, the procession behind him, a stunned, disbelieving grin on his face",
+              f"First-person view as {FACE} turns to the viewer on the mountain road, the procession behind him, a stunned, disbelieving look",
               ("0-5s: Anh Tư walks on, still stunned. 5-10s: He turns to the viewer: \"Đi hỏi vợ... mà đòi của hồi môn là hai "
                "tỉnh.\""),
               [(5.0, 9.5, "Đi hỏi vợ... / mà đòi của hồi môn / là hai tỉnh.")]),
@@ -536,7 +537,7 @@ EPISODES = [
                "mãi... nhà gái chưa trả lời.\""),
               [(5.0, 9.5, "Chờ mãi... / nhà gái chưa trả lời.")]),
             c("Câu chốt", "3-10", "",
-              f"First-person view at dusk on the road home in autumn, falling leaves, {FACE} walking slowly with the pole, looking down, then up at the camera with a sad, proud smile",
+              f"First-person view at dusk on the road home in autumn, falling leaves, {FACE} walking slowly with the pole, looking down, then up at the camera with quiet pride",
               ("0-4.5s: Autumn dusk on the road home. A calm narrator's voice says: \"Theo một số sách chép, năm 1792 vua Quang "
                "Trung sai sứ cầu hôn công chúa nhà Thanh và xin đất Lưỡng Quảng. Chưa có hồi âm, mùa thu năm ấy, vua mất.\" "
                "4.5-10s: Anh Tư looks up at the camera: \"Đám hỏi chưa xong... mà cả nước đã nhớ ông ấy.\""),
@@ -554,6 +555,14 @@ EPISODES = [
         yt_title="Năm 1792: vua Quang Trung cầu hôn công chúa nhà Thanh, xin Lưỡng Quảng? | Loạt Quang Trung",
         yt_tags="lưỡng quảng, cầu hôn công chúa nhà thanh, bang giao hảo thoại, 1792, " + YT),
 ]
+
+ACTING = ("Acting: natural and understated, like real people filmed in a documentary; small reactions (a sigh, a glance, a pause, a shake of the head) instead of big expressions. Anh Tư smiles at most once in the whole clip and never laughs at the camera; no exaggerated mugging or cartoonish faces.")
+for _ep in EPISODES:
+    _ep["setting"] = _ep["setting"] + " " + ACTING
+    for _c in _ep["clips"]:
+        if _c.get("setting"):
+            _c["setting"] = _c["setting"] + " " + ACTING
+
 
 if __name__ == "__main__":
     build(EPISODES, HERE, series_tag="#loatquangtrung #anhtu", note=NOTE, unit="Tập", file_unit="tap")

@@ -9,6 +9,7 @@ sys.path.insert(0, os.path.join(HERE, "..", "tay-son-tung-moc"))
 sys.path.insert(0, os.path.join(HERE, "..", "tools"))
 from series import build, MUC_MOI  # noqa: E402
 from _nguon import FACE, QING_EN, QING_VIS  # noqa: E402
+FACE = ("a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a chipped front tooth; he acts naturally and understated, like a real person, not a performer")
 
 GIONG = "Central Vietnamese (Huế) accent"
 ARMY = ("Tây Sơn soldiers with black-lacquered teeth in dark-red uniforms with red head wraps, spears and swords")
@@ -82,9 +83,9 @@ EPISODES = [
                       "Tư looks back at the dying campfires: \"Giao thừa năm nay... em đón ở trên đường.\""),
                  subs=[(5.0, 9.5, "Giao thừa năm nay... / em đón ở trên đường.")]),
             dict(name="Câu chốt", tiktok="3-10", label="",
-                 img=f"First-person view at dawn on a road north, {FACE} marching with his spear, chewing the last piece of bánh chưng, grinning at the camera, realistic, vertical 9:16.",
+                 img=f"First-person view at dawn on a road north, {FACE} marching with his spear, chewing the last piece of bánh chưng, looking at the camera, realistic, vertical 9:16.",
                  vid=("0-4.5s: Dawn on the road north. A calm narrator's voice says: \"Cuối năm Mậu Thân, vua Quang Trung cho quân "
-                      "ăn Tết sớm ở Tam Điệp, hẹn mùng bảy vào Thăng Long.\" 4.5-10s: Anh Tư grins at the camera, chewing: "
+                      "ăn Tết sớm ở Tam Điệp, hẹn mùng bảy vào Thăng Long.\" 4.5-10s: Anh Tư says to the camera, chewing: "
                       "\"Tết này em ăn trước... trả sau.\""),
                  subs=[(3.0, 6.0, "Vua Quang Trung cho quân / ăn Tết sớm, hẹn mùng bảy / vào Thăng Long."),
                        (6.1, 8.4, "Tết này em ăn trước... / trả sau.")]),
@@ -128,7 +129,7 @@ EPISODES = [
                        (3.4, 4.9, "Ngủ để còn đi. / Nằm xuống!"),
                        (5.2, 9.5, "Lần đầu em thấy có lệnh... / bắt ngủ.")]),
             dict(name="Võng đưa", tiktok="5-10", label="",
-                 img=f"First-person view from inside a swaying hammock carried on a bamboo pole by two soldiers, grey sky and bare trees passing above, {FACE} lying back with a blissful smile, realistic, vertical 9:16.",
+                 img=f"First-person view from inside a swaying hammock carried on a bamboo pole by two soldiers, grey sky and bare trees passing above, {FACE} lying back eyes half closed, realistic, vertical 9:16.",
                  vid=("0-5s: Anh Tư lies in the hammock swaying gently as two comrades jog along the road. 5-10s: Eyes half "
                       "closed, he murmurs: \"Võng đưa... êm hơn giường nhà em.\""),
                  subs=[(5.0, 9.5, "Võng đưa... / êm hơn giường nhà em.")]),
@@ -148,7 +149,7 @@ EPISODES = [
             dict(name="Bà cụ bên đường", tiktok="5-10", label="",
                  img=f"First-person view at dawn by a village gate, an old woman offering a bowl of water to the passing soldiers, {FACE} taking it while still carrying the hammock pole, realistic, vertical 9:16.",
                  vid=("0-5s: At dawn an old woman at a village gate offers water: \"Quân đi đâu mà nhanh thế các con?\" 5-10s: "
-                      "Anh Tư gulps the water and grins: \"Đi ăn Tết bà ạ. Mùng bảy... ở Thăng Long.\""),
+                      "Anh Tư gulps the water and answers: \"Đi ăn Tết bà ạ. Mùng bảy... ở Thăng Long.\""),
                  subs=[(0.5, 4.8, "Quân đi đâu / mà nhanh thế các con?"),
                        (5.0, 9.5, "Đi ăn Tết bà ạ. / Mùng bảy... ở Thăng Long.")]),
             dict(name="Ngủ đủ giấc", tiktok="5-10", label="",
@@ -158,7 +159,7 @@ EPISODES = [
                       "đủ giấc.\""),
                  subs=[(5.0, 9.5, "Giặc ăn Tết thức trắng... / quân mình thì ngủ đủ giấc.")]),
             dict(name="Câu chốt", tiktok="3-10", label="",
-                 img=f"First-person view at dawn, {FACE} rolling up the hammock and tying it to his pack, fresh and smiling, soldiers forming up behind him, realistic, vertical 9:16.",
+                 img=f"First-person view at dawn, {FACE} rolling up the hammock and tying it to his pack, fresh and alert, soldiers forming up behind him, realistic, vertical 9:16.",
                  vid=("0-4.5s: Dawn. A calm narrator's voice says: \"Theo truyền tụng, quân Tây Sơn đi ba người một võng, thay "
                       "nhau khiêng, ngày đêm không nghỉ.\" 4.5-10s: Anh Tư rolls up the hammock and says to the camera: \"Đi "
                       "đánh giặc... mà em ngủ nhiều hơn ở nhà.\""),
@@ -217,9 +218,9 @@ EPISODES = [
                       "tường rơm đi tới.\""),
                  subs=[(5.0, 9.5, "Sương mù thế này... / giặc chỉ thấy / một bức tường rơm đi tới.")]),
             dict(name="Xèo!", tiktok="5-10", label="",
-                 img=f"Close first-person view from behind the board shield as flaming arrows thud into the thick wet straw and fizzle out in puffs of white steam, {FACE} flinching then grinning, realistic, vertical 9:16.",
+                 img=f"Close first-person view from behind the board shield as flaming arrows thud into the thick wet straw and fizzle out in puffs of white steam, {FACE} flinching then exhaling, realistic, vertical 9:16.",
                  vid=("0-5s: Fire arrows thud into the wet straw one after another; each fizzles out with a hiss and a puff of "
-                      "steam. 5-10s: Anh Tư grins at the viewer: \"Cả đời em nhóm bếp ghét rơm ướt... hôm nay rơm ướt cứu cả "
+                      "steam. 5-10s: Anh Tư says quietly to the viewer: \"Cả đời em nhóm bếp ghét rơm ướt... hôm nay rơm ướt cứu cả "
                       "đạo quân.\""),
                  subs=[(0.5, 4.8, "Xèo! Xèo!"),
                        (5.0, 9.5, "Cả đời em nhóm bếp / ghét rơm ướt... / hôm nay rơm ướt / cứu cả đạo quân.")]),
@@ -236,10 +237,10 @@ EPISODES = [
                       "súng... mà vẫn đi đầu.\""),
                  subs=[(5.0, 9.5, "Áo vua đen sì khói súng... / mà vẫn đi đầu.")]),
             dict(name="Câu chốt", tiktok="3-10", label="",
-                 img=f"First-person view in the afternoon at a city gate of Thăng Long, Tây Sơn soldiers marching in, townspeople coming out of doorways, {FACE} laughing and counting on his fingers, realistic, vertical 9:16.",
+                 img=f"First-person view in the afternoon at a city gate of Thăng Long, Tây Sơn soldiers marching in, townspeople coming out of doorways, {FACE} counting on his fingers, realistic, vertical 9:16.",
                  vid=("0-4.5s: Afternoon at a Thăng Long city gate; soldiers march in and townspeople come out. A calm narrator's "
                       "voice says: \"Mùng 5 Tết Kỷ Dậu, quân Tây Sơn phá đồn Ngọc Hồi. Chiều hôm ấy, vua Quang Trung vào Thăng "
-                      "Long.\" 4.5-10s: Anh Tư counts on his fingers and laughs: \"Hẹn mùng bảy ăn Tết ở Thăng Long... mùng năm "
+                      "Long.\" 4.5-10s: Anh Tư counts on his fingers, shaking his head: \"Hẹn mùng bảy ăn Tết ở Thăng Long... mùng năm "
                       "đã tới.\""),
                  subs=[(3.0, 6.0, "Mùng 5 Tết, phá đồn Ngọc Hồi. / Chiều hôm ấy, vua Quang Trung / vào Thăng Long."),
                        (6.1, 8.4, "Hẹn mùng bảy... / mùng năm đã tới.")]),
@@ -256,6 +257,14 @@ EPISODES = [
         yt_tags="rơm ướt, tấm mộc rơm, đồn ngọc hồi, " + YT_BASE,
     ),
 ]
+
+ACTING = ("Acting: natural and understated, like real people filmed in a documentary; small reactions (a sigh, a glance, a pause, a shake of the head) instead of big expressions. Anh Tư smiles at most once in the whole clip and never laughs at the camera; no exaggerated mugging or cartoonish faces.")
+for _ep in EPISODES:
+    _ep["setting"] = _ep["setting"] + " " + ACTING
+    for _c in _ep["clips"]:
+        if _c.get("setting"):
+            _c["setting"] = _c["setting"] + " " + ACTING
+
 
 if __name__ == "__main__":
     build(EPISODES, HERE, series_tag="#taysontungmoc #anhtu", note=NOTE, unit="Phần", file_unit="phan")

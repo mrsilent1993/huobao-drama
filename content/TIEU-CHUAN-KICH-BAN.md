@@ -10,7 +10,8 @@ Gốc từ video Bạch Đằng 938 "Cắm cọc cả buổi sáng" (1,7 triệu
 
 1. **Người thường bị giao một việc vô lý, không ai giải thích.** Cấp trên gạt đi, không giải thích, nên người xem tò mò đến cuối mới biết lý do. **Câu gạt mỗi tập phải khác nhau và hợp nhân vật, hợp việc** (từ 19/11/2026 không dùng lại "Không hỏi."), tốt nhất là tự nó đã buồn cười hoặc gài sẵn cho cú lật, ví dụ: "Có vữa thì đã chẳng cần mày." (thợ xây), "Vợ mày cũng phải đổi." (đổi tiền, gài cho cảnh vợ giấu hũ đồng), "Sáng mai mày sẽ cảm ơn nó." (nhúng rơm ướt). Không bắt buộc cảnh 1 nào cũng có câu gạt: có thể cho cấp trên bỏ đi luôn, trả lời lạc đề, hoặc chỉ nhìn.
 2. **Nhân vật quen mặt: Anh Tư.**
-   - Ngoại hình: sẹo ngang lông mày trái, răng cửa mẻ, cười toe, da rám nắng, khoảng 30 tuổi. Luôn dùng ảnh tham chiếu (prompt trong `bach-dang/README.md`).
+   - Ngoại hình: sẹo ngang lông mày trái, răng cửa mẻ, da rám nắng, khoảng 30 tuổi.
+   - **Diễn xuất (từ 19/11/2026):** tự nhiên, tiết chế như người thật trong phim tài liệu. Cái hài nằm ở câu thoại và tình huống, không nằm ở nét mặt. Mỗi clip Anh Tư cười **tối đa một lần**, không cười vào ống kính, không nhăn nhó quá đà. Thay "grins / laughs" bằng phản ứng nhỏ: thở dài, liếc nhìn, ngập ngừng, lắc đầu, nói nhỏ. Prompt gắn câu `ACTING` (xem `tu-hao-dai-viet/_nguon.py`) vào bối cảnh của mọi clip. Luôn dùng ảnh tham chiếu (prompt trong `bach-dang/README.md`).
    - Mỗi tập là một đời con cháu, hoặc cùng một người ở cùng thời.
 3. **Mỗi clip đúng một câu chốt ngắn**, đủ để người xem gửi cho bạn bè.
 4. **Vỡ lẽ ở clip cuối:**

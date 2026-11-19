@@ -125,9 +125,9 @@ EPISODES = [
                       "the camera, deadpan: \"Ngày năm. Vai em giờ... cũng cứng như đá.\""),
                  subs=[(5.0, 9.5, "Ngày năm. / Vai em giờ... / cũng cứng như đá.")]),
             dict(name="Ngày 20", tiktok="5-10", label="Ngày 20",
-                 img=f"First-person view as laborers pour buckets of water on a path of wet clay and a giant stone block on a wooden sledge slides forward, {FACE} pulling a rope and grinning, realistic, vertical 9:16.",
+                 img=f"First-person view as laborers pour buckets of water on a path of wet clay and a giant stone block on a wooden sledge slides forward, {FACE} pulling a rope, realistic, vertical 9:16.",
                  vid=("0-5s: Laborers pour water on a wet clay path; a giant block on a wooden sledge suddenly slides forward "
-                      "and everyone stumbles. 5-10s: Anh Tư grins at the camera: \"Ngày hai mươi. Đá nặng thì... cho nó trượt.\""),
+                      "and everyone stumbles. 5-10s: Anh Tư says to the camera: \"Ngày hai mươi. Đá nặng thì... cho nó trượt.\""),
                  subs=[(0.5, 4.8, "Đổ nước! Kéo!"),
                        (5.0, 9.5, "Ngày hai mươi. / Đá nặng thì... cho nó trượt.")]),
             dict(name="Ngày 45", tiktok="5-10", label="Ngày 45",
@@ -137,8 +137,8 @@ EPISODES = [
                       "lọt nổi cái lá.\""),
                  subs=[(5.0, 9.5, "Ngày bốn lăm. / Khe đá không lọt / nổi cái lá.")]),
             dict(name="Ngày 70", tiktok="5-10", label="Ngày 70",
-                 img=f"First-person view at night by a campfire, {FACE} holding a folded paper letter from home (no visible writing), smiling tiredly, the tall stone walls behind him, realistic, vertical 9:16.",
-                 vid=("0-5s: By the campfire Anh Tư unfolds a letter from home and smiles. 5-10s: He tells the camera: \"Vợ hỏi "
+                 img=f"First-person view at night by a campfire, {FACE} holding a folded paper letter from home (no visible writing), tired, the tall stone walls behind him, realistic, vertical 9:16.",
+                 vid=("0-5s: By the campfire Anh Tư unfolds a letter from home and reads it slowly. 5-10s: He tells the camera: \"Vợ hỏi "
                       "bao giờ về. Em bảo: khi nào đá thôi nặng.\""),
                  subs=[(5.0, 9.5, "Vợ hỏi bao giờ về. / Em bảo: / khi nào đá thôi nặng.")]),
             dict(name="Ngày 89", tiktok="5-10", label="Ngày 89",
@@ -177,7 +177,7 @@ EPISODES = [
                  img=f"First-person view of a nearly bald, very strict old master mason with a thin white beard holding up a single strand of hair between two fingers in front of a stone wall, {FACE} beside him, confused, realistic, vertical 9:16.",
                  vid=("0-5s: The old master mason plucks one strand of hair and holds it up: \"Khe nào lọt sợi tóc này... là "
                       "dỡ ra xếp lại.\" Anh Tư: \"Không có vữa ạ?\" The mason: \"Vữa là cho thợ vụng.\" 5-10s: Anh Tư glances at the "
-                      "mason's nearly bald head and covers a smile."),
+                      "mason's nearly bald head and looks away quickly."),
                  subs=[(0.3, 2.6, "Khe nào lọt sợi tóc này / là dỡ ra xếp lại."),
                        (2.6, 3.4, "Không có vữa ạ?"),
                        (3.4, 4.9, "Vữa là / cho thợ vụng.")]),
@@ -236,6 +236,14 @@ EPISODES = [
         yt_tags=YT_TAGS,
     ),
 ]
+
+ACTING = ("Acting: natural and understated, like real people filmed in a documentary; small reactions (a sigh, a glance, a pause, a shake of the head) instead of big expressions. Anh Tư smiles at most once in the whole clip and never laughs at the camera; no exaggerated mugging or cartoonish faces.")
+for _ep in EPISODES:
+    _ep["setting"] = _ep["setting"] + " " + ACTING
+    for _c in _ep["clips"]:
+        if _c.get("setting"):
+            _c["setting"] = _c["setting"] + " " + ACTING
+
 
 if __name__ == "__main__":
     build(EPISODES, HERE, series_tag="#tuhaodaiviet #anhtu", note=NOTE, unit="Mẫu", file_unit="mau")

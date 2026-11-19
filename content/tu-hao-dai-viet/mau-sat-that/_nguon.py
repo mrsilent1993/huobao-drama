@@ -37,7 +37,7 @@ EPISODES = [
         hook="POV: Pha mực / phải không trôi / được cả đời",
         clips=[
             dict(name="Mực loãng", tiktok="5-10", label="Trại quân nhà Trần · cuối 1284",
-                 img=f"First-person view at night in a Trần army camp, a gruff tattooer dipping a finger into a bowl of watery grey ink and frowning, {FACE} holding a pestle beside a stone mortar, guilty grin, realistic, vertical 9:16.",
+                 img=f"First-person view at night in a Trần army camp, a gruff tattooer dipping a finger into a bowl of watery grey ink and frowning, {FACE} holding a pestle beside a stone mortar, guilty look, realistic, vertical 9:16.",
                  vid=("0-5s: The tattooer dips a finger in Anh Tư's watery grey ink, wipes it off easily and frowns: \"Mực "
                       "này rửa là trôi. Pha lại.\" 5-10s: Anh Tư: \"Mực để viết thư thôi mà, cần gì đặc thế ạ?\" The "
                       "tattooer: \"Không phải viết thư. Mực này... phải không trôi được cả đời.\""),
@@ -59,9 +59,9 @@ EPISODES = [
                       "quân?\""),
                  subs=[(5.0, 9.5, "Một bát mực... / cho cả một đạo quân?")]),
             dict(name="Tên người yêu", label="",
-                 img=f"First-person view as a cheeky young soldier holds out his forearm already tattooed with 殺韃 and grins at the tattooer, other soldiers laughing, {FACE} laughing in the foreground, realistic, vertical 9:16.",
+                 img=f"First-person view as a cheeky young soldier holds out his forearm already tattooed with 殺韃 and looks hopefully at the tattooer, a few soldiers smirking, {FACE} in the foreground, trying not to smile, realistic, vertical 9:16.",
                  vid=("0-5s: A cheeky young soldier with 殺韃 fresh on his forearm asks: \"Thầy ơi, còn chỗ trống, thêm tên "
-                      "người yêu em được không?\" The tattooer: \"Hai chữ thôi.\" Everyone laughs. 5-10s: Anh Tư to the viewer: "
+                      "người yêu em được không?\" The tattooer: \"Hai chữ thôi.\" A few soldiers snort. 5-10s: Anh Tư to the viewer: "
                       "\"Cả đạo quân xăm cùng một chữ... không ai xăm tên người yêu.\""),
                  subs=[(0.5, 3.2, "Còn chỗ trống, / thêm tên người yêu em?"),
                        (3.2, 4.8, "Hai chữ thôi."),
@@ -73,10 +73,10 @@ EPISODES = [
                       "thì em trốn đằng nào?\" He rolls up his own sleeve."),
                  subs=[(5.0, 9.5, "Tướng cũng xếp hàng... / thế thì em trốn đằng nào?")]),
             dict(name="Câu chốt", label="",
-                 img=f"First-person view at sunrise, years later, by a wide river with wooden stakes in the water, an older {FACE} with grey in his hair raising his forearm with faded 殺韃 tattoo toward the camera, smiling, realistic, vertical 9:16.",
+                 img=f"First-person view at sunrise, years later, by a wide river with wooden stakes in the water, an older {FACE} with grey in his hair raising his forearm with faded 殺韃 tattoo toward the camera, realistic, vertical 9:16.",
                  vid=("0-5s: Sunrise over a wide river. A calm narrator's voice says: \"Năm 1285, quân sĩ nhà Trần thích vào "
                       "cánh tay hai chữ Sát Thát. Ba năm sau, quân Nguyên thua ở Bạch Đằng, rút hẳn về nước.\" 5-10s: Anh Tư, "
-                      "older with grey hair, raises his tattooed forearm and grins: \"Mực em pha đấy... chữ vẫn còn. Giặc thì "
+                      "older with grey hair, raises his tattooed forearm: \"Mực em pha đấy... chữ vẫn còn. Giặc thì "
                       "không.\""),
                  subs=[(0.3, 4.8, "Năm 1285, quân nhà Trần / xăm hai chữ Sát Thát. / Năm 1288, / quân Nguyên rút hẳn."),
                        (5.0, 8.4, "Mực em pha đấy... / chữ vẫn còn. / Giặc thì không.")]),
@@ -124,9 +124,9 @@ EPISODES = [
                  subs=[(0.5, 4.8, "Hai chữ gì / mà xăm cả trại thế ạ?"),
                        (5.0, 9.5, "Sát Thát. Đánh giặc Thát. / Cầm đèn cho vững.")]),
             dict(name="Tên người yêu", label="",
-                 img=f"First-person view by lamplight as a cheeky young soldier holds out his arm to the tattooer and grins, the tattooer shaking his head, other soldiers laughing, {FACE} laughing so hard the lamp swings, realistic, vertical 9:16.",
+                 img=f"First-person view by lamplight as a cheeky young soldier holds out his arm to the tattooer, hopeful, the tattooer shaking his head, a few soldiers smirking, {FACE} biting his lip, the lamp swaying, realistic, vertical 9:16.",
                  vid=("0-5s: A cheeky young soldier holds out his arm: \"Thầy xăm thêm tên người yêu em vào được không?\" The "
-                      "tattooer: \"Hai chữ thôi.\" Everyone laughs; the lamp swings. 5-10s: Anh Tư to the viewer: \"Cả đạo quân "
+                      "tattooer: \"Hai chữ thôi.\" A few soldiers snort; the lamp swings. 5-10s: Anh Tư to the viewer: \"Cả đạo quân "
                       "xăm cùng một chữ... không ai xăm tên người yêu.\""),
                  subs=[(0.5, 3.2, "Xăm thêm tên người yêu em / được không thầy?"),
                        (3.2, 4.8, "Hai chữ thôi."),
@@ -159,6 +159,14 @@ EPISODES = [
                  "nam, pov lịch sử, anh tư, đại việt, shorts"),
     ),
 ]
+
+ACTING = ("Acting: natural and understated, like real people filmed in a documentary; small reactions (a sigh, a glance, a pause, a shake of the head) instead of big expressions. Anh Tư smiles at most once in the whole clip and never laughs at the camera; no exaggerated mugging or cartoonish faces.")
+for _ep in EPISODES:
+    _ep["setting"] = _ep["setting"] + " " + ACTING
+    for _c in _ep["clips"]:
+        if _c.get("setting"):
+            _c["setting"] = _c["setting"] + " " + ACTING
+
 
 if __name__ == "__main__":
     build(EPISODES, HERE, series_tag="#tuhaodaiviet #anhtu", note=NOTE, unit="Mẫu", file_unit="mau")

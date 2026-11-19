@@ -48,7 +48,7 @@ EPISODES = [
                        (3.4, 4.9, "Vẽ xấu là vẽ lại."),
                        (5.2, 9.5, "Cả chồng này... / là cả đêm nay.")]),
             dict(name="Con giun", tiktok="5-10", label="",
-                 img=f"Close view of a sheet of grayish paper with a clumsy, wiggly painted dragon that looks like an earthworm, {FACE} holding the brush and grinning sheepishly, the official frowning, realistic, vertical 9:16.",
+                 img=f"Close view of a sheet of grayish paper with a clumsy, wiggly painted dragon that looks like an earthworm, {FACE} holding the brush, embarrassed, the official frowning, realistic, vertical 9:16.",
                  vid=("0-5s: The official holds up Anh Tư's clumsy dragon that looks like an earthworm and frowns. 5-10s: Anh "
                       "Tư whispers to the viewer: \"Rồng em vẽ... giống con giun hơn con rồng.\""),
                  subs=[(5.0, 9.5, "Rồng em vẽ... / giống con giun / hơn con rồng.")]),
@@ -68,7 +68,7 @@ EPISODES = [
             dict(name="Quán nước", tiktok="5-10", label="",
                  img=f"First-person view at a roadside tea stall, a sharp-tongued middle-aged woman holding Anh Tư's dragon note up to the light and squinting, {FACE} waiting hopefully, realistic, vertical 9:16.",
                  vid=("0-5s: Anh Tư pays for tea with the dragon note. The tea woman holds it up to the light: \"Con rồng này "
-                      "ai vẽ mà xấu thế?\" 5-10s: Anh Tư smiles weakly at the viewer: \"Em không dám nhận... em vẽ.\""),
+                      "ai vẽ mà xấu thế?\" 5-10s: Anh Tư says quietly to the viewer: \"Em không dám nhận... em vẽ.\""),
                  subs=[(0.5, 4.8, "Con rồng này / ai vẽ mà xấu thế?"),
                        (5.0, 9.5, "Em không dám nhận... / em vẽ.")]),
             dict(name="Vẫn đòi đồng", tiktok="5-10", label="",
@@ -146,10 +146,10 @@ EPISODES = [
                       "softly: \"Xấu thì xấu... nhưng con rồng này là của nước mình in ra.\""),
                  subs=[(5.0, 9.5, "Xấu thì xấu... / nhưng con rồng này / là nước mình in ra.")]),
             dict(name="Câu chốt", tiktok="3-10", label="",
-                 img=f"First-person view on a hot afternoon, {FACE} sitting in front of his house fanning himself with the dragon paper note, smiling contentedly, realistic, vertical 9:16.",
+                 img=f"First-person view on a hot afternoon, {FACE} sitting in front of his house fanning himself with the dragon paper note, calm, realistic, vertical 9:16.",
                  vid=("0-4.5s: A calm narrator's voice says: \"Năm 1396, Đại Việt phát hành tiền giấy, một trong những lần sớm "
                       "nhất ở Đông Nam Á. Dân chưa quen, vẫn chuộng tiền đồng.\" 4.5-10s: Anh Tư fans himself with the note "
-                      "and grins at the camera: \"Không mua được gì... nhưng quạt thì mát.\""),
+                      "and says to the camera: \"Không mua được gì... nhưng quạt thì mát.\""),
                  subs=[(3.0, 6.0, "Năm 1396, Đại Việt / phát hành tiền giấy. / Sớm nhất nhì Đông Nam Á."),
                        (6.1, 8.4, "Không mua được gì... / nhưng quạt thì mát.")]),
         ],
@@ -176,7 +176,7 @@ EPISODES = [
                  img=f"First-person view at a government exchange table, a stern official pushing a stack of grayish paper notes with painted dragons toward {FACE} and pulling away his heavy strings of copper coins, realistic, vertical 9:16.",
                  vid=("0-5s: The official takes Anh Tư's copper strings and pushes a stack of paper notes back: \"Đổi hết. Đồng "
                       "nộp lại.\" Anh Tư: \"Hết ạ? Cả tiền vợ em?\" The official: \"Vợ mày cũng phải đổi.\" 5-10s: Anh Tư hugs the paper "
-                      "stack, grinning: \"Mà lại còn được lãi!\""),
+                      "stack, pleased: \"Mà lại còn được lãi!\""),
                  subs=[(0.3, 2.4, "Đổi hết. / Đồng nộp lại."),
                        (2.4, 3.4, "Hết ạ? / Cả tiền vợ em?"),
                        (3.4, 4.9, "Vợ mày / cũng phải đổi."),
@@ -228,6 +228,14 @@ EPISODES = [
         yt_tags=YT_TAGS,
     ),
 ]
+
+ACTING = ("Acting: natural and understated, like real people filmed in a documentary; small reactions (a sigh, a glance, a pause, a shake of the head) instead of big expressions. Anh Tư smiles at most once in the whole clip and never laughs at the camera; no exaggerated mugging or cartoonish faces.")
+for _ep in EPISODES:
+    _ep["setting"] = _ep["setting"] + " " + ACTING
+    for _c in _ep["clips"]:
+        if _c.get("setting"):
+            _c["setting"] = _c["setting"] + " " + ACTING
+
 
 if __name__ == "__main__":
     build(EPISODES, HERE, series_tag="#tuhaodaiviet #anhtu", note=NOTE, unit="Mẫu", file_unit="mau")
