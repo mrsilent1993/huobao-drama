@@ -9,7 +9,7 @@ import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.join(HERE, "..", "tools"))
-from series import build  # noqa: E402
+from series import build, MUC_MOI  # noqa: E402
 
 FACE = ("a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a wide grin with a "
         "chipped front tooth, very expressive face")
@@ -20,6 +20,9 @@ NOTE = ("**Tự hào Đại Việt:** những lần tổ tiên khiến ta tự h
         "đủ clip; bản ngắn (TikTok) vẫn đủ cả 6 cảnh.")
 LEN6 = ("hai video từ cùng 6 clip: **bản dài** (YouTube, khoảng 58 giây sau chuyển cảnh) và **bản ngắn** (TikTok, khoảng "
         "38 giây) vẫn đủ cả 6 cảnh: cảnh mở đầu và cảnh kết giữ nguyên, 4 cảnh giữa cắt lấy 5 giây chứa câu chính")
+LEN7 = ("hai video từ cùng 7 clip: **bản dài** (YouTube, khoảng 60–70 giây sau chuyển cảnh) và **bản ngắn** (TikTok, khoảng "
+        "30–35 giây) vẫn đủ cả 7 cảnh: mỗi clip lấy khoảng 5 giây chứa câu chính, cảnh câu đáng gửi bạn bè lấy dài hơn")
+# Tập mới từ 19/11/2026: length=LEN7, muc=MUC_MOI.
 END = "Follow để xem / Tự hào Đại Việt / tập tiếp theo →"
 
 SONG = ("Song dynasty soldiers in Song-style lamellar armor and helmets, tired and many of them sick, sitting by "

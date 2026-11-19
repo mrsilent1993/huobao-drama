@@ -74,7 +74,7 @@ Giới hạn:
 
 ## Bản ngắn vẫn đủ cảnh (từ 19/11/2026)
 
-Thay cho kiểu cũ (bản TikTok bỏ hẳn clip 2 và 4): **bản ngắn giữ mọi cảnh**. Clip chính giữ nguyên, clip phụ đánh dấu `tiktok=0-5` hoặc `tiktok=5-10` để lấy đúng 5 giây chứa câu chính. Bản ngắn dài khoảng 38–43 giây. Đang dùng cho:
+Thay cho kiểu cũ (bản TikTok bỏ hẳn clip 2 và 4): **bản ngắn giữ mọi cảnh**. Clip chính giữ nguyên, clip phụ đánh dấu `tiktok=0-5` hoặc `tiktok=5-10` để lấy đúng 5 giây chứa câu chính. Bản ngắn dài khoảng 38–43 giây (tập làm trước 19/11/2026). **Từ 19/11/2026: TikTok 30–35 giây, YouTube 60–70 giây**, xem `TIEU-CHUAN-KICH-BAN.md` mục 2. Đang dùng cho:
 - Loạt Tây Sơn (cả loạt).
 - Vân Đồn 1288.
 

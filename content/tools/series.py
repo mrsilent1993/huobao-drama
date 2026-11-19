@@ -88,6 +88,31 @@ YT_DESC_EXTRA = ("Video do AI tạo, dựa trên sử liệu; nhân vật và l�
 YT_TAGS_BASE = ["lịch sử việt nam", "pov lịch sử", "pov", "đại việt", "sử việt", "shorts", "hài lịch sử"]
 
 
+# Độ dài chuẩn từ 19/11/2026 (anh duyệt): TikTok 30–35 giây, YouTube 60–70 giây, linh động theo video.
+# Tập mới đặt muc=MUC_MOI; build() tính thời lượng sau chuyển cảnh và cảnh báo nếu lệch khoảng.
+MUC_MOI = {"youtube": (60, 70), "tiktok": (30, 35)}
+
+
+def _tran(c):
+    """Thời lượng chuyển cảnh vào clip c (mặc định fade 0.4; 'cat' = 0)."""
+    ch = c.get("chuyen") or ""
+    if ch.startswith("cat"):
+        return 0.0
+    return float(ch.split(":")[1]) if ":" in ch else 0.4
+
+
+def thoi_luong(clips, ban):
+    """Ước tính giây của bản 'youtube' (đủ clip) hoặc 'tiktok' (theo tiktok=) sau khi trừ chuyển cảnh."""
+    tong, dung = 0.0, []
+    for c in clips:
+        cut = c.get("tiktok")
+        if ban == "tiktok" and cut == "bo":
+            continue
+        tong += 10 if (ban == "youtube" or not cut) else float(cut.split("-")[1]) - float(cut.split("-")[0])
+        dung.append(c)
+    return tong - sum(_tran(c) for c in dung[1:])
+
+
 def build(episodes, here, series_tag="", note="", unit="Phần", file_unit="phan"):
     lines = []
     for n, ep in enumerate(episodes, 1):
@@ -187,4 +212,8 @@ def build(episodes, here, series_tag="", note="", unit="Phần", file_unit="phan
         with open(os.path.join(here, base + ".plan.txt"), "w", encoding="utf-8") as fh:
             fh.write("\n".join(plan) + "\n")
         lines.append(f"{base}: {len(ep['clips'])} clip")
+        if ep.get("muc"):
+            for ban, (lo, hi) in ep["muc"].items():
+                t = thoi_luong(ep["clips"], ban)
+                lines.append(f"  {ban} ≈ {t:.1f} giây" + ("" if lo <= t <= hi else f"  ⚠ NGOÀI KHOẢNG {lo}–{hi} giây"))
     print("\n".join(lines))
