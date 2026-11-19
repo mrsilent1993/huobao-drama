@@ -17,7 +17,7 @@ Mức nguồn: A = sử Việt và sử nước ngoài cùng chép · B = chính
 | # | Năm, sự kiện | Việc vô lý của Anh Tư | Câu đáng gửi bạn bè | Vật, chi tiết giác quan | Nguồn |
 |---|---|---|---|---|---|
 | 4 | **1069 · Nguyên phi Ỷ Lan trông nước khi vua đi đánh Chiêm Thành** | Bị sai chạy báo tin với vua đang thua trận: "ở nhà dân yên, lúa tốt" | "Vợ ở nhà giỏi quá… chồng phải quay lại đánh tiếp." | thư tre, ngựa trạm, mùi lúa chín | B |
-| 5 | **1075 · Khoa thi đầu tiên** | Bị sai canh trường thi, cấm nhắc bài, cả nước chỉ chọn vài người | "Cả nước thi… mà chỉ chọn mười người." | nghiên mực, lều chõng, tiếng bút lông | B |
+| 5 | **1075 · Khoa thi đầu tiên** | Bị sai canh trường thi, cấm nhắc bài, không ai nói thi để làm gì | "Khoa thi đầu tiên của cả nước… em là người canh cổng." | nghiên mực, lều chõng, tiếng bút lông | B |
 
 ## Trần
 
