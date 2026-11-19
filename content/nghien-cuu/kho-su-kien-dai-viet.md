@@ -63,3 +63,34 @@ Mức nguồn: A = sử Việt và sử nước ngoài cùng chép · B = chính
 - **Mạc Đăng Dung (1540), Nguyễn Ánh:** dễ gây tranh cãi chính trị, không hợp giọng tự hào.
 - **#2 Vạc dầu:** giữ trong danh sách nhưng chỉ nhắc lệnh bằng lời, không dựng cảnh trừng phạt.
 - **#7, #13:** Kiểm duyệt duyệt kỹ, không hạ thấp Chiêm Thành hay người Khmer. Giọng kể là chuyện của người Việt đi mở đất, không nói về bên kia.
+
+---
+
+# Đợt 2 (19/11/2026): thêm 12 sự kiện
+
+Thêm truyền thuyết (mức C, phải gắn nhãn "theo truyền thuyết"): những chuyện ai cũng biết nhưng chưa ai kể từ góc người làm thuê.
+
+| # | Năm, sự kiện | Việc vô lý của Anh Tư | Câu đáng gửi bạn bè | Vật, chi tiết giác quan | Nguồn |
+|---|---|---|---|---|---|
+| 15 | **Thời Hùng Vương · Sơn Tinh, Thủy Tinh** | Bị sai đi tìm **gà chín cựa, ngựa chín hồng mao, voi chín ngà** trong đúng một đêm | "Lễ cưới gì… mà đòi gà chín cựa." | đuốc, chuồng gà, tiếng gà gáy sớm | C |
+| 16 | **Thời Hùng Vương · Lang Liêu làm bánh chưng** | Các hoàng tử đi tìm của ngon khắp nơi, Anh Tư bị sai ra đồng cắt lá dong | "Người ta dâng sơn hào hải vị… ông này dâng gạo nếp." | lá dong, lạt giang, mùi gạo nếp đồ | C (hợp đăng dịp Tết) |
+| 17 | **905–907 · Khúc Thừa Dụ, Khúc Hạo tự chủ** | Vừa giành quyền tự chủ, bị sai đi khắp làng báo tin… giảm thuế | "Lên nắm quyền… việc đầu tiên là bớt thuế cho dân." | sổ thuế, mõ làng, thúng thóc | B |
+| 18 | **Khoảng 970 · Tiền Thái Bình hưng bảo** | Bị sai đếm cả hòm tiền đồng mới đúc (chữ trên đồng tiền làm mờ) | "Lần đầu tiêu tiền… của chính nước mình." | đồng tiền lỗ vuông, xâu tiền, tiếng leng keng | A (hiện vật khảo cổ) |
+| 19 | **1054 · Đổi quốc hiệu Đại Cồ Việt thành Đại Việt** | Bị sai đi báo cả kinh thành: từ nay bỏ một chữ trong tên nước | "Hôm qua còn là Đại Cồ Việt… sáng nay bỏ chữ Cồ." | mõ, chiêng, đám đông ngơ ngác | B |
+| 20 | **1282 · Nguyễn Thuyên đuổi cá sấu bằng một bài văn** | Bị sai chèo thuyền chở một ông quan ra giữa sông có cá sấu, ông chỉ cầm… một bài văn | "Đuổi cá sấu… bằng một bài văn." | mái chèo, nước sông đục, mùi bùn | B (vua cho đổi họ là Hàn Thuyên) |
+| 21 | **Thế kỷ 14 · Tuệ Tĩnh: "Nam dược trị Nam nhân"** | Bị sai nhổ cỏ dại khắp vườn, hóa ra cỏ đó để làm thuốc | "Cỏ mọc sau nhà… chữa được bệnh người nhà." | rổ thuốc nam, mùi ngải cứu, cối giã | B/C |
+| 22 | **Phạm Ngũ Lão ngồi đan sọt** | Lính dẹp đường cho Hưng Đạo Vương, gặp anh đan sọt mải nghĩ không chịu tránh | "Giáo kề tận chân… vẫn mải nghĩ việc nước." | sọt tre, nan tre, tiếng vó ngựa | C (chỉ dựng giáo kề, **không** dựng vết thương) |
+| 23 | **Khoảng 1495 · Hội Tao Đàn của Lê Thánh Tông** | Bị sai mài mực cho 28 ông quan làm thơ thi với vua | "Thi thơ với vua… không ông nào dám thắng." | nghiên mực, giấy dó, mùi trầm | B |
+| 24 | **Thế kỷ 17 · Phố Hiến: "Thứ nhất kinh kỳ, thứ nhì phố Hiến"** | Bị sai bán hàng cho thương nhân đến từ khắp nơi, không nói chung tiếng, ra giá bằng tay | "Không ai nói chung tiếng… mà buôn bán vẫn đắt hàng." | cân đòn, tơ lụa, mùi trầu cau và hương liệu | B |
+| 25 | **1789 · Chiếu khuyến nông của vua Quang Trung** | Vừa thắng giặc xong, bị sai đi gọi dân bỏ làng về… cày ruộng | "Đánh giặc xong… việc tiếp theo là cày." | cày, trâu, ruộng bỏ hoang mọc cỏ | B |
+| 26 | **1835–1837 · Cửu Đỉnh nhà Nguyễn** | Bị sai đúc chín cái vạc đồng nặng cả nghìn cân, chỉ để khắc hình… con cá, quả mít, ngọn núi | "Đúc vạc nghìn cân… để khắc hình quả mít." | khuôn đúc, đồng nóng chảy, mùi khói than | A (hiện vật còn ở Huế, di sản tư liệu UNESCO khu vực châu Á – Thái Bình Dương) |
+
+## Đợt 2: em gợi ý làm trước
+
+1. **#20 Đuổi cá sấu bằng bài văn (1282):** vô lý đúng chất Anh Tư, có thật trong chính sử, ít người biết.
+2. **#15 Gà chín cựa:** hài nhất loạt. Hợp kiểu "Ông thợ cả khó tính" của Thành nhà Hồ, chỉ đổi thành ông mối mai khó tính.
+3. **#26 Cửu Đỉnh:** hiện vật còn đứng ở Huế, người xem có thể đến tận nơi xem.
+4. **#18 Thái Bình hưng bảo:** câu chốt chạm đúng niềm tự hào: tiền của chính nước mình.
+5. **#16 Bánh chưng:** để dành đăng dịp Tết.
+
+**Lưu ý:** #15 và #16 là truyền thuyết, phải gắn nhãn "theo truyền thuyết". #22 không được dựng máu hay vết thương. #24 có thương nhân nước ngoài: không chế giễu ai, cái hài là chuyện ra giá bằng tay.
