@@ -1,0 +1,26 @@
+# Dựng: python3 ../tools/tiktok.py phan-3-rom-uot-ngoc-hoi-1789.plan.txt phan-3-rom-uot-ngoc-hoi-1789.mp4  (ra phan-3-rom-uot-ngoc-hoi-1789-youtube.mp4 và phan-3-rom-uot-ngoc-hoi-1789-tiktok.mp4)
+hook: POV: Tết rét căm căm / bị sai / nhúng rơm vào nước
+end: Follow để xem / Tây Sơn từng mốc / tập tiếp theo →
+nhan: AI tái hiện · lời thoại hư cấu
+end_giay: 1.6
+
+clip: tkd3-1.mp4 | Ngọc Hồi · mùng 5 Tết 1789 | tiktok=0-5
+clip: tkd3-2.mp4 |  | tiktok=5-10
+clip: tkd3-3.mp4 |  | tiktok=5-10
+clip: tkd3-4.mp4 |  | tiktok=5-10
+clip: tkd3-5.mp4 |  | tiktok=5-10
+clip: tkd3-6.mp4 |  | tiktok=5-10
+clip: tkd3-7.mp4 |  | tiktok=3-10
+
+sub: 1 | 0.3-2.4 | Nhúng rơm. / Bọc kín tấm ván.
+sub: 1 | 2.4-3.8 | Rét thế này... / nhúng nước ạ?
+sub: 1 | 3.8-4.9 | Không hỏi.
+sub: 1 | 5.2-9.5 | Tết rét căm căm... / em đi dầm rơm.
+sub: 2 | 5.0-9.5 | Rơm ướt nặng / gấp mấy rơm khô... / mà lưng em chỉ có một.
+sub: 3 | 5.0-9.5 | Sương mù thế này... / giặc chỉ thấy / một bức tường rơm đi tới.
+sub: 4 | 0.5-4.8 | Xèo! Xèo!
+sub: 4 | 5.0-9.5 | Cả đời em nhóm bếp / ghét rơm ướt... / hôm nay rơm ướt / cứu cả đạo quân.
+sub: 5 | 5.0-9.5 | Đồn vỡ rồi... / mà áo em còn chưa kịp khô.
+sub: 6 | 5.0-9.5 | Áo vua đen sì khói súng... / mà vẫn đi đầu.
+sub: 7 | 3.0-6.0 | Mùng 5 Tết, phá đồn Ngọc Hồi. / Chiều hôm ấy, vua Quang Trung / vào Thăng Long.
+sub: 7 | 6.1-8.4 | Hẹn mùng bảy... / mùng năm đã tới.

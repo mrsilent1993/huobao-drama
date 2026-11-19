@@ -1,0 +1,29 @@
+# Dựng: python3 ../tools/tiktok.py mau-1-tien-giay-ve-rong.plan.txt mau-1-tien-giay-ve-rong.mp4  (ra mau-1-tien-giay-ve-rong-youtube.mp4 và mau-1-tien-giay-ve-rong-tiktok.mp4)
+hook: POV: Vẽ rồng / cả đêm / mà không biết để làm gì
+end: Follow để xem / Tự hào Đại Việt / tập tiếp theo →
+nhan: AI tái hiện · lời thoại hư cấu
+end_giay: 1.6
+
+clip: th1396a-1.mp4 | Thăng Long · 1396 | tiktok=0-5
+clip: th1396a-2.mp4 |  | tiktok=5-10
+clip: th1396a-3.mp4 |  | tiktok=5-10
+clip: th1396a-4.mp4 | Nơi đổi tiền | tiktok=5-10
+clip: th1396a-5.mp4 |  | tiktok=5-10
+clip: th1396a-6.mp4 |  | tiktok=5-10
+clip: th1396a-7.mp4 |  | tiktok=3-10
+
+sub: 1 | 0.3-2.4 | Vẽ rồng. / Mỗi tờ một con.
+sub: 1 | 2.4-3.8 | Vẽ rồng... / để làm gì ạ?
+sub: 1 | 3.8-4.9 | Không hỏi.
+sub: 1 | 5.2-9.5 | Cả chồng này... / là cả đêm nay.
+sub: 2 | 5.0-9.5 | Rồng em vẽ... / giống con giun / hơn con rồng.
+sub: 3 | 0.5-4.8 | Tờ này... / đáng một quan.
+sub: 3 | 5.0-9.5 | Em vẽ con giun một khắc... / mà đáng một quan?
+sub: 4 | 0.5-4.8 | Một quan đồng, / đổi một quan hai tiền giấy.
+sub: 4 | 5.0-9.5 | Đổi tiền mà còn được lãi... / thì chắc chắn có vấn đề.
+sub: 5 | 0.5-4.8 | Con rồng này / ai vẽ mà xấu thế?
+sub: 5 | 5.0-9.5 | Em không dám nhận... / em vẽ.
+sub: 6 | 0.5-4.8 | Bát nước thôi. / Trả đồng đi.
+sub: 6 | 5.0-9.5 | Em vẽ rồng cả đêm... / cô ấy vẫn tin / cái đồng xu.
+sub: 7 | 3.0-6.0 | Năm 1396, Đại Việt / phát hành tiền giấy. / Sớm nhất nhì Đông Nam Á.
+sub: 7 | 6.1-8.4 | Tiền chưa ai tin... / nhưng con giun của em / vào sử rồi.

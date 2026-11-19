@@ -2,7 +2,7 @@
 
 Mỗi video một phiếu theo cùng mẫu: thông tin chung, danh sách clip, bối cảnh và giọng, prompt từng clip, chữ trên video, thông tin đăng, bảng kiểm tra trước khi đăng. Xuất lại bằng `python3 tools/xuat_phieu.py` (chạy từ thư mục `content/`).
 
-**Tổng cộng 63 phiếu.** ✅ = đã đăng (theo trang quản lý TikTok ngày 18/11/2026), ☐ = chưa đăng.
+**Tổng cộng 66 phiếu.** ✅ = đã đăng (theo trang quản lý TikTok ngày 18/11/2026), ☐ = chưa đăng.
 
 ## Tự hào Đại Việt
 
@@ -12,6 +12,14 @@ Mỗi video một phiếu theo cùng mẫu: thông tin chung, danh sách clip, b
 | 2 | Bị sai đi rót nước cho các cụ già khắp nước về kinh, không ai nói họp gì (Hội nghị Diên Hồng, 1285) | 6 | ~58s | ~38s | ☐ | `tu-hao-dai-viet/02-tap-2-rot-nuoc-dien-hong-1285.md` |
 | 3 | Bị sai pha mực cả đêm cho cả đạo quân xăm chữ lên tay (Sát Thát, 1285) | 6 | ~58s | ~38s | ☐ | `tu-hao-dai-viet/03-tap-3-pha-muc-sat-that-1285.md` |
 | 4 | Bị sai đi đo đất biên giới từng tấc, thiếu một tấc cũng phải đo lại (Lê Thánh Tông, khoảng 1473) | 6 | ~58s | ~38s | ☐ | `tu-hao-dai-viet/04-tap-4-do-dat-bien-gioi-1473.md` |
+
+## Tết Kỷ Dậu 1789 (3 phần)
+
+| # | Video | Clip | YouTube | TikTok | Đã đăng | Phiếu |
+|---|---|---|---|---|---|---|
+| 1 | Phần 1/3 · Chưa đến giao thừa đã bị bắt ăn Tết, ăn xong thì… xuất quân (Tam Điệp, Tết Kỷ Dậu 1789) | 7 | ~68s | ~35s | ☐ | `tet-ky-dau-1789/01-phan-1-an-tet-som-tam-diep-1789.md` |
+| 2 | Phần 2/3 · Đang hành quân đánh giặc thì bị lệnh… nằm ngủ (ba người một võng, Tết Kỷ Dậu 1789) | 7 | ~68s | ~35s | ☐ | `tet-ky-dau-1789/02-phan-2-ngu-tren-vong-1789.md` |
+| 3 | Phần 3/3 · Tết rét căm căm bị sai nhúng rơm vào nước, sáng ra mới biết để làm gì (Ngọc Hồi, mùng 5 Tết 1789) | 7 | ~68s | ~35s | ☐ | `tet-ky-dau-1789/03-phan-3-rom-uot-ngoc-hoi-1789.md` |
 
 ## Tây Sơn từng mốc
 

@@ -1,0 +1,28 @@
+# Dựng: python3 ../tools/tiktok.py mau-3-tien-giay-vo-chong.plan.txt mau-3-tien-giay-vo-chong.mp4  (ra mau-3-tien-giay-vo-chong-youtube.mp4 và mau-3-tien-giay-vo-chong-tiktok.mp4)
+hook: POV: Mang tiền giấy / về khoe vợ
+end: Follow để xem / Tự hào Đại Việt / tập tiếp theo →
+nhan: AI tái hiện · lời thoại hư cấu
+end_giay: 1.6
+
+clip: th1396c-1.mp4 | Thăng Long · 1396 | tiktok=0-5
+clip: th1396c-2.mp4 |  | tiktok=5-10
+clip: th1396c-3.mp4 |  | tiktok=5-10
+clip: th1396c-4.mp4 |  | tiktok=5-10
+clip: th1396c-5.mp4 |  | tiktok=5-10
+clip: th1396c-6.mp4 |  | tiktok=5-10
+clip: th1396c-7.mp4 |  | tiktok=3-10
+
+sub: 1 | 0.3-2.4 | Đổi hết. / Đồng nộp lại.
+sub: 1 | 2.4-3.8 | Hết ạ? / Cả tiền vợ em?
+sub: 1 | 3.8-4.9 | Không hỏi.
+sub: 1 | 5.2-9.5 | Mà lại còn được lãi!
+sub: 2 | 0.5-4.8 | Mình ơi, một quan đồng / đổi được một quan hai!
+sub: 2 | 5.0-9.5 | Thế mua được / con gà không?
+sub: 3 | 0.5-4.8 | Ối! Ối! Tiền của tôi!
+sub: 3 | 5.0-9.5 | Tiền gì mà sợ nước... / như mèo.
+sub: 4 | 5.0-9.5 | Vợ em đi chợ năm giây... / em mặc cả nửa buổi.
+sub: 5 | 0.5-4.8 | Để dành. / Phòng khi tiền của mình... / bay mất.
+sub: 5 | 5.0-9.5 | Cả nước đổi tiền... / trừ vợ em.
+sub: 6 | 5.0-9.5 | Tiền giấy cũng có lúc / dùng được... dỗ vợ.
+sub: 7 | 3.0-6.0 | Năm 1396, Đại Việt / phát hành tiền giấy. / Sớm nhất nhì Đông Nam Á.
+sub: 7 | 6.1-8.4 | Tiền giấy thì chồng giữ. / Hũ đồng thì vợ giữ.

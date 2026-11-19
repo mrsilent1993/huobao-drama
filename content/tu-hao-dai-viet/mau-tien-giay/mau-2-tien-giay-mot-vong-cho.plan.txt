@@ -1,0 +1,29 @@
+# Dựng: python3 ../tools/tiktok.py mau-2-tien-giay-mot-vong-cho.plan.txt mau-2-tien-giay-mot-vong-cho.mp4  (ra mau-2-tien-giay-mot-vong-cho-youtube.mp4 và mau-2-tien-giay-mot-vong-cho-tiktok.mp4)
+hook: POV: Cầm tờ tiền / mới nhất nước / đi tiêu
+end: Follow để xem / Tự hào Đại Việt / tập tiếp theo →
+nhan: AI tái hiện · lời thoại hư cấu
+end_giay: 1.6
+
+clip: th1396b-1.mp4 | Sáng · chợ Thăng Long, 1396 | tiktok=0-5
+clip: th1396b-2.mp4 | Gần trưa | tiktok=5-10
+clip: th1396b-3.mp4 | Trưa | tiktok=5-10
+clip: th1396b-4.mp4 | Chiều | tiktok=5-10
+clip: th1396b-5.mp4 | Tối | tiktok=5-10
+clip: th1396b-6.mp4 | Đêm | tiktok=5-10
+clip: th1396b-7.mp4 |  | tiktok=3-10
+
+sub: 1 | 0.3-2.4 | Công cả tháng. / Một quan.
+sub: 1 | 2.4-3.8 | Tiền... bằng giấy ạ?
+sub: 1 | 3.8-4.9 | Không hỏi.
+sub: 1 | 5.2-9.5 | Cả tháng làm... / nhẹ hơn cái lá.
+sub: 2 | 0.5-4.8 | Tiền giấy à? / Thế tôi cắt nửa đầu thôi.
+sub: 2 | 5.0-9.5 | Tờ tiền mới nhất nước... / đổi được nửa cái đầu.
+sub: 3 | 0.5-4.8 | Giấy rơi xuống sông / thì ai đền?
+sub: 3 | 5.0-9.5 | Đi đò không được... / thì lội.
+sub: 4 | 0.5-4.8 | Con rồng này / nhẹ hơn đồng xu đấy anh.
+sub: 4 | 5.0-9.5 | Một quan giấy... / không nặng bằng một xu đồng.
+sub: 5 | 0.5-4.8 | Đây, tiền thừa của anh.
+sub: 5 | 5.0-9.5 | Một tờ tiền... / đi một vòng cả chợ, / lại về túi em.
+sub: 6 | 5.0-9.5 | Xấu thì xấu... / nhưng con rồng này / là nước mình in ra.
+sub: 7 | 3.0-6.0 | Năm 1396, Đại Việt / phát hành tiền giấy. / Sớm nhất nhì Đông Nam Á.
+sub: 7 | 6.1-8.4 | Không mua được gì... / nhưng quạt thì mát.

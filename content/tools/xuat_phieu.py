@@ -19,6 +19,7 @@ OUT = os.path.join(ROOT, "xuat", "phieu-san-xuat")
 # Thư mục loạt -> tên hiển thị (theo thứ tự trong mục lục)
 SERIES = [
     ("tu-hao-dai-viet", "Tự hào Đại Việt"),
+    ("tet-ky-dau-1789", "Tết Kỷ Dậu 1789 (3 phần)"),
     ("tay-son-tung-moc", "Tây Sơn từng mốc"),
     ("pov-nguoi-binh-thuong", "POV người bình thường (Anh Tư)"),
     ("tran-danh-noi-tieng", "Trận đánh nổi tiếng"),
