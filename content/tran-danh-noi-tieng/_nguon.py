@@ -341,6 +341,91 @@ EPISODES = [
         yt_tags=("tốt động chúc động, lam sơn, lê lợi, vương thông, quân minh, 1426, chương mỹ, lịch sử việt nam, "
                  "pov lịch sử, anh tư, đại việt, shorts"),
     ),
+    # ------------------------------------------------------------------ 1427 đêm trước trận Chi Lăng (bản đầy đủ 6 cảnh)
+    dict(
+        slug="gac-ai-chi-lang-1427", prefix="td1427",
+        voices={"Trần Lựu": "a fast, cheeky, confident male voice in his 30s"},
+        title="Gác ải Chi Lăng đêm trước trận: quân Minh đông gấp mười, nhưng cả ải chỉ có một con đường hẹp (Chi Lăng, 1427)",
+        length=("hai video từ cùng 6 clip: **bản dài** (YouTube, khoảng 58 giây sau chuyển cảnh) và **bản ngắn** (TikTok, "
+                "khoảng 38 giây) vẫn đủ cả 6 cảnh: cảnh mở đầu và cảnh kết giữ nguyên, 4 cảnh giữa cắt lấy 5 giây chứa câu chính"),
+        history=("**Lịch sử:** tháng 10 năm 1427, nhà Minh sai tổng binh Liễu Thăng đem khoảng mười vạn viện binh từ Quảng Tây "
+                 "sang cứu Đông Quan. Lê Lợi sai Lê Sát, Lưu Nhân Chú, Trần Lựu, Lê Thụ đem khoảng một vạn quân cùng năm con "
+                 "voi phục ở ải Chi Lăng (Lạng Sơn), một thung lũng hẹp kẹp giữa núi đá và đầm lầy (*Đại Việt sử ký toàn thư*, "
+                 "mức B; sử nhà Minh cũng chép trận thua, mức A). Trần Lựu ra đánh rồi giả thua để nhử. Ngày 20 tháng 9 năm "
+                 "Đinh Mùi (10/10/1427), Liễu Thăng đuổi vào ải, tử trận ở núi Mã Yên; đạo viện binh bắt đầu tan vỡ, rồi bị "
+                 "diệt ở Xương Giang. **Hư cấu:** Anh Tư gác ải, việc đếm đuốc, chuyện năm con voi ăn mía và mọi lời thoại; "
+                 "câu \"chỉ đi được một hàng\" là cách nói của nhân vật, đường trong ải hẹp nhưng không hẹp đến một người. "
+                 "Tập này là **tiền truyện của tập \"Chạy thua cả ngày\"** (Anh Tư tập 4). Chuyện Liễu Thăng tử trận chỉ nói bằng "
+                 "lời, không dựng cảnh."),
+        setting=("Vietnam, October 1427, the Chi Lăng pass in Lạng Sơn at night and dawn: a long narrow valley between steep "
+                 "limestone cliffs, a single narrow dirt road beside reedy marshes, mist. Lam Sơn fighters in plain brown "
+                 "clothes with cloth head wraps, spears, crossbows, hiding on the cliffsides; five war elephants hidden "
+                 f"behind a rock wall. {MING} appear only at the end, entering the valley in a long column. "
+                 f"Anh Tư is {FACE}, a sentry with a spear. {NO_TEXT}"),
+        visual=VIS["minh"],
+        hook="POV: Gác ải Chi Lăng / đêm trước trận",
+        end="Sáng mai Anh Tư đi nhử giặc. / Follow để xem / \"Chạy thua cả ngày\" →",
+        end_secs=1.6,
+        clips=[
+            dict(name="Một con đường hẹp", label="Ải Chi Lăng · tháng 10 năm 1427",
+                 img=f"First-person view at night on a cliff ledge above a long narrow valley lit faintly by moonlight, a single narrow road below between cliffs and marshes, a veteran officer pointing down at it, {FACE} beside the viewer holding a spear, realistic, vertical 9:16.",
+                 vid=("0-6s: On the cliff ledge at night, the veteran officer points down at the single narrow road in the "
+                      "valley and says quietly: \"Cả ải chỉ có một con đường hẹp. Quân Minh đông gấp mười... nhưng chúng chỉ "
+                      "đi được một hàng.\" 6-10s: Anh Tư peers down and whispers to the viewer: \"Gấp mười... thì xếp hàng dài "
+                      "lắm anh nhỉ?\""),
+                 subs=[(0.3, 3.0, "Cả ải chỉ có / một con đường hẹp."),
+                       (3.0, 6.0, "Quân Minh đông gấp mười... / nhưng chúng chỉ đi / được một hàng."),
+                       (6.2, 9.6, "Gấp mười... thì xếp hàng / dài lắm anh nhỉ?")]),
+            dict(name="Đếm đuốc", tiktok="5-10", label="",
+                 img=f"First-person view from the cliff at night looking north, a long river of torches winding toward the pass in the far distance, {FACE} counting on his fingers, realistic, vertical 9:16.",
+                 vid=("0-5s: Far to the north, a long river of torches winds slowly toward the pass. Anh Tư starts counting on "
+                      "his fingers: \"Một, hai, ba...\" 5-10s: He gives up, lowers his hands and whispers to the viewer: "
+                      "\"Thôi... em đếm không nổi. Đếm hàng thôi.\""),
+                 subs=[(0.5, 4.8, "Một, hai, ba..."),
+                       (5.0, 9.5, "Thôi... em đếm không nổi. / Đếm hàng thôi.")]),
+            dict(name="Năm con voi", tiktok="5-10", label="",
+                 img=f"First-person view behind a rock wall at night, five war elephants standing quietly in the shadows, {FACE} feeding one of them a stalk of sugarcane, realistic, vertical 9:16.",
+                 vid=("0-5s: Behind a rock wall, five war elephants stand quietly in the dark; Anh Tư feeds one a stalk of "
+                      "sugarcane and pats its trunk. 5-10s: He whispers to the viewer: \"Năm con voi... đấu mười vạn người. "
+                      "Em chỉ mong tụi nó ăn no.\""),
+                 subs=[(0.5, 4.8, "Năm con voi chiến / giấu sau vách đá."),
+                       (5.0, 9.5, "Năm con voi... / đấu mười vạn người. / Em chỉ mong tụi nó ăn no.")]),
+            dict(name="Đi nhử", tiktok="5-10", label="Gần sáng",
+                 img=f"First-person view in a camp at the foot of the cliffs before dawn, a cheeky confident commander in his 30s pointing at {FACE} and a few other fighters, realistic, vertical 9:16.",
+                 vid=("0-5s: Before dawn, the cheeky commander points at Anh Tư and a few others: \"Sáng mai mấy đứa đi nhử. "
+                      "Đánh vài miếng rồi chạy thua cho khéo.\" 5-10s: Anh Tư sighs to the viewer: \"Lại chạy thua ạ? Nhà em "
+                      "chạy thua... gia truyền rồi.\""),
+                 subs=[(0.5, 4.8, "Sáng mai mấy đứa đi nhử. / Chạy thua cho khéo."),
+                       (5.0, 9.5, "Lại chạy thua ạ? / Nhà em chạy thua... / gia truyền rồi.")]),
+            dict(name="Một hàng", tiktok="5-10", label="Rạng sáng",
+                 img=f"First-person view from a hidden position on a cliffside at dawn, mist lifting off the narrow valley, a long column of Ming soldiers in red padded coats and horsemen squeezed onto the single narrow road below, {FACE} crouching beside the viewer, realistic, vertical 9:16.",
+                 vid=("0-5s: Dawn; the mist lifts and reveals a long column of Ming soldiers in red coats squeezed onto the "
+                      "single narrow road, marsh on one side, cliff on the other. 5-10s: Anh Tư, crouching, whispers to the "
+                      "viewer: \"Đúng là... chỉ đi được một hàng.\""),
+                 subs=[(0.5, 4.8, "Đạo quân dài dằng dặc / dồn vào một con đường."),
+                       (5.0, 9.5, "Đúng là... / chỉ đi được một hàng.")]),
+            dict(name="Câu chốt", label="",
+                 img=f"First-person view from the cliff as drums boom and hundreds of Lam Sơn fighters rise from both cliffsides above the trapped column, elephants emerging from behind the rocks, no blood, {FACE} standing up with a huge grin, realistic, vertical 9:16.",
+                 vid=("0-5s: Drums boom; hundreds of fighters rise from both cliffsides above the trapped column and the "
+                      "elephants step out from behind the rocks; no blood shown. A calm narrator's voice says: \"Tháng 10 năm "
+                      "1427, nghĩa quân Lam Sơn phục kích ở Chi Lăng. Liễu Thăng tử trận, đạo viện binh mười vạn bắt đầu tan "
+                      "vỡ.\" 5-10s: Anh Tư grins at the camera: \"Đêm qua em gác... hôm nay em chạy. Mà thắng!\""),
+                 subs=[(0.3, 4.8, "Phục kích ở Chi Lăng, / tháng 10 năm 1427. / Liễu Thăng tử trận, / viện binh nhà Minh tan vỡ."),
+                       (5.0, 8.4, "Đêm qua em gác... / hôm nay em chạy. Mà thắng!")]),
+        ],
+        caption=("\"Cả ải chỉ có một con đường hẹp. Quân Minh đông gấp mười, nhưng chúng chỉ đi được một hàng.\" ⚔️ Đêm trước "
+                 "trận Chi Lăng tháng 10 năm 1427, khoảng một vạn quân Lam Sơn và năm con voi phục trên vách núi, chờ mười vạn "
+                 "viện binh của Liễu Thăng. Tiền truyện của tập \"Chạy thua cả ngày\". Nếu là bạn, bạn chọn gác ải hay đi "
+                 "nhử? 👇"),
+        tags="#trandanhnoitieng #chilang #lamson #lieuthang #1427",
+        tt_title="Gác ải Chi Lăng đêm trước trận: quân Minh đông gấp mười, nhưng chỉ đi được một hàng",
+        hooks_alt=["POV: Quân Minh đông gấp mười / nhưng chỉ đi được một hàng", "POV: Đếm đuốc giặc / đếm không nổi"],
+        pin=("Đây là tiền truyện của tập \"Chạy thua cả ngày\" (Chi Lăng 1427) 🔥 Xem tiếp ở trang cá nhân 👆 Bạn chọn gác "
+             "ải hay đi nhử giặc? Follow để xem trận đánh tiếp theo!"),
+        yt_title="Đêm trước trận Chi Lăng 1427: quân Minh đông gấp mười, nhưng chỉ đi được một hàng",
+        yt_tags=("chi lăng, ải chi lăng, liễu thăng, lam sơn, lê lợi, trần lựu, 1427, quân minh, lịch sử việt nam, "
+                 "pov lịch sử, anh tư, đại việt, shorts"),
+    ),
 ]
 
 if __name__ == "__main__":

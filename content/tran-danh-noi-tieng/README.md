@@ -8,6 +8,7 @@ Mỗi trận một tập theo công thức Anh Tư (YouTube 50 giây, TikTok 30 
 | 2 | 1285 | Hàm Tử | Mặc giáp nhà Tống ra trận, giặc nhìn thấy đã chạy | "Mặc nhầm áo… mà giặc chạy mất dép." | B | `td1285-1..5` |
 | 3 | 1288 | Vân Đồn | **Bản đầy đủ 7 cảnh:** ông bán than được vua nhận ra, giữ Vân Đồn, để lọt Ô Mã Nhi, xin vài ngày lập công, phá thuyền lương | "Sếp bị dọa đuổi việc… còn xin thêm mấy ngày chạy KPI." | A/B | `td1288-1..7` (YouTube khoảng 68 giây, TikTok khoảng 43 giây, cả hai đủ 7 cảnh) |
 | 4 | 1426 | Tốt Động – Chúc Động | Cấy lúa giả ngay bên đường giặc đi qua | "Diễn nông dân thôi… mà em cấy nhanh hơn cả nông dân thật." | A | `td1426-1..5` |
+| 5 | 1427 | Chi Lăng (đêm trước trận) | **Gác ải đêm trước trận**: "Cả ải chỉ có một con đường hẹp. Quân Minh đông gấp mười… nhưng chúng chỉ đi được một hàng." Tiền truyện của Anh Tư tập 4 "Chạy thua cả ngày". Bản đầy đủ 6 cảnh | "Đúng là… chỉ đi được một hàng." | A/B | `td1427-1..6` (YouTube khoảng 58 giây, TikTok khoảng 38 giây đủ cảnh) |
 
 ## Đăng
 
