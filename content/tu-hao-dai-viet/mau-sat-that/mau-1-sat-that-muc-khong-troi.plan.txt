@@ -1,0 +1,26 @@
+# Dựng: python3 ../tools/tiktok.py mau-1-sat-that-muc-khong-troi.plan.txt mau-1-sat-that-muc-khong-troi.mp4  (ra mau-1-sat-that-muc-khong-troi-youtube.mp4 và mau-1-sat-that-muc-khong-troi-tiktok.mp4)
+hook: POV: Pha mực / phải không trôi / được cả đời
+end: Follow để xem / Tự hào Đại Việt / tập tiếp theo →
+nhan: AI tái hiện · lời thoại hư cấu
+end_giay: 1.6
+
+clip: th1285a-1.mp4 | Trại quân nhà Trần · cuối 1284 | tiktok=5-10
+clip: th1285a-2.mp4 |  | tiktok=5-10
+clip: th1285a-3.mp4 |  | tiktok=5-10
+clip: th1285a-4.mp4 | 
+clip: th1285a-5.mp4 |  | tiktok=5-10
+clip: th1285a-6.mp4 | 
+
+sub: 1 | 0.5-4.8 | Mực này rửa là trôi. / Pha lại.
+sub: 1 | 5.0-7.4 | Viết thư thôi mà, / cần gì đặc thế ạ?
+sub: 1 | 7.4-9.6 | Mực này phải không trôi / được cả đời.
+sub: 2 | 0.5-4.8 | Sao không trôi... / sao không trôi!
+sub: 2 | 5.0-6.8 | Đúng. Phải thế.
+sub: 2 | 6.8-9.6 | Em thử mực... / giờ tay em đen luôn rồi.
+sub: 3 | 5.0-9.5 | Một bát mực... / cho cả một đạo quân?
+sub: 4 | 0.5-3.2 | Còn chỗ trống, / thêm tên người yêu em?
+sub: 4 | 3.2-4.8 | Hai chữ thôi.
+sub: 4 | 5.0-9.5 | Cả đạo quân / xăm cùng một chữ... / không ai xăm tên người yêu.
+sub: 5 | 5.0-9.5 | Tướng cũng xếp hàng... / thế thì em trốn đằng nào?
+sub: 6 | 0.3-4.8 | Năm 1285, quân nhà Trần / xăm hai chữ Sát Thát. / Năm 1288, / quân Nguyên rút hẳn.
+sub: 6 | 5.0-8.4 | Mực em pha đấy... / chữ vẫn còn. / Giặc thì không.

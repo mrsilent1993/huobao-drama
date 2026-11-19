@@ -1,0 +1,27 @@
+# Dựng: python3 ../tools/tiktok.py mau-2-sat-that-nguoi-cam-den.plan.txt mau-2-sat-that-nguoi-cam-den.mp4  (ra mau-2-sat-that-nguoi-cam-den-youtube.mp4 và mau-2-sat-that-nguoi-cam-den-tiktok.mp4)
+hook: POV: Sợ kim nhất trại / bị sai cầm đèn / cho thợ xăm
+end: Follow để xem / Tự hào Đại Việt / tập tiếp theo →
+nhan: AI tái hiện · lời thoại hư cấu
+end_giay: 1.6
+
+clip: th1285b-1.mp4 | Trại quân nhà Trần · cuối 1284 | tiktok=5-10
+clip: th1285b-2.mp4 |  | tiktok=5-10
+clip: th1285b-3.mp4 |  | tiktok=5-10
+clip: th1285b-4.mp4 | 
+clip: th1285b-5.mp4 |  | tiktok=5-10
+clip: th1285b-6.mp4 | 
+
+sub: 1 | 0.5-4.8 | Cầm đèn cho thợ. / Cả đêm.
+sub: 1 | 5.0-7.6 | Em... sợ kim / nhất trại đấy ạ.
+sub: 1 | 7.6-9.6 | Không hỏi.
+sub: 2 | 0.5-4.8 | Ối... ối...
+sub: 2 | 5.0-9.5 | Tao xăm / chứ mày có xăm đâu?
+sub: 3 | 0.5-4.8 | Hai chữ gì / mà xăm cả trại thế ạ?
+sub: 3 | 5.0-9.5 | Sát Thát. Đánh giặc Thát. / Cầm đèn cho vững.
+sub: 4 | 0.5-3.2 | Xăm thêm tên người yêu em / được không thầy?
+sub: 4 | 3.2-4.8 | Hai chữ thôi.
+sub: 4 | 5.0-9.5 | Cả đạo quân / xăm cùng một chữ... / không ai xăm tên người yêu.
+sub: 5 | 0.5-4.8 | Hết người rồi. / Còn mày.
+sub: 5 | 5.0-9.5 | Thôi... đến lượt người khác / cầm đèn cho em.
+sub: 6 | 0.3-4.8 | Năm 1285, quân sĩ nhà Trần / thích vào cánh tay / hai chữ: Sát Thát.
+sub: 6 | 5.0-8.4 | Lạ thật... / nghĩ đến giặc / thì không thấy đau.
