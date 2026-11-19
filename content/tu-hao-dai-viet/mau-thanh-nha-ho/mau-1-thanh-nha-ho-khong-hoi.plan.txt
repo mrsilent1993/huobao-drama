@@ -1,0 +1,32 @@
+# Dựng: python3 ../tools/tiktok.py mau-1-thanh-nha-ho-khong-hoi.plan.txt mau-1-thanh-nha-ho-khong-hoi.mp4  (ra mau-1-thanh-nha-ho-khong-hoi-youtube.mp4 và mau-1-thanh-nha-ho-khong-hoi-tiktok.mp4)
+hook: POV: Xây thành / không cần vữa / trong 3 tháng
+end: Follow để xem / Tự hào Đại Việt / tập tiếp theo →
+nhan: AI tái hiện · lời thoại hư cấu
+end_giay: 1.6
+
+clip: th1397a-1.mp4 | An Tôn, Thanh Hóa · 1397 | tiktok=0-5
+clip: th1397a-2.mp4 |  | tiktok=5-10
+clip: th1397a-3.mp4 |  | tiktok=5-10
+clip: th1397a-4.mp4 |  | tiktok=5-10
+clip: th1397a-5.mp4 |  | tiktok=5-10
+clip: th1397a-6.mp4 |  | tiktok=5-10
+clip: th1397a-7.mp4 |  | tiktok=3-10 | chuyen=fade:0.4
+
+sub: 1 | 0.3-2.4 | Khiêng đá. / Xếp thành tường.
+sub: 1 | 2.4-3.8 | Vữa đâu ạ?
+sub: 1 | 3.8-4.9 | Không hỏi.
+sub: 1 | 5.2-9.5 | Hòn này... / to bằng cái giường nhà em.
+sub: 2 | 0.5-4.8 | Dô ta! Dô ta!
+sub: 2 | 5.0-9.5 | Hai mươi người / khiêng một hòn đá... / đá vẫn nằm im.
+sub: 3 | 0.5-4.8 | Rầm!
+sub: 3 | 5.0-9.5 | Không vữa... / mà cọng cỏ cũng không lọt.
+sub: 4 | 0.5-4.8 | Ba tháng. / Phải xong cả tòa thành.
+sub: 4 | 5.0-9.5 | Nhà em xây cái chuồng lợn... / còn mất nửa năm.
+sub: 5 | 0.5-4.8 | Đứng yên. / Đá tự giữ nhau.
+sub: 5 | 5.0-9.5 | Không vữa... / mà em vẫn phải đứng dưới?
+sub: 6 | 0.5-2.2 | Xây gì mà gấp thế ông?
+sub: 6 | 2.2-4.8 | Kinh đô mới. / Phương Bắc đang nhìn sang.
+sub: 6 | 5.0-9.5 | Thảo nào... ba tháng.
+sub: 7 | 3.0-4.4 | Xây vội thế, / được mấy năm?
+sub: 7 | 4.5-6.6 | Ba tháng xây xong... / sáu trăm năm chưa đổ.
+sub: 7 | 6.7-8.4 | Hơn 600 năm sau, / cổng thành vẫn đứng.

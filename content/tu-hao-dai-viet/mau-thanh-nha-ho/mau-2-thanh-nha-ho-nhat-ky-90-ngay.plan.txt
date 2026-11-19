@@ -1,0 +1,28 @@
+# Dựng: python3 ../tools/tiktok.py mau-2-thanh-nha-ho-nhat-ky-90-ngay.plan.txt mau-2-thanh-nha-ho-nhat-ky-90-ngay.mp4  (ra mau-2-thanh-nha-ho-nhat-ky-90-ngay-youtube.mp4 và mau-2-thanh-nha-ho-nhat-ky-90-ngay-tiktok.mp4)
+hook: POV: Nhật ký / 90 ngày / xây thành đá
+end: Follow để xem / Tự hào Đại Việt / tập tiếp theo →
+nhan: AI tái hiện · lời thoại hư cấu
+end_giay: 1.6
+
+clip: th1397b-1.mp4 | Ngày 1 · An Tôn, 1397 | tiktok=0-5
+clip: th1397b-2.mp4 | Ngày 5 | tiktok=5-10
+clip: th1397b-3.mp4 | Ngày 20 | tiktok=5-10
+clip: th1397b-4.mp4 | Ngày 45 | tiktok=5-10
+clip: th1397b-5.mp4 | Ngày 70 | tiktok=5-10
+clip: th1397b-6.mp4 | Ngày 89 | tiktok=5-10
+clip: th1397b-7.mp4 | Ngày 90 | tiktok=3-10
+
+sub: 1 | 0.3-2.4 | Chín mươi ngày. / Xong cả tòa thành.
+sub: 1 | 2.4-3.8 | Chín mươi... ngày ạ?
+sub: 1 | 3.8-4.9 | Không hỏi.
+sub: 1 | 5.2-9.5 | Ngày một. / Cánh đồng này... chưa có gì.
+sub: 2 | 5.0-9.5 | Ngày năm. / Vai em giờ... / cũng cứng như đá.
+sub: 3 | 0.5-4.8 | Đổ nước! Kéo!
+sub: 3 | 5.0-9.5 | Ngày hai mươi. / Đá nặng thì... cho nó trượt.
+sub: 4 | 5.0-9.5 | Ngày bốn lăm. / Khe đá không lọt / nổi cái lá.
+sub: 5 | 5.0-9.5 | Vợ hỏi bao giờ về. / Em bảo: / khi nào đá thôi nặng.
+sub: 6 | 0.5-4.8 | Thả từ từ... / thả từ từ...
+sub: 6 | 5.0-9.5 | Ngày tám chín. / Hòn cuối cùng... vừa khít.
+sub: 7 | 3.0-4.4 | Ngày chín mươi.
+sub: 7 | 4.5-6.6 | Ba tháng xây xong... / sáu trăm năm chưa đổ.
+sub: 7 | 6.7-8.4 | Ngày thứ 229 nghìn: / vẫn đứng.

@@ -1,0 +1,31 @@
+# Dựng: python3 ../tools/tiktok.py mau-3-thanh-nha-ho-tho-ca-kho-tinh.plan.txt mau-3-thanh-nha-ho-tho-ca-kho-tinh.mp4  (ra mau-3-thanh-nha-ho-tho-ca-kho-tinh-youtube.mp4 và mau-3-thanh-nha-ho-tho-ca-kho-tinh-tiktok.mp4)
+hook: POV: Ông thợ cả / thử khe đá / bằng sợi tóc
+end: Follow để xem / Tự hào Đại Việt / tập tiếp theo →
+nhan: AI tái hiện · lời thoại hư cấu
+end_giay: 1.6
+
+clip: th1397c-1.mp4 | An Tôn, Thanh Hóa · 1397 | tiktok=0-5
+clip: th1397c-2.mp4 |  | tiktok=5-10
+clip: th1397c-3.mp4 |  | tiktok=5-10
+clip: th1397c-4.mp4 |  | tiktok=5-10
+clip: th1397c-5.mp4 |  | tiktok=5-10
+clip: th1397c-6.mp4 |  | tiktok=5-10
+clip: th1397c-7.mp4 |  | tiktok=3-10
+
+sub: 1 | 0.3-2.6 | Khe nào lọt sợi tóc này / là dỡ ra xếp lại.
+sub: 1 | 2.6-3.9 | Không có vữa ạ?
+sub: 1 | 3.9-4.9 | Không hỏi.
+sub: 2 | 0.5-4.8 | Dỡ.
+sub: 2 | 5.0-9.5 | Ông còn có ba sợi tóc... / mà đòi thử cả tòa thành.
+sub: 3 | 0.5-2.2 | Bùn à?
+sub: 3 | 2.2-4.8 | Dạ... / vữa tự nhiên ạ.
+sub: 3 | 5.0-6.4 | Dỡ.
+sub: 3 | 6.4-9.5 | Em giấu được vợ... / không giấu được ông.
+sub: 4 | 0.5-4.8 | Hò dô ta... nào!
+sub: 4 | 5.0-9.5 | Hóa ra đá... / phải nghe hò mới chịu đi.
+sub: 5 | 0.5-4.8 | Đứng đấy. / Đá tự giữ nhau.
+sub: 5 | 5.0-9.5 | Đá tự giữ nhau... / ông đứng ra ngoài làm gì?
+sub: 6 | 5.0-9.5 | Ba tháng... / lần đầu ông ấy cười.
+sub: 7 | 3.0-4.4 | Ông ơi...
+sub: 7 | 4.5-6.6 | Ba tháng xây xong... / sáu trăm năm chưa đổ.
+sub: 7 | 6.7-8.4 | Hơn 600 năm sau... / sợi tóc vẫn không lọt.
