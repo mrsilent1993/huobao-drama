@@ -153,6 +153,8 @@ Gốc từ video Bạch Đằng 938 "Cắm cọc cả buổi sáng" (1,7 triệu
 
 ## 7. An toàn và kiểm duyệt (bắt buộc)
 
+Bảng kiểm đầy đủ theo nội quy TikTok, YouTube và luật Việt Nam: **`nghien-cuu/noi-quy-tiktok-youtube.md`**. Mỗi video phải qua 2 lần duyệt (kịch bản và bản dựng) của **Sử gia** và **Kiểm duyệt nội quy**; một trong hai chặn thì dừng.
+
 - **Trẻ em:**
   - Không trẻ em cận cảnh, không thấy mặt, không khóc, không trong cảnh chiến tranh. Chỉ thấy từ phía sau hoặc từ xa.
   - **Không dựng chuyện hôn nhân hay tình cảm có người dưới 18 tuổi** (ví dụ Ngọc Hân năm 1786 mới 16 tuổi, nên không làm).

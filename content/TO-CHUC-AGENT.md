@@ -2,7 +2,7 @@
 
 Thiết kế dựa trên toàn bộ công việc đã làm trong session này: nghiên cứu đề tài, kiểm chứng sử, viết kịch bản, viết prompt Muse, kiểm duyệt, dựng FFmpeg, đăng bài, đọc bình luận và số liệu, kiếm tiền.
 
-**Đề xuất: 9 agent, chia 3 khối.** Muốn gọn thì chạy bản rút gọn 5 agent (cuối file).
+**Đề xuất: 9 agent, chia 3 khối.** Trong đó **Sử gia** và **Kiểm duyệt nội quy TikTok, YouTube** là 2 agent bắt buộc, có quyền chặn video. Muốn gọn thì chạy bản rút gọn 6 agent (cuối file), hai agent này vẫn giữ riêng.
 
 Anh là **Giám đốc (người duyệt)**. Có 3 việc agent không thay được:
 - Tạo clip trên Muse (Muse không có kết nối tự động).
@@ -22,14 +22,24 @@ Anh là **Giám đốc (người duyệt)**. Có 3 việc agent không thay đư
       ┌────────────────────────────┼────────────────────────────┐
   KHỐI NỘI DUNG               KHỐI SẢN XUẤT                KHỐI TĂNG TRƯỞNG
   2. Phân tích dữ liệu        5. Prompt Muse               8. Đăng bài và cộng đồng
-  3. Sử gia, kiểm chứng       6. Kiểm duyệt an toàn        9. Kiếm tiền và đối tác
+  3. Sử gia 🔒                6. Kiểm duyệt nội quy 🔒      9. Kiếm tiền và đối tác
   4. Biên kịch                7. Dựng phim và kiểm tra
 ```
 
 **Luồng một video:**
-2 chọn đề tài → 3 tra nguồn → 4 viết kịch bản → 3 soát sử → 5 viết prompt → 6 kiểm duyệt kịch bản → **anh tạo clip trên Muse** → 7 kiểm tra clip, dựng 2 bản → 6 kiểm duyệt bản dựng → **anh duyệt** → 8 soạn thông tin đăng → **anh đăng** → 8 theo dõi bình luận → 2 phân tích → 1 cập nhật tiêu chuẩn.
+2 chọn đề tài → 3 tra nguồn → 4 viết kịch bản → 5 viết prompt → **🔒 Cổng 1: Sử gia (3) + Kiểm duyệt (6) duyệt kịch bản và prompt** → **anh tạo clip trên Muse** → 7 kiểm tra clip, dựng 2 bản → **🔒 Cổng 2: Sử gia (3) soát hình + Kiểm duyệt (6) soát nội quy** → **anh duyệt** → 8 soạn thông tin đăng → **anh đăng** → 8 theo dõi bình luận → 2 phân tích → 1 cập nhật tiêu chuẩn.
 
 ---
+
+## Hai agent bắt buộc, có quyền chặn 🔒
+
+**Sử gia (3)** và **Kiểm duyệt nội quy TikTok, YouTube (6)** là hai "cổng" bắt buộc:
+- **Luôn là 2 agent riêng.** Không gộp với nhau, không gộp với agent nào khác, kể cả ở bản rút gọn.
+- **Có quyền chặn:** một trong hai nói "không" thì video dừng lại, trả về sửa. Điều phối không được bỏ qua.
+- **Duyệt ở 2 cổng:**
+  - **Cổng 1 · Kịch bản:** trước khi anh tạo clip Muse, cả hai cùng duyệt kịch bản và prompt.
+  - **Cổng 2 · Bản dựng:** trước khi đăng. Sử gia soát hình (trang phục, cờ, cọc, vật dụng sai thời); Kiểm duyệt soát theo bảng kiểm TikTok, YouTube và luật.
+- **Lý do:** các lỗi nặng nhất của kênh đều thuộc hai vai này. Tập A3 bị TikTok gắn cờ an toàn trẻ em; video Bạch Đằng 938 bị khoảng 30 bình luận chê cọc nhỏ và 18 bình luận chê cờ hiện đại.
 
 ## Bảng tổng quan
 
@@ -37,10 +47,10 @@ Anh là **Giám đốc (người duyệt)**. Có 3 việc agent không thay đư
 |---|---|---|---|---|
 | 1 | **Điều phối sản xuất** | Nhận yêu cầu của anh, chia việc, giữ lịch đăng và `TIEU-CHUAN-KICH-BAN.md` | Kế hoạch tuần, lịch đăng, tiêu chuẩn cập nhật | Lập lịch 7 ngày, thứ tự loạt, cập nhật tiêu chuẩn |
 | 2 | **Phân tích dữ liệu và xu hướng** | Đọc số liệu TikTok, YouTube và bình luận, đề xuất đề tài | Báo cáo hiệu quả, danh sách đề tài xếp hạng | Phân tích 11 video, 395 bình luận |
-| 3 | **Sử gia, kiểm chứng** | Tra nguồn, chấm mức A/B/C, tách sử chép và hư cấu, chuẩn hình ảnh từng thời | Phần lịch sử, chuẩn trang phục, cảnh báo sai sử | Cọc Bạch Đằng, vua giả 1790, quân Xiêm 1785… |
+| 3 | **Sử gia, kiểm chứng** 🔒 | Tra nguồn, chấm mức A/B/C, tách sử chép và hư cấu, chuẩn hình ảnh từng thời | Phần lịch sử, chuẩn trang phục, cảnh báo sai sử | Cọc Bạch Đằng, vua giả 1790, quân Xiêm 1785… |
 | 4 | **Biên kịch** | Viết kịch bản theo công thức Anh Tư | `_nguon.py` của tập: cảnh, câu chốt, hook, bản ngắn | Hơn 50 tập ở 10 loạt |
 | 5 | **Prompt Muse** (hình và giọng) | Viết prompt ảnh và video, chuẩn hình ảnh, giọng, nối cảnh | File .md dán thẳng vào Muse | 7 quy tắc hình ảnh, bảng giọng, nối cảnh |
-| 6 | **Kiểm duyệt an toàn** | Soát kịch bản và bản dựng theo quy định TikTok, YouTube và luật | Phiếu duyệt có hoặc không, kèm yêu cầu sửa | Làm lại tập A3, tập "Ngày thứ 42" |
+| 6 | **Kiểm duyệt nội quy TikTok và YouTube** 🔒 | Soát kịch bản và bản dựng theo nội quy TikTok, YouTube và luật Việt Nam (`nghien-cuu/noi-quy-tiktok-youtube.md`) | Phiếu duyệt có hoặc không, kèm yêu cầu sửa | Làm lại tập A3, tập "Ngày thứ 42" |
 | 7 | **Dựng phim và kiểm tra kỹ thuật** | Kiểm clip Muse, dựng FFmpeg ra 2 bản, chuyển cảnh, phụ đề, âm lượng | `-youtube.mp4`, `-tiktok.mp4`, ảnh bìa | `tiktok.py`, `khung-cuoi.py`, chuyển cảnh |
 | 8 | **Đăng bài và cộng đồng** | Soạn tiêu đề, mô tả, thẻ, bình luận ghim; trả lời bình luận; video trả lời | Thông tin đăng, kịch bản trả lời bình luận | Mục đăng ở mỗi tập, video "Cọc thật to cỡ nào" |
 | 9 | **Kiếm tiền và đối tác** | TikTok Shop, YouTube Partner Program, sản phẩm gắn video, đối tác | Kế hoạch kiếm tiền, danh sách sản phẩm | Tư vấn gắn sách, mốc YPP |
@@ -77,21 +87,26 @@ Anh là **Giám đốc (người duyệt)**. Có 3 việc agent không thay đư
   - Không suy ra nhu cầu của cả kênh từ một bình luận.
 - **Đo hiệu quả:** đề tài được đề xuất có tỷ lệ thích từ 4,5% trở lên.
 
-### 3. Sử gia, kiểm chứng (Historian)
+### 3. Sử gia, kiểm chứng (Historian) 🔒
 
-- **Vai trò:** bảo đảm đúng sử, tránh bị bắt lỗi như vụ cọc nhỏ và cờ hiện đại.
-- **Đầu vào:** đề tài; bản nháp kịch bản của agent 4.
+- **Vai trò:** bảo đảm đúng sử, không xuyên tạc lịch sử, không để người xem bắt lỗi như vụ cọc nhỏ và cờ hiện đại.
+- **Có quyền chặn** ở cả Cổng 1 (kịch bản, prompt) và Cổng 2 (bản dựng).
+- **Đầu vào:** đề tài; kịch bản của agent 4; prompt của agent 5; bản dựng của agent 7.
 - **Đầu ra:**
-  - Phần "Lịch sử" của tập, gồm sử chép kèm nguồn, phần dựng lại và phần hư cấu, mức A/B/C.
-  - Chuẩn hình ảnh từng phe trong `nghien-cuu/chuan-hinh-anh-quan-doi.md`.
-  - Số liệu đã tra (ví dụ cọc Yên Giang 2,6–2,8 m, đường kính 20–30 cm).
-- **Quy tắc:**
-  - Chuyện tranh cãi thì để ngỏ.
-  - Không ghép nhầm thời đại.
-  - Chuyện có cách gọi gây tranh cãi thì ghi "theo sử hiện đại".
-  - Truyền thuyết phải gắn nhãn.
-  - Mục nào chưa tra được thì đánh dấu ⚠️.
+  - Phần "Lịch sử" của tập: sử chép kèm nguồn, phần dựng lại, phần hư cấu, mức A/B/C.
+  - Chuẩn hình ảnh từng phe (`nghien-cuu/chuan-hinh-anh-quan-doi.md`).
+  - Số liệu đã tra.
+  - Phiếu duyệt CHO QUA / CHẶN.
+- **Bảng kiểm:**
+  1. Sự kiện, năm, địa danh, nhân vật đúng; không ghép nhầm thời đại (ví dụ Yết Kiêu thuộc thời Trần).
+  2. Có mức nguồn; tách rõ sử chép, dựng lại, hư cấu; câu của nhân vật thật ghi "phỏng theo".
+  3. Truyền thuyết có nhãn "theo truyền thuyết"; chuyện tranh cãi để ngỏ; cách gọi gây tranh cãi ghi "theo sử hiện đại".
+  4. Số liệu khớp nguồn, ghi khoảng giá trị nếu các nguồn lệch nhau.
+  5. **Không xuyên tạc lịch sử, không hạ thấp anh hùng và danh nhân** (Luật An ninh mạng 2018, phối hợp với agent 6).
+  6. **Hình đúng thời:** trang phục, thuyền, vũ khí, kiến trúc, cờ, cọc, rồng; không vật dụng hiện đại. Từ hiện đại cố ý gây cười (KPI…) được phép tối đa 1 lần mỗi tập.
+  7. Mục nào chưa tra được thì đánh dấu ⚠️ và báo anh.
 - **Kỹ năng nên gắn:** nghiên cứu web sâu (deep research), phân tích sử (historian-analyst).
+- **Đo hiệu quả:** 0 lỗi sử bị người xem bắt sau khi đăng.
 
 ### 4. Biên kịch (Scriptwriter)
 
@@ -121,19 +136,31 @@ Anh là **Giám đốc (người duyệt)**. Có 3 việc agent không thay đư
   - Giọng vùng miền đúng; giọng cố định cho Anh Tư và người dẫn chuyện.
 - **Đo hiệu quả:** số clip phải tạo lại vì sai hình hoặc sai giọng.
 
-### 6. Kiểm duyệt an toàn (Compliance)
+### 6. Kiểm duyệt nội quy TikTok và YouTube (Compliance) 🔒
 
-- **Vai trò:** chặn rủi ro bị gắn cờ hoặc bị gỡ video, hai lần: khi duyệt kịch bản và khi duyệt bản dựng.
-- **Đầu vào:** kịch bản, prompt, bản dựng.
-- **Đầu ra:** phiếu duyệt có hoặc không, kèm danh sách sửa.
-- **Danh sách kiểm:**
-  - **Trẻ em:** không cận cảnh, không khóc, không chiến tranh, không hôn nhân dưới 18 tuổi.
-  - **Bạo lực:** không máu, không xác, không cảnh chết hay hành quyết.
-  - **Đề tài tránh:** Chiêm Thành, các mốc hành quyết.
-  - **Quốc kỳ và nhãn AI:** không cờ hiện đại; bật nhãn AI trên TikTok, YouTube và trong video.
-  - **Thù ghét, thông tin sai.**
-  - **Luật AI Việt Nam số 134/2025** (hiệu lực từ 1/3/2026).
-- **Đo hiệu quả:** 0 video bị gắn cờ hoặc bị gỡ.
+- **Vai trò:** chặn mọi rủi ro bị gắn cờ, bị gỡ video, bị giới hạn độ tuổi, mất quyền kiếm tiền, hoặc vi phạm luật Việt Nam.
+- **Có quyền chặn** ở cả Cổng 1 và Cổng 2.
+- **Đầu vào:** kịch bản, prompt, bản dựng, thông tin đăng (tiêu đề, mô tả, ảnh bìa, sản phẩm gắn kèm).
+- **Đầu ra:** phiếu duyệt theo **`nghien-cuu/noi-quy-tiktok-youtube.md`** (mục A1–D4), kết luận CHO QUA / CHẶN kèm danh sách sửa.
+- **Bảng kiểm gồm 4 nhóm:**
+  - **A. Chung:** an toàn trẻ vị thành niên, bạo lực và hình ảnh ghê sợ, thù ghét, thông tin sai lệch, nhãn AI, tiêu đề đúng nội dung, bản quyền, quốc kỳ.
+  - **B. TikTok:**
+    - Nhãn "Nội dung do AI tạo".
+    - Đủ điều kiện lên "Dành cho bạn": không kêu gọi rời TikTok bằng lời, không đăng lại video cũ.
+    - Gắn sản phẩm đúng chỗ.
+    - Video trả lời bình luận.
+    - Không dùng bot trả lời bình luận.
+  - **C. YouTube:**
+    - "Nội dung bị thay đổi" chọn **Có**; "Dành cho trẻ em" chọn **Không**.
+    - Bối cảnh giáo dục cho cảnh chiến tranh.
+    - **Chính sách nội dung hàng loạt, thiếu tính nguyên bản** (điều kiện kiếm tiền YPP).
+    - Siêu dữ liệu đúng nội dung; định dạng Shorts.
+  - **D. Luật Việt Nam:**
+    - Luật An ninh mạng 2018: không xuyên tạc lịch sử, không xúc phạm anh hùng.
+    - Luật Trí tuệ nhân tạo số 134/2025: gắn nhãn AI.
+    - Quốc kỳ; tài khoản đã xác thực.
+- **Cập nhật:** đọc lại trang chính sách chính thức của TikTok và YouTube **mỗi tháng**, sửa bảng kiểm khi có thay đổi.
+- **Đo hiệu quả:** 0 video bị gắn cờ, gỡ, giới hạn độ tuổi; kênh đủ điều kiện kiếm tiền.
 
 ### 7. Dựng phim và kiểm tra kỹ thuật (Editor/QA)
 
@@ -181,25 +208,27 @@ Anh là **Giám đốc (người duyệt)**. Có 3 việc agent không thay đư
 
 ---
 
-## Bản rút gọn: 5 agent
+## Bản rút gọn: 6 agent
 
-Dùng khi muốn ít agent hơn:
+Dùng khi muốn ít agent hơn. **Sử gia và Kiểm duyệt vẫn giữ riêng, có quyền chặn.**
 
-| Agent gộp | Gồm |
+| Agent | Gồm |
 |---|---|
 | A. Điều phối và phân tích | 1 + 2 |
-| B. Sử gia và kiểm duyệt | 3 + 6 |
-| C. Biên kịch và prompt | 4 + 5 |
-| D. Dựng phim và kiểm tra | 7 |
-| E. Đăng bài và kiếm tiền | 8 + 9 |
+| B. **Sử gia** 🔒 | 3 |
+| C. **Kiểm duyệt nội quy TikTok, YouTube** 🔒 | 6 |
+| D. Biên kịch và prompt | 4 + 5 |
+| E. Dựng phim và kiểm tra | 7 |
+| F. Đăng bài và kiếm tiền | 8 + 9 |
 
-**Không gộp kiểm duyệt (6) với biên kịch (4):** người viết khó tự bắt lỗi của chính mình. Vụ tập A3 bị gắn cờ là ví dụ.
+**Không bao giờ gộp Sử gia hay Kiểm duyệt với Biên kịch:** người viết khó tự bắt lỗi của chính mình. Vụ tập A3 bị gắn cờ là ví dụ.
 
 ## Tài sản dùng chung cho mọi agent
 
 - `content/TIEU-CHUAN-KICH-BAN.md`: luật chung, ai cũng phải đọc trước.
 - `content/MAU-KICH-BAN.md`: mẫu cho từng video.
 - `content/nghien-cuu/chuan-hinh-anh-quan-doi.md`, `content/nghien-cuu/giong-nhan-vat.md`.
+- `content/nghien-cuu/noi-quy-tiktok-youtube.md`: bảng kiểm của agent Kiểm duyệt.
 - `content/tools/`:
   - `series.py`: sinh prompt.
   - `tiktok.py`: dựng video.
