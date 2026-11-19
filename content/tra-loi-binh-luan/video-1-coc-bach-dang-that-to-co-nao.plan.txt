@@ -1,0 +1,22 @@
+# Dựng: python3 ../tools/tiktok.py video-1-coc-bach-dang-that-to-co-nao.plan.txt video-1-coc-bach-dang-that-to-co-nao.mp4  (ra video-1-coc-bach-dang-that-to-co-nao-youtube.mp4 và video-1-coc-bach-dang-that-to-co-nao-tiktok.mp4)
+hook: Cọc Bạch Đằng / thật to cỡ nào?
+end: Cảm ơn các bác đã góp ý! / Follow để xem cọc to / trong các tập sau →
+nhan: AI tái hiện · lời thoại hư cấu
+end_giay: 1.6
+
+clip: tl1-1.mp4 | Trả lời bình luận
+clip: tl1-2.mp4 | Bãi cọc Yên Giang | tiktok=0-5
+clip: tl1-3.mp4 | Bãi cọc Cao Quỳ | tiktok=5-10
+clip: tl1-4.mp4 | Lúc nước ròng
+clip: tl1-5.mp4 | 
+
+sub: 1 | 0.5-4.8 | Các bác bảo cọc nhà em... / để xỉa răng.
+sub: 1 | 5.0-9.5 | Các bác nói đúng! / Để em cho xem cọc thật.
+sub: 2 | 0.3-4.8 | Yên Giang: dài 2,6–2,8 m, / to 20–30 cm, gỗ lim, gỗ táu.
+sub: 2 | 5.0-9.5 | Gỗ lim đấy. Nặng như... / cả nhà em cộng lại.
+sub: 3 | 0.3-4.8 | Bãi cọc Cao Quỳ: có cọc / đường kính gần 40 cm, / dài 3–4 m.
+sub: 3 | 5.0-9.5 | Cao gấp đôi em... mà người ta / còn cắm được xuống bùn!
+sub: 4 | 0.3-4.8 | Cọc cắm ở bãi triều gần bờ, / lúc nước ròng, nhiều người / cùng làm. Cách nhau 0,9–1,5 m.
+sub: 4 | 5.0-9.5 | Một cọc... cả chục người. / Thuyền nào vào là mắc.
+sub: 5 | 0.3-4.8 | Bãi cọc tìm được / là của trận 1288. Bãi cọc / năm 938 chưa tìm thấy.
+sub: 5 | 5.0-8.4 | Cọc to rồi đấy nhé... / lần này các bác đừng chê nữa!
