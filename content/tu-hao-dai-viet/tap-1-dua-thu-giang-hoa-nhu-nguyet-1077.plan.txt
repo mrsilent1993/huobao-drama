@@ -1,0 +1,29 @@
+# Dựng: python3 ../tools/tiktok.py tap-1-dua-thu-giang-hoa-nhu-nguyet-1077.plan.txt tap-1-dua-thu-giang-hoa-nhu-nguyet-1077.mp4  (ra tap-1-dua-thu-giang-hoa-nhu-nguyet-1077-youtube.mp4 và tap-1-dua-thu-giang-hoa-nhu-nguyet-1077-tiktok.mp4)
+hook: POV: Thắng rồi / lại bị sai / đi xin hòa
+end: Follow để xem / Tự hào Đại Việt / tập tiếp theo →
+nhan: AI tái hiện · lời thoại hư cấu
+end_giay: 1.6
+
+clip: th1077-1.mp4 | Sông Như Nguyệt · năm 1077
+clip: th1077-2.mp4 | Mấy tuần sau | tiktok=5-10
+clip: th1077-3.mp4 | Trướng của Thái úy | tiktok=5-10
+clip: th1077-4.mp4 | Bờ bắc sông Như Nguyệt | tiktok=5-10
+clip: th1077-5.mp4 | Sáng hôm sau | tiktok=0-5
+clip: th1077-6.mp4 | 
+
+sub: 1 | 0.3-2.4 | Theo truyền tụng, đêm ấy / từ đền bên sông vọng ra:
+sub: 1 | 2.4-4.2 | Sông núi nước Nam / vua Nam ở,
+sub: 1 | 4.2-6.0 | Rành rành định phận / tại sách trời.
+sub: 1 | 6.0-7.9 | Cớ sao lũ giặc / sang xâm phạm?
+sub: 1 | 7.9-9.8 | Chúng mày nhất định / phải tan vỡ.
+sub: 2 | 0.5-4.8 | Giặc mệt lắm rồi! / Mai đánh nốt là xong!
+sub: 2 | 5.0-7.6 | Không đánh nữa. / Thái úy gọi mày.
+sub: 2 | 7.6-9.6 | Ơ...?
+sub: 3 | 0.5-4.8 | Mang sang trại Tống. / Xin giảng hòa.
+sub: 3 | 5.0-9.5 | Mình đang thắng... / mà mình xin hòa ạ?
+sub: 4 | 0.5-4.8 | Rút quân.
+sub: 4 | 5.0-9.5 | Ông ấy thở ra một hơi... / như được tha về nhà.
+sub: 5 | 0.5-4.8 | Thắng rồi... / mà còn mở đường cho nó về.
+sub: 5 | 5.0-9.5 | Đánh nữa thì hai bên / cùng mất người. / Để nó về, nó nhớ lâu.
+sub: 6 | 0.3-4.8 | Năm 1077, đang thắng thế, / Lý Thường Kiệt chủ động / giảng hòa, mở đường / cho quân Tống rút về.
+sub: 6 | 5.0-8.4 | Đánh giỏi đã khó... / biết dừng còn khó hơn.

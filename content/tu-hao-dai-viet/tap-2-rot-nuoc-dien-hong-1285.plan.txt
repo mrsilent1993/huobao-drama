@@ -1,0 +1,26 @@
+# Dựng: python3 ../tools/tiktok.py tap-2-rot-nuoc-dien-hong-1285.plan.txt tap-2-rot-nuoc-dien-hong-1285.mp4  (ra tap-2-rot-nuoc-dien-hong-1285-youtube.mp4 và tap-2-rot-nuoc-dien-hong-1285-tiktok.mp4)
+hook: POV: Rót nước / cho các cụ / về kinh họp
+end: Follow để xem / Tự hào Đại Việt / tập tiếp theo →
+nhan: AI tái hiện · lời thoại hư cấu
+end_giay: 1.6
+
+clip: th1285-1.mp4 | Thăng Long · đầu năm 1285 | tiktok=5-10
+clip: th1285-2.mp4 |  | tiktok=5-10
+clip: th1285-3.mp4 | Điện Diên Hồng | tiktok=5-10
+clip: th1285-4.mp4 | 
+clip: th1285-5.mp4 |  | tiktok=5-10
+clip: th1285-6.mp4 | 
+
+sub: 1 | 0.5-4.8 | Đón các cụ cho khéo. / Rót nước cho đủ.
+sub: 1 | 5.0-7.6 | Các cụ khắp nước về kinh... / họp gì ạ?
+sub: 1 | 7.6-9.6 | Không hỏi.
+sub: 2 | 0.5-4.8 | Giặc đến đâu rồi?
+sub: 2 | 5.0-9.5 | Cụ giọng Nghệ, / cụ giọng Thanh... / mà cụ nào cũng hỏi / giặc đến đâu rồi.
+sub: 3 | 0.5-4.8 | Vua đứng... / trước các cụ?
+sub: 3 | 5.0-9.5 | Giặc Nguyên sang đông. / Nên hòa... hay nên đánh?
+sub: 4 | 0.5-4.8 | ĐÁNH!
+sub: 4 | 5.0-9.5 | Vua hỏi hòa hay đánh... / mà các cụ hô to / hơn cả lính.
+sub: 5 | 0.5-4.8 | Cụ già rồi, / không cầm giáo được... / nhưng con cháu cụ thì được.
+sub: 5 | 5.0-9.5 | Dạ... cháu nghe rồi.
+sub: 6 | 0.3-4.8 | Năm 1285, Thượng hoàng / mời các bô lão về điện / Diên Hồng hỏi kế. / Muôn người như một: Đánh!
+sub: 6 | 5.0-8.4 | Em rót nước cả buổi... / về nhà, em đi tòng quân.

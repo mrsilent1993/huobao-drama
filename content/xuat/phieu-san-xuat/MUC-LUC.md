@@ -2,7 +2,14 @@
 
 Mỗi video một phiếu theo cùng mẫu: thông tin chung, danh sách clip, bối cảnh và giọng, prompt từng clip, chữ trên video, thông tin đăng, bảng kiểm tra trước khi đăng. Xuất lại bằng `python3 tools/xuat_phieu.py` (chạy từ thư mục `content/`).
 
-**Tổng cộng 59 phiếu.** ✅ = đã đăng (theo trang quản lý TikTok ngày 18/11/2026), ☐ = chưa đăng.
+**Tổng cộng 61 phiếu.** ✅ = đã đăng (theo trang quản lý TikTok ngày 18/11/2026), ☐ = chưa đăng.
+
+## Tự hào Đại Việt
+
+| # | Video | Clip | YouTube | TikTok | Đã đăng | Phiếu |
+|---|---|---|---|---|---|---|
+| 1 | Thắng thế rồi lại bị sai đi đưa thư xin hòa cho giặc (Như Nguyệt, 1077) | 6 | ~58s | ~38s | ☐ | `tu-hao-dai-viet/01-tap-1-dua-thu-giang-hoa-nhu-nguyet-1077.md` |
+| 2 | Bị sai đi rót nước cho các cụ già khắp nước về kinh, không ai nói họp gì (Hội nghị Diên Hồng, 1285) | 6 | ~58s | ~38s | ☐ | `tu-hao-dai-viet/02-tap-2-rot-nuoc-dien-hong-1285.md` |
 
 ## Tây Sơn từng mốc
 
