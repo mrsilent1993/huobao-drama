@@ -1,0 +1,21 @@
+# Dựng: python3 ../tools/tiktok.py tap-4-khac-bia-tien-si-1484.plan.txt tap-4-khac-bia-tien-si-1484.mp4  (ra tap-4-khac-bia-tien-si-1484-youtube.mp4 và tap-4-khac-bia-tien-si-1484-tiktok.mp4)
+hook: POV: Khắc tên người khác / lên đá / cho muôn đời
+end: Follow để xem / Thăng Long kỳ truyện / tập tiếp theo →
+nhan: AI tái hiện · lời thoại hư cấu
+
+clip: tl1484-1.mp4 | Văn Miếu · năm 1484
+clip: tl1484-2.mp4 |  | tiktok=0-5
+clip: tl1484-3.mp4 | 
+clip: tl1484-4.mp4 | Mấy tháng sau | tiktok=5-10
+clip: tl1484-5.mp4 | Văn Miếu ngày nay
+
+sub: 1 | 0.5-4.8 | Khắc tên các tiến sĩ / từ khoa năm 1442. / Không sai một nét.
+sub: 1 | 5.0-9.5 | Người ta đỗ / bốn mươi năm rồi... / giờ mới khắc ạ?
+sub: 2 | 0.5-4.8 | Rùa này... / chở chữ cho cả nghìn năm.
+sub: 2 | 5.0-9.5 | Bia đặt trên lưng rùa đá.
+sub: 3 | 0.5-4.8 | Nét này lệch.
+sub: 3 | 5.0-9.5 | Lệch một nét... mà người ta / nhìn cả nghìn năm. Em run lắm.
+sub: 4 | 0.5-4.8 | Từng tấm bia / đứng lên trên lưng rùa.
+sub: 4 | 5.0-9.5 | Tên người ta lên đá... / tay em lên phồng.
+sub: 5 | 0.3-4.8 | Năm 1484, vua Lê Thánh Tông / dựng bia tiến sĩ ở Văn Miếu. / 82 bia nay là di sản thế giới.
+sub: 5 | 5.0-9.8 | Tên em không có trên bia... / nhưng chữ trên bia là em khắc.

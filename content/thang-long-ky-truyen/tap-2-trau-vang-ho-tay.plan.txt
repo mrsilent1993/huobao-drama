@@ -1,0 +1,22 @@
+# Dựng: python3 ../tools/tiktok.py tap-2-trau-vang-ho-tay.plan.txt tap-2-trau-vang-ho-tay.mp4  (ra tap-2-trau-vang-ho-tay-youtube.mp4 và tap-2-trau-vang-ho-tay-tiktok.mp4)
+hook: POV: Phụ đúc cái chuông / to nhất nước
+end: Follow để xem / Thăng Long kỳ truyện / tập tiếp theo →
+nhan: AI tái hiện · theo truyền thuyết
+
+clip: tltrau-1.mp4 | Theo truyền thuyết · thời Lý
+clip: tltrau-2.mp4 |  | tiktok=5-10
+clip: tltrau-3.mp4 | 
+clip: tltrau-4.mp4 |  | tiktok=0-5
+clip: tltrau-5.mp4 | Hồ Tây ngày nay
+
+sub: 1 | 0.5-4.8 | Đúc cái chuông to nhất nước.
+sub: 1 | 5.0-7.6 | To nhất nước... / thì đánh kêu tới đâu ạ?
+sub: 1 | 7.6-9.6 | Tới tận phương Bắc.
+sub: 2 | 0.5-4.8 | Quả chuông treo lên / cao hơn cả mái đình.
+sub: 2 | 5.0-9.5 | To thế này... đánh một cái / chắc điếc cả làng.
+sub: 3 | 0.5-4.8 | Tiếng chuông vang / tới tận phương Bắc.
+sub: 3 | 5.0-9.5 | Ơ... con gì vàng vàng / đang chạy về đây thế kia?
+sub: 4 | 0.5-4.8 | Trâu chạy đến đâu... / đất lún đến đấy!
+sub: 4 | 5.0-9.5 | Đất lún xuống, / nước dâng lên thành hồ.
+sub: 5 | 0.3-4.8 | Tương truyền, đất lún / thành hồ Tây, nên hồ / còn tên là hồ Kim Ngưu.
+sub: 5 | 5.0-9.8 | Đúc một cái chuông... / ra luôn cái hồ!

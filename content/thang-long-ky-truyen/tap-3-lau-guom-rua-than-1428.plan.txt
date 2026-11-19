@@ -1,0 +1,21 @@
+# Dựng: python3 ../tools/tiktok.py tap-3-lau-guom-rua-than-1428.plan.txt tap-3-lau-guom-rua-than-1428.mp4  (ra tap-3-lau-guom-rua-than-1428-youtube.mp4 và tap-3-lau-guom-rua-than-1428-tiktok.mp4)
+hook: POV: Lau gươm / cho vua đi thuyền
+end: Follow để xem / Thăng Long kỳ truyện / tập tiếp theo →
+nhan: AI tái hiện · theo truyền thuyết
+
+clip: tl1428-1.mp4 | Thăng Long · năm 1428
+clip: tl1428-2.mp4 | Hồ Lục Thủy | tiktok=0-5
+clip: tl1428-3.mp4 | 
+clip: tl1428-4.mp4 |  | tiktok=5-10
+clip: tl1428-5.mp4 | Hồ Gươm ngày nay
+
+sub: 1 | 0.5-4.8 | Lau cho sáng. / Chiều nay vua đi thuyền.
+sub: 1 | 5.0-9.5 | Lau cả buổi... / soi gương được luôn.
+sub: 2 | 0.5-4.8 | Hồ hôm nay... xanh lạ.
+sub: 2 | 5.0-9.5 | Mặt nước bỗng sủi bọt.
+sub: 3 | 0.5-4.8 | Một con rùa vàng / nổi lên cạnh thuyền.
+sub: 3 | 5.0-9.5 | Rùa... / rùa to bằng cái chiếu!
+sub: 4 | 0.5-4.8 | Vua trả gươm. / Rùa ngậm gươm lặn xuống.
+sub: 4 | 5.0-9.5 | Em lau cả buổi sáng... / rùa lấy mất.
+sub: 5 | 0.3-4.8 | Tương truyền, vua Lê Lợi / trả gươm thần cho rùa vàng. / Hồ từ đó gọi là hồ Hoàn Kiếm.
+sub: 5 | 5.0-9.8 | Gươm trả rồi... / nhưng sáng nhất là nhờ em lau!

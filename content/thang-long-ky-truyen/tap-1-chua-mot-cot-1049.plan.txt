@@ -1,0 +1,21 @@
+# Dựng: python3 ../tools/tiktok.py tap-1-chua-mot-cot-1049.plan.txt tap-1-chua-mot-cot-1049.mp4  (ra tap-1-chua-mot-cot-1049-youtube.mp4 và tap-1-chua-mot-cot-1049-tiktok.mp4)
+hook: POV: Dựng cả ngôi điện / trên đúng / một cái cột
+end: Follow để xem / Thăng Long kỳ truyện / tập tiếp theo →
+nhan: AI tái hiện · lời thoại hư cấu
+
+clip: tl1049-1.mp4 | Thăng Long · năm 1049
+clip: tl1049-2.mp4 |  | tiktok=0-5
+clip: tl1049-3.mp4 | 
+clip: tl1049-4.mp4 | Mấy tháng sau | tiktok=5-10
+clip: tl1049-5.mp4 | Gần một nghìn năm sau
+
+sub: 1 | 0.5-4.8 | Dựng điện thờ trên cột này. / Đúng một cột.
+sub: 1 | 5.0-9.5 | Một cột... thôi ạ? / Nhà em bốn cột mà còn nghiêng.
+sub: 2 | 0.5-4.8 | Bệ hạ mộng thấy Phật Bà / ngồi tòa sen giữa hồ. / Dựng đúng như thế.
+sub: 2 | 5.0-9.5 | Vua mơ một đêm... / thợ làm cả năm.
+sub: 3 | 0.5-4.8 | Cả ngôi điện đặt lên / đúng một cái cột.
+sub: 3 | 5.0-9.5 | Kỹ sư bây giờ mà nhìn... / chắc ngất.
+sub: 4 | 0.5-4.8 | Ngôi điện như đóa sen / mọc lên giữa hồ.
+sub: 4 | 5.0-9.5 | Đứng gần thì sợ đổ... / đứng xa thì đẹp như mơ.
+sub: 5 | 0.3-4.8 | Năm 1049, vua Lý Thái Tông / dựng chùa như trong mộng. / Nay là chùa Một Cột.
+sub: 5 | 5.0-9.8 | Dựng lại bao nhiêu lần... / vẫn đúng một cái cột!
