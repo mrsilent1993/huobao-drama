@@ -1,0 +1,217 @@
+# Phiếu sản xuất: Tập 2: Bạn đúc ngựa sắt cho Thánh Gióng
+
+| Mục | Nội dung |
+|---|---|
+| Loạt | Truyện dài |
+| File nguồn | `content/truyen-dai/tap-2-thanh-giong.md` (sửa nội dung ở `content/truyen-dai/_nguon.py`) |
+| Số clip Muse | 6 (`tg-1.mp4` … `tg-6.mp4`) |
+| Bản YouTube | khoảng 58 giây (đủ clip, đã trừ chuyển cảnh) |
+| Bản TikTok | khoảng 38 giây (rút gọn, bỏ một số clip) |
+| Hook giây đầu | POV: Bạn là thợ rèn đúc ngựa sắt cho Thánh Gióng |
+| Nhãn đầu video | AI tái hiện · theo truyền thuyết |
+| Đã đăng | [ ] chưa đăng |
+
+## 1. Danh sách clip
+
+| Clip | File Muse | Cảnh | Mốc thời gian trên video | Bản TikTok dùng | Nối cảnh |
+|---|---|---|---|---|---|
+| 1 | `tg-1.mp4` | Cậu bé ba tuổi biết nói | Làng Phù Đổng · đời Hùng Vương thứ 6 | giữ nguyên 10 giây | — |
+| 2 | `tg-2.mp4` | Đơn hàng rõ ràng | Một lúc sau | giây 0–5 | — |
+| 3 | `tg-3.mp4` | Cả làng nuôi cơm | Mấy hôm sau | giây 5–10 | — |
+| 4 | `tg-4.mp4` | Đúc ngựa sắt | Lò rèn làng | bỏ | — |
+| 5 | `tg-5.mp4` | Vươn vai | Ngày giao hàng | giữ nguyên 10 giây | — |
+| 6 | `tg-6.mp4` | Nhổ tre, bay về trời | Sau trận đánh | giữ nguyên 10 giây | — |
+
+## 2. Bối cảnh, lịch sử, giọng nhân vật
+
+**Độ dài:** 60 giây · 6 clip (từ lúc biết nói đến lúc bay về trời)
+
+Copy từng khối dán thẳng vào phần mềm. Prompt đã ghép đủ, không cần thay gì.
+
+**Truyền thuyết:** đời Hùng Vương thứ 6, giặc Ân sang xâm lược. Ở làng Phù Đổng có cậu bé lên ba chưa biết nói, nghe sứ giả rao tìm người tài thì bỗng nói, xin vua đúc ngựa sắt, roi sắt, áo giáp sắt. Cậu lớn nhanh như thổi, cả làng góp gạo nuôi. Khi ngựa sắt đúc xong, cậu vươn vai thành tráng sĩ, ngựa phun lửa, roi gãy thì nhổ tre đánh giặc. Thắng giặc, Gióng phi ngựa lên núi Sóc rồi bay về trời. Hội Gióng ở đền Phù Đổng và đền Sóc là di sản văn hóa phi vật thể của nhân loại (UNESCO).
+
+## 3. Prompt từng clip
+
+### Clip 1: Cậu bé ba tuổi biết nói
+
+File Muse đặt tên: `tg-1.mp4`
+
+**Ảnh khung đầu**
+```
+First-person view in a dirt yard of an ancient Vietnamese village, a royal herald beating a bronze drum, villagers gathered, a thin peasant mother seen from the front, holding a small boy seen from behind, his arm pointing at the herald, realistic, vertical 9:16.
+```
+
+**Video (Muse)**
+```
+First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. No modern national flags anywhere (never a red flag with a yellow star); no flags at all unless the scene describes a period-accurate one. Ancient Vietnam, Hùng king era (Văn Lang): people with hair in topknots or cut short, black-lacquered teeth, brown and indigo woven clothes, loincloths for poor men, bronze bracelets, feather headdresses for nobles; thatched stilt houses, bronze drums, wooden boats. The village of Phù Đổng with bamboo hedges and thatched houses; a royal herald with a bronze drum; the village blacksmith's forge with clay furnaces and bellows (the viewer is a young blacksmith); Gióng first as a small boy seen only from behind or at a distance (never a close-up of his face), then a giant adult warrior in iron armor on a huge iron horse; Mẹ Gióng is a thin peasant woman around 45. 0-5s: A royal herald beats a bronze drum and shouts: "Giặc Ân sang! Ai đánh được giặc, vua ban thưởng!" 5-10s: In his mother's arms, the small boy, seen only from behind, suddenly points at the herald and a deep serious voice says clearly: "Về tâu vua đúc cho ta một con ngựa sắt, một roi sắt, một áo giáp sắt!" The whole crowd freezes. Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync in a natural Northern Vietnamese (Hà Nội) accent, no background music.
+```
+
+### Clip 2: Đơn hàng rõ ràng
+
+File Muse đặt tên: `tg-2.mp4`
+
+**Bản TikTok:** chỉ dùng giây 0 đến 5 của clip này.
+
+**Ảnh khung đầu**
+```
+First-person view in a village yard in ancient Vietnam, the viewer (a young blacksmith with a leather apron) the stunned mother in the foreground, a small boy on a bamboo cot seen from behind in the background, the herald writing on a bamboo slip, realistic, vertical 9:16.
+```
+
+**Video (Muse)**
+```
+First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. No modern national flags anywhere (never a red flag with a yellow star); no flags at all unless the scene describes a period-accurate one. Ancient Vietnam, Hùng king era (Văn Lang): people with hair in topknots or cut short, black-lacquered teeth, brown and indigo woven clothes, loincloths for poor men, bronze bracelets, feather headdresses for nobles; thatched stilt houses, bronze drums, wooden boats. The village of Phù Đổng with bamboo hedges and thatched houses; a royal herald with a bronze drum; the village blacksmith's forge with clay furnaces and bellows (the viewer is a young blacksmith); Gióng first as a small boy seen only from behind or at a distance (never a close-up of his face), then a giant adult warrior in iron armor on a huge iron horse; Mẹ Gióng is a thin peasant woman around 45. 0-5s: The mother stares at her son, stunned: "Ba năm nay nó chưa nói câu nào, giờ nói một câu là đặt hàng luôn!" 5-10s: The herald turns to the viewer, the village blacksmith, and hands him a bamboo slip: "Lò rèn làng này nhận đơn đi." The viewer reads it and gulps: "Ba tuổi mà đặt hàng rõ ràng thế..." Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync in a natural Northern Vietnamese (Hà Nội) accent, no background music.
+```
+
+### Clip 3: Cả làng nuôi cơm
+
+File Muse đặt tên: `tg-3.mp4`
+
+**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+
+**Ảnh khung đầu**
+```
+First-person view at the door of a thatched house in ancient Vietnam, villagers lined up carrying pots of rice and baskets of eggplant, a huge young man seen from behind eating from a huge pot, his clothes torn at the seams, realistic, vertical 9:16.
+```
+
+**Video (Muse)**
+```
+First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. No modern national flags anywhere (never a red flag with a yellow star); no flags at all unless the scene describes a period-accurate one. Ancient Vietnam, Hùng king era (Văn Lang): people with hair in topknots or cut short, black-lacquered teeth, brown and indigo woven clothes, loincloths for poor men, bronze bracelets, feather headdresses for nobles; thatched stilt houses, bronze drums, wooden boats. The village of Phù Đổng with bamboo hedges and thatched houses; a royal herald with a bronze drum; the village blacksmith's forge with clay furnaces and bellows (the viewer is a young blacksmith); Gióng first as a small boy seen only from behind or at a distance (never a close-up of his face), then a giant adult warrior in iron armor on a huge iron horse; Mẹ Gióng is a thin peasant woman around 45. 0-5s: A line of villagers carries pots of rice and baskets of eggplant into the house; inside, seen from behind, the boy has already grown into a huge young man and eats a whole pot in one go, his clothes tearing at the seams. 5-10s: A neighbor sets down another pot and complains to the viewer: "Nhà tôi góp bảy nồi rồi đấy! Ăn thế này lò rèn của anh làm nhanh lên!" Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync in a natural Northern Vietnamese (Hà Nội) accent, no background music.
+```
+
+### Clip 4: Đúc ngựa sắt
+
+File Muse đặt tên: `tg-4.mp4`
+
+**Bản TikTok:** bỏ clip này.
+
+**Ảnh khung đầu**
+```
+First-person view in a hot village blacksmith forge in ancient Vietnam, glowing furnaces, the viewer's hands hammering a huge iron horse's leg, a massive iron horse half finished, sparks flying, an old master smith wiping sweat, realistic, vertical 9:16.
+```
+
+**Video (Muse)**
+```
+First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. No modern national flags anywhere (never a red flag with a yellow star); no flags at all unless the scene describes a period-accurate one. Ancient Vietnam, Hùng king era (Văn Lang): people with hair in topknots or cut short, black-lacquered teeth, brown and indigo woven clothes, loincloths for poor men, bronze bracelets, feather headdresses for nobles; thatched stilt houses, bronze drums, wooden boats. The village of Phù Đổng with bamboo hedges and thatched houses; a royal herald with a bronze drum; the village blacksmith's forge with clay furnaces and bellows (the viewer is a young blacksmith); Gióng first as a small boy seen only from behind or at a distance (never a close-up of his face), then a giant adult warrior in iron armor on a huge iron horse; Mẹ Gióng is a thin peasant woman around 45. 0-5s: Sparks fly as the viewer hammers the leg of a gigantic iron horse; the old master smith wipes his sweat and asks: "Ngựa nặng cả nghìn cân, đứa nào cưỡi nổi?" 5-10s: The viewer keeps hammering and answers: "Đơn của thằng bé ba tuổi đấy bác ạ." The master stops, looks at the giant horse, then at the viewer, speechless. Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync in a natural Northern Vietnamese (Hà Nội) accent, no background music.
+```
+
+### Clip 5: Vươn vai
+
+File Muse đặt tên: `tg-5.mp4`
+
+**Ảnh khung đầu**
+```
+First-person view in a village yard in ancient Vietnam, a giant young warrior in shining iron armor standing up taller than the bamboo, mounting a huge iron horse whose mouth spews flames, villagers falling back, realistic, vertical 9:16.
+```
+
+**Video (Muse)**
+```
+First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. No modern national flags anywhere (never a red flag with a yellow star); no flags at all unless the scene describes a period-accurate one. Ancient Vietnam, Hùng king era (Văn Lang): people with hair in topknots or cut short, black-lacquered teeth, brown and indigo woven clothes, loincloths for poor men, bronze bracelets, feather headdresses for nobles; thatched stilt houses, bronze drums, wooden boats. The village of Phù Đổng with bamboo hedges and thatched houses; a royal herald with a bronze drum; the village blacksmith's forge with clay furnaces and bellows (the viewer is a young blacksmith); Gióng first as a small boy seen only from behind or at a distance (never a close-up of his face), then a giant adult warrior in iron armor on a huge iron horse; Mẹ Gióng is a thin peasant woman around 45. 0-5s: Seen from behind, the young man stands up, stretches, and grows into a giant adult warrior taller than the bamboo; he puts on the iron armor and leaps onto the iron horse; the horse roars and spews fire from its mouth. 5-10s: The viewer falls back on the ground, staring, and shouts: "Ơ! Tôi đâu có lắp cái phun lửa!" Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync in a natural Northern Vietnamese (Hà Nội) accent, no background music.
+```
+
+### Clip 6: Nhổ tre, bay về trời
+
+File Muse đặt tên: `tg-6.mp4`
+
+**Ảnh khung đầu**
+```
+First-person view at the foot of a mountain in ancient Vietnam, a giant warrior on an iron horse rising into the sky from the mountain top among clouds, burnt bamboo groves below, the young blacksmith waving from the ground, realistic, vertical 9:16.
+```
+
+**Video (Muse)**
+```
+First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, the viewer's own hands sometimes visible at the bottom of the frame, live-action realistic, cinematic natural lighting, vertical 9:16. No modern objects, no on-screen text. No children in close-up, no children's faces, no children crying or in distress; any child appears only from behind or at a distance. No modern national flags anywhere (never a red flag with a yellow star); no flags at all unless the scene describes a period-accurate one. Ancient Vietnam, Hùng king era (Văn Lang): people with hair in topknots or cut short, black-lacquered teeth, brown and indigo woven clothes, loincloths for poor men, bronze bracelets, feather headdresses for nobles; thatched stilt houses, bronze drums, wooden boats. The village of Phù Đổng with bamboo hedges and thatched houses; a royal herald with a bronze drum; the village blacksmith's forge with clay furnaces and bellows (the viewer is a young blacksmith); Gióng first as a small boy seen only from behind or at a distance (never a close-up of his face), then a giant adult warrior in iron armor on a huge iron horse; Mẹ Gióng is a thin peasant woman around 45. 0-5s: Far away, the giant warrior's iron whip snaps; he rips out whole bamboo clumps and sweeps the enemy away; then he rides up to the mountain top, and horse and rider rise into the sky among the clouds. 5-10s: The viewer runs to the foot of the mountain, waving a bamboo slip, and shouts at the sky: "Ngựa với roi chưa thanh toán đâu đấy!" Audio: natural ambient sound, Vietnamese dialogue spoken naturally with lip sync in a natural Northern Vietnamese (Hà Nội) accent, no background music.
+```
+
+## 4. Chữ trên video (mình chèn ở hậu kỳ)
+
+```
+# Dựng: python3 ../tools/tiktok.py tap-2-thanh-giong.plan.txt tap-2-thanh-giong.mp4  (ra tap-2-thanh-giong-youtube.mp4 và tap-2-thanh-giong-tiktok.mp4)
+hook: POV: Bạn là thợ rèn / đúc ngựa sắt cho Thánh Gióng
+end: Ngựa bay rồi, lò rèn ai trả tiền? / Follow để xem mai bạn ra đảo hoang / cùng Mai An Tiêm →
+nhan: AI tái hiện · theo truyền thuyết
+
+clip: tg-1.mp4 | Làng Phù Đổng · đời Hùng Vương thứ 6
+clip: tg-2.mp4 | Một lúc sau | tiktok=0-5
+clip: tg-3.mp4 | Mấy hôm sau | tiktok=5-10
+clip: tg-4.mp4 | Lò rèn làng | tiktok=bo
+clip: tg-5.mp4 | Ngày giao hàng
+clip: tg-6.mp4 | Sau trận đánh
+
+sub: 1 | 0.5-4.8 | Giặc Ân sang! / Ai đánh được giặc, vua ban thưởng!
+sub: 1 | 5.0-9.8 | Về tâu vua đúc cho ta một con ngựa sắt, / một roi sắt, một áo giáp sắt!
+sub: 2 | 0.5-4.8 | Ba năm nay nó chưa nói câu nào, / giờ nói một câu là đặt hàng luôn!
+sub: 2 | 5.0-7.5 | Lò rèn làng này nhận đơn đi.
+sub: 2 | 7.5-9.8 | Ba tuổi mà đặt hàng rõ ràng thế...
+sub: 3 | 5.0-9.8 | Nhà tôi góp bảy nồi rồi đấy! / Ăn thế này lò rèn của anh làm nhanh lên!
+sub: 4 | 0.5-4.8 | Ngựa nặng cả nghìn cân, / đứa nào cưỡi nổi?
+sub: 4 | 5.0-9.8 | Đơn của thằng bé ba tuổi đấy bác ạ.
+sub: 5 | 5.0-9.5 | Ơ! Tôi đâu có lắp cái phun lửa!
+sub: 6 | 5.0-9.5 | Ngựa với roi / chưa thanh toán đâu đấy!
+```
+
+## 5. Thông tin đăng
+
+### Đăng TikTok
+
+**Hook** (chữ to ở giây đầu, đã có sẵn trong video; dùng luôn làm chữ trên ảnh bìa):
+```
+POV: Bạn là thợ rèn đúc ngựa sắt cho Thánh Gióng
+```
+
+**Tiêu đề** (ô Tiêu đề, hoặc dòng đầu của mô tả nếu không có ô này):
+```
+POV: Bạn là thợ rèn đúc ngựa sắt cho Thánh Gióng
+```
+
+**Mô tả và hashtag:**
+```
+Thằng bé ba tuổi nói câu đầu tiên là đặt hàng ngựa sắt, và ngựa giao xong thì... phun lửa 🔥 Truyền thuyết Thánh Gióng, cậu bé làng Phù Đổng đánh tan giặc Ân rồi bay về trời từ núi Sóc. Hội Gióng nay là di sản văn hóa phi vật thể của nhân loại. Bạn đã đi hội Gióng bao giờ chưa? 👇
+#povlichsu #POV #lichsuvietnam #xuhuong #fyp #thanhgiong #phudong #truyenthuyet #hoigiong
+```
+
+**Bình luận ghim** (đăng xong tự bình luận rồi ghim lên đầu):
+```
+Bạn đoán đúng cái kết từ giây thứ mấy? 👇 Follow để xem tập tiếp theo nhé!
+```
+
+Khi đăng: bật nhãn "Nội dung do AI tạo".
+
+### Đăng YouTube Shorts (bản đầy đủ)
+
+**Tiêu đề** (tối đa 100 ký tự):
+```
+POV: Bạn là thợ rèn đúc ngựa sắt cho Thánh Gióng #Shorts
+```
+
+**Mô tả:**
+```
+Thằng bé ba tuổi nói câu đầu tiên là đặt hàng ngựa sắt, và ngựa giao xong thì... phun lửa 🔥 Truyền thuyết Thánh Gióng, cậu bé làng Phù Đổng đánh tan giặc Ân rồi bay về trời từ núi Sóc. Hội Gióng nay là di sản văn hóa phi vật thể của nhân loại. Bạn đã đi hội Gióng bao giờ chưa? 👇
+
+Video do AI tạo, dựa trên sử liệu; nhân vật và lời thoại là hư cấu. Đăng ký kênh để xem mỗi ngày một ngày sống ở Đại Việt.
+
+#Shorts #povlichsu #POV #lichsuvietnam #thanhgiong #phudong #truyenthuyet #hoigiong
+```
+
+**Thẻ** (ô Thẻ/Tags trong "Hiện thêm", dán nguyên dòng):
+```
+povlichsu, lichsuvietnam, thanhgiong, phudong, truyenthuyet, hoigiong, lịch sử việt nam, pov lịch sử, pov, đại việt, sử việt, shorts, hài lịch sử
+```
+
+**Bình luận ghim:**
+```
+Bạn đoán đúng cái kết từ giây thứ mấy? 👇 Đăng ký để xem tập tiếp theo nhé!
+```
+
+Khi đăng: ở mục "Nội dung bị thay đổi" (Altered content) chọn **Có**, vì video do AI tạo.
+
+## 6. Kiểm tra trước khi đăng
+
+- [ ] Tạo đủ 6 clip trên Muse, đặt đúng tên file (tg-1.mp4 … tg-6.mp4).
+- [ ] Clip có ghi chú **"Nối cảnh với clip trước"**: dùng khung cuối của clip trước làm ảnh khung đầu (`python3 tools/khung-cuoi.py`, hoặc gửi clip cho mình cắt).
+- [ ] **Nghe lại giọng:** Anh Tư và người dẫn chuyện đúng giọng cố định của kênh; giọng vùng miền đúng như ghi trong prompt.
+- [ ] **Xem lại hình:** không có cờ hiện đại hay chữ trên áo, biển, cờ; trang phục, thuyền đúng thời; cọc to (nếu có cảnh cọc); rồng kiểu thời Lý (nếu có).
+- [ ] **An toàn:** không trẻ em cận cảnh, không máu, không cảnh chết; vua và danh nhân được dựng trang trọng.
+- [ ] **Lời nói khớp phụ đề:** nếu Muse nói khác chữ trong mục "Chữ trên video", báo mình sửa phụ đề trước khi dựng.
+- [ ] Gửi đủ clip qua Drive để mình dựng ra bản YouTube và bản TikTok.
+- [ ] **Đăng TikTok:** bật nhãn "Nội dung do AI tạo"; dán tiêu đề, mô tả, hashtag; đăng xong ghim bình luận.
+- [ ] **Đăng YouTube:** mục "Nội dung bị thay đổi" chọn **Có**; dán thẻ; ghim bình luận; thêm vào danh sách phát của loạt (nếu có).

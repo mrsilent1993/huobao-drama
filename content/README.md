@@ -112,6 +112,14 @@ Theo bản cuối tập 11 (Rạch Gầm 1785), có 7 quy tắc viết prompt, g
 
 Mỗi nhân vật có **một mô tả giọng cố định**, tự chèn vào prompt của mọi clip có nhân vật đó. Ví dụ Anh Tư: giọng nam khoảng 30 tuổi, sáng, hơi khàn, nhanh, vui; người dẫn chuyện: giọng nam trầm, chậm, kiểu phim tài liệu. Bảng đầy đủ và cách làm trên Muse ở `nghien-cuu/giong-nhan-vat.md`.
 
+## Phiếu sản xuất (xuất theo mẫu chuẩn)
+
+`xuat/phieu-san-xuat/`: mỗi video một phiếu cùng mẫu, kèm `MUC-LUC.md` liệt kê mọi video, số clip, thời lượng 2 bản và trạng thái đăng.
+
+Mẫu phiếu gồm thông tin chung và 6 mục: danh sách clip (tên file, đoạn dùng cho bản TikTok, nối cảnh), bối cảnh và giọng, prompt từng clip, chữ trên video, thông tin đăng, bảng kiểm tra trước khi đăng.
+
+Xuất lại sau mỗi lần sửa nội dung bằng `python3 tools/xuat_phieu.py` (thêm `--zip file.zip` để nén). Phiếu được sinh từ file nguồn, không sửa tay.
+
 ## Thông tin đăng (có sẵn trong file .md của mỗi tập)
 
 Mỗi tập có hai mục "Đăng TikTok" và "Đăng YouTube Shorts" để copy dán thẳng lúc đăng:
