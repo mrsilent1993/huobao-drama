@@ -913,6 +913,143 @@ EPISODES = [
              "để xem loạt Quang Trung tập tiếp theo!"),
         yt_title="Đúc tiền Quang Trung thông bảo: tên vua trên đồng tiền bằng móng tay | Loạt Quang Trung",
         yt_tags="quang trung thông bảo, tiền tây sơn, tiền cổ việt nam, an nam, đúc tiền, " + YT),
+    # ================================================================== Tập 14 · Phú Xuân 1786
+    dict(COMMON, slug="danh-roi-la-thu-phu-xuan-1786", prefix="qt14",
+        voices={"officer": "a short, stern male voice", "comrade": "a cheeky young adult male voice"},
+        title="Tập 14 · Được giao mang thư đến gần thành giặc rồi… đánh rơi cho khéo (Nguyễn Huệ lấy thành Phú Xuân, 1786)",
+        history=("**Lịch sử:** giữa năm 1786, Nguyễn Huệ đánh thành Phú Xuân do quân Trịnh trấn giữ (trấn thủ Phạm Ngô Cầu, phó "
+                 "tướng Hoàng Đình Thể). Theo các tài liệu: Nguyễn Huệ nhờ Nguyễn Hữu Chỉnh viết **thư dụ hàng gửi Hoàng Đình "
+                 "Thể, cố ý để thư lọt vào tay Phạm Ngô Cầu**, khiến hai người nghi kỵ nhau. **Đêm 20 tháng 5 âm lịch (khoảng "
+                 "15/6/1786), nước dâng ngập chân thành**; thủy quân Tây Sơn tiến sát nã pháo vào thành, quân trong thành cạn "
+                 "thuốc súng. Hoàng Đình Thể chiến đấu đến cùng và tử trận; Phạm Ngô Cầu ra hàng. Chỉ trong vài ngày, đất Thuận "
+                 "Hóa đến sông Gianh về tay Tây Sơn (sử nhà Nguyễn và các tài liệu tổng hợp, mức B; chi tiết cách ra hàng các "
+                 "nguồn ghi khác nhau). **Hư cấu:** Anh Tư là người \"đánh rơi\" thư, cảnh quan sát và mọi lời thoại. Không dựng "
+                 "cảnh chết; quân trong thành là người Việt dưới quyền chúa Trịnh, giọng kể trung tính, không chế giễu."),
+        setting=("Phú Xuân (Huế), June 1786, rainy season: a large old earthen-and-brick citadel by the Perfume River, Trịnh "
+                 "soldiers in dark-blue tunics on the walls, Tây Sơn war boats on the river at night, rising flood water "
+                 f"lapping at the foot of the walls. {ARMY}. {HUE_}. Anh Tư is {FACE}, a Tây Sơn soldier. {SAFE}"),
+        hook="POV: Mang thư / đến gần thành giặc / rồi đánh rơi",
+        clips=[
+            c("Đánh rơi cho khéo", "0-5", "Phú Xuân · 1786",
+              f"First-person view in a riverside camp at dusk, a stern officer handing {FACE} a sealed letter",
+              ("0-5s: The officer hands Anh Tư a sealed letter: \"Mang đến gần thành. Đánh rơi cho khéo.\" Anh Tư: \"Đưa thư... "
+               "mà đánh rơi ạ?\" The officer: \"Rơi đúng chỗ thì hơn trăm khẩu súng.\" 5-10s: Anh Tư tucks it in his shirt and "
+               "says quietly: \"Lần đầu em được giao việc... làm rơi đồ.\""),
+              [(0.3, 2.2, "Mang đến gần thành. / Đánh rơi cho khéo."), (2.2, 3.4, "Đưa thư... / mà đánh rơi ạ?"),
+               (3.4, 4.9, "Rơi đúng chỗ / thì hơn trăm khẩu súng."), (5.2, 9.5, "Lần đầu em được giao việc... / làm rơi đồ.")]),
+            c("Rơi ba lần", "5-10", "",
+              f"First-person view from behind bushes near the citadel road, a letter lying on the path, a Trịnh patrol walking past it, {FACE} crouching and holding his breath",
+              ("0-5s: Anh Tư drops the letter on the path and dives into the bushes; the Trịnh patrol walks right past it. "
+               "He crawls out, moves it closer, hides again. 5-10s: Finally a soldier picks it up. Anh Tư sighs: \"Em làm rơi "
+               "ba lần... nó mới chịu nhặt.\""),
+              [(5.0, 9.5, "Em làm rơi ba lần... / nó mới chịu nhặt.")]),
+            c("Trong thành cãi nhau", "5-10", "",
+              f"First-person view from the riverbank looking at the citadel wall, two Trịnh officers on the wall arguing and pointing at each other, {FACE} watching from the reeds",
+              ("0-5s: On the wall two officers argue loudly, one waving a letter. 5-10s: Anh Tư, in the reeds, whispers: \"Một "
+               "lá thư... mà trong thành cãi to hơn ngoài thành.\""),
+              [(5.0, 9.5, "Một lá thư... / mà trong thành / cãi to hơn ngoài thành.")]),
+            c("Nước dâng", "5-10", "",
+              f"First-person view at night from a Tây Sơn war boat, flood water rising up to the foot of the citadel walls, rain, {FACE} at the oars",
+              ("0-5s: Night, heavy rain; the river rises until water laps at the foot of the walls; the boats glide right up "
+               "to them. 5-10s: Anh Tư, rowing, whispers: \"Nước lên tận chân thành... ông trời mở đường hộ.\""),
+              [(5.0, 9.5, "Nước lên tận chân thành... / ông trời mở đường hộ.")]),
+            c("Súng im", "5-10", "",
+              f"First-person view from a boat as Tây Sơn cannons fire flashes toward the citadel, the cannons on the wall silent, {FACE} covering his ears",
+              ("0-5s: Tây Sơn boat cannons fire toward the citadel; the cannons on the wall answer once, then fall silent. "
+               "5-10s: Anh Tư lowers his hands from his ears: \"Thành có súng... mà hết tiếng.\""),
+              [(5.0, 9.5, "Thành có súng... / mà hết tiếng.")]),
+            c("Nhặt cả tòa thành", "5-10", "",
+              f"First-person view at grey dawn of the citadel gate slowly opening, a white cloth hanging over the wall, Tây Sơn soldiers wading toward it, {FACE} among them",
+              ("0-5s: Grey dawn; a white cloth hangs over the wall and the gate slowly opens. No bodies, no blood. 5-10s: Anh Tư "
+               "wades toward the gate and says quietly to the viewer: \"Đánh rơi một lá thư... nhặt được cả tòa thành.\""),
+              [(5.0, 9.5, "Đánh rơi một lá thư... / nhặt được cả tòa thành.")]),
+            c("Câu chốt", "3-10", "",
+              f"First-person view in the morning inside the citadel, Tây Sơn soldiers taking over the walls, {HUE_} far away on the wall looking north, {FACE} in the foreground",
+              ("0-4.5s: Morning inside the citadel; far away on the wall, Nguyễn Huệ, seen only from behind, looks north. A calm "
+               "narrator's voice says: \"Tháng 6 năm 1786, Nguyễn Huệ lấy thành Phú Xuân. Chỉ vài ngày sau, cả Thuận Hóa đến "
+               "sông Gianh về tay Tây Sơn.\" 4.5-10s: Anh Tư says quietly to the camera: \"Cả đời em làm rơi đồ bị mắng... lần "
+               "này được khen.\""),
+              [(3.0, 6.0, "Năm 1786, Nguyễn Huệ / lấy thành Phú Xuân, / rồi cả Thuận Hóa."),
+               (6.1, 8.4, "Cả đời em làm rơi đồ / bị mắng... / lần này được khen.")]),
+        ],
+        caption=("Được giao mang thư đến gần thành giặc rồi đánh rơi cho khéo 😳 Năm 1786, Nguyễn Huệ dùng một lá thư làm hai "
+                 "tướng trong thành Phú Xuân nghi nhau, rồi chờ đêm nước dâng mới đánh. Bạn nghĩ mẹo nào lợi hại hơn? 👇"),
+        tags="#quangtrung #nguyenhue #phuxuan #taysontungmoc #1786",
+        tt_title="Được giao mang thư đến gần thành giặc rồi đánh rơi cho khéo",
+        hooks_alt=["POV: Đánh rơi một lá thư / nhặt được cả tòa thành", "POV: Đưa thư / mà phải đánh rơi"],
+        pin=("Lấy Phú Xuân xong, Nguyễn Huệ ra Bắc \"phù Lê diệt Trịnh\" 🔥 Xem tập \"Quỳ lạy vua Lê\" nhé! Follow để xem loạt "
+             "Quang Trung tập tiếp theo!"),
+        yt_title="Năm 1786: Nguyễn Huệ lấy thành Phú Xuân bằng một lá thư | Loạt Quang Trung",
+        yt_tags="thành phú xuân, 1786, nguyễn hữu chỉnh, phạm ngô cầu, hoàng đình thể, ly gián, " + YT),
+    # ================================================================== Tập 15 · Vũ Văn Nhậm 1788
+    dict(COMMON, slug="khac-an-vu-van-nham-1788", prefix="qt15",
+        voices={"steward": "a smug, oily middle-aged male voice", "comrade": "a nervous young adult male voice"},
+        title="Tập 15 · Được thuê khắc một cái ấn thật to mà không ai nói ấn của ai (Nguyễn Huệ ra Bắc bắt Vũ Văn Nhậm, 1788)",
+        history=("**Lịch sử:** năm 1787–1788, tướng Tây Sơn Vũ Văn Nhậm (con rể Nguyễn Nhạc) được sai ra Bắc diệt Nguyễn Hữu "
+                 "Chỉnh, rồi ở lại Thăng Long **chuyên quyền**: lập Lê Duy Cận làm giám quốc, sửa thành, **làm ấn riêng**, có ý "
+                 "tự lập. Ngô Văn Sở, Phan Văn Lân mật báo về Phú Xuân. Khoảng tháng 4 năm 1788, Nguyễn Huệ **bí mật đem quân ra "
+                 "Bắc**, bất ngờ vào Thăng Long ban đêm, bắt Nhậm rồi xử tử; sau đó giao Bắc Hà cho Ngô Văn Sở, dùng Ngô Thì "
+                 "Nhậm và các sĩ phu Bắc Hà (*Khâm định Việt sử*, sử nhà Nguyễn, mức B; năm tháng các nguồn ghi hơi khác nhau). "
+                 "**Hư cấu:** Anh Tư khắc ấn, người quản gia và mọi lời thoại. Việc xử tử chỉ nhắc bằng lời người dẫn chuyện, "
+                 "không dựng cảnh trói hay hành hình."),
+        setting=("Thăng Long, spring 1788: a seal-carver's small workshop with stone and wood blocks, chisels and red ink; the "
+                 "streets and a mansion courtyard at night lit by lanterns. Vũ Văn Nhậm is a proud Tây Sơn general in a fine "
+                 f"dark robe, seen ONLY from behind or far away. {ARMY}. {HUE_}. Anh Tư is {FACE}, a seal carver. Seals and "
+                 f"papers have no readable writing. {SAFE}"),
+        hook="POV: Khắc một cái ấn / thật to / mà không biết của ai",
+        clips=[
+            c("Ấn của ai", "0-5", "Thăng Long · 1788",
+              f"First-person view in a small seal-carving workshop, a smug steward in a fine robe dropping a big block of stone on the bench in front of {FACE}",
+              ("0-5s: A smug steward drops a big stone block on the bench: \"Khắc một cái ấn. To hơn ấn của tướng.\" Anh Tư: \"Ấn "
+               "của ai ạ?\" The steward: \"Của người trả tiền.\" 5-10s: Anh Tư weighs the block and says quietly: \"Khắc ấn cho "
+               "người ta... mà không biết người ta là ai.\""),
+              [(0.3, 2.2, "Khắc một cái ấn. / To hơn ấn của tướng."), (2.2, 3.4, "Ấn của ai ạ?"),
+               (3.4, 4.9, "Của người trả tiền."), (5.2, 9.5, "Khắc ấn cho người ta... / mà không biết / người ta là ai.")]),
+            c("Như chủ", "5-10", "",
+              f"First-person view in a Thăng Long street, a proud general in a fine dark robe on horseback seen only from behind, guards clearing the way, townspeople bowing, {FACE} carrying a bundle",
+              ("0-5s: A proud general rides through the street, seen only from behind; guards clear the way, people bow. "
+               "5-10s: Anh Tư, stepping aside, murmurs: \"Ông ấy ở Thăng Long... đi đứng như chủ nhà.\""),
+              [(5.0, 9.5, "Ông ấy ở Thăng Long... / đi đứng như chủ nhà.")]),
+            c("Đèn không ngủ", "5-10", "",
+              f"First-person view late at night down a dark street, a single lit window where an officer writes a letter, a rider waiting outside with a horse, {FACE} passing with a lantern",
+              ("0-5s: Late at night, one window is still lit; an officer seals a letter and hands it to a waiting rider, who "
+               "gallops off south. 5-10s: Anh Tư lowers his lantern: \"Cả kinh thành ngủ... chỉ có một ngọn đèn không ngủ.\""),
+              [(5.0, 9.5, "Cả kinh thành ngủ... / chỉ có một ngọn đèn / không ngủ.")]),
+            c("Ấn to quá", "5-10", "",
+              f"Close first-person view of {FACE} blowing stone dust off a finished, very large carved seal, then comparing it nervously with a smaller seal on the shelf",
+              ("0-5s: Anh Tư finishes the big seal and blows off the dust, then sets it beside an ordinary general's seal: it is "
+               "twice as big. 5-10s: He swallows: \"Khắc ấn to quá... là khắc luôn cả cái họa.\""),
+              [(5.0, 9.5, "Khắc ấn to quá... / là khắc luôn cả cái họa.")]),
+            c("Không trống không loa", "5-10", "",
+              f"First-person view at night in a lantern-lit courtyard as {HUE_} strides in with a small group of guards, the household frozen, {FACE} peeking from behind a pillar",
+              ("0-5s: Night; no drums, no announcement; Nguyễn Huệ, seen only from behind, strides into the courtyard with a few "
+               "guards. Everyone freezes. 5-10s: Anh Tư, behind a pillar, whispers: \"Không trống, không loa... ông ấy đã đứng "
+               "giữa sân.\""),
+              [(5.0, 9.5, "Không trống, không loa... / ông ấy đã đứng giữa sân.")]),
+            c("Giấu ấn", "5-10", "",
+              f"First-person view at night by a courtyard well, {FACE} quietly lowering the big carved seal into the dark well on a rope, guards in the background escorting a man in a fine robe away, seen only from behind",
+              ("0-5s: In the background guards escort the proud general away, seen only from behind; no struggle shown. Anh Tư "
+               "quietly lowers the big seal into the well. 5-10s: He whispers: \"Ấn em khắc cả tháng... giờ chỉ mong không ai "
+               "biết em khắc.\""),
+              [(5.0, 9.5, "Ấn em khắc cả tháng... / giờ chỉ mong / không ai biết em khắc.")]),
+            c("Câu chốt", "3-10", "",
+              f"First-person view the next morning in the seal workshop, {FACE} hanging a small wooden sign (no readable writing) by the door and looking at the camera",
+              ("0-4.5s: Next morning in the workshop. A calm narrator's voice says: \"Năm 1788, Vũ Văn Nhậm chuyên quyền ở Thăng "
+               "Long. Nguyễn Huệ bí mật ra Bắc, bắt Nhậm và xử tử, rồi giao Bắc Hà cho Ngô Văn Sở.\" 4.5-10s: Anh Tư hangs a "
+               "small sign by the door and says quietly to the camera: \"Từ nay ai thuê khắc ấn... em hỏi tên trước.\""),
+              [(3.0, 6.0, "Năm 1788, Vũ Văn Nhậm / chuyên quyền. Nguyễn Huệ / ra Bắc bắt Nhậm, xử tử."),
+               (6.1, 8.4, "Từ nay ai thuê khắc ấn... / em hỏi tên trước.")]),
+        ],
+        caption=("Được thuê khắc một cái ấn thật to mà không ai nói ấn của ai 😳 Năm 1788, Vũ Văn Nhậm chuyên quyền ở Thăng Long, "
+                 "làm ấn riêng. Nguyễn Huệ bí mật ra Bắc, vào thành ban đêm, không trống không loa. Bạn có biết ai mật báo cho "
+                 "Nguyễn Huệ không? 👇"),
+        tags="#quangtrung #nguyenhue #vuvannham #taysontungmoc #1788",
+        tt_title="Được thuê khắc một cái ấn thật to mà không ai nói ấn của ai",
+        hooks_alt=["POV: Khắc ấn to quá / là khắc luôn cái họa", "POV: Không trống không loa / ông ấy đã đứng giữa sân"],
+        pin=("Người mật báo về Phú Xuân sau này chính là tướng giữ Bắc Hà khi quân Thanh sang 🔥 Đoán xem là ai? Follow để xem "
+             "loạt Quang Trung tập tiếp theo!"),
+        yt_title="Năm 1788: Nguyễn Huệ bí mật ra Bắc bắt Vũ Văn Nhậm | Loạt Quang Trung",
+        yt_tags="vũ văn nhậm, 1788, ngô văn sở, ra bắc lần hai, thăng long, " + YT),
 ]
 
 ACTING = ("Acting: natural and understated, like real people filmed in a documentary; small reactions (a sigh, a glance, a pause, a shake of the head) instead of big expressions. Anh Tư smiles at most once in the whole clip and never laughs at the camera; no exaggerated mugging or cartoonish faces.")

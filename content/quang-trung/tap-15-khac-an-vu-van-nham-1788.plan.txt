@@ -1,0 +1,25 @@
+# Dựng: python3 ../tools/tiktok.py tap-15-khac-an-vu-van-nham-1788.plan.txt tap-15-khac-an-vu-van-nham-1788.mp4  (ra tap-15-khac-an-vu-van-nham-1788-youtube.mp4 và tap-15-khac-an-vu-van-nham-1788-tiktok.mp4)
+hook: POV: Khắc một cái ấn / thật to / mà không biết của ai
+end: Follow để xem / loạt Quang Trung / tập tiếp theo →
+nhan: AI tái hiện · lời thoại hư cấu
+end_giay: 1.6
+
+clip: qt15-1.mp4 | Thăng Long · 1788 | tiktok=0-5
+clip: qt15-2.mp4 |  | tiktok=5-10
+clip: qt15-3.mp4 |  | tiktok=5-10
+clip: qt15-4.mp4 |  | tiktok=5-10
+clip: qt15-5.mp4 |  | tiktok=5-10
+clip: qt15-6.mp4 |  | tiktok=5-10
+clip: qt15-7.mp4 |  | tiktok=3-10
+
+sub: 1 | 0.3-2.2 | Khắc một cái ấn. / To hơn ấn của tướng.
+sub: 1 | 2.2-3.4 | Ấn của ai ạ?
+sub: 1 | 3.4-4.9 | Của người trả tiền.
+sub: 1 | 5.2-9.5 | Khắc ấn cho người ta... / mà không biết / người ta là ai.
+sub: 2 | 5.0-9.5 | Ông ấy ở Thăng Long... / đi đứng như chủ nhà.
+sub: 3 | 5.0-9.5 | Cả kinh thành ngủ... / chỉ có một ngọn đèn / không ngủ.
+sub: 4 | 5.0-9.5 | Khắc ấn to quá... / là khắc luôn cả cái họa.
+sub: 5 | 5.0-9.5 | Không trống, không loa... / ông ấy đã đứng giữa sân.
+sub: 6 | 5.0-9.5 | Ấn em khắc cả tháng... / giờ chỉ mong / không ai biết em khắc.
+sub: 7 | 3.0-6.0 | Năm 1788, Vũ Văn Nhậm / chuyên quyền. Nguyễn Huệ / ra Bắc bắt Nhậm, xử tử.
+sub: 7 | 6.1-8.4 | Từ nay ai thuê khắc ấn... / em hỏi tên trước.

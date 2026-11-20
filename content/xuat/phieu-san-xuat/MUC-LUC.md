@@ -2,7 +2,7 @@
 
 Mỗi video một phiếu theo cùng mẫu: thông tin chung, danh sách clip, bối cảnh và giọng, prompt từng clip, chữ trên video, thông tin đăng, bảng kiểm tra trước khi đăng. Xuất lại bằng `python3 tools/xuat_phieu.py` (chạy từ thư mục `content/`).
 
-**Tổng cộng 79 phiếu.** ✅ = đã đăng (theo trang quản lý TikTok ngày 18/11/2026), ☐ = chưa đăng.
+**Tổng cộng 81 phiếu.** ✅ = đã đăng (theo trang quản lý TikTok ngày 18/11/2026), ☐ = chưa đăng.
 
 ## Tự hào Đại Việt
 
@@ -38,6 +38,8 @@ Mỗi video một phiếu theo cùng mẫu: thông tin chung, danh sách clip, b
 | 11 | Tập 11 · Đi mời ông đồ từng từ chối vua, ông chỉ nói một câu mà cả quân yên lòng ("không quá mười ngày", 1788) | 7 | ~68s | ~35s | ☐ | `quang-trung/11-tap-11-khong-qua-muoi-ngay-1788.md` |
 | 12 | Tập 12 · Bỏ Thăng Long chạy về núi, giờ đứng chờ vua xử tội, vua chỉ nói một câu (Tam Điệp, cuối năm 1788) | 7 | ~68s | ~35s | ☐ | `quang-trung/12-tap-12-quan-thua-chem-tuong-tam-diep-1788.md` |
 | 13 | Tập 13 · Bị sai khắc tên vua lên đồng tiền nhỏ bằng móng tay (tiền Quang Trung thông bảo) | 7 | ~68s | ~35s | ☐ | `quang-trung/13-tap-13-duc-tien-quang-trung-thong-bao.md` |
+| 14 | Tập 14 · Được giao mang thư đến gần thành giặc rồi… đánh rơi cho khéo (Nguyễn Huệ lấy thành Phú Xuân, 1786) | 7 | ~68s | ~35s | ☐ | `quang-trung/14-tap-14-danh-roi-la-thu-phu-xuan-1786.md` |
+| 15 | Tập 15 · Được thuê khắc một cái ấn thật to mà không ai nói ấn của ai (Nguyễn Huệ ra Bắc bắt Vũ Văn Nhậm, 1788) | 7 | ~68s | ~35s | ☐ | `quang-trung/15-tap-15-khac-an-vu-van-nham-1788.md` |
 
 ## Tây Sơn từng mốc
 

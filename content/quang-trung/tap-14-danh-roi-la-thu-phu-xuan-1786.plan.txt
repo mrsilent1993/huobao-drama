@@ -1,0 +1,25 @@
+# Dựng: python3 ../tools/tiktok.py tap-14-danh-roi-la-thu-phu-xuan-1786.plan.txt tap-14-danh-roi-la-thu-phu-xuan-1786.mp4  (ra tap-14-danh-roi-la-thu-phu-xuan-1786-youtube.mp4 và tap-14-danh-roi-la-thu-phu-xuan-1786-tiktok.mp4)
+hook: POV: Mang thư / đến gần thành giặc / rồi đánh rơi
+end: Follow để xem / loạt Quang Trung / tập tiếp theo →
+nhan: AI tái hiện · lời thoại hư cấu
+end_giay: 1.6
+
+clip: qt14-1.mp4 | Phú Xuân · 1786 | tiktok=0-5
+clip: qt14-2.mp4 |  | tiktok=5-10
+clip: qt14-3.mp4 |  | tiktok=5-10
+clip: qt14-4.mp4 |  | tiktok=5-10
+clip: qt14-5.mp4 |  | tiktok=5-10
+clip: qt14-6.mp4 |  | tiktok=5-10
+clip: qt14-7.mp4 |  | tiktok=3-10
+
+sub: 1 | 0.3-2.2 | Mang đến gần thành. / Đánh rơi cho khéo.
+sub: 1 | 2.2-3.4 | Đưa thư... / mà đánh rơi ạ?
+sub: 1 | 3.4-4.9 | Rơi đúng chỗ / thì hơn trăm khẩu súng.
+sub: 1 | 5.2-9.5 | Lần đầu em được giao việc... / làm rơi đồ.
+sub: 2 | 5.0-9.5 | Em làm rơi ba lần... / nó mới chịu nhặt.
+sub: 3 | 5.0-9.5 | Một lá thư... / mà trong thành / cãi to hơn ngoài thành.
+sub: 4 | 5.0-9.5 | Nước lên tận chân thành... / ông trời mở đường hộ.
+sub: 5 | 5.0-9.5 | Thành có súng... / mà hết tiếng.
+sub: 6 | 5.0-9.5 | Đánh rơi một lá thư... / nhặt được cả tòa thành.
+sub: 7 | 3.0-6.0 | Năm 1786, Nguyễn Huệ / lấy thành Phú Xuân, / rồi cả Thuận Hóa.
+sub: 7 | 6.1-8.4 | Cả đời em làm rơi đồ / bị mắng... / lần này được khen.
