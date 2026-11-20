@@ -182,71 +182,76 @@ EPISODES = [
         voices={"officer": "a stern, clipped male voice", "comrade": "a cheeky young adult male voice"},
         title="Phần 3/3 · Tết rét căm căm bị sai nhúng rơm vào nước, sáng ra mới biết để làm gì (Ngọc Hồi, mùng 5 Tết 1789)",
         history=("**Lịch sử:** sáng mùng 5 Tết Kỷ Dậu (30/1/1789), quân Tây Sơn đánh đồn Ngọc Hồi (Thanh Trì, Hà Nội). Theo "
-                 "*Hoàng Lê nhất thống chí*, vua Quang Trung cho **lấy sáu chục tấm ván, ghép ba tấm làm một bức, ngoài phủ rơm dấp nước, tất cả hai mươi bức**, "
-                 "nhiều người khiêng một tấm đi trước để chắn tên lửa và súng của quân Thanh, quân cầm dao theo sau (mức "
-                 "B/C). Đồn Ngọc Hồi vỡ, quân Thanh tan chạy; **chiều mùng 5 Tết, vua Quang Trung vào Thăng Long**, sớm hơn "
-                 "lời hẹn mùng 7 (mức B). **Hư cấu:** Anh Tư, người đồng đội và mọi lời thoại. Chi tiết áo vua đen khói súng (cảnh 6) là truyền tụng, *Hoàng Lê* không chép. Không dựng cảnh chết, chỉ dựng "
-                 "tên lửa cắm vào tấm rơm ướt và quân Thanh bỏ chạy."),
+                 "*Hoàng Lê nhất thống chí* (hồi 14, mức B/C): vua Quang Trung truyền **lấy sáu chục tấm ván, cứ ghép liền ba "
+                 "tấm làm một bức, bên ngoài lấy rơm dấp nước phủ kín, tất cả là hai mươi bức**; kén lính khỏe, **cứ mười người "
+                 "khênh một bức, lưng giắt dao ngắn, hai mươi người khác cầm binh khí theo sau**, dàn thành **trận chữ \"nhất\"** "
+                 "(hàng ngang); **vua cưỡi voi đi đốc thúc**. Quân Thanh nổ súng bắn ra, không trúng ai; chúng dùng ống phun "
+                 "khói lửa, nhưng gió đổi chiều thổi ngược về phía đồn, \"quân Thanh lại tự làm hại mình\". Đồn vỡ, quân Thanh "
+                 "tan chạy; **trưa mùng 5 Tết, vua Quang Trung vào Thăng Long**, sớm hơn lời hẹn mùng 7. **Hư cấu:** Anh Tư, "
+                 "người đồng đội và mọi lời thoại. Không dựng cảnh chết: chỉ dựng đạn cắm vào tấm rơm ướt, khói bay ngược và "
+                 "quân Thanh bỏ chạy."),
         setting=("Vietnam, dawn of the fifth day of the lunar new year (30 January 1789), cold fog over flat winter rice "
-                 "fields, a Qing earthen fort with a wooden palisade at Ngọc Hồi. Tây Sơn soldiers advancing in lines behind "
-                 "large wooden board shields covered in thick soaked straw, each carried by many men; fire arrows hissing "
-                 f"into the wet straw and fizzling out with steam. {ARMY}. {QING_EN} {KING}, riding a war elephant far "
-                 f"behind the lines. Anh Tư is {FACE}. Adults only, no children. No blood, no dead bodies, no flags, no "
+                 "fields, a Qing earthen fort with a wooden palisade at Ngọc Hồi. Twenty large board shields, each made of "
+                 "three wooden planks joined together and covered in thick soaked straw, each carried by ten Tây Sơn soldiers "
+                 "with short knives tucked in their belts, twenty more soldiers with weapons following behind each shield, all "
+                 f"advancing in ONE long horizontal line. {ARMY}. {QING_EN} {KING}, riding a war elephant behind the line, "
+                 f"urging the troops on. Anh Tư is {FACE}. Adults only, no children. No blood, no dead bodies, no flags, no "
                  "legible writing."),
         hook="POV: Tết rét căm căm / bị sai / nhúng rơm vào nước",
         end="Follow để xem / Tây Sơn từng mốc / tập tiếp theo →",
         clips=[
             dict(name="Nhúng rơm", tiktok="0-5", label="Ngọc Hồi · mùng 5 Tết 1789",
-                 img=f"First-person view before dawn by a pond in freezing fog, a stern officer pointing at piles of straw and large wooden boards, {FACE} beside the viewer shivering, realistic, vertical 9:16.",
-                 vid=("0-5s: In freezing fog the officer points at straw and wooden boards: \"Nhúng rơm. Bọc kín tấm ván.\" Anh "
-                      "Tư, shivering: \"Rét thế này... nhúng nước ạ?\" The officer: \"Sáng mai mày sẽ cảm ơn nó.\" 5-10s: Anh Tư dunks an armful "
-                      "of straw into the icy pond and gasps: \"Tết rét căm căm... em đi dầm rơm.\""),
-                 subs=[(0.3, 2.4, "Nhúng rơm. / Bọc kín tấm ván."),
+                 img=f"First-person view before dawn by a pond in freezing fog, a stern officer pointing at piles of straw and stacks of wooden planks, {FACE} beside the viewer shivering, realistic, vertical 9:16.",
+                 vid=("0-5s: In freezing fog the officer points at straw and planks: \"Ba tấm ván ghép một bức. Phủ rơm dấp nước.\" "
+                      "Anh Tư, shivering: \"Rét thế này... nhúng nước ạ?\" The officer: \"Sáng mai mày sẽ cảm ơn nó.\" 5-10s: Anh "
+                      "Tư dunks an armful of straw into the icy pond and gasps: \"Tết rét căm căm... em đi dầm rơm.\""),
+                 subs=[(0.3, 2.4, "Ba tấm ván ghép một bức. / Phủ rơm dấp nước."),
                        (2.4, 3.4, "Rét thế này... / nhúng nước ạ?"),
                        (3.4, 4.9, "Sáng mai / mày sẽ cảm ơn nó."),
                        (5.2, 9.5, "Tết rét căm căm... / em đi dầm rơm.")]),
-            dict(name="Rơm ướt nặng", tiktok="5-10", label="",
-                 img=f"First-person view as many soldiers lift a huge wooden board shield covered in dripping wet straw onto their shoulders, {FACE} at one corner straining, water running down his back, realistic, vertical 9:16.",
-                 vid=("0-5s: Many soldiers heave a huge board covered in dripping straw onto their shoulders; cold water runs "
-                      "down their backs. 5-10s: Anh Tư, straining, to the viewer: \"Rơm ướt nặng gấp mấy rơm khô... mà lưng "
-                      "em thì chỉ có một.\""),
-                 subs=[(5.0, 9.5, "Rơm ướt nặng / gấp mấy rơm khô... / mà lưng em chỉ có một.")]),
-            dict(name="Tiến vào sương", tiktok="5-10", label="",
-                 img=f"First-person view from behind a wet straw board shield advancing through thick fog toward a dim enemy palisade, {FACE} peeking around the edge, realistic, vertical 9:16.",
-                 vid=("0-5s: Behind the dripping board the line advances slowly through thick fog toward the dim palisade; "
-                      "drums thud. 5-10s: Anh Tư peeks around the edge and whispers: \"Sương mù thế này... giặc chỉ thấy một bức "
-                      "tường rơm đi tới.\""),
-                 subs=[(5.0, 9.5, "Sương mù thế này... / giặc chỉ thấy / một bức tường rơm đi tới.")]),
-            dict(name="Xèo!", tiktok="5-10", label="",
-                 img=f"Close first-person view from behind the board shield as flaming arrows thud into the thick wet straw and fizzle out in puffs of white steam, {FACE} flinching then exhaling, realistic, vertical 9:16.",
-                 vid=("0-5s: Fire arrows thud into the wet straw one after another; each fizzles out with a hiss and a puff of "
-                      "steam. 5-10s: Anh Tư says quietly to the viewer: \"Cả đời em nhóm bếp ghét rơm ướt... hôm nay rơm ướt cứu cả "
-                      "đạo quân.\""),
-                 subs=[(0.5, 4.8, "Xèo! Xèo!"),
+            dict(name="Mười người một bức", tiktok="5-10", label="",
+                 img=f"First-person view as ten soldiers with short knives in their belts lift a huge straw-covered board shield onto their shoulders, {FACE} at one corner straining, cold water running down his back, realistic, vertical 9:16.",
+                 vid=("0-5s: The officer counts off: \"Mười người khênh một bức. Lưng giắt dao ngắn.\" Ten men heave the dripping "
+                      "shield onto their shoulders. 5-10s: Anh Tư, at a corner, water running down his back, says quietly to the "
+                      "viewer: \"Mười người một bức... mà em đứng đúng góc nặng nhất.\""),
+                 subs=[(0.5, 4.8, "Mười người khênh một bức. / Lưng giắt dao ngắn."),
+                       (5.0, 9.5, "Mười người một bức... / mà em đứng đúng / góc nặng nhất.")]),
+            dict(name="Trận chữ nhất", tiktok="5-10", label="",
+                 img=f"First-person wide view from the end of a long horizontal line of twenty straw-covered board shields advancing through thick fog, soldiers with weapons walking behind each, {FACE} peeking around the edge of his shield, realistic, vertical 9:16.",
+                 vid=("0-5s: Twenty dripping shields advance side by side in one long horizontal line through the fog, drums "
+                      "thudding; soldiers with weapons follow behind each one. 5-10s: Anh Tư peeks around the edge and whispers: "
+                      "\"Hai mươi bức ván một hàng ngang... giặc chỉ thấy một bức tường rơm biết đi.\""),
+                 subs=[(5.0, 9.5, "Hai mươi bức ván một hàng... / giặc chỉ thấy / một bức tường rơm biết đi.")]),
+            dict(name="Súng bắn", tiktok="5-10", label="",
+                 img=f"Close first-person view from behind the board shield as musket balls thud into the thick wet straw with puffs of white steam and splinters of straw, nobody hurt, {FACE} flinching then exhaling, realistic, vertical 9:16.",
+                 vid=("0-5s: Qing guns fire from the palisade; musket balls thud into the wet straw one after another, puffs of "
+                      "steam, nobody behind the shield is hit. 5-10s: Anh Tư exhales and says quietly to the viewer: \"Cả đời em "
+                      "nhóm bếp ghét rơm ướt... hôm nay rơm ướt cứu cả đạo quân.\""),
+                 subs=[(0.5, 4.8, "Đoàng! Đoàng!"),
                        (5.0, 9.5, "Cả đời em nhóm bếp / ghét rơm ướt... / hôm nay rơm ướt / cứu cả đạo quân.")]),
-            dict(name="Đồn vỡ", tiktok="5-10", label="",
-                 img=f"First-person wide view as the Tây Sơn lines drop their straw shields at the palisade and surge through the broken gate, {QING_EN} running away into the fog in the distance, {FACE} cheering, no blood, realistic, vertical 9:16.",
-                 vid=("0-5s: The lines drop the boards at the palisade and surge through the broken gate; in the distance Qing "
-                      "soldiers run away into the fog. No blood, no bodies. 5-10s: Anh Tư wrings water out of his shirt: \"Đồn "
-                      "vỡ rồi... mà áo em còn chưa kịp khô.\""),
-                 subs=[(5.0, 9.5, "Đồn vỡ rồi... / mà áo em còn chưa kịp khô.")]),
-            dict(name="Áo vua đen khói", tiktok="5-10", label="",
-                 img=f"First-person view through drifting smoke, {KING} on a war elephant, his dark robe blackened with gunpowder smoke, moving forward at the head of the army, {FACE} watching in awe, realistic, vertical 9:16.",
-                 vid=("0-5s: Through drifting smoke the emperor, seen only from behind on a war elephant, moves forward at the "
-                      "head of the army, his robe blackened by gunpowder smoke. 5-10s: Anh Tư whispers: \"Áo vua đen sì khói "
-                      "súng... mà vẫn đi đầu.\""),
-                 subs=[(5.0, 9.5, "Áo vua đen sì khói súng... / mà vẫn đi đầu.")]),
+            dict(name="Gió đổi chiều", tiktok="5-10", label="",
+                 img=f"First-person view from behind the shield line as thick grey smoke pours out of tubes on the Qing palisade, then the wind turns and blows the smoke back over the fort, {FACE} watching with raised eyebrows, realistic, vertical 9:16.",
+                 vid=("0-5s: Thick grey smoke pours from tubes on the palisade toward the shields; then the wind turns south and "
+                      "blows it straight back over the fort; coughing and confusion inside. 5-10s: Anh Tư, eyebrows raised, to the "
+                      "viewer: \"Giặc phun khói sang... gió lại thổi ngược về nhà nó.\""),
+                 subs=[(5.0, 9.5, "Giặc phun khói sang... / gió lại thổi / ngược về nhà nó.")]),
+            dict(name="Vua cưỡi voi", tiktok="5-10", label="",
+                 img=f"First-person view looking back from the shield line, {KING}, riding a war elephant right behind the advancing line and pointing forward, the palisade gate breaking open ahead, {QING_EN} running away into the smoke in the distance, {FACE} turning to look, no blood, realistic, vertical 9:16.",
+                 vid=("0-5s: Anh Tư glances back: the emperor, seen only from behind on a war elephant, rides right behind the "
+                      "line, urging the troops on; ahead, the palisade gate gives way and Qing soldiers run off into the smoke. "
+                      "No blood, no bodies. 5-10s: Anh Tư whispers: \"Vua cưỡi voi... đi ngay sau lưng quân.\""),
+                 subs=[(5.0, 9.5, "Vua cưỡi voi... / đi ngay sau lưng quân.")]),
             dict(name="Câu chốt", tiktok="3-10", label="",
                  img=f"First-person view in the afternoon at a city gate of Thăng Long, Tây Sơn soldiers marching in, townspeople coming out of doorways, {FACE} counting on his fingers, realistic, vertical 9:16.",
                  vid=("0-4.5s: Afternoon at a Thăng Long city gate; soldiers march in and townspeople come out. A calm narrator's "
-                      "voice says: \"Mùng 5 Tết Kỷ Dậu, quân Tây Sơn phá đồn Ngọc Hồi. Chiều hôm ấy, vua Quang Trung vào Thăng "
+                      "voice says: \"Mùng 5 Tết Kỷ Dậu, quân Tây Sơn phá đồn Ngọc Hồi. Trưa hôm ấy, vua Quang Trung vào Thăng "
                       "Long.\" 4.5-10s: Anh Tư counts on his fingers, shaking his head: \"Hẹn mùng bảy ăn Tết ở Thăng Long... mùng năm "
                       "đã tới.\""),
-                 subs=[(3.0, 6.0, "Mùng 5 Tết, phá đồn Ngọc Hồi. / Chiều hôm ấy, vua Quang Trung / vào Thăng Long."),
+                 subs=[(3.0, 6.0, "Mùng 5 Tết, phá đồn Ngọc Hồi. / Trưa hôm ấy, vua Quang Trung / vào Thăng Long."),
                        (6.1, 8.4, "Hẹn mùng bảy... / mùng năm đã tới.")]),
         ],
         caption=("Tết rét căm căm bị sai nhúng rơm vào nước, sáng ra mới biết để làm gì 😳 Mùng 5 Tết Kỷ Dậu 1789, quân Tây Sơn "
-                 "khiêng tấm ván bọc rơm ướt đi trước, tên lửa bắn vào chỉ xèo một tiếng. Chiều hôm ấy vua Quang Trung đã vào "
+                 "khiêng tấm ván bọc rơm ướt đi trước, súng bắn vào chỉ cắm vào rơm. Trưa hôm ấy vua Quang Trung đã vào "
                  "Thăng Long, sớm hơn lời hẹn hai ngày. Bạn thích phần nào nhất trong 3 phần? 👇"),
         tags="#tetkydau #quangtrung #ngochoidongda #taysontungmoc #1789",
         tt_title="Tết rét căm căm bị sai nhúng rơm vào nước, sáng ra mới biết để làm gì",

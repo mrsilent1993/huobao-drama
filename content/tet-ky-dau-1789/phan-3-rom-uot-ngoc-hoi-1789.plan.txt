@@ -12,15 +12,16 @@ clip: tkd3-5.mp4 |  | tiktok=5-10
 clip: tkd3-6.mp4 |  | tiktok=5-10
 clip: tkd3-7.mp4 |  | tiktok=3-10
 
-sub: 1 | 0.3-2.4 | Nhúng rơm. / Bọc kín tấm ván.
+sub: 1 | 0.3-2.4 | Ba tấm ván ghép một bức. / Phủ rơm dấp nước.
 sub: 1 | 2.4-3.4 | Rét thế này... / nhúng nước ạ?
 sub: 1 | 3.4-4.9 | Sáng mai / mày sẽ cảm ơn nó.
 sub: 1 | 5.2-9.5 | Tết rét căm căm... / em đi dầm rơm.
-sub: 2 | 5.0-9.5 | Rơm ướt nặng / gấp mấy rơm khô... / mà lưng em chỉ có một.
-sub: 3 | 5.0-9.5 | Sương mù thế này... / giặc chỉ thấy / một bức tường rơm đi tới.
-sub: 4 | 0.5-4.8 | Xèo! Xèo!
+sub: 2 | 0.5-4.8 | Mười người khênh một bức. / Lưng giắt dao ngắn.
+sub: 2 | 5.0-9.5 | Mười người một bức... / mà em đứng đúng / góc nặng nhất.
+sub: 3 | 5.0-9.5 | Hai mươi bức ván một hàng... / giặc chỉ thấy / một bức tường rơm biết đi.
+sub: 4 | 0.5-4.8 | Đoàng! Đoàng!
 sub: 4 | 5.0-9.5 | Cả đời em nhóm bếp / ghét rơm ướt... / hôm nay rơm ướt / cứu cả đạo quân.
-sub: 5 | 5.0-9.5 | Đồn vỡ rồi... / mà áo em còn chưa kịp khô.
-sub: 6 | 5.0-9.5 | Áo vua đen sì khói súng... / mà vẫn đi đầu.
-sub: 7 | 3.0-6.0 | Mùng 5 Tết, phá đồn Ngọc Hồi. / Chiều hôm ấy, vua Quang Trung / vào Thăng Long.
+sub: 5 | 5.0-9.5 | Giặc phun khói sang... / gió lại thổi / ngược về nhà nó.
+sub: 6 | 5.0-9.5 | Vua cưỡi voi... / đi ngay sau lưng quân.
+sub: 7 | 3.0-6.0 | Mùng 5 Tết, phá đồn Ngọc Hồi. / Trưa hôm ấy, vua Quang Trung / vào Thăng Long.
 sub: 7 | 6.1-8.4 | Hẹn mùng bảy... / mùng năm đã tới.
