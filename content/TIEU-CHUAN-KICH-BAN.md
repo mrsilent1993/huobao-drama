@@ -1,6 +1,6 @@
-# Tiêu chuẩn viết kịch bản: kênh "POV - Một Ngày Ở Đại Việt"
+# Tiêu chuẩn làm video: kênh "POV - Một Ngày Ở Đại Việt"
 
-Tổng hợp mọi quy tắc anh đã đặt ra và chỉnh qua từng video, cùng bài học từ số liệu và bình luận người xem (đến 19/11/2026). Mọi kịch bản mới phải theo file này. Khi viết, điền theo `MAU-KICH-BAN.md`.
+Tổng hợp mọi quy tắc anh đã đặt ra và chỉnh qua từng video, cùng bài học từ số liệu và bình luận người xem (cập nhật 20/11/2026). Mọi kịch bản mới phải theo file này. Khi viết, điền theo `MAU-KICH-BAN.md`.
 
 ---
 
@@ -73,12 +73,13 @@ Gốc từ video Bạch Đằng 938 "Cắm cọc cả buổi sáng" (1,7 triệu
 ## 3. Chữ trên video
 
 - **Hook giây 0–2,5:** chữ to, dạng "POV: …", mỗi dòng **tối đa khoảng 20 ký tự**, tối đa 3 dòng, ngắt bằng " / ". Có thêm 2 hook dự phòng.
-- **Nhãn 3 giây đầu:** "AI tái hiện · lời thoại hư cấu". Tập truyền thuyết dùng "AI tái hiện · theo truyền thuyết" (khóa `legend=True`).
+- **Nhãn 3 giây đầu:** "AI tái hiện · lời thoại hư cấu". Tập truyền thuyết dùng "AI tái hiện · theo truyền thuyết" (khóa `legend=True`). Nhãn riêng thì đặt khóa `nhan`, ví dụ "AI tái hiện · lời dụ theo truyền tụng".
 - **Mốc thời gian** (nhãn góc trên, 3 giây đầu clip): ngắn, một dòng. Loạt dài ghi tên loạt, ví dụ "Tây Sơn từng mốc · 1773".
 - **Phụ đề:**
   - Thời gian chuẩn 0,5–4,8 giây và 5,0–9,5 giây.
   - Mỗi dòng **tối đa khoảng 26 ký tự**. Ngắt tay bằng " / ", không để vỡ thành 4–5 dòng.
   - Kiểm bằng hàm `layout()` của `tools/tiktok.py`.
+  - **Lời của nhân vật lịch sử thật** (vua, tướng) thì đặt tên người nói ở dòng đầu phụ đề, ví dụ "Vua Quang Trung: / Đánh cho để dài tóc!", vì nhãn góc trên chỉ hiện 3 giây đầu clip.
 - **Màn hình kết:** 1,5–1,8 giây cuối (`end_giay`). Phụ đề cuối phải kết thúc trước lúc màn hình kết hiện.
 - **Không dùng emoji trong chữ trên video:** chữ hiện thành ô vuông. Dùng "→".
 - **Vùng an toàn:** chữ tránh khoảng 230px trên, khoảng 480px dưới và khoảng 160px bên phải (công cụ dựng đã tự xử lý).
@@ -137,6 +138,10 @@ Gốc từ video Bạch Đằng 938 "Cắm cọc cả buổi sáng" (1,7 triệu
   - **Nhân vật riêng của tập:** khai báo bằng khóa `voices={"Tên": "mô tả"}`.
 - **Âm thanh:** chỉ âm thanh tự nhiên, **không nhạc nền**. Trailer được dùng trống trận.
 - **Nếu Muse có chọn giọng hoặc giọng tham chiếu:** dùng đúng một giọng cho mỗi nhân vật ở mọi clip.
+- **Nhân vật lịch sử đọc lời nổi tiếng** (ví dụ vua Quang Trung đọc lời dụ):
+  - Một giọng riêng, mô tả rõ và khác hẳn giọng Anh Tư và người dẫn chuyện (ví dụ `QT_VOICE`: trầm, vang, hùng hồn, giọng Bình Định, mỗi vế như một hồi trống). Tạo giọng một lần, dùng lại ở mọi clip người đó nói.
+  - Prompt clip ghi "ONLY [tên] speaks… Anh Tư and the soldiers keep their mouths closed". Vì vua chỉ thấy từ phía sau, nếu Muse gán giọng cho gương mặt khác thì chọn bản không ai mấp máy môi.
+  - Clip có lời nhân vật thật thì không để Anh Tư nói cùng lúc; người dẫn chuyện để sang clip khác.
 
 ---
 
@@ -148,6 +153,7 @@ Gốc từ video Bạch Đằng 938 "Cắm cọc cả buổi sáng" (1,7 triệu
   - **C:** truyền thuyết, giai thoại, tiểu thuyết lịch sử (ví dụ *Hoàng Lê nhất thống chí*).
 - **Phần lịch sử của mỗi tập tách rõ:** sử chép (kèm nguồn), phần dựng lại, phần **hư cấu** (Anh Tư, lời thoại, chi tiết thêm).
 - **Câu của nhân vật thật** lấy theo ý sử chép, ghi "phỏng theo", không nhận là nguyên văn.
+- **Câu nói nổi tiếng phải đối chiếu văn bản gốc trước khi ghi nguồn.** Ví dụ: "Đánh cho để dài tóc…" thường được gán cho *Hoàng Lê nhất thống chí*, nhưng đọc lại hồi 14 thì sách không chép; lời dụ ở Nghệ An trong sách là "Trong khoảng vũ trụ, đất nào sao ấy…". Câu chưa thấy văn bản gốc ghi mức C (truyền tụng) và không nêu địa danh khi các nguồn ghi khác nhau.
 - **Chuyện đang tranh luận** (ví dụ "vua giả" năm 1790): video để ngỏ, mời người xem bình chọn.
 - **Số liệu:** tra trước khi viết, ghi khoảng giá trị nếu các nguồn lệch nhau. Không suy diễn quá nguồn; "nhiều người cùng làm" thì không khẳng định một cách đóng cọc cụ thể.
 - **Phân biệt thời đại**, không ghép nhầm nhân vật (ví dụ Yết Kiêu thuộc thời Trần, không phải năm 1427).
@@ -224,7 +230,7 @@ Bảng kiểm đầy đủ theo nội quy TikTok, YouTube và luật Việt Nam:
 1. **Chọn đề tài** (mục 1), tra nguồn, ghi mức nguồn.
 2. **Viết vào `_nguon.py`** của loạt theo `MAU-KICH-BAN.md`: tình huống vô lý, 7 cảnh (YouTube 60–70 giây, TikTok 30–35 giây), câu chốt từng cảnh, câu chốt cuối riêng, đoạn cắt cho bản ngắn.
 3. **Chạy `python3 _nguon.py`.** Kiểm chia dòng bằng `layout()`, dựng thử bằng clip giả rồi xóa.
-4. **Xuất phiếu** bằng `python3 tools/xuat_phieu.py`, gửi anh file .md hoặc phiếu.
+4. **Xuất phiếu** bằng `python3 tools/xuat_phieu.py`, gửi anh file .md hoặc phiếu. Khi anh muốn chọn kiểu kể, làm **3 mẫu**, mỗi mẫu một kiểu (ví dụ: công thức Anh Tư cổ điển · nhật ký đếm ngày · cặp đôi hài), kèm gợi ý nên chọn mẫu nào.
 5. **Anh tạo clip trên Muse** (chú ý nối cảnh, nghe lại giọng, xem lại cờ, chữ, trang phục), rồi gửi Drive.
 6. **Dựng ra 2 bản**, kiểm thời lượng, chữ, âm lượng, rồi gửi anh.
 7. **Đăng** theo mục 8. Sau 1–2 ngày, đọc bình luận và số liệu, đưa bài học mới vào file này.
