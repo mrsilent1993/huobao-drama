@@ -1,0 +1,27 @@
+# Dựng: python3 ../tools/tiktok.py tap-10-thay-giao-hien-an-thai.plan.txt tap-10-thay-giao-hien-an-thai.mp4  (ra tap-10-thay-giao-hien-an-thai-youtube.mp4 và tap-10-thay-giao-hien-an-thai-tiktok.mp4)
+hook: POV: Gánh nước / cho ông thầy / dạy cả chữ lẫn võ
+end: Follow để xem / loạt Quang Trung / tập tiếp theo →
+nhan: AI tái hiện · có chi tiết truyền tụng
+end_giay: 1.6
+
+clip: qt10-1.mp4 | An Thái · trước năm 1771 | tiktok=0-5
+clip: qt10-2.mp4 |  | tiktok=5-10
+clip: qt10-3.mp4 |  | tiktok=5-10
+clip: qt10-4.mp4 |  | tiktok=5-10
+clip: qt10-5.mp4 |  | tiktok=5-10
+clip: qt10-6.mp4 |  | tiktok=5-10
+clip: qt10-7.mp4 |  | tiktok=3-10
+
+sub: 1 | 0.3-2.2 | Sáng gánh nước. / Chiều cầm gậy.
+sub: 1 | 2.2-3.4 | Em học chữ / hay học võ ạ?
+sub: 1 | 3.4-4.9 | Học cả hai / mới đủ một người.
+sub: 1 | 5.2-9.5 | Trường gì... / mà bút với gậy / để chung một góc.
+sub: 2 | 5.0-9.5 | Sáng mài mực... / tay đen.
+sub: 3 | 5.0-9.5 | Chiều làm cọc / cho người ta tập... / tay tím.
+sub: 4 | 0.5-4.8 | Văn mà không võ thì yếu. / Võ mà không văn thì liều.
+sub: 4 | 5.0-9.5 | Thầy dạy một câu... / em nhớ được nửa câu.
+sub: 5 | 0.5-4.8 | Tây khởi nghĩa, / Bắc thu công.
+sub: 5 | 5.0-9.5 | Sáu chữ thôi... / mà nghe như sấm.
+sub: 6 | 5.0-9.5 | Họ mang gươm lên núi... / em ở lại / với hai thùng nước.
+sub: 7 | 3.0-6.0 | Thầy Trương Văn Hiến / dạy anh em Tây Sơn / cả văn lẫn võ.
+sub: 7 | 6.1-8.4 | Cùng học một thầy... / người thành vua, / em vẫn gánh nước.

@@ -640,6 +640,279 @@ EPISODES = [
         yt_title="\"Đánh cho để dài tóc, đánh cho để đen răng\": lời dụ của vua Quang Trung | Loạt Quang Trung",
         yt_tags=("đánh cho để dài tóc, đánh cho để đen răng, chích luân bất phản, phiến giáp bất hoàn, nam quốc anh hùng chi "
                  "hữu chủ, lễ thệ sư, 1788, " + YT)),
+    # ================================================================== Tập 10 · Thầy giáo Hiến (trước 1771)
+    dict(COMMON, slug="thay-giao-hien-an-thai", prefix="qt10", giong="Central Vietnamese (Bình Định) accent",
+        nhan="AI tái hiện · có chi tiết truyền tụng",
+        voices={"teacher": "a slow, dry, wise old male voice with a Nghệ An accent, few words",
+                "officer": "a short, stern male voice"},
+        title="Tập 10 · Gánh nước cho một ông thầy dạy cả chữ lẫn võ, ai ngờ học trò của thầy sau này thành vua (thầy Hiến, An Thái, trước 1771)",
+        history=("**Lịch sử:** Trương Văn Hiến (thường gọi giáo Hiến), người xứ Nghệ, từng là môn khách của Thái phó Trương "
+                 "Văn Hạnh; khi ông Hạnh bị Trương Phúc Loan giết, ông lánh vào Quy Nhơn, mở trường ở ấp An Thái, **dạy anh em "
+                 "Nguyễn Nhạc, Nguyễn Lữ, Nguyễn Huệ cả văn lẫn võ** (sử nhà Nguyễn, *Lịch sử Việt Nam* tập 4, mức B; quê quán "
+                 "các nguồn ghi khác nhau). **Truyền tụng (mức C):** thầy để lại cho học trò câu sấm \"Tây khởi nghĩa, Bắc thu "
+                 "công\". **Hư cấu:** Anh Tư, việc gánh nước, làm cọc tập võ và mọi lời thoại. Ba anh em đã là người lớn, chỉ "
+                 "thấy từ phía sau."),
+        setting=("An Thái hamlet (Bình Định), late 1760s: a thatched village school under big trees, low desks, ink stones, "
+                 "a sandy yard with wooden staffs and a practice post, a well, rice fields and the Tây Sơn hills behind. A thin "
+                 "old teacher with a long white beard in a faded dark robe. His students are ADULT young men in brown clothes "
+                 f"with topknots, the three Nguyễn brothers seen ONLY from behind. Anh Tư is {FACE}, the school's handyman. "
+                 f"{SAFE}"),
+        hook="POV: Gánh nước / cho ông thầy / dạy cả chữ lẫn võ",
+        clips=[
+            c("Bút và gậy", "0-5", "An Thái · trước năm 1771",
+              f"First-person view in a village school yard, a thin old teacher with a white beard handing {FACE} a carrying pole with two buckets, a wooden staff and a writing brush lying side by side on a bench",
+              ("0-5s: The old teacher hands Anh Tư a carrying pole: \"Sáng gánh nước. Chiều cầm gậy.\" Anh Tư: \"Em học chữ "
+               "hay học võ ạ?\" The teacher: \"Học cả hai mới đủ một người.\" 5-10s: Anh Tư looks at the bench and murmurs: "
+               "\"Trường gì... mà bút với gậy để chung một góc.\""),
+              [(0.3, 2.2, "Sáng gánh nước. / Chiều cầm gậy."), (2.2, 3.4, "Em học chữ / hay học võ ạ?"),
+               (3.4, 4.9, "Học cả hai / mới đủ một người."), (5.2, 9.5, "Trường gì... / mà bút với gậy / để chung một góc.")]),
+            c("Buổi sáng", "5-10", "",
+              f"First-person view inside the thatched school in the morning, adult students bent over low desks writing with brushes, {FACE} at the back grinding ink with blackened fingers",
+              ("0-5s: Morning; adult students write quietly; Anh Tư grinds ink at the back. 5-10s: He looks at his black "
+               "fingers and says quietly to the viewer: \"Sáng mài mực... tay đen.\""),
+              [(5.0, 9.5, "Sáng mài mực... / tay đen.")]),
+            c("Buổi chiều", "5-10", "",
+              f"First-person view in the sandy yard in the afternoon, adult students practicing with long wooden staffs, the three brothers seen only from behind, {FACE} holding a padded practice post that is being struck",
+              ("0-5s: Afternoon; students practice with staffs; Anh Tư holds the padded practice post as the blows land, wincing. "
+               "5-10s: He rubs his arm: \"Chiều làm cọc cho người ta tập... tay tím.\""),
+              [(5.0, 9.5, "Chiều làm cọc / cho người ta tập... / tay tím.")]),
+            c("Văn và võ", "5-10", "",
+              f"First-person view of the old teacher standing between the desks and the sandy yard, speaking to the students, {FACE} listening while holding both a brush and a staff",
+              ("0-5s: The teacher addresses the students: \"Văn mà không võ thì yếu. Võ mà không văn thì liều.\" 5-10s: Anh Tư, "
+               "holding a brush in one hand and a staff in the other, sighs: \"Thầy dạy một câu... em nhớ được nửa câu.\""),
+              [(0.5, 4.8, "Văn mà không võ thì yếu. / Võ mà không văn thì liều."),
+               (5.0, 9.5, "Thầy dạy một câu... / em nhớ được nửa câu.")]),
+            c("Sáu chữ", "5-10", "",
+              f"First-person view at night through a half-open door, the old teacher by an oil lamp speaking quietly to an adult student seen only from behind, {FACE} outside holding a bucket, listening",
+              ("0-5s: At night, by an oil lamp, the teacher speaks quietly to the eldest student: \"Tây khởi nghĩa, Bắc thu "
+               "công.\" 5-10s: Outside the door, Anh Tư holds his breath: \"Sáu chữ thôi... mà nghe như sấm.\""),
+              [(0.5, 4.8, "Tây khởi nghĩa, / Bắc thu công."), (5.0, 9.5, "Sáu chữ thôi... / mà nghe như sấm.")]),
+            c("Lên núi", "5-10", "",
+              f"First-person view at dawn as the three brothers, seen only from behind, walk out of the hamlet toward the hills with swords and bundles, {FACE} left standing by the well with two buckets",
+              ("0-5s: Dawn; the three brothers, seen only from behind, walk off toward the hills with swords and bundles. "
+               "5-10s: Anh Tư, left by the well with his buckets: \"Họ mang gươm lên núi... em ở lại với hai thùng nước.\""),
+              [(5.0, 9.5, "Họ mang gươm lên núi... / em ở lại / với hai thùng nước.")]),
+            c("Câu chốt", "3-10", "",
+              f"First-person view years later at the same well, an older {FACE} drawing water, looking up as distant drums sound from the hills",
+              ("0-4.5s: Years later at the same well. A calm narrator's voice says: \"Thầy Trương Văn Hiến dạy anh em Tây Sơn "
+               "cả văn lẫn võ. Người học trò nhỏ nhất, sau này là vua Quang Trung.\" 4.5-10s: Anh Tư sets down the bucket and "
+               "says quietly to the camera: \"Cùng học một thầy... người thành vua, em vẫn gánh nước.\""),
+              [(3.0, 6.0, "Thầy Trương Văn Hiến / dạy anh em Tây Sơn / cả văn lẫn võ."),
+               (6.1, 8.4, "Cùng học một thầy... / người thành vua, / em vẫn gánh nước.")]),
+        ],
+        caption=("Gánh nước cho một ông thầy dạy cả chữ lẫn võ, ai ngờ học trò của thầy sau này thành vua 😳 Thầy Trương Văn "
+                 "Hiến ở An Thái dạy anh em Tây Sơn văn võ song toàn. Bạn còn nhớ thầy cô nào dạy mình không? 👇"),
+        tags="#quangtrung #truongvanhien #tayson #binhdinh #thaygiao",
+        tt_title="Gánh nước cho ông thầy dạy cả chữ lẫn võ, ai ngờ học trò sau này thành vua",
+        hooks_alt=["POV: Cùng học một thầy / người thành vua", "POV: Bút với gậy / để chung một góc"],
+        pin=("Câu \"Tây khởi nghĩa, Bắc thu công\" là truyền tụng, sử chưa chép rõ 🤔 Bạn có biết võ Bình Định nổi tiếng từ "
+             "đâu không? Follow để xem loạt Quang Trung tập tiếp theo!"),
+        yt_title="Thầy giáo Hiến: người dạy văn võ cho anh em Tây Sơn | Loạt Quang Trung",
+        yt_tags="trương văn hiến, giáo hiến, an thái, võ bình định, văn võ song toàn, " + YT),
+    # ================================================================== Tập 11 · Nguyễn Thiếp "không quá mười ngày" (cuối 1788)
+    dict(COMMON, slug="khong-qua-muoi-ngay-1788", prefix="qt11", giong=NGHE,
+        voices={"Quang Trung": QT_VOICE,
+                "Nguyễn Thiếp": "a calm, thin, unhurried old male voice with a Nghệ An accent, wise and certain",
+                "officer": "a short, stern male voice", "comrade": "a cheeky young adult male voice"},
+        title="Tập 11 · Đi mời ông đồ từng từ chối vua, ông chỉ nói một câu mà cả quân yên lòng (\"không quá mười ngày\", 1788)",
+        history=("**Lịch sử:** cuối năm 1788, trên đường ra Bắc, ở Nghệ An vua Quang Trung hỏi ý La Sơn Phu Tử Nguyễn Thiếp: "
+                 "*\"Quân Thanh sang đánh, tôi sắp đem binh ra chống cự. Mưu đánh và giữ, cơ được hay thua, tiên sinh nghĩ như "
+                 "thế nào?\"* Nguyễn Thiếp đáp: *\"Chúa công đi ra chuyến này, không quá mười ngày, quân Thanh sẽ bị dẹp tan.\"* "
+                 "(*Hoàng Lê nhất thống chí*, hồi 14, mức B/C). Mùng 5 Tết Kỷ Dậu, vua vào Thăng Long. Trước đó Nguyễn Thiếp "
+                 "nhiều lần từ chối ra làm quan (xem tập \"Đưa thư mời La Sơn Phu Tử\"). **Hư cấu:** Anh Tư, việc đi mời, việc "
+                 "cược bánh chưng và lời thoại của Anh Tư, viên chỉ huy, người đồng đội. Lời vua và lời Nguyễn Thiếp theo sách."),
+        setting=("Nghệ An, late December 1788: a simple scholar's house at the foot of a mountain, then a lamplit army tent. "
+                 "Nguyễn Thiếp is a thin, very old scholar with a long white beard in a plain dark robe and black turban, "
+                 f"calm. {QT_LOOK} {ARMY}. Anh Tư is {FACE}, a soldier. {SAFE}"),
+        hook="POV: Đi mời ông đồ / từng từ chối vua",
+        clips=[
+            c("Mời bằng được", "0-5", "Nghệ An · cuối năm 1788",
+              f"First-person view at an army camp, a stern officer pointing toward a mountain path, {FACE} tightening his sandals",
+              ("0-5s: The officer points up the mountain path: \"Đi mời ông đồ. Mời bằng được.\" Anh Tư: \"Ông ấy từ chối vua "
+               "mấy lần rồi mà?\" The officer: \"Lần này nước có giặc.\" 5-10s: Anh Tư sets off and says quietly to the viewer: "
+               "\"Mời mấy năm không được... giặc đến thì chắc được.\""),
+              [(0.3, 2.2, "Đi mời ông đồ. / Mời bằng được."), (2.2, 3.4, "Ông ấy từ chối vua / mấy lần rồi mà?"),
+               (3.4, 4.9, "Lần này / nước có giặc."), (5.2, 9.5, "Mời mấy năm không được... / giặc đến thì chắc được.")]),
+            c("Ông đồ đứng dậy", "5-10", "",
+              f"First-person view at the door of a simple scholar's house, a very old scholar with a long white beard silently putting on his outer robe and picking up his walking stick, {FACE} at the door, surprised",
+              ("0-5s: Anh Tư bows at the door and starts his speech; the old scholar, without a word, puts on his robe and "
+               "picks up his stick. 5-10s: Anh Tư, surprised, to the viewer: \"Em chưa nói hết câu... ông ấy đã đứng dậy đi.\""),
+              [(5.0, 9.5, "Em chưa nói hết câu... / ông ấy đã đứng dậy đi.")]),
+            c("Vua cúi đầu", "5-10", "Vua Quang Trung",
+              f"First-person view inside a lamplit tent, {QT_SHOT}, bowing his head respectfully to the old scholar who has just entered, {FACE} at the tent flap",
+              ("0-5s: In the lamplit tent the emperor, seen only from behind, rises and bows his head to the old scholar. "
+               "5-10s: Anh Tư whispers at the tent flap: \"Vua cầm mấy vạn quân... mà cúi đầu trước ông đồ.\""),
+              [(5.0, 9.5, "Vua cầm mấy vạn quân... / mà cúi đầu trước ông đồ.")]),
+            c("Vua hỏi", "5-10", "Vua Quang Trung",
+              f"First-person view from the tent flap, {QT_SHOT}, leaning toward the old scholar across a low table, {FACE} silent in the foreground",
+              ("0-5s: The emperor sits across a low table from the old scholar. 5-10s: ONLY Quang Trung speaks, his deep voice "
+               "low and serious; Anh Tư keeps his mouth closed: \"Mưu đánh và giữ, cơ được hay thua, tiên sinh nghĩ thế nào?\""),
+              [(5.0, 9.5, "Vua Quang Trung: / Mưu đánh và giữ, / được hay thua, / tiên sinh nghĩ thế nào?")]),
+            c("Mười ngày", "5-10", "Nguyễn Thiếp",
+              f"First-person view of the very old scholar Nguyễn Thiếp across the low table, calm, raising one thin hand, {QT_SHOT} listening, {FACE} silent at the edge of frame",
+              ("0-5s: The old scholar is quiet for a moment, then raises one thin hand. 5-10s: ONLY Nguyễn Thiếp speaks, calm "
+               "and certain; no one else's lips move: \"Chúa công đi ra chuyến này, không quá mười ngày, quân Thanh sẽ bị dẹp "
+               "tan.\""),
+              [(5.0, 9.5, "Nguyễn Thiếp: / Không quá mười ngày, / quân Thanh / sẽ bị dẹp tan.")]),
+            c("Cược", "5-10", "",
+              f"First-person view outside the tent at night, {FACE} and a cheeky comrade crouching by a campfire, the comrade holding up half a bánh chưng",
+              ("0-5s: By the fire the comrade holds up half a bánh chưng: \"Mười ngày? Tao cược nửa cái bánh.\" 5-10s: Anh Tư, "
+               "quietly: \"Ông đồ không cầm gươm... mà nói chắc hơn tướng.\""),
+              [(0.5, 4.8, "Mười ngày? / Tao cược nửa cái bánh."), (5.0, 9.5, "Ông đồ không cầm gươm... / mà nói chắc hơn tướng.")]),
+            c("Câu chốt", "3-10", "",
+              f"First-person view in the afternoon at a Thăng Long gate, soldiers marching in, {FACE} counting days on his fingers, the comrade handing him half a bánh chưng",
+              ("0-4.5s: At a Thăng Long gate the army marches in; the comrade hands Anh Tư the half bánh chưng. A calm narrator's "
+               "voice says: \"Theo Hoàng Lê nhất thống chí, Nguyễn Thiếp đoán không quá mười ngày. Mùng 5 Tết, vua vào Thăng "
+               "Long.\" 4.5-10s: Anh Tư counts on his fingers and says quietly: \"Ông đồ đoán mười ngày... vua không để đến ngày "
+               "thứ mười.\""),
+              [(3.0, 6.0, "Nguyễn Thiếp đoán / không quá mười ngày. / Mùng 5 Tết, vào Thăng Long."),
+               (6.1, 8.4, "Ông đồ đoán mười ngày... / vua không để đến / ngày thứ mười.")]),
+        ],
+        caption=("Đi mời ông đồ từng từ chối vua, ông chỉ nói một câu mà cả quân yên lòng 🔥 \"Chúa công đi ra chuyến này, không "
+                 "quá mười ngày, quân Thanh sẽ bị dẹp tan.\" Cuối năm 1788, La Sơn Phu Tử Nguyễn Thiếp nói với vua Quang Trung "
+                 "như thế. Bạn tin lời đoán ấy không? 👇"),
+        tags="#quangtrung #nguyenthiep #lasonphutu #taysontungmoc #1788",
+        tt_title="Đi mời ông đồ từng từ chối vua, ông chỉ nói một câu mà cả quân yên lòng",
+        hooks_alt=["POV: Không quá mười ngày / quân Thanh sẽ tan", "POV: Vua cầm mấy vạn quân / mà cúi đầu trước ông đồ"],
+        pin=("Đây là ông đồ từng từ chối vua mấy lần, xem tập \"Đưa thư mời La Sơn Phu Tử\" 🔥 Follow để xem loạt Quang Trung "
+             "tập tiếp theo!"),
+        yt_title="\"Không quá mười ngày\": lời đoán của La Sơn Phu Tử với vua Quang Trung | Loạt Quang Trung",
+        yt_tags="nguyễn thiếp, la sơn phu tử, không quá mười ngày, hoàng lê nhất thống chí, nghệ an, 1788, " + YT),
+    # ================================================================== Tập 12 · Tam Điệp "Quân thua chém tướng" (cuối 1788)
+    dict(COMMON, slug="quan-thua-chem-tuong-tam-diep-1788", prefix="qt12",
+        voices={"Quang Trung": QT_VOICE, "officer": "a short, stern male voice",
+                "comrade": "a nervous young adult male voice"},
+        title="Tập 12 · Bỏ Thăng Long chạy về núi, giờ đứng chờ vua xử tội, vua chỉ nói một câu (Tam Điệp, cuối năm 1788)",
+        history=("**Lịch sử:** khi quân Thanh vào Thăng Long, tướng Tây Sơn Ngô Văn Sở, Phan Văn Lân theo kế của Ngô Thì Nhậm "
+                 "rút quân về giữ Tam Điệp. Vua Quang Trung ra đến nơi, các tướng xin chịu tội. Vua nói: *\"Binh pháp dạy rằng: "
+                 "'Quân thua chém tướng'\"*, rồi giải thích việc để Ngô Thì Nhậm ở lại *\"chính là lo về điều đó\"*, tha tội và "
+                 "khen việc giữ quân; vua nói thêm *\"Chẳng qua mươi ngày có thể đuổi được người Thanh\"* và *\"Chờ mười năm "
+                 "nữa... bấy giờ nước giàu quân mạnh, thì ta có sợ gì chúng?\"* (*Hoàng Lê nhất thống chí*, hồi 14, mức B/C; "
+                 "lời trong phim rút gọn từ sách). **Hư cấu:** Anh Tư, người đồng đội và lời thoại của họ. Không dựng cảnh xử tội."),
+        setting=("Tam Điệp pass (Ninh Bình), late January 1789: a camp among limestone mountains, cold mist, campfires. Two "
+                 "Tây Sơn generals in dark armor kneeling respectfully, seen from the side at a distance; Ngô Thì Nhậm is a "
+                 f"thin scholar-official in a dark robe. {QT_LOOK} {ARMY}. Anh Tư is {FACE}, a soldier who retreated from "
+                 f"Thăng Long. {SAFE}"),
+        hook="POV: Bỏ Thăng Long / chạy về núi / giờ chờ vua xử",
+        clips=[
+            c("Đứng cuối hàng", "0-5", "Tam Điệp · cuối năm 1788",
+              f"First-person view in a misty mountain camp, a stern officer pushing {FACE} into the last row of a long line of soldiers waiting for someone",
+              ("0-5s: The officer pushes Anh Tư into the last row: \"Ra đón vua. Đứng cuối hàng.\" Anh Tư: \"Mình bỏ Thăng Long "
+               "chạy về... vua có giận không?\" The officer: \"Cầu cho vua đừng nhớ mặt mày.\" 5-10s: Anh Tư pulls his head "
+               "wrap lower and says quietly: \"Đứng cuối hàng... vẫn thấy mình cao quá.\""),
+              [(0.3, 2.2, "Ra đón vua. / Đứng cuối hàng."), (2.2, 3.4, "Vua có giận không?"),
+               (3.4, 4.9, "Cầu cho vua / đừng nhớ mặt mày."), (5.2, 9.5, "Đứng cuối hàng... / vẫn thấy mình cao quá.")]),
+            c("Xin chịu tội", "5-10", "",
+              f"First-person view from the ranks, two generals in dark armor kneeling and bowing their heads before {QT_SHOT}, the whole camp silent, {FACE} holding his breath",
+              ("0-5s: Two generals kneel and bow their heads before the emperor, seen only from behind. The whole camp is "
+               "silent. 5-10s: Anh Tư whispers: \"Hai ông tướng quỳ xin chịu tội... cả trại không ai dám thở.\""),
+              [(5.0, 9.5, "Hai ông tướng quỳ / xin chịu tội... / cả trại không ai dám thở.")]),
+            c("Quân thua chém tướng", "5-10", "Vua Quang Trung",
+              f"First-person view from the ranks of {QT_SHOT} standing over the kneeling generals, the mist swirling, {FACE} swallowing hard, mouth closed",
+              ("0-5s: The emperor, seen only from behind, looks down at the kneeling generals. 5-10s: ONLY Quang Trung speaks, "
+               "slow and heavy; no one else's lips move: \"Binh pháp dạy rằng: Quân thua chém tướng.\" Anh Tư swallows hard."),
+              [(5.0, 9.5, "Vua Quang Trung: / Binh pháp dạy rằng: / Quân thua chém tướng.")]),
+            c("Là kế", "5-10", "Vua Quang Trung",
+              f"First-person view of {QT_SHOT} gesturing toward a thin scholar-official in a dark robe standing aside, the kneeling generals lifting their heads, {FACE} blinking in surprise",
+              ("0-5s: ONLY Quang Trung speaks, gesturing toward the thin scholar-official: \"Ta để Ngô Thì Nhậm ở lại... chính "
+               "là lo về điều đó.\" The generals lift their heads. 5-10s: Anh Tư whispers: \"Tưởng bị xử vì chạy... hóa ra chạy "
+               "đúng kế.\""),
+              [(0.5, 4.8, "Vua Quang Trung: / Ta để Ngô Thì Nhậm ở lại... / chính là lo về điều đó."),
+               (5.0, 9.5, "Tưởng bị xử vì chạy... / hóa ra chạy đúng kế.")]),
+            c("Mươi ngày", "5-10", "Vua Quang Trung",
+              f"First-person wide view of {QT_SHOT} turning to the whole army with one arm pointing north toward the mist, soldiers straightening, {FACE} silent",
+              ("0-5s: The emperor turns to the whole army and points north. 5-10s: ONLY Quang Trung speaks: \"Chẳng qua mươi "
+               "ngày có thể đuổi được người Thanh.\" A murmur runs through the ranks."),
+              [(5.0, 9.5, "Vua Quang Trung: / Chẳng qua mươi ngày / có thể đuổi được người Thanh.")]),
+            c("Mười năm", "5-10", "",
+              f"First-person view of {QT_SHOT} speaking quietly to the generals and the scholar-official by a campfire, {FACE} nearby feeding the fire, listening",
+              ("0-5s: By the fire, the emperor speaks quietly to the generals: \"Chờ mười năm nữa, nước giàu quân mạnh, thì ta "
+               "có sợ gì chúng?\" 5-10s: Anh Tư, feeding the fire, says quietly to the viewer: \"Đánh giặc thì hẹn mười ngày... "
+               "lo nước thì tính mười năm.\""),
+              [(0.5, 4.8, "Vua Quang Trung: / Chờ mười năm nữa, / nước giàu quân mạnh, / thì ta có sợ gì chúng?"),
+               (5.0, 9.5, "Đánh giặc hẹn mười ngày... / lo nước tính mười năm.")]),
+            c("Câu chốt", "3-10", "",
+              f"First-person view at dusk as the army forms up to march north out of the pass, {FACE} shouldering his spear, looking toward the road he fled down",
+              ("0-4.5s: Dusk; the army forms up to march north. A calm narrator's voice says: \"Ở Tam Điệp, vua Quang Trung tha "
+               "tội cho các tướng đã rút khỏi Thăng Long, vì đó là kế giữ quân.\" 4.5-10s: Anh Tư shoulders his spear and says "
+               "quietly to the camera: \"Em chạy từ Thăng Long về... giờ được chạy ra Thăng Long.\""),
+              [(3.0, 6.0, "Ở Tam Điệp, vua tha tội / cho các tướng rút quân, / vì đó là kế giữ quân."),
+               (6.1, 8.4, "Em chạy từ Thăng Long về... / giờ được chạy ra Thăng Long.")]),
+        ],
+        caption=("Bỏ Thăng Long chạy về núi, giờ đứng chờ vua xử tội 😳 Vua Quang Trung nói: \"Quân thua chém tướng\"... rồi tha, vì "
+                 "rút về Tam Điệp là kế giữ quân của Ngô Thì Nhậm. Bạn đã xem tập \"rút về Tam Điệp\" chưa? 👇"),
+        tags="#quangtrung #tamdiep #ngothinham #taysontungmoc #1788",
+        tt_title="Bỏ Thăng Long chạy về núi, giờ đứng chờ vua xử tội",
+        hooks_alt=["POV: Tưởng bị xử vì chạy / hóa ra chạy đúng kế", "POV: Quân thua chém tướng"],
+        pin=("Tập này nối tiếp mốc \"Bỏ Thăng Long rút về Tam Điệp\" 🔥 Bạn có biết vua giao việc giảng hòa sau trận cho ai "
+             "không? Follow để xem loạt Quang Trung tập tiếp theo!"),
+        yt_title="\"Quân thua chém tướng\": vua Quang Trung ở Tam Điệp 1788 | Loạt Quang Trung",
+        yt_tags="quân thua chém tướng, tam điệp, ngô thì nhậm, ngô văn sở, hoàng lê nhất thống chí, 1788, " + YT),
+    # ================================================================== Tập 13 · Tiền Quang Trung thông bảo
+    dict(COMMON, slug="duc-tien-quang-trung-thong-bao", prefix="qt13",
+        voices={"foreman": "a gruff, practical middle-aged male voice", "old woman": "a sharp, croaky old woman's voice, Northern accent"},
+        title="Tập 13 · Bị sai khắc tên vua lên đồng tiền nhỏ bằng móng tay (tiền Quang Trung thông bảo)",
+        history=("**Lịch sử:** triều Tây Sơn thời Quang Trung (1788–1792) đúc tiền đồng **Quang Trung thông bảo** (光中通寶), có "
+                 "loại mặt sau đúc hai chữ **An Nam** (安南), thường được cho là đúc sau khi nhà Thanh phong vua làm An Nam quốc "
+                 "vương năm 1789 (hiện vật còn nhiều trong các bộ sưu tập, mức A; năm đúc từng loại chưa xác định được). Tiền "
+                 "đúc bằng khuôn cát, đồng nóng chảy rót vào thành \"cây tiền\", rồi bẻ ra từng đồng. **Hư cấu:** Anh Tư, xưởng "
+                 "đúc và mọi lời thoại."),
+        setting=("Phú Xuân or Thăng Long, about 1789–1792: a hot casting workshop with sand moulds, a glowing furnace, crucibles "
+                 "of molten bronze, a 'coin tree' of freshly cast coins, then a busy market. Round bronze coins with a square "
+                 "hole; any characters on them are small and blurred, never readable on screen. Workers bare-chested in "
+                 f"brown trousers. Anh Tư is {FACE}, a workshop helper. {SAFE}"),
+        hook="POV: Khắc tên vua / lên đồng tiền / bằng móng tay",
+        clips=[
+            c("Tên vua", "0-5", "Xưởng đúc tiền · thời Quang Trung",
+              f"First-person view in a hot casting workshop, a gruff foreman holding up a tiny carved coin pattern between two fingers in front of {FACE}",
+              ("0-5s: The foreman holds up a tiny coin pattern: \"Đúc tiền mới. Đồng nào cũng có tên vua.\" Anh Tư: \"Nhỏ thế "
+               "này khắc sao ạ?\" The foreman: \"Thì nheo mắt lại.\" 5-10s: Anh Tư squints at it: \"Tên vua to thế... mà phải "
+               "nhét vào cái đồng bằng móng tay.\""),
+              [(0.3, 2.2, "Đúc tiền mới. / Đồng nào cũng có tên vua."), (2.2, 3.4, "Nhỏ thế này / khắc sao ạ?"),
+               (3.4, 4.9, "Thì nheo mắt lại."), (5.2, 9.5, "Tên vua to thế... / mà phải nhét vào / cái đồng bằng móng tay.")]),
+            c("Rót đồng", "5-10", "",
+              f"First-person view as workers pour glowing molten bronze from a crucible into sand moulds, sparks flying, {FACE} holding the mould frame steady, sweating",
+              ("0-5s: Glowing molten bronze is poured into the sand moulds; sparks fly. 5-10s: Anh Tư, sweating, holds the frame: "
+               "\"Đồng chảy đỏ như lửa... mà em phải đứng sát.\""),
+              [(5.0, 9.5, "Đồng chảy đỏ như lửa... / mà em phải đứng sát.")]),
+            c("Cây tiền", "5-10", "",
+              f"First-person view as the sand mould is broken open revealing a 'coin tree': a branching bronze casting with dozens of coins attached, {FACE} holding it up, amazed",
+              ("0-5s: The mould is broken open: a branching bronze \"tree\" with dozens of coins attached. 5-10s: Anh Tư holds "
+               "it up: \"Người ta trồng cây ra quả... xưởng này đúc cây ra tiền.\""),
+              [(5.0, 9.5, "Người ta trồng cây ra quả... / xưởng này / đúc cây ra tiền.")]),
+            c("Hai chữ mặt sau", "5-10", "",
+              f"Close first-person view of {FACE} filing the edge of a bronze coin, the foreman beside him tapping the back of another coin",
+              ("0-5s: Anh Tư files a coin and turns it over: \"Mặt sau khắc gì đấy ạ?\" The foreman: \"An Nam. Cho đủ lễ với "
+               "nước lớn.\" 5-10s: Anh Tư, filing slowly: \"Thắng trận rồi... vẫn phải giữ lễ.\""),
+              [(0.5, 2.6, "Mặt sau khắc gì đấy ạ?"), (2.6, 4.8, "An Nam. / Cho đủ lễ với nước lớn."),
+               (5.0, 9.5, "Thắng trận rồi... / vẫn phải giữ lễ.")]),
+            c("Ra chợ", "5-10", "",
+              f"First-person view at a busy market, a sharp old woman biting a new bronze coin to test it, then dropping it into her pouch, {FACE} watching",
+              ("0-5s: At the market an old woman bites a new coin, squints at it, then nods and pockets it. 5-10s: Anh Tư says "
+               "quietly to the viewer: \"Đồng tiền nhỏ bằng móng tay... mà mang cả tên một ông vua.\""),
+              [(5.0, 9.5, "Đồng tiền nhỏ bằng móng tay... / mà mang cả tên / một ông vua.")]),
+            c("Giữ một đồng", "5-10", "",
+              f"First-person view at night, {FACE} threading a single bronze coin on a red string and tucking it inside his shirt",
+              ("0-5s: At night Anh Tư threads one coin on a red string. 5-10s: He tucks it inside his shirt: \"Em đúc cả nghìn "
+               "đồng... giữ lại một đồng, không tiêu.\""),
+              [(5.0, 9.5, "Em đúc cả nghìn đồng... / giữ lại một đồng, / không tiêu.")]),
+            c("Câu chốt", "3-10", "",
+              f"Close view of an old worn bronze coin with a square hole lying on a dark cloth, soft light, characters too worn to read, then {FACE} in the old workshop looking at the camera",
+              ("0-4.5s: An old worn coin on dark cloth. A calm narrator's voice says: \"Thời Quang Trung, triều Tây Sơn đúc tiền "
+               "Quang Trung thông bảo. Hơn hai trăm năm sau, những đồng tiền ấy vẫn còn.\" 4.5-10s: Anh Tư in the old workshop "
+               "says quietly to the camera: \"Người tiêu thì đi hết rồi... đồng tiền thì vẫn còn leng keng.\""),
+              [(3.0, 6.0, "Tiền Quang Trung thông bảo. / Hơn hai trăm năm sau, / những đồng tiền ấy vẫn còn."),
+               (6.1, 8.4, "Người tiêu thì đi hết rồi... / đồng tiền / vẫn còn leng keng.")]),
+        ],
+        caption=("Bị sai khắc tên vua lên đồng tiền nhỏ bằng móng tay 😳 Thời Quang Trung, triều Tây Sơn đúc tiền Quang Trung thông "
+                 "bảo, có loại mặt sau đúc hai chữ An Nam. Nhà bạn còn giữ đồng tiền xưa nào không? 👇"),
+        tags="#quangtrung #quangtrungthongbao #tiencoxua #taysontungmoc #lichsutiente",
+        tt_title="Bị sai khắc tên vua lên đồng tiền nhỏ bằng móng tay",
+        hooks_alt=["POV: Xưởng này / đúc cây ra tiền", "POV: Đồng tiền bằng móng tay / mang tên một ông vua"],
+        pin=("Tiền Quang Trung thông bảo vẫn còn trong nhiều bộ sưu tập ngày nay 🪙 Bạn đã từng cầm đồng tiền xưa chưa? Follow "
+             "để xem loạt Quang Trung tập tiếp theo!"),
+        yt_title="Đúc tiền Quang Trung thông bảo: tên vua trên đồng tiền bằng móng tay | Loạt Quang Trung",
+        yt_tags="quang trung thông bảo, tiền tây sơn, tiền cổ việt nam, an nam, đúc tiền, " + YT),
 ]
 
 ACTING = ("Acting: natural and understated, like real people filmed in a documentary; small reactions (a sigh, a glance, a pause, a shake of the head) instead of big expressions. Anh Tư smiles at most once in the whole clip and never laughs at the camera; no exaggerated mugging or cartoonish faces.")

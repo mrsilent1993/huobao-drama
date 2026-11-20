@@ -1,0 +1,27 @@
+# Dựng: python3 ../tools/tiktok.py tap-13-duc-tien-quang-trung-thong-bao.plan.txt tap-13-duc-tien-quang-trung-thong-bao.mp4  (ra tap-13-duc-tien-quang-trung-thong-bao-youtube.mp4 và tap-13-duc-tien-quang-trung-thong-bao-tiktok.mp4)
+hook: POV: Khắc tên vua / lên đồng tiền / bằng móng tay
+end: Follow để xem / loạt Quang Trung / tập tiếp theo →
+nhan: AI tái hiện · lời thoại hư cấu
+end_giay: 1.6
+
+clip: qt13-1.mp4 | Xưởng đúc tiền · thời Quang Trung | tiktok=0-5
+clip: qt13-2.mp4 |  | tiktok=5-10
+clip: qt13-3.mp4 |  | tiktok=5-10
+clip: qt13-4.mp4 |  | tiktok=5-10
+clip: qt13-5.mp4 |  | tiktok=5-10
+clip: qt13-6.mp4 |  | tiktok=5-10
+clip: qt13-7.mp4 |  | tiktok=3-10
+
+sub: 1 | 0.3-2.2 | Đúc tiền mới. / Đồng nào cũng có tên vua.
+sub: 1 | 2.2-3.4 | Nhỏ thế này / khắc sao ạ?
+sub: 1 | 3.4-4.9 | Thì nheo mắt lại.
+sub: 1 | 5.2-9.5 | Tên vua to thế... / mà phải nhét vào / cái đồng bằng móng tay.
+sub: 2 | 5.0-9.5 | Đồng chảy đỏ như lửa... / mà em phải đứng sát.
+sub: 3 | 5.0-9.5 | Người ta trồng cây ra quả... / xưởng này / đúc cây ra tiền.
+sub: 4 | 0.5-2.6 | Mặt sau khắc gì đấy ạ?
+sub: 4 | 2.6-4.8 | An Nam. / Cho đủ lễ với nước lớn.
+sub: 4 | 5.0-9.5 | Thắng trận rồi... / vẫn phải giữ lễ.
+sub: 5 | 5.0-9.5 | Đồng tiền nhỏ bằng móng tay... / mà mang cả tên / một ông vua.
+sub: 6 | 5.0-9.5 | Em đúc cả nghìn đồng... / giữ lại một đồng, / không tiêu.
+sub: 7 | 3.0-6.0 | Tiền Quang Trung thông bảo. / Hơn hai trăm năm sau, / những đồng tiền ấy vẫn còn.
+sub: 7 | 6.1-8.4 | Người tiêu thì đi hết rồi... / đồng tiền / vẫn còn leng keng.

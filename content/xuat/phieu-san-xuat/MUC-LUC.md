@@ -2,7 +2,7 @@
 
 Mỗi video một phiếu theo cùng mẫu: thông tin chung, danh sách clip, bối cảnh và giọng, prompt từng clip, chữ trên video, thông tin đăng, bảng kiểm tra trước khi đăng. Xuất lại bằng `python3 tools/xuat_phieu.py` (chạy từ thư mục `content/`).
 
-**Tổng cộng 75 phiếu.** ✅ = đã đăng (theo trang quản lý TikTok ngày 18/11/2026), ☐ = chưa đăng.
+**Tổng cộng 79 phiếu.** ✅ = đã đăng (theo trang quản lý TikTok ngày 18/11/2026), ☐ = chưa đăng.
 
 ## Tự hào Đại Việt
 
@@ -21,7 +21,7 @@ Mỗi video một phiếu theo cùng mẫu: thông tin chung, danh sách clip, b
 | 2 | Phần 2/3 · Đang hành quân đánh giặc thì bị lệnh… nằm ngủ (ba người một võng, Tết Kỷ Dậu 1789) | 7 | ~68s | ~35s | ☐ | `tet-ky-dau-1789/02-phan-2-ngu-tren-vong-1789.md` |
 | 3 | Phần 3/3 · Tết rét căm căm bị sai nhúng rơm vào nước, sáng ra mới biết để làm gì (Ngọc Hồi, mùng 5 Tết 1789) | 7 | ~68s | ~35s | ☐ | `tet-ky-dau-1789/03-phan-3-rom-uot-ngoc-hoi-1789.md` |
 
-## Loạt Quang Trung (Q1–Q8)
+## Loạt Quang Trung
 
 | # | Video | Clip | YouTube | TikTok | Đã đăng | Phiếu |
 |---|---|---|---|---|---|---|
@@ -34,6 +34,10 @@ Mỗi video một phiếu theo cùng mẫu: thông tin chung, danh sách clip, b
 | 7 | Q7 · Bị sai đọc chiếu vua cho cả làng, lần đầu tiên cả làng nghe là hiểu (chữ Nôm thời Quang Trung, 1791) | 7 | ~68s | ~35s | ☐ | `quang-trung/07-tap-7-chu-nom-chieu-vua-1791.md` |
 | 8 | Q8 · Khiêng lễ vật đi hỏi vợ cho vua, mà của hồi môn đòi kèm là… hai tỉnh (sứ bộ năm 1792, theo một số sách chép) | 7 | ~68s | ~35s | ☐ | `quang-trung/08-tap-8-hoi-vo-luong-quang-1792.md` |
 | 9 | Tập 9 · Đứng giữa mấy vạn quân nghe vua đọc lời dụ: "Đánh cho để dài tóc, đánh cho để đen răng" (cuối năm 1788, theo truyền tụng) | 7 | ~68s | ~35s | ☐ | `quang-trung/09-tap-9-loi-du-danh-cho-de-dai-toc-1788.md` |
+| 10 | Tập 10 · Gánh nước cho một ông thầy dạy cả chữ lẫn võ, ai ngờ học trò của thầy sau này thành vua (thầy Hiến, An Thái, trước 1771) | 7 | ~68s | ~35s | ☐ | `quang-trung/10-tap-10-thay-giao-hien-an-thai.md` |
+| 11 | Tập 11 · Đi mời ông đồ từng từ chối vua, ông chỉ nói một câu mà cả quân yên lòng ("không quá mười ngày", 1788) | 7 | ~68s | ~35s | ☐ | `quang-trung/11-tap-11-khong-qua-muoi-ngay-1788.md` |
+| 12 | Tập 12 · Bỏ Thăng Long chạy về núi, giờ đứng chờ vua xử tội, vua chỉ nói một câu (Tam Điệp, cuối năm 1788) | 7 | ~68s | ~35s | ☐ | `quang-trung/12-tap-12-quan-thua-chem-tuong-tam-diep-1788.md` |
+| 13 | Tập 13 · Bị sai khắc tên vua lên đồng tiền nhỏ bằng móng tay (tiền Quang Trung thông bảo) | 7 | ~68s | ~35s | ☐ | `quang-trung/13-tap-13-duc-tien-quang-trung-thong-bao.md` |
 
 ## Tây Sơn từng mốc
 

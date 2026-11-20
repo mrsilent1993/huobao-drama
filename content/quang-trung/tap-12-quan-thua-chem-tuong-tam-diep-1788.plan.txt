@@ -1,0 +1,27 @@
+# Dựng: python3 ../tools/tiktok.py tap-12-quan-thua-chem-tuong-tam-diep-1788.plan.txt tap-12-quan-thua-chem-tuong-tam-diep-1788.mp4  (ra tap-12-quan-thua-chem-tuong-tam-diep-1788-youtube.mp4 và tap-12-quan-thua-chem-tuong-tam-diep-1788-tiktok.mp4)
+hook: POV: Bỏ Thăng Long / chạy về núi / giờ chờ vua xử
+end: Follow để xem / loạt Quang Trung / tập tiếp theo →
+nhan: AI tái hiện · lời thoại hư cấu
+end_giay: 1.6
+
+clip: qt12-1.mp4 | Tam Điệp · cuối năm 1788 | tiktok=0-5
+clip: qt12-2.mp4 |  | tiktok=5-10
+clip: qt12-3.mp4 | Vua Quang Trung | tiktok=5-10
+clip: qt12-4.mp4 | Vua Quang Trung | tiktok=5-10
+clip: qt12-5.mp4 | Vua Quang Trung | tiktok=5-10
+clip: qt12-6.mp4 |  | tiktok=5-10
+clip: qt12-7.mp4 |  | tiktok=3-10
+
+sub: 1 | 0.3-2.2 | Ra đón vua. / Đứng cuối hàng.
+sub: 1 | 2.2-3.4 | Vua có giận không?
+sub: 1 | 3.4-4.9 | Cầu cho vua / đừng nhớ mặt mày.
+sub: 1 | 5.2-9.5 | Đứng cuối hàng... / vẫn thấy mình cao quá.
+sub: 2 | 5.0-9.5 | Hai ông tướng quỳ / xin chịu tội... / cả trại không ai dám thở.
+sub: 3 | 5.0-9.5 | Vua Quang Trung: / Binh pháp dạy rằng: / Quân thua chém tướng.
+sub: 4 | 0.5-4.8 | Vua Quang Trung: / Ta để Ngô Thì Nhậm ở lại... / chính là lo về điều đó.
+sub: 4 | 5.0-9.5 | Tưởng bị xử vì chạy... / hóa ra chạy đúng kế.
+sub: 5 | 5.0-9.5 | Vua Quang Trung: / Chẳng qua mươi ngày / có thể đuổi được người Thanh.
+sub: 6 | 0.5-4.8 | Vua Quang Trung: / Chờ mười năm nữa, / nước giàu quân mạnh, / thì ta có sợ gì chúng?
+sub: 6 | 5.0-9.5 | Đánh giặc hẹn mười ngày... / lo nước tính mười năm.
+sub: 7 | 3.0-6.0 | Ở Tam Điệp, vua tha tội / cho các tướng rút quân, / vì đó là kế giữ quân.
+sub: 7 | 6.1-8.4 | Em chạy từ Thăng Long về... / giờ được chạy ra Thăng Long.

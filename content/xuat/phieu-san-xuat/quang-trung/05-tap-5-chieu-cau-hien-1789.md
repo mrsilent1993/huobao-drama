@@ -2,7 +2,7 @@
 
 | Mục | Nội dung |
 |---|---|
-| Loạt | Loạt Quang Trung (Q1–Q8) |
+| Loạt | Loạt Quang Trung |
 | File nguồn | `content/quang-trung/tap-5-chieu-cau-hien-1789.md` (sửa nội dung ở `content/quang-trung/_nguon.py`) |
 | Số clip Muse | 7 (`qt5-1.mp4` … `qt5-7.mp4`) |
 | Bản YouTube | khoảng 68 giây (đủ clip, đã trừ chuyển cảnh) |

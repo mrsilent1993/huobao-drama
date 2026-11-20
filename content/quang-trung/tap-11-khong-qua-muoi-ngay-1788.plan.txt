@@ -1,0 +1,26 @@
+# Dựng: python3 ../tools/tiktok.py tap-11-khong-qua-muoi-ngay-1788.plan.txt tap-11-khong-qua-muoi-ngay-1788.mp4  (ra tap-11-khong-qua-muoi-ngay-1788-youtube.mp4 và tap-11-khong-qua-muoi-ngay-1788-tiktok.mp4)
+hook: POV: Đi mời ông đồ / từng từ chối vua
+end: Follow để xem / loạt Quang Trung / tập tiếp theo →
+nhan: AI tái hiện · lời thoại hư cấu
+end_giay: 1.6
+
+clip: qt11-1.mp4 | Nghệ An · cuối năm 1788 | tiktok=0-5
+clip: qt11-2.mp4 |  | tiktok=5-10
+clip: qt11-3.mp4 | Vua Quang Trung | tiktok=5-10
+clip: qt11-4.mp4 | Vua Quang Trung | tiktok=5-10
+clip: qt11-5.mp4 | Nguyễn Thiếp | tiktok=5-10
+clip: qt11-6.mp4 |  | tiktok=5-10
+clip: qt11-7.mp4 |  | tiktok=3-10
+
+sub: 1 | 0.3-2.2 | Đi mời ông đồ. / Mời bằng được.
+sub: 1 | 2.2-3.4 | Ông ấy từ chối vua / mấy lần rồi mà?
+sub: 1 | 3.4-4.9 | Lần này / nước có giặc.
+sub: 1 | 5.2-9.5 | Mời mấy năm không được... / giặc đến thì chắc được.
+sub: 2 | 5.0-9.5 | Em chưa nói hết câu... / ông ấy đã đứng dậy đi.
+sub: 3 | 5.0-9.5 | Vua cầm mấy vạn quân... / mà cúi đầu trước ông đồ.
+sub: 4 | 5.0-9.5 | Vua Quang Trung: / Mưu đánh và giữ, / được hay thua, / tiên sinh nghĩ thế nào?
+sub: 5 | 5.0-9.5 | Nguyễn Thiếp: / Không quá mười ngày, / quân Thanh / sẽ bị dẹp tan.
+sub: 6 | 0.5-4.8 | Mười ngày? / Tao cược nửa cái bánh.
+sub: 6 | 5.0-9.5 | Ông đồ không cầm gươm... / mà nói chắc hơn tướng.
+sub: 7 | 3.0-6.0 | Nguyễn Thiếp đoán / không quá mười ngày. / Mùng 5 Tết, vào Thăng Long.
+sub: 7 | 6.1-8.4 | Ông đồ đoán mười ngày... / vua không để đến / ngày thứ mười.
