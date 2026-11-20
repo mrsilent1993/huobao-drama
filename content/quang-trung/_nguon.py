@@ -106,9 +106,10 @@ EPISODES = [
         title="Q2 · Đang cày ruộng bị gọi ra bãi duyệt binh, nghe một câu mà nhớ cả đời (Nghệ An, cuối năm 1788)",
         history=("**Lịch sử:** cuối năm 1788, trên đường ra Bắc đánh quân Thanh, vua Quang Trung dừng ở Nghệ An hơn mười ngày "
                  "để **tuyển thêm quân**, cứ ba suất đinh lấy một người, rồi duyệt binh (*Hoàng Lê nhất thống chí*, mức B). Vua "
-                 "dụ tướng sĩ: **\"Đánh cho để dài tóc, đánh cho để đen răng...\"** (có trong *Đại Nam chính biên liệt truyện* "
-                 "và *Hoàng Lê nhất thống chí*; các nguồn ghi nơi đọc khác nhau: Nghệ An hoặc lễ thệ sư ở Thọ Hạc, Thanh Hóa, "
-                 "mức B/C). \"Dài tóc, đen răng\" là phong tục của người Việt thời ấy. **Hư cấu:** Anh Tư, ông lý trưởng và "
+                 "dụ tướng sĩ (*Hoàng Lê* chép lời dụ ở Nghệ An mở đầu bằng: \"Trong khoảng vũ trụ, đất nào sao ấy, đều đã phân "
+                 "biệt rõ ràng...\"). Câu **\"Đánh cho để dài tóc, đánh cho để đen răng...\"** thì *Hoàng Lê* KHÔNG chép; "
+                 "đây là lời truyền tụng, thường gắn với lễ thệ sư ở Thọ Hạc (Thanh Hóa) hoặc lễ lên ngôi ở núi Bân, chưa "
+                 "tìm thấy văn bản gốc (mức C). Video gộp lời dụ vào cảnh duyệt binh, lời dẫn chỉ nói \"trên đường ra Bắc\". \"Dài tóc, đen răng\" là phong tục của người Việt thời ấy. **Hư cấu:** Anh Tư, ông lý trưởng và "
                  "mọi lời thoại, trừ câu dụ. Chỉ đọc lời, không dựng cảnh đánh nhau."),
         setting=("Nghệ An, December 1788: muddy winter rice fields with a water buffalo and plough, then a huge parade ground "
                  "outside the Nghệ An citadel with tens of thousands of soldiers and new recruits in lines, drums, many "

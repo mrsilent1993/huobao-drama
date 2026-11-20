@@ -30,7 +30,7 @@ Mức nguồn: A = sử Việt và sử nước ngoài cùng chép · B = chính
 
 ## Lưu ý cho Sử gia và Kiểm duyệt
 
-- **Q2:** câu hịch có đoạn "đánh cho nó chích luân bất phản, phiến giáp bất hoàn" (không còn một xe, một giáp quay về). Chỉ đọc lời, không dựng cảnh chém giết.
+- **Q2:** *Hoàng Lê nhất thống chí* KHÔNG chép câu "Đánh cho để dài tóc"; lời dụ ở Nghệ An trong sách mở đầu bằng "Trong khoảng vũ trụ, đất nào sao ấy...". Câu "dài tóc" là truyền tụng (mức C), gắn với lễ thệ sư ở Thọ Hạc hoặc lễ lên ngôi núi Bân. Câu hịch có đoạn "đánh cho nó chích luân bất phản, phiến giáp bất hoàn" (không còn một xe, một giáp quay về). Chỉ đọc lời, không dựng cảnh chém giết.
 - **Q3:** chỉ nói "gửi về Phú Xuân", Ngọc Hân không xuất hiện trong khung hình (năm 1786 khi cưới bà mới 16 tuổi).
 - **Q4:** giọng kể là nhân nghĩa của ta, không hạ thấp quân Thanh.
 - **Q8:** sử còn tranh cãi, chỉ kể như "theo một số sách chép", giọng nhẹ nhàng, không xúc phạm nước láng giềng. Kiểm duyệt duyệt kỹ.

@@ -182,10 +182,10 @@ EPISODES = [
         voices={"officer": "a stern, clipped male voice", "comrade": "a cheeky young adult male voice"},
         title="Phần 3/3 · Tết rét căm căm bị sai nhúng rơm vào nước, sáng ra mới biết để làm gì (Ngọc Hồi, mùng 5 Tết 1789)",
         history=("**Lịch sử:** sáng mùng 5 Tết Kỷ Dậu (30/1/1789), quân Tây Sơn đánh đồn Ngọc Hồi (Thanh Trì, Hà Nội). Theo "
-                 "*Hoàng Lê nhất thống chí*, vua Quang Trung cho **ghép ván thành những tấm mộc lớn, bọc rơm tẩm nước**, "
+                 "*Hoàng Lê nhất thống chí*, vua Quang Trung cho **lấy sáu chục tấm ván, ghép ba tấm làm một bức, ngoài phủ rơm dấp nước, tất cả hai mươi bức**, "
                  "nhiều người khiêng một tấm đi trước để chắn tên lửa và súng của quân Thanh, quân cầm dao theo sau (mức "
                  "B/C). Đồn Ngọc Hồi vỡ, quân Thanh tan chạy; **chiều mùng 5 Tết, vua Quang Trung vào Thăng Long**, sớm hơn "
-                 "lời hẹn mùng 7 (mức B). **Hư cấu:** Anh Tư, người đồng đội và mọi lời thoại. Không dựng cảnh chết, chỉ dựng "
+                 "lời hẹn mùng 7 (mức B). **Hư cấu:** Anh Tư, người đồng đội và mọi lời thoại. Chi tiết áo vua đen khói súng (cảnh 6) là truyền tụng, *Hoàng Lê* không chép. Không dựng cảnh chết, chỉ dựng "
                  "tên lửa cắm vào tấm rơm ướt và quân Thanh bỏ chạy."),
         setting=("Vietnam, dawn of the fifth day of the lunar new year (30 January 1789), cold fog over flat winter rice "
                  "fields, a Qing earthen fort with a wooden palisade at Ngọc Hồi. Tây Sơn soldiers advancing in lines behind "

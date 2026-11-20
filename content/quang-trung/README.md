@@ -5,7 +5,7 @@
 | Tập | Sự kiện | Câu đáng gửi bạn bè | Câu chốt | Chèn vào loạt Tây Sơn | Nguồn |
 |---|---|---|---|---|---|
 | Q1 | 1786 · Quỳ lạy vua Lê | "Đánh thắng cả Bắc Hà... rồi vào quỳ lạy vua." | "Em trải chiếu cả đời... lần đầu thấy người thắng quỳ." | sau mốc 7 | B |
-| Q2 | 1788 · Tuyển quân, "Đánh cho để dài tóc" | "Đánh cho để dài tóc! Đánh cho để đen răng!" | "Ra đi là thằng cày ruộng... về làng là lính Quang Trung." | sau mốc 11 | B/C |
+| Q2 | 1788 · Tuyển quân, "Đánh cho để dài tóc" | "Đánh cho để dài tóc! Đánh cho để đen răng!" | "Ra đi là thằng cày ruộng... về làng là lính Quang Trung." | sau mốc 11 | B (tuyển quân) · C (câu "dài tóc") |
 | Q3 | Tết 1789 · Cành đào về Phú Xuân | "Sợ nhất không phải giặc... mà rụng một bông đào." | "Vua báo thắng trận bằng một cành đào." | sau Tết Kỷ Dậu 3/3 | C |
 | Q4 | 1789 · Trả tù binh nhà Thanh | "Thắng xong... còn gói cơm cho giặc ăn đường." | "Đánh cho nó sợ... nuôi cho nó nhớ." | sau cầu phao | B |
 | Q5 | 1789 · Chiếu cầu hiền | "Hôm qua còn chống vua... hôm nay được vua mời." | "Thắng giặc bằng gươm... giữ nước bằng người tài." | sau Q4 | B |
