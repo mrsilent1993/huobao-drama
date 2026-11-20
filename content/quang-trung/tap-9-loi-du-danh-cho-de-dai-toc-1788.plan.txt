@@ -1,0 +1,30 @@
+# Dựng: python3 ../tools/tiktok.py tap-9-loi-du-danh-cho-de-dai-toc-1788.plan.txt tap-9-loi-du-danh-cho-de-dai-toc-1788.mp4  (ra tap-9-loi-du-danh-cho-de-dai-toc-1788-youtube.mp4 và tap-9-loi-du-danh-cho-de-dai-toc-1788-tiktok.mp4)
+hook: POV: Đứng giữa / mấy vạn quân / nghe vua đọc lời dụ
+end: Follow để xem / loạt Quang Trung / tập tiếp theo →
+nhan: AI tái hiện · lời dụ theo truyền tụng
+end_giay: 1.6
+
+clip: qt9-1.mp4 | Lễ thệ sư · cuối năm 1788 | tiktok=0-5
+clip: qt9-2.mp4 | Vua Quang Trung | tiktok=5-10
+clip: qt9-3.mp4 | Vua Quang Trung | tiktok=5-10
+clip: qt9-4.mp4 | Vua Quang Trung | tiktok=5-10
+clip: qt9-5.mp4 |  | tiktok=5-10
+clip: qt9-6.mp4 | Vua Quang Trung | tiktok=5-10
+clip: qt9-7.mp4 |  | tiktok=3-10
+
+sub: 1 | 0.3-2.2 | Đứng thẳng. / Hôm nay vua nói.
+sub: 1 | 2.2-3.4 | Nói với cả mấy vạn người ạ?
+sub: 1 | 3.4-4.9 | Nghe bằng cả ngực mày.
+sub: 1 | 5.2-9.5 | Mấy vạn người... / im đến nghe được / tiếng đuốc cháy.
+sub: 2 | 0.5-4.8 | (Ba hồi trống)
+sub: 2 | 5.0-9.5 | Vua chưa nói câu nào... / cả bãi đã đứng thẳng.
+sub: 3 | 5.0-7.2 | Vua Quang Trung: / Đánh cho để dài tóc!
+sub: 3 | 7.2-9.5 | Vua Quang Trung: / Đánh cho để đen răng!
+sub: 4 | 5.0-7.2 | Vua Quang Trung: / Đánh cho nó / chích luân bất phản!
+sub: 4 | 7.2-9.5 | Vua Quang Trung: / Đánh cho nó / phiến giáp bất hoàn!
+sub: 5 | 5.0-6.6 | Chích luân... / là gì hả bác?
+sub: 5 | 6.6-9.5 | Không một cái xe, / không một mảnh giáp / nào được về.
+sub: 6 | 5.0-8.4 | Vua Quang Trung: / Đánh cho sử tri / Nam quốc anh hùng / chi hữu chủ!
+sub: 6 | 8.4-9.6 | ĐÁNH!
+sub: 7 | 3.0-6.0 | Theo truyền tụng, năm 1788, / vua Quang Trung dụ tướng sĩ. / Mùng 5 Tết, vào Thăng Long.
+sub: 7 | 6.1-8.4 | Em không hiểu hết / chữ của vua... / nhưng em hiểu phải đánh.

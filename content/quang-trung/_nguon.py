@@ -17,6 +17,12 @@ ARMY = "Tây Sơn soldiers with black-lacquered teeth in dark-red uniforms with 
 HUE_ = ("Nguyễn Huệ (later Emperor Quang Trung), seen ONLY from behind or far away: a broad-shouldered man in a dark "
         "battle robe")
 SAFE = "Adults only, no children. No flags, no legible writing anywhere, no modern objects, no blood, no dead bodies."
+QT_VOICE = ("Quang Trung's own voice, used ONLY for him and identical in every clip: a deep, booming, thunderous male voice "
+            "of a commander in his mid-thirties with a Central Vietnamese (Bình Định) accent; slow, heavy and powerful, each "
+            "phrase struck like a war drum and echoing across the field; clearly different from Anh Tư and from the calm narrator")
+QT_LOOK = ("Emperor Quang Trung is seen ONLY from behind or far away: a tall, broad-shouldered man in a dark-red battle robe "
+           "with a gold-trimmed collar, a black turban, a long sword, standing on a high wooden platform.")
+QT_SHOT = "Emperor Quang Trung seen ONLY from behind, tall and broad-shouldered in a dark-red battle robe and black turban"
 NOTE = ("**Loạt Quang Trung (Q1–Q8):** những sự kiện nổi tiếng còn thiếu, ghép với loạt Tây Sơn từng mốc thành một danh sách "
         "phát. Kể theo công thức Anh Tư; Nguyễn Huệ, vua Quang Trung và vua Lê chỉ xuất hiện từ phía sau hoặc từ xa. "
         "**Hai video từ cùng 7 clip:** YouTube khoảng 67 giây, TikTok khoảng 35 giây, vẫn đủ 7 cảnh.")
@@ -100,17 +106,16 @@ EPISODES = [
         yt_title="Năm 1786: thắng cả Bắc Hà, Nguyễn Huệ vào quỳ lạy vua Lê | Loạt Quang Trung",
         yt_tags="phù lê diệt trịnh, lê hiển tông, 1786, thăng long, " + YT),
     # ================================================================== Q2 · 1788 tuyển quân Nghệ An
-    dict(COMMON, slug="danh-cho-de-dai-toc-1788", prefix="qt2", giong=NGHE,
+    dict(COMMON, slug="dat-nao-sao-ay-nghe-an-1788", prefix="qt2", giong=NGHE,
         voices={"village official": "a fussy, nasal male voice", "officer": "a stern, clipped male voice",
-                "Quang Trung": "a powerful, thunderous, fiery male voice"},
-        title="Q2 · Đang cày ruộng bị gọi ra bãi duyệt binh, nghe một câu mà nhớ cả đời (Nghệ An, cuối năm 1788)",
+                "Quang Trung": QT_VOICE},
+        title="Q2 · Đang cày ruộng bị gọi ra bãi duyệt binh, nghe vua nói một câu mà nhớ cả đời (Nghệ An, cuối năm 1788)",
         history=("**Lịch sử:** cuối năm 1788, trên đường ra Bắc đánh quân Thanh, vua Quang Trung dừng ở Nghệ An hơn mười ngày "
-                 "để **tuyển thêm quân**, cứ ba suất đinh lấy một người, rồi duyệt binh (*Hoàng Lê nhất thống chí*, mức B). Vua "
-                 "dụ tướng sĩ (*Hoàng Lê* chép lời dụ ở Nghệ An mở đầu bằng: \"Trong khoảng vũ trụ, đất nào sao ấy, đều đã phân "
-                 "biệt rõ ràng...\"). Câu **\"Đánh cho để dài tóc, đánh cho để đen răng...\"** thì *Hoàng Lê* KHÔNG chép; "
-                 "đây là lời truyền tụng, thường gắn với lễ thệ sư ở Thọ Hạc (Thanh Hóa) hoặc lễ lên ngôi ở núi Bân, chưa "
-                 "tìm thấy văn bản gốc (mức C). Video gộp lời dụ vào cảnh duyệt binh, lời dẫn chỉ nói \"trên đường ra Bắc\". \"Dài tóc, đen răng\" là phong tục của người Việt thời ấy. **Hư cấu:** Anh Tư, ông lý trưởng và "
-                 "mọi lời thoại, trừ câu dụ. Chỉ đọc lời, không dựng cảnh đánh nhau."),
+                 "để **tuyển thêm quân**, cứ ba suất đinh lấy một người, rồi cưỡi voi ra doanh dụ quân sĩ: **\"Trong khoảng vũ "
+                 "trụ, đất nào sao ấy, đều đã phân biệt rõ ràng, phương Nam phương Bắc chia nhau mà cai trị...\"** Quân sĩ đồng "
+                 "thanh: \"Xin vâng lệnh, không dám hai lòng!\" (*Hoàng Lê nhất thống chí*, hồi 14, mức B). Câu \"Đánh cho để dài "
+                 "tóc...\" là truyền tụng, có tập riêng (tập 9). **Hư cấu:** Anh Tư, ông lý trưởng và mọi lời thoại, trừ lời dụ "
+                 "và câu đáp của quân sĩ. Chỉ đọc lời, không dựng cảnh đánh nhau."),
         setting=("Nghệ An, December 1788: muddy winter rice fields with a water buffalo and plough, then a huge parade ground "
                  "outside the Nghệ An citadel with tens of thousands of soldiers and new recruits in lines, drums, many "
                  f"spears. {ARMY}; new recruits still in brown peasant clothes. {HUE_}, now Emperor Quang Trung in a dark "
@@ -140,16 +145,16 @@ EPISODES = [
               ("0-5s: The drums stop. The emperor, seen only from behind, steps onto the high platform. Tens of thousands fall "
                "silent. 5-10s: Anh Tư whispers: \"Cả bãi mấy vạn người... im như đêm.\""),
               [(5.0, 9.5, "Cả bãi mấy vạn người... / im như đêm.")]),
-            c("Lời dụ", "5-10", "",
+            c("Lời dụ", "5-10", "Vua Quang Trung",
               f"First-person view from the ranks looking up at {HUE_} on the platform raising one arm, the army's spears rising like a forest, {FACE} with tears in his eyes",
-              ("0-5s: The emperor, seen only from behind, raises his arm. 5-10s: His thunderous voice: \"Đánh cho để dài tóc! "
-               "Đánh cho để đen răng!\" The whole army roars and raises their spears."),
-              [(5.0, 9.5, "Đánh cho để dài tóc! / Đánh cho để đen răng!")]),
-            c("Tóc dài răng đen", "5-10", "",
-              f"Close first-person view as {FACE} touches his own long topknot and sets his jaw, determined, the roaring army around him",
-              ("0-5s: As the army roars, Anh Tư touches his long topknot, then looks ahead, his black teeth showing as he speaks. 5-10s: He says to "
-               "the viewer: \"Tóc em dài, răng em đen... thì em phải đánh.\""),
-              [(5.0, 9.5, "Tóc em dài, răng em đen... / thì em phải đánh.")]),
+              ("0-5s: The emperor, seen only from behind, raises his arm. 5-10s: ONLY Quang Trung speaks, his booming voice coming from the platform while Anh Tư keeps his mouth closed: \"Trong khoảng vũ trụ, "
+               "đất nào sao ấy, đều đã phân biệt rõ ràng!\" The whole army roars and raises their spears."),
+              [(5.0, 9.5, "Vua Quang Trung: / Trong khoảng vũ trụ, / đất nào sao ấy, / đều đã phân biệt rõ ràng!")]),
+            c("Đất nhà mình", "5-10", "",
+              f"Close first-person view as {FACE} looks down at the dried mud of his rice field still on his bare feet, then up, determined, the roaring army around him",
+              ("0-5s: As the army roars, Anh Tư looks down at the mud of Nghệ An still on his feet. 5-10s: He says quietly to "
+               "the viewer: \"Đất nào sao ấy... thì đất này là của nhà mình.\""),
+              [(5.0, 9.5, "Đất nào sao ấy... / thì đất này / là của nhà mình.")]),
             c("Câu chốt", "3-10", "",
               f"First-person view at dawn as the army marches north out of Nghệ An, {FACE} in a dark-red uniform now, spear upright, looking back once toward his village",
               ("0-4.5s: Dawn; the army marches north. A calm narrator's voice says: \"Cuối năm 1788, trên đường ra Bắc, vua "
@@ -158,15 +163,15 @@ EPISODES = [
               [(3.0, 6.0, "Năm 1788, trên đường ra Bắc, / vua Quang Trung tuyển quân / ở Nghệ An."),
                (6.1, 8.4, "Ra đi là thằng cày ruộng... / về làng là lính Quang Trung.")]),
         ],
-        caption=("Đang cày ruộng bị gọi đi lính, ra bãi duyệt binh nghe một câu mà nhớ cả đời 🔥 \"Đánh cho để dài tóc, đánh cho "
-                 "để đen răng...\" Cuối năm 1788, vua Quang Trung tuyển quân ở Nghệ An trước khi ra Bắc đánh quân Thanh. Bạn "
-                 "thuộc tiếp được câu này không? 👇"),
-        tags="#quangtrung #danhchodedaitoc #nghean #taysontungmoc #1788",
+        caption=("Đang cày ruộng bị gọi đi lính, ra bãi duyệt binh nghe vua nói một câu mà nhớ cả đời 🔥 \"Trong khoảng vũ trụ, "
+                 "đất nào sao ấy, đều đã phân biệt rõ ràng...\" Cuối năm 1788, vua Quang Trung tuyển quân ở Nghệ An trước khi ra "
+                 "Bắc đánh quân Thanh. Quê bạn ở Nghệ An không? 👇"),
+        tags="#quangtrung #datnaosaoay #nghean #taysontungmoc #1788",
         tt_title="Đang cày ruộng bị gọi đi lính, nghe một câu mà nhớ cả đời",
-        hooks_alt=["POV: Đánh cho để dài tóc / đánh cho để đen răng", "POV: Hôm qua cầm cày / hôm nay cầm giáo"],
-        pin=("Câu đầy đủ còn dài hơn thế 🔥 Ai thuộc thì viết tiếp ở dưới nhé! Follow để xem loạt Quang Trung tập tiếp theo!"),
-        yt_title="\"Đánh cho để dài tóc, đánh cho để đen răng\": tuyển quân Nghệ An 1788 | Loạt Quang Trung",
-        yt_tags="đánh cho để dài tóc, đánh cho để đen răng, nghệ an, tuyển quân, 1788, " + YT),
+        hooks_alt=["POV: Đất nào sao ấy / đất này của nhà mình", "POV: Hôm qua cầm cày / hôm nay cầm giáo"],
+        pin=("Lời dụ ở Nghệ An còn kể tên Trưng Nữ Vương, Đinh Tiên Hoàng, Lê Đại Hành, Trần Hưng Đạo, Lê Thái Tổ 🔥 Còn câu \"Đánh cho để dài tóc\" thì sao? Xem tập riêng của loạt Quang Trung!"),
+        yt_title="\"Đất nào sao ấy\": vua Quang Trung tuyển quân ở Nghệ An 1788 | Loạt Quang Trung",
+        yt_tags="đất nào sao ấy, lời dụ nghệ an, hoàng lê nhất thống chí, nghệ an, tuyển quân, 1788, " + YT),
     # ================================================================== Q3 · Tết 1789 cành đào
     dict(COMMON, slug="canh-dao-ve-phu-xuan-1789", prefix="qt3", legend=True,
         voices={"officer": "a stern, clipped male voice", "station keeper": "a sleepy, gruff old male voice"},
@@ -555,6 +560,86 @@ EPISODES = [
              "muốn xem loạt nào tiếp theo?"),
         yt_title="Năm 1792: vua Quang Trung cầu hôn công chúa nhà Thanh, xin Lưỡng Quảng? | Loạt Quang Trung",
         yt_tags="lưỡng quảng, cầu hôn công chúa nhà thanh, bang giao hảo thoại, 1792, " + YT),
+    # ================================================================== Tập 9 · Lời dụ "Đánh cho để dài tóc" (truyền tụng)
+    dict(COMMON, slug="loi-du-danh-cho-de-dai-toc-1788", prefix="qt9",
+        nhan="AI tái hiện · lời dụ theo truyền tụng",
+        voices={"Quang Trung": QT_VOICE,
+                "officer": "a short, stern, low male voice",
+                "old soldier": "a raspy, low whisper of an old male soldier"},
+        title="Tập 9 · Đứng giữa mấy vạn quân nghe vua đọc lời dụ: \"Đánh cho để dài tóc, đánh cho để đen răng\" (cuối năm 1788, theo truyền tụng)",
+        history=("**Truyền tụng (mức C):** trên đường ra Bắc đánh quân Thanh cuối năm 1788, vua Quang Trung dụ tướng sĩ:\n\n"
+                 "> *Đánh cho để dài tóc,*  \n> *Đánh cho để đen răng,*  \n> *Đánh cho nó chích luân bất phản* (không một bánh "
+                 "xe quay về),  \n> *Đánh cho nó phiến giáp bất hoàn* (không một mảnh giáp trở về),  \n> *Đánh cho sử tri Nam "
+                 "quốc anh hùng chi hữu chủ* (cho sử biết nước Nam anh hùng là có chủ).\n\n"
+                 "Các nguồn ghi nơi đọc khác nhau: lễ thệ sư ở Thọ Hạc, Thanh Hóa (Bảo tàng Lịch sử Quốc gia) hoặc lễ lên ngôi ở "
+                 "núi Bân, 22/12/1788 (báo Quân đội nhân dân). *Hoàng Lê nhất thống chí* **không chép** câu này; chưa tìm thấy văn "
+                 "bản gốc, nên video gắn nhãn \"lời dụ theo truyền tụng\" và dựng ở **lễ thệ sư** (không nêu tên địa danh trong "
+                 "phim). \"Dài tóc, đen răng\" là phong tục của người Việt thời ấy. Hơn một tháng sau, mùng 5 Tết Kỷ Dậu (1789), "
+                 "vua vào Thăng Long (mức B). **Hư cấu:** Anh Tư, viên chỉ huy, ông lính già và lời thoại của họ. Không dựng cảnh "
+                 "đánh nhau."),
+        setting=("Vietnam, late 1788, dawn: an oath-taking ceremony (lễ thệ sư) on a vast open field, tens of thousands of "
+                 f"soldiers in silent ranks, war drums, war elephants, rows of torches still burning in the mist. {ARMY}. "
+                 f"{QT_LOOK} Men have long hair in topknots and black-lacquered teeth. Anh Tư is {FACE}, a soldier in the "
+                 f"ranks. {SAFE}"),
+        hook="POV: Đứng giữa / mấy vạn quân / nghe vua đọc lời dụ",
+        clips=[
+            c("Hôm nay vua nói", "0-5", "Lễ thệ sư · cuối năm 1788",
+              f"First-person view from inside silent ranks at dawn, a stern officer walking along the line straightening a spear, stopping beside {FACE}",
+              ("0-5s: The officer straightens Anh Tư's spear: \"Đứng thẳng. Hôm nay vua nói.\" Anh Tư whispers: \"Nói với cả "
+               "mấy vạn người ạ?\" The officer: \"Nghe bằng cả ngực mày.\" 5-10s: Anh Tư looks along the endless silent ranks "
+               "and whispers: \"Mấy vạn người... im đến nghe được tiếng đuốc cháy.\""),
+              [(0.3, 2.2, "Đứng thẳng. / Hôm nay vua nói."), (2.2, 3.4, "Nói với cả mấy vạn người ạ?"),
+               (3.4, 4.9, "Nghe bằng cả ngực mày."), (5.2, 9.5, "Mấy vạn người... / im đến nghe được / tiếng đuốc cháy.")]),
+            c("Vua bước lên đài", "5-10", "Vua Quang Trung",
+              f"First-person view from the ranks toward a high wooden platform, {QT_SHOT}, climbing the steps, the drummers lowering their sticks, {FACE} holding his breath",
+              ("0-5s: Three great drumbeats, then silence. Quang Trung, seen only from behind, climbs onto the high platform and "
+               "turns to face the army; we only see his back and broad shoulders. 5-10s: Anh Tư whispers very low: \"Vua chưa nói "
+               "câu nào... cả bãi đã đứng thẳng.\""),
+              [(0.5, 4.8, "(Ba hồi trống)"), (5.0, 9.5, "Vua chưa nói câu nào... / cả bãi đã đứng thẳng.")]),
+            c("Dài tóc, đen răng", "5-10", "Vua Quang Trung",
+              f"First-person view from the ranks looking up at {QT_SHOT}, his right arm raised high with a sword, the army frozen, {FACE} in the foreground with his mouth firmly closed",
+              ("0-5s: Quang Trung, seen only from behind on the platform, slowly raises his sword. 5-10s: ONLY Quang Trung "
+               "speaks, his voice booming across the field from the platform; Anh Tư and the soldiers keep their mouths closed: "
+               "\"Đánh cho để dài tóc! Đánh cho để đen răng!\""),
+              [(5.0, 7.2, "Vua Quang Trung: / Đánh cho để dài tóc!"), (7.2, 9.5, "Vua Quang Trung: / Đánh cho để đen răng!")]),
+            c("Không một bánh xe", "5-10", "Vua Quang Trung",
+              f"First-person low-angle view of {QT_SHOT} on the platform against the rising sun, sword pointing north, rows of spears below, {FACE} silent in the ranks",
+              ("0-5s: Quang Trung, seen only from behind, turns and points his sword north. 5-10s: ONLY Quang Trung speaks, "
+               "each phrase like a war drum; no one else's lips move: \"Đánh cho nó chích luân bất phản! Đánh cho nó phiến giáp "
+               "bất hoàn!\""),
+              [(5.0, 7.2, "Vua Quang Trung: / Đánh cho nó / chích luân bất phản!"), (7.2, 9.5, "Vua Quang Trung: / Đánh cho nó / phiến giáp bất hoàn!")]),
+            c("Nghĩa là gì", "5-10", "",
+              f"Close first-person view inside the ranks, {FACE} leaning slightly toward an old soldier with a grey topknot beside him, both whispering without moving their heads",
+              ("0-5s: The echo of the king's voice fades. Anh Tư leans toward the old soldier beside him. 5-10s: Anh Tư, very "
+               "low: \"Chích luân... là gì hả bác?\" The old soldier, without turning his head: \"Không một cái xe, không một mảnh "
+               "giáp nào của giặc được về.\""),
+              [(5.0, 6.6, "Chích luân... / là gì hả bác?"), (6.6, 9.5, "Không một cái xe, / không một mảnh giáp / nào được về.")]),
+            c("Nam quốc anh hùng", "5-10", "Vua Quang Trung",
+              f"First-person wide view of {QT_SHOT} on the platform with both arms raised, tens of thousands of spears rising like a forest, {FACE} raising his spear with them",
+              ("0-5s: Quang Trung, seen only from behind, lifts both arms. 5-10s: ONLY Quang Trung speaks, the loudest line of "
+               "all: \"Đánh cho sử tri Nam quốc anh hùng chi hữu chủ!\" Then the whole army roars \"Đánh!\" and raises their "
+               "spears."),
+              [(5.0, 8.4, "Vua Quang Trung: / Đánh cho sử tri / Nam quốc anh hùng / chi hữu chủ!"), (8.4, 9.6, "ĐÁNH!")]),
+            c("Câu chốt", "3-10", "",
+              f"First-person view as the army begins to march north at sunrise, {FACE} marching with his spear upright, glancing back once at the empty platform",
+              ("0-4.5s: The army marches north at sunrise. A calm, quiet narrator's voice (clearly different from the king's) "
+               "says: \"Theo truyền tụng, cuối năm 1788, vua Quang Trung dụ tướng sĩ như thế. Mùng 5 Tết Kỷ Dậu, vua vào Thăng "
+               "Long.\" 4.5-10s: Anh Tư, marching, says quietly to the camera: \"Em không hiểu hết chữ của vua... nhưng em hiểu "
+               "phải đánh.\""),
+              [(3.0, 6.0, "Theo truyền tụng, năm 1788, / vua Quang Trung dụ tướng sĩ. / Mùng 5 Tết, vào Thăng Long."),
+               (6.1, 8.4, "Em không hiểu hết / chữ của vua... / nhưng em hiểu phải đánh.")]),
+        ],
+        caption=("\"Đánh cho để dài tóc, đánh cho để đen răng...\" 🔥 Theo truyền tụng, cuối năm 1788, trên đường ra Bắc đánh "
+                 "quân Thanh, vua Quang Trung dụ tướng sĩ bằng năm câu này. Hơn một tháng sau, mùng 5 Tết Kỷ Dậu, vua vào Thăng "
+                 "Long. Bạn thuộc được mấy câu? 👇"),
+        tags="#quangtrung #danhchodedaitoc #danhchodedenrang #taysontungmoc #1788",
+        tt_title="Vua Quang Trung đọc lời dụ: Đánh cho để dài tóc, đánh cho để đen răng",
+        hooks_alt=["POV: Đánh cho để dài tóc / đánh cho để đen răng", "POV: Vua chưa nói câu nào / cả bãi đã đứng thẳng"],
+        pin=("Năm câu đầy đủ: dài tóc · đen răng · chích luân bất phản · phiến giáp bất hoàn · sử tri Nam quốc anh hùng chi hữu "
+             "chủ 🔥 Đây là lời truyền tụng, sách Hoàng Lê nhất thống chí không chép. Bạn nghe câu này lần đầu ở đâu?"),
+        yt_title="\"Đánh cho để dài tóc, đánh cho để đen răng\": lời dụ của vua Quang Trung | Loạt Quang Trung",
+        yt_tags=("đánh cho để dài tóc, đánh cho để đen răng, chích luân bất phản, phiến giáp bất hoàn, nam quốc anh hùng chi "
+                 "hữu chủ, lễ thệ sư, 1788, " + YT)),
 ]
 
 ACTING = ("Acting: natural and understated, like real people filmed in a documentary; small reactions (a sigh, a glance, a pause, a shake of the head) instead of big expressions. Anh Tư smiles at most once in the whole clip and never laughs at the camera; no exaggerated mugging or cartoonish faces.")

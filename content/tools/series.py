@@ -143,7 +143,7 @@ def build(episodes, here, series_tag="", note="", unit="Phần", file_unit="phan
                 + (f"  (ra {base}-youtube.mp4 và {base}-tiktok.mp4)" if any(
                     c.get("tiktok") for c in ep["clips"]) else ""),
                 f"hook: {ep['hook']}", f"end: {ep['end']}",
-                f"nhan: {AI_TAG_LEGEND if ep.get('legend') else AI_TAG}"]
+                f"nhan: {ep.get('nhan') or (AI_TAG_LEGEND if ep.get('legend') else AI_TAG)}"]
         if ep.get("end_secs"):
             plan.append(f"end_giay: {ep['end_secs']}")
         plan.append("")

@@ -1,4 +1,4 @@
-# Dựng: python3 ../tools/tiktok.py tap-2-danh-cho-de-dai-toc-1788.plan.txt tap-2-danh-cho-de-dai-toc-1788.mp4  (ra tap-2-danh-cho-de-dai-toc-1788-youtube.mp4 và tap-2-danh-cho-de-dai-toc-1788-tiktok.mp4)
+# Dựng: python3 ../tools/tiktok.py tap-2-dat-nao-sao-ay-nghe-an-1788.plan.txt tap-2-dat-nao-sao-ay-nghe-an-1788.mp4  (ra tap-2-dat-nao-sao-ay-nghe-an-1788-youtube.mp4 và tap-2-dat-nao-sao-ay-nghe-an-1788-tiktok.mp4)
 hook: POV: Đang cày ruộng / bị gọi đi lính
 end: Follow để xem / loạt Quang Trung / tập tiếp theo →
 nhan: AI tái hiện · lời thoại hư cấu
@@ -8,7 +8,7 @@ clip: qt2-1.mp4 | Nghệ An · cuối năm 1788 | tiktok=0-5
 clip: qt2-2.mp4 |  | tiktok=5-10
 clip: qt2-3.mp4 |  | tiktok=5-10
 clip: qt2-4.mp4 |  | tiktok=5-10
-clip: qt2-5.mp4 |  | tiktok=5-10
+clip: qt2-5.mp4 | Vua Quang Trung | tiktok=5-10
 clip: qt2-6.mp4 |  | tiktok=5-10
 clip: qt2-7.mp4 |  | tiktok=3-10
 
@@ -21,7 +21,7 @@ sub: 2 | 5.0-9.5 | Hôm qua em cầm cày... / hôm nay cầm giáo ngược.
 sub: 3 | 0.5-4.8 | Một! Hai! Đâm!
 sub: 3 | 5.0-9.5 | Mười ngày... / mà phải thành lính.
 sub: 4 | 5.0-9.5 | Cả bãi mấy vạn người... / im như đêm.
-sub: 5 | 5.0-9.5 | Đánh cho để dài tóc! / Đánh cho để đen răng!
-sub: 6 | 5.0-9.5 | Tóc em dài, răng em đen... / thì em phải đánh.
+sub: 5 | 5.0-9.5 | Vua Quang Trung: / Trong khoảng vũ trụ, / đất nào sao ấy, / đều đã phân biệt rõ ràng!
+sub: 6 | 5.0-9.5 | Đất nào sao ấy... / thì đất này / là của nhà mình.
 sub: 7 | 3.0-6.0 | Năm 1788, trên đường ra Bắc, / vua Quang Trung tuyển quân / ở Nghệ An.
 sub: 7 | 6.1-8.4 | Ra đi là thằng cày ruộng... / về làng là lính Quang Trung.
