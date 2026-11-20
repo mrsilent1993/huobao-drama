@@ -4,13 +4,13 @@ end: Follow để xem / loạt Quang Trung / tập tiếp theo →
 nhan: AI tái hiện · lời dụ theo truyền tụng
 end_giay: 1.6
 
-clip: qt9-1.mp4 | Lễ thệ sư · cuối năm 1788 | tiktok=0-5
-clip: qt9-2.mp4 | Vua Quang Trung | tiktok=5-10
-clip: qt9-3.mp4 | Vua Quang Trung | tiktok=5-10
-clip: qt9-4.mp4 | Vua Quang Trung | tiktok=5-10
-clip: qt9-5.mp4 |  | tiktok=5-10
-clip: qt9-6.mp4 | Vua Quang Trung | tiktok=5-10
-clip: qt9-7.mp4 |  | tiktok=3-10
+clip: qt9-1.mp4 | Lễ thệ sư · cuối năm 1788 | tiktok=bo
+clip: qt9-2.mp4 | Vua Quang Trung | tiktok=bo
+clip: qt9-3.mp4 | Vua Quang Trung | tiktok=0-9.7
+clip: qt9-4.mp4 | Vua Quang Trung | tiktok=0.2-9.7
+clip: qt9-5.mp4 |  | tiktok=bo
+clip: qt9-6.mp4 | Vua Quang Trung | tiktok=0.2-9.8
+clip: qt9-7.mp4 |  | tiktok=2.7-10
 
 sub: 1 | 0.3-2.2 | Đứng thẳng. / Hôm nay vua nói.
 sub: 1 | 2.2-3.4 | Nói với cả mấy vạn người ạ?

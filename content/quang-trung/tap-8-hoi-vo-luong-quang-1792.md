@@ -1,12 +1,12 @@
 # Tập 8: Q8 · Khiêng lễ vật đi hỏi vợ cho vua, mà của hồi môn đòi kèm là… hai tỉnh (sứ bộ năm 1792, theo một số sách chép)
 
-**Độ dài:** hai video từ cùng 7 clip: **YouTube** khoảng 67 giây và **TikTok** khoảng 35 giây, vẫn đủ 7 cảnh (mỗi clip lấy khoảng 5 giây chứa câu chính, cảnh cuối 7 giây)
+**Độ dài:** hai video từ cùng 7 clip: **YouTube** đủ 7 cảnh (khoảng 67 giây); **TikTok** chọn **4 cảnh chính**, giữ gần trọn từng cảnh (khoảng 35 giây) để không mất câu thoại nào; các cảnh còn lại chỉ có ở bản YouTube
 
-**Hai bản từ cùng một bộ clip:** YouTube Shorts 70 giây (đủ clip) · TikTok 37 giây (rút gọn theo ghi chú "Bản TikTok" ở từng clip).
+**Hai bản từ cùng một bộ clip:** YouTube Shorts 70 giây (đủ clip) · TikTok 36 giây (rút gọn theo ghi chú "Bản TikTok" ở từng clip).
 
 Copy từng khối dán thẳng vào phần mềm. Prompt đã ghép đủ, không cần thay gì.
 
-**Loạt Quang Trung (Q1–Q8):** những sự kiện nổi tiếng còn thiếu, ghép với loạt Tây Sơn từng mốc thành một danh sách phát. Kể theo công thức Anh Tư; Nguyễn Huệ, vua Quang Trung và vua Lê chỉ xuất hiện từ phía sau hoặc từ xa. **Hai video từ cùng 7 clip:** YouTube khoảng 67 giây, TikTok khoảng 35 giây, vẫn đủ 7 cảnh.
+**Loạt Quang Trung (Q1–Q8):** những sự kiện nổi tiếng còn thiếu, ghép với loạt Tây Sơn từng mốc thành một danh sách phát. Kể theo công thức Anh Tư; Nguyễn Huệ, vua Quang Trung và vua Lê chỉ xuất hiện từ phía sau hoặc từ xa. **Hai video từ cùng 7 clip:** YouTube đủ 7 cảnh (khoảng 67 giây); TikTok 4 cảnh chính, giữ gần trọn từng cảnh (khoảng 35 giây).
 
 **Theo một số sách chép (mức B/C, sử còn tranh cãi):** đầu năm 1792, vua Quang Trung sai sứ bộ sang nhà Thanh, **cầu hôn một công chúa nhà Thanh và xin đất Lưỡng Quảng** (Quảng Đông, Quảng Tây); văn thư được cho là còn chép trong *Bang giao hảo thoại* của Ngô Thì Nhậm. Nhà Thanh chưa trả lời thì **mùa thu năm ấy (16/9/1792), vua Quang Trung mất** ở Phú Xuân. Ý định thật của nhà vua còn nhiều cách hiểu. **Hư cấu:** Anh Tư, cảnh khiêng lễ vật, cảnh chờ ở biên giới và mọi lời thoại. Không dựng cảnh nhà vua mất, chỉ nhắc bằng lời. Công chúa và triều Thanh không xuất hiện.
 
@@ -24,7 +24,7 @@ Nếu Muse cho chọn hoặc tải **giọng tham chiếu** (voice reference), h
 ## Clip 1: Hỏi vợ
 File Muse đặt tên: `qt8-1.mp4`
 
-**Bản TikTok:** chỉ dùng giây 0 đến 5 của clip này.
+**Bản TikTok:** chỉ dùng giây 0 đến 9.7 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -39,7 +39,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 ## Clip 2: Lễ vật
 File Muse đặt tên: `qt8-2.mp4`
 
-**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+**Bản TikTok:** bỏ clip này.
 
 **Ảnh khung đầu**
 ```
@@ -54,7 +54,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 ## Clip 3: Danh sách
 File Muse đặt tên: `qt8-3.mp4`
 
-**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+**Bản TikTok:** chỉ dùng giây 0.2 đến 9.7 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -69,7 +69,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 ## Clip 4: Của hồi môn
 File Muse đặt tên: `qt8-4.mp4`
 
-**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+**Bản TikTok:** chỉ dùng giây 0.2 đến 9.7 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -84,7 +84,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 ## Clip 5: Đường xa
 File Muse đặt tên: `qt8-5.mp4`
 
-**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+**Bản TikTok:** bỏ clip này.
 
 **Ảnh khung đầu**
 ```
@@ -99,7 +99,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 ## Clip 6: Chờ hồi âm
 File Muse đặt tên: `qt8-6.mp4`
 
-**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+**Bản TikTok:** bỏ clip này.
 
 **Ảnh khung đầu**
 ```
@@ -114,7 +114,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 ## Clip 7: Câu chốt
 File Muse đặt tên: `qt8-7.mp4`
 
-**Bản TikTok:** chỉ dùng giây 3 đến 10 của clip này.
+**Bản TikTok:** chỉ dùng giây 2.7 đến 10 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -194,13 +194,13 @@ end: Follow để xem / loạt Quang Trung / tập tiếp theo →
 nhan: AI tái hiện · lời thoại hư cấu
 end_giay: 1.6
 
-clip: qt8-1.mp4 | Phú Xuân · đầu năm 1792 | tiktok=0-5
-clip: qt8-2.mp4 |  | tiktok=5-10
-clip: qt8-3.mp4 |  | tiktok=5-10
-clip: qt8-4.mp4 |  | tiktok=5-10
-clip: qt8-5.mp4 |  | tiktok=5-10
-clip: qt8-6.mp4 |  | tiktok=5-10
-clip: qt8-7.mp4 |  | tiktok=3-10
+clip: qt8-1.mp4 | Phú Xuân · đầu năm 1792 | tiktok=0-9.7
+clip: qt8-2.mp4 |  | tiktok=bo
+clip: qt8-3.mp4 |  | tiktok=0.2-9.7
+clip: qt8-4.mp4 |  | tiktok=0.2-9.7
+clip: qt8-5.mp4 |  | tiktok=bo
+clip: qt8-6.mp4 |  | tiktok=bo
+clip: qt8-7.mp4 |  | tiktok=2.7-10
 
 sub: 1 | 0.3-2.2 | Khiêng lễ vật. / Đi hỏi vợ cho vua.
 sub: 1 | 2.2-3.4 | Hỏi con gái nhà ai ạ?

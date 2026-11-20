@@ -6,7 +6,7 @@
 | File nguồn | `content/quang-trung/tap-3-canh-dao-ve-phu-xuan-1789.md` (sửa nội dung ở `content/quang-trung/_nguon.py`) |
 | Số clip Muse | 7 (`qt3-1.mp4` … `qt3-7.mp4`) |
 | Bản YouTube | khoảng 68 giây (đủ clip, đã trừ chuyển cảnh) |
-| Bản TikTok | khoảng 35 giây (vẫn đủ mọi cảnh) |
+| Bản TikTok | khoảng 35 giây (rút gọn, bỏ một số clip) |
 | Hook giây đầu | POV: Phi ngựa mấy ngày đêm giữ một cành đào |
 | Nhãn đầu video | AI tái hiện · theo truyền thuyết |
 | Đã đăng | [ ] chưa đăng |
@@ -15,21 +15,21 @@
 
 | Clip | File Muse | Cảnh | Mốc thời gian trên video | Bản TikTok dùng | Nối cảnh |
 |---|---|---|---|---|---|
-| 1 | `qt3-1.mp4` | Cành đào | Thăng Long · Tết 1789 | giây 0–5 | — |
-| 2 | `qt3-2.mp4` | Phi ngựa | — | giây 5–10 | — |
-| 3 | `qt3-3.mp4` | Đổi ngựa | — | giây 5–10 | — |
-| 4 | `qt3-4.mp4` | Gió đèo | Đèo Ngang | giây 5–10 | — |
-| 5 | `qt3-5.mp4` | Mưa | — | giây 5–10 | — |
-| 6 | `qt3-6.mp4` | Đếm bông | — | giây 5–10 | — |
-| 7 | `qt3-7.mp4` | Câu chốt | Phú Xuân | giây 3–10 | — |
+| 1 | `qt3-1.mp4` | Cành đào | Thăng Long · Tết 1789 | giây 0–9.7 | — |
+| 2 | `qt3-2.mp4` | Phi ngựa | — | bỏ | — |
+| 3 | `qt3-3.mp4` | Đổi ngựa | — | giây 0.2–9.7 | — |
+| 4 | `qt3-4.mp4` | Gió đèo | Đèo Ngang | giây 0.2–9.7 | — |
+| 5 | `qt3-5.mp4` | Mưa | — | bỏ | — |
+| 6 | `qt3-6.mp4` | Đếm bông | — | bỏ | — |
+| 7 | `qt3-7.mp4` | Câu chốt | Phú Xuân | giây 2.7–10 | — |
 
 ## 2. Bối cảnh, lịch sử, giọng nhân vật
 
-**Độ dài:** hai video từ cùng 7 clip: **YouTube** khoảng 67 giây và **TikTok** khoảng 35 giây, vẫn đủ 7 cảnh (mỗi clip lấy khoảng 5 giây chứa câu chính, cảnh cuối 7 giây)
+**Độ dài:** hai video từ cùng 7 clip: **YouTube** đủ 7 cảnh (khoảng 67 giây); **TikTok** chọn **4 cảnh chính**, giữ gần trọn từng cảnh (khoảng 35 giây) để không mất câu thoại nào; các cảnh còn lại chỉ có ở bản YouTube
 
 Copy từng khối dán thẳng vào phần mềm. Prompt đã ghép đủ, không cần thay gì.
 
-**Loạt Quang Trung (Q1–Q8):** những sự kiện nổi tiếng còn thiếu, ghép với loạt Tây Sơn từng mốc thành một danh sách phát. Kể theo công thức Anh Tư; Nguyễn Huệ, vua Quang Trung và vua Lê chỉ xuất hiện từ phía sau hoặc từ xa. **Hai video từ cùng 7 clip:** YouTube khoảng 67 giây, TikTok khoảng 35 giây, vẫn đủ 7 cảnh.
+**Loạt Quang Trung (Q1–Q8):** những sự kiện nổi tiếng còn thiếu, ghép với loạt Tây Sơn từng mốc thành một danh sách phát. Kể theo công thức Anh Tư; Nguyễn Huệ, vua Quang Trung và vua Lê chỉ xuất hiện từ phía sau hoặc từ xa. **Hai video từ cùng 7 clip:** YouTube đủ 7 cảnh (khoảng 67 giây); TikTok 4 cảnh chính, giữ gần trọn từng cảnh (khoảng 35 giây).
 
 **Truyền tụng (mức C):** sau chiến thắng Tết Kỷ Dậu 1789, vua Quang Trung sai ngựa trạm đem **một cành đào Thăng Long** về Phú Xuân tặng hoàng hậu, như báo tin thắng trận; đến nơi hoa vẫn còn tươi. Chuyện được kể lại nhiều đời nhưng chưa thấy chính sử chép, nên video gắn nhãn "theo truyền thuyết". **Hư cấu:** Anh Tư và mọi lời thoại. Hoàng hậu không xuất hiện trong khung hình.
 
@@ -48,7 +48,7 @@ Nếu Muse cho chọn hoặc tải **giọng tham chiếu** (voice reference), h
 
 File Muse đặt tên: `qt3-1.mp4`
 
-**Bản TikTok:** chỉ dùng giây 0 đến 5 của clip này.
+**Bản TikTok:** chỉ dùng giây 0 đến 9.7 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -64,7 +64,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 File Muse đặt tên: `qt3-2.mp4`
 
-**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+**Bản TikTok:** bỏ clip này.
 
 **Ảnh khung đầu**
 ```
@@ -80,7 +80,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 File Muse đặt tên: `qt3-3.mp4`
 
-**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+**Bản TikTok:** chỉ dùng giây 0.2 đến 9.7 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -96,7 +96,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 File Muse đặt tên: `qt3-4.mp4`
 
-**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+**Bản TikTok:** chỉ dùng giây 0.2 đến 9.7 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -112,7 +112,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 File Muse đặt tên: `qt3-5.mp4`
 
-**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+**Bản TikTok:** bỏ clip này.
 
 **Ảnh khung đầu**
 ```
@@ -128,7 +128,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 File Muse đặt tên: `qt3-6.mp4`
 
-**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+**Bản TikTok:** bỏ clip này.
 
 **Ảnh khung đầu**
 ```
@@ -144,7 +144,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 File Muse đặt tên: `qt3-7.mp4`
 
-**Bản TikTok:** chỉ dùng giây 3 đến 10 của clip này.
+**Bản TikTok:** chỉ dùng giây 2.7 đến 10 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -165,13 +165,13 @@ end: Follow để xem / loạt Quang Trung / tập tiếp theo →
 nhan: AI tái hiện · theo truyền thuyết
 end_giay: 1.6
 
-clip: qt3-1.mp4 | Thăng Long · Tết 1789 | tiktok=0-5
-clip: qt3-2.mp4 |  | tiktok=5-10
-clip: qt3-3.mp4 |  | tiktok=5-10
-clip: qt3-4.mp4 | Đèo Ngang | tiktok=5-10
-clip: qt3-5.mp4 |  | tiktok=5-10
-clip: qt3-6.mp4 |  | tiktok=5-10
-clip: qt3-7.mp4 | Phú Xuân | tiktok=3-10
+clip: qt3-1.mp4 | Thăng Long · Tết 1789 | tiktok=0-9.7
+clip: qt3-2.mp4 |  | tiktok=bo
+clip: qt3-3.mp4 |  | tiktok=0.2-9.7
+clip: qt3-4.mp4 | Đèo Ngang | tiktok=0.2-9.7
+clip: qt3-5.mp4 |  | tiktok=bo
+clip: qt3-6.mp4 |  | tiktok=bo
+clip: qt3-7.mp4 | Phú Xuân | tiktok=2.7-10
 
 sub: 1 | 0.3-2.2 | Đưa về Phú Xuân. / Không rụng một bông.
 sub: 1 | 2.2-3.4 | Xa cả nghìn dặm mà ạ?

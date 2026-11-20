@@ -6,7 +6,7 @@
 | File nguồn | `content/quang-trung/tap-2-dat-nao-sao-ay-nghe-an-1788.md` (sửa nội dung ở `content/quang-trung/_nguon.py`) |
 | Số clip Muse | 7 (`qt2-1.mp4` … `qt2-7.mp4`) |
 | Bản YouTube | khoảng 68 giây (đủ clip, đã trừ chuyển cảnh) |
-| Bản TikTok | khoảng 35 giây (vẫn đủ mọi cảnh) |
+| Bản TikTok | khoảng 35 giây (rút gọn, bỏ một số clip) |
 | Hook giây đầu | POV: Đang cày ruộng bị gọi đi lính |
 | Nhãn đầu video | AI tái hiện · lời thoại hư cấu |
 | Đã đăng | [ ] chưa đăng |
@@ -15,21 +15,21 @@
 
 | Clip | File Muse | Cảnh | Mốc thời gian trên video | Bản TikTok dùng | Nối cảnh |
 |---|---|---|---|---|---|
-| 1 | `qt2-1.mp4` | Đến lượt | Nghệ An · cuối năm 1788 | giây 0–5 | — |
-| 2 | `qt2-2.mp4` | Cầm ngược | — | giây 5–10 | — |
-| 3 | `qt2-3.mp4` | Mười ngày | — | giây 5–10 | — |
-| 4 | `qt2-4.mp4` | Im phăng phắc | — | giây 5–10 | — |
-| 5 | `qt2-5.mp4` | Lời dụ | Vua Quang Trung | giây 5–10 | — |
-| 6 | `qt2-6.mp4` | Đất nhà mình | — | giây 5–10 | — |
-| 7 | `qt2-7.mp4` | Câu chốt | — | giây 3–10 | — |
+| 1 | `qt2-1.mp4` | Đến lượt | Nghệ An · cuối năm 1788 | giây 0–9.7 | — |
+| 2 | `qt2-2.mp4` | Cầm ngược | — | giây 0.2–9.7 | — |
+| 3 | `qt2-3.mp4` | Mười ngày | — | bỏ | — |
+| 4 | `qt2-4.mp4` | Im phăng phắc | — | bỏ | — |
+| 5 | `qt2-5.mp4` | Lời dụ | Vua Quang Trung | giây 0.2–9.7 | — |
+| 6 | `qt2-6.mp4` | Đất nhà mình | — | bỏ | — |
+| 7 | `qt2-7.mp4` | Câu chốt | — | giây 2.7–10 | — |
 
 ## 2. Bối cảnh, lịch sử, giọng nhân vật
 
-**Độ dài:** hai video từ cùng 7 clip: **YouTube** khoảng 67 giây và **TikTok** khoảng 35 giây, vẫn đủ 7 cảnh (mỗi clip lấy khoảng 5 giây chứa câu chính, cảnh cuối 7 giây)
+**Độ dài:** hai video từ cùng 7 clip: **YouTube** đủ 7 cảnh (khoảng 67 giây); **TikTok** chọn **4 cảnh chính**, giữ gần trọn từng cảnh (khoảng 35 giây) để không mất câu thoại nào; các cảnh còn lại chỉ có ở bản YouTube
 
 Copy từng khối dán thẳng vào phần mềm. Prompt đã ghép đủ, không cần thay gì.
 
-**Loạt Quang Trung (Q1–Q8):** những sự kiện nổi tiếng còn thiếu, ghép với loạt Tây Sơn từng mốc thành một danh sách phát. Kể theo công thức Anh Tư; Nguyễn Huệ, vua Quang Trung và vua Lê chỉ xuất hiện từ phía sau hoặc từ xa. **Hai video từ cùng 7 clip:** YouTube khoảng 67 giây, TikTok khoảng 35 giây, vẫn đủ 7 cảnh.
+**Loạt Quang Trung (Q1–Q8):** những sự kiện nổi tiếng còn thiếu, ghép với loạt Tây Sơn từng mốc thành một danh sách phát. Kể theo công thức Anh Tư; Nguyễn Huệ, vua Quang Trung và vua Lê chỉ xuất hiện từ phía sau hoặc từ xa. **Hai video từ cùng 7 clip:** YouTube đủ 7 cảnh (khoảng 67 giây); TikTok 4 cảnh chính, giữ gần trọn từng cảnh (khoảng 35 giây).
 
 **Lịch sử:** cuối năm 1788, trên đường ra Bắc đánh quân Thanh, vua Quang Trung dừng ở Nghệ An hơn mười ngày để **tuyển thêm quân**, cứ ba suất đinh lấy một người, rồi cưỡi voi ra doanh dụ quân sĩ: **"Trong khoảng vũ trụ, đất nào sao ấy, đều đã phân biệt rõ ràng, phương Nam phương Bắc chia nhau mà cai trị..."** Quân sĩ đồng thanh: "Xin vâng lệnh, không dám hai lòng!" (*Hoàng Lê nhất thống chí*, hồi 14, mức B). Câu "Đánh cho để dài tóc..." là truyền tụng, có tập riêng (tập 9). **Hư cấu:** Anh Tư, ông lý trưởng và mọi lời thoại, trừ lời dụ và câu đáp của quân sĩ. Chỉ đọc lời, không dựng cảnh đánh nhau.
 
@@ -50,7 +50,7 @@ Nếu Muse cho chọn hoặc tải **giọng tham chiếu** (voice reference), h
 
 File Muse đặt tên: `qt2-1.mp4`
 
-**Bản TikTok:** chỉ dùng giây 0 đến 5 của clip này.
+**Bản TikTok:** chỉ dùng giây 0 đến 9.7 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -66,7 +66,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 File Muse đặt tên: `qt2-2.mp4`
 
-**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+**Bản TikTok:** chỉ dùng giây 0.2 đến 9.7 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -82,7 +82,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 File Muse đặt tên: `qt2-3.mp4`
 
-**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+**Bản TikTok:** bỏ clip này.
 
 **Ảnh khung đầu**
 ```
@@ -98,7 +98,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 File Muse đặt tên: `qt2-4.mp4`
 
-**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+**Bản TikTok:** bỏ clip này.
 
 **Ảnh khung đầu**
 ```
@@ -114,7 +114,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 File Muse đặt tên: `qt2-5.mp4`
 
-**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+**Bản TikTok:** chỉ dùng giây 0.2 đến 9.7 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -130,7 +130,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 File Muse đặt tên: `qt2-6.mp4`
 
-**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+**Bản TikTok:** bỏ clip này.
 
 **Ảnh khung đầu**
 ```
@@ -146,7 +146,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 File Muse đặt tên: `qt2-7.mp4`
 
-**Bản TikTok:** chỉ dùng giây 3 đến 10 của clip này.
+**Bản TikTok:** chỉ dùng giây 2.7 đến 10 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -167,13 +167,13 @@ end: Follow để xem / loạt Quang Trung / tập tiếp theo →
 nhan: AI tái hiện · lời thoại hư cấu
 end_giay: 1.6
 
-clip: qt2-1.mp4 | Nghệ An · cuối năm 1788 | tiktok=0-5
-clip: qt2-2.mp4 |  | tiktok=5-10
-clip: qt2-3.mp4 |  | tiktok=5-10
-clip: qt2-4.mp4 |  | tiktok=5-10
-clip: qt2-5.mp4 | Vua Quang Trung | tiktok=5-10
-clip: qt2-6.mp4 |  | tiktok=5-10
-clip: qt2-7.mp4 |  | tiktok=3-10
+clip: qt2-1.mp4 | Nghệ An · cuối năm 1788 | tiktok=0-9.7
+clip: qt2-2.mp4 |  | tiktok=0.2-9.7
+clip: qt2-3.mp4 |  | tiktok=bo
+clip: qt2-4.mp4 |  | tiktok=bo
+clip: qt2-5.mp4 | Vua Quang Trung | tiktok=0.2-9.7
+clip: qt2-6.mp4 |  | tiktok=bo
+clip: qt2-7.mp4 |  | tiktok=2.7-10
 
 sub: 1 | 0.3-2.2 | Ba suất đinh lấy một. / Nhà mày đến lượt.
 sub: 1 | 2.2-3.4 | Đang cày dở mà ông?

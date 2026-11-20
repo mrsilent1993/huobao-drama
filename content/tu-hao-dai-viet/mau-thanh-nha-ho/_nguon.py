@@ -244,6 +244,11 @@ for _ep in EPISODES:
         if _c.get("setting"):
             _c["setting"] = _c["setting"] + " " + ACTING
 
+TIKTOK_CANH = {'th1397a': [1, 2, 4, 7], 'th1397b': [1, 4, 5, 7], 'th1397c': [1, 2, 5, 7]}
+for _ep in EPISODES:
+    if _ep["prefix"] in TIKTOK_CANH:
+        _ep["tiktok_canh"] = TIKTOK_CANH[_ep["prefix"]]
+
 
 if __name__ == "__main__":
     build(EPISODES, HERE, series_tag="#tuhaodaiviet #anhtu", note=NOTE, unit="Mẫu", file_unit="mau")

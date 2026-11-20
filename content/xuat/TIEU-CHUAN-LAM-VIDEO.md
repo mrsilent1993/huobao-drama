@@ -50,15 +50,18 @@ Gốc từ video Bạch Đằng 938 "Cắm cọc cả buổi sáng" (1,7 triệu
 
 | Loại | Số clip Muse (10 giây/clip) | Bản YouTube | Bản TikTok |
 |---|---|---|---|
-| **Tập chuẩn (mới)** | **7** | **khoảng 67 giây** (60–70) | **khoảng 33–35 giây** (30–35), **vẫn đủ 7 cảnh** |
-| Tập ít cảnh, cảnh dài hơi | 6, có cảnh dài hơn 10 giây nếu Muse cho | 60–70 giây | 30–35 giây, đủ 6 cảnh |
+| **Tập chuẩn (mới)** | **7** | **đủ 7 cảnh, khoảng 67 giây** (60–70) | **4 cảnh chính, giữ gần trọn từng cảnh, khoảng 35 giây** (30–35) |
+| Tập ít cảnh, cảnh dài hơi | 6, có cảnh dài hơn 10 giây nếu Muse cho | 60–70 giây | 4 cảnh chính, 30–35 giây |
 | Trận đánh dài (YouTube) + trailer (TikTok) | 18 + 3 | 3 phút (tự cắt còn 2:59,5 nếu cần) | trailer 30 giây, dẫn sang YouTube |
 | Video giới thiệu loạt | 4, quay kiểu trailer | một bản dùng chung, khoảng 39 giây | |
 
-- **Cách đạt độ dài mới với 7 clip:** YouTube dùng đủ 7 clip (70 giây trừ 6 lần chuyển cảnh 0,4 giây = 67,6 giây). TikTok cắt **mọi clip** còn khoảng 5 giây; riêng cảnh có câu đáng gửi bạn bè được lấy dài hơn, ví dụ `tiktok=3-10` (7 giây), để giữ cả câu dẫn lẫn câu chốt. Ví dụ: 6 clip × 5 giây + 1 clip × 7 giây − 2,4 giây chuyển cảnh = 34,6 giây.
+- **Từ 20/11/2026 (anh duyệt): YouTube kể đủ mọi cảnh, TikTok kể ít cảnh hơn nhưng trọn vẹn** (kiểu "YouTube nội dung 1–8, TikTok nội dung 1–4"). Lý do: cắt mọi cảnh còn 5 giây làm mất khoảng 1/4 câu thoại (84/353 câu) và chuyển cảnh quá nhanh.
+  - **YouTube:** đủ 7 clip (70 giây trừ 6 lần chuyển cảnh 0,4 giây = 67,6 giây). Muốn 8 cảnh thì khoảng 77 giây, vượt mốc 70 giây, chỉ làm khi anh duyệt.
+  - **TikTok:** chọn **4 cảnh chính** bằng khóa `tiktok_canh=[...]` (thường: cảnh mở đầu, cảnh dẫn, cảnh có câu đáng gửi bạn bè, cảnh chốt). Công cụ tự cắt mỗi cảnh giữ gần trọn (từ 0,2 giây đến hết phụ đề cuối + 0,2 giây; cảnh cuối từ phụ đề đầu − 0,3 giây đến hết), cảnh khác bỏ ở TikTok. Ví dụ 9,7 + 9,5 + 9,5 + 7,3 − 1,2 = 34,8 giây.
+  - **4 cảnh TikTok phải tự kể được câu chuyện:** đọc riêng 4 cảnh đó vẫn hiểu việc vô lý, cú lật và câu chốt.
 - **Đoạn cắt linh động:** `tiktok=a-b` nhận mọi khoảng (ví dụ `2-7`, `4-10`), không chỉ `0-5`/`5-10`. Chọn sao cho câu chính nằm trọn trong khoảng cắt.
 - **Kiểm tự động:** tập mới đặt `muc=MUC_MOI` (trong `tools/series.py`); khi chạy `_nguon.py` sẽ in thời lượng ước tính của từng bản và cảnh báo `⚠ NGOÀI KHOẢNG` nếu lệch.
-- **Bản ngắn KHÔNG bỏ cảnh nào.**
+- **Không cảnh nào trong 4 cảnh TikTok bị mất câu thoại** (kiểm bằng cách so phụ đề với khoảng cắt).
 - **Kỹ thuật:** 1080x1920, 30 khung/giây, H.264 + AAC, âm lượng -14 LUFS.
 - **Dựng bằng** `tools/tiktok.py`. Chỉ thử bằng clip giả rồi xóa ngay; **không bao giờ dùng clip Thermostat cũ**.
 
@@ -66,7 +69,7 @@ Gốc từ video Bạch Đằng 938 "Cắm cọc cả buổi sáng" (1,7 triệu
 
 - **0–5 giây:** hành động cận cảnh và câu lệnh (hoặc câu dẫn).
 - **5–10 giây:** phản ứng và câu chốt.
-- **Câu chính của bản ngắn** phải nằm gọn trong khoảng cắt TikTok của clip đó (thường 5 giây; cảnh câu đáng gửi bạn bè tới 7 giây), để cắt ra vẫn đủ nghĩa.
+- **Cảnh nào cũng phải hiểu được khi xem riêng**, vì bản TikTok chỉ lấy 4 cảnh.
 
 ---
 

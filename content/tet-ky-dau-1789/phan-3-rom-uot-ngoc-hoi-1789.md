@@ -1,12 +1,12 @@
 # Phần 3: Phần 3/3 · Tết rét căm căm bị sai nhúng rơm vào nước, sáng ra mới biết để làm gì (Ngọc Hồi, mùng 5 Tết 1789)
 
-**Độ dài:** hai video từ cùng 7 clip: **YouTube** khoảng 67 giây và **TikTok** khoảng 35 giây, vẫn đủ 7 cảnh (mỗi clip lấy khoảng 5 giây chứa câu chính, cảnh cuối 7 giây)
+**Độ dài:** hai video từ cùng 7 clip: **YouTube** đủ 7 cảnh (khoảng 67 giây); **TikTok** chọn **4 cảnh chính**, giữ gần trọn từng cảnh (khoảng 35 giây) để không mất câu thoại nào; các cảnh còn lại chỉ có ở bản YouTube
 
-**Hai bản từ cùng một bộ clip:** YouTube Shorts 70 giây (đủ clip) · TikTok 37 giây (rút gọn theo ghi chú "Bản TikTok" ở từng clip).
+**Hai bản từ cùng một bộ clip:** YouTube Shorts 70 giây (đủ clip) · TikTok 36 giây (rút gọn theo ghi chú "Bản TikTok" ở từng clip).
 
 Copy từng khối dán thẳng vào phần mềm. Prompt đã ghép đủ, không cần thay gì.
 
-**Tết Kỷ Dậu 1789 (3 phần):** ba chuyện truyền tụng về Tết năm ấy, kể theo công thức Anh Tư, nối với loạt Tây Sơn từng mốc. Vua Quang Trung chỉ xuất hiện từ phía sau hoặc từ xa; quân Thanh chỉ là bối cảnh, không cảnh chết. **Hai video từ cùng 7 clip:** YouTube khoảng 67 giây, TikTok khoảng 35 giây, vẫn đủ 7 cảnh.
+**Tết Kỷ Dậu 1789 (3 phần):** ba chuyện truyền tụng về Tết năm ấy, kể theo công thức Anh Tư, nối với loạt Tây Sơn từng mốc. Vua Quang Trung chỉ xuất hiện từ phía sau hoặc từ xa; quân Thanh chỉ là bối cảnh, không cảnh chết. **Hai video từ cùng 7 clip:** YouTube đủ 7 cảnh (khoảng 67 giây); TikTok 4 cảnh chính, giữ gần trọn từng cảnh (khoảng 35 giây).
 
 **Lịch sử:** sáng mùng 5 Tết Kỷ Dậu (30/1/1789), quân Tây Sơn đánh đồn Ngọc Hồi (Thanh Trì, Hà Nội). Theo *Hoàng Lê nhất thống chí* (hồi 14, mức B/C): vua Quang Trung truyền **lấy sáu chục tấm ván, cứ ghép liền ba tấm làm một bức, bên ngoài lấy rơm dấp nước phủ kín, tất cả là hai mươi bức**; kén lính khỏe, **cứ mười người khênh một bức, lưng giắt dao ngắn, hai mươi người khác cầm binh khí theo sau**, dàn thành **trận chữ "nhất"** (hàng ngang); **vua cưỡi voi đi đốc thúc**. Quân Thanh nổ súng bắn ra, không trúng ai; chúng dùng ống phun khói lửa, nhưng gió đổi chiều thổi ngược về phía đồn, "quân Thanh lại tự làm hại mình". Đồn vỡ, quân Thanh tan chạy; **trưa mùng 5 Tết, vua Quang Trung vào Thăng Long**, sớm hơn lời hẹn mùng 7. **Hư cấu:** Anh Tư, người đồng đội và mọi lời thoại. Không dựng cảnh chết: chỉ dựng đạn cắm vào tấm rơm ướt, khói bay ngược và quân Thanh bỏ chạy.
 
@@ -24,7 +24,7 @@ Nếu Muse cho chọn hoặc tải **giọng tham chiếu** (voice reference), h
 ## Clip 1: Nhúng rơm
 File Muse đặt tên: `tkd3-1.mp4`
 
-**Bản TikTok:** chỉ dùng giây 0 đến 5 của clip này.
+**Bản TikTok:** chỉ dùng giây 0 đến 9.7 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -39,7 +39,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 ## Clip 2: Mười người một bức
 File Muse đặt tên: `tkd3-2.mp4`
 
-**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+**Bản TikTok:** chỉ dùng giây 0.2 đến 9.7 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -54,7 +54,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 ## Clip 3: Trận chữ nhất
 File Muse đặt tên: `tkd3-3.mp4`
 
-**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+**Bản TikTok:** bỏ clip này.
 
 **Ảnh khung đầu**
 ```
@@ -69,7 +69,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 ## Clip 4: Súng bắn
 File Muse đặt tên: `tkd3-4.mp4`
 
-**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+**Bản TikTok:** chỉ dùng giây 0.2 đến 9.7 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -84,7 +84,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 ## Clip 5: Gió đổi chiều
 File Muse đặt tên: `tkd3-5.mp4`
 
-**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+**Bản TikTok:** bỏ clip này.
 
 **Ảnh khung đầu**
 ```
@@ -99,7 +99,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 ## Clip 6: Vua cưỡi voi
 File Muse đặt tên: `tkd3-6.mp4`
 
-**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+**Bản TikTok:** bỏ clip này.
 
 **Ảnh khung đầu**
 ```
@@ -114,7 +114,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 ## Clip 7: Câu chốt
 File Muse đặt tên: `tkd3-7.mp4`
 
-**Bản TikTok:** chỉ dùng giây 3 đến 10 của clip này.
+**Bản TikTok:** chỉ dùng giây 2.7 đến 10 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -194,13 +194,13 @@ end: Follow để xem / Tây Sơn từng mốc / tập tiếp theo →
 nhan: AI tái hiện · lời thoại hư cấu
 end_giay: 1.6
 
-clip: tkd3-1.mp4 | Ngọc Hồi · mùng 5 Tết 1789 | tiktok=0-5
-clip: tkd3-2.mp4 |  | tiktok=5-10
-clip: tkd3-3.mp4 |  | tiktok=5-10
-clip: tkd3-4.mp4 |  | tiktok=5-10
-clip: tkd3-5.mp4 |  | tiktok=5-10
-clip: tkd3-6.mp4 |  | tiktok=5-10
-clip: tkd3-7.mp4 |  | tiktok=3-10
+clip: tkd3-1.mp4 | Ngọc Hồi · mùng 5 Tết 1789 | tiktok=0-9.7
+clip: tkd3-2.mp4 |  | tiktok=0.2-9.7
+clip: tkd3-3.mp4 |  | tiktok=bo
+clip: tkd3-4.mp4 |  | tiktok=0.2-9.7
+clip: tkd3-5.mp4 |  | tiktok=bo
+clip: tkd3-6.mp4 |  | tiktok=bo
+clip: tkd3-7.mp4 |  | tiktok=2.7-10
 
 sub: 1 | 0.3-2.4 | Ba tấm ván ghép một bức. / Phủ rơm dấp nước.
 sub: 1 | 2.4-3.4 | Rét thế này... / nhúng nước ạ?

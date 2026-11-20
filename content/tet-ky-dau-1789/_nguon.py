@@ -16,9 +16,8 @@ ARMY = ("Tây Sơn soldiers with black-lacquered teeth in dark-red uniforms with
 KING = "the emperor Quang Trung, seen ONLY from behind or far away, a broad-shouldered figure in a dark battle robe"
 NOTE = ("**Tết Kỷ Dậu 1789 (3 phần):** ba chuyện truyền tụng về Tết năm ấy, kể theo công thức Anh Tư, nối với loạt Tây Sơn "
         "từng mốc. Vua Quang Trung chỉ xuất hiện từ phía sau hoặc từ xa; quân Thanh chỉ là bối cảnh, không cảnh chết. "
-        "**Hai video từ cùng 7 clip:** YouTube khoảng 67 giây, TikTok khoảng 35 giây, vẫn đủ 7 cảnh.")
-LEN = ("hai video từ cùng 7 clip: **YouTube** khoảng 67 giây và **TikTok** khoảng 35 giây, vẫn đủ 7 cảnh (mỗi clip lấy "
-       "khoảng 5 giây chứa câu chính, cảnh cuối 7 giây)")
+        "**Hai video từ cùng 7 clip:** YouTube đủ 7 cảnh (khoảng 67 giây); TikTok 4 cảnh chính, giữ gần trọn từng cảnh (khoảng 35 giây).")
+LEN = ("hai video từ cùng 7 clip: **YouTube** đủ 7 cảnh (khoảng 67 giây); **TikTok** chọn **4 cảnh chính**, giữ gần trọn từng cảnh (khoảng 35 giây) để không mất câu thoại nào; các cảnh còn lại chỉ có ở bản YouTube")
 COMMON = dict(length=LEN, muc=MUC_MOI, giong=GIONG, end_secs=1.6, visual=QING_VIS)
 YT_BASE = ("quang trung, tết kỷ dậu 1789, tây sơn, ngọc hồi đống đa, đại phá quân thanh, tây sơn từng mốc, lịch sử việt "
            "nam, pov lịch sử, anh tư, đại việt, shorts")
@@ -269,6 +268,11 @@ for _ep in EPISODES:
     for _c in _ep["clips"]:
         if _c.get("setting"):
             _c["setting"] = _c["setting"] + " " + ACTING
+
+TIKTOK_CANH = {'tkd1': [1, 3, 4, 7], 'tkd2': [1, 3, 4, 7], 'tkd3': [1, 2, 4, 7]}
+for _ep in EPISODES:
+    if _ep["prefix"] in TIKTOK_CANH:
+        _ep["tiktok_canh"] = TIKTOK_CANH[_ep["prefix"]]
 
 
 if __name__ == "__main__":

@@ -4,13 +4,13 @@ end: Follow để xem / Tự hào Đại Việt / tập tiếp theo →
 nhan: AI tái hiện · lời thoại hư cấu
 end_giay: 1.6
 
-clip: th1397b-1.mp4 | Ngày 1 · An Tôn, 1397 | tiktok=0-5
-clip: th1397b-2.mp4 | Ngày 5 | tiktok=5-10
-clip: th1397b-3.mp4 | Ngày 20 | tiktok=5-10
-clip: th1397b-4.mp4 | Ngày 45 | tiktok=5-10
-clip: th1397b-5.mp4 | Ngày 70 | tiktok=5-10
-clip: th1397b-6.mp4 | Ngày 89 | tiktok=5-10
-clip: th1397b-7.mp4 | Ngày 90 | tiktok=3-10
+clip: th1397b-1.mp4 | Ngày 1 · An Tôn, 1397 | tiktok=0-9.7
+clip: th1397b-2.mp4 | Ngày 5 | tiktok=bo
+clip: th1397b-3.mp4 | Ngày 20 | tiktok=bo
+clip: th1397b-4.mp4 | Ngày 45 | tiktok=0.2-9.7
+clip: th1397b-5.mp4 | Ngày 70 | tiktok=0.2-9.7
+clip: th1397b-6.mp4 | Ngày 89 | tiktok=bo
+clip: th1397b-7.mp4 | Ngày 90 | tiktok=2.7-10
 
 sub: 1 | 0.3-2.4 | Chín mươi ngày. / Xong cả tòa thành.
 sub: 1 | 2.4-3.4 | Chín mươi... ngày ạ?

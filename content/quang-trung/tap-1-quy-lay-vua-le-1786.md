@@ -1,12 +1,12 @@
 # Tập 1: Q1 · Trải chiếu cho ông tướng vừa thắng cả Bắc Hà, hóa ra để ông… quỳ lạy (phù Lê, 1786)
 
-**Độ dài:** hai video từ cùng 7 clip: **YouTube** khoảng 67 giây và **TikTok** khoảng 35 giây, vẫn đủ 7 cảnh (mỗi clip lấy khoảng 5 giây chứa câu chính, cảnh cuối 7 giây)
+**Độ dài:** hai video từ cùng 7 clip: **YouTube** đủ 7 cảnh (khoảng 67 giây); **TikTok** chọn **4 cảnh chính**, giữ gần trọn từng cảnh (khoảng 35 giây) để không mất câu thoại nào; các cảnh còn lại chỉ có ở bản YouTube
 
-**Hai bản từ cùng một bộ clip:** YouTube Shorts 70 giây (đủ clip) · TikTok 37 giây (rút gọn theo ghi chú "Bản TikTok" ở từng clip).
+**Hai bản từ cùng một bộ clip:** YouTube Shorts 70 giây (đủ clip) · TikTok 36 giây (rút gọn theo ghi chú "Bản TikTok" ở từng clip).
 
 Copy từng khối dán thẳng vào phần mềm. Prompt đã ghép đủ, không cần thay gì.
 
-**Loạt Quang Trung (Q1–Q8):** những sự kiện nổi tiếng còn thiếu, ghép với loạt Tây Sơn từng mốc thành một danh sách phát. Kể theo công thức Anh Tư; Nguyễn Huệ, vua Quang Trung và vua Lê chỉ xuất hiện từ phía sau hoặc từ xa. **Hai video từ cùng 7 clip:** YouTube khoảng 67 giây, TikTok khoảng 35 giây, vẫn đủ 7 cảnh.
+**Loạt Quang Trung (Q1–Q8):** những sự kiện nổi tiếng còn thiếu, ghép với loạt Tây Sơn từng mốc thành một danh sách phát. Kể theo công thức Anh Tư; Nguyễn Huệ, vua Quang Trung và vua Lê chỉ xuất hiện từ phía sau hoặc từ xa. **Hai video từ cùng 7 clip:** YouTube đủ 7 cảnh (khoảng 67 giây); TikTok 4 cảnh chính, giữ gần trọn từng cảnh (khoảng 35 giây).
 
 **Lịch sử:** giữa năm 1786, Nguyễn Huệ đem quân ra Bắc, lật đổ họ Trịnh đã lấn quyền vua Lê hơn 200 năm, với danh nghĩa **"phù Lê diệt Trịnh"**. Vào Thăng Long, ông vào triều **ra mắt vua Lê Hiển Tông** (khi ấy đã già yếu), được vua phong Nguyên súy, Uy quốc công (sử nhà Nguyễn, *Hoàng Lê nhất thống chí*, mức B). **Hư cấu:** Anh Tư trải chiếu, người dân xì xào và mọi lời thoại. Không dựng cảnh chiến trận.
 
@@ -24,7 +24,7 @@ Nếu Muse cho chọn hoặc tải **giọng tham chiếu** (voice reference), h
 ## Clip 1: Cuộn chiếu
 File Muse đặt tên: `qt1-1.mp4`
 
-**Bản TikTok:** chỉ dùng giây 0 đến 5 của clip này.
+**Bản TikTok:** chỉ dùng giây 0 đến 9.7 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -39,7 +39,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 ## Clip 2: Phủ chúa trống
 File Muse đặt tên: `qt1-2.mp4`
 
-**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+**Bản TikTok:** bỏ clip này.
 
 **Ảnh khung đầu**
 ```
@@ -54,7 +54,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 ## Clip 3: Dân xì xào
 File Muse đặt tên: `qt1-3.mp4`
 
-**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+**Bản TikTok:** chỉ dùng giây 0.2 đến 9.7 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -69,7 +69,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 ## Clip 4: Quỳ lạy
 File Muse đặt tên: `qt1-4.mp4`
 
-**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+**Bản TikTok:** chỉ dùng giây 0.2 đến 9.7 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -84,7 +84,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 ## Clip 5: Vua già
 File Muse đặt tên: `qt1-5.mp4`
 
-**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+**Bản TikTok:** bỏ clip này.
 
 **Ảnh khung đầu**
 ```
@@ -99,7 +99,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 ## Clip 6: Dân reo
 File Muse đặt tên: `qt1-6.mp4`
 
-**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+**Bản TikTok:** bỏ clip này.
 
 **Ảnh khung đầu**
 ```
@@ -114,7 +114,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 ## Clip 7: Câu chốt
 File Muse đặt tên: `qt1-7.mp4`
 
-**Bản TikTok:** chỉ dùng giây 3 đến 10 của clip này.
+**Bản TikTok:** chỉ dùng giây 2.7 đến 10 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -194,13 +194,13 @@ end: Follow để xem / loạt Quang Trung / tập tiếp theo →
 nhan: AI tái hiện · lời thoại hư cấu
 end_giay: 1.6
 
-clip: qt1-1.mp4 | Thăng Long · 1786 | tiktok=0-5
-clip: qt1-2.mp4 |  | tiktok=5-10
-clip: qt1-3.mp4 |  | tiktok=5-10
-clip: qt1-4.mp4 | Điện Kính Thiên | tiktok=5-10
-clip: qt1-5.mp4 |  | tiktok=5-10
-clip: qt1-6.mp4 |  | tiktok=5-10
-clip: qt1-7.mp4 |  | tiktok=3-10
+clip: qt1-1.mp4 | Thăng Long · 1786 | tiktok=0-9.7
+clip: qt1-2.mp4 |  | tiktok=bo
+clip: qt1-3.mp4 |  | tiktok=0.2-9.7
+clip: qt1-4.mp4 | Điện Kính Thiên | tiktok=0.2-9.7
+clip: qt1-5.mp4 |  | tiktok=bo
+clip: qt1-6.mp4 |  | tiktok=bo
+clip: qt1-7.mp4 |  | tiktok=2.7-10
 
 sub: 1 | 0.3-2.2 | Vào điện trải chiếu. / Trải cho phẳng.
 sub: 1 | 2.2-3.4 | Để ông Tướng ngồi ạ?

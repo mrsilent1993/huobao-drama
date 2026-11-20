@@ -4,13 +4,13 @@ end: Follow để xem / Tự hào Đại Việt / tập tiếp theo →
 nhan: AI tái hiện · lời thoại hư cấu
 end_giay: 1.6
 
-clip: th1397a-1.mp4 | An Tôn, Thanh Hóa · 1397 | tiktok=0-5
-clip: th1397a-2.mp4 |  | tiktok=5-10
-clip: th1397a-3.mp4 |  | tiktok=5-10
-clip: th1397a-4.mp4 |  | tiktok=5-10
-clip: th1397a-5.mp4 |  | tiktok=5-10
-clip: th1397a-6.mp4 |  | tiktok=5-10
-clip: th1397a-7.mp4 |  | tiktok=3-10 | chuyen=fade:0.4
+clip: th1397a-1.mp4 | An Tôn, Thanh Hóa · 1397 | tiktok=0-9.7
+clip: th1397a-2.mp4 |  | tiktok=0.2-9.7
+clip: th1397a-3.mp4 |  | tiktok=bo
+clip: th1397a-4.mp4 |  | tiktok=0.2-9.7
+clip: th1397a-5.mp4 |  | tiktok=bo
+clip: th1397a-6.mp4 |  | tiktok=bo
+clip: th1397a-7.mp4 |  | tiktok=2.7-10 | chuyen=fade:0.4
 
 sub: 1 | 0.3-2.4 | Khiêng đá. / Xếp thành tường.
 sub: 1 | 2.4-3.4 | Vữa đâu ạ?

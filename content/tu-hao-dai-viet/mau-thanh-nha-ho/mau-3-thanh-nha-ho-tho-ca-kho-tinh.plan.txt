@@ -4,13 +4,13 @@ end: Follow để xem / Tự hào Đại Việt / tập tiếp theo →
 nhan: AI tái hiện · lời thoại hư cấu
 end_giay: 1.6
 
-clip: th1397c-1.mp4 | An Tôn, Thanh Hóa · 1397 | tiktok=0-5
-clip: th1397c-2.mp4 |  | tiktok=5-10
-clip: th1397c-3.mp4 |  | tiktok=5-10
-clip: th1397c-4.mp4 |  | tiktok=5-10
-clip: th1397c-5.mp4 |  | tiktok=5-10
-clip: th1397c-6.mp4 |  | tiktok=5-10
-clip: th1397c-7.mp4 |  | tiktok=3-10
+clip: th1397c-1.mp4 | An Tôn, Thanh Hóa · 1397 | tiktok=0-5.1
+clip: th1397c-2.mp4 |  | tiktok=0.2-9.7
+clip: th1397c-3.mp4 |  | tiktok=bo
+clip: th1397c-4.mp4 |  | tiktok=bo
+clip: th1397c-5.mp4 |  | tiktok=0.2-9.7
+clip: th1397c-6.mp4 |  | tiktok=bo
+clip: th1397c-7.mp4 |  | tiktok=2.7-10
 
 sub: 1 | 0.3-2.6 | Khe nào lọt sợi tóc này / là dỡ ra xếp lại.
 sub: 1 | 2.6-3.4 | Không có vữa ạ?

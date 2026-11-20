@@ -4,13 +4,13 @@ end: Follow để xem / loạt Quang Trung / tập tiếp theo →
 nhan: AI tái hiện · có chi tiết truyền tụng
 end_giay: 1.6
 
-clip: qt10-1.mp4 | An Thái · trước năm 1771 | tiktok=0-5
-clip: qt10-2.mp4 |  | tiktok=5-10
-clip: qt10-3.mp4 |  | tiktok=5-10
-clip: qt10-4.mp4 |  | tiktok=5-10
-clip: qt10-5.mp4 |  | tiktok=5-10
-clip: qt10-6.mp4 |  | tiktok=5-10
-clip: qt10-7.mp4 |  | tiktok=3-10
+clip: qt10-1.mp4 | An Thái · trước năm 1771 | tiktok=0-9.7
+clip: qt10-2.mp4 |  | tiktok=bo
+clip: qt10-3.mp4 |  | tiktok=0.2-9.7
+clip: qt10-4.mp4 |  | tiktok=bo
+clip: qt10-5.mp4 |  | tiktok=0.2-9.7
+clip: qt10-6.mp4 |  | tiktok=bo
+clip: qt10-7.mp4 |  | tiktok=2.7-10
 
 sub: 1 | 0.3-2.2 | Sáng gánh nước. / Chiều cầm gậy.
 sub: 1 | 2.2-3.4 | Em học chữ / hay học võ ạ?

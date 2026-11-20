@@ -4,13 +4,13 @@ end: Follow để xem / loạt Quang Trung / tập tiếp theo →
 nhan: AI tái hiện · lời thoại hư cấu
 end_giay: 1.6
 
-clip: qt13-1.mp4 | Xưởng đúc tiền · thời Quang Trung | tiktok=0-5
-clip: qt13-2.mp4 |  | tiktok=5-10
-clip: qt13-3.mp4 |  | tiktok=5-10
-clip: qt13-4.mp4 |  | tiktok=5-10
-clip: qt13-5.mp4 |  | tiktok=5-10
-clip: qt13-6.mp4 |  | tiktok=5-10
-clip: qt13-7.mp4 |  | tiktok=3-10
+clip: qt13-1.mp4 | Xưởng đúc tiền · thời Quang Trung | tiktok=0-9.7
+clip: qt13-2.mp4 |  | tiktok=bo
+clip: qt13-3.mp4 |  | tiktok=0.2-9.7
+clip: qt13-4.mp4 |  | tiktok=bo
+clip: qt13-5.mp4 |  | tiktok=0.2-9.7
+clip: qt13-6.mp4 |  | tiktok=bo
+clip: qt13-7.mp4 |  | tiktok=2.7-10
 
 sub: 1 | 0.3-2.2 | Đúc tiền mới. / Đồng nào cũng có tên vua.
 sub: 1 | 2.2-3.4 | Nhỏ thế này / khắc sao ạ?

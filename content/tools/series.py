@@ -116,6 +116,19 @@ def thoi_luong(clips, ban):
 def build(episodes, here, series_tag="", note="", unit="Phần", file_unit="phan"):
     lines = []
     for n, ep in enumerate(episodes, 1):
+        if ep.get("tiktok_canh"):
+            # TikTok chỉ lấy vài cảnh chính, giữ gần trọn từng cảnh (không mất câu thoại); cảnh khác bỏ ở TikTok.
+            keep, last = ep["tiktok_canh"], len(ep["clips"])
+            for i, c in enumerate(ep["clips"], 1):
+                if i not in keep:
+                    c["tiktok"] = "bo"
+                    continue
+                subs = c.get("subs") or []
+                a0 = 0.0 if i == keep[0] else (0.2 if subs else 5.0)
+                if i == last:
+                    a0 = max(0.0, round(min(x[0] for x in subs) - 0.3, 1)) if subs else 5.0
+                b0 = 10.0 if i == last else (min(10.0, round(max(x[1] for x in subs) + 0.2, 1)) if subs else 10.0)
+                c["tiktok"] = f"{a0:g}-{b0:g}"
         base = f"{file_unit}-{n}-{ep['slug']}"
         cuts = [c.get("tiktok") for c in ep["clips"]]
         yt_len = 10 * len(cuts)

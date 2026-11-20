@@ -6,7 +6,7 @@
 | File nguồn | `content/quang-trung/tap-12-quan-thua-chem-tuong-tam-diep-1788.md` (sửa nội dung ở `content/quang-trung/_nguon.py`) |
 | Số clip Muse | 7 (`qt12-1.mp4` … `qt12-7.mp4`) |
 | Bản YouTube | khoảng 68 giây (đủ clip, đã trừ chuyển cảnh) |
-| Bản TikTok | khoảng 35 giây (vẫn đủ mọi cảnh) |
+| Bản TikTok | khoảng 35 giây (rút gọn, bỏ một số clip) |
 | Hook giây đầu | POV: Bỏ Thăng Long chạy về núi giờ chờ vua xử |
 | Nhãn đầu video | AI tái hiện · lời thoại hư cấu |
 | Đã đăng | [ ] chưa đăng |
@@ -15,21 +15,21 @@
 
 | Clip | File Muse | Cảnh | Mốc thời gian trên video | Bản TikTok dùng | Nối cảnh |
 |---|---|---|---|---|---|
-| 1 | `qt12-1.mp4` | Đứng cuối hàng | Tam Điệp · cuối năm 1788 | giây 0–5 | — |
-| 2 | `qt12-2.mp4` | Xin chịu tội | — | giây 5–10 | — |
-| 3 | `qt12-3.mp4` | Quân thua chém tướng | Vua Quang Trung | giây 5–10 | — |
-| 4 | `qt12-4.mp4` | Là kế | Vua Quang Trung | giây 5–10 | — |
-| 5 | `qt12-5.mp4` | Mươi ngày | Vua Quang Trung | giây 5–10 | — |
-| 6 | `qt12-6.mp4` | Mười năm | — | giây 5–10 | — |
-| 7 | `qt12-7.mp4` | Câu chốt | — | giây 3–10 | — |
+| 1 | `qt12-1.mp4` | Đứng cuối hàng | Tam Điệp · cuối năm 1788 | giây 0–9.7 | — |
+| 2 | `qt12-2.mp4` | Xin chịu tội | — | bỏ | — |
+| 3 | `qt12-3.mp4` | Quân thua chém tướng | Vua Quang Trung | giây 0.2–9.7 | — |
+| 4 | `qt12-4.mp4` | Là kế | Vua Quang Trung | giây 0.2–9.7 | — |
+| 5 | `qt12-5.mp4` | Mươi ngày | Vua Quang Trung | bỏ | — |
+| 6 | `qt12-6.mp4` | Mười năm | — | bỏ | — |
+| 7 | `qt12-7.mp4` | Câu chốt | — | giây 2.7–10 | — |
 
 ## 2. Bối cảnh, lịch sử, giọng nhân vật
 
-**Độ dài:** hai video từ cùng 7 clip: **YouTube** khoảng 67 giây và **TikTok** khoảng 35 giây, vẫn đủ 7 cảnh (mỗi clip lấy khoảng 5 giây chứa câu chính, cảnh cuối 7 giây)
+**Độ dài:** hai video từ cùng 7 clip: **YouTube** đủ 7 cảnh (khoảng 67 giây); **TikTok** chọn **4 cảnh chính**, giữ gần trọn từng cảnh (khoảng 35 giây) để không mất câu thoại nào; các cảnh còn lại chỉ có ở bản YouTube
 
 Copy từng khối dán thẳng vào phần mềm. Prompt đã ghép đủ, không cần thay gì.
 
-**Loạt Quang Trung (Q1–Q8):** những sự kiện nổi tiếng còn thiếu, ghép với loạt Tây Sơn từng mốc thành một danh sách phát. Kể theo công thức Anh Tư; Nguyễn Huệ, vua Quang Trung và vua Lê chỉ xuất hiện từ phía sau hoặc từ xa. **Hai video từ cùng 7 clip:** YouTube khoảng 67 giây, TikTok khoảng 35 giây, vẫn đủ 7 cảnh.
+**Loạt Quang Trung (Q1–Q8):** những sự kiện nổi tiếng còn thiếu, ghép với loạt Tây Sơn từng mốc thành một danh sách phát. Kể theo công thức Anh Tư; Nguyễn Huệ, vua Quang Trung và vua Lê chỉ xuất hiện từ phía sau hoặc từ xa. **Hai video từ cùng 7 clip:** YouTube đủ 7 cảnh (khoảng 67 giây); TikTok 4 cảnh chính, giữ gần trọn từng cảnh (khoảng 35 giây).
 
 **Lịch sử:** khi quân Thanh vào Thăng Long, tướng Tây Sơn Ngô Văn Sở, Phan Văn Lân theo kế của Ngô Thì Nhậm rút quân về giữ Tam Điệp. Vua Quang Trung ra đến nơi, các tướng xin chịu tội. Vua nói: *"Binh pháp dạy rằng: 'Quân thua chém tướng'"*, rồi giải thích việc để Ngô Thì Nhậm ở lại *"chính là lo về điều đó"*, tha tội và khen việc giữ quân; vua nói thêm *"Chẳng qua mươi ngày có thể đuổi được người Thanh"* và *"Chờ mười năm nữa... bấy giờ nước giàu quân mạnh, thì ta có sợ gì chúng?"* (*Hoàng Lê nhất thống chí*, hồi 14, mức B/C; lời trong phim rút gọn từ sách). **Hư cấu:** Anh Tư, người đồng đội và lời thoại của họ. Không dựng cảnh xử tội.
 
@@ -49,7 +49,7 @@ Nếu Muse cho chọn hoặc tải **giọng tham chiếu** (voice reference), h
 
 File Muse đặt tên: `qt12-1.mp4`
 
-**Bản TikTok:** chỉ dùng giây 0 đến 5 của clip này.
+**Bản TikTok:** chỉ dùng giây 0 đến 9.7 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -65,7 +65,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 File Muse đặt tên: `qt12-2.mp4`
 
-**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+**Bản TikTok:** bỏ clip này.
 
 **Ảnh khung đầu**
 ```
@@ -81,7 +81,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 File Muse đặt tên: `qt12-3.mp4`
 
-**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+**Bản TikTok:** chỉ dùng giây 0.2 đến 9.7 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -97,7 +97,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 File Muse đặt tên: `qt12-4.mp4`
 
-**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+**Bản TikTok:** chỉ dùng giây 0.2 đến 9.7 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -113,7 +113,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 File Muse đặt tên: `qt12-5.mp4`
 
-**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+**Bản TikTok:** bỏ clip này.
 
 **Ảnh khung đầu**
 ```
@@ -129,7 +129,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 File Muse đặt tên: `qt12-6.mp4`
 
-**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+**Bản TikTok:** bỏ clip này.
 
 **Ảnh khung đầu**
 ```
@@ -145,7 +145,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 File Muse đặt tên: `qt12-7.mp4`
 
-**Bản TikTok:** chỉ dùng giây 3 đến 10 của clip này.
+**Bản TikTok:** chỉ dùng giây 2.7 đến 10 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -166,13 +166,13 @@ end: Follow để xem / loạt Quang Trung / tập tiếp theo →
 nhan: AI tái hiện · lời thoại hư cấu
 end_giay: 1.6
 
-clip: qt12-1.mp4 | Tam Điệp · cuối năm 1788 | tiktok=0-5
-clip: qt12-2.mp4 |  | tiktok=5-10
-clip: qt12-3.mp4 | Vua Quang Trung | tiktok=5-10
-clip: qt12-4.mp4 | Vua Quang Trung | tiktok=5-10
-clip: qt12-5.mp4 | Vua Quang Trung | tiktok=5-10
-clip: qt12-6.mp4 |  | tiktok=5-10
-clip: qt12-7.mp4 |  | tiktok=3-10
+clip: qt12-1.mp4 | Tam Điệp · cuối năm 1788 | tiktok=0-9.7
+clip: qt12-2.mp4 |  | tiktok=bo
+clip: qt12-3.mp4 | Vua Quang Trung | tiktok=0.2-9.7
+clip: qt12-4.mp4 | Vua Quang Trung | tiktok=0.2-9.7
+clip: qt12-5.mp4 | Vua Quang Trung | tiktok=bo
+clip: qt12-6.mp4 |  | tiktok=bo
+clip: qt12-7.mp4 |  | tiktok=2.7-10
 
 sub: 1 | 0.3-2.2 | Ra đón vua. / Đứng cuối hàng.
 sub: 1 | 2.2-3.4 | Vua có giận không?

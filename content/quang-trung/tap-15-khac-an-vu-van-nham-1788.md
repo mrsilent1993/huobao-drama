@@ -1,12 +1,12 @@
 # Tập 15: Tập 15 · Được thuê khắc một cái ấn thật to mà không ai nói ấn của ai (Nguyễn Huệ ra Bắc bắt Vũ Văn Nhậm, 1788)
 
-**Độ dài:** hai video từ cùng 7 clip: **YouTube** khoảng 67 giây và **TikTok** khoảng 35 giây, vẫn đủ 7 cảnh (mỗi clip lấy khoảng 5 giây chứa câu chính, cảnh cuối 7 giây)
+**Độ dài:** hai video từ cùng 7 clip: **YouTube** đủ 7 cảnh (khoảng 67 giây); **TikTok** chọn **4 cảnh chính**, giữ gần trọn từng cảnh (khoảng 35 giây) để không mất câu thoại nào; các cảnh còn lại chỉ có ở bản YouTube
 
-**Hai bản từ cùng một bộ clip:** YouTube Shorts 70 giây (đủ clip) · TikTok 37 giây (rút gọn theo ghi chú "Bản TikTok" ở từng clip).
+**Hai bản từ cùng một bộ clip:** YouTube Shorts 70 giây (đủ clip) · TikTok 36 giây (rút gọn theo ghi chú "Bản TikTok" ở từng clip).
 
 Copy từng khối dán thẳng vào phần mềm. Prompt đã ghép đủ, không cần thay gì.
 
-**Loạt Quang Trung (Q1–Q8):** những sự kiện nổi tiếng còn thiếu, ghép với loạt Tây Sơn từng mốc thành một danh sách phát. Kể theo công thức Anh Tư; Nguyễn Huệ, vua Quang Trung và vua Lê chỉ xuất hiện từ phía sau hoặc từ xa. **Hai video từ cùng 7 clip:** YouTube khoảng 67 giây, TikTok khoảng 35 giây, vẫn đủ 7 cảnh.
+**Loạt Quang Trung (Q1–Q8):** những sự kiện nổi tiếng còn thiếu, ghép với loạt Tây Sơn từng mốc thành một danh sách phát. Kể theo công thức Anh Tư; Nguyễn Huệ, vua Quang Trung và vua Lê chỉ xuất hiện từ phía sau hoặc từ xa. **Hai video từ cùng 7 clip:** YouTube đủ 7 cảnh (khoảng 67 giây); TikTok 4 cảnh chính, giữ gần trọn từng cảnh (khoảng 35 giây).
 
 **Lịch sử:** năm 1787–1788, tướng Tây Sơn Vũ Văn Nhậm (con rể Nguyễn Nhạc) được sai ra Bắc diệt Nguyễn Hữu Chỉnh, rồi ở lại Thăng Long **chuyên quyền**: lập Lê Duy Cận làm giám quốc, sửa thành, **làm ấn riêng**, có ý tự lập. Ngô Văn Sở, Phan Văn Lân mật báo về Phú Xuân. Khoảng tháng 4 năm 1788, Nguyễn Huệ **bí mật đem quân ra Bắc**, bất ngờ vào Thăng Long ban đêm, bắt Nhậm rồi xử tử; sau đó giao Bắc Hà cho Ngô Văn Sở, dùng Ngô Thì Nhậm và các sĩ phu Bắc Hà (*Khâm định Việt sử*, sử nhà Nguyễn, mức B; năm tháng các nguồn ghi hơi khác nhau). **Hư cấu:** Anh Tư khắc ấn, người quản gia và mọi lời thoại. Việc xử tử chỉ nhắc bằng lời người dẫn chuyện, không dựng cảnh trói hay hành hình.
 
@@ -22,7 +22,7 @@ Nếu Muse cho chọn hoặc tải **giọng tham chiếu** (voice reference), h
 ## Clip 1: Ấn của ai
 File Muse đặt tên: `qt15-1.mp4`
 
-**Bản TikTok:** chỉ dùng giây 0 đến 5 của clip này.
+**Bản TikTok:** chỉ dùng giây 0 đến 9.7 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -37,7 +37,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 ## Clip 2: Như chủ
 File Muse đặt tên: `qt15-2.mp4`
 
-**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+**Bản TikTok:** bỏ clip này.
 
 **Ảnh khung đầu**
 ```
@@ -52,7 +52,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 ## Clip 3: Đèn không ngủ
 File Muse đặt tên: `qt15-3.mp4`
 
-**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+**Bản TikTok:** bỏ clip này.
 
 **Ảnh khung đầu**
 ```
@@ -67,7 +67,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 ## Clip 4: Ấn to quá
 File Muse đặt tên: `qt15-4.mp4`
 
-**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+**Bản TikTok:** chỉ dùng giây 0.2 đến 9.7 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -82,7 +82,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 ## Clip 5: Không trống không loa
 File Muse đặt tên: `qt15-5.mp4`
 
-**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+**Bản TikTok:** bỏ clip này.
 
 **Ảnh khung đầu**
 ```
@@ -97,7 +97,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 ## Clip 6: Giấu ấn
 File Muse đặt tên: `qt15-6.mp4`
 
-**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+**Bản TikTok:** chỉ dùng giây 0.2 đến 9.7 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -112,7 +112,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 ## Clip 7: Câu chốt
 File Muse đặt tên: `qt15-7.mp4`
 
-**Bản TikTok:** chỉ dùng giây 3 đến 10 của clip này.
+**Bản TikTok:** chỉ dùng giây 2.7 đến 10 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -192,13 +192,13 @@ end: Follow để xem / loạt Quang Trung / tập tiếp theo →
 nhan: AI tái hiện · lời thoại hư cấu
 end_giay: 1.6
 
-clip: qt15-1.mp4 | Thăng Long · 1788 | tiktok=0-5
-clip: qt15-2.mp4 |  | tiktok=5-10
-clip: qt15-3.mp4 |  | tiktok=5-10
-clip: qt15-4.mp4 |  | tiktok=5-10
-clip: qt15-5.mp4 |  | tiktok=5-10
-clip: qt15-6.mp4 |  | tiktok=5-10
-clip: qt15-7.mp4 |  | tiktok=3-10
+clip: qt15-1.mp4 | Thăng Long · 1788 | tiktok=0-9.7
+clip: qt15-2.mp4 |  | tiktok=bo
+clip: qt15-3.mp4 |  | tiktok=bo
+clip: qt15-4.mp4 |  | tiktok=0.2-9.7
+clip: qt15-5.mp4 |  | tiktok=bo
+clip: qt15-6.mp4 |  | tiktok=0.2-9.7
+clip: qt15-7.mp4 |  | tiktok=2.7-10
 
 sub: 1 | 0.3-2.2 | Khắc một cái ấn. / To hơn ấn của tướng.
 sub: 1 | 2.2-3.4 | Ấn của ai ạ?

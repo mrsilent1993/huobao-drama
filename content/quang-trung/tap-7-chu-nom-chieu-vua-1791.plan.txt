@@ -4,13 +4,13 @@ end: Follow để xem / loạt Quang Trung / tập tiếp theo →
 nhan: AI tái hiện · lời thoại hư cấu
 end_giay: 1.6
 
-clip: qt7-1.mp4 | Nghệ An · 1791 | tiktok=0-5
-clip: qt7-2.mp4 | Mấy năm trước | tiktok=5-10
-clip: qt7-3.mp4 |  | tiktok=5-10
-clip: qt7-4.mp4 |  | tiktok=5-10
-clip: qt7-5.mp4 |  | tiktok=5-10
-clip: qt7-6.mp4 | Viện Sùng Chính | tiktok=5-10
-clip: qt7-7.mp4 |  | tiktok=3-10
+clip: qt7-1.mp4 | Nghệ An · 1791 | tiktok=0-9.7
+clip: qt7-2.mp4 | Mấy năm trước | tiktok=0.2-9.7
+clip: qt7-3.mp4 |  | tiktok=bo
+clip: qt7-4.mp4 |  | tiktok=0.2-9.7
+clip: qt7-5.mp4 |  | tiktok=bo
+clip: qt7-6.mp4 | Viện Sùng Chính | tiktok=bo
+clip: qt7-7.mp4 |  | tiktok=2.7-10
 
 sub: 1 | 0.3-2.2 | Đọc chiếu vua / cho cả làng nghe.
 sub: 1 | 2.2-3.4 | Chữ Hán em đọc / như chim hót mà ông?

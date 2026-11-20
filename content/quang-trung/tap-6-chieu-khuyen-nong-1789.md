@@ -1,12 +1,12 @@
 # Tập 6: Q6 · Vừa thắng giặc chưa kịp ăn mừng, bị sai đi gọi dân về… cày ruộng (Chiếu khuyến nông, 1789)
 
-**Độ dài:** hai video từ cùng 7 clip: **YouTube** khoảng 67 giây và **TikTok** khoảng 35 giây, vẫn đủ 7 cảnh (mỗi clip lấy khoảng 5 giây chứa câu chính, cảnh cuối 7 giây)
+**Độ dài:** hai video từ cùng 7 clip: **YouTube** đủ 7 cảnh (khoảng 67 giây); **TikTok** chọn **4 cảnh chính**, giữ gần trọn từng cảnh (khoảng 35 giây) để không mất câu thoại nào; các cảnh còn lại chỉ có ở bản YouTube
 
-**Hai bản từ cùng một bộ clip:** YouTube Shorts 70 giây (đủ clip) · TikTok 37 giây (rút gọn theo ghi chú "Bản TikTok" ở từng clip).
+**Hai bản từ cùng một bộ clip:** YouTube Shorts 70 giây (đủ clip) · TikTok 36 giây (rút gọn theo ghi chú "Bản TikTok" ở từng clip).
 
 Copy từng khối dán thẳng vào phần mềm. Prompt đã ghép đủ, không cần thay gì.
 
-**Loạt Quang Trung (Q1–Q8):** những sự kiện nổi tiếng còn thiếu, ghép với loạt Tây Sơn từng mốc thành một danh sách phát. Kể theo công thức Anh Tư; Nguyễn Huệ, vua Quang Trung và vua Lê chỉ xuất hiện từ phía sau hoặc từ xa. **Hai video từ cùng 7 clip:** YouTube khoảng 67 giây, TikTok khoảng 35 giây, vẫn đủ 7 cảnh.
+**Loạt Quang Trung (Q1–Q8):** những sự kiện nổi tiếng còn thiếu, ghép với loạt Tây Sơn từng mốc thành một danh sách phát. Kể theo công thức Anh Tư; Nguyễn Huệ, vua Quang Trung và vua Lê chỉ xuất hiện từ phía sau hoặc từ xa. **Hai video từ cùng 7 clip:** YouTube đủ 7 cảnh (khoảng 67 giây); TikTok 4 cảnh chính, giữ gần trọn từng cảnh (khoảng 35 giây).
 
 **Lịch sử:** năm 1789, sau nhiều năm chiến tranh và đói kém, ruộng đất bỏ hoang rất nhiều. Vua Quang Trung ban **Chiếu khuyến nông** (do Ngô Thì Nhậm soạn): dân phiêu tán phải trở về quê cũ, ruộng bỏ hoang phải khai khẩn cày cấy; làng nào để ruộng hoang thì bị xử phạt. Chỉ vài năm sau, mùa màng trở lại (mức B). **Hư cấu:** Anh Tư, người dân trong tập và mọi lời thoại.
 
@@ -23,7 +23,7 @@ Nếu Muse cho chọn hoặc tải **giọng tham chiếu** (voice reference), h
 ## Clip 1: Gọi dân về
 File Muse đặt tên: `qt6-1.mp4`
 
-**Bản TikTok:** chỉ dùng giây 0 đến 5 của clip này.
+**Bản TikTok:** chỉ dùng giây 0 đến 9.7 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -38,7 +38,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 ## Clip 2: Cỏ cao hơn người
 File Muse đặt tên: `qt6-2.mp4`
 
-**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+**Bản TikTok:** chỉ dùng giây 0.2 đến 9.7 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -53,7 +53,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 ## Clip 3: Gõ mõ
 File Muse đặt tên: `qt6-3.mp4`
 
-**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+**Bản TikTok:** bỏ clip này.
 
 **Ảnh khung đầu**
 ```
@@ -68,7 +68,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 ## Clip 4: Gác giáo cầm cày
 File Muse đặt tên: `qt6-4.mp4`
 
-**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+**Bản TikTok:** chỉ dùng giây 0.2 đến 9.7 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -83,7 +83,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 ## Clip 5: Phạt
 File Muse đặt tên: `qt6-5.mp4`
 
-**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+**Bản TikTok:** bỏ clip này.
 
 **Ảnh khung đầu**
 ```
@@ -98,7 +98,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 ## Clip 6: Lúa xanh
 File Muse đặt tên: `qt6-6.mp4`
 
-**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+**Bản TikTok:** bỏ clip này.
 
 **Ảnh khung đầu**
 ```
@@ -113,7 +113,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 ## Clip 7: Câu chốt
 File Muse đặt tên: `qt6-7.mp4`
 
-**Bản TikTok:** chỉ dùng giây 3 đến 10 của clip này.
+**Bản TikTok:** chỉ dùng giây 2.7 đến 10 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -193,13 +193,13 @@ end: Follow để xem / loạt Quang Trung / tập tiếp theo →
 nhan: AI tái hiện · lời thoại hư cấu
 end_giay: 1.6
 
-clip: qt6-1.mp4 | Bắc Hà · 1789 | tiktok=0-5
-clip: qt6-2.mp4 |  | tiktok=5-10
-clip: qt6-3.mp4 |  | tiktok=5-10
-clip: qt6-4.mp4 |  | tiktok=5-10
-clip: qt6-5.mp4 |  | tiktok=5-10
-clip: qt6-6.mp4 |  | tiktok=5-10
-clip: qt6-7.mp4 |  | tiktok=3-10
+clip: qt6-1.mp4 | Bắc Hà · 1789 | tiktok=0-9.7
+clip: qt6-2.mp4 |  | tiktok=0.2-9.7
+clip: qt6-3.mp4 |  | tiktok=bo
+clip: qt6-4.mp4 |  | tiktok=0.2-9.7
+clip: qt6-5.mp4 |  | tiktok=bo
+clip: qt6-6.mp4 |  | tiktok=bo
+clip: qt6-7.mp4 |  | tiktok=2.7-10
 
 sub: 1 | 0.3-2.2 | Đi gọi dân về làng. / Về cày.
 sub: 1 | 2.2-3.4 | Vừa thắng giặc... / không ăn mừng ạ?

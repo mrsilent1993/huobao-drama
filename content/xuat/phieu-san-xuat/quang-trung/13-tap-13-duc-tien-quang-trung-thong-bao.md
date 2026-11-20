@@ -6,7 +6,7 @@
 | File nguồn | `content/quang-trung/tap-13-duc-tien-quang-trung-thong-bao.md` (sửa nội dung ở `content/quang-trung/_nguon.py`) |
 | Số clip Muse | 7 (`qt13-1.mp4` … `qt13-7.mp4`) |
 | Bản YouTube | khoảng 68 giây (đủ clip, đã trừ chuyển cảnh) |
-| Bản TikTok | khoảng 35 giây (vẫn đủ mọi cảnh) |
+| Bản TikTok | khoảng 35 giây (rút gọn, bỏ một số clip) |
 | Hook giây đầu | POV: Khắc tên vua lên đồng tiền bằng móng tay |
 | Nhãn đầu video | AI tái hiện · lời thoại hư cấu |
 | Đã đăng | [ ] chưa đăng |
@@ -15,21 +15,21 @@
 
 | Clip | File Muse | Cảnh | Mốc thời gian trên video | Bản TikTok dùng | Nối cảnh |
 |---|---|---|---|---|---|
-| 1 | `qt13-1.mp4` | Tên vua | Xưởng đúc tiền · thời Quang Trung | giây 0–5 | — |
-| 2 | `qt13-2.mp4` | Rót đồng | — | giây 5–10 | — |
-| 3 | `qt13-3.mp4` | Cây tiền | — | giây 5–10 | — |
-| 4 | `qt13-4.mp4` | Hai chữ mặt sau | — | giây 5–10 | — |
-| 5 | `qt13-5.mp4` | Ra chợ | — | giây 5–10 | — |
-| 6 | `qt13-6.mp4` | Giữ một đồng | — | giây 5–10 | — |
-| 7 | `qt13-7.mp4` | Câu chốt | — | giây 3–10 | — |
+| 1 | `qt13-1.mp4` | Tên vua | Xưởng đúc tiền · thời Quang Trung | giây 0–9.7 | — |
+| 2 | `qt13-2.mp4` | Rót đồng | — | bỏ | — |
+| 3 | `qt13-3.mp4` | Cây tiền | — | giây 0.2–9.7 | — |
+| 4 | `qt13-4.mp4` | Hai chữ mặt sau | — | bỏ | — |
+| 5 | `qt13-5.mp4` | Ra chợ | — | giây 0.2–9.7 | — |
+| 6 | `qt13-6.mp4` | Giữ một đồng | — | bỏ | — |
+| 7 | `qt13-7.mp4` | Câu chốt | — | giây 2.7–10 | — |
 
 ## 2. Bối cảnh, lịch sử, giọng nhân vật
 
-**Độ dài:** hai video từ cùng 7 clip: **YouTube** khoảng 67 giây và **TikTok** khoảng 35 giây, vẫn đủ 7 cảnh (mỗi clip lấy khoảng 5 giây chứa câu chính, cảnh cuối 7 giây)
+**Độ dài:** hai video từ cùng 7 clip: **YouTube** đủ 7 cảnh (khoảng 67 giây); **TikTok** chọn **4 cảnh chính**, giữ gần trọn từng cảnh (khoảng 35 giây) để không mất câu thoại nào; các cảnh còn lại chỉ có ở bản YouTube
 
 Copy từng khối dán thẳng vào phần mềm. Prompt đã ghép đủ, không cần thay gì.
 
-**Loạt Quang Trung (Q1–Q8):** những sự kiện nổi tiếng còn thiếu, ghép với loạt Tây Sơn từng mốc thành một danh sách phát. Kể theo công thức Anh Tư; Nguyễn Huệ, vua Quang Trung và vua Lê chỉ xuất hiện từ phía sau hoặc từ xa. **Hai video từ cùng 7 clip:** YouTube khoảng 67 giây, TikTok khoảng 35 giây, vẫn đủ 7 cảnh.
+**Loạt Quang Trung (Q1–Q8):** những sự kiện nổi tiếng còn thiếu, ghép với loạt Tây Sơn từng mốc thành một danh sách phát. Kể theo công thức Anh Tư; Nguyễn Huệ, vua Quang Trung và vua Lê chỉ xuất hiện từ phía sau hoặc từ xa. **Hai video từ cùng 7 clip:** YouTube đủ 7 cảnh (khoảng 67 giây); TikTok 4 cảnh chính, giữ gần trọn từng cảnh (khoảng 35 giây).
 
 **Lịch sử:** triều Tây Sơn thời Quang Trung (1788–1792) đúc tiền đồng **Quang Trung thông bảo** (光中通寶), có loại mặt sau đúc hai chữ **An Nam** (安南), thường được cho là đúc sau khi nhà Thanh phong vua làm An Nam quốc vương năm 1789 (hiện vật còn nhiều trong các bộ sưu tập, mức A; năm đúc từng loại chưa xác định được). Tiền đúc bằng khuôn cát, đồng nóng chảy rót vào thành "cây tiền", rồi bẻ ra từng đồng. **Hư cấu:** Anh Tư, xưởng đúc và mọi lời thoại.
 
@@ -49,7 +49,7 @@ Nếu Muse cho chọn hoặc tải **giọng tham chiếu** (voice reference), h
 
 File Muse đặt tên: `qt13-1.mp4`
 
-**Bản TikTok:** chỉ dùng giây 0 đến 5 của clip này.
+**Bản TikTok:** chỉ dùng giây 0 đến 9.7 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -65,7 +65,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 File Muse đặt tên: `qt13-2.mp4`
 
-**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+**Bản TikTok:** bỏ clip này.
 
 **Ảnh khung đầu**
 ```
@@ -81,7 +81,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 File Muse đặt tên: `qt13-3.mp4`
 
-**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+**Bản TikTok:** chỉ dùng giây 0.2 đến 9.7 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -97,7 +97,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 File Muse đặt tên: `qt13-4.mp4`
 
-**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+**Bản TikTok:** bỏ clip này.
 
 **Ảnh khung đầu**
 ```
@@ -113,7 +113,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 File Muse đặt tên: `qt13-5.mp4`
 
-**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+**Bản TikTok:** chỉ dùng giây 0.2 đến 9.7 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -129,7 +129,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 File Muse đặt tên: `qt13-6.mp4`
 
-**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+**Bản TikTok:** bỏ clip này.
 
 **Ảnh khung đầu**
 ```
@@ -145,7 +145,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 File Muse đặt tên: `qt13-7.mp4`
 
-**Bản TikTok:** chỉ dùng giây 3 đến 10 của clip này.
+**Bản TikTok:** chỉ dùng giây 2.7 đến 10 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -166,13 +166,13 @@ end: Follow để xem / loạt Quang Trung / tập tiếp theo →
 nhan: AI tái hiện · lời thoại hư cấu
 end_giay: 1.6
 
-clip: qt13-1.mp4 | Xưởng đúc tiền · thời Quang Trung | tiktok=0-5
-clip: qt13-2.mp4 |  | tiktok=5-10
-clip: qt13-3.mp4 |  | tiktok=5-10
-clip: qt13-4.mp4 |  | tiktok=5-10
-clip: qt13-5.mp4 |  | tiktok=5-10
-clip: qt13-6.mp4 |  | tiktok=5-10
-clip: qt13-7.mp4 |  | tiktok=3-10
+clip: qt13-1.mp4 | Xưởng đúc tiền · thời Quang Trung | tiktok=0-9.7
+clip: qt13-2.mp4 |  | tiktok=bo
+clip: qt13-3.mp4 |  | tiktok=0.2-9.7
+clip: qt13-4.mp4 |  | tiktok=bo
+clip: qt13-5.mp4 |  | tiktok=0.2-9.7
+clip: qt13-6.mp4 |  | tiktok=bo
+clip: qt13-7.mp4 |  | tiktok=2.7-10
 
 sub: 1 | 0.3-2.2 | Đúc tiền mới. / Đồng nào cũng có tên vua.
 sub: 1 | 2.2-3.4 | Nhỏ thế này / khắc sao ạ?

@@ -6,7 +6,7 @@
 | File nguồn | `content/quang-trung/tap-7-chu-nom-chieu-vua-1791.md` (sửa nội dung ở `content/quang-trung/_nguon.py`) |
 | Số clip Muse | 7 (`qt7-1.mp4` … `qt7-7.mp4`) |
 | Bản YouTube | khoảng 68 giây (đủ clip, đã trừ chuyển cảnh) |
-| Bản TikTok | khoảng 35 giây (vẫn đủ mọi cảnh) |
+| Bản TikTok | khoảng 35 giây (rút gọn, bỏ một số clip) |
 | Hook giây đầu | POV: Đọc chiếu vua cả làng nghe là hiểu |
 | Nhãn đầu video | AI tái hiện · lời thoại hư cấu |
 | Đã đăng | [ ] chưa đăng |
@@ -15,21 +15,21 @@
 
 | Clip | File Muse | Cảnh | Mốc thời gian trên video | Bản TikTok dùng | Nối cảnh |
 |---|---|---|---|---|---|
-| 1 | `qt7-1.mp4` | Đọc chiếu | Nghệ An · 1791 | giây 0–5 | — |
-| 2 | `qt7-2.mp4` | Mọi lần | Mấy năm trước | giây 5–10 | — |
-| 3 | `qt7-3.mp4` | Cả làng nghe | — | giây 5–10 | — |
-| 4 | `qt7-4.mp4` | Vua nói thế à | — | giây 5–10 | — |
-| 5 | `qt7-5.mp4` | Cãi nhau | — | giây 5–10 | — |
-| 6 | `qt7-6.mp4` | Viện Sùng Chính | Viện Sùng Chính | giây 5–10 | — |
-| 7 | `qt7-7.mp4` | Câu chốt | — | giây 3–10 | — |
+| 1 | `qt7-1.mp4` | Đọc chiếu | Nghệ An · 1791 | giây 0–9.7 | — |
+| 2 | `qt7-2.mp4` | Mọi lần | Mấy năm trước | giây 0.2–9.7 | — |
+| 3 | `qt7-3.mp4` | Cả làng nghe | — | bỏ | — |
+| 4 | `qt7-4.mp4` | Vua nói thế à | — | giây 0.2–9.7 | — |
+| 5 | `qt7-5.mp4` | Cãi nhau | — | bỏ | — |
+| 6 | `qt7-6.mp4` | Viện Sùng Chính | Viện Sùng Chính | bỏ | — |
+| 7 | `qt7-7.mp4` | Câu chốt | — | giây 2.7–10 | — |
 
 ## 2. Bối cảnh, lịch sử, giọng nhân vật
 
-**Độ dài:** hai video từ cùng 7 clip: **YouTube** khoảng 67 giây và **TikTok** khoảng 35 giây, vẫn đủ 7 cảnh (mỗi clip lấy khoảng 5 giây chứa câu chính, cảnh cuối 7 giây)
+**Độ dài:** hai video từ cùng 7 clip: **YouTube** đủ 7 cảnh (khoảng 67 giây); **TikTok** chọn **4 cảnh chính**, giữ gần trọn từng cảnh (khoảng 35 giây) để không mất câu thoại nào; các cảnh còn lại chỉ có ở bản YouTube
 
 Copy từng khối dán thẳng vào phần mềm. Prompt đã ghép đủ, không cần thay gì.
 
-**Loạt Quang Trung (Q1–Q8):** những sự kiện nổi tiếng còn thiếu, ghép với loạt Tây Sơn từng mốc thành một danh sách phát. Kể theo công thức Anh Tư; Nguyễn Huệ, vua Quang Trung và vua Lê chỉ xuất hiện từ phía sau hoặc từ xa. **Hai video từ cùng 7 clip:** YouTube khoảng 67 giây, TikTok khoảng 35 giây, vẫn đủ 7 cảnh.
+**Loạt Quang Trung (Q1–Q8):** những sự kiện nổi tiếng còn thiếu, ghép với loạt Tây Sơn từng mốc thành một danh sách phát. Kể theo công thức Anh Tư; Nguyễn Huệ, vua Quang Trung và vua Lê chỉ xuất hiện từ phía sau hoặc từ xa. **Hai video từ cùng 7 clip:** YouTube đủ 7 cảnh (khoảng 67 giây); TikTok 4 cảnh chính, giữ gần trọn từng cảnh (khoảng 35 giây).
 
 **Lịch sử:** thời Quang Trung, **chữ Nôm** (chữ ghi tiếng Việt) được đề cao: nhiều chiếu, biểu và văn bản của triều đình viết bằng chữ Nôm. Năm 1791, vua lập **Viện Sùng Chính** ở Nghệ An, giao La Sơn Phu Tử Nguyễn Thiếp đứng đầu, dịch sách chữ Hán ra chữ Nôm (mức B). Trước đó, giấy tờ nhà nước gần như toàn bằng chữ Hán, dân thường nghe không hiểu. **Hư cấu:** Anh Tư, ông lý trưởng, dân làng và mọi lời thoại. Chữ trên giấy làm mờ, không đọc được.
 
@@ -51,7 +51,7 @@ Nếu Muse cho chọn hoặc tải **giọng tham chiếu** (voice reference), h
 
 File Muse đặt tên: `qt7-1.mp4`
 
-**Bản TikTok:** chỉ dùng giây 0 đến 5 của clip này.
+**Bản TikTok:** chỉ dùng giây 0 đến 9.7 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -67,7 +67,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 File Muse đặt tên: `qt7-2.mp4`
 
-**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+**Bản TikTok:** chỉ dùng giây 0.2 đến 9.7 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -83,7 +83,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 File Muse đặt tên: `qt7-3.mp4`
 
-**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+**Bản TikTok:** bỏ clip này.
 
 **Ảnh khung đầu**
 ```
@@ -99,7 +99,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 File Muse đặt tên: `qt7-4.mp4`
 
-**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+**Bản TikTok:** chỉ dùng giây 0.2 đến 9.7 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -115,7 +115,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 File Muse đặt tên: `qt7-5.mp4`
 
-**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+**Bản TikTok:** bỏ clip này.
 
 **Ảnh khung đầu**
 ```
@@ -131,7 +131,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 File Muse đặt tên: `qt7-6.mp4`
 
-**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+**Bản TikTok:** bỏ clip này.
 
 **Ảnh khung đầu**
 ```
@@ -147,7 +147,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 File Muse đặt tên: `qt7-7.mp4`
 
-**Bản TikTok:** chỉ dùng giây 3 đến 10 của clip này.
+**Bản TikTok:** chỉ dùng giây 2.7 đến 10 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -168,13 +168,13 @@ end: Follow để xem / loạt Quang Trung / tập tiếp theo →
 nhan: AI tái hiện · lời thoại hư cấu
 end_giay: 1.6
 
-clip: qt7-1.mp4 | Nghệ An · 1791 | tiktok=0-5
-clip: qt7-2.mp4 | Mấy năm trước | tiktok=5-10
-clip: qt7-3.mp4 |  | tiktok=5-10
-clip: qt7-4.mp4 |  | tiktok=5-10
-clip: qt7-5.mp4 |  | tiktok=5-10
-clip: qt7-6.mp4 | Viện Sùng Chính | tiktok=5-10
-clip: qt7-7.mp4 |  | tiktok=3-10
+clip: qt7-1.mp4 | Nghệ An · 1791 | tiktok=0-9.7
+clip: qt7-2.mp4 | Mấy năm trước | tiktok=0.2-9.7
+clip: qt7-3.mp4 |  | tiktok=bo
+clip: qt7-4.mp4 |  | tiktok=0.2-9.7
+clip: qt7-5.mp4 |  | tiktok=bo
+clip: qt7-6.mp4 | Viện Sùng Chính | tiktok=bo
+clip: qt7-7.mp4 |  | tiktok=2.7-10
 
 sub: 1 | 0.3-2.2 | Đọc chiếu vua / cho cả làng nghe.
 sub: 1 | 2.2-3.4 | Chữ Hán em đọc / như chim hót mà ông?

@@ -37,7 +37,7 @@
 | 5 | | | | | nguyên | | |
 | (6) | | | | | | | |
 
-Độ dài (sau chuyển cảnh): **YouTube 60–70 giây** (thường 7 clip), **TikTok 30–35 giây**, không bỏ cảnh nào. Đặt `muc=MUC_MOI` để `_nguon.py` tự kiểm.
+Độ dài (sau chuyển cảnh): **YouTube 60–70 giây**, đủ 7 cảnh; **TikTok 30–35 giây**, 4 cảnh chính giữ trọn (`tiktok_canh=[1, x, y, 7]`). Đặt `muc=MUC_MOI` để `_nguon.py` tự kiểm.
 
 ## D. Lịch sử (in vào file .md)
 
@@ -62,7 +62,7 @@
 - [ ] Câu chốt cuối riêng, không lặp tập khác; không có "Ghi tên em vào sử".
 - [ ] Hook và tiêu đề không lộ cú lật; bình luận ghim không trả lời câu hỏi ở caption.
 - [ ] Phụ đề mỗi dòng tối đa khoảng 26 ký tự; đã kiểm bằng `layout()`; phụ đề cuối kết thúc trước màn hình kết.
-- [ ] Bản ngắn đủ mọi cảnh; TikTok 30–35 giây, YouTube 60–70 giây (không có cảnh báo ⚠ khi chạy `_nguon.py`).
+- [ ] YouTube đủ mọi cảnh (60–70 giây); TikTok 4 cảnh chính chọn bằng `tiktok_canh`, giữ trọn câu thoại (30–35 giây); không có cảnh báo ⚠ khi chạy `_nguon.py`.
 - [ ] Prompt: chuẩn hình ảnh và danh sách cấm; cấm cờ hiện đại; không chữ; tách người trao và người nhận; cảnh một phe ghi "ONLY".
 - [ ] Cọc đúng cỡ, rồng kiểu thời Lý (nếu có).
 - [ ] Giọng vùng miền đúng; giọng nhân vật đã khai báo.

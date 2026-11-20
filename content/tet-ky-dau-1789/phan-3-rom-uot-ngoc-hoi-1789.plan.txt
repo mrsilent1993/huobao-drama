@@ -4,13 +4,13 @@ end: Follow để xem / Tây Sơn từng mốc / tập tiếp theo →
 nhan: AI tái hiện · lời thoại hư cấu
 end_giay: 1.6
 
-clip: tkd3-1.mp4 | Ngọc Hồi · mùng 5 Tết 1789 | tiktok=0-5
-clip: tkd3-2.mp4 |  | tiktok=5-10
-clip: tkd3-3.mp4 |  | tiktok=5-10
-clip: tkd3-4.mp4 |  | tiktok=5-10
-clip: tkd3-5.mp4 |  | tiktok=5-10
-clip: tkd3-6.mp4 |  | tiktok=5-10
-clip: tkd3-7.mp4 |  | tiktok=3-10
+clip: tkd3-1.mp4 | Ngọc Hồi · mùng 5 Tết 1789 | tiktok=0-9.7
+clip: tkd3-2.mp4 |  | tiktok=0.2-9.7
+clip: tkd3-3.mp4 |  | tiktok=bo
+clip: tkd3-4.mp4 |  | tiktok=0.2-9.7
+clip: tkd3-5.mp4 |  | tiktok=bo
+clip: tkd3-6.mp4 |  | tiktok=bo
+clip: tkd3-7.mp4 |  | tiktok=2.7-10
 
 sub: 1 | 0.3-2.4 | Ba tấm ván ghép một bức. / Phủ rơm dấp nước.
 sub: 1 | 2.4-3.4 | Rét thế này... / nhúng nước ạ?

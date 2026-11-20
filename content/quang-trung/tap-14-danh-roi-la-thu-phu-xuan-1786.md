@@ -1,12 +1,12 @@
 # Tập 14: Tập 14 · Được giao mang thư đến gần thành giặc rồi… đánh rơi cho khéo (Nguyễn Huệ lấy thành Phú Xuân, 1786)
 
-**Độ dài:** hai video từ cùng 7 clip: **YouTube** khoảng 67 giây và **TikTok** khoảng 35 giây, vẫn đủ 7 cảnh (mỗi clip lấy khoảng 5 giây chứa câu chính, cảnh cuối 7 giây)
+**Độ dài:** hai video từ cùng 7 clip: **YouTube** đủ 7 cảnh (khoảng 67 giây); **TikTok** chọn **4 cảnh chính**, giữ gần trọn từng cảnh (khoảng 35 giây) để không mất câu thoại nào; các cảnh còn lại chỉ có ở bản YouTube
 
-**Hai bản từ cùng một bộ clip:** YouTube Shorts 70 giây (đủ clip) · TikTok 37 giây (rút gọn theo ghi chú "Bản TikTok" ở từng clip).
+**Hai bản từ cùng một bộ clip:** YouTube Shorts 70 giây (đủ clip) · TikTok 36 giây (rút gọn theo ghi chú "Bản TikTok" ở từng clip).
 
 Copy từng khối dán thẳng vào phần mềm. Prompt đã ghép đủ, không cần thay gì.
 
-**Loạt Quang Trung (Q1–Q8):** những sự kiện nổi tiếng còn thiếu, ghép với loạt Tây Sơn từng mốc thành một danh sách phát. Kể theo công thức Anh Tư; Nguyễn Huệ, vua Quang Trung và vua Lê chỉ xuất hiện từ phía sau hoặc từ xa. **Hai video từ cùng 7 clip:** YouTube khoảng 67 giây, TikTok khoảng 35 giây, vẫn đủ 7 cảnh.
+**Loạt Quang Trung (Q1–Q8):** những sự kiện nổi tiếng còn thiếu, ghép với loạt Tây Sơn từng mốc thành một danh sách phát. Kể theo công thức Anh Tư; Nguyễn Huệ, vua Quang Trung và vua Lê chỉ xuất hiện từ phía sau hoặc từ xa. **Hai video từ cùng 7 clip:** YouTube đủ 7 cảnh (khoảng 67 giây); TikTok 4 cảnh chính, giữ gần trọn từng cảnh (khoảng 35 giây).
 
 **Lịch sử:** giữa năm 1786, Nguyễn Huệ đánh thành Phú Xuân do quân Trịnh trấn giữ (trấn thủ Phạm Ngô Cầu, phó tướng Hoàng Đình Thể). Theo các tài liệu: Nguyễn Huệ nhờ Nguyễn Hữu Chỉnh viết **thư dụ hàng gửi Hoàng Đình Thể, cố ý để thư lọt vào tay Phạm Ngô Cầu**, khiến hai người nghi kỵ nhau. **Đêm 20 tháng 5 âm lịch (khoảng 15/6/1786), nước dâng ngập chân thành**; thủy quân Tây Sơn tiến sát nã pháo vào thành, quân trong thành cạn thuốc súng. Hoàng Đình Thể chiến đấu đến cùng và tử trận; Phạm Ngô Cầu ra hàng. Chỉ trong vài ngày, đất Thuận Hóa đến sông Gianh về tay Tây Sơn (sử nhà Nguyễn và các tài liệu tổng hợp, mức B; chi tiết cách ra hàng các nguồn ghi khác nhau). **Hư cấu:** Anh Tư là người "đánh rơi" thư, cảnh quan sát và mọi lời thoại. Không dựng cảnh chết; quân trong thành là người Việt dưới quyền chúa Trịnh, giọng kể trung tính, không chế giễu.
 
@@ -22,7 +22,7 @@ Nếu Muse cho chọn hoặc tải **giọng tham chiếu** (voice reference), h
 ## Clip 1: Đánh rơi cho khéo
 File Muse đặt tên: `qt14-1.mp4`
 
-**Bản TikTok:** chỉ dùng giây 0 đến 5 của clip này.
+**Bản TikTok:** chỉ dùng giây 0 đến 9.7 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -37,7 +37,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 ## Clip 2: Rơi ba lần
 File Muse đặt tên: `qt14-2.mp4`
 
-**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+**Bản TikTok:** bỏ clip này.
 
 **Ảnh khung đầu**
 ```
@@ -52,7 +52,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 ## Clip 3: Trong thành cãi nhau
 File Muse đặt tên: `qt14-3.mp4`
 
-**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+**Bản TikTok:** chỉ dùng giây 0.2 đến 9.7 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -67,7 +67,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 ## Clip 4: Nước dâng
 File Muse đặt tên: `qt14-4.mp4`
 
-**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+**Bản TikTok:** bỏ clip này.
 
 **Ảnh khung đầu**
 ```
@@ -82,7 +82,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 ## Clip 5: Súng im
 File Muse đặt tên: `qt14-5.mp4`
 
-**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+**Bản TikTok:** bỏ clip này.
 
 **Ảnh khung đầu**
 ```
@@ -97,7 +97,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 ## Clip 6: Nhặt cả tòa thành
 File Muse đặt tên: `qt14-6.mp4`
 
-**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+**Bản TikTok:** chỉ dùng giây 0.2 đến 9.7 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -112,7 +112,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 ## Clip 7: Câu chốt
 File Muse đặt tên: `qt14-7.mp4`
 
-**Bản TikTok:** chỉ dùng giây 3 đến 10 của clip này.
+**Bản TikTok:** chỉ dùng giây 2.7 đến 10 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -192,13 +192,13 @@ end: Follow để xem / loạt Quang Trung / tập tiếp theo →
 nhan: AI tái hiện · lời thoại hư cấu
 end_giay: 1.6
 
-clip: qt14-1.mp4 | Phú Xuân · 1786 | tiktok=0-5
-clip: qt14-2.mp4 |  | tiktok=5-10
-clip: qt14-3.mp4 |  | tiktok=5-10
-clip: qt14-4.mp4 |  | tiktok=5-10
-clip: qt14-5.mp4 |  | tiktok=5-10
-clip: qt14-6.mp4 |  | tiktok=5-10
-clip: qt14-7.mp4 |  | tiktok=3-10
+clip: qt14-1.mp4 | Phú Xuân · 1786 | tiktok=0-9.7
+clip: qt14-2.mp4 |  | tiktok=bo
+clip: qt14-3.mp4 |  | tiktok=0.2-9.7
+clip: qt14-4.mp4 |  | tiktok=bo
+clip: qt14-5.mp4 |  | tiktok=bo
+clip: qt14-6.mp4 |  | tiktok=0.2-9.7
+clip: qt14-7.mp4 |  | tiktok=2.7-10
 
 sub: 1 | 0.3-2.2 | Mang đến gần thành. / Đánh rơi cho khéo.
 sub: 1 | 2.2-3.4 | Đưa thư... / mà đánh rơi ạ?

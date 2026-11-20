@@ -1,12 +1,12 @@
 # Tập 9: Tập 9 · Đứng giữa mấy vạn quân nghe vua đọc lời dụ: "Đánh cho để dài tóc, đánh cho để đen răng" (cuối năm 1788, theo truyền tụng)
 
-**Độ dài:** hai video từ cùng 7 clip: **YouTube** khoảng 67 giây và **TikTok** khoảng 35 giây, vẫn đủ 7 cảnh (mỗi clip lấy khoảng 5 giây chứa câu chính, cảnh cuối 7 giây)
+**Độ dài:** hai video từ cùng 7 clip: **YouTube** đủ 7 cảnh (khoảng 67 giây); **TikTok** chọn **4 cảnh chính**, giữ gần trọn từng cảnh (khoảng 35 giây) để không mất câu thoại nào; các cảnh còn lại chỉ có ở bản YouTube
 
-**Hai bản từ cùng một bộ clip:** YouTube Shorts 70 giây (đủ clip) · TikTok 37 giây (rút gọn theo ghi chú "Bản TikTok" ở từng clip).
+**Hai bản từ cùng một bộ clip:** YouTube Shorts 70 giây (đủ clip) · TikTok 36 giây (rút gọn theo ghi chú "Bản TikTok" ở từng clip).
 
 Copy từng khối dán thẳng vào phần mềm. Prompt đã ghép đủ, không cần thay gì.
 
-**Loạt Quang Trung (Q1–Q8):** những sự kiện nổi tiếng còn thiếu, ghép với loạt Tây Sơn từng mốc thành một danh sách phát. Kể theo công thức Anh Tư; Nguyễn Huệ, vua Quang Trung và vua Lê chỉ xuất hiện từ phía sau hoặc từ xa. **Hai video từ cùng 7 clip:** YouTube khoảng 67 giây, TikTok khoảng 35 giây, vẫn đủ 7 cảnh.
+**Loạt Quang Trung (Q1–Q8):** những sự kiện nổi tiếng còn thiếu, ghép với loạt Tây Sơn từng mốc thành một danh sách phát. Kể theo công thức Anh Tư; Nguyễn Huệ, vua Quang Trung và vua Lê chỉ xuất hiện từ phía sau hoặc từ xa. **Hai video từ cùng 7 clip:** YouTube đủ 7 cảnh (khoảng 67 giây); TikTok 4 cảnh chính, giữ gần trọn từng cảnh (khoảng 35 giây).
 
 **Truyền tụng (mức C):** trên đường ra Bắc đánh quân Thanh cuối năm 1788, vua Quang Trung dụ tướng sĩ:
 
@@ -32,7 +32,7 @@ Nếu Muse cho chọn hoặc tải **giọng tham chiếu** (voice reference), h
 ## Clip 1: Hôm nay vua nói
 File Muse đặt tên: `qt9-1.mp4`
 
-**Bản TikTok:** chỉ dùng giây 0 đến 5 của clip này.
+**Bản TikTok:** bỏ clip này.
 
 **Ảnh khung đầu**
 ```
@@ -47,7 +47,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 ## Clip 2: Vua bước lên đài
 File Muse đặt tên: `qt9-2.mp4`
 
-**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+**Bản TikTok:** bỏ clip này.
 
 **Ảnh khung đầu**
 ```
@@ -62,7 +62,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 ## Clip 3: Dài tóc, đen răng
 File Muse đặt tên: `qt9-3.mp4`
 
-**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+**Bản TikTok:** chỉ dùng giây 0 đến 9.7 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -77,7 +77,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 ## Clip 4: Không một bánh xe
 File Muse đặt tên: `qt9-4.mp4`
 
-**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+**Bản TikTok:** chỉ dùng giây 0.2 đến 9.7 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -92,7 +92,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 ## Clip 5: Nghĩa là gì
 File Muse đặt tên: `qt9-5.mp4`
 
-**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+**Bản TikTok:** bỏ clip này.
 
 **Ảnh khung đầu**
 ```
@@ -107,7 +107,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 ## Clip 6: Nam quốc anh hùng
 File Muse đặt tên: `qt9-6.mp4`
 
-**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+**Bản TikTok:** chỉ dùng giây 0.2 đến 9.8 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -122,7 +122,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 ## Clip 7: Câu chốt
 File Muse đặt tên: `qt9-7.mp4`
 
-**Bản TikTok:** chỉ dùng giây 3 đến 10 của clip này.
+**Bản TikTok:** chỉ dùng giây 2.7 đến 10 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -202,13 +202,13 @@ end: Follow để xem / loạt Quang Trung / tập tiếp theo →
 nhan: AI tái hiện · lời dụ theo truyền tụng
 end_giay: 1.6
 
-clip: qt9-1.mp4 | Lễ thệ sư · cuối năm 1788 | tiktok=0-5
-clip: qt9-2.mp4 | Vua Quang Trung | tiktok=5-10
-clip: qt9-3.mp4 | Vua Quang Trung | tiktok=5-10
-clip: qt9-4.mp4 | Vua Quang Trung | tiktok=5-10
-clip: qt9-5.mp4 |  | tiktok=5-10
-clip: qt9-6.mp4 | Vua Quang Trung | tiktok=5-10
-clip: qt9-7.mp4 |  | tiktok=3-10
+clip: qt9-1.mp4 | Lễ thệ sư · cuối năm 1788 | tiktok=bo
+clip: qt9-2.mp4 | Vua Quang Trung | tiktok=bo
+clip: qt9-3.mp4 | Vua Quang Trung | tiktok=0-9.7
+clip: qt9-4.mp4 | Vua Quang Trung | tiktok=0.2-9.7
+clip: qt9-5.mp4 |  | tiktok=bo
+clip: qt9-6.mp4 | Vua Quang Trung | tiktok=0.2-9.8
+clip: qt9-7.mp4 |  | tiktok=2.7-10
 
 sub: 1 | 0.3-2.2 | Đứng thẳng. / Hôm nay vua nói.
 sub: 1 | 2.2-3.4 | Nói với cả mấy vạn người ạ?

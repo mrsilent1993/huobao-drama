@@ -20,8 +20,7 @@ NOTE = ("**Tự hào Đại Việt:** những lần tổ tiên khiến ta tự h
         "đủ clip; bản ngắn (TikTok) vẫn đủ cả 6 cảnh.")
 LEN6 = ("hai video từ cùng 6 clip: **bản dài** (YouTube, khoảng 58 giây sau chuyển cảnh) và **bản ngắn** (TikTok, khoảng "
         "38 giây) vẫn đủ cả 6 cảnh: cảnh mở đầu và cảnh kết giữ nguyên, 4 cảnh giữa cắt lấy 5 giây chứa câu chính")
-LEN7 = ("hai video từ cùng 7 clip: **bản dài** (YouTube, khoảng 60–70 giây sau chuyển cảnh) và **bản ngắn** (TikTok, khoảng "
-        "30–35 giây) vẫn đủ cả 7 cảnh: mỗi clip lấy khoảng 5 giây chứa câu chính, cảnh câu đáng gửi bạn bè lấy dài hơn")
+LEN7 = ("hai video từ cùng 7 clip: **YouTube** đủ 7 cảnh (khoảng 67 giây); **TikTok** chọn **4 cảnh chính**, giữ gần trọn từng cảnh (khoảng 35 giây) để không mất câu thoại nào; các cảnh còn lại chỉ có ở bản YouTube")
 # Tập mới từ 19/11/2026: length=LEN7, muc=MUC_MOI.
 END = "Follow để xem / Tự hào Đại Việt / tập tiếp theo →"
 

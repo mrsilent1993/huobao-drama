@@ -4,13 +4,13 @@ end: Follow để xem / Tự hào Đại Việt / tập tiếp theo →
 nhan: AI tái hiện · lời thoại hư cấu
 end_giay: 1.6
 
-clip: th1396b-1.mp4 | Sáng · chợ Thăng Long, 1396 | tiktok=0-5
-clip: th1396b-2.mp4 | Gần trưa | tiktok=5-10
-clip: th1396b-3.mp4 | Trưa | tiktok=5-10
-clip: th1396b-4.mp4 | Chiều | tiktok=5-10
-clip: th1396b-5.mp4 | Tối | tiktok=5-10
-clip: th1396b-6.mp4 | Đêm | tiktok=5-10
-clip: th1396b-7.mp4 |  | tiktok=3-10
+clip: th1396b-1.mp4 | Sáng · chợ Thăng Long, 1396 | tiktok=0-9.7
+clip: th1396b-2.mp4 | Gần trưa | tiktok=0.2-9.7
+clip: th1396b-3.mp4 | Trưa | tiktok=bo
+clip: th1396b-4.mp4 | Chiều | tiktok=bo
+clip: th1396b-5.mp4 | Tối | tiktok=0.2-9.7
+clip: th1396b-6.mp4 | Đêm | tiktok=bo
+clip: th1396b-7.mp4 |  | tiktok=2.7-10
 
 sub: 1 | 0.3-2.4 | Công cả tháng. / Một quan.
 sub: 1 | 2.4-3.4 | Tiền... bằng giấy ạ?

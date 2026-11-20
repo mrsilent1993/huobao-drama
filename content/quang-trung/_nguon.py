@@ -25,9 +25,8 @@ QT_LOOK = ("Emperor Quang Trung is seen ONLY from behind or far away: a tall, br
 QT_SHOT = "Emperor Quang Trung seen ONLY from behind, tall and broad-shouldered in a dark-red battle robe and black turban"
 NOTE = ("**Loạt Quang Trung (Q1–Q8):** những sự kiện nổi tiếng còn thiếu, ghép với loạt Tây Sơn từng mốc thành một danh sách "
         "phát. Kể theo công thức Anh Tư; Nguyễn Huệ, vua Quang Trung và vua Lê chỉ xuất hiện từ phía sau hoặc từ xa. "
-        "**Hai video từ cùng 7 clip:** YouTube khoảng 67 giây, TikTok khoảng 35 giây, vẫn đủ 7 cảnh.")
-LEN = ("hai video từ cùng 7 clip: **YouTube** khoảng 67 giây và **TikTok** khoảng 35 giây, vẫn đủ 7 cảnh (mỗi clip lấy "
-       "khoảng 5 giây chứa câu chính, cảnh cuối 7 giây)")
+        "**Hai video từ cùng 7 clip:** YouTube đủ 7 cảnh (khoảng 67 giây); TikTok 4 cảnh chính, giữ gần trọn từng cảnh (khoảng 35 giây).")
+LEN = ("hai video từ cùng 7 clip: **YouTube** đủ 7 cảnh (khoảng 67 giây); **TikTok** chọn **4 cảnh chính**, giữ gần trọn từng cảnh (khoảng 35 giây) để không mất câu thoại nào; các cảnh còn lại chỉ có ở bản YouTube")
 END = "Follow để xem / loạt Quang Trung / tập tiếp theo →"
 COMMON = dict(length=LEN, muc=MUC_MOI, giong=HUE, end=END, end_secs=1.6)
 YT = "quang trung, nguyễn huệ, tây sơn, lịch sử việt nam, pov lịch sử, anh tư, đại việt, shorts"
@@ -1058,6 +1057,11 @@ for _ep in EPISODES:
     for _c in _ep["clips"]:
         if _c.get("setting"):
             _c["setting"] = _c["setting"] + " " + ACTING
+
+TIKTOK_CANH = {'qt1': [1, 3, 4, 7], 'qt2': [1, 2, 5, 7], 'qt3': [1, 3, 4, 7], 'qt4': [1, 4, 5, 7], 'qt5': [1, 3, 4, 7], 'qt6': [1, 2, 4, 7], 'qt7': [1, 2, 4, 7], 'qt8': [1, 3, 4, 7], 'qt9': [3, 4, 6, 7], 'qt10': [1, 3, 5, 7], 'qt11': [1, 4, 5, 7], 'qt12': [1, 3, 4, 7], 'qt13': [1, 3, 5, 7], 'qt14': [1, 3, 6, 7], 'qt15': [1, 4, 6, 7]}
+for _ep in EPISODES:
+    if _ep["prefix"] in TIKTOK_CANH:
+        _ep["tiktok_canh"] = TIKTOK_CANH[_ep["prefix"]]
 
 
 if __name__ == "__main__":

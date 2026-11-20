@@ -4,13 +4,13 @@ end: Follow để xem / phần 3/3: rơm ướt →
 nhan: AI tái hiện · theo truyền thuyết
 end_giay: 1.6
 
-clip: tkd2-1.mp4 | Hành quân ra Bắc · Tết 1789 | tiktok=0-5
-clip: tkd2-2.mp4 |  | tiktok=5-10
-clip: tkd2-3.mp4 |  | tiktok=5-10
-clip: tkd2-4.mp4 |  | tiktok=5-10
-clip: tkd2-5.mp4 |  | tiktok=5-10
-clip: tkd2-6.mp4 |  | tiktok=5-10
-clip: tkd2-7.mp4 |  | tiktok=3-10
+clip: tkd2-1.mp4 | Hành quân ra Bắc · Tết 1789 | tiktok=0-9.7
+clip: tkd2-2.mp4 |  | tiktok=bo
+clip: tkd2-3.mp4 |  | tiktok=0.2-9.7
+clip: tkd2-4.mp4 |  | tiktok=0.2-9.7
+clip: tkd2-5.mp4 |  | tiktok=bo
+clip: tkd2-6.mp4 |  | tiktok=bo
+clip: tkd2-7.mp4 |  | tiktok=2.7-10
 
 sub: 1 | 0.3-2.4 | Ba người một võng. / Hai khiêng, một ngủ.
 sub: 1 | 2.4-3.4 | Ngủ... / lúc đi đánh giặc ạ?

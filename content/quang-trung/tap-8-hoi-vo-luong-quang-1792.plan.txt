@@ -4,13 +4,13 @@ end: Follow để xem / loạt Quang Trung / tập tiếp theo →
 nhan: AI tái hiện · lời thoại hư cấu
 end_giay: 1.6
 
-clip: qt8-1.mp4 | Phú Xuân · đầu năm 1792 | tiktok=0-5
-clip: qt8-2.mp4 |  | tiktok=5-10
-clip: qt8-3.mp4 |  | tiktok=5-10
-clip: qt8-4.mp4 |  | tiktok=5-10
-clip: qt8-5.mp4 |  | tiktok=5-10
-clip: qt8-6.mp4 |  | tiktok=5-10
-clip: qt8-7.mp4 |  | tiktok=3-10
+clip: qt8-1.mp4 | Phú Xuân · đầu năm 1792 | tiktok=0-9.7
+clip: qt8-2.mp4 |  | tiktok=bo
+clip: qt8-3.mp4 |  | tiktok=0.2-9.7
+clip: qt8-4.mp4 |  | tiktok=0.2-9.7
+clip: qt8-5.mp4 |  | tiktok=bo
+clip: qt8-6.mp4 |  | tiktok=bo
+clip: qt8-7.mp4 |  | tiktok=2.7-10
 
 sub: 1 | 0.3-2.2 | Khiêng lễ vật. / Đi hỏi vợ cho vua.
 sub: 1 | 2.2-3.4 | Hỏi con gái nhà ai ạ?

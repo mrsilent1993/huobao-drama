@@ -6,7 +6,7 @@
 | File nguồn | `content/tet-ky-dau-1789/phan-2-ngu-tren-vong-1789.md` (sửa nội dung ở `content/tet-ky-dau-1789/_nguon.py`) |
 | Số clip Muse | 7 (`tkd2-1.mp4` … `tkd2-7.mp4`) |
 | Bản YouTube | khoảng 68 giây (đủ clip, đã trừ chuyển cảnh) |
-| Bản TikTok | khoảng 35 giây (vẫn đủ mọi cảnh) |
+| Bản TikTok | khoảng 35 giây (rút gọn, bỏ một số clip) |
 | Hook giây đầu | POV: Đi đánh giặc mà bị lệnh nằm ngủ |
 | Nhãn đầu video | AI tái hiện · theo truyền thuyết |
 | Đã đăng | [ ] chưa đăng |
@@ -15,21 +15,21 @@
 
 | Clip | File Muse | Cảnh | Mốc thời gian trên video | Bản TikTok dùng | Nối cảnh |
 |---|---|---|---|---|---|
-| 1 | `tkd2-1.mp4` | Lệnh ngủ | Hành quân ra Bắc · Tết 1789 | giây 0–5 | — |
-| 2 | `tkd2-2.mp4` | Võng đưa | — | giây 5–10 | — |
-| 3 | `tkd2-3.mp4` | Đổi! | — | giây 5–10 | — |
-| 4 | `tkd2-4.mp4` | Một phần ba | — | giây 5–10 | — |
-| 5 | `tkd2-5.mp4` | Bà cụ bên đường | — | giây 5–10 | — |
-| 6 | `tkd2-6.mp4` | Ngủ đủ giấc | — | giây 5–10 | — |
-| 7 | `tkd2-7.mp4` | Câu chốt | — | giây 3–10 | — |
+| 1 | `tkd2-1.mp4` | Lệnh ngủ | Hành quân ra Bắc · Tết 1789 | giây 0–9.7 | — |
+| 2 | `tkd2-2.mp4` | Võng đưa | — | bỏ | — |
+| 3 | `tkd2-3.mp4` | Đổi! | — | giây 0.2–9.7 | — |
+| 4 | `tkd2-4.mp4` | Một phần ba | — | giây 0.2–9.7 | — |
+| 5 | `tkd2-5.mp4` | Bà cụ bên đường | — | bỏ | — |
+| 6 | `tkd2-6.mp4` | Ngủ đủ giấc | — | bỏ | — |
+| 7 | `tkd2-7.mp4` | Câu chốt | — | giây 2.7–10 | — |
 
 ## 2. Bối cảnh, lịch sử, giọng nhân vật
 
-**Độ dài:** hai video từ cùng 7 clip: **YouTube** khoảng 67 giây và **TikTok** khoảng 35 giây, vẫn đủ 7 cảnh (mỗi clip lấy khoảng 5 giây chứa câu chính, cảnh cuối 7 giây)
+**Độ dài:** hai video từ cùng 7 clip: **YouTube** đủ 7 cảnh (khoảng 67 giây); **TikTok** chọn **4 cảnh chính**, giữ gần trọn từng cảnh (khoảng 35 giây) để không mất câu thoại nào; các cảnh còn lại chỉ có ở bản YouTube
 
 Copy từng khối dán thẳng vào phần mềm. Prompt đã ghép đủ, không cần thay gì.
 
-**Tết Kỷ Dậu 1789 (3 phần):** ba chuyện truyền tụng về Tết năm ấy, kể theo công thức Anh Tư, nối với loạt Tây Sơn từng mốc. Vua Quang Trung chỉ xuất hiện từ phía sau hoặc từ xa; quân Thanh chỉ là bối cảnh, không cảnh chết. **Hai video từ cùng 7 clip:** YouTube khoảng 67 giây, TikTok khoảng 35 giây, vẫn đủ 7 cảnh.
+**Tết Kỷ Dậu 1789 (3 phần):** ba chuyện truyền tụng về Tết năm ấy, kể theo công thức Anh Tư, nối với loạt Tây Sơn từng mốc. Vua Quang Trung chỉ xuất hiện từ phía sau hoặc từ xa; quân Thanh chỉ là bối cảnh, không cảnh chết. **Hai video từ cùng 7 clip:** YouTube đủ 7 cảnh (khoảng 67 giây); TikTok 4 cảnh chính, giữ gần trọn từng cảnh (khoảng 35 giây).
 
 **Lịch sử:** từ Tam Điệp, quân Tây Sơn tiến ra Bắc rất nhanh: đêm mùng 3 Tết đã vây đồn Hà Hồi, sáng mùng 5 đánh đồn Ngọc Hồi (mức B). **Truyền tụng (mức C):** để đi nhanh mà không kiệt sức, quân chia ba người một tốp, hai người khiêng võng, một người nằm nghỉ, cứ thế thay nhau đi cả ngày lẫn đêm. Chưa có chính sử chép rõ chi tiết này, nên video gắn nhãn "theo truyền tụng". **Hư cấu:** Anh Tư, người đồng đội ngáy to, bà cụ bên đường và mọi lời thoại.
 
@@ -53,7 +53,7 @@ Nếu Muse cho chọn hoặc tải **giọng tham chiếu** (voice reference), h
 
 File Muse đặt tên: `tkd2-1.mp4`
 
-**Bản TikTok:** chỉ dùng giây 0 đến 5 của clip này.
+**Bản TikTok:** chỉ dùng giây 0 đến 9.7 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -69,7 +69,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 File Muse đặt tên: `tkd2-2.mp4`
 
-**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+**Bản TikTok:** bỏ clip này.
 
 **Ảnh khung đầu**
 ```
@@ -85,7 +85,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 File Muse đặt tên: `tkd2-3.mp4`
 
-**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+**Bản TikTok:** chỉ dùng giây 0.2 đến 9.7 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -101,7 +101,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 File Muse đặt tên: `tkd2-4.mp4`
 
-**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+**Bản TikTok:** chỉ dùng giây 0.2 đến 9.7 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -117,7 +117,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 File Muse đặt tên: `tkd2-5.mp4`
 
-**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+**Bản TikTok:** bỏ clip này.
 
 **Ảnh khung đầu**
 ```
@@ -133,7 +133,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 File Muse đặt tên: `tkd2-6.mp4`
 
-**Bản TikTok:** chỉ dùng giây 5 đến 10 của clip này.
+**Bản TikTok:** bỏ clip này.
 
 **Ảnh khung đầu**
 ```
@@ -149,7 +149,7 @@ First-person POV video, handheld camera at eye level as if seen through the view
 
 File Muse đặt tên: `tkd2-7.mp4`
 
-**Bản TikTok:** chỉ dùng giây 3 đến 10 của clip này.
+**Bản TikTok:** chỉ dùng giây 2.7 đến 10 của clip này.
 
 **Ảnh khung đầu**
 ```
@@ -170,13 +170,13 @@ end: Follow để xem / phần 3/3: rơm ướt →
 nhan: AI tái hiện · theo truyền thuyết
 end_giay: 1.6
 
-clip: tkd2-1.mp4 | Hành quân ra Bắc · Tết 1789 | tiktok=0-5
-clip: tkd2-2.mp4 |  | tiktok=5-10
-clip: tkd2-3.mp4 |  | tiktok=5-10
-clip: tkd2-4.mp4 |  | tiktok=5-10
-clip: tkd2-5.mp4 |  | tiktok=5-10
-clip: tkd2-6.mp4 |  | tiktok=5-10
-clip: tkd2-7.mp4 |  | tiktok=3-10
+clip: tkd2-1.mp4 | Hành quân ra Bắc · Tết 1789 | tiktok=0-9.7
+clip: tkd2-2.mp4 |  | tiktok=bo
+clip: tkd2-3.mp4 |  | tiktok=0.2-9.7
+clip: tkd2-4.mp4 |  | tiktok=0.2-9.7
+clip: tkd2-5.mp4 |  | tiktok=bo
+clip: tkd2-6.mp4 |  | tiktok=bo
+clip: tkd2-7.mp4 |  | tiktok=2.7-10
 
 sub: 1 | 0.3-2.4 | Ba người một võng. / Hai khiêng, một ngủ.
 sub: 1 | 2.4-3.4 | Ngủ... / lúc đi đánh giặc ạ?
