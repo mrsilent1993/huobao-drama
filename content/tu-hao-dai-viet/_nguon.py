@@ -367,6 +367,94 @@ EPISODES = [
         yt_tags=("lê thánh tông, một thước núi một tấc sông, hồng đức, bản đồ hồng đức, biên giới, nhà lê, tự hào đại việt, "
                  "lịch sử việt nam, pov lịch sử, anh tư, đại việt, shorts"),
     ),
+    # ------------------------------------------------------------------ 1282 Trần Quốc Toản bóp nát quả cam
+    dict(
+        slug="qua-cam-tran-quoc-toan-1282", prefix="th1282",
+        length=LEN7, muc=MUC_MOI, tiktok_canh=[1, 4, 6, 7],
+        voices={"gatekeeper": "a dry, polite but firm middle-aged male voice",
+                "palace servant": "a soft, careful male voice",
+                "embroiderer": "a calm, steady middle-aged woman's voice"},
+        title="Đứng ngoài cửa hội nghị giữ ngựa cho cậu chủ, lúc cậu bước ra tay chảy đầy nước cam (Trần Quốc Toản, Bình Than 1282)",
+        history=("**Lịch sử:** năm 1282, vua Trần họp các vương hầu ở Bình Than bàn việc chống quân Nguyên. Hoài Văn hầu **Trần "
+                 "Quốc Toản** khi ấy khoảng 15 tuổi, **còn nhỏ nên không được dự bàn**; vua thương, ban cho một quả cam. Quốc Toản "
+                 "uất ức, **bóp nát quả cam lúc nào không biết**. Về sau ông về tập hợp **hơn nghìn gia nô và thân thích**, sắm vũ "
+                 "khí, đóng thuyền, may lá cờ đề sáu chữ **\"Phá cường địch, báo hoàng ân\"** (*Đại Việt sử ký toàn thư*, mức B). "
+                 "**Hư cấu:** Anh Tư, người giữ cửa, người thêu cờ và mọi lời thoại. **An toàn trẻ em:** Quốc Toản là thiếu niên, "
+                 "nên chỉ thấy từ phía sau hoặc từ xa, không cận mặt, không dựng cảnh trận đánh; những người theo ông trong "
+                 "phim đều là người lớn. Lá cờ là cờ vải thời Trần, chữ thêu để mờ, câu chữ chỉ hiện ở phụ đề."),
+        setting=("Bình Than, Đại Việt, 1282: a large wooden riverside hall of the Trần court with red pillars, guards at the "
+                 "door, horses tied outside; later the courtyard of a noble house. Trần Quốc Toản is a slim teenage boy of about "
+                 "15 in a fine dark-blue noble's robe, seen ONLY from behind or from far away, never a close-up of his face. "
+                 "All other people are ADULTS: Trần nobles and officials in dark robes, household servants and relatives in "
+                 "brown clothes with topknots and black-lacquered teeth. A long red cloth banner on a bamboo pole with six "
+                 "embroidered golden characters that are blurred and unreadable. "
+                 f"Anh Tư is {FACE}, an adult household servant holding the young lord's horse. No modern flags, no other "
+                 "writing, no modern objects, no blood, no battle scenes."),
+        visual=("**Chuẩn hình ảnh (⚠️ hiểu biết chung):** điện gỗ thời Trần cột sơn son; vương hầu áo tối màu; gia nhân áo nâu, "
+                "búi tóc, răng đen. **Trần Quốc Toản chỉ thấy từ phía sau hoặc từ xa.** Lá cờ vải đỏ, chữ thêu mờ."),
+        hook="POV: Cậu chủ / không được vào họp",
+        end=END,
+        end_secs=1.6,
+        clips=[
+            dict(name="Chưa đủ tuổi", tiktok="0-5", label="Bình Than · 1282",
+                 img=f"First-person view at the door of a large wooden riverside hall, a firm gatekeeper raising his hand to stop a slim teenage boy in a fine robe seen only from behind, {FACE} beside the viewer holding a horse, realistic, vertical 9:16.",
+                 vid=("0-5s: The gatekeeper stops the slim boy, seen only from behind, and Anh Tư: \"Các ngươi đứng ngoài.\" Anh Tư: "
+                      "\"Cậu chủ em cũng là vương hầu mà?\" The gatekeeper: \"Tước thì có. Tuổi thì chưa.\" 5-10s: Anh Tư sighs to "
+                      "the viewer: \"Cậu chủ em đủ tước... chỉ thiếu mấy cái Tết.\""),
+                 subs=[(0.3, 2.2, "Các ngươi / đứng ngoài."), (2.2, 3.4, "Cậu chủ em / cũng là vương hầu mà?"),
+                       (3.4, 4.9, "Tước thì có. / Tuổi thì chưa."), (5.2, 9.5, "Cậu chủ em đủ tước... / chỉ thiếu mấy cái Tết.")]),
+            dict(name="Mòn cả gạch", tiktok="bo", label="",
+                 img=f"First-person view outside the hall, the slim boy seen only from behind pacing back and forth along the brick path with his hands clasped behind his back, {FACE} holding the horse and watching, realistic, vertical 9:16.",
+                 vid=("0-5s: Voices murmur inside the hall; outside, the boy, seen only from behind, paces back and forth on the "
+                      "brick path. 5-10s: Anh Tư says quietly to the viewer: \"Trong kia bàn việc nước... ngoài này cậu đi mòn cả "
+                      "gạch.\""),
+                 subs=[(5.0, 9.5, "Trong kia bàn việc nước... / ngoài này cậu đi / mòn cả gạch.")]),
+            dict(name="Quả cam", tiktok="bo", label="",
+                 img=f"First-person view as a careful palace servant comes out of the hall holding a single orange on a small tray and offers it to the boy seen only from behind, {FACE} watching, realistic, vertical 9:16.",
+                 vid=("0-5s: A palace servant comes out with a single orange on a tray: \"Vua thương hầu còn nhỏ, ban cho quả cam.\" "
+                      "The boy, seen only from behind, takes it without a word. 5-10s: Anh Tư whispers: \"Không cho vào họp... thì "
+                      "cho quả cam.\""),
+                 subs=[(0.5, 4.8, "Vua thương hầu còn nhỏ, / ban cho quả cam."), (5.0, 9.5, "Không cho vào họp... / thì cho quả cam.")]),
+            dict(name="Nước cam", label="",
+                 img=f"First-person medium view from behind as the slim boy walks away from the hall, his clenched fist at his side dripping orange juice onto the bricks, adult nobles coming out of the hall, {FACE} staring, realistic, vertical 9:16.",
+                 vid=("0-5s: The meeting ends; adult nobles come out talking. The boy, seen only from behind, walks away fast; juice "
+                      "drips from his clenched fist onto the bricks. 5-10s: Anh Tư, very quietly, to the viewer: \"Cậu không được "
+                      "vào họp... lúc bước ra, tay cậu chảy đầy nước cam.\""),
+                 subs=[(5.0, 9.5, "Cậu không được vào họp... / lúc bước ra, / tay cậu chảy đầy nước cam.")]),
+            dict(name="Gọi người", tiktok="bo", label="",
+                 img=f"First-person view in the courtyard of a noble house, rows of adult servants and relatives in brown clothes lining up, the boy seen only from behind standing on the steps, {FACE} in the front row, realistic, vertical 9:16.",
+                 vid=("0-5s: In the courtyard, rows of adult servants and relatives line up; the boy, seen only from behind on the "
+                      "steps, raises one arm. 5-10s: Anh Tư, in the front row, says quietly: \"Không cho cậu bàn việc nước... cậu tự "
+                      "đi làm việc nước.\""),
+                 subs=[(5.0, 9.5, "Không cho cậu bàn việc nước... / cậu tự đi làm việc nước.")]),
+            dict(name="Thêu cờ", label="",
+                 img=f"First-person view inside the house, adult women embroidering six golden characters (blurred, unreadable) on a long red cloth banner by lamplight, {FACE} holding the end of the cloth, realistic, vertical 9:16.",
+                 vid=("0-5s: By lamplight adult women embroider golden characters on a long red banner. Anh Tư, holding the cloth: "
+                      "\"Thêu chữ gì đấy ạ?\" The embroiderer, without looking up: \"Phá cường địch, báo hoàng ân.\" 5-10s: Anh Tư "
+                      "says quietly to the viewer: \"Em không biết chữ... nhưng em hiểu nghĩa.\""),
+                 subs=[(0.5, 2.4, "Thêu chữ gì đấy ạ?"), (2.4, 4.8, "Phá cường địch, / báo hoàng ân."),
+                       (5.0, 9.5, "Em không biết chữ... / nhưng em hiểu nghĩa.")]),
+            dict(name="Câu chốt", label="",
+                 img=f"First-person view at dawn in the courtyard, the red banner raised on a tall bamboo pole, the boy seen only from behind and far away beneath it, rows of adults around him, {FACE} holding the pole steady, realistic, vertical 9:16.",
+                 vid=("0-4.5s: Dawn; the red banner is raised on a tall pole; the boy stands beneath it, seen only from behind and far "
+                      "away. A calm narrator's voice says: \"Năm 1282, Trần Quốc Toản còn nhỏ, không được dự bàn ở Bình Than, bóp nát "
+                      "quả cam. Về sau cậu tự tập hợp người, giương cờ: Phá cường địch, báo hoàng ân.\" 4.5-10s: Anh Tư, holding the "
+                      "pole, says quietly to the camera: \"Không được ngồi vào bàn... cậu tự dựng cả một lá cờ.\""),
+                 subs=[(3.0, 6.0, "Năm 1282, không được dự bàn, / Trần Quốc Toản / bóp nát quả cam, / về dựng cờ đánh giặc."),
+                       (6.1, 8.4, "Không được ngồi vào bàn... / cậu tự dựng / cả một lá cờ.")]),
+        ],
+        caption=("Đứng ngoài cửa giữ ngựa cho cậu chủ, lúc cậu bước ra tay chảy đầy nước cam 🍊 Năm 1282, Trần Quốc Toản còn nhỏ, "
+                 "không được dự bàn việc nước ở Bình Than, bóp nát quả cam lúc nào không biết, rồi về tự dựng cờ \"Phá cường địch, "
+                 "báo hoàng ân\". Bạn học chuyện này năm lớp mấy? 👇"),
+        tags="#tuhaodaiviet #tranquoctoan #bopnatquacam #nhatran #1282",
+        tt_title="Cậu chủ không được vào họp, lúc bước ra tay chảy đầy nước cam",
+        hooks_alt=["POV: Tước thì có / tuổi thì chưa", "POV: Không cho vào họp / thì cho quả cam"],
+        pin=("\"Phá cường địch, báo hoàng ân\": phá giặc mạnh, đền ơn vua 🔥 Bạn còn nhớ bài \"Lá cờ thêu sáu chữ vàng\" không? "
+             "Follow để xem Tự hào Đại Việt tập tiếp theo!"),
+        yt_title="Trần Quốc Toản bóp nát quả cam (1282): \"Phá cường địch, báo hoàng ân\" | Tự hào Đại Việt",
+        yt_tags=("trần quốc toản, bóp nát quả cam, hội nghị bình than, phá cường địch báo hoàng ân, lá cờ thêu sáu chữ vàng, "
+                 "nhà trần, 1282, tự hào đại việt, lịch sử việt nam, pov lịch sử, anh tư, shorts"),
+    ),
 ]
 
 ACTING = ("Acting: natural and understated, like real people filmed in a documentary; small reactions (a sigh, a glance, a pause, a shake of the head) instead of big expressions. Anh Tư smiles at most once in the whole clip and never laughs at the camera; no exaggerated mugging or cartoonish faces.")

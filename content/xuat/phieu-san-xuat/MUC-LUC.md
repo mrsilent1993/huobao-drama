@@ -2,7 +2,7 @@
 
 Mỗi video một phiếu theo cùng mẫu: thông tin chung, danh sách clip, bối cảnh và giọng, prompt từng clip, chữ trên video, thông tin đăng, bảng kiểm tra trước khi đăng. Xuất lại bằng `python3 tools/xuat_phieu.py` (chạy từ thư mục `content/`).
 
-**Tổng cộng 83 phiếu.** ✅ = đã đăng (theo trang quản lý TikTok ngày 18/11/2026), ☐ = chưa đăng.
+**Tổng cộng 84 phiếu.** ✅ = đã đăng (theo trang quản lý TikTok ngày 18/11/2026), ☐ = chưa đăng.
 
 ## Tự hào Đại Việt
 
@@ -12,6 +12,7 @@ Mỗi video một phiếu theo cùng mẫu: thông tin chung, danh sách clip, b
 | 2 | Bị sai đi rót nước cho các cụ già khắp nước về kinh, không ai nói họp gì (Hội nghị Diên Hồng, 1285) | 6 | ~58s | ~38s | ☐ | `tu-hao-dai-viet/02-tap-2-rot-nuoc-dien-hong-1285.md` |
 | 3 | Bị sai pha mực cả đêm cho cả đạo quân xăm chữ lên tay (Sát Thát, 1285) | 6 | ~58s | ~38s | ☐ | `tu-hao-dai-viet/03-tap-3-pha-muc-sat-that-1285.md` |
 | 4 | Bị sai đi đo đất biên giới từng tấc, thiếu một tấc cũng phải đo lại (Lê Thánh Tông, khoảng 1473) | 6 | ~58s | ~38s | ☐ | `tu-hao-dai-viet/04-tap-4-do-dat-bien-gioi-1473.md` |
+| 5 | Đứng ngoài cửa hội nghị giữ ngựa cho cậu chủ, lúc cậu bước ra tay chảy đầy nước cam (Trần Quốc Toản, Bình Than 1282) | 7 | ~68s | ~35s | ☐ | `tu-hao-dai-viet/05-tap-5-qua-cam-tran-quoc-toan-1282.md` |
 
 ## Tết Kỷ Dậu 1789 (3 phần)
 

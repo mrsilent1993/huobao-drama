@@ -1,0 +1,28 @@
+# Dựng: python3 ../tools/tiktok.py tap-5-qua-cam-tran-quoc-toan-1282.plan.txt tap-5-qua-cam-tran-quoc-toan-1282.mp4  (ra tap-5-qua-cam-tran-quoc-toan-1282-youtube.mp4 và tap-5-qua-cam-tran-quoc-toan-1282-tiktok.mp4)
+hook: POV: Cậu chủ / không được vào họp
+end: Follow để xem / Tự hào Đại Việt / tập tiếp theo →
+nhan: AI tái hiện · lời thoại hư cấu
+end_giay: 1.6
+
+clip: th1282-1.mp4 | Bình Than · 1282 | tiktok=0-9.7
+clip: th1282-2.mp4 |  | tiktok=bo
+clip: th1282-3.mp4 |  | tiktok=bo
+clip: th1282-4.mp4 |  | tiktok=0.2-9.7
+clip: th1282-5.mp4 |  | tiktok=bo
+clip: th1282-6.mp4 |  | tiktok=0.2-9.7
+clip: th1282-7.mp4 |  | tiktok=2.7-10
+
+sub: 1 | 0.3-2.2 | Các ngươi / đứng ngoài.
+sub: 1 | 2.2-3.4 | Cậu chủ em / cũng là vương hầu mà?
+sub: 1 | 3.4-4.9 | Tước thì có. / Tuổi thì chưa.
+sub: 1 | 5.2-9.5 | Cậu chủ em đủ tước... / chỉ thiếu mấy cái Tết.
+sub: 2 | 5.0-9.5 | Trong kia bàn việc nước... / ngoài này cậu đi / mòn cả gạch.
+sub: 3 | 0.5-4.8 | Vua thương hầu còn nhỏ, / ban cho quả cam.
+sub: 3 | 5.0-9.5 | Không cho vào họp... / thì cho quả cam.
+sub: 4 | 5.0-9.5 | Cậu không được vào họp... / lúc bước ra, / tay cậu chảy đầy nước cam.
+sub: 5 | 5.0-9.5 | Không cho cậu bàn việc nước... / cậu tự đi làm việc nước.
+sub: 6 | 0.5-2.4 | Thêu chữ gì đấy ạ?
+sub: 6 | 2.4-4.8 | Phá cường địch, / báo hoàng ân.
+sub: 6 | 5.0-9.5 | Em không biết chữ... / nhưng em hiểu nghĩa.
+sub: 7 | 3.0-6.0 | Năm 1282, không được dự bàn, / Trần Quốc Toản / bóp nát quả cam, / về dựng cờ đánh giặc.
+sub: 7 | 6.1-8.4 | Không được ngồi vào bàn... / cậu tự dựng / cả một lá cờ.
