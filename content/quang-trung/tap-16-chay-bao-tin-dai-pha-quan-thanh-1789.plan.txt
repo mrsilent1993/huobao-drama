@@ -1,0 +1,29 @@
+# Dựng: python3 ../tools/tiktok.py tap-16-chay-bao-tin-dai-pha-quan-thanh-1789.plan.txt tap-16-chay-bao-tin-dai-pha-quan-thanh-1789.mp4  (ra tap-16-chay-bao-tin-dai-pha-quan-thanh-1789-youtube.mp4 và tap-16-chay-bao-tin-dai-pha-quan-thanh-1789-tiktok.mp4)
+hook: POV: Chạy báo tin / thắng trận / mà không kịp
+end: Follow để xem / loạt Quang Trung / tập tiếp theo →
+nhan: AI tái hiện · lời thoại hư cấu
+end_giay: 1.6
+
+clip: qt16-1.mp4 | Tam Điệp · đêm 30 Tết | tiktok=0-9.7
+clip: qt16-2.mp4 | Hà Hồi · đêm mùng 3 | tiktok=bo
+clip: qt16-3.mp4 | Ngọc Hồi · sáng mùng 5 | tiktok=0.2-9.7
+clip: qt16-4.mp4 | Đống Đa · mùng 5 | tiktok=bo
+clip: qt16-5.mp4 | Sông Hồng · mùng 5 | tiktok=bo
+clip: qt16-6.mp4 | Thăng Long · trưa mùng 5 | tiktok=0.2-9.7
+clip: qt16-7.mp4 |  | tiktok=2.7-10
+
+sub: 1 | 0.3-2.2 | Mày chạy tin. / Đạo nào thắng, báo về vua.
+sub: 1 | 2.2-3.4 | Năm đạo quân... / một mình em ạ?
+sub: 1 | 3.4-4.9 | Chân mày / dài nhất trại.
+sub: 1 | 5.2-9.5 | Chân dài... / thì khổ.
+sub: 2 | 0.5-2.6 | Bẩm... đồn Hà Hồi...
+sub: 2 | 2.6-4.8 | Biết rồi. / Hàng rồi.
+sub: 2 | 5.0-9.5 | Em chạy hụt hơi... / tin đã cũ.
+sub: 3 | 0.5-4.8 | Đồn vỡ rồi! / Đồn vỡ rồi!
+sub: 3 | 5.0-9.5 | Em báo đồn vỡ... / vua đã đi qua đồn rồi.
+sub: 4 | 5.0-9.5 | Bên này thắng, / bên kia cũng thắng... / em không biết / báo bên nào trước.
+sub: 5 | 5.0-9.5 | Ông ấy không kịp đóng yên... / mà chạy còn nhanh hơn em.
+sub: 6 | 0.5-4.8 | Quân ta vào rồi!
+sub: 6 | 5.0-9.5 | Em chạy báo tin thắng / cả ngày... / mà thắng nhanh hơn em chạy.
+sub: 7 | 3.0-6.0 | Đêm 30 đến trưa mùng 5 Tết: / Hà Hồi, Ngọc Hồi, Đống Đa. / Thăng Long được giải phóng.
+sub: 7 | 6.1-8.4 | Cả đời đưa tin... / chưa tin nào cũ nhanh thế.

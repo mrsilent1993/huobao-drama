@@ -1049,6 +1049,81 @@ EPISODES = [
              "loạt Quang Trung tập tiếp theo!"),
         yt_title="Năm 1788: Nguyễn Huệ bí mật ra Bắc bắt Vũ Văn Nhậm | Loạt Quang Trung",
         yt_tags="vũ văn nhậm, 1788, ngô văn sở, ra bắc lần hai, thăng long, " + YT),
+    # ================================================================== Tập 16 · Đại phá quân Thanh, Ngọc Hồi – Đống Đa (Tết 1789)
+    dict(COMMON, slug="chay-bao-tin-dai-pha-quan-thanh-1789", prefix="qt16",
+        voices={"officer": "a short, stern male voice", "Quang Trung": QT_VOICE,
+                "townswoman": "a warm, excited middle-aged woman's voice, Northern accent"},
+        title="Tập 16 · Được giao chạy báo tin thắng trận cho vua, mà chạy mãi không kịp vì… thắng nhanh quá (đại phá quân Thanh, Tết Kỷ Dậu 1789)",
+        history=("**Lịch sử:** từ đêm 30 Tết Mậu Thân đến trưa mùng 5 Tết Kỷ Dậu (25–30/1/1789), quân Tây Sơn chia nhiều đạo tiến ra "
+                 "Bắc: đêm mùng 3 vây đồn **Hà Hồi**, quân Thanh trong đồn ra hàng; sáng mùng 5 vua Quang Trung cưỡi voi đốc thúc "
+                 "đánh đồn **Ngọc Hồi** bằng những bức ván phủ rơm dấp nước; cùng lúc đạo quân của Đô đốc Long đánh đồn **Khương "
+                 "Thượng (Đống Đa)**, tướng Thanh Sầm Nghi Đống chết ở đó. Tôn Sĩ Nghị hoảng hốt bỏ chạy, \"ngựa không kịp đóng "
+                 "yên, người không kịp mặc giáp\", qua cầu phao sông Hồng; **trưa mùng 5 vua vào Thăng Long**, sớm hơn lời hẹn "
+                 "mùng 7 (*Hoàng Lê nhất thống chí* hồi 14 và sử nhà Nguyễn, mức B/C; quân số hai bên các nguồn ghi rất khác "
+                 "nhau nên phim không nêu số). **Hư cấu:** Anh Tư làm lính chạy tin, mọi lời thoại trừ lời vua hẹn. Cái chết chỉ "
+                 "ghi trong phần lịch sử này; phim không dựng cảnh chết, không dựng gò Đống Đa, không dựng người rơi xuống sông."),
+        setting=("Northern Vietnam, the first five days of the lunar new year 1789 (late January): cold fog over winter rice "
+                 "fields, Qing earthen forts with wooden palisades, Tây Sơn columns with straw-covered board shields and war "
+                 f"elephants, the Red River with a pontoon bridge, then the gates of Thăng Long. {ARMY}. {QING_EN} {QT_LOOK} "
+                 f"Anh Tư is {FACE}, a Tây Sơn runner (courier) with a small red cloth tied on his arm. {SAFE}"),
+        visual=QING_VIS,
+        hook="POV: Chạy báo tin / thắng trận / mà không kịp",
+        clips=[
+            c("Chân dài nhất trại", "0-5", "Tam Điệp · đêm 30 Tết",
+              f"First-person view in a mountain camp at night, a stern officer tying a red cloth on {FACE}'s arm, columns of torches marching out behind them",
+              ("0-5s: The officer ties a red cloth on Anh Tư's arm: \"Mày chạy tin. Đạo nào thắng, báo về vua.\" Anh Tư: \"Năm "
+               "đạo quân... một mình em ạ?\" The officer: \"Chân mày dài nhất trại.\" 5-10s: Anh Tư looks at his legs and sighs: "
+               "\"Chân dài... thì khổ.\""),
+              [(0.3, 2.2, "Mày chạy tin. / Đạo nào thắng, báo về vua."), (2.2, 3.4, "Năm đạo quân... / một mình em ạ?"),
+               (3.4, 4.9, "Chân mày / dài nhất trại."), (5.2, 9.5, "Chân dài... / thì khổ.")]),
+            c("Tin đã cũ", "5-10", "Hà Hồi · đêm mùng 3",
+              f"First-person view at night as {FACE} runs breathless into a field camp near a captured Qing fort with its gate open, an officer calmly eating rice",
+              ("0-5s: Anh Tư runs into camp, out of breath: \"Bẩm... đồn Hà Hồi...\" The officer, eating rice: \"Biết rồi. Hàng "
+               "rồi.\" 5-10s: Anh Tư bends over, panting: \"Em chạy hụt hơi... tin đã cũ.\""),
+              [(0.5, 2.6, "Bẩm... đồn Hà Hồi..."), (2.6, 4.8, "Biết rồi. / Hàng rồi."), (5.0, 9.5, "Em chạy hụt hơi... / tin đã cũ.")]),
+            c("Vua đã qua đồn", "5-10", "Ngọc Hồi · sáng mùng 5",
+              f"First-person view in morning fog as {FACE} runs past a broken palisade and abandoned straw-covered board shields, ahead {QT_SHOT} on a war elephant already moving far beyond the fort",
+              ("0-5s: Morning fog; Anh Tư runs past the broken Ngọc Hồi palisade and the dropped straw shields, shouting: \"Đồn "
+               "vỡ rồi! Đồn vỡ rồi!\" Far ahead, the emperor on his elephant is already past the fort. 5-10s: Anh Tư stops: \"Em "
+               "báo đồn vỡ... vua đã đi qua đồn rồi.\""),
+              [(0.5, 4.8, "Đồn vỡ rồi! / Đồn vỡ rồi!"), (5.0, 9.5, "Em báo đồn vỡ... / vua đã đi qua đồn rồi.")]),
+            c("Bên kia cũng thắng", "5-10", "Đống Đa · mùng 5",
+              f"First-person view from a dike as {FACE} looks west toward smoke rising over another fort, Tây Sơn soldiers cheering far away, Qing soldiers running away in the distance, no bodies",
+              ("0-5s: From a dike Anh Tư sees smoke over another fort to the west; far away Tây Sơn soldiers cheer and Qing "
+               "soldiers run off. No bodies. 5-10s: He turns left, then right: \"Bên này thắng, bên kia cũng thắng... em không biết "
+               "báo bên nào trước.\""),
+              [(5.0, 9.5, "Bên này thắng, / bên kia cũng thắng... / em không biết / báo bên nào trước.")]),
+            c("Tổng đốc chạy", "5-10", "Sông Hồng · mùng 5",
+              f"First-person view from the riverbank as a Qing commander in court robes gallops across a pontoon bridge on an unsaddled horse without armor, his guards running after him, {FACE} watching with his mouth open",
+              ("0-5s: Across the pontoon bridge a Qing commander gallops on an unsaddled horse, without armor, guards running "
+               "after him. No one falls into the water. 5-10s: Anh Tư, catching his breath: \"Ông ấy không kịp đóng yên... mà chạy "
+               "còn nhanh hơn em.\""),
+              [(5.0, 9.5, "Ông ấy không kịp đóng yên... / mà chạy còn nhanh hơn em.")]),
+            c("Vào Thăng Long", "5-10", "Thăng Long · trưa mùng 5",
+              f"First-person view at noon at a Thăng Long gate, townspeople pouring out to welcome the army, {QT_SHOT} riding in on the elephant, {FACE} arriving last, exhausted",
+              ("0-5s: Noon at the Thăng Long gate; townspeople pour out; a townswoman calls: \"Quân ta vào rồi!\" The emperor, "
+               "seen only from behind, rides in. 5-10s: Anh Tư arrives last, exhausted, and says quietly to the viewer: \"Em chạy "
+               "báo tin thắng cả ngày... mà thắng nhanh hơn em chạy.\""),
+              [(0.5, 4.8, "Quân ta vào rồi!"), (5.0, 9.5, "Em chạy báo tin thắng / cả ngày... / mà thắng nhanh hơn em chạy.")]),
+            c("Câu chốt", "3-10", "",
+              f"First-person view in the afternoon, {FACE} sitting on the steps of a Thăng Long gate untying the red courier cloth from his arm, the celebrating crowd behind him",
+              ("0-4.5s: Afternoon; Anh Tư sits on the gate steps and unties the red cloth. A calm narrator's voice says: \"Từ đêm "
+               "30 Tết đến trưa mùng 5 Tết Kỷ Dậu, quân Tây Sơn đánh tan quân Thanh ở Hà Hồi, Ngọc Hồi, Đống Đa, giải phóng Thăng "
+               "Long.\" 4.5-10s: Anh Tư folds the cloth and says quietly to the camera: \"Cả đời đưa tin... chưa tin nào cũ nhanh "
+               "thế.\""),
+              [(3.0, 6.0, "Đêm 30 đến trưa mùng 5 Tết: / Hà Hồi, Ngọc Hồi, Đống Đa. / Thăng Long được giải phóng."),
+               (6.1, 8.4, "Cả đời đưa tin... / chưa tin nào cũ nhanh thế.")]),
+        ],
+        caption=("Được giao chạy báo tin thắng trận cho vua, mà chạy mãi không kịp vì thắng nhanh quá 😂 Từ đêm 30 Tết đến trưa "
+                 "mùng 5 Tết Kỷ Dậu 1789, quân Tây Sơn đánh tan quân Thanh ở Hà Hồi, Ngọc Hồi, Đống Đa và vào Thăng Long. Bạn "
+                 "nghĩ trận nào quyết định nhất? 👇"),
+        tags="#quangtrung #ngochoidongda #daiphaquanthanh #tetkydau #1789",
+        tt_title="Chạy báo tin thắng trận cho vua mà chạy mãi không kịp vì thắng nhanh quá",
+        hooks_alt=["POV: Thắng nhanh hơn / em chạy", "POV: Năm đạo quân / một mình em chạy tin"],
+        pin=("Năm ngày Tết, ba trận đánh, một Thăng Long được giải phóng 🔥 Xem thêm 3 phần Tết Kỷ Dậu: ăn Tết sớm, ngủ trên võng, "
+             "rơm ướt. Follow để xem loạt Quang Trung tập tiếp theo!"),
+        yt_title="Đại phá quân Thanh Tết Kỷ Dậu 1789: Hà Hồi, Ngọc Hồi, Đống Đa | Loạt Quang Trung",
+        yt_tags="ngọc hồi đống đa, đại phá quân thanh, tết kỷ dậu 1789, hà hồi, tôn sĩ nghị, đô đốc long, " + YT),
 ]
 
 ACTING = ("Acting: natural and understated, like real people filmed in a documentary; small reactions (a sigh, a glance, a pause, a shake of the head) instead of big expressions. Anh Tư smiles at most once in the whole clip and never laughs at the camera; no exaggerated mugging or cartoonish faces.")
@@ -1058,7 +1133,7 @@ for _ep in EPISODES:
         if _c.get("setting"):
             _c["setting"] = _c["setting"] + " " + ACTING
 
-TIKTOK_CANH = {'qt1': [1, 3, 4, 7], 'qt2': [1, 2, 5, 7], 'qt3': [1, 3, 4, 7], 'qt4': [1, 4, 5, 7], 'qt5': [1, 3, 4, 7], 'qt6': [1, 2, 4, 7], 'qt7': [1, 2, 4, 7], 'qt8': [1, 3, 4, 7], 'qt9': [3, 4, 6, 7], 'qt10': [1, 3, 5, 7], 'qt11': [1, 4, 5, 7], 'qt12': [1, 3, 4, 7], 'qt13': [1, 3, 5, 7], 'qt14': [1, 3, 6, 7], 'qt15': [1, 4, 6, 7]}
+TIKTOK_CANH = {'qt1': [1, 3, 4, 7], 'qt2': [1, 2, 5, 7], 'qt3': [1, 3, 4, 7], 'qt4': [1, 4, 5, 7], 'qt5': [1, 3, 4, 7], 'qt6': [1, 2, 4, 7], 'qt7': [1, 2, 4, 7], 'qt8': [1, 3, 4, 7], 'qt9': [3, 4, 6, 7], 'qt10': [1, 3, 5, 7], 'qt11': [1, 4, 5, 7], 'qt12': [1, 3, 4, 7], 'qt13': [1, 3, 5, 7], 'qt14': [1, 3, 6, 7], 'qt15': [1, 4, 6, 7], 'qt16': [1, 3, 6, 7]}
 for _ep in EPISODES:
     if _ep["prefix"] in TIKTOK_CANH:
         _ep["tiktok_canh"] = TIKTOK_CANH[_ep["prefix"]]
