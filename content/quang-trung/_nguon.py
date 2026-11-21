@@ -1124,6 +1124,82 @@ EPISODES = [
              "rơm ướt. Follow để xem loạt Quang Trung tập tiếp theo!"),
         yt_title="Đại phá quân Thanh Tết Kỷ Dậu 1789: Hà Hồi, Ngọc Hồi, Đống Đa | Loạt Quang Trung",
         yt_tags="ngọc hồi đống đa, đại phá quân thanh, tết kỷ dậu 1789, hà hồi, tôn sĩ nghị, đô đốc long, " + YT),
+    # ================================================================== Tập 17 · Năm việc lạ trước trận Ngọc Hồi (Tết 1789)
+    dict(COMMON, slug="nam-viec-la-truoc-tran-ngoc-hoi-1789", prefix="qt17",
+        voices={"officer": "a short, stern male voice, says everything as if it were obvious",
+                "Qing scout": "a breathless young adult male voice speaking a few words of Vietnamese with a Chinese accent"},
+        title="Tập 17 · Trước trận Ngọc Hồi bị giao năm việc lạ, không ai giải thích, cộng lại thành… một trận thắng (Tết Kỷ Dậu 1789)",
+        history=("**Lịch sử (theo *Hoàng Lê nhất thống chí*, hồi 14, mức B/C; chi tiết đầy đủ ở "
+                 "`../nghien-cuu/chuan-bi-truoc-tran-ngoc-hoi-1789.md`):** (1) ngày 30 tháng Chạp, \"chia quân sĩ ra làm năm "
+                 "đạo\", **ăn Tết trước**, hẹn mùng 7 vào Thăng Long; (2) trên đường đi, quân do thám nhà Thanh đến Phú Xuyên thì "
+                 "\"bắt sống được hết, không để tên nào trốn thoát\", nên quân Thanh ở Hà Hồi, Ngọc Hồi \"đều không biết gì cả\"; "
+                 "(3) đêm mùng 3 vây kín Hà Hồi, \"bắc loa truyền gọi\", quân lính luân phiên dạ ran như có vài vạn người, quân "
+                 "Thanh xin hàng; (4) sáng mùng 5, sáu chục tấm ván ghép thành hai mươi bức phủ rơm dấp nước, \"cứ mười người "
+                 "khênh một bức\", dàn \"trận chữ nhất\", vua cưỡi voi đốc thúc; (5) một toán quân theo đê Yên Duyên \"mở cờ "
+                 "gióng trống để làm nghi binh ở phía đông\". Quân Thanh đang mải ăn Tết. Trưa mùng 5 vua vào Thăng Long. **Hư "
+                 "cấu:** Anh Tư, việc đuổi do thám, buổi tập \"dạ\" và mọi lời thoại. Không dựng cảnh chết; cảnh nghi binh chỉ có "
+                 "trống và đuốc, không cờ."),
+        setting=("Northern Vietnam, late January 1789 (last day of the lunar year to the fifth day of the new year): the "
+                 "limestone camp at Tam Điệp, frozen rice fields and dikes, village bamboo hedges, Qing earthen forts with wooden "
+                 f"palisades, cold fog. {ARMY}. {QING_EN} Here Qing soldiers appear only as a lone scout running in a field or as "
+                 f"figures far away inside a fort. Anh Tư is {FACE}, a Tây Sơn soldier. {SAFE}"),
+        visual=QING_VIS,
+        hook="POV: Trước trận / bị giao năm việc lạ",
+        clips=[
+            c("Năm việc", "0-5", "Tam Điệp · ngày 30 Tết",
+              f"First-person view in a mountain camp, a stern officer holding up five fingers in front of {FACE}, soldiers bustling behind",
+              ("0-5s: The officer holds up five fingers: \"Trước trận có năm việc.\" Anh Tư: \"Năm việc gì ạ?\" The officer: "
+               "\"Xong việc này mới biết việc sau.\" 5-10s: Anh Tư counts on his fingers and says quietly to the viewer: \"Đi "
+               "đánh giặc... mà như đi làm thuê theo ngày.\""),
+              [(0.3, 2.2, "Trước trận / có năm việc."), (2.2, 3.4, "Năm việc gì ạ?"),
+               (3.4, 4.9, "Xong việc này / mới biết việc sau."), (5.2, 9.5, "Đi đánh giặc... / mà như đi làm thuê / theo ngày.")]),
+            c("Việc 1: ăn Tết", "5-10", "Việc 1 · Ăn Tết trước",
+              f"First-person view at a long row of campfires, soldiers eating bánh chưng quickly, the officer walking past clapping, {FACE} holding a slice of bánh chưng, puzzled",
+              ("0-5s: The officer walks past the campfires: \"Việc một: ăn Tết. Ăn nhanh.\" Soldiers gulp bánh chưng. 5-10s: Anh "
+               "Tư looks at his slice: \"Việc đầu tiên trước trận... là ăn.\""),
+              [(0.5, 4.8, "Việc một: ăn Tết. / Ăn nhanh."), (5.0, 9.5, "Việc đầu tiên / trước trận... là ăn.")]),
+            c("Việc 2: bắt do thám", "5-10", "Việc 2 · Không để ai chạy",
+              f"First-person view running across a frozen rice field as {FACE} chases and tackles a lone Qing scout into the soft mud, no injury, the scout raising his hands",
+              ("0-5s: A lone Qing scout runs across the frozen field; Anh Tư chases him down and tackles him into the soft mud; "
+               "the scout raises his hands: \"Thôi... thôi!\" No injury. 5-10s: Anh Tư, panting, to the viewer: \"Việc hai: đuổi "
+               "người ta... mà không được để sót đứa nào.\""),
+              [(0.5, 4.8, "Thôi... thôi!"), (5.0, 9.5, "Việc hai: đuổi người ta... / mà không được / để sót đứa nào.")]),
+            c("Việc 3: tập dạ", "5-10", "Việc 3 · Tập dạ thật to",
+              f"First-person view at night behind a bamboo hedge near a dark village, a row of soldiers practicing shouting together as the officer raises a bamboo megaphone, {FACE} in the row",
+              ("0-5s: Behind a bamboo hedge the officer raises a bamboo megaphone; the row answers together: \"Dạ!\" The officer "
+               "shakes his head: \"Chưa đủ. Phải như mấy vạn người.\" 5-10s: Anh Tư, hoarse, to the viewer: \"Việc ba: tập dạ... "
+               "đến khàn cả giọng.\""),
+              [(0.5, 2.2, "Dạ!"), (2.2, 4.8, "Chưa đủ. / Phải như mấy vạn người."), (5.0, 9.5, "Việc ba: tập dạ... / đến khàn cả giọng.")]),
+            c("Việc 4: khênh ván", "5-10", "Việc 4 · Mười người một bức",
+              f"First-person view at dawn as ten soldiers argue over who stands where around a large straw-covered board shield, everyone trying to get the middle spots, {FACE} pushed to a corner",
+              ("0-5s: Ten soldiers crowd around a dripping straw-covered board; everyone squeezes toward the middle. The officer: "
+               "\"Mười người một bức. Ai đứng đâu thì đứng đấy!\" 5-10s: Anh Tư, pushed to the corner, says quietly: \"Việc bốn: "
+               "khênh ván... ai cũng muốn đứng giữa.\""),
+              [(0.5, 4.8, "Mười người một bức. / Ai đứng đâu thì đứng đấy!"), (5.0, 9.5, "Việc bốn: khênh ván... / ai cũng muốn đứng giữa.")]),
+            c("Việc 5: trống nghi binh", "5-10", "Việc 5 · Đánh trống phía đông",
+              f"First-person view on a dike to the east in the dark before dawn, a small group of soldiers beating big war drums and waving torches, {FACE} beating a drum, puzzled, no flags",
+              ("0-5s: On a dike to the east a small group beats big war drums and waves torches; the main army is nowhere near. "
+               "5-10s: Anh Tư, drumming, to the viewer: \"Việc năm: đánh trống thật to... ở chỗ không đánh nhau.\""),
+              [(5.0, 9.5, "Việc năm: / đánh trống thật to... / ở chỗ không đánh nhau.")]),
+            c("Câu chốt", "3-10", "",
+              f"First-person view at noon from a hill as smoke clears over the broken Ngọc Hồi fort and the army marches toward Thăng Long, {FACE} sitting down, counting five fingers",
+              ("0-4.5s: Noon; the smoke clears over the broken fort; the army marches toward Thăng Long. A calm narrator's voice "
+               "says: \"Ăn Tết trước, bắt hết do thám, hô vây Hà Hồi, ván phủ rơm ướt, trống nghi binh: trưa mùng 5 Tết, vua Quang "
+               "Trung vào Thăng Long.\" 4.5-10s: Anh Tư counts five fingers and says quietly to the camera: \"Năm việc lạ không ai "
+               "giải thích... cộng lại thành một trận thắng.\""),
+              [(3.0, 6.0, "Ăn Tết sớm, bắt do thám, / hô vây, ván rơm, nghi binh. / Trưa mùng 5, vào Thăng Long."),
+               (6.1, 8.4, "Năm việc lạ / không ai giải thích... / cộng lại thành một trận thắng.")]),
+        ],
+        caption=("Trước trận Ngọc Hồi bị giao năm việc lạ, không ai giải thích 😂 Ăn Tết trước, đuổi bắt do thám, tập \"dạ\" đến khàn "
+                 "giọng, khênh ván phủ rơm ướt, đánh trống ở chỗ không đánh nhau. Tết Kỷ Dậu 1789, cộng lại thành một trận thắng. "
+                 "Việc nào bạn thấy lạ nhất? 👇"),
+        tags="#quangtrung #ngochoidongda #tetkydau #taysontungmoc #1789",
+        tt_title="Trước trận Ngọc Hồi bị giao năm việc lạ, không ai giải thích",
+        hooks_alt=["POV: Năm việc lạ / cộng lại thành một trận thắng", "POV: Việc đầu tiên trước trận / là ăn"],
+        pin=("Cả năm việc đều có trong Hoàng Lê nhất thống chí 🔥 Còn việc thứ sáu: vua hẹn mùng 7 vào Thăng Long. Đoán xem vua "
+             "đến sớm hay muộn?"),
+        yt_title="Năm việc chuẩn bị trước trận Ngọc Hồi – Đống Đa 1789 | Loạt Quang Trung",
+        yt_tags="chuẩn bị trước trận, ngọc hồi đống đa, nghi binh, mộc rơm ướt, hà hồi, hoàng lê nhất thống chí, 1789, " + YT),
 ]
 
 ACTING = ("Acting: natural and understated, like real people filmed in a documentary; small reactions (a sigh, a glance, a pause, a shake of the head) instead of big expressions. Anh Tư smiles at most once in the whole clip and never laughs at the camera; no exaggerated mugging or cartoonish faces.")
@@ -1133,7 +1209,7 @@ for _ep in EPISODES:
         if _c.get("setting"):
             _c["setting"] = _c["setting"] + " " + ACTING
 
-TIKTOK_CANH = {'qt1': [1, 3, 4, 7], 'qt2': [1, 2, 5, 7], 'qt3': [1, 3, 4, 7], 'qt4': [1, 4, 5, 7], 'qt5': [1, 3, 4, 7], 'qt6': [1, 2, 4, 7], 'qt7': [1, 2, 4, 7], 'qt8': [1, 3, 4, 7], 'qt9': [3, 4, 6, 7], 'qt10': [1, 3, 5, 7], 'qt11': [1, 4, 5, 7], 'qt12': [1, 3, 4, 7], 'qt13': [1, 3, 5, 7], 'qt14': [1, 3, 6, 7], 'qt15': [1, 4, 6, 7], 'qt16': [1, 3, 6, 7]}
+TIKTOK_CANH = {'qt1': [1, 3, 4, 7], 'qt2': [1, 2, 5, 7], 'qt3': [1, 3, 4, 7], 'qt4': [1, 4, 5, 7], 'qt5': [1, 3, 4, 7], 'qt6': [1, 2, 4, 7], 'qt7': [1, 2, 4, 7], 'qt8': [1, 3, 4, 7], 'qt9': [3, 4, 6, 7], 'qt10': [1, 3, 5, 7], 'qt11': [1, 4, 5, 7], 'qt12': [1, 3, 4, 7], 'qt13': [1, 3, 5, 7], 'qt14': [1, 3, 6, 7], 'qt15': [1, 4, 6, 7], 'qt16': [1, 3, 6, 7], 'qt17': [1, 3, 6, 7]}
 for _ep in EPISODES:
     if _ep["prefix"] in TIKTOK_CANH:
         _ep["tiktok_canh"] = TIKTOK_CANH[_ep["prefix"]]
