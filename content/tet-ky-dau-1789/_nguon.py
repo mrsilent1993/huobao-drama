@@ -7,7 +7,7 @@ import sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.join(HERE, "..", "tay-son-tung-moc"))
 sys.path.insert(0, os.path.join(HERE, "..", "tools"))
-from series import build, MUC_MOI  # noqa: E402
+from series import build, MUC_MOI, QT_VOICE  # noqa: E402
 from _nguon import FACE, QING_EN, QING_VIS  # noqa: E402
 FACE = ("a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a chipped front tooth; he acts naturally and understated, like a real person, not a performer")
 
@@ -26,7 +26,7 @@ EPISODES = [
     # ================================================================== Phần 1/3: Ăn Tết sớm
     dict(COMMON,
         slug="an-tet-som-tam-diep-1789", prefix="tkd1",
-        voices={"officer": "a stern, clipped male voice", "Quang Trung": "a strong, commanding male voice, fiery and confident",
+        voices={"officer": "a stern, clipped male voice", "Quang Trung": QT_VOICE,
                 "comrade": "a cheeky young adult male voice"},
         title="Phần 1/3 · Chưa đến giao thừa đã bị bắt ăn Tết, ăn xong thì… xuất quân (Tam Điệp, Tết Kỷ Dậu 1789)",
         history=("**Lịch sử:** cuối năm Mậu Thân, vua Quang Trung kéo quân ra Bắc, dừng ở Tam Điệp (Ninh Bình). Theo *Hoàng "

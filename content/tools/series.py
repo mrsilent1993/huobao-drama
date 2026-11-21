@@ -28,8 +28,8 @@ DRAGON_SPEC = ("Any dragon shown is in Lý dynasty style: a slender, sinuous, sn
 # từng clip nên dễ đổi giọng). Khóa = từ khóa tìm trong prompt clip; giá trị = (tên hiển thị, mô tả giọng).
 # Mô tả chỉ nói âm sắc, tuổi, nhịp nói; vùng miền do ACCENT / khóa giong quyết định.
 VOICES = [
-    ("Anh Tư", ("Anh Tư", "a bright, slightly husky male voice around 30, quick and cheerful, a little cheeky when "
-                "joking, the SAME voice in every clip")),
+    ("Anh Tư", ("Anh Tư", "a bright, slightly husky male voice around 30, natural and conversational, dry humor, "
+                "never exaggerated or shouting, the SAME voice in every clip")),
     ("narrator", ("người dẫn chuyện", "a calm, deep, slow male baritone, documentary style, warm and serious, the SAME "
                   "narrator voice in every video of the channel")),
     ("Anh Tư's mother", ("mẹ Anh Tư", "a sharp, quick-tongued woman's voice in her 50s, slightly raspy")),
@@ -46,6 +46,10 @@ VOICES = [
     ("interpreter", ("người phiên dịch", "a nervous, precise, thin male voice in his 30s")),
 ]
 
+# Giọng riêng của vua Quang Trung, dùng chung mọi loạt (khóa voices={"Quang Trung": QT_VOICE}).
+QT_VOICE = ("Quang Trung's own voice, used ONLY for him and identical in every clip: a deep, booming, thunderous male voice "
+            "of a commander in his mid-thirties with a Central Vietnamese (Bình Định) accent; slow, heavy and powerful, each "
+            "phrase struck like a war drum and echoing across the field; clearly different from Anh Tư and from the calm narrator")
 VOICE_EN = {"người dẫn chuyện": "Narrator", "mẹ Anh Tư": "Anh Tư's mother", "viên chỉ huy": "The officer",
             "sứ giả, người đưa tin": "The messenger or envoy", "bà cụ": "The old woman", "ông cụ": "The old farmer",
             "người phiên dịch": "The interpreter", "Trần Thủ Độ": "Thái sư Trần Thủ Độ"}

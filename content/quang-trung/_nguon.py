@@ -7,7 +7,7 @@ import sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.join(HERE, "..", "tay-son-tung-moc"))
 sys.path.insert(0, os.path.join(HERE, "..", "tools"))
-from series import build, MUC_MOI  # noqa: E402
+from series import build, MUC_MOI, QT_VOICE  # noqa: E402
 from _nguon import FACE, QING_EN, QING_VIS  # noqa: E402
 FACE = ("a Vietnamese man around 30 with deeply tanned skin, a scar across his left eyebrow and a chipped front tooth; he acts naturally and understated, like a real person, not a performer")
 
@@ -17,9 +17,6 @@ ARMY = "Tây Sơn soldiers with black-lacquered teeth in dark-red uniforms with 
 HUE_ = ("Nguyễn Huệ (later Emperor Quang Trung), seen ONLY from behind or far away: a broad-shouldered man in a dark "
         "battle robe")
 SAFE = "Adults only, no children. No flags, no legible writing anywhere, no modern objects, no blood, no dead bodies."
-QT_VOICE = ("Quang Trung's own voice, used ONLY for him and identical in every clip: a deep, booming, thunderous male voice "
-            "of a commander in his mid-thirties with a Central Vietnamese (Bình Định) accent; slow, heavy and powerful, each "
-            "phrase struck like a war drum and echoing across the field; clearly different from Anh Tư and from the calm narrator")
 QT_LOOK = ("Emperor Quang Trung is seen ONLY from behind or far away: a tall, broad-shouldered man in a dark-red battle robe "
            "with a gold-trimmed collar, a black turban, a long sword, standing on a high wooden platform.")
 QT_SHOT = "Emperor Quang Trung seen ONLY from behind, tall and broad-shouldered in a dark-red battle robe and black turban"
