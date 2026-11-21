@@ -1200,6 +1200,78 @@ EPISODES = [
              "đến sớm hay muộn?"),
         yt_title="Năm việc chuẩn bị trước trận Ngọc Hồi – Đống Đa 1789 | Loạt Quang Trung",
         yt_tags="chuẩn bị trước trận, ngọc hồi đống đa, nghi binh, mộc rơm ướt, hà hồi, hoàng lê nhất thống chí, 1789, " + YT),
+    # ================================================================== Tập 18 · Đếm pháo Tết ngoài đồn giặc (Tết 1789)
+    dict(COMMON, slug="dem-phao-tet-ngoai-don-giac-1789", prefix="qt18",
+        voices={"officer": "a short, stern male voice, whispering at night"},
+        title="Tập 18 · Được giao đi trinh sát dịp Tết, nhiệm vụ chính là… nằm đếm pháo của giặc (Tết Kỷ Dậu 1789)",
+        history=("**Lịch sử:** theo *Hoàng Lê nhất thống chí* (hồi 14, mức B/C), quân Thanh đóng ở Thăng Long và các đồn phía "
+                 "nam \"trong ngày Tết mọi người chỉ chăm chú vào việc yến tiệc vui mừng, không hề lo chi đến việc bất trắc\". "
+                 "Quân do thám của chúng bị bắt hết ở Phú Xuyên, nên quân ở Hà Hồi, Ngọc Hồi \"đều không biết gì cả\". **Đêm "
+                 "mùng 3 Tết**, quân Tây Sơn lặng lẽ vây kín đồn Hà Hồi, đồn xin hàng; **sáng mùng 5** phá đồn Ngọc Hồi. Vua "
+                 "Quang Trung chọn đánh đúng dịp Tết, lúc đối phương lơ là nhất. **Hư cấu:** Anh Tư đi trinh sát, việc đếm pháo "
+                 "và mọi lời thoại. Quân Thanh ăn Tết được dựng bình thường như người đón năm mới (đèn lồng, pháo, mâm cỗ), "
+                 "không bêu riếu, không dựng say xỉn hay cờ bạc (chi tiết này không có trong sách)."),
+        setting=("Near the Qing earthen fort of Hà Hồi (south of Thăng Long), the first nights of the lunar new year 1789: "
+                 "frozen winter rice fields, a dike, bamboo hedges, cold mist; inside the fort's wooden palisade, red lanterns, "
+                 f"firecrackers popping, music and the smell of feast food, a few sentries on the wall. {QING_EN} The Qing are "
+                 "shown simply celebrating the new year, from a distance, not mocked. "
+                 f"{ARMY}. Anh Tư is {FACE}, a Tây Sơn scout in dark clothes lying flat in the field. {SAFE}"),
+        visual=QING_VIS,
+        hook="POV: Đi trinh sát / dịp Tết / chỉ để đếm pháo",
+        clips=[
+            c("Đếm pháo", "0-5", "Gần đồn Hà Hồi · đêm mùng 1 Tết",
+              f"First-person view at night behind a dike, a stern officer whispering to {FACE} and pointing at a distant fort glowing with red lanterns",
+              ("0-5s: Behind the dike the officer whispers and points at the glowing fort: \"Ra nằm sát đồn. Đếm pháo.\" Anh Tư: "
+               "\"Đếm... pháo Tết ạ?\" The officer: \"Tràng nào cũng đếm.\" 5-10s: Anh Tư crawls off and whispers to the viewer: "
+               "\"Đi trinh sát... mà việc chính là nghe pháo.\""),
+              [(0.3, 2.2, "Ra nằm sát đồn. / Đếm pháo."), (2.2, 3.4, "Đếm... pháo Tết ạ?"),
+               (3.4, 4.9, "Tràng nào cũng đếm."), (5.2, 9.5, "Đi trinh sát... / mà việc chính là nghe pháo.")]),
+            c("Que đếm", "5-10", "",
+              f"Close first-person view lying flat in a frozen field, firecrackers bursting above the distant palisade, {FACE} pressing one small twig after another into the cold mud beside him",
+              ("0-5s: Firecrackers burst above the palisade; Anh Tư, lying flat, presses a small twig into the mud for each "
+               "string. 5-10s: He whispers: \"Một tràng... hai tràng... em đếm bằng que, gần hết bó rồi.\""),
+              [(5.0, 9.5, "Một tràng... hai tràng... / em đếm bằng que, / gần hết bó rồi.")]),
+            c("Ngửi Tết", "5-10", "",
+              f"First-person view lying in the cold field at night, warm light and steam drifting from the fort, {FACE} sniffing the air, his stomach growling, hugging himself against the cold",
+              ("0-5s: The smell of feast food drifts over from the fort; Anh Tư's stomach growls loudly; he presses it with both "
+               "hands. 5-10s: He whispers to the viewer: \"Bên kia ăn Tết... bên này ngửi Tết.\""),
+              [(5.0, 9.5, "Bên kia ăn Tết... / bên này ngửi Tết.")]),
+            c("Không ai đi tuần", "5-10", "",
+              f"First-person view from the field toward the palisade, a single sentry on the wall leaning on his spear and watching the fireworks inside, no patrol outside, {FACE} watching closely",
+              ("0-5s: On the wall a lone sentry leans on his spear, turned toward the celebration inside; no one walks the "
+               "outside. 5-10s: Anh Tư whispers: \"Cả đêm... không thấy một người đi tuần.\""),
+              [(5.0, 9.5, "Cả đêm... / không thấy một người đi tuần.")]),
+            c("Báo lại", "5-10", "",
+              f"First-person view at dawn behind the dike, {FACE} holding out a bundle of twigs to the stern officer, who counts them and nods slowly",
+              ("0-5s: Back behind the dike, Anh Tư hands over the bundle of twigs: \"Bẩm: ba chục tràng pháo. Không ai đi tuần.\" "
+               "The officer counts and nods: \"Đủ rồi.\" 5-10s: Anh Tư says quietly: \"Em tưởng đếm pháo cho vui... hóa ra đếm "
+               "để đánh.\""),
+              [(0.5, 2.8, "Bẩm: ba chục tràng pháo. / Không ai đi tuần."), (2.8, 4.8, "Đủ rồi."),
+               (5.0, 9.5, "Em tưởng đếm pháo cho vui... / hóa ra đếm để đánh.")]),
+            c("Đi thật khẽ", "5-10", "Đêm mùng 3 Tết",
+              f"First-person view at night as long silent columns of Tây Sơn soldiers move across the fields toward the glowing fort without torches, {FACE} walking among them on tiptoe",
+              ("0-5s: Night of the third day; long columns move silently across the fields toward the glowing fort, no torches. "
+               "5-10s: Anh Tư, on tiptoe, whispers: \"Bên kia ăn Tết thật to... bên này đi thật khẽ.\""),
+              [(5.0, 9.5, "Bên kia ăn Tết thật to... / bên này đi thật khẽ.")]),
+            c("Câu chốt", "3-10", "",
+              f"First-person view at dawn on the dike, the fort gate open in the distance, {FACE} sitting down and dropping the last twig on the ground",
+              ("0-4.5s: Dawn; far away the fort gate stands open. A calm narrator's voice says: \"Theo Hoàng Lê nhất thống chí, "
+               "ngày Tết quân Thanh chỉ chăm chú yến tiệc, không lo việc bất trắc. Đêm mùng 3, quân Tây Sơn vây Hà Hồi.\" "
+               "4.5-10s: Anh Tư drops the last twig and says quietly to the camera: \"Năm nay em không đốt tràng pháo nào... mà vui "
+               "nhất mọi năm.\""),
+              [(3.0, 6.0, "Quân Thanh mải yến tiệc, / không lo việc bất trắc. / Đêm mùng 3, vây Hà Hồi."),
+               (6.1, 8.4, "Năm nay em không đốt / tràng pháo nào... / mà vui nhất mọi năm.")]),
+        ],
+        caption=("Được giao đi trinh sát dịp Tết, nhiệm vụ chính là nằm đếm pháo của giặc 😂 Tết Kỷ Dậu 1789, quân Thanh \"chỉ chăm "
+                 "chú vào việc yến tiệc vui mừng\", còn quân Tây Sơn lặng lẽ áp sát. Đêm mùng 3 vây Hà Hồi. Tết năm nay nhà bạn "
+                 "có đốt pháo hoa không? 👇"),
+        tags="#quangtrung #tetkydau #hahoi #taysontungmoc #1789",
+        tt_title="Đi trinh sát dịp Tết, nhiệm vụ chính là nằm đếm pháo của giặc",
+        hooks_alt=["POV: Bên kia ăn Tết / bên này ngửi Tết", "POV: Bên kia ăn Tết thật to / bên này đi thật khẽ"],
+        pin=("Chọn đánh đúng dịp Tết, lúc đối phương lơ là nhất 🔥 Xem tiếp tập \"Đêm Hà Hồi: hô thật to, đồn giặc ra hàng\" nhé! "
+             "Follow để xem loạt Quang Trung tập tiếp theo!"),
+        yt_title="Tết Kỷ Dậu 1789: nằm đếm pháo ngoài đồn giặc | Loạt Quang Trung",
+        yt_tags="tết kỷ dậu 1789, trinh sát, đồn hà hồi, đánh lúc giặc lơ là, hoàng lê nhất thống chí, " + YT),
 ]
 
 ACTING = ("Acting: natural and understated, like real people filmed in a documentary; small reactions (a sigh, a glance, a pause, a shake of the head) instead of big expressions. Anh Tư smiles at most once in the whole clip and never laughs at the camera; no exaggerated mugging or cartoonish faces.")
@@ -1209,7 +1281,7 @@ for _ep in EPISODES:
         if _c.get("setting"):
             _c["setting"] = _c["setting"] + " " + ACTING
 
-TIKTOK_CANH = {'qt1': [1, 3, 4, 7], 'qt2': [1, 2, 5, 7], 'qt3': [1, 3, 4, 7], 'qt4': [1, 4, 5, 7], 'qt5': [1, 3, 4, 7], 'qt6': [1, 2, 4, 7], 'qt7': [1, 2, 4, 7], 'qt8': [1, 3, 4, 7], 'qt9': [3, 4, 6, 7], 'qt10': [1, 3, 5, 7], 'qt11': [1, 4, 5, 7], 'qt12': [1, 3, 4, 7], 'qt13': [1, 3, 5, 7], 'qt14': [1, 3, 6, 7], 'qt15': [1, 4, 6, 7], 'qt16': [1, 3, 6, 7], 'qt17': [1, 3, 6, 7]}
+TIKTOK_CANH = {'qt1': [1, 3, 4, 7], 'qt2': [1, 2, 5, 7], 'qt3': [1, 3, 4, 7], 'qt4': [1, 4, 5, 7], 'qt5': [1, 3, 4, 7], 'qt6': [1, 2, 4, 7], 'qt7': [1, 2, 4, 7], 'qt8': [1, 3, 4, 7], 'qt9': [3, 4, 6, 7], 'qt10': [1, 3, 5, 7], 'qt11': [1, 4, 5, 7], 'qt12': [1, 3, 4, 7], 'qt13': [1, 3, 5, 7], 'qt14': [1, 3, 6, 7], 'qt15': [1, 4, 6, 7], 'qt16': [1, 3, 6, 7], 'qt17': [1, 3, 6, 7], 'qt18': [1, 3, 6, 7]}
 for _ep in EPISODES:
     if _ep["prefix"] in TIKTOK_CANH:
         _ep["tiktok_canh"] = TIKTOK_CANH[_ep["prefix"]]

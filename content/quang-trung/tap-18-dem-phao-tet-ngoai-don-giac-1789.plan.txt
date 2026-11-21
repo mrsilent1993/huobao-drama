@@ -1,0 +1,27 @@
+# Dựng: python3 ../tools/tiktok.py tap-18-dem-phao-tet-ngoai-don-giac-1789.plan.txt tap-18-dem-phao-tet-ngoai-don-giac-1789.mp4  (ra tap-18-dem-phao-tet-ngoai-don-giac-1789-youtube.mp4 và tap-18-dem-phao-tet-ngoai-don-giac-1789-tiktok.mp4)
+hook: POV: Đi trinh sát / dịp Tết / chỉ để đếm pháo
+end: Follow để xem / loạt Quang Trung / tập tiếp theo →
+nhan: AI tái hiện · lời thoại hư cấu
+end_giay: 1.6
+
+clip: qt18-1.mp4 | Gần đồn Hà Hồi · đêm mùng 1 Tết | tiktok=0-9.7
+clip: qt18-2.mp4 |  | tiktok=bo
+clip: qt18-3.mp4 |  | tiktok=0.2-9.7
+clip: qt18-4.mp4 |  | tiktok=bo
+clip: qt18-5.mp4 |  | tiktok=bo
+clip: qt18-6.mp4 | Đêm mùng 3 Tết | tiktok=0.2-9.7
+clip: qt18-7.mp4 |  | tiktok=2.7-10
+
+sub: 1 | 0.3-2.2 | Ra nằm sát đồn. / Đếm pháo.
+sub: 1 | 2.2-3.4 | Đếm... pháo Tết ạ?
+sub: 1 | 3.4-4.9 | Tràng nào cũng đếm.
+sub: 1 | 5.2-9.5 | Đi trinh sát... / mà việc chính là nghe pháo.
+sub: 2 | 5.0-9.5 | Một tràng... hai tràng... / em đếm bằng que, / gần hết bó rồi.
+sub: 3 | 5.0-9.5 | Bên kia ăn Tết... / bên này ngửi Tết.
+sub: 4 | 5.0-9.5 | Cả đêm... / không thấy một người đi tuần.
+sub: 5 | 0.5-2.8 | Bẩm: ba chục tràng pháo. / Không ai đi tuần.
+sub: 5 | 2.8-4.8 | Đủ rồi.
+sub: 5 | 5.0-9.5 | Em tưởng đếm pháo cho vui... / hóa ra đếm để đánh.
+sub: 6 | 5.0-9.5 | Bên kia ăn Tết thật to... / bên này đi thật khẽ.
+sub: 7 | 3.0-6.0 | Quân Thanh mải yến tiệc, / không lo việc bất trắc. / Đêm mùng 3, vây Hà Hồi.
+sub: 7 | 6.1-8.4 | Năm nay em không đốt / tràng pháo nào... / mà vui nhất mọi năm.

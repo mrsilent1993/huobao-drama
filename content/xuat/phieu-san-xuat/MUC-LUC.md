@@ -2,7 +2,7 @@
 
 Mỗi video một phiếu theo cùng mẫu: thông tin chung, danh sách clip, bối cảnh và giọng, prompt từng clip, chữ trên video, thông tin đăng, bảng kiểm tra trước khi đăng. Xuất lại bằng `python3 tools/xuat_phieu.py` (chạy từ thư mục `content/`).
 
-**Tổng cộng 84 phiếu.** ✅ = đã đăng (theo trang quản lý TikTok ngày 18/11/2026), ☐ = chưa đăng.
+**Tổng cộng 85 phiếu.** ✅ = đã đăng (theo trang quản lý TikTok ngày 18/11/2026), ☐ = chưa đăng.
 
 ## Tự hào Đại Việt
 
@@ -43,6 +43,7 @@ Mỗi video một phiếu theo cùng mẫu: thông tin chung, danh sách clip, b
 | 15 | Tập 15 · Được thuê khắc một cái ấn thật to mà không ai nói ấn của ai (Nguyễn Huệ ra Bắc bắt Vũ Văn Nhậm, 1788) | 7 | ~68s | ~35s | ☐ | `quang-trung/15-tap-15-khac-an-vu-van-nham-1788.md` |
 | 16 | Tập 16 · Được giao chạy báo tin thắng trận cho vua, mà chạy mãi không kịp vì… thắng nhanh quá (đại phá quân Thanh, Tết Kỷ Dậu 1789) | 7 | ~68s | ~35s | ☐ | `quang-trung/16-tap-16-chay-bao-tin-dai-pha-quan-thanh-1789.md` |
 | 17 | Tập 17 · Trước trận Ngọc Hồi bị giao năm việc lạ, không ai giải thích, cộng lại thành… một trận thắng (Tết Kỷ Dậu 1789) | 7 | ~68s | ~35s | ☐ | `quang-trung/17-tap-17-nam-viec-la-truoc-tran-ngoc-hoi-1789.md` |
+| 18 | Tập 18 · Được giao đi trinh sát dịp Tết, nhiệm vụ chính là… nằm đếm pháo của giặc (Tết Kỷ Dậu 1789) | 7 | ~68s | ~35s | ☐ | `quang-trung/18-tap-18-dem-phao-tet-ngoai-don-giac-1789.md` |
 
 ## Tây Sơn từng mốc
 
