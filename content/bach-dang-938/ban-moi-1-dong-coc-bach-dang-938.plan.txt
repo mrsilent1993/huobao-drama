@@ -1,0 +1,24 @@
+# Dựng: python3 ../tools/tiktok.py ban-moi-1-dong-coc-bach-dang-938.plan.txt ban-moi-1-dong-coc-bach-dang-938.mp4  (ra ban-moi-1-dong-coc-bach-dang-938-youtube.mp4 và ban-moi-1-dong-coc-bach-dang-938-tiktok.mp4)
+hook: POV: Đóng cọc / to bằng cái đùi / giữa sông
+end: Follow để xem / thêm chuyện / Đại Việt →
+nhan: AI tái hiện · lời thoại hư cấu
+end_giay: 1.6
+
+clip: bd938n-1.mp4 | Cửa sông Bạch Đằng · 938 | tiktok=0-9.7
+clip: bd938n-2.mp4 |  | tiktok=0.2-9.7
+clip: bd938n-3.mp4 |  | tiktok=bo
+clip: bd938n-4.mp4 |  | tiktok=0.2-9.7
+clip: bd938n-5.mp4 |  | tiktok=0.2-9.7
+clip: bd938n-6.mp4 |  | tiktok=0-10
+
+sub: 1 | 0.3-2.2 | Ra bãi đóng cọc. / Đóng cho sâu.
+sub: 1 | 2.2-3.4 | Đóng cọc giữa sông... / để làm gì ạ?
+sub: 1 | 3.4-4.9 | Nước rút thì biết.
+sub: 1 | 5.2-9.5 | Cọc gì... / to bằng cái đùi em.
+sub: 2 | 0.5-4.8 | Một, hai... thả!
+sub: 2 | 5.0-9.5 | Mười người một cây cọc... / mà nó lún có một gang.
+sub: 3 | 5.0-9.5 | Cọc đã to... / còn bịt thêm sắt.
+sub: 4 | 5.0-9.5 | Đóng cả ngày... / nước lên một cái / là mất hết.
+sub: 5 | 5.0-9.5 | Thuyền nó to thế... / đi ngay trên đầu cọc em / mà không biết.
+sub: 6 | 0.3-4.8 | Năm 938, Ngô Quyền / cắm cọc ở cửa Bạch Đằng. / Hơn nghìn năm Bắc thuộc / chấm dứt.
+sub: 6 | 5.0-8.4 | Cọc này là của em đóng đấy... / các bác ghi tên em / vào sử nhé!

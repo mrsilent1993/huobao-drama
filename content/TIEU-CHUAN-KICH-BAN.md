@@ -17,7 +17,7 @@ Gốc từ video Bạch Đằng 938 "Cắm cọc cả buổi sáng" (1,7 triệu
 4. **Vỡ lẽ ở clip cuối:**
    - Cảnh lớn kèm lời người dẫn chuyện nêu sự kiện thật.
    - Sau đó là **một câu chốt RIÊNG của tập**, nối lại một chi tiết trong chính tập đó. Ví dụ: "Em còn nợ ông ấy hai đồng", "Cấy ngược mà vẫn thắng".
-5. **KHÔNG dùng lại câu "Ghi tên em vào sử nhé!"** (bỏ từ 19/11/2026 vì tập nào cũng lặp). Màn hình kết cũng bỏ dòng "Sử không ghi tên Anh Tư".
+5. **KHÔNG dùng lại câu "Ghi tên em vào sử nhé!"** (bỏ từ 19/11/2026 vì tập nào cũng lặp). Màn hình kết cũng bỏ dòng "Sử không ghi tên Anh Tư". **Ngoại lệ duy nhất (anh duyệt 22/11/2026):** bản làm lại Bạch Đằng 938 giữ câu gốc "Cọc này là của em đóng đấy... các bác ghi tên em vào sử nhé!", vì đây là câu nhận diện của video 1,7 triệu lượt xem.
 6. **Kết lửng và nối tập:**
    - Màn hình kết: "Follow để xem [tập hoặc mốc tiếp theo] →". Bản YouTube tự đổi "Follow" thành "Đăng ký".
    - Bình luận ghim nhắc tập trước, để người xem đi tìm cả loạt.

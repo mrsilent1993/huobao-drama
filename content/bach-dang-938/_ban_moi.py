@@ -2,7 +2,7 @@
 """Bạch Đằng 938, BẢN MỚI 45–60 giây (22/11/2026), viết lại theo mọi tiêu chuẩn đã bổ sung:
 cọc đúng cỡ (STAKE_SPEC, đầu bịt sắt theo Toàn thư), quân Nam Hán đúng chuẩn, không cờ hiện đại/không chữ, giọng Bắc,
 diễn tự nhiên, câu gạt riêng, câu chốt riêng, Ngô Quyền chỉ thấy từ phía sau, YouTube đủ cảnh, TikTok giữ trọn câu thoại.
-Góc kể MỚI (không lặp video "cắm cọc cả buổi sáng"): Anh Tư là người canh con nước.
+Anh chọn giữ câu chốt gốc "Cọc này là của em đóng đấy, các bác ghi tên em vào sử nhé" (ngoại lệ có chủ ý).
 Chạy: python3 _ban_moi.py"""
 import os
 import sys
@@ -24,7 +24,7 @@ SETTING = ("Vietnam, winter of 938, the Bạch Đằng River estuary near the se
            "in brown tunics or bare-chested, with spears, bows and small light wooden boats. The Southern Han forces: tall "
            "multi-deck wooden warships with PLAIN red banners (no writing), soldiers in late-Tang-style lamellar armor and "
            "helmets with neck guards. Absolutely NO European plate armor, NO European sailing ships. "
-           f"Anh Tư is {FACE}, a soldier who watches the tide. {SAFE} {ACTING}")
+           f"Anh Tư is {FACE}, a soldier driving stakes. {SAFE} {ACTING}")
 VISUAL = ("**Chuẩn hình ảnh:** quân ta búi tóc, răng đen, áo nâu hoặc cởi trần; quân Nam Hán giáp vảy cuối thời Đường, mũ "
           "che gáy, lâu thuyền nhiều tầng, **cờ đỏ trơn không chữ**; cấm giáp tấm, thuyền buồm kiểu châu Âu, cờ hiện đại. "
           "**Cọc:** cả thân cây lim dày 20–30 cm, dài 2,5–3 m, đầu bịt sắt (theo *Toàn thư*), nhiều người dùng vồ gỗ nặng "
@@ -32,81 +32,79 @@ VISUAL = ("**Chuẩn hình ảnh:** quân ta búi tóc, răng đen, áo nâu ho�
 
 EPISODES = [
     dict(
-        slug="canh-con-nuoc-bach-dang-938", prefix="bd938n",
-        length=("**YouTube** đủ 6 cảnh, khoảng 58 giây; **TikTok** 5 cảnh giữ trọn câu thoại, khoảng 46 giây (bỏ cảnh 3)"),
+        slug="dong-coc-bach-dang-938", prefix="bd938n",
+        length=("**YouTube** đủ 6 cảnh, khoảng 58 giây; **TikTok** 5 cảnh giữ trọn câu thoại, khoảng 47 giây (bỏ cảnh 3, bịt sắt)"),
         muc={"youtube": (45, 60), "tiktok": (40, 50)}, tiktok_canh=[1, 2, 4, 5, 6],
         voices={"officer": "a gruff, clipped male voice in his 40s, short commands",
                 "Ngô Quyền": "a low, steady, authoritative male voice around 40, few words, never shouting"},
-        title="Bị sai ngồi canh một cây sào giữa bãi bùn, cả ngày khắc mực nước, không ai nói để làm gì (Bạch Đằng, 938)",
+        title="Bị sai ra bãi bùn đóng những cây cọc to bằng cái đùi, không ai nói để làm gì (Bạch Đằng, 938)",
         history=("**Lịch sử:** năm 938, quân Nam Hán do Hoằng Tháo chỉ huy theo đường biển sang. Ngô Quyền cho **đóng cọc lớn "
                  "đầu bịt sắt** ở cửa sông Bạch Đằng, **lợi dụng thủy triều**: khi triều lên, dùng thuyền nhẹ nhử thuyền giặc "
                  "vào; khi triều rút, cọc nhô lên, thuyền giặc mắc cọc, vỡ đắm, quân ta đánh mạnh, quân Nam Hán thua to, Hoằng "
                  "Tháo tử trận (*Đại Việt sử ký toàn thư*, mức B; chi tiết cọc đầu bịt sắt theo *Toàn thư*). Chiến thắng chấm "
                  "dứt hơn một nghìn năm Bắc thuộc; năm 939 Ngô Quyền xưng vương. **Cỡ cọc** theo các bãi cọc khai quật (của "
-                 "trận 1288, mức ước lượng). **Hư cấu:** Anh Tư canh con nước, cây sào khắc vạch và mọi lời thoại. Cái chết "
+                 "trận 1288, mức ước lượng). **Hư cấu:** Anh Tư và mọi lời thoại. Cái chết "
                  "chỉ ghi ở đây, phim không dựng cảnh chết."),
         setting=SETTING,
         visual=VISUAL,
-        hook="POV: Cả ngày / ngồi canh / một cây sào",
+        hook="POV: Đóng cọc / to bằng cái đùi / giữa sông",
         end="Follow để xem / thêm chuyện / Đại Việt →",
         end_secs=1.6,
         clips=[
-            dict(name="Cây sào", label="Cửa sông Bạch Đằng · 938",
-                 img=f"First-person view on a wide muddy riverbank at low tide, a gruff officer handing {FACE} a tall bamboo pole and a small knife, the brown river and limestone hills behind, realistic, vertical 9:16.",
-                 vid=("0-5s: The officer hands Anh Tư a tall bamboo pole and a knife: \"Cắm sào ra bãi. Nước lên xuống thế nào, "
-                      "khắc vào.\" Anh Tư: \"Khắc nước... để làm gì ạ?\" The officer: \"Để cả quân khỏi phải đoán.\" 5-10s: Anh Tư "
-                      "looks at the other soldiers carrying spears and says quietly: \"Người ta cầm giáo... em cầm cây sào.\""),
-                 subs=[(0.3, 2.2, "Cắm sào ra bãi. / Nước lên xuống thế nào, / khắc vào."), (2.2, 3.4, "Khắc nước... / để làm gì ạ?"),
-                       (3.4, 4.9, "Để cả quân / khỏi phải đoán."), (5.2, 9.5, "Người ta cầm giáo... / em cầm cây sào.")]),
-            dict(name="Cọc mọc theo nước", label="",
-                 img=f"First-person view at low tide on the mudflat, teams of men driving massive ironwood stakes with iron-capped tips into the riverbed with a heavy wooden ram on ropes, {FACE} in the foreground cutting a notch into his bamboo pole, realistic, vertical 9:16.",
-                 vid=("0-5s: At low tide, teams of men lift a heavy wooden ram on ropes and drop it on a massive iron-capped "
-                      "stake; thud after thud; rows of stakes rise from the mud. Anh Tư cuts a notch at the waterline on his "
-                      "pole. 5-10s: He says quietly to the viewer: \"Nước rút đến đâu... người ta đóng cọc đến đấy.\""),
-                 subs=[(0.5, 4.8, "Một, hai... thả!"), (5.0, 9.5, "Nước rút đến đâu... / người ta đóng cọc / đến đấy.")]),
-            dict(name="Nước lên che cọc", label="",
-                 img=f"First-person view at night by torchlight as the rising tide slowly covers the rows of stakes until only dark water remains, {FACE} standing waist-deep holding his notched bamboo pole, realistic, vertical 9:16.",
-                 vid=("0-5s: Night; the tide rises and slowly swallows the rows of stakes until only smooth dark water is left. "
-                      "5-10s: Anh Tư, waist-deep, cuts another notch: \"Nước lên che hết cọc... chỉ còn cây sào của em.\""),
-                 subs=[(5.0, 9.5, "Nước lên che hết cọc... / chỉ còn cây sào của em.")]),
-            dict(name="Bao giờ nước rút", label="",
-                 img=f"First-person view at dawn on the riverbank, {NGO} standing beside {FACE}'s notched bamboo pole and looking at the water, Anh Tư standing very straight, nervous, realistic, vertical 9:16.",
-                 vid=("0-5s: At dawn Ngô Quyền, seen only from behind, stops beside the pole and asks in a low voice: \"Bao giờ "
-                      "nước rút?\" Anh Tư points to a notch: \"Bẩm... quá trưa ạ.\" Ngô Quyền nods once and walks away. 5-10s: "
-                      "Anh Tư lets out a breath and says quietly to the viewer: \"Cả đạo quân chờ... một vạch khắc của em.\""),
-                 subs=[(0.5, 2.2, "Bao giờ nước rút?"), (2.2, 4.8, "Bẩm... / quá trưa ạ."),
-                       (5.0, 9.5, "Cả đạo quân chờ... / một vạch khắc của em.")]),
+            dict(name="Ra bãi đóng cọc", label="Cửa sông Bạch Đằng · 938",
+                 img=f"First-person view on a wide muddy riverbank at low tide, a gruff officer pointing at a pile of huge ironwood tree trunks with sharpened tips, {FACE} beside the viewer staring at them, the brown river and limestone hills behind, realistic, vertical 9:16.",
+                 vid=("0-5s: The officer points at a pile of huge sharpened ironwood trunks: \"Ra bãi đóng cọc. Đóng cho sâu.\" "
+                      "Anh Tư: \"Đóng cọc giữa sông... để làm gì ạ?\" The officer: \"Nước rút thì biết.\" 5-10s: Anh Tư puts his "
+                      "hand on a trunk and says quietly to the viewer: \"Cọc gì... to bằng cái đùi em.\""),
+                 subs=[(0.3, 2.2, "Ra bãi đóng cọc. / Đóng cho sâu."), (2.2, 3.4, "Đóng cọc giữa sông... / để làm gì ạ?"),
+                       (3.4, 4.9, "Nước rút thì biết."), (5.2, 9.5, "Cọc gì... / to bằng cái đùi em.")]),
+            dict(name="Mười người một cọc", label="",
+                 img=f"First-person view on the mudflat at low tide, a team of ten men lifting a heavy wooden ram on ropes above a massive ironwood stake and dropping it, {FACE} pulling a rope, mud splashing, realistic, vertical 9:16.",
+                 vid=("0-5s: A team of ten men haul ropes to lift a heavy wooden ram and drop it on a massive stake: \"Một, hai... "
+                      "thả!\" Thud. The stake sinks only a little. 5-10s: Anh Tư, panting, says quietly to the viewer: \"Mười người "
+                      "một cây cọc... mà nó lún có một gang.\""),
+                 subs=[(0.5, 4.8, "Một, hai... thả!"), (5.0, 9.5, "Mười người một cây cọc... / mà nó lún có một gang.")]),
+            dict(name="Bịt sắt", label="",
+                 img=f"First-person view at a riverside forge, a blacksmith fitting a pointed iron cap onto the sharpened tip of a massive ironwood stake, sparks flying, {FACE} holding the stake steady, realistic, vertical 9:16.",
+                 vid=("0-5s: At a riverside forge a blacksmith hammers a pointed iron cap onto the tip of a massive stake; sparks "
+                      "fly. 5-10s: Anh Tư, holding the stake, sighs: \"Cọc đã to... còn bịt thêm sắt.\""),
+                 subs=[(5.0, 9.5, "Cọc đã to... / còn bịt thêm sắt.")]),
+            dict(name="Nước lên mất cọc", label="",
+                 img=f"First-person view at dusk as the rising tide slowly covers rows of iron-capped stakes until only smooth brown water remains, {FACE} standing on the bank, staring, realistic, vertical 9:16.",
+                 vid=("0-5s: Dusk; the tide rises and slowly swallows the rows of stakes until only smooth brown water is left. "
+                      "5-10s: Anh Tư stares at the water: \"Đóng cả ngày... nước lên một cái là mất hết.\""),
+                 subs=[(5.0, 9.5, "Đóng cả ngày... / nước lên một cái / là mất hết.")]),
             dict(name="Thuyền giặc vào", label="",
-                 img=f"First-person view from the reeds at high tide, a fleet of tall multi-deck warships with plain red banners entering the river mouth chasing a few small light boats, the stakes hidden under the water, {FACE} gripping his pole and watching the waterline, realistic, vertical 9:16.",
+                 img=f"First-person view from the reeds at high tide, a fleet of tall multi-deck warships with plain red banners entering the river mouth chasing a few small light boats, the stakes hidden under the water, {FACE} crouching in the reeds, realistic, vertical 9:16.",
                  vid=("0-5s: High tide; a few small boats row away upriver; the tall warships with plain red banners chase them "
-                      "into the river mouth, right over the hidden stakes. 5-10s: Anh Tư watches the waterline at his notch and "
-                      "whispers: \"Nước đang lên... thuyền nó vào đúng lúc em khắc.\""),
-                 subs=[(5.0, 9.5, "Nước đang lên... / thuyền nó vào / đúng lúc em khắc.")]),
+                      "into the river mouth, right over the hidden stakes. 5-10s: Anh Tư, in the reeds, whispers: \"Thuyền nó to "
+                      "thế... đi ngay trên đầu cọc em mà không biết.\""),
+                 subs=[(5.0, 9.5, "Thuyền nó to thế... / đi ngay trên đầu cọc em / mà không biết.")]),
             dict(name="Câu chốt", label="",
-                 img=f"First-person view at midday as the tide falls, a forest of iron-capped stakes emerging from the water, tall warships tilting and stuck among them, many small Vietnamese boats closing in, {FACE} in the foreground pulling his bamboo pole out of the mud, no bodies, realistic, vertical 9:16.",
-                 vid=("0-5s: The water drops below the notch; a forest of iron-capped stakes rises; the tall warships lurch and "
-                      "stick fast, timber cracking; war drums on both banks; small boats close in. No bodies, no blood. A calm "
-                      "narrator's voice says: \"Năm 938, Ngô Quyền tính con nước, cắm cọc ở cửa sông Bạch Đằng. Triều rút, thuyền "
-                      "Nam Hán mắc cọc. Hơn một nghìn năm Bắc thuộc chấm dứt.\" 5-10s: Anh Tư pulls his pole out of the mud and "
-                      "says quietly to the camera: \"Cả trận đánh... em chỉ ngồi nhìn nước.\""),
-                 subs=[(0.3, 4.8, "Năm 938, Ngô Quyền / tính con nước, cắm cọc. / Hơn nghìn năm Bắc thuộc / chấm dứt."),
-                       (5.0, 8.4, "Cả trận đánh... / em chỉ ngồi nhìn nước.")]),
+                 img=f"First-person view at midday as the tide falls, a forest of iron-capped stakes emerging from the water, tall warships tilting and stuck among them, many small Vietnamese boats closing in, {FACE} in the foreground with one hand on a stake, no bodies, realistic, vertical 9:16.",
+                 vid=("0-5s: The tide falls; a forest of iron-capped stakes rises; the tall warships lurch and stick fast, timber "
+                      "cracking; war drums on both banks; small boats close in. No bodies, no blood. A calm narrator's voice says: "
+                      "\"Năm 938, Ngô Quyền cắm cọc ở cửa sông Bạch Đằng. Triều rút, thuyền Nam Hán mắc cọc. Hơn một nghìn năm "
+                      "Bắc thuộc chấm dứt.\" 5-10s: Anh Tư pats the nearest stake and says to the camera: \"Cọc này là của em đóng "
+                      "đấy... các bác ghi tên em vào sử nhé!\""),
+                 subs=[(0.3, 4.8, "Năm 938, Ngô Quyền / cắm cọc ở cửa Bạch Đằng. / Hơn nghìn năm Bắc thuộc / chấm dứt."),
+                       (5.0, 8.4, "Cọc này là của em đóng đấy... / các bác ghi tên em / vào sử nhé!")]),
         ],
-        caption=("Bị sai ngồi canh một cây sào giữa bãi bùn, cả ngày khắc mực nước, không ai nói để làm gì 🌊 Năm 938, Ngô Quyền "
-                 "tính đúng con nước: triều lên nhử thuyền giặc vào, triều rút cọc nhô lên. Bạn có biết cọc thật to cỡ nào "
-                 "không? 👇"),
-        tags="#bachdang #ngoquyen #938 #lichsuvietnam #thuytrieu",
-        tt_title="Bị sai ngồi canh một cây sào giữa bãi bùn, cả ngày khắc mực nước",
-        hooks_alt=["POV: Cả đạo quân chờ / một vạch khắc của em", "POV: Người ta cầm giáo / em cầm cây sào"],
-        pin=("Cọc trận 938 là cả thân cây lim, đầu bịt sắt theo Toàn thư 🔥 Còn thủy triều ở cửa Bạch Đằng lên xuống mấy lần một "
-             "ngày, bạn biết không? Follow để xem thêm chuyện Đại Việt!"),
-        yt_title="Bạch Đằng 938: người canh con nước cho Ngô Quyền | POV lịch sử",
-        yt_tags=("bạch đằng 938, ngô quyền, thủy triều, cọc bạch đằng, cọc bịt sắt, nam hán, hoằng tháo, chấm dứt bắc thuộc, "
+        caption=("Bị sai ra bãi bùn đóng những cây cọc to bằng cái đùi, không ai nói để làm gì 😳 Năm 938, Ngô Quyền cắm cọc "
+                 "đầu bịt sắt ở cửa sông Bạch Đằng: triều lên nhử thuyền giặc vào, triều rút cọc nhô lên. Bạn đoán mười người "
+                 "đóng một cây cọc mất bao lâu? 👇"),
+        tags="#bachdang #ngoquyen #938 #lichsuvietnam #cocbachdang",
+        tt_title="Bị sai ra bãi bùn đóng những cây cọc to bằng cái đùi",
+        hooks_alt=["POV: Mười người một cây cọc / lún có một gang", "POV: Đóng cả ngày / nước lên là mất hết"],
+        pin=("Cọc trận 938 là cả thân cây lim, đầu bịt sắt theo Toàn thư 🔥 Các bác đã ghi tên Anh Tư vào sử chưa? Follow để xem "
+             "thêm chuyện Đại Việt!"),
+        yt_title="Bạch Đằng 938: đóng cọc cho Ngô Quyền | POV lịch sử",
+        yt_tags=("bạch đằng 938, ngô quyền, cọc bạch đằng, cọc bịt sắt, thủy triều, nam hán, hoằng tháo, chấm dứt bắc thuộc, "
                  "lịch sử việt nam, pov lịch sử, anh tư, đại việt, shorts"),
     ),
 ]
 
 if __name__ == "__main__":
     build(EPISODES, HERE, series_tag="#povlichsu #anhtu", note=("**Bản mới 45–60 giây** (22/11/2026), viết lại theo mọi "
-          "tiêu chuẩn đã bổ sung. Góc kể mới: Anh Tư canh con nước, khác video \"cắm cọc cả buổi sáng\" đã đăng."),
+          "tiêu chuẩn đã bổ sung. Giữ câu chốt gốc của kênh theo ý anh."),
           unit="Bản mới", file_unit="ban-moi")
