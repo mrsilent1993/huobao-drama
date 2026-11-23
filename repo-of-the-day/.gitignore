@@ -1,2 +1,4 @@
 work/
 voice/
+.env
+motion/node_modules/

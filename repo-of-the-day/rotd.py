@@ -21,15 +21,27 @@ import urllib.request
 from datetime import date, datetime, timedelta, timezone
 
 HERE = os.path.dirname(os.path.abspath(__file__))
+_ENV = os.path.join(HERE, ".env")                 # chạy trên máy cá nhân: FB_PAGE_ID=..., FB_ACCESS_TOKEN=...
+if os.path.exists(_ENV):
+    for _l in open(_ENV, encoding="utf-8"):
+        if "=" in _l and not _l.lstrip().startswith("#"):
+            _k, _v = _l.strip().split("=", 1)
+            os.environ.setdefault(_k.strip(), _v.strip().strip('"'))
+
+
+def fb_auth():
+    """Trên đám mây proxy tự gắn token; trên máy cá nhân lấy FB_ACCESS_TOKEN trong .env."""
+    t = os.environ.get("FB_ACCESS_TOKEN")
+    return {"Authorization": f"Bearer {t}"} if t else {}
 WORK = os.path.join(HERE, "work")
 VOICE_DIR = os.path.join(HERE, "voice")
 VOICE = "en_US-ryan-high"
 VOICE_URL = f"https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/ryan/high/{VOICE}"
 GRAPH = "https://graph-video.facebook.com/v21.0"
 W, H = 1080, 1920
-FONT_B = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
-FONT_R = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
-FONT_M = "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf"
+FONT_B = os.path.join(HERE, "motion", "fonts", "DejaVuSans-Bold.ttf")
+FONT_R = os.path.join(HERE, "motion", "fonts", "DejaVuSans.ttf")
+FONT_M = os.path.join(HERE, "motion", "fonts", "DejaVuSansMono.ttf")
 BG, FG, MUTED, ACCENT, CARD = (13, 17, 23), (230, 237, 243), (139, 148, 158), (63, 185, 80), (22, 27, 34)
 
 SCRIPT_FORMAT = """work/script.json:
@@ -72,7 +84,7 @@ def posted_repos():
     if not page:
         return set()
     try:
-        d = http_json(f"{GRAPH}/{page}/videos?fields=description&limit=100")
+        d = http_json(f"{GRAPH}/{page}/videos?fields=description&limit=100", headers=fb_auth())
     except Exception as e:  # noqa: BLE001
         print("cảnh báo: không đọc được bài cũ của Trang:", e)
         return set()
@@ -320,7 +332,8 @@ def post():
     cap += "\n\nVoiceover generated with AI."
     final = os.path.join(WORK, "rotd.mp4")
     # multipart qua curl (token do proxy tự gắn vào header Authorization cho host graph-video.facebook.com)
-    r = subprocess.run(["curl", "-sS", "--max-time", "600", "-X", "POST", f"{GRAPH}/{page}/videos",
+    hdr = [x for k, v in fb_auth().items() for x in ("-H", f"{k}: {v}")]
+    r = subprocess.run(["curl", "-sS", "--max-time", "600", "-X", "POST", *hdr, f"{GRAPH}/{page}/videos",
                         "-F", f"source=@{final};type=video/mp4",
                         "--form-string", f"title=Repo of the Day: {info['full_name']}",
                         "--form-string", f"description={cap}"], capture_output=True, text=True)

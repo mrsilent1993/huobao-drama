@@ -1,0 +1,1 @@
+{ "name": "rotd-motion", "private": true, "dependencies": { "playwright": "1.49.1" } }
