@@ -1,0 +1,152 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+  @font-face { font-family: D; src: url("file:///usr/share/fonts/opentype/inter/InterDisplay-Black.otf"); font-weight: 900; }
+  @font-face { font-family: D; src: url("file:///usr/share/fonts/opentype/inter/InterDisplay-Bold.otf"); font-weight: 700; }
+  @font-face { font-family: T; src: url("file:///usr/share/fonts/opentype/inter/Inter-SemiBold.otf"); font-weight: 600; }
+  @font-face { font-family: T; src: url("file:///usr/share/fonts/opentype/inter/Inter-Medium.otf"); font-weight: 500; }
+  @font-face { font-family: M; src: url("file:///usr/share/fonts/truetype/dejavu/DejaVuSansMono-Bold.ttf"); }
+  :root { --bg:#F4F1EA; --ink:#0E1116; --mut:#6B6F76; --acc:#1F9D55; --acc2:#B8F28F; --card:#FFFFFF; --line:#E3DED3; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 1080px; height: 1920px; overflow: hidden; background: var(--bg); font-family: T, sans-serif; color: var(--ink); }
+  #grid { position: absolute; inset: 0; background-image: radial-gradient(#d9d3c6 2px, transparent 2px); background-size: 48px 48px; opacity: .55; }
+  #top { position: absolute; left: 64px; right: 64px; top: 96px; height: 72px; display: flex; align-items: center; justify-content: space-between; }
+  .brand { display: flex; align-items: center; gap: 18px; font-family: D; font-weight: 900; font-size: 34px; letter-spacing: 3px; }
+  .dot { width: 22px; height: 22px; border-radius: 50%; background: var(--acc); box-shadow: 0 0 0 8px rgba(31,157,85,.18); }
+  .date { font-family: M; font-size: 28px; color: var(--mut); }
+  #stage { position: absolute; left: 0; right: 0; top: 200px; height: 1100px; }
+  .scene { position: absolute; inset: 0; opacity: 0; }
+  .center { position: absolute; left: 64px; right: 64px; top: 0; bottom: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; }
+  .kicker { font-family: M; font-size: 32px; color: var(--acc); letter-spacing: 2px; margin-bottom: 30px; }
+  .h1 { font-family: D; font-weight: 900; font-size: 128px; line-height: .98; letter-spacing: -3px; }
+  .h2 { font-family: D; font-weight: 800; font-size: 72px; line-height: 1.04; letter-spacing: -1.5px; }
+  .hl { color: var(--acc); }
+  .mark { background: linear-gradient(transparent 58%, var(--acc2) 58%); padding: 0 8px; }
+  .chip { display: inline-flex; align-items: center; gap: 14px; background: var(--card); border: 3px solid var(--ink); border-radius: 999px; padding: 16px 30px; font-family: M; font-size: 34px; box-shadow: 6px 6px 0 var(--ink); }
+  .card { background: var(--card); border: 3px solid var(--ink); border-radius: 28px; box-shadow: 10px 10px 0 var(--ink); }
+  .row { display: flex; gap: 28px; justify-content: center; flex-wrap: wrap; }
+  .node { width: 380px; padding: 34px 30px; text-align: left; position: relative; }
+  .node .n { font-family: M; font-size: 28px; color: var(--mut); }
+  .node .t { font-family: D; font-weight: 800; font-size: 54px; margin-top: 6px; }
+  .node .s { font-size: 28px; color: var(--mut); margin-top: 8px; line-height: 1.25; }
+  .node.on { background: var(--ink); color: #fff; }
+  .node.on .n, .node.on .s { color: #c9cdd3; }
+  .node.on .t { color: var(--acc2); }
+  .big { font-family: D; font-weight: 900; font-size: 300px; line-height: .9; letter-spacing: -10px; color: var(--ink); }
+  .big .u { color: var(--acc); }
+  .lbl { font-family: D; font-weight: 800; font-size: 76px; margin-top: 10px; }
+  .sub { font-size: 36px; color: var(--mut); margin-top: 26px; line-height: 1.3; }
+  .tick { display: inline-flex; width: 58px; height: 58px; border-radius: 50%; background: var(--acc); color: #fff; align-items: center; justify-content: center; font-size: 38px; margin-right: 16px; }
+  .stat { width: 290px; padding: 30px 20px; text-align: center; }
+  .stat .v { font-family: D; font-weight: 900; font-size: 74px; }
+  .stat .k { font-family: M; font-size: 26px; color: var(--mut); margin-top: 6px; }
+  .avatar { width: 190px; height: 190px; border-radius: 40px; border: 4px solid var(--ink); box-shadow: 8px 8px 0 var(--ink); object-fit: cover; margin-bottom: 36px; background: #fff; }
+  #cap { position: absolute; left: 56px; right: 56px; top: 1330px; min-height: 300px; display: flex; align-items: center; justify-content: center; }
+  #capbox { background: var(--ink); color: #fff; border-radius: 30px; padding: 34px 40px; font-family: D; font-weight: 800; font-size: 54px; line-height: 1.22; text-align: center; box-shadow: 0 18px 40px rgba(14,17,22,.18); }
+  #capbox .k { color: var(--acc2); }
+  #capbox .w { opacity: .28; transition: none; }
+  #capbox .w.said { opacity: 1; }
+  #foot { position: absolute; left: 64px; right: 64px; bottom: 200px; display: flex; justify-content: space-between; font-family: M; font-size: 26px; color: var(--mut); }
+  #bar { position: absolute; left: 0; bottom: 0; height: 14px; background: var(--acc); width: 0; }
+</style></head>
+<body>
+<div id="grid"></div>
+<div id="top"><div class="brand"><div class="dot"></div><span id="brandname">REPO OF THE DAY</span></div><div class="date" id="date"></div></div>
+<div id="stage"></div>
+<div id="cap"><div id="capbox"></div></div>
+<div id="foot"><span id="url"></span><span>AI voiceover</span></div>
+<div id="bar"></div>
+<script>
+// ---------- tiện ích
+const D = window.DATA;
+const clamp = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x));
+const ease = x => 1 - Math.pow(1 - clamp(x), 3);
+const back = x => { x = clamp(x); const c = 1.6; return 1 + (c + 1) * Math.pow(x - 1, 3) + c * Math.pow(x - 1, 2); };
+const esc = s => String(s).replace(/[&<>]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
+const mk = s => esc(s).replace(/\*([^*]+)\*/g, '<span class="mark">$1</span>').replace(/_([^_]+)_/g, '<span class="hl">$1</span>');
+document.getElementById("date").textContent = D.date;
+document.getElementById("url").textContent = "github.com/" + D.repo;
+if (D.brand) document.getElementById("brandname").textContent = D.brand;
+
+// ---------- dựng từng cảnh (mỗi cảnh ứng với một câu đọc)
+const stage = document.getElementById("stage");
+const scenes = D.scenes.map((sc, i) => {
+  const el = document.createElement("div"); el.className = "scene"; stage.appendChild(el);
+  let h = "";
+  if (sc.type === "hook") {
+    h = `<div class="center">${D.avatar ? `<img class="avatar a" src="${D.avatar}">` : ""}
+         <div class="kicker a">${esc(sc.kicker || "TODAY'S PICK")}</div>
+         <div class="h1 a">${mk(sc.title)}</div>
+         <div style="height:56px"></div><div class="chip a">★ <span class="cnt" data-to="${D.stars}">0</span> stars · ${esc(D.repo)}</div></div>`;
+  } else if (sc.type === "flow") {
+    h = `<div class="center"><div class="h2 a" style="margin-bottom:60px">${mk(sc.title)}</div>
+         <div class="row">${sc.steps.map((s, j) => `<div class="card node a f" data-j="${j}"><div class="n">0${j + 1}</div><div class="t">${esc(s.t)}</div><div class="s">${esc(s.s || "")}</div></div>`).join("")}</div></div>`;
+  } else if (sc.type === "chips") {
+    h = `<div class="center"><div class="h2 a" style="margin-bottom:70px">${mk(sc.title)}</div>
+         <div class="row" style="gap:24px;max-width:900px">${sc.items.map(x => `<div class="chip a c">${esc(x)}</div>`).join("")}</div>
+         ${sc.target ? `<div style="height:70px"></div><div class="h1 a" style="font-size:110px">→ <span class="hl">${esc(sc.target)}</span></div>` : ""}</div>`;
+  } else if (sc.type === "bigstat") {
+    h = `<div class="center"><div class="kicker a">${esc(sc.kicker || "")}</div>
+         <div class="big a"><span class="cnt" data-to="${parseFloat(sc.value)}" data-dec="${String(sc.value).includes(".") ? 1 : 0}">0</span><span class="u">${esc(sc.unit || "")}</span></div>
+         <div class="lbl a">${mk(sc.label)}</div><div class="sub a">${sc.sub ? `<span class="tick">✓</span>` + esc(sc.sub) : ""}</div></div>`;
+  } else if (sc.type === "list") {
+    h = `<div class="center"><div class="h2 a" style="margin-bottom:56px">${mk(sc.title)}</div>
+         <div style="display:flex;flex-direction:column;gap:26px;width:100%">${sc.items.map(x => `<div class="card a l" style="padding:30px 36px;text-align:left;font-family:D;font-weight:800;font-size:50px"><span class="tick">✓</span>${esc(x)}</div>`).join("")}</div></div>`;
+  } else { // cta
+    h = `<div class="center"><div class="kicker a">OPEN SOURCE · FREE</div><div class="h2 a" style="font-size:84px">${mk(sc.title || D.repo)}</div>
+         <div style="height:60px"></div><div class="row">${(sc.stats || []).map(s => `<div class="card stat a"><div class="v">${esc(s.v)}</div><div class="k">${esc(s.k)}</div></div>`).join("")}</div>
+         <div style="height:70px"></div><div class="chip a" style="font-size:36px">github.com/${esc(D.repo)}</div>
+         <div style="height:44px"></div><div class="h2 a" style="font-size:58px">Follow for a <span class="hl">new repo</span> every morning</div></div>`;
+  }
+  el.innerHTML = h;
+  return { el, sc, items: [...el.querySelectorAll(".a")] };
+});
+
+// ---------- phụ đề: chữ sáng dần theo nhịp đọc, từ khóa tô màu
+const capbox = document.getElementById("capbox");
+const KW = (D.keywords || []).map(k => k.toLowerCase());
+function setCaption(i, p) {
+  if (capbox.dataset.i != i) {
+    const words = D.lines[i].split(/\s+/);
+    capbox.innerHTML = words.map(w => {
+      const bare = w.toLowerCase().replace(/[^\w+#.-]/g, "");
+      const k = KW.some(k => bare.startsWith(k) && k.length > 1);
+      return `<span class="w${k ? " k" : ""}">${esc(w)}</span>`;
+    }).join(" ");
+    capbox.dataset.i = i;
+  }
+  const ws = capbox.querySelectorAll(".w"); const n = Math.ceil(ws.length * clamp(p * 1.08));
+  ws.forEach((w, j) => w.classList.toggle("said", j < n));
+}
+
+// ---------- vẽ một khung hình ở thời điểm t (giây)
+window.setTime = function (t) {
+  let acc = 0, cur = D.durs.length - 1;
+  for (let i = 0; i < D.durs.length; i++) { if (t < acc + D.durs[i]) { cur = i; break; } acc += D.durs[i]; }
+  const starts = D.durs.map((_, i) => D.durs.slice(0, i).reduce((a, b) => a + b, 0));
+  scenes.forEach((s, i) => {
+    const lt = t - starts[i], dur = D.durs[i];
+    const inn = ease(lt / 0.45), out = i === scenes.length - 1 ? 1 : 1 - ease((lt - dur + 0.25) / 0.25);
+    const vis = lt >= -0.01 && lt < dur;
+    s.el.style.opacity = vis ? Math.min(inn, out) : 0;
+    s.el.style.transform = `translateY(${(1 - inn) * 60}px) scale(${1 + (1 - out) * 0.04})`;
+    if (!vis) return;
+    s.items.forEach((el, j) => {           // từng phần tử bật vào lần lượt
+      const p = back((lt - 0.12 - j * 0.11) / 0.5);
+      el.style.opacity = clamp((lt - 0.12 - j * 0.11) / 0.25);
+      el.style.transform = `translateY(${(1 - p) * 70}px) scale(${0.9 + 0.1 * p})`;
+    });
+    s.el.querySelectorAll(".cnt").forEach(c => {   // số đếm tăng dần
+      const to = parseFloat(c.dataset.to) || 0, dec = +c.dataset.dec || 0, v = to * ease((lt - 0.3) / 1.4);
+      c.textContent = dec ? v.toFixed(dec) : Math.round(v).toLocaleString("en-US");
+    });
+    s.el.querySelectorAll(".f").forEach(f => {      // sơ đồ: các bước sáng lần lượt
+      const j = +f.dataset.j, n = s.el.querySelectorAll(".f").length;
+      f.classList.toggle("on", lt > 0.6 + j * Math.max(0.5, (dur - 1.2) / n));
+    });
+  });
+  setCaption(cur, (t - starts[cur]) / D.durs[cur]);
+  document.getElementById("bar").style.width = (100 * t / D.total) + "%";
+};
+window.READY = true;
+</script></body></html>

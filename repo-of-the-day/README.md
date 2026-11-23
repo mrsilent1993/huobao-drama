@@ -8,3 +8,9 @@ Mỗi sáng (khoảng 7h, giờ Việt Nam) một phiên Claude chạy theo lị
 
 Cấu hình: `config.json` = `{"fb_page_id": "<ID Trang>"}` hoặc biến môi trường `FB_PAGE_ID`.
 Chạy thử không đăng: làm bước 1–3.
+
+## Kiểu đồ họa chuyển động (mặc định từ 23/11/2026)
+
+Nếu `work/script.json` có khóa `"scenes"` (đúng một cảnh cho mỗi câu), `rotd.py render` dựng bằng `motion/engine.html` + `motion/render_motion.js` (Playwright chụp từng khung, 30 khung/giây): nền kem chấm bi, chữ lớn, thẻ viền đen bóng đổ, màu nhấn xanh lá; phụ đề sáng dần theo nhịp đọc, từ khóa tô màu.
+
+Loại cảnh: `hook` (kicker, title), `flow` (title, steps[{t,s}]), `list` (title, items), `bigstat` (kicker, value, unit, label, sub), `chips` (title, items, target), `cta` (title, stats[{v,k}]). Trong `title`: `_chữ_` = tô xanh, `*chữ*` = gạch nền.

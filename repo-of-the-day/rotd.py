@@ -258,6 +258,49 @@ def render():
     print(f"Đã dựng {final} ({d:.1f} giây)")
 
 
+# ----------------------------------------------------------------------------------------------- 3b. bản đồ họa chuyển động
+def render_motion():
+    """Dựng kiểu 'motion graphics' (motion/engine.html) khi script.json có khóa "scenes" (mỗi câu một cảnh)."""
+    info = json.load(open(os.path.join(WORK, "pick.json")))
+    sc = json.load(open(os.path.join(WORK, "script.json")))
+    lines = [l.strip() for l in sc["lines"] if l.strip()]
+    scenes = sc["scenes"]
+    assert len(scenes) == len(lines), "scenes phải có đúng số phần tử bằng lines"
+    ensure_voice()
+    wavs, durs = [], []
+    for i, ln in enumerate(lines):
+        wav = os.path.join(WORK, f"l{i}.wav")
+        durs.append(round(tts(ln, wav) + 0.35, 3))
+        wavs.append(wav)
+    total = round(sum(durs), 3)
+    # âm thanh: nối các câu, mỗi câu đệm cho đủ thời lượng cảnh
+    fc = "".join(f"[{i}:a]apad=whole_dur={d},aformat=sample_rates=48000:channel_layouts=stereo[a{i}];"
+                 for i, d in enumerate(durs)) + "".join(f"[a{i}]" for i in range(len(durs))) + \
+        f"concat=n={len(durs)}:v=0:a=1,loudnorm=I=-14:TP=-1.5:LRA=11[a]"
+    audio = os.path.join(WORK, "voice.m4a")
+    cmd = ["ffmpeg", "-y", "-loglevel", "error"]
+    for w in wavs:
+        cmd += ["-i", w]
+    subprocess.run(cmd + ["-filter_complex", fc, "-map", "[a]", "-c:a", "aac", "-b:a", "160k", audio], check=True)
+    avatar = None
+    try:
+        import base64
+        avatar = "data:image/png;base64," + base64.b64encode(http_bytes(info["owner_avatar"] + "&s=300")).decode()
+    except Exception:  # noqa: BLE001
+        pass
+    data = dict(repo=info["full_name"], stars=info["stars"], date=datetime.now().strftime("%b %d, %Y").upper(),
+                avatar=avatar, lines=lines, scenes=scenes, keywords=sc.get("keywords") or [], durs=durs, total=total,
+                brand=sc.get("brand") or "REPO OF THE DAY")
+    dj = os.path.join(WORK, "motion.json")
+    json.dump(data, open(dj, "w"), ensure_ascii=False)
+    silent = os.path.join(WORK, "motion.mp4")
+    subprocess.run(["node", os.path.join(HERE, "motion", "render_motion.js"), dj, silent], check=True)
+    final = os.path.join(WORK, "rotd.mp4")
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", silent, "-i", audio, "-map", "0:v", "-map", "1:a",
+                    "-c:v", "copy", "-c:a", "copy", "-shortest", "-movflags", "+faststart", final], check=True)
+    print(f"Đã dựng {final} ({total:.1f} giây, kiểu motion graphics)")
+
+
 # ----------------------------------------------------------------------------------------------- 4. đăng Facebook
 def page_id():
     """ID Trang Facebook: biến môi trường FB_PAGE_ID, hoặc file config.json {"fb_page_id": "..."} cạnh script."""
@@ -291,4 +334,4 @@ def post():
 
 if __name__ == "__main__":
     cmd = sys.argv[1] if len(sys.argv) > 1 else ""
-    {"pick": pick, "render": render, "post": post}.get(cmd, lambda: sys.exit(__doc__))()
+    {"pick": pick, "post": post, "render": lambda: render_motion() if "scenes" in json.load(open(os.path.join(WORK, "script.json"))) else render()}.get(cmd, lambda: sys.exit(__doc__))()
