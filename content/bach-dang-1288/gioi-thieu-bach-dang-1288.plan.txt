@@ -1,0 +1,18 @@
+# Dựng: python3 ../tools/tiktok.py gioi-thieu-bach-dang-1288.plan.txt gioi-thieu-bach-dang-1288.mp4  (một bản dùng chung TikTok, YouTube, Facebook)
+hook: Bạch Đằng 1288 / qua mắt / một người lính
+end: Bạch Đằng 1288 · 16 tập / Follow để xem tập 1 →
+end_giay: 1.6
+nhan: AI tái hiện · lời thoại hư cấu
+
+clip: gt-bd1288-1.mp4 | Bạch Đằng 1288 · 16 tập
+clip: gt-bd1288-2.mp4 |  | chuyen=fadewhite:0.3
+clip: gt-bd1288-3.mp4 |  | chuyen=fadeblack:0.6
+clip: gt-bd1288-4.mp4 |  | chuyen=fadeblack:0.5
+
+sub: 1 | 4.0-9.6 | Cuối năm 1287. / Quân Nguyên sang / đánh Đại Việt lần thứ ba.
+sub: 2 | 0.3-5.4 | Đun nước. Khiêng lễ. / Mò gạo. Phá cầu.
+sub: 2 | 5.5-9.6 | Không ai nói em / để làm gì.
+sub: 3 | 0.5-4.8 | Có người tính / từng con nước.
+sub: 3 | 5.0-9.6 | Có người đóng / từng cây cọc.
+sub: 4 | 0.5-4.8 | Em là Anh Tư. Năm 1288 / em có mặt từ đầu đến cuối... / mà chẳng ai nói em làm gì.
+sub: 4 | 5.0-8.2 | Mai bắt đầu từ cái nồi nước. / Mỗi ngày một tập.
