@@ -1,0 +1,27 @@
+# Dựng: python3 ../../tools/tiktok.py phap-an-thi-nai-1792.plan.txt phap-an-thi-nai-1792.mp4  (ra bản youtube và tiktok)
+hook: POV: Quang Trung / có đánh nhau / với Pháp không?
+end: Follow để xem / loạt Quang Trung / tập tiếp theo →
+nhan: AI tái hiện · có chi tiết truyền tụng
+end_giay: 1.6
+
+clip: pa1792-1.mp4 | Thị Nại, Quy Nhơn · 1792 | tiktok=0-9.7
+clip: pa1792-2.mp4 |  | tiktok=0.2-9.7
+clip: pa1792-3.mp4 |  | tiktok=bo
+clip: pa1792-4.mp4 |  | tiktok=0.2-9.7
+clip: pa1792-5.mp4 |  | tiktok=0.2-9.7
+clip: pa1792-6.mp4 |  | tiktok=0-10
+
+sub: 1 | 0.3-3.4 | Nhiều bác hỏi: / Quang Trung / có đánh Pháp không?
+sub: 1 | 3.4-6.6 | Quân triều đình Pháp / thì không. / Nhưng tàu từ Pháp Ấn
+sub: 1 | 6.6-9.5 | vừa theo Nguyễn Ánh / đánh vào Thị Nại đây này.
+sub: 2 | 0.3-3.4 | Hiệp ước năm 1787 / không thành,
+sub: 2 | 3.4-6.6 | ông giám mục tự đi / quyên tiền ở Pháp Ấn,
+sub: 2 | 6.6-9.5 | mua tàu, mời sĩ quan Pháp / về giúp Nguyễn Ánh.
+sub: 3 | 0.3-4.8 | Tàu Tây chạy nhanh, / đại bác bắn xa.
+sub: 3 | 5.0-9.5 | Bên mình thì đúc thêm / thần công hạng nặng.
+sub: 4 | 0.3-4.8 | Thuyền lớn nhà mình / to như cái thành nổi.
+sub: 4 | 5.0-9.5 | Nghe đâu... / chở được cả voi.
+sub: 5 | 0.3-4.8 | Voi chiến / lên boong thuyền.
+sub: 5 | 5.0-9.5 | Em dắt voi cả buổi... / nó say sóng trước em.
+sub: 6 | 0.3-4.8 | Thu năm 1792, / vua Quang Trung mất. / Trận lớn trên biển / không bao giờ diễn ra.
+sub: 6 | 5.0-8.4 | Thuyền đóng xong rồi... / mà người cầm quân / không còn nữa.
