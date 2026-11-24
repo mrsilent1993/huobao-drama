@@ -1,0 +1,26 @@
+# Dựng: python3 ../tools/tiktok.py tap-19-dat-voi-len-thuyen-thi-nai-1792.plan.txt tap-19-dat-voi-len-thuyen-thi-nai-1792.mp4  (ra tap-19-dat-voi-len-thuyen-thi-nai-1792-youtube.mp4 và tap-19-dat-voi-len-thuyen-thi-nai-1792-tiktok.mp4)
+hook: POV: Bị sai / dắt voi / lên thuyền chiến
+end: Follow để xem / loạt Quang Trung / tập tiếp theo →
+nhan: AI tái hiện · có chi tiết truyền tụng
+end_giay: 1.6
+
+clip: qt19-1.mp4 | Thị Nại, Quy Nhơn · 1792 | tiktok=0-9.7
+clip: qt19-2.mp4 |  | tiktok=bo
+clip: qt19-3.mp4 |  | tiktok=bo
+clip: qt19-4.mp4 |  | tiktok=0.2-9.7
+clip: qt19-5.mp4 |  | tiktok=0.2-9.7
+clip: qt19-6.mp4 |  | tiktok=bo
+clip: qt19-7.mp4 |  | tiktok=2.7-10
+
+sub: 1 | 0.3-2.2 | Dắt voi lên thuyền. / Cho nó quen sóng.
+sub: 1 | 2.2-3.4 | Voi... đi biển ạ?
+sub: 1 | 3.4-4.9 | Tàu bên kia có đại bác. / Mình có voi.
+sub: 1 | 5.2-9.5 | Người ta tập bơi cho lính... / em tập đi biển cho voi.
+sub: 2 | 5.0-9.5 | Hôm trước người ta / vào đốt thuyền... / hôm nay mình đóng / cái to hơn.
+sub: 3 | 0.5-4.8 | Tàu kia mua tận bên Ấn Độ, / người Pháp cầm lái.
+sub: 3 | 5.0-9.5 | Chuyện trong nhà... / mà có người từ tận / bên kia biển sang.
+sub: 4 | 5.0-9.5 | Voi nặng mấy nghìn cân... / dỗ bằng một nải chuối.
+sub: 5 | 5.0-9.5 | Em tập cho voi quen sóng... / voi quen rồi, / em thì chưa.
+sub: 6 | 5.0-9.5 | Mai mốt vào Gia Định... / cả voi cả em cùng đi.
+sub: 7 | 3.0-6.0 | Hè 1792, tàu Nguyễn Ánh / đánh Thị Nại. Mùa thu năm ấy, / vua Quang Trung mất.
+sub: 7 | 6.1-8.4 | Voi quen sóng rồi... / mà chuyến đi ấy / không bao giờ đến.

@@ -2,7 +2,7 @@
 
 Mỗi video một phiếu theo cùng mẫu: thông tin chung, danh sách clip, bối cảnh và giọng, prompt từng clip, chữ trên video, thông tin đăng, bảng kiểm tra trước khi đăng. Xuất lại bằng `python3 tools/xuat_phieu.py` (chạy từ thư mục `content/`).
 
-**Tổng cộng 85 phiếu.** ✅ = đã đăng (theo trang quản lý TikTok ngày 18/11/2026), ☐ = chưa đăng.
+**Tổng cộng 87 phiếu.** ✅ = đã đăng (theo trang quản lý TikTok ngày 18/11/2026), ☐ = chưa đăng.
 
 ## Tự hào Đại Việt
 
@@ -44,6 +44,7 @@ Mỗi video một phiếu theo cùng mẫu: thông tin chung, danh sách clip, b
 | 16 | Tập 16 · Được giao chạy báo tin thắng trận cho vua, mà chạy mãi không kịp vì… thắng nhanh quá (đại phá quân Thanh, Tết Kỷ Dậu 1789) | 7 | ~68s | ~35s | ☐ | `quang-trung/16-tap-16-chay-bao-tin-dai-pha-quan-thanh-1789.md` |
 | 17 | Tập 17 · Trước trận Ngọc Hồi bị giao năm việc lạ, không ai giải thích, cộng lại thành… một trận thắng (Tết Kỷ Dậu 1789) | 7 | ~68s | ~35s | ☐ | `quang-trung/17-tap-17-nam-viec-la-truoc-tran-ngoc-hoi-1789.md` |
 | 18 | Tập 18 · Được giao đi trinh sát dịp Tết, nhiệm vụ chính là… nằm đếm pháo của giặc (Tết Kỷ Dậu 1789) | 7 | ~68s | ~35s | ☐ | `quang-trung/18-tap-18-dem-phao-tet-ngoai-don-giac-1789.md` |
+| 19 | Tập 19 · Bị sai dắt voi lên thuyền chiến, tập cho voi quen sóng, không ai nói đi đâu (Thị Nại, 1792) | 7 | ~68s | ~35s | ☐ | `quang-trung/19-tap-19-dat-voi-len-thuyen-thi-nai-1792.md` |
 
 ## Tây Sơn từng mốc
 
@@ -113,6 +114,7 @@ Mỗi video một phiếu theo cùng mẫu: thông tin chung, danh sách clip, b
 |---|---|---|---|---|---|---|
 | 1 | trailer 30 giây | 3 | ~29s | chung | ☐ | `bach-dang-938/01-bach-dang-938-trailer.md` |
 | 2 | trọn vẹn trận đánh (3 phút, bản YouTube) | 18 | ~171s | chung | ☐ | `bach-dang-938/02-bach-dang-938-tran-danh.md` |
+| 3 | Bị sai ra bãi bùn đóng những cây cọc to bằng cái đùi, không ai nói để làm gì (Bạch Đằng, 938) | 6 | ~58s | ~47s | ☐ | `bach-dang-938/03-ban-moi-1-dong-coc-bach-dang-938.md` |
 
 ## Video trả lời bình luận
 

@@ -1269,6 +1269,85 @@ EPISODES = [
              "Follow để xem loạt Quang Trung tập tiếp theo!"),
         yt_title="Tết Kỷ Dậu 1789: nằm đếm pháo ngoài đồn giặc | Loạt Quang Trung",
         yt_tags="tết kỷ dậu 1789, trinh sát, đồn hà hồi, đánh lúc giặc lơ là, hoàng lê nhất thống chí, " + YT),
+    # ================================================================== Tập 19 · Dắt voi lên thuyền (1792, tàu Pháp Ấn ở Thị Nại)
+    dict(COMMON, slug="dat-voi-len-thuyen-thi-nai-1792", prefix="qt19", giong="Central Vietnamese (Bình Định) accent",
+        nhan="AI tái hiện · có chi tiết truyền tụng",
+        voices={"officer": "a short, stern male voice, says everything as if it were obvious",
+                "old sailor": "a slow, salty, weathered old male voice"},
+        title="Tập 19 · Bị sai dắt voi lên thuyền chiến, tập cho voi quen sóng, không ai nói đi đâu (Thị Nại, 1792)",
+        history=("**Lịch sử:** năm 1787 Nguyễn Ánh nhờ giám mục Bá Đa Lộc ký hiệp ước với vua Pháp, nhưng Thống đốc Pháp ở "
+                 "Pondicherry (Ấn Độ) không thi hành; Bá Đa Lộc tự quyên tiền ở Pondicherry, mua tàu, vũ khí, mời một số sĩ quan "
+                 "người Pháp (như Jean-Marie Dayot) về Gia Định. **Quân triều đình Pháp chưa từng đánh Tây Sơn.** Hè năm 1792, "
+                 "thủy quân Nguyễn Ánh, có tàu do Dayot chỉ huy, đánh vào cửa biển **Thị Nại (Quy Nhơn)**, đốt nhiều chiến thuyền "
+                 "Nguyễn Nhạc đang đóng để đánh Gia Định (sử phương Tây và sử nhà Nguyễn, mức B). Vua Quang Trung chuẩn bị đánh "
+                 "Gia Định thì **mất ngày 16/9/1792** (mức B). **Theo một số tài liệu (mức C):** các xưởng thời Tây Sơn đóng được "
+                 "thuyền lớn mang nhiều đại bác, **chở được cả voi chiến**; chưa thấy chính sử chép rõ, nên video gắn nhãn \"có "
+                 "chi tiết truyền tụng\". Tên thuyền \"Định Quốc\" được chép ở trận Thị Nại năm 1801, nên phim không dùng tên này. "
+                 "**Hư cấu:** Anh Tư, việc tập cho voi quen sóng và mọi lời thoại. Không dựng cảnh đánh nhau; người phía Nguyễn Ánh "
+                 "và sĩ quan Pháp chỉ thấy xa, không bêu riếu ai; việc vua mất chỉ nhắc bằng lời."),
+        setting=("Thị Nại lagoon near Quy Nhơn, summer 1792: a busy Tây Sơn shipyard on the shore, huge wooden war junks with "
+                 "slatted bamboo lug sails and rows of bronze cannons, a wide reinforced timber gangplank, adult war elephants in "
+                 "simple leather armor with their mahouts, burnt black hulks of boats still smoking at the water's edge from a "
+                 "recent raid; far away on the sea horizon, a few small blurred European-style sailing ships. "
+                 f"{ARMY}. Anh Tư is {FACE}, a Tây Sơn soldier holding an elephant's rope. Absolutely NO FLAGS OR BANNERS OF ANY "
+                 f"KIND. {SAFE}"),
+        hook="POV: Bị sai / dắt voi / lên thuyền chiến",
+        clips=[
+            c("Voi đi biển", "0-5", "Thị Nại, Quy Nhơn · 1792",
+              f"First-person view on a busy shipyard shore, a stern officer handing {FACE} the thick rope of a huge adult war elephant, a giant war junk with a wide timber gangplank behind them",
+              ("0-5s: The officer hands Anh Tư the elephant's thick rope: \"Dắt voi lên thuyền. Cho nó quen sóng.\" Anh Tư: "
+               "\"Voi... đi biển ạ?\" The officer: \"Tàu bên kia có đại bác. Mình có voi.\" 5-10s: Anh Tư looks up at the "
+               "elephant and says quietly to the viewer: \"Người ta tập bơi cho lính... em tập đi biển cho voi.\""),
+              [(0.3, 2.2, "Dắt voi lên thuyền. / Cho nó quen sóng."), (2.2, 3.4, "Voi... đi biển ạ?"),
+               (3.4, 4.9, "Tàu bên kia có đại bác. / Mình có voi."), (5.2, 9.5, "Người ta tập bơi cho lính... / em tập đi biển cho voi.")]),
+            c("Thuyền cháy", "5-10", "",
+              f"First-person view along the water's edge, black burnt hulks of boats still smoking in the shallows, shipwrights already hammering a new giant war junk beside them, {FACE} leading the elephant past",
+              ("0-5s: Burnt black hulks still smoke in the shallows from a recent raid; right beside them, shipwrights hammer "
+               "a new giant war junk. 5-10s: Anh Tư, leading the elephant past, says quietly: \"Hôm trước người ta vào đốt "
+               "thuyền... hôm nay mình đóng cái to hơn.\""),
+              [(5.0, 9.5, "Hôm trước người ta / vào đốt thuyền... / hôm nay mình đóng / cái to hơn.")]),
+            c("Tàu phía chân trời", "5-10", "",
+              f"First-person view from the shore toward the sea horizon, a few small blurred European-style sailing ships far away, a weathered old sailor pointing at them, {FACE} squinting",
+              ("0-5s: A weathered old sailor points at a few small sailing ships far on the horizon: \"Tàu kia mua tận bên Ấn "
+               "Độ, người Pháp cầm lái.\" 5-10s: Anh Tư squints: \"Chuyện trong nhà... mà có người từ tận bên kia biển sang.\""),
+              [(0.5, 4.8, "Tàu kia mua tận bên Ấn Độ, / người Pháp cầm lái."),
+               (5.0, 9.5, "Chuyện trong nhà... / mà có người từ tận / bên kia biển sang.")]),
+            c("Nải chuối", "5-10", "",
+              f"First-person view at the foot of the wide timber gangplank, the huge elephant planting its feet and refusing to step on, {FACE} holding out a big bunch of bananas, the mahout shaking his head",
+              ("0-5s: The elephant plants its feet at the gangplank and will not step on. Anh Tư holds out a big bunch of "
+               "bananas; the elephant sniffs, takes one step. 5-10s: Anh Tư says quietly to the viewer: \"Voi nặng mấy nghìn "
+               "cân... dỗ bằng một nải chuối.\""),
+              [(5.0, 9.5, "Voi nặng mấy nghìn cân... / dỗ bằng một nải chuối.")]),
+            c("Say sóng", "5-10", "",
+              f"First-person view on the rolling deck of a giant war junk at sea, the armored elephant standing steady on a reinforced platform while {FACE} grips the rail, pale and queasy",
+              ("0-5s: The junk rolls on the waves; the elephant stands steady on its platform, calmly eating a banana; Anh Tư "
+               "grips the rail, pale. 5-10s: He says weakly to the viewer: \"Em tập cho voi quen sóng... voi quen rồi, em thì "
+               "chưa.\""),
+              [(5.0, 9.5, "Em tập cho voi quen sóng... / voi quen rồi, / em thì chưa.")]),
+            c("Hẹn vào Gia Định", "5-10", "",
+              f"First-person view at dusk on deck beside rows of bronze cannons, {FACE} patting the calm elephant's trunk and looking south over the sea",
+              ("0-5s: Dusk; the junk rides at anchor beside rows of bronze cannons; the elephant is calm. 5-10s: Anh Tư pats "
+               "its trunk and says quietly: \"Mai mốt vào Gia Định... cả voi cả em cùng đi.\""),
+              [(5.0, 9.5, "Mai mốt vào Gia Định... / cả voi cả em cùng đi.")]),
+            c("Câu chốt", "3-10", "",
+              f"First-person view on a quiet autumn morning at the shipyard, the giant war junks moored and still, the elephant standing on the shore, {FACE} slowly coiling the rope",
+              ("0-4.5s: A quiet autumn morning; the giant junks lie still at their moorings. A calm narrator's voice says: \"Hè "
+               "1792, tàu của Nguyễn Ánh, có sĩ quan người Pháp chỉ huy, đánh vào Thị Nại. Vua Quang Trung chuẩn bị đánh Gia "
+               "Định thì mất vào mùa thu năm ấy.\" 4.5-10s: Anh Tư coils the elephant's rope and says quietly to the camera: "
+               "\"Voi quen sóng rồi... mà chuyến đi ấy không bao giờ đến.\""),
+              [(3.0, 6.0, "Hè 1792, tàu Nguyễn Ánh / đánh Thị Nại. Mùa thu năm ấy, / vua Quang Trung mất."),
+               (6.1, 8.4, "Voi quen sóng rồi... / mà chuyến đi ấy / không bao giờ đến.")]),
+        ],
+        caption=("Bị sai dắt voi lên thuyền chiến, tập cho voi quen sóng, không ai nói đi đâu 🐘⛵ Hè 1792, tàu của Nguyễn Ánh có "
+                 "sĩ quan người Pháp chỉ huy đánh vào Thị Nại. Theo một số tài liệu, thuyền lớn thời Tây Sơn chở được cả voi. Vua "
+                 "Quang Trung đang chuẩn bị đánh Gia Định thì mất. Nếu vua sống thêm vài năm, các bác nghĩ sao? 👇"),
+        tags="#quangtrung #tayson #thinai #voichien #1792",
+        tt_title="Bị sai dắt voi lên thuyền chiến, tập cho voi quen sóng",
+        hooks_alt=["POV: Voi quen sóng rồi / em thì chưa", "POV: Tàu bên kia có đại bác / mình có voi"],
+        pin=("Quân triều đình Pháp chưa từng đánh Tây Sơn; chỉ có một nhóm sĩ quan và tàu do giám mục Bá Đa Lộc tự quyên tiền ở "
+             "Pondicherry 🔥 Chi tiết thuyền chở voi là theo một số tài liệu. Follow để xem loạt Quang Trung tập tiếp theo!"),
+        yt_title="Năm 1792: tập cho voi chiến quen sóng ở Thị Nại | Loạt Quang Trung",
+        yt_tags="thị nại 1792, voi chiến, thuyền chiến tây sơn, bá đa lộc, pondicherry, dayot, nguyễn ánh, " + YT),
 ]
 
 ACTING = ("Acting: natural and understated, like real people filmed in a documentary; small reactions (a sigh, a glance, a pause, a shake of the head) instead of big expressions. Anh Tư smiles at most once in the whole clip and never laughs at the camera; no exaggerated mugging or cartoonish faces.")
@@ -1278,7 +1357,7 @@ for _ep in EPISODES:
         if _c.get("setting"):
             _c["setting"] = _c["setting"] + " " + ACTING
 
-TIKTOK_CANH = {'qt1': [1, 3, 4, 7], 'qt2': [1, 2, 5, 7], 'qt3': [1, 3, 4, 7], 'qt4': [1, 4, 5, 7], 'qt5': [1, 3, 4, 7], 'qt6': [1, 2, 4, 7], 'qt7': [1, 2, 4, 7], 'qt8': [1, 3, 4, 7], 'qt9': [3, 4, 6, 7], 'qt10': [1, 3, 5, 7], 'qt11': [1, 4, 5, 7], 'qt12': [1, 3, 4, 7], 'qt13': [1, 3, 5, 7], 'qt14': [1, 3, 6, 7], 'qt15': [1, 4, 6, 7], 'qt16': [1, 3, 6, 7], 'qt17': [1, 3, 6, 7], 'qt18': [1, 3, 6, 7]}
+TIKTOK_CANH = {'qt1': [1, 3, 4, 7], 'qt2': [1, 2, 5, 7], 'qt3': [1, 3, 4, 7], 'qt4': [1, 4, 5, 7], 'qt5': [1, 3, 4, 7], 'qt6': [1, 2, 4, 7], 'qt7': [1, 2, 4, 7], 'qt8': [1, 3, 4, 7], 'qt9': [3, 4, 6, 7], 'qt10': [1, 3, 5, 7], 'qt11': [1, 4, 5, 7], 'qt12': [1, 3, 4, 7], 'qt13': [1, 3, 5, 7], 'qt14': [1, 3, 6, 7], 'qt15': [1, 4, 6, 7], 'qt16': [1, 3, 6, 7], 'qt17': [1, 3, 6, 7], 'qt18': [1, 3, 6, 7], 'qt19': [1, 4, 5, 7]}
 for _ep in EPISODES:
     if _ep["prefix"] in TIKTOK_CANH:
         _ep["tiktok_canh"] = TIKTOK_CANH[_ep["prefix"]]

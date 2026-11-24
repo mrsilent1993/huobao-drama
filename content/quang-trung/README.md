@@ -1,4 +1,4 @@
-# Loạt Quang Trung (18 tập)
+# Loạt Quang Trung (19 tập)
 
 8 sự kiện nổi tiếng còn thiếu, ghép với loạt **Tây Sơn từng mốc** và **Tết Kỷ Dậu 1789** thành danh sách phát "Quang Trung". Danh sách gốc và lưu ý: `../nghien-cuu/loat-quang-trung.md`. Sửa nội dung trong `_nguon.py`, rồi chạy `python3 _nguon.py`.
 
@@ -21,9 +21,10 @@
 | **Tập 16** | Tết 1789 · Đại phá quân Thanh: Hà Hồi, Ngọc Hồi, Đống Đa (toàn cảnh) | "Em chạy báo tin thắng cả ngày... mà thắng nhanh hơn em chạy." | "Cả đời đưa tin... chưa tin nào cũ nhanh thế." | sau Tết Kỷ Dậu phần 3 | B/C (*Hoàng Lê*) |
 | **Tập 17** | Tết 1789 · Năm việc chuẩn bị trước trận Ngọc Hồi | "Việc đầu tiên trước trận... là ăn." | "Năm việc lạ không ai giải thích... cộng lại thành một trận thắng." | trước tập 16 | B/C (*Hoàng Lê*) |
 | **Tập 18** | Tết 1789 · Đánh lúc giặc lơ là: nằm đếm pháo ngoài đồn Hà Hồi | "Bên kia ăn Tết thật to... bên này đi thật khẽ." | "Năm nay em không đốt tràng pháo nào... mà vui nhất mọi năm." | trước mốc Hà Hồi | B/C (*Hoàng Lê*) |
+| **Tập 19** | 1792 · Dắt voi lên thuyền ở Thị Nại (tàu Pháp Ấn, vua mất mùa thu) | "Em tập cho voi quen sóng... voi quen rồi, em thì chưa." | "Voi quen sóng rồi... mà chuyến đi ấy không bao giờ đến." | trước Q8 | B (+C chuyện thuyền chở voi) |
 | Q8 | 1792 · Cầu hôn, xin Lưỡng Quảng | "Đi hỏi vợ... mà đòi của hồi môn là hai tỉnh." | "Đám hỏi chưa xong... mà cả nước đã nhớ ông ấy." | cuối loạt | B/C, tranh cãi |
 
-Chuẩn: 7 clip Muse mỗi tập (`qt1-1..7` đến `qt18-1..7`), YouTube khoảng 67 giây, TikTok khoảng 35 giây. Mỗi tập một câu gạt riêng ở cảnh 1.
+Chuẩn: 7 clip Muse mỗi tập (`qt1-1..7` đến `qt19-1..7`), YouTube khoảng 67 giây, TikTok khoảng 35 giây. Mỗi tập một câu gạt riêng ở cảnh 1.
 Giọng: Q2, Q7 giọng Nghệ An; các tập khác giọng Huế (quân Tây Sơn). Q3 gắn nhãn "theo truyền thuyết".
 
 ## Tập 9: phân biệt rõ giọng vua Quang Trung
