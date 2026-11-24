@@ -105,3 +105,25 @@ Kích thước cọc dùng cho video: cả thân cây lim, dày 20–30 cm, dài
 | 9 | 1288 · Đốt hòm thư | Bị sai đốt cả hòm thư mà cấm đọc | "Đốt đi… để khỏi phải biết ai từng run sợ." |
 
 **Lưu ý an toàn:** không dựng cảnh chết, đuối nước (trận đánh chỉ dựng thuyền mắc cọc, quân Nguyên bỏ chạy); việc Ô Mã Nhi chết đuối, Phàn Tiếp chết chỉ nhắc bằng lời hoặc bỏ hẳn; vua Trần và Trần Hưng Đạo chỉ thấy từ phía sau; Trần Ích Tắc là người Việt theo giặc: kể trung tính, không chế giễu.
+
+---
+
+## 8. Chuyện nhỏ vui vui đi kèm (để làm tập Anh Tư hoặc chen vào cảnh)
+
+Viết theo hiểu biết chung, **Sử gia phải đối chiếu nguyên văn trước khi viết kịch bản**.
+
+| # | Chuyện | Góc hài cho Anh Tư | Câu đáng gửi bạn bè | Nguồn |
+|---|---|---|---|---|
+| V1 | **Trần Khánh Dư để lọt thủy quân Ô Mã Nhi**, Thượng hoàng sai người đến bắt về hỏi tội. Khánh Dư xin hoãn vài ngày để lập công chuộc tội, rồi đánh tan đoàn thuyền lương ở Vân Đồn | Anh Tư là sứ giả được sai đi bắt tướng, bị tướng xin "cho thêm ba ngày" | "Đi bắt người ta về chịu tội… người ta xin gia hạn." | B (*Toàn thư*) |
+| V2 | **Trương Văn Hổ ném lương xuống biển** rồi chạy về Quỳnh Châu (Hải Nam) | Anh Tư lặn mò bao gạo trôi dạt vào bờ | "Giặc đi đánh mình… mà gửi gạo sang trước." | A (*Nguyên sử* chép Văn Hổ bỏ lương) |
+| V3 | **Ô Mã Nhi khoác lác năm 1285**: đuổi theo vua Trần và nói đại ý "ngươi lên trời ta theo lên trời, xuống đất ta theo xuống đất". **Năm 1288 bị bắt sống ở Bạch Đằng** | Anh Tư nghe kể câu khoác lác năm 1285, ba năm sau đứng canh đúng ông ấy | "Ba năm trước đòi đuổi lên tận trời… nay ngồi im dưới thuyền." | B (*Toàn thư*, câu nói chép năm 1285) |
+| V4 | **Lời thề ở sông Hóa**: Trần Hưng Đạo thề trận này không phá xong giặc thì không về khúc sông này nữa | Anh Tư chèo đò chở ông qua sông, nghe ông thề | "Ông thề không về khúc sông này… còn em thì tối phải chèo về." | B (*Toàn thư*) |
+| V5 | **Thoát Hoan bị cấm gặp bố suốt đời**: thua trận về, Hốt Tất Liệt đày ra Dương Châu, không cho vào chầu | Kể bằng lời ở câu chốt một tập, không chế giễu | "Đánh thua một trận… cả đời không được về nhà ăn cơm với bố." | A |
+| V6 | **Trần Hưng Đạo tắm cho Trần Quang Khải** (khoảng 1285): hai ông vốn không ưa nhau, Hưng Đạo đun nước thơm tắm cho Quang Khải để làm lành | Anh Tư bị sai đun nước tắm, không ai nói tắm cho ai | "Giận nhau mấy chục năm… làm lành bằng một chậu nước." | B (đã có trong kho đề tài tự hào, chưa làm) |
+| V7 | **Yết Kiêu, Dã Tượng**: hai gia nô của Trần Hưng Đạo. Yết Kiêu theo truyền thuyết lặn đục đáy thuyền giặc | Anh Tư thi nín thở với Yết Kiêu | "Em nín thở được một lúc… ông ấy nín cả buổi." | C (truyền thuyết, phải gắn nhãn; người xem từng xin đề tài này) |
+| V8 | **Phạm Ngũ Lão ngồi đan sọt** bên đường, giáo kề chân vẫn không biết vì đang mải nghĩ việc nước; về sau thành con rể Trần Hưng Đạo | Anh Tư đi dẹp đường gặp anh đan sọt, ngày sau anh ấy thành tướng, lại còn làm rể | "Đan sọt bên đường… mà đan được cả chỗ làm rể Hưng Đạo." | C (giai thoại; không dựng vết thương) |
+| V9 | **Đốt hòm thư** sau chiến thắng | Đã có trong gợi ý loạt mới (tập 9) | | B |
+
+**Không làm:** Trần Bình Trọng (cái chết), Trần Ích Tắc bị gọi chế giễu là "Ả Trần" (chế giễu cá nhân), câu "muốn hàng thì chém đầu thần trước" (nói về hành quyết), Ô Mã Nhi chết đuối khi trả về.
+
+Đã làm, không làm lại: Thoát Hoan chui ống đồng (1285), Sát Thát (1285), Hội nghị Diên Hồng (1285), Vân Đồn ông bán than, Hàm Tử mặc giáp Tống.
