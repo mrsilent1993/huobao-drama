@@ -1,0 +1,24 @@
+# Dựng: python3 ../tools/tiktok.py trailer-dien-anh-bach-dang-1288.plan.txt trailer-dien-anh-bach-dang-1288.mp4  (một bản dùng chung TikTok, YouTube, Facebook)
+hook: Họ đã đến hai lần
+end: BẠCH ĐẰNG 1288 / Follow để xem tập 1 →
+end_giay: 2.0
+nhan: AI tái hiện · dựa trên sử liệu
+
+clip: td-bd1288-1.mp4 | Cuối năm 1287
+clip: td-bd1288-2.mp4 | Vân Đồn | chuyen=fadeblack:0.4
+clip: td-bd1288-3.mp4 |  | chuyen=cat
+clip: td-bd1288-4.mp4 | Sông Bạch Đằng | chuyen=cat
+clip: td-bd1288-5.mp4 |  | chuyen=cat
+clip: td-bd1288-6.mp4 |  | chuyen=cat
+clip: td-bd1288-7.mp4 |  | chuyen=fadeblack:0.6
+
+sub: 1 | 1.0-4.4 | Họ đã đến... hai lần.
+sub: 1 | 5.4-9.6 | Và lần này... / họ mang theo cả biển.
+sub: 2 | 3.0-9.6 | Hàng vạn quân. / Hàng trăm chiến thuyền. / Một đội quân... / chưa từng biết thua.
+sub: 3 | 0.8-4.4 | Có một người... / không nhìn ra biển.
+sub: 3 | 5.0-9.6 | Ông nhìn xuống dòng sông... / và chờ nước rút.
+sub: 4 | 3.0-9.6 | Suốt nhiều đêm... / họ trồng xuống lòng sông... / cả một khu rừng.
+sub: 5 | 5.2-9.6 | Rồi nước lên... / và họ chờ.
+sub: 6 | 1.0-3.6 | Nước lên, thuyền nổi.
+sub: 6 | 3.8-5.8 | Nước rút...
+sub: 7 | 2.0-7.4 | Em chỉ đóng cọc thôi... / còn lại, để nước lo.
