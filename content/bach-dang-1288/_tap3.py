@@ -9,12 +9,12 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 FACE = ("Anh Tư: the SAME man as in the attached reference image anh_tu_ref.png (same face, same age, same scar, same "
         "teeth, same hair): a Vietnamese man around 30 with deeply tanned skin, hair in a topknot with a faded brown cloth "
         "band, black-lacquered teeth, a thin scar across his left eyebrow and one chipped front tooth, a coarse dark-brown "
-        "cotton tunic; he acts naturally and understated, like a real person, not a performer")
+        "cotton tunic; he is cheerful, playful and cheeky; while someone else is speaking he listens quietly with his mouth closed, with lively natural expressions (smiles, a quick grin when he jokes, raised eyebrows, a wink, a shrug), like a funny real person telling a story to a friend, never over-the-top")
 BASE = ("Cinematic live-action, photorealistic, natural light, film grain, vertical 9:16. Vietnam, December 1287, Trần "
         "dynasty, Vân Đồn coast: soldiers in brown cotton tunics, hair in topknots, black-lacquered teeth. No modern "
         "objects, no on-screen text, no subtitles, no visible writing anywhere, ABSOLUTELY NO FLAGS OR BANNERS OF ANY KIND, "
-        "no blood, no dead bodies, no children. Natural, understated acting; nobody laughs at the camera.")
-V_TU = ("Anh Tư = a bright, slightly husky male voice around 30 with a natural Central Vietnamese (Huế) accent, dry, "
+        "no blood, no dead bodies, no children. Light, cheerful comedic tone; Anh Tư is playful and smiling, while the officials, the general and the envoy stay serious.")
+V_TU = ("Anh Tư = a bright, slightly husky male voice around 30 with a natural Central Vietnamese (Huế) accent, cheerful and playful, warm and full of humor, "
         "never shouting, the SAME voice in every clip")
 V_NARR = ("Narrator = a calm, deep, slow male baritone with a Northern accent, documentary style, OFF-SCREEN voice-over: "
           "nobody on screen moves their lips while the narrator speaks")
@@ -38,7 +38,7 @@ CLIPS = [
          turns=[("narr", 0.5, 4.6, "Tháng chạp năm 1287. / Hàng trăm thuyền giặc / vượt biển vào Vân Đồn.",
                  "wide shot of the fleet at sea; Anh Tư seen small on the shore, back to camera, silent"),
                 ("tu", 5.4, 9.2, "Thuyền nào cũng đi qua… / không thuyền nào chào em.",
-                 "medium close-up of Anh Tư turning to the camera, deadpan")]),
+                 "medium close-up of Anh Tư turning to the camera with a cheeky grin, pretending to wave at the ships")]),
     dict(name="Lệnh bắt ông tướng", label="", tiktok="bo",
          where="a coastal military camp at Vân Đồn by day, a court envoy in a dark brocade robe holding a rolled scroll",
          img=f"Cinematic shot in a coastal military camp by day, a court envoy in a dark brocade robe holding a rolled scroll, {FACE}, holding a coil of rope, listening with his mouth closed, realistic, vertical 9:16.",
@@ -46,23 +46,23 @@ CLIPS = [
          turns=[("su", 0.5, 4.4, "Giặc lọt qua Vân Đồn. / Xiềng Khánh Dư, / giải về kinh.",
                  "the envoy faces the camera and reads the order; Anh Tư at the edge of frame, mouth closed, only listening"),
                 ("tu", 5.2, 9.2, "Em đi bắt tướng… / dây em cầm, / tướng thì đằng kia.",
-                 "the envoy has finished and stays silent; push in on Anh Tư holding the rope, deadpan to camera")]),
+                 "the envoy has finished and stays silent; push in on Anh Tư holding up the rope, raising his eyebrows at the camera with a playful smile")]),
     dict(name="Cho ta ba hôm", label="", tiktok="0.3-9.4",
          where="a coastal military camp at Vân Đồn by day; Trần Khánh Dư in a dark robe, seen ONLY from behind, facing a court envoy in a dark brocade robe",
          img=f"Cinematic shot in a coastal military camp by day, Trần Khánh Dư seen only from behind in a dark robe, facing a court envoy in a dark brocade robe, {FACE}, standing aside holding a coil of rope, mouth closed, realistic, vertical 9:16.",
          amb="camp murmuring, sea wind", voices=[V_KD, V_TU],
          turns=[("kd", 0.5, 5.0, "Xử theo quân pháp, / tôi xin chịu tội. / Nhưng xin khất ba hôm / để lập công.",
-                 "over-the-shoulder shot from behind Trần Khánh Dư toward the envoy; Anh Tư in the background, mouth closed, eyes moving between them"),
+                 "over-the-shoulder shot from behind Trần Khánh Dư toward the envoy; Anh Tư in the background, mouth closed, listening seriously, eyes moving between them"),
                 ("tu", 5.8, 9.2, "Em cầm dây đứng đây… / không biết siết hay chờ.",
-                 "Khánh Dư and the envoy are silent and still; Anh Tư leans toward the camera and whispers")]),
+                 "Khánh Dư and the envoy are silent and still; Anh Tư leans toward the camera, holds the rope up with a comically confused smile and whispers playfully")]),
     dict(name="Thuyền lương đi sau", label="", tiktok="bo",
          where="a rocky coast at Vân Đồn at dusk; Trần Khánh Dư in a dark robe, seen ONLY from behind, pointing at the sea",
          img=f"Cinematic shot on a rocky coast at dusk, Trần Khánh Dư seen only from behind in a dark robe pointing at the sea, {FACE}, standing beside him listening with his mouth closed, realistic, vertical 9:16.",
          amb="sea waves, dusk wind", voices=[V_KD, V_TU],
          turns=[("kd", 0.5, 4.8, "Sau thuyền chiến / là thuyền lương. / Không quân giỏi hộ tống. / Đánh tất phá được.",
-                 "from behind Khánh Dư as he points out to sea; Anh Tư beside him in profile, mouth closed, listening"),
+                 "from behind Khánh Dư as he points out to sea; Anh Tư beside him in profile, mouth closed, listening seriously"),
                 ("tu", 5.6, 9.2, "Dễ thế… / sao ông không nói sớm / ba hôm?",
-                 "Khánh Dư lowers his arm and stays silent; Anh Tư turns to the camera, deadpan")]),
+                 "Khánh Dư lowers his arm and stays silent; Anh Tư turns to the camera with a big amused grin and a shrug")]),
     dict(name="Đếm ba hôm", label="", tiktok="0.4-9.3",
          where="a coastal military camp at Vân Đồn at night, a small fire",
          img=f"Cinematic shot in a coastal camp at night, {FACE}, sitting alone by a small fire carving three marks into a wooden stick, realistic, vertical 9:16.",
@@ -70,7 +70,7 @@ CLIPS = [
          turns=[("tu", 0.6, 4.4, "Một hôm… / hai hôm… / ba hôm.",
                  "close-up of Anh Tư alone by the fire, carving one mark for each count"),
                 ("tu", 5.4, 9.2, "Ba hôm không thấy / thuyền lương… / thì dây này / để trói ai?",
-                 "he looks up at the camera, deadpan; he is the only person in the shot")]),
+                 "he looks up at the camera, smiles mischievously and dangles the rope; he is the only person in the shot")]),
     dict(name="Bố trí chờ", label="", tiktok="bo",
          where="a rocky coast at Vân Đồn at dawn; Trần Khánh Dư in a dark robe seen ONLY from behind; soldiers hiding behind rocks and trees",
          img=f"Cinematic shot on a rocky coast at dawn, Trần Khánh Dư seen only from behind in a dark robe, soldiers hiding behind rocks and trees, {FACE}, crouching behind a rock with his mouth closed, realistic, vertical 9:16.",
@@ -78,7 +78,7 @@ CLIPS = [
          turns=[("kd", 0.5, 4.4, "Gom quân còn lại. / Phục từ Vân Đồn / tới Lục Thủy.",
                  "wide shot from behind Khánh Dư giving the order; soldiers move to hide; Anh Tư small in frame, mouth closed"),
                 ("tu", 5.2, 9.0, "Hết cầm dây… / giờ em cầm đá.",
-                 "Khánh Dư has walked out of frame; close-up of Anh Tư crouching behind a rock with a stone in his hand, whispering to camera")]),
+                 "Khánh Dư has walked out of frame; close-up of Anh Tư crouching behind a rock with a stone in his hand, tossing the stone in his hand and whispering to camera with a cheeky smile")]),
     dict(name="Kết: ba hôm", label="", tiktok="0.7-10", chuyen="fadeblack:0.8",
          where="a rocky coast at Vân Đồn at dusk, an empty sea",
          img=f"Cinematic shot at dusk on a rocky coast, {FACE}, holding a coil of rope, looking out at the empty sea, mouth closed, realistic, vertical 9:16.",
@@ -86,7 +86,7 @@ CLIPS = [
          turns=[("narr", 0.9, 4.4, "Ba hôm đó… / cả Vân Đồn cùng chờ.",
                  "wide shot of the empty sea at dusk; Anh Tư seen from behind on the rocks, silent"),
                 ("tu", 5.0, 9.6, "Ba hôm nữa ông ấy / không về chịu tội… / thì em về chịu thay à?",
-                 "Anh Tư turns around to face the camera, holding the rope, deadpan")]),
+                 "Anh Tư turns around to face the camera, holding the rope, with a playful worried smile and a little shrug")]),
 ]
 WHO = {"narr": "the NARRATOR (off-screen)", "tu": "ANH TƯ", "kd": "TRẦN KHÁNH DƯ (seen only from behind)",
        "su": "THE ENVOY"}
@@ -130,9 +130,10 @@ def main():
           "3. **Lời nói = đúng chữ phụ đề.** Bản cũ cho nói dài hơn phụ đề, nên phụ đề tắt mà miệng vẫn còn nói.",
           "4. **Không chuyển cảnh giữa câu:** mỗi clip là một cảnh quay liền, lời cuối xong trước giây 9,4; chuyển cảnh 0,4 giây "
           "chỉ rơi vào khoảng lặng cuối clip. Câu đầu clip bắt đầu sau giây 0,5 (clip 7 sau giây 0,9 vì vào bằng tối dần 0,8 giây).",
-          "5. **Người dẫn chuyện là giọng ngoài khung hình:** prompt ghi rõ không ai trên màn hình mấp máy môi khi dẫn chuyện nói. "
+          "5. **Anh Tư tươi vui, lém lỉnh:** cười, nháy mắt, nhún vai khi tới lượt pha trò; lúc người khác nói thì ngậm miệng, nghe nghiêm túc. Khánh Dư, trung sứ, người dẫn chuyện giữ nghiêm.",
+          "6. **Người dẫn chuyện là giọng ngoài khung hình:** prompt ghi rõ không ai trên màn hình mấp máy môi khi dẫn chuyện nói. "
           "Trần Khánh Dư chỉ quay từ phía sau, không thấy miệng.",
-          "6. Số liệu: \"năm trăm thuyền\" đổi thành \"hàng trăm thuyền\" vì các nguồn chép lệch nhau (500 đến 600 thuyền), "
+          "7. Số liệu: \"năm trăm thuyền\" đổi thành \"hàng trăm thuyền\" vì các nguồn chép lệch nhau (500 đến 600 thuyền), "
           "đúng tiêu chuẩn kênh không nêu con số còn lệch.", "",
           "**Nếu Muse vẫn khớp nhầm miệng:** tạo riêng hai nửa clip (0-5 giây và 5-10 giây, mỗi nửa một người nói), đặt tên "
           "`bd1288-tap3-3a.mp4`, `3b`… rồi gửi em ghép.", "",

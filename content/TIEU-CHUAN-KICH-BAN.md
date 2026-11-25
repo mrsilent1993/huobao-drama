@@ -11,7 +11,7 @@ Gốc từ video Bạch Đằng 938 "Cắm cọc cả buổi sáng" (1,7 triệu
 1. **Người thường bị giao một việc vô lý, không ai giải thích.** Cấp trên gạt đi, không giải thích, nên người xem tò mò đến cuối mới biết lý do. **Câu gạt mỗi tập phải khác nhau và hợp nhân vật, hợp việc** (từ 19/11/2026 không dùng lại "Không hỏi."), tốt nhất là tự nó đã buồn cười hoặc gài sẵn cho cú lật, ví dụ: "Có vữa thì đã chẳng cần mày." (thợ xây), "Vợ mày cũng phải đổi." (đổi tiền, gài cho cảnh vợ giấu hũ đồng), "Sáng mai mày sẽ cảm ơn nó." (nhúng rơm ướt). Không bắt buộc cảnh 1 nào cũng có câu gạt: có thể cho cấp trên bỏ đi luôn, trả lời lạc đề, hoặc chỉ nhìn.
 2. **Nhân vật quen mặt: Anh Tư.**
    - Ngoại hình: sẹo ngang lông mày trái, răng cửa mẻ, da rám nắng, khoảng 30 tuổi.
-   - **Diễn xuất (từ 19/11/2026):** tự nhiên, tiết chế như người thật trong phim tài liệu. Cái hài nằm ở câu thoại và tình huống, không nằm ở nét mặt. Mỗi clip Anh Tư cười **tối đa một lần**, không cười vào ống kính, không nhăn nhó quá đà. Thay "grins / laughs" bằng phản ứng nhỏ: thở dài, liếc nhìn, ngập ngừng, lắc đầu, nói nhỏ. Prompt gắn câu `ACTING` (xem `tu-hao-dai-viet/_nguon.py`) vào bối cảnh của mọi clip. Luôn dùng ảnh tham chiếu (prompt trong `bach-dang/README.md`).
+   - **Diễn xuất (từ 25/11/2026, thay quy tắc 19/11):** Anh Tư **tươi vui, lém lỉnh, hài hước**: hay cười tủm tỉm, cười toe khi pha trò, nháy mắt, nhún vai, nhướng mày, nói với ống kính như kể chuyện cho bạn. Vẫn là người thật, không nhăn nhó hay gào. Người xung quanh (tướng, quan, người dẫn chuyện) giữ nghiêm; cái vui của Anh Tư đặt cạnh cái nghiêm của họ thì càng buồn cười. **Không cười đùa** khi nhắc người chết, thương vong, hay khi anh hùng, vua nói câu lịch sử: lúc đó Anh Tư im lặng, nghe nghiêm túc, rồi mới pha trò ở lượt của mình. Luôn dùng ảnh tham chiếu (prompt trong `bach-dang/README.md`).
    - Mỗi tập là một đời con cháu, hoặc cùng một người ở cùng thời.
 3. **Mỗi clip đúng một câu chốt ngắn**, đủ để người xem gửi cho bạn bè.
 4. **Vỡ lẽ ở clip cuối:**
@@ -135,7 +135,7 @@ Gốc từ video Bạch Đằng 938 "Cắm cọc cả buổi sáng" (1,7 triệu
   - Mặc định giọng Bắc (Hà Nội): người xem chê giọng Nam trong các trận ở miền Bắc.
   - Tập ở miền Trung, miền Nam ghi đè bằng khóa `giong`, ví dụ "Central Vietnamese (Bình Định) accent" cho các tập Tây Sơn.
 - **Mỗi nhân vật một giọng cố định**, tự chèn vào prompt từng clip (bảng `VOICES` trong `tools/series.py`, chi tiết ở `nghien-cuu/giong-nhan-vat.md`, bản xuất `xuat/TIEU-CHUAN-GIONG-NOI.md`):
-  - **Anh Tư:** nam khoảng 30 tuổi, sáng, hơi khàn, **luôn giọng miền Trung (Huế) ở mọi tập, mọi bối cảnh** (anh duyệt 25/11/2026), nói tự nhiên, hài kiểu tỉnh bơ, không gào.
+  - **Anh Tư:** nam khoảng 30 tuổi, sáng, hơi khàn, **luôn giọng miền Trung (Huế) ở mọi tập, mọi bối cảnh** (anh duyệt 25/11/2026), giọng tươi vui, lém lỉnh, hay pha trò, không gào.
   - **Người dẫn chuyện:** nam trầm, chậm, kiểu phim tài liệu, giống nhau ở mọi video.
   - **Viên chỉ huy:** cộc, ngắn gọn, khác hẳn giọng Anh Tư.
   - **Nhân vật riêng của tập:** khai báo bằng khóa `voices={"Tên": "mô tả"}`.
