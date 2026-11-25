@@ -12,12 +12,12 @@ clip: gt-bd1288-5.mp4 |  | chuyen=fadeblack:0.5
 
 sub: 1 | 0.6-5.6 | Cuối năm 1287. / Quân Nguyên sang lần thứ ba.
 sub: 1 | 6.2-9.6 | Lên trời, / ta cũng đuổi theo!
-sub: 2 | 0.4-4.6 | Ông ấy chưa biết...
+sub: 2 | 0.4-4.6 | Lên trời thì em không cản... / chứ sông này, / ông ấy chưa hỏi đường em.
 sub: 2 | 5.0-6.8 | Cho ta ba hôm.
-sub: 2 | 6.8-9.6 | Ba hôm... / để làm gì ạ?
-sub: 3 | 0.4-4.8 | Gạo ở đâu... / trôi vào nhiều thế này?
-sub: 3 | 5.0-9.6 | Nước thơm thế này... / tắm cho ai ạ?
-sub: 4 | 0.4-4.6 | Ông ấy... / lặn từ nãy đến giờ?
+sub: 2 | 6.8-9.6 | Em đi bắt người... / mà người hẹn em ba hôm.
+sub: 3 | 0.4-4.8 | Năm nay biển... / trả lương bằng gạo à?
+sub: 3 | 5.0-9.6 | Nước thơm thế này... / em tắm trước được không?
+sub: 4 | 0.4-4.6 | Ông ấy lặn lâu thế... / chắc dưới đó có quán nước.
 sub: 4 | 5.2-9.6 | Tất cả trông vào... / một buổi sáng.
-sub: 5 | 0.8-4.6 | Việc lạ... / còn nhiều lắm.
-sub: 5 | 5.0-8.2 | Mai em kể / việc đầu tiên.
+sub: 5 | 0.8-4.6 | Việc lạ còn nhiều lắm... / mà chẳng ai giải thích.
+sub: 5 | 5.0-8.2 | Mai em kể việc đầu tiên. / Đừng hỏi em vì sao.

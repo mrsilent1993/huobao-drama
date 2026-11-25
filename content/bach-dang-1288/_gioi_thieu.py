@@ -55,36 +55,37 @@ CLIPS = [
          img=(f"Cinematic shot from tall reeds on a riverbank, {FACE} crouching in a small boat in the foreground, behind him "
               "the giant enemy fleet passing between limestone cliffs, realistic, vertical 9:16."),
          vid=(f"{FACE}. 0-5s: Anh Tư crouches in a small boat among tall reeds while the giant fleet passes behind him "
-              "between limestone cliffs; he glances at the water, then at the camera, and starts quietly: \"Ông ấy chưa "
-              "biết...\" — hard cut before he finishes. 5-10s: A windswept coastal camp above a stormy sea: a general seen "
-              "only from behind raises three fingers: \"Cho ta ba hôm.\" Anh Tư, holding a coil of rope, blinks: \"Ba hôm... "
-              "để làm gì ạ?\""),
-         subs=[(0.4, 4.6, "Ông ấy chưa biết..."), (5.0, 6.8, "Cho ta ba hôm."), (6.8, 9.6, "Ba hôm... / để làm gì ạ?")]),
+              "between limestone cliffs; he glances at the water, then at the camera, and says quietly, deadpan: \"Lên trời thì "
+              "em không cản... chứ sông này, ông ấy chưa hỏi đường em.\" 5-10s: A windswept coastal camp above a stormy sea: a general seen "
+              "only from behind raises three fingers: \"Cho ta ba hôm.\" Anh Tư, holding a coil of rope, blinks at the camera: \"Em đi bắt "
+              "người... mà người hẹn em ba hôm.\""),
+         subs=[(0.4, 4.6, "Lên trời thì em không cản... / chứ sông này, / ông ấy chưa hỏi đường em."), (5.0, 6.8, "Cho ta ba hôm."), (6.8, 9.6, "Em đi bắt người... / mà người hẹn em ba hôm.")]),
     dict(name="Gạo và nồi nước", label="", chuyen="cat",
          img=(f"Epic wide shot of a grey beach under a dramatic storm sky with limestone islands on the horizon, dozens of "
               f"rice sacks washing in on huge waves, {FACE} standing in the surf, realistic, vertical 9:16."),
          vid=(f"{FACE}. 0-5s: Wide shot of a grey beach under a dramatic storm sky; dozens of waterlogged rice sacks wash in on "
-              "big waves; Anh Tư stands in the surf, staring: \"Gạo ở đâu... trôi vào nhiều thế này?\" 5-10s: Night, a "
+              "big waves; Anh Tư stands in the surf holding a sack, staring at the sea: \"Năm nay biển... trả lương bằng gạo à?\" 5-10s: Night, a "
               "grand wooden hall of the Trần court lit by many oil lamps; Anh Tư stirs a huge steaming pot of fragrant herbal "
-              "water and asks a passing servant: \"Nước thơm thế này... tắm cho ai ạ?\" The servant only shakes his head."),
-         subs=[(0.4, 4.8, "Gạo ở đâu... / trôi vào nhiều thế này?"), (5.0, 9.6, "Nước thơm thế này... / tắm cho ai ạ?")]),
+              "water and asks a passing servant hopefully: \"Nước thơm thế này... em tắm trước được không?\" The servant only shakes his head and walks off."),
+         subs=[(0.4, 4.8, "Năm nay biển... / trả lương bằng gạo à?"), (5.0, 9.6, "Nước thơm thế này... / em tắm trước được không?")]),
     dict(name="Người dưới sông và bãi cọc", label="", chuyen="cat",
          img=(f"Epic shot of a wide river beneath towering limestone cliffs at dawn, {FACE} surfacing from the water gasping, "
               "calm water beside him with a few bubbles rising, realistic, vertical 9:16."),
          vid=(f"{STAKE} {FACE}. 0-5s: A wide river beneath towering limestone cliffs at dawn; Anh Tư surfaces, gasping, and "
-              "stares at the calm water beside him where a man dived long ago; only bubbles rise: \"Ông ấy... lặn từ nãy đến "
-              "giờ?\" 5-10s: Epic aerial over the estuary at low tide: hundreds of men drive massive stakes with heavy wooden "
+              "stares at the calm water beside him where a man dived long ago; only bubbles rise; he whispers: \"Ông ấy lặn lâu thế... "
+              "chắc dưới đó có quán nước.\" 5-10s: Epic aerial over the estuary at low tide: hundreds of men drive massive stakes with heavy wooden "
               "rams; time-lapse as the tide rises and swallows them until only smooth golden water remains. The narrator "
               "says: \"Tất cả trông vào... một buổi sáng.\""),
-         subs=[(0.4, 4.6, "Ông ấy... / lặn từ nãy đến giờ?"), (5.2, 9.6, "Tất cả trông vào... / một buổi sáng.")]),
+         subs=[(0.4, 4.6, "Ông ấy lặn lâu thế... / chắc dưới đó có quán nước."), (5.2, 9.6, "Tất cả trông vào... / một buổi sáng.")]),
     dict(name="Anh Tư", label="", chuyen="fadeblack:0.5",
          img=(f"Epic cinematic shot at sunrise, {FACE} standing in a small wooden boat on a vast calm river, towering "
               "limestone karsts and golden mist behind him, looking at the camera with a calm, dry expression, realistic, "
               "vertical 9:16."),
          vid=(f"{FACE}. 0-5s: Slow push-in on Anh Tư standing in a small boat on the vast calm river at sunrise, karsts and "
               "golden mist behind; the score drops to a single bamboo flute. He looks at the camera and says quietly: "
-              "\"Việc lạ... còn nhiều lắm.\" 5-10s: He dips his oar; the drums return softly: \"Mai em kể việc đầu tiên.\""),
-         subs=[(0.8, 4.6, "Việc lạ... / còn nhiều lắm."), (5.0, 8.2, "Mai em kể / việc đầu tiên.")]),
+              "\"Việc lạ còn nhiều lắm... mà chẳng ai giải thích.\" 5-10s: He dips his oar; the drums return softly: \"Mai em kể "
+              "việc đầu tiên. Đừng hỏi em vì sao.\""),
+         subs=[(0.8, 4.6, "Việc lạ còn nhiều lắm... / mà chẳng ai giải thích."), (5.0, 8.2, "Mai em kể việc đầu tiên. / Đừng hỏi em vì sao.")]),
 ]
 
 TAGS = "#bachdang1288 #tranhungdao #nhatran #bachdang #anhtu #povlichsu #lichsuvietnam #xuhuong #fyp"
