@@ -14,7 +14,7 @@ BASE = ("Cinematic live-action, photorealistic, natural light, film grain, verti
         "dynasty, Vân Đồn coast: soldiers in brown cotton tunics, hair in topknots, black-lacquered teeth. No modern "
         "objects, no on-screen text, no subtitles, no visible writing anywhere, ABSOLUTELY NO FLAGS OR BANNERS OF ANY KIND, "
         "no blood, no dead bodies, no children. Light, natural comedic tone like a documentary-style drama: the humor is in what Anh Tư says, not in his face; he smiles at most once, softly. The officials, the general and the envoy stay serious.")
-V_TU = ("Anh Tư = a bright, slightly husky male voice around 30 with a natural Central Vietnamese (Huế) accent, natural and conversational, gentle dry humor, "
+V_TU = ("Anh Tư = a bright, slightly husky male voice around 30 with a natural Northern Vietnamese (Hà Nội) accent, natural and conversational, gentle dry humor, "
         "never shouting, the SAME voice in every clip")
 V_NARR = ("Narrator = a calm, deep, slow male baritone with a Northern accent, documentary style, OFF-SCREEN voice-over: "
           "nobody on screen moves their lips while the narrator speaks")
@@ -148,7 +148,7 @@ def main():
     md = ["# Bạch Đằng 1288, tập 3: Cho ta ba hôm (bản đầy đủ)", "",
           f"**Loạt:** Bạch Đằng 1288, 10 tập · **{n} clip, khoảng {int(total // 60)} phút {int(total % 60)} giây**, một bản dùng "
           "chung TikTok, YouTube, Facebook (dưới 2 phút, đủ hội thoại).", "",
-          f"**File Muse đặt tên:** `bd1288-tap3-1..{n}.mp4` · **Giọng:** Anh Tư giọng Huế, tự nhiên, hài nhẹ; Khánh Dư, trung sứ giọng Bắc, "
+          f"**File Muse đặt tên:** `bd1288-tap3-1..{n}.mp4` · **Giọng:** Anh Tư giọng Bắc, tự nhiên, hài nhẹ; Khánh Dư, trung sứ giọng Bắc, "
           "nghiêm; dẫn chuyện giọng Bắc trầm.", "",
           "## Cách làm cho hội thoại không lỗi và bối cảnh đồng nhất", "",
           "1. **Mỗi clip 10 giây chỉ MỘT người nói, MỘT câu.** Hai người đối đáp thì mỗi người một clip liền nhau, chuyển cảnh "
