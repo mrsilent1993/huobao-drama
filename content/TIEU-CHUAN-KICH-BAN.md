@@ -12,6 +12,7 @@ Gốc từ video Bạch Đằng 938 "Cắm cọc cả buổi sáng" (1,7 triệu
 2. **Nhân vật quen mặt: Anh Tư.**
    - Ngoại hình: sẹo ngang lông mày trái, răng cửa mẻ, da rám nắng, khoảng 30 tuổi.
    - **Diễn xuất (từ 25/11/2026, thay quy tắc 19/11):** Anh Tư **tươi vui, lém lỉnh, hài hước**: hay cười tủm tỉm, cười toe khi pha trò, nháy mắt, nhún vai, nhướng mày, nói với ống kính như kể chuyện cho bạn. Vẫn là người thật, không nhăn nhó hay gào. Người xung quanh (tướng, quan, người dẫn chuyện) giữ nghiêm; cái vui của Anh Tư đặt cạnh cái nghiêm của họ thì càng buồn cười. **Không cười đùa** khi nhắc người chết, thương vong, hay khi anh hùng, vua nói câu lịch sử: lúc đó Anh Tư im lặng, nghe nghiêm túc, rồi mới pha trò ở lượt của mình. Luôn dùng ảnh tham chiếu (prompt trong `bach-dang/README.md`).
+   - **Mỗi clip 10 giây chỉ MỘT người nói, MỘT câu ngắn (từ 25/11/2026):** tối đa khoảng 14 chữ, nói xong trước giây 9. Hai người đối đáp thì tách thành hai clip liền nhau. Khi người khác nói, mặt Anh Tư không có trong khung hình (chỉ thấy lưng), người nói không phải Anh Tư thì quay từ phía sau hoặc đứng một mình. Prompt ghi `ONE VOICE ONLY`. Lý do: Muse hay nhảy câu đang nói sang miệng người bên cạnh khi một clip có hai người nói.
    - Mỗi tập là một đời con cháu, hoặc cùng một người ở cùng thời.
 3. **Mỗi clip đúng một câu chốt ngắn**, đủ để người xem gửi cho bạn bè.
 4. **Vỡ lẽ ở clip cuối:**
