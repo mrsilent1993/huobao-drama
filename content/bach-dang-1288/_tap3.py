@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Bạch Đằng 1288, tập 3 "Cho ta ba hôm": bản MỘT NGƯỜI NÓI MỖI CLIP (hết lỗi câu nói nhảy sang miệng người khác).
+"""Bạch Đằng 1288, tập 3 "Cho ta ba hôm": bản đầy đủ dưới 2 phút: mỗi clip một người nói, các clip cùng cảnh khóa chung bối cảnh.
 Chạy: python3 _tap3.py → bd1288-tap3-cho-ta-ba-hom.md + bd1288-tap3.plan.txt
 """
 import os
@@ -24,58 +24,102 @@ V_SU = "the envoy = a clipped, impatient male voice in his 50s, Northern accent,
 RULES = ("ONE VOICE ONLY: in this whole 10-second clip exactly ONE person speaks, {who}, and says ONE short line, "
          "completely, at a natural unhurried pace. Nobody else says a single word or makes any vocal sound; every other "
          "person on screen keeps his mouth CLOSED the whole time. The line is never split between two people and never "
-         "continues in someone else's mouth. One continuous shot, NO cut or scene change inside this clip. The line ends "
-         "before 9.0s; after that, silence.")
+         "continues in someone else's mouth. One continuous shot, NO cut inside this clip. The line ends before 9.0s; "
+         "after that, silence.")
 AUDIO = "Audio: {amb}. No background music. All dialogue in Vietnamese."
 
-# Mỗi clip: MỘT người nói, MỘT câu ngắn (tối đa khoảng 14 chữ). Hai người cần đối đáp thì tách ra hai clip.
+# CẢNH: mọi clip cùng cảnh dùng y nguyên đoạn mô tả này (cùng nơi, cùng giờ, cùng ánh sáng, cùng đồ vật, cùng vị trí người)
+# và dùng chung MỘT ảnh khung đầu, để chuyển từ người nói này sang người nói kia mà bối cảnh vẫn đồng nhất.
+SCENES = {
+    "A": dict(name="Bờ đá Vân Đồn, ban ngày",
+              lock=("SCENE A (keep IDENTICAL in every clip of this scene): a rocky shore at Vân Đồn, late morning, overcast "
+                    "silver light, grey-green sea with white caps, a cold northeast wind, hundreds of wooden warships with "
+                    "matting sails far out at sea moving left to right, two big dark limestone islands on the horizon, a "
+                    "gnarled pine tree on the right edge of the rocks."),
+              img=("Cinematic shot of a rocky shore at Vân Đồn, late morning, overcast silver light, grey-green sea with white "
+                   "caps, hundreds of wooden warships with matting sails far out at sea, two dark limestone islands on the "
+                   "horizon, a gnarled pine tree on the right edge of the rocks, {FACE}, standing on the rocks, realistic, vertical 9:16."),
+              amb="sea waves, strong wind, distant drums"),
+    "B": dict(name="Sân doanh trại, giữa trưa",
+              lock=("SCENE B (keep IDENTICAL in every clip of this scene): the yard of a coastal military camp at Vân Đồn at "
+                    "midday, flat grey daylight, packed earth ground, a row of brown thatched huts behind, a wooden weapon "
+                    "rack with spears on the left, a tall bamboo fence and the grey sea beyond it, soldiers in brown tunics "
+                    "walking in the far background. The court envoy wears a dark blue brocade robe and a black hat and holds a "
+                    "rolled scroll; he stands facing the huts. Anh Tư stands opposite him with a coil of rope over his shoulder."),
+              img=("Cinematic shot of the yard of a coastal military camp at midday, flat grey daylight, packed earth, brown "
+                   "thatched huts behind, a wooden weapon rack with spears on the left, a bamboo fence and grey sea beyond, a "
+                   "court envoy in a dark blue brocade robe and black hat holding a rolled scroll, facing {FACE}, who has a coil "
+                   "of rope over his shoulder, realistic, vertical 9:16."),
+              amb="camp murmuring, wind, distant sea"),
+    "C": dict(name="Trước lều Trần Khánh Dư, chiều",
+              lock=("SCENE C (keep IDENTICAL in every clip of this scene): in front of the general's large brown canvas tent "
+                    "on a low bluff above the sea at Vân Đồn, mid-afternoon, warm low sunlight from the left, a small wooden "
+                    "table with a clay teapot, a sand map with pebbles on the ground (no writing), the sea and two limestone "
+                    "islands behind. Trần Khánh Dư wears a dark brown robe with a black sash, hair in a topknot, and is seen ONLY "
+                    "from behind, standing by the table facing the sea. Anh Tư stands a few steps to the side, the coil of rope "
+                    "in his hands."),
+              img=("Cinematic shot in front of a large brown canvas tent on a low bluff above the sea, mid-afternoon warm low "
+                   "sunlight from the left, a small wooden table with a clay teapot, a sand map with pebbles, two limestone "
+                   "islands behind, a Trần general in a dark brown robe with a black sash seen only from behind facing the sea, "
+                   "{FACE}, a few steps to the side holding a coil of rope, realistic, vertical 9:16."),
+              amb="sea below, soft wind, a gull"),
+    "D": dict(name="Đống lửa, đêm",
+              lock=("SCENE D: night in the same camp, a small campfire on the rocks, sea and dark islands under the moon behind, "
+                    "Anh Tư alone sitting on a rock by the fire."),
+              img=("Cinematic shot at night by a small campfire on rocks, sea and dark islands under the moon behind, {FACE}, "
+                   "sitting alone carving marks into a wooden stick, the coil of rope beside him, realistic, vertical 9:16."),
+              amb="fire crackling, night insects, waves"),
+    "E": dict(name="Bờ đá, hoàng hôn ngày thứ ba",
+              lock=("SCENE E (keep IDENTICAL in every clip of this scene): the SAME rocky shore as scene A, with the same gnarled "
+                    "pine tree, at sunset, orange sky, calm empty sea, no ships, the two limestone islands dark on the horizon."),
+              img=("Cinematic shot of a rocky shore at sunset, orange sky, calm empty sea, two dark limestone islands on the "
+                   "horizon, a gnarled pine tree on the right, {FACE}, standing on the rocks holding a coil of rope, realistic, vertical 9:16."),
+              amb="gentle waves, evening birds"),
+}
+
+# Mỗi clip: một cảnh, MỘT người nói, MỘT câu (tối đa khoảng 15 chữ).
 CLIPS = [
-    dict(name="Thuyền không chào", label="Vân Đồn · tháng 12/1287", tiktok="0-9.3", who="tu",
-         line=(0.6, 8.4, "Hàng trăm thuyền giặc / đi qua… mà không thuyền nào / chào em một câu!"),
-         where="a rocky coast at Vân Đồn by day, hundreds of wooden warships far out at sea",
-         cam="Anh Tư alone on the rocks waves cheekily at the distant fleet, then turns to the camera with a big amused grin and speaks",
-         img=f"Cinematic shot on a rocky coast by day, hundreds of wooden warships far out at sea, {FACE}, waving cheekily at the fleet, realistic, vertical 9:16.",
-         amb="sea waves, wind, distant drums", voice=V_TU),
-    dict(name="Lệnh xiềng tướng", label="", tiktok="bo", who="su",
-         line=(0.6, 7.8, "Giặc lọt qua Vân Đồn! / Xiềng Khánh Dư, / giải về kinh hỏi tội!"),
-         where="a coastal military camp at Vân Đồn by day",
-         cam="a stern court envoy in a dark brocade robe faces the camera and reads the order from a rolled scroll; in the foreground Anh Tư is seen ONLY from behind (back of his head and shoulders, his face never visible), holding a coil of rope; at the end his shoulders give a small nervous shrug",
-         img="Cinematic shot in a coastal military camp by day, a stern court envoy in a dark brocade robe holding a rolled scroll facing the camera, in the foreground a soldier seen only from behind holding a coil of rope, realistic, vertical 9:16.",
-         amb="camp murmuring, sea wind", voice=V_SU),
-    dict(name="Cho ta ba hôm", label="", tiktok="0.3-9.3", who="kd",
-         line=(0.6, 7.6, "Ta xin chịu tội. / Nhưng cho ta ba hôm… / để lập công."),
-         where="the shore of Vân Đồn by day",
-         cam="Trần Khánh Dư in a dark robe, seen ONLY from behind, stands alone on the shore facing the sea and raises three fingers; no other person's face is in the frame",
-         img="Cinematic shot on a rocky shore by day, a Trần general in a dark robe seen only from behind, standing alone facing the sea, raising three fingers, realistic, vertical 9:16.",
-         amb="sea waves, soft wind", voice=V_KD),
-    dict(name="Người hẹn em ba hôm", label="", tiktok="0.3-9.3", who="tu",
+    dict(scene="A", who="narr", label="Vân Đồn · tháng 12/1287",
+         line=(0.8, 8.2, "Tháng chạp năm 1287. / Thủy quân Nguyên vượt biển… / lọt qua Vân Đồn."),
+         cam="wide aerial over the sea: the fleet sails past the islands; on the shore Anh Tư is a tiny figure seen from behind; no faces visible"),
+    dict(scene="A", who="tu",
+         line=(0.6, 8.4, "Hàng trăm thuyền giặc / đi qua… / mà không thuyền nào / chào em một câu!"),
+         cam="medium shot of Anh Tư alone on the rocks waving cheekily at the fleet, then turning to the camera with a big amused grin"),
+    dict(scene="B", who="su",
+         line=(0.6, 8.2, "Thượng hoàng có lệnh: / xiềng Trần Khánh Dư, / giải về kinh hỏi tội!"),
+         cam="the envoy faces the camera and reads from the scroll, stern; in the foreground Anh Tư is seen ONLY from behind (back of his head and shoulders, face never visible)"),
+    dict(scene="B", who="tu",
+         line=(0.6, 7.8, "Dạ… em đi bắt / một ông tướng… / bằng sợi dây này ạ?"),
+         cam="reverse angle: close-up of Anh Tư alone in frame (the envoy is out of frame), lifting the coil of rope with a comically worried grin"),
+    dict(scene="B", who="su",
+         line=(0.6, 6.0, "Mày cầm xích. / Ông ấy tự đi."),
+         cam="back to the envoy facing the camera, unimpressed; Anh Tư again seen ONLY from behind in the foreground"),
+    dict(scene="C", who="tu",
+         line=(0.6, 7.6, "Thưa ngài… / em xin phép… / trói ngài nhẹ thôi ạ."),
+         cam="Anh Tư alone in frame beside the tent, bowing slightly and holding out the rope with an awkward polite smile; the general is out of frame"),
+    dict(scene="C", who="kd",
+         line=(0.6, 8.4, "Theo quân pháp, / ta xin chịu tội. / Nhưng cho ta ba hôm… / để lập công."),
+         cam="Trần Khánh Dư seen ONLY from behind at the table facing the sea, he raises three fingers; no other face in the frame"),
+    dict(scene="C", who="kd",
+         line=(0.6, 8.4, "Sau thuyền chiến của giặc / là thuyền lương, / không quân giỏi hộ tống. / Đánh tất phá được."),
+         cam="from behind Trần Khánh Dư, he moves a pebble on the sand map and points out to sea; no other face in the frame"),
+    dict(scene="C", who="tu",
          line=(0.6, 7.4, "Em đi bắt người… / mà người hẹn em / ba hôm!"),
-         where="the edge of a coastal military camp at Vân Đồn by day",
-         cam="close-up of Anh Tư alone, holding up the coil of rope, looking at it and then at the camera with a comically confused grin and a shrug",
-         img=f"Close-up in a coastal camp by day, {FACE}, alone, holding up a coil of rope with a comically confused grin, realistic, vertical 9:16.",
-         amb="camp murmuring, sea wind", voice=V_TU),
-    dict(name="Thuyền lương đi sau", label="", tiktok="bo", who="kd",
-         line=(0.6, 7.6, "Sau thuyền chiến / là thuyền lương. / Đánh tất phá được."),
-         where="a high rocky cliff at Vân Đồn at dusk above the sea",
-         cam="Trần Khánh Dư in a dark robe, seen ONLY from behind, alone on the cliff, points far out to sea; no other person's face is in the frame",
-         img="Cinematic shot on a high rocky cliff at dusk, a Trần general in a dark robe seen only from behind, alone, pointing far out to sea, realistic, vertical 9:16.",
-         amb="sea waves, dusk wind", voice=V_KD),
-    dict(name="Đếm ba hôm", label="", tiktok="bo", who="tu",
+         cam="close-up of Anh Tư alone in frame, looking at the rope, then at the camera, with a comically confused grin and a shrug"),
+    dict(scene="D", who="tu", chuyen="fadeblack:0.6",
          line=(0.6, 8.4, "Một hôm… hai hôm… / ba hôm… dây này / để trói ai đây?"),
-         where="a coastal camp at Vân Đồn at night, a small fire",
-         cam="Anh Tư sits alone by the fire carving one mark into a stick for each count, then dangles the rope and smiles mischievously at the camera",
-         img=f"Cinematic shot in a coastal camp at night, {FACE}, sitting alone by a small fire carving marks into a wooden stick, realistic, vertical 9:16.",
-         amb="fire crackling, night insects, sea wind", voice=V_TU),
-    dict(name="Chịu thay", label="", tiktok="0.6-10", who="tu", chuyen="fadeblack:0.8",
-         line=(1.0, 8.8, "Ba hôm nữa ông ấy / không về chịu tội… / thì em về chịu thay à?"),
-         where="a rocky coast at Vân Đồn at dusk, an empty sea",
-         cam="Anh Tư alone on the rocks turns from the empty sea to the camera, holding the rope, with a playful worried smile and a little shrug",
-         img=f"Cinematic shot at dusk on a rocky coast, {FACE}, alone, holding a coil of rope, turning from the empty sea toward the camera, realistic, vertical 9:16.",
-         amb="dusk birds, sea waves, soft wind", voice=V_TU),
+         cam="Anh Tư alone by the fire carves one mark for each count, then dangles the rope and smiles mischievously at the camera"),
+    dict(scene="E", who="narr", chuyen="fadeblack:0.6",
+         line=(0.8, 7.6, "Ba hôm đó… / cả Vân Đồn cùng chờ / một đoàn thuyền lương."),
+         cam="wide shot of the empty sea at sunset; Anh Tư seen small and from behind on the rocks; no faces visible"),
+    dict(scene="E", who="tu",
+         line=(0.6, 8.6, "Ba hôm nữa ông ấy / không về chịu tội… / thì em về chịu thay à?"),
+         cam="Anh Tư turns from the empty sea to the camera, holding the rope, with a playful worried smile and a little shrug"),
 ]
-WHO = {"tu": "ANH TƯ", "kd": "TRẦN KHÁNH DƯ (seen only from behind)", "su": "THE ENVOY"}
-NAME = {"tu": "Anh Tư", "kd": "Trần Khánh Dư", "su": "Trung sứ"}
-PREFIX = {"kd": "Trần Khánh Dư: / ", "su": "Trung sứ: / ", "tu": ""}
+WHO = {"tu": "ANH TƯ", "kd": "TRẦN KHÁNH DƯ (seen only from behind)", "su": "THE ENVOY", "narr": "the NARRATOR (off-screen voice-over, nobody on screen moves their lips)"}
+NAME = {"tu": "Anh Tư", "kd": "Trần Khánh Dư", "su": "Trung sứ", "narr": "Dẫn chuyện"}
+VOICE = {"tu": V_TU, "kd": V_KD, "su": V_SU, "narr": V_NARR}
+PREFIX = {"kd": "Trần Khánh Dư: / ", "su": "Trung sứ: / ", "tu": "", "narr": ""}
 
 
 def spoken(t):
@@ -84,45 +128,60 @@ def spoken(t):
 
 def video_prompt(c):
     a, b, text = c["line"]
-    face = FACE + "." if c["who"] == "tu" else ""
+    sc = SCENES[c["scene"]]
+    face = FACE + "." if c["who"] == "tu" or c["scene"] in "BC" else ""
     return " ".join(x for x in [
-        BASE, f"Setting: {c['where']}.", face, RULES.format(who=WHO[c["who"]]),
+        BASE, sc["lock"], face, RULES.format(who=WHO[c["who"]]),
         f"0-{a:.1f}s: silence. {a:.1f}-{b:.1f}s: ONLY {WHO[c['who']]} speaks: \"{spoken(text)}\" {b:.1f}-10s: silence, hold the shot.",
-        f"Camera: {c['cam']}.", f"VOICE: {c['voice']}.", AUDIO.format(amb=c["amb"])] if x)
+        f"Camera: {c['cam']}.", f"VOICE: {VOICE[c['who']]}.", AUDIO.format(amb=sc["amb"])] if x)
 
 
 def main():
     base = "bd1288-tap3"
-    plan = [f"# Dựng: python3 ../tools/tiktok.py {base}.plan.txt {base}.mp4  (ra {base}-youtube.mp4 và {base}-tiktok.mp4)",
+    plan = [f"# Dựng: python3 ../tools/tiktok.py {base}.plan.txt {base}.mp4  (một bản dùng chung TikTok, YouTube, Facebook)",
             "hook: POV: Đi bắt tướng / tướng xin khất / ba hôm", "end: Follow để xem / Biển trả lương bằng gạo →",
-            "nhan: AI tái hiện · lời thoại hư cấu", "end_giay: 1.6", "chuyen: fade 0.4", ""]
+            "nhan: AI tái hiện · lời thoại hư cấu", "end_giay: 1.6", "chuyen: fade 0.3", ""]
     subs = []
-    md = ["# Bạch Đằng 1288, tập 3: Cho ta ba hôm (mỗi clip một người nói)", "",
-          "**Loạt:** Bạch Đằng 1288, 10 tập · **YouTube** khoảng 67 giây (đủ 7 clip) · **TikTok** khoảng 35 giây (clip 1-3-4-7)",
-          "", "**File Muse đặt tên:** `bd1288-tap3-1..7.mp4` · **Giọng:** Anh Tư giọng Huế, tươi vui; Khánh Dư, trung sứ giọng Bắc, nghiêm.", "",
-          "## Cách chống lỗi câu nói nhảy sang miệng người khác", "",
-          "1. **Mỗi clip 10 giây chỉ MỘT người nói, MỘT câu ngắn** (7 đến 14 chữ). Không còn chỗ nào để Muse chuyển giọng giữa chừng.",
-          "2. **Hai người đối đáp thì tách thành hai clip liền nhau:** Khánh Dư xin ba hôm ở clip 3, Anh Tư đáp ở clip 4.",
-          "3. **Khi người khác nói, mặt Anh Tư không có trong khung hình** (Khánh Dư đứng một mình, quay từ phía sau; trung sứ nói thì Anh Tư "
-          "chỉ thấy lưng). Không có cái miệng nào khác để Muse khớp nhầm.",
-          "4. **Câu nói xong trước giây 9**, sau đó im lặng, nên chuyển cảnh không cắt mất chữ cuối.",
-          "5. **Anh Tư tươi vui:** cười toe, nháy mắt, nhún vai ở các clip của mình (1, 4, 6, 7).", "",
+    n = len(CLIPS)
+    trans = sum(float(c["chuyen"].split(":")[1]) if c.get("chuyen") else 0.3 for c in CLIPS[1:])
+    total = n * 10 - trans
+    md = ["# Bạch Đằng 1288, tập 3: Cho ta ba hôm (bản đầy đủ)", "",
+          f"**Loạt:** Bạch Đằng 1288, 10 tập · **{n} clip, khoảng {int(total // 60)} phút {int(total % 60)} giây**, một bản dùng "
+          "chung TikTok, YouTube, Facebook (dưới 2 phút, đủ hội thoại).", "",
+          f"**File Muse đặt tên:** `bd1288-tap3-1..{n}.mp4` · **Giọng:** Anh Tư giọng Huế, tươi vui; Khánh Dư, trung sứ giọng Bắc, "
+          "nghiêm; dẫn chuyện giọng Bắc trầm.", "",
+          "## Cách làm cho hội thoại không lỗi và bối cảnh đồng nhất", "",
+          "1. **Mỗi clip 10 giây chỉ MỘT người nói, MỘT câu.** Hai người đối đáp thì mỗi người một clip liền nhau, chuyển cảnh "
+          "nhẹ 0,3 giây (hòa hình), như phim cắt qua lại giữa hai người.",
+          "2. **Khóa bối cảnh theo cảnh (A đến E).** Các clip cùng cảnh dùng **y nguyên đoạn `SCENE …`** trong prompt: cùng nơi, "
+          "cùng giờ, cùng ánh sáng, cùng đồ vật (cây thông, lều, bàn trà, giá giáo…), cùng trang phục, cùng vị trí người đứng.",
+          "3. **Dùng chung một ảnh khung đầu cho cả cảnh:** tạo ảnh của cảnh một lần, đính kèm cho mọi clip của cảnh đó (kèm "
+          "`anh_tu_ref.png`). Nếu Muse cho chọn ảnh khung đầu từ video, lấy **khung cuối của clip trước** làm khung đầu clip sau "
+          "(gửi em clip, em tách khung cuối bằng FFmpeg cho anh).",
+          "4. **Người khác nói thì mặt Anh Tư không trong khung** (chỉ thấy lưng hoặc ra khỏi khung); Khánh Dư luôn quay từ phía sau.",
+          "5. **Câu xong trước giây 9**, sau đó im lặng, nên chuyển cảnh không cắt chữ.",
+          "6. Đổi cảnh (sang đêm, sang ngày thứ ba) thì tối dần 0,6 giây.", "",
           "**Lịch sử (mức A/B):** tháng 12/1287 thủy quân Nguyên vượt biển qua Vân Đồn; Phó đô tướng quân Trần Khánh Dư không chặn "
           "được. Thượng hoàng sai trung sứ xiềng ông về kinh hỏi tội; ông xin khất vài ba ngày vì đoán đoàn thuyền lương đi sau không "
-          "có quân giỏi hộ tống (*Toàn thư*). Lời Khánh Dư trong video là **phỏng theo ý sử chép**, không nhận là nguyên văn. Tập "
-          "này dừng ở lúc chờ; trận đánh thuyền lương là tập 4.", "",
-          "## Xem nhanh: clip nào ai nói", "", "| Clip | Người nói (duy nhất) | Câu |", "|---|---|---|"]
-    md += [f"| {i} | {NAME[c['who']]} | {spoken(c['line'][2])} |" for i, c in enumerate(CLIPS, 1)] + [""]
+          "có quân giỏi hộ tống (*Toàn thư*). Lời Khánh Dư là **phỏng theo ý sử chép**, không nhận là nguyên văn. Câu \"Mày cầm "
+          "xích. Ông ấy tự đi.\" của trung sứ là hư cấu. Tập này dừng ở lúc chờ; trận đánh thuyền lương là tập 4.", "",
+          "## Xem nhanh: toàn bộ hội thoại", "", "| Clip | Cảnh | Người nói (duy nhất) | Câu |", "|---|---|---|---|"]
+    md += [f"| {i} | {c['scene']} · {SCENES[c['scene']]['name']} | {NAME[c['who']]} | {spoken(c['line'][2])} |"
+           for i, c in enumerate(CLIPS, 1)] + [""]
+    md += ["## Ảnh khung đầu từng cảnh (tạo một lần, dùng chung cho các clip cùng cảnh)", ""]
+    for k, sc in SCENES.items():
+        clips = ", ".join(str(i) for i, c in enumerate(CLIPS, 1) if c["scene"] == k)
+        md += [f"**Cảnh {k} · {sc['name']}** (clip {clips}): lưu thành `bd1288-tap3-canh-{k}.png`", "```",
+               sc["img"].format(FACE=FACE), "```", ""]
     for i, c in enumerate(CLIPS, 1):
         f = f"{base}-{i}.mp4"
         a, b, text = c["line"]
-        md += [f"## Clip {i}: {c['name']}", f"File Muse đặt tên: `{f}` · Bản TikTok: "
-               + ("lấy clip này" if c["tiktok"] != "bo" else "bỏ (chỉ YouTube)"), "",
+        md += [f"## Clip {i} · cảnh {c['scene']}", f"File Muse đặt tên: `{f}` · Ảnh khung đầu: `bd1288-tap3-canh-{c['scene']}.png`"
+               + (" + `anh_tu_ref.png`" if c["who"] == "tu" or c["scene"] in "BC" else ""), "",
                f"**Chỉ {NAME[c['who']]} nói ({a:.1f}–{b:.1f}s):** \"{spoken(text)}\"", "",
-               "**Ảnh khung đầu**", "```", c["img"], "```", "",
                "**Video (Muse)**", "```", video_prompt(c), "```", ""]
         extra = f" | chuyen={c['chuyen']}" if c.get("chuyen") else ""
-        plan.append(f"clip: {f} | {c['label']} | tiktok={c['tiktok']}{extra}")
+        plan.append(f"clip: {f} | {c.get('label', '')}{extra}")
         subs.append(f"sub: {i} | {a}-{b} | {PREFIX[c['who']]}{text}")
     plan += [""] + subs
     with open(os.path.join(HERE, "_tap3_dang_bai.md"), encoding="utf-8") as fh:
@@ -131,7 +190,7 @@ def main():
     for name, lines in ((base + "-cho-ta-ba-hom.md", md), (base + ".plan.txt", plan)):
         with open(os.path.join(HERE, name), "w", encoding="utf-8") as fh:
             fh.write("\n".join(lines) + "\n")
-        print(name)
+        print(name, round(total, 1))
 
 
 if __name__ == "__main__":

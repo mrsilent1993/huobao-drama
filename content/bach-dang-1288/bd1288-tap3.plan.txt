@@ -1,22 +1,32 @@
-# Dựng: python3 ../tools/tiktok.py bd1288-tap3.plan.txt bd1288-tap3.mp4  (ra bd1288-tap3-youtube.mp4 và bd1288-tap3-tiktok.mp4)
+# Dựng: python3 ../tools/tiktok.py bd1288-tap3.plan.txt bd1288-tap3.mp4  (một bản dùng chung TikTok, YouTube, Facebook)
 hook: POV: Đi bắt tướng / tướng xin khất / ba hôm
 end: Follow để xem / Biển trả lương bằng gạo →
 nhan: AI tái hiện · lời thoại hư cấu
 end_giay: 1.6
-chuyen: fade 0.4
+chuyen: fade 0.3
 
-clip: bd1288-tap3-1.mp4 | Vân Đồn · tháng 12/1287 | tiktok=0-9.3
-clip: bd1288-tap3-2.mp4 |  | tiktok=bo
-clip: bd1288-tap3-3.mp4 |  | tiktok=0.3-9.3
-clip: bd1288-tap3-4.mp4 |  | tiktok=0.3-9.3
-clip: bd1288-tap3-5.mp4 |  | tiktok=bo
-clip: bd1288-tap3-6.mp4 |  | tiktok=bo
-clip: bd1288-tap3-7.mp4 |  | tiktok=0.6-10 | chuyen=fadeblack:0.8
+clip: bd1288-tap3-1.mp4 | Vân Đồn · tháng 12/1287
+clip: bd1288-tap3-2.mp4 | 
+clip: bd1288-tap3-3.mp4 | 
+clip: bd1288-tap3-4.mp4 | 
+clip: bd1288-tap3-5.mp4 | 
+clip: bd1288-tap3-6.mp4 | 
+clip: bd1288-tap3-7.mp4 | 
+clip: bd1288-tap3-8.mp4 | 
+clip: bd1288-tap3-9.mp4 | 
+clip: bd1288-tap3-10.mp4 |  | chuyen=fadeblack:0.6
+clip: bd1288-tap3-11.mp4 |  | chuyen=fadeblack:0.6
+clip: bd1288-tap3-12.mp4 | 
 
-sub: 1 | 0.6-8.4 | Hàng trăm thuyền giặc / đi qua… mà không thuyền nào / chào em một câu!
-sub: 2 | 0.6-7.8 | Trung sứ: / Giặc lọt qua Vân Đồn! / Xiềng Khánh Dư, / giải về kinh hỏi tội!
-sub: 3 | 0.6-7.6 | Trần Khánh Dư: / Ta xin chịu tội. / Nhưng cho ta ba hôm… / để lập công.
-sub: 4 | 0.6-7.4 | Em đi bắt người… / mà người hẹn em / ba hôm!
-sub: 5 | 0.6-7.6 | Trần Khánh Dư: / Sau thuyền chiến / là thuyền lương. / Đánh tất phá được.
-sub: 6 | 0.6-8.4 | Một hôm… hai hôm… / ba hôm… dây này / để trói ai đây?
-sub: 7 | 1.0-8.8 | Ba hôm nữa ông ấy / không về chịu tội… / thì em về chịu thay à?
+sub: 1 | 0.8-8.2 | Tháng chạp năm 1287. / Thủy quân Nguyên vượt biển… / lọt qua Vân Đồn.
+sub: 2 | 0.6-8.4 | Hàng trăm thuyền giặc / đi qua… / mà không thuyền nào / chào em một câu!
+sub: 3 | 0.6-8.2 | Trung sứ: / Thượng hoàng có lệnh: / xiềng Trần Khánh Dư, / giải về kinh hỏi tội!
+sub: 4 | 0.6-7.8 | Dạ… em đi bắt / một ông tướng… / bằng sợi dây này ạ?
+sub: 5 | 0.6-6.0 | Trung sứ: / Mày cầm xích. / Ông ấy tự đi.
+sub: 6 | 0.6-7.6 | Thưa ngài… / em xin phép… / trói ngài nhẹ thôi ạ.
+sub: 7 | 0.6-8.4 | Trần Khánh Dư: / Theo quân pháp, / ta xin chịu tội. / Nhưng cho ta ba hôm… / để lập công.
+sub: 8 | 0.6-8.4 | Trần Khánh Dư: / Sau thuyền chiến của giặc / là thuyền lương, / không quân giỏi hộ tống. / Đánh tất phá được.
+sub: 9 | 0.6-7.4 | Em đi bắt người… / mà người hẹn em / ba hôm!
+sub: 10 | 0.6-8.4 | Một hôm… hai hôm… / ba hôm… dây này / để trói ai đây?
+sub: 11 | 0.8-7.6 | Ba hôm đó… / cả Vân Đồn cùng chờ / một đoàn thuyền lương.
+sub: 12 | 0.6-8.6 | Ba hôm nữa ông ấy / không về chịu tội… / thì em về chịu thay à?

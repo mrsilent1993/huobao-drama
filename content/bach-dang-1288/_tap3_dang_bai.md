@@ -78,4 +78,4 @@ Ba hôm nữa ông ấy không về chịu tội… thì tui về chịu thay à
 ```
 
 **Bình luận ghim:** như TikTok, đổi "Follow" thành "Theo dõi trang".
-Đăng dạng **Reel, bản đủ 7 clip (~67 giây)**, không đăng bản TikTok cắt 35 giây. Bật "Thông tin về AI".
+Đăng dạng **Reel**, cùng một bản với TikTok và YouTube. Bật "Thông tin về AI".

@@ -21,7 +21,7 @@ Tài liệu nguồn: `../nghien-cuu/bach-dang-1288.md`. Mức nguồn: **A** = s
 
 **Khớp với trailer:** "Mai trả lời câu đầu tiên" = video 1 (nồi nước thơm) · "cho ta ba hôm" = video 3 · gạo trôi vào bờ = video 4 · "chặt que" = video 6 · người lặn mãi không lên = video 7 · bãi cọc = video 6, 8 · "lên trời cũng đuổi" = video 9.
 
-**Độ dài:** 7 cảnh × 10 giây. **YouTube 60–70 giây** (đủ 7 cảnh), **TikTok 30–35 giây** (4 cảnh ở dòng "TikTok giữ", giữ trọn câu thoại).
+**Độ dài (từ 25/11):** không cố định, **dưới 2 phút**, đủ hội thoại; mỗi clip một người nói, đối đáp thì mỗi người một clip cùng bối cảnh. Bảng cảnh dưới đây là dàn ý; khi viết prompt, cảnh có hai người nói sẽ tách thành hai clip (mẫu: tập 3).
 
 **Lời nhân vật lịch sử** lấy theo *Toàn thư*; phụ đề có tên người nói ở đầu (ví dụ `Trần Hưng Đạo: …`), giọng riêng từng người. Câu đánh dấu ✱ phải đối chiếu nguyên văn trước khi quay.
 

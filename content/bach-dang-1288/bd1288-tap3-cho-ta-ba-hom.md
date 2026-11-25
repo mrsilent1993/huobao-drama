@@ -1,134 +1,182 @@
-# Bạch Đằng 1288, tập 3: Cho ta ba hôm (mỗi clip một người nói)
+# Bạch Đằng 1288, tập 3: Cho ta ba hôm (bản đầy đủ)
 
-**Loạt:** Bạch Đằng 1288, 10 tập · **YouTube** khoảng 67 giây (đủ 7 clip) · **TikTok** khoảng 35 giây (clip 1-3-4-7)
+**Loạt:** Bạch Đằng 1288, 10 tập · **12 clip, khoảng 1 phút 56 giây**, một bản dùng chung TikTok, YouTube, Facebook (dưới 2 phút, đủ hội thoại).
 
-**File Muse đặt tên:** `bd1288-tap3-1..7.mp4` · **Giọng:** Anh Tư giọng Huế, tươi vui; Khánh Dư, trung sứ giọng Bắc, nghiêm.
+**File Muse đặt tên:** `bd1288-tap3-1..12.mp4` · **Giọng:** Anh Tư giọng Huế, tươi vui; Khánh Dư, trung sứ giọng Bắc, nghiêm; dẫn chuyện giọng Bắc trầm.
 
-## Cách chống lỗi câu nói nhảy sang miệng người khác
+## Cách làm cho hội thoại không lỗi và bối cảnh đồng nhất
 
-1. **Mỗi clip 10 giây chỉ MỘT người nói, MỘT câu ngắn** (7 đến 14 chữ). Không còn chỗ nào để Muse chuyển giọng giữa chừng.
-2. **Hai người đối đáp thì tách thành hai clip liền nhau:** Khánh Dư xin ba hôm ở clip 3, Anh Tư đáp ở clip 4.
-3. **Khi người khác nói, mặt Anh Tư không có trong khung hình** (Khánh Dư đứng một mình, quay từ phía sau; trung sứ nói thì Anh Tư chỉ thấy lưng). Không có cái miệng nào khác để Muse khớp nhầm.
-4. **Câu nói xong trước giây 9**, sau đó im lặng, nên chuyển cảnh không cắt mất chữ cuối.
-5. **Anh Tư tươi vui:** cười toe, nháy mắt, nhún vai ở các clip của mình (1, 4, 6, 7).
+1. **Mỗi clip 10 giây chỉ MỘT người nói, MỘT câu.** Hai người đối đáp thì mỗi người một clip liền nhau, chuyển cảnh nhẹ 0,3 giây (hòa hình), như phim cắt qua lại giữa hai người.
+2. **Khóa bối cảnh theo cảnh (A đến E).** Các clip cùng cảnh dùng **y nguyên đoạn `SCENE …`** trong prompt: cùng nơi, cùng giờ, cùng ánh sáng, cùng đồ vật (cây thông, lều, bàn trà, giá giáo…), cùng trang phục, cùng vị trí người đứng.
+3. **Dùng chung một ảnh khung đầu cho cả cảnh:** tạo ảnh của cảnh một lần, đính kèm cho mọi clip của cảnh đó (kèm `anh_tu_ref.png`). Nếu Muse cho chọn ảnh khung đầu từ video, lấy **khung cuối của clip trước** làm khung đầu clip sau (gửi em clip, em tách khung cuối bằng FFmpeg cho anh).
+4. **Người khác nói thì mặt Anh Tư không trong khung** (chỉ thấy lưng hoặc ra khỏi khung); Khánh Dư luôn quay từ phía sau.
+5. **Câu xong trước giây 9**, sau đó im lặng, nên chuyển cảnh không cắt chữ.
+6. Đổi cảnh (sang đêm, sang ngày thứ ba) thì tối dần 0,6 giây.
 
-**Lịch sử (mức A/B):** tháng 12/1287 thủy quân Nguyên vượt biển qua Vân Đồn; Phó đô tướng quân Trần Khánh Dư không chặn được. Thượng hoàng sai trung sứ xiềng ông về kinh hỏi tội; ông xin khất vài ba ngày vì đoán đoàn thuyền lương đi sau không có quân giỏi hộ tống (*Toàn thư*). Lời Khánh Dư trong video là **phỏng theo ý sử chép**, không nhận là nguyên văn. Tập này dừng ở lúc chờ; trận đánh thuyền lương là tập 4.
+**Lịch sử (mức A/B):** tháng 12/1287 thủy quân Nguyên vượt biển qua Vân Đồn; Phó đô tướng quân Trần Khánh Dư không chặn được. Thượng hoàng sai trung sứ xiềng ông về kinh hỏi tội; ông xin khất vài ba ngày vì đoán đoàn thuyền lương đi sau không có quân giỏi hộ tống (*Toàn thư*). Lời Khánh Dư là **phỏng theo ý sử chép**, không nhận là nguyên văn. Câu "Mày cầm xích. Ông ấy tự đi." của trung sứ là hư cấu. Tập này dừng ở lúc chờ; trận đánh thuyền lương là tập 4.
 
-## Xem nhanh: clip nào ai nói
+## Xem nhanh: toàn bộ hội thoại
 
-| Clip | Người nói (duy nhất) | Câu |
-|---|---|---|
-| 1 | Anh Tư | Hàng trăm thuyền giặc đi qua… mà không thuyền nào chào em một câu! |
-| 2 | Trung sứ | Giặc lọt qua Vân Đồn! Xiềng Khánh Dư, giải về kinh hỏi tội! |
-| 3 | Trần Khánh Dư | Ta xin chịu tội. Nhưng cho ta ba hôm… để lập công. |
-| 4 | Anh Tư | Em đi bắt người… mà người hẹn em ba hôm! |
-| 5 | Trần Khánh Dư | Sau thuyền chiến là thuyền lương. Đánh tất phá được. |
-| 6 | Anh Tư | Một hôm… hai hôm… ba hôm… dây này để trói ai đây? |
-| 7 | Anh Tư | Ba hôm nữa ông ấy không về chịu tội… thì em về chịu thay à? |
+| Clip | Cảnh | Người nói (duy nhất) | Câu |
+|---|---|---|---|
+| 1 | A · Bờ đá Vân Đồn, ban ngày | Dẫn chuyện | Tháng chạp năm 1287. Thủy quân Nguyên vượt biển… lọt qua Vân Đồn. |
+| 2 | A · Bờ đá Vân Đồn, ban ngày | Anh Tư | Hàng trăm thuyền giặc đi qua… mà không thuyền nào chào em một câu! |
+| 3 | B · Sân doanh trại, giữa trưa | Trung sứ | Thượng hoàng có lệnh: xiềng Trần Khánh Dư, giải về kinh hỏi tội! |
+| 4 | B · Sân doanh trại, giữa trưa | Anh Tư | Dạ… em đi bắt một ông tướng… bằng sợi dây này ạ? |
+| 5 | B · Sân doanh trại, giữa trưa | Trung sứ | Mày cầm xích. Ông ấy tự đi. |
+| 6 | C · Trước lều Trần Khánh Dư, chiều | Anh Tư | Thưa ngài… em xin phép… trói ngài nhẹ thôi ạ. |
+| 7 | C · Trước lều Trần Khánh Dư, chiều | Trần Khánh Dư | Theo quân pháp, ta xin chịu tội. Nhưng cho ta ba hôm… để lập công. |
+| 8 | C · Trước lều Trần Khánh Dư, chiều | Trần Khánh Dư | Sau thuyền chiến của giặc là thuyền lương, không quân giỏi hộ tống. Đánh tất phá được. |
+| 9 | C · Trước lều Trần Khánh Dư, chiều | Anh Tư | Em đi bắt người… mà người hẹn em ba hôm! |
+| 10 | D · Đống lửa, đêm | Anh Tư | Một hôm… hai hôm… ba hôm… dây này để trói ai đây? |
+| 11 | E · Bờ đá, hoàng hôn ngày thứ ba | Dẫn chuyện | Ba hôm đó… cả Vân Đồn cùng chờ một đoàn thuyền lương. |
+| 12 | E · Bờ đá, hoàng hôn ngày thứ ba | Anh Tư | Ba hôm nữa ông ấy không về chịu tội… thì em về chịu thay à? |
 
-## Clip 1: Thuyền không chào
-File Muse đặt tên: `bd1288-tap3-1.mp4` · Bản TikTok: lấy clip này
+## Ảnh khung đầu từng cảnh (tạo một lần, dùng chung cho các clip cùng cảnh)
+
+**Cảnh A · Bờ đá Vân Đồn, ban ngày** (clip 1, 2): lưu thành `bd1288-tap3-canh-A.png`
+```
+Cinematic shot of a rocky shore at Vân Đồn, late morning, overcast silver light, grey-green sea with white caps, hundreds of wooden warships with matting sails far out at sea, two dark limestone islands on the horizon, a gnarled pine tree on the right edge of the rocks, Anh Tư: the SAME man as in the attached reference image anh_tu_ref.png (same face, same age, same scar, same teeth, same hair): a Vietnamese man around 30 with deeply tanned skin, hair in a topknot with a faded brown cloth band, black-lacquered teeth, a thin scar across his left eyebrow and one chipped front tooth, a coarse dark-brown cotton tunic; he is cheerful, playful and cheeky, with lively natural expressions (smiles, a quick grin when he jokes, raised eyebrows, a wink, a shrug), like a funny real person telling a story to a friend, never over-the-top, standing on the rocks, realistic, vertical 9:16.
+```
+
+**Cảnh B · Sân doanh trại, giữa trưa** (clip 3, 4, 5): lưu thành `bd1288-tap3-canh-B.png`
+```
+Cinematic shot of the yard of a coastal military camp at midday, flat grey daylight, packed earth, brown thatched huts behind, a wooden weapon rack with spears on the left, a bamboo fence and grey sea beyond, a court envoy in a dark blue brocade robe and black hat holding a rolled scroll, facing Anh Tư: the SAME man as in the attached reference image anh_tu_ref.png (same face, same age, same scar, same teeth, same hair): a Vietnamese man around 30 with deeply tanned skin, hair in a topknot with a faded brown cloth band, black-lacquered teeth, a thin scar across his left eyebrow and one chipped front tooth, a coarse dark-brown cotton tunic; he is cheerful, playful and cheeky, with lively natural expressions (smiles, a quick grin when he jokes, raised eyebrows, a wink, a shrug), like a funny real person telling a story to a friend, never over-the-top, who has a coil of rope over his shoulder, realistic, vertical 9:16.
+```
+
+**Cảnh C · Trước lều Trần Khánh Dư, chiều** (clip 6, 7, 8, 9): lưu thành `bd1288-tap3-canh-C.png`
+```
+Cinematic shot in front of a large brown canvas tent on a low bluff above the sea, mid-afternoon warm low sunlight from the left, a small wooden table with a clay teapot, a sand map with pebbles, two limestone islands behind, a Trần general in a dark brown robe with a black sash seen only from behind facing the sea, Anh Tư: the SAME man as in the attached reference image anh_tu_ref.png (same face, same age, same scar, same teeth, same hair): a Vietnamese man around 30 with deeply tanned skin, hair in a topknot with a faded brown cloth band, black-lacquered teeth, a thin scar across his left eyebrow and one chipped front tooth, a coarse dark-brown cotton tunic; he is cheerful, playful and cheeky, with lively natural expressions (smiles, a quick grin when he jokes, raised eyebrows, a wink, a shrug), like a funny real person telling a story to a friend, never over-the-top, a few steps to the side holding a coil of rope, realistic, vertical 9:16.
+```
+
+**Cảnh D · Đống lửa, đêm** (clip 10): lưu thành `bd1288-tap3-canh-D.png`
+```
+Cinematic shot at night by a small campfire on rocks, sea and dark islands under the moon behind, Anh Tư: the SAME man as in the attached reference image anh_tu_ref.png (same face, same age, same scar, same teeth, same hair): a Vietnamese man around 30 with deeply tanned skin, hair in a topknot with a faded brown cloth band, black-lacquered teeth, a thin scar across his left eyebrow and one chipped front tooth, a coarse dark-brown cotton tunic; he is cheerful, playful and cheeky, with lively natural expressions (smiles, a quick grin when he jokes, raised eyebrows, a wink, a shrug), like a funny real person telling a story to a friend, never over-the-top, sitting alone carving marks into a wooden stick, the coil of rope beside him, realistic, vertical 9:16.
+```
+
+**Cảnh E · Bờ đá, hoàng hôn ngày thứ ba** (clip 11, 12): lưu thành `bd1288-tap3-canh-E.png`
+```
+Cinematic shot of a rocky shore at sunset, orange sky, calm empty sea, two dark limestone islands on the horizon, a gnarled pine tree on the right, Anh Tư: the SAME man as in the attached reference image anh_tu_ref.png (same face, same age, same scar, same teeth, same hair): a Vietnamese man around 30 with deeply tanned skin, hair in a topknot with a faded brown cloth band, black-lacquered teeth, a thin scar across his left eyebrow and one chipped front tooth, a coarse dark-brown cotton tunic; he is cheerful, playful and cheeky, with lively natural expressions (smiles, a quick grin when he jokes, raised eyebrows, a wink, a shrug), like a funny real person telling a story to a friend, never over-the-top, standing on the rocks holding a coil of rope, realistic, vertical 9:16.
+```
+
+## Clip 1 · cảnh A
+File Muse đặt tên: `bd1288-tap3-1.mp4` · Ảnh khung đầu: `bd1288-tap3-canh-A.png`
+
+**Chỉ Dẫn chuyện nói (0.8–8.2s):** "Tháng chạp năm 1287. Thủy quân Nguyên vượt biển… lọt qua Vân Đồn."
+
+**Video (Muse)**
+```
+Cinematic live-action, photorealistic, natural light, film grain, vertical 9:16. Vietnam, December 1287, Trần dynasty, Vân Đồn coast: soldiers in brown cotton tunics, hair in topknots, black-lacquered teeth. No modern objects, no on-screen text, no subtitles, no visible writing anywhere, ABSOLUTELY NO FLAGS OR BANNERS OF ANY KIND, no blood, no dead bodies, no children. Light, cheerful comedic tone; Anh Tư is playful and smiling, while the officials, the general and the envoy stay serious. SCENE A (keep IDENTICAL in every clip of this scene): a rocky shore at Vân Đồn, late morning, overcast silver light, grey-green sea with white caps, a cold northeast wind, hundreds of wooden warships with matting sails far out at sea moving left to right, two big dark limestone islands on the horizon, a gnarled pine tree on the right edge of the rocks. ONE VOICE ONLY: in this whole 10-second clip exactly ONE person speaks, the NARRATOR (off-screen voice-over, nobody on screen moves their lips), and says ONE short line, completely, at a natural unhurried pace. Nobody else says a single word or makes any vocal sound; every other person on screen keeps his mouth CLOSED the whole time. The line is never split between two people and never continues in someone else's mouth. One continuous shot, NO cut inside this clip. The line ends before 9.0s; after that, silence. 0-0.8s: silence. 0.8-8.2s: ONLY the NARRATOR (off-screen voice-over, nobody on screen moves their lips) speaks: "Tháng chạp năm 1287. Thủy quân Nguyên vượt biển… lọt qua Vân Đồn." 8.2-10s: silence, hold the shot. Camera: wide aerial over the sea: the fleet sails past the islands; on the shore Anh Tư is a tiny figure seen from behind; no faces visible. VOICE: Narrator = a calm, deep, slow male baritone with a Northern accent, documentary style, OFF-SCREEN voice-over: nobody on screen moves their lips while the narrator speaks. Audio: sea waves, strong wind, distant drums. No background music. All dialogue in Vietnamese.
+```
+
+## Clip 2 · cảnh A
+File Muse đặt tên: `bd1288-tap3-2.mp4` · Ảnh khung đầu: `bd1288-tap3-canh-A.png` + `anh_tu_ref.png`
 
 **Chỉ Anh Tư nói (0.6–8.4s):** "Hàng trăm thuyền giặc đi qua… mà không thuyền nào chào em một câu!"
 
-**Ảnh khung đầu**
+**Video (Muse)**
 ```
-Cinematic shot on a rocky coast by day, hundreds of wooden warships far out at sea, Anh Tư: the SAME man as in the attached reference image anh_tu_ref.png (same face, same age, same scar, same teeth, same hair): a Vietnamese man around 30 with deeply tanned skin, hair in a topknot with a faded brown cloth band, black-lacquered teeth, a thin scar across his left eyebrow and one chipped front tooth, a coarse dark-brown cotton tunic; he is cheerful, playful and cheeky, with lively natural expressions (smiles, a quick grin when he jokes, raised eyebrows, a wink, a shrug), like a funny real person telling a story to a friend, never over-the-top, waving cheekily at the fleet, realistic, vertical 9:16.
+Cinematic live-action, photorealistic, natural light, film grain, vertical 9:16. Vietnam, December 1287, Trần dynasty, Vân Đồn coast: soldiers in brown cotton tunics, hair in topknots, black-lacquered teeth. No modern objects, no on-screen text, no subtitles, no visible writing anywhere, ABSOLUTELY NO FLAGS OR BANNERS OF ANY KIND, no blood, no dead bodies, no children. Light, cheerful comedic tone; Anh Tư is playful and smiling, while the officials, the general and the envoy stay serious. SCENE A (keep IDENTICAL in every clip of this scene): a rocky shore at Vân Đồn, late morning, overcast silver light, grey-green sea with white caps, a cold northeast wind, hundreds of wooden warships with matting sails far out at sea moving left to right, two big dark limestone islands on the horizon, a gnarled pine tree on the right edge of the rocks. Anh Tư: the SAME man as in the attached reference image anh_tu_ref.png (same face, same age, same scar, same teeth, same hair): a Vietnamese man around 30 with deeply tanned skin, hair in a topknot with a faded brown cloth band, black-lacquered teeth, a thin scar across his left eyebrow and one chipped front tooth, a coarse dark-brown cotton tunic; he is cheerful, playful and cheeky, with lively natural expressions (smiles, a quick grin when he jokes, raised eyebrows, a wink, a shrug), like a funny real person telling a story to a friend, never over-the-top. ONE VOICE ONLY: in this whole 10-second clip exactly ONE person speaks, ANH TƯ, and says ONE short line, completely, at a natural unhurried pace. Nobody else says a single word or makes any vocal sound; every other person on screen keeps his mouth CLOSED the whole time. The line is never split between two people and never continues in someone else's mouth. One continuous shot, NO cut inside this clip. The line ends before 9.0s; after that, silence. 0-0.6s: silence. 0.6-8.4s: ONLY ANH TƯ speaks: "Hàng trăm thuyền giặc đi qua… mà không thuyền nào chào em một câu!" 8.4-10s: silence, hold the shot. Camera: medium shot of Anh Tư alone on the rocks waving cheekily at the fleet, then turning to the camera with a big amused grin. VOICE: Anh Tư = a bright, slightly husky male voice around 30 with a natural Central Vietnamese (Huế) accent, cheerful and playful, warm and full of humor, never shouting, the SAME voice in every clip. Audio: sea waves, strong wind, distant drums. No background music. All dialogue in Vietnamese.
 ```
+
+## Clip 3 · cảnh B
+File Muse đặt tên: `bd1288-tap3-3.mp4` · Ảnh khung đầu: `bd1288-tap3-canh-B.png` + `anh_tu_ref.png`
+
+**Chỉ Trung sứ nói (0.6–8.2s):** "Thượng hoàng có lệnh: xiềng Trần Khánh Dư, giải về kinh hỏi tội!"
 
 **Video (Muse)**
 ```
-Cinematic live-action, photorealistic, natural light, film grain, vertical 9:16. Vietnam, December 1287, Trần dynasty, Vân Đồn coast: soldiers in brown cotton tunics, hair in topknots, black-lacquered teeth. No modern objects, no on-screen text, no subtitles, no visible writing anywhere, ABSOLUTELY NO FLAGS OR BANNERS OF ANY KIND, no blood, no dead bodies, no children. Light, cheerful comedic tone; Anh Tư is playful and smiling, while the officials, the general and the envoy stay serious. Setting: a rocky coast at Vân Đồn by day, hundreds of wooden warships far out at sea. Anh Tư: the SAME man as in the attached reference image anh_tu_ref.png (same face, same age, same scar, same teeth, same hair): a Vietnamese man around 30 with deeply tanned skin, hair in a topknot with a faded brown cloth band, black-lacquered teeth, a thin scar across his left eyebrow and one chipped front tooth, a coarse dark-brown cotton tunic; he is cheerful, playful and cheeky, with lively natural expressions (smiles, a quick grin when he jokes, raised eyebrows, a wink, a shrug), like a funny real person telling a story to a friend, never over-the-top. ONE VOICE ONLY: in this whole 10-second clip exactly ONE person speaks, ANH TƯ, and says ONE short line, completely, at a natural unhurried pace. Nobody else says a single word or makes any vocal sound; every other person on screen keeps his mouth CLOSED the whole time. The line is never split between two people and never continues in someone else's mouth. One continuous shot, NO cut or scene change inside this clip. The line ends before 9.0s; after that, silence. 0-0.6s: silence. 0.6-8.4s: ONLY ANH TƯ speaks: "Hàng trăm thuyền giặc đi qua… mà không thuyền nào chào em một câu!" 8.4-10s: silence, hold the shot. Camera: Anh Tư alone on the rocks waves cheekily at the distant fleet, then turns to the camera with a big amused grin and speaks. VOICE: Anh Tư = a bright, slightly husky male voice around 30 with a natural Central Vietnamese (Huế) accent, cheerful and playful, warm and full of humor, never shouting, the SAME voice in every clip. Audio: sea waves, wind, distant drums. No background music. All dialogue in Vietnamese.
+Cinematic live-action, photorealistic, natural light, film grain, vertical 9:16. Vietnam, December 1287, Trần dynasty, Vân Đồn coast: soldiers in brown cotton tunics, hair in topknots, black-lacquered teeth. No modern objects, no on-screen text, no subtitles, no visible writing anywhere, ABSOLUTELY NO FLAGS OR BANNERS OF ANY KIND, no blood, no dead bodies, no children. Light, cheerful comedic tone; Anh Tư is playful and smiling, while the officials, the general and the envoy stay serious. SCENE B (keep IDENTICAL in every clip of this scene): the yard of a coastal military camp at Vân Đồn at midday, flat grey daylight, packed earth ground, a row of brown thatched huts behind, a wooden weapon rack with spears on the left, a tall bamboo fence and the grey sea beyond it, soldiers in brown tunics walking in the far background. The court envoy wears a dark blue brocade robe and a black hat and holds a rolled scroll; he stands facing the huts. Anh Tư stands opposite him with a coil of rope over his shoulder. Anh Tư: the SAME man as in the attached reference image anh_tu_ref.png (same face, same age, same scar, same teeth, same hair): a Vietnamese man around 30 with deeply tanned skin, hair in a topknot with a faded brown cloth band, black-lacquered teeth, a thin scar across his left eyebrow and one chipped front tooth, a coarse dark-brown cotton tunic; he is cheerful, playful and cheeky, with lively natural expressions (smiles, a quick grin when he jokes, raised eyebrows, a wink, a shrug), like a funny real person telling a story to a friend, never over-the-top. ONE VOICE ONLY: in this whole 10-second clip exactly ONE person speaks, THE ENVOY, and says ONE short line, completely, at a natural unhurried pace. Nobody else says a single word or makes any vocal sound; every other person on screen keeps his mouth CLOSED the whole time. The line is never split between two people and never continues in someone else's mouth. One continuous shot, NO cut inside this clip. The line ends before 9.0s; after that, silence. 0-0.6s: silence. 0.6-8.2s: ONLY THE ENVOY speaks: "Thượng hoàng có lệnh: xiềng Trần Khánh Dư, giải về kinh hỏi tội!" 8.2-10s: silence, hold the shot. Camera: the envoy faces the camera and reads from the scroll, stern; in the foreground Anh Tư is seen ONLY from behind (back of his head and shoulders, face never visible). VOICE: the envoy = a clipped, impatient male voice in his 50s, Northern accent, clearly different from Anh Tư's voice. Audio: camp murmuring, wind, distant sea. No background music. All dialogue in Vietnamese.
 ```
 
-## Clip 2: Lệnh xiềng tướng
-File Muse đặt tên: `bd1288-tap3-2.mp4` · Bản TikTok: bỏ (chỉ YouTube)
+## Clip 4 · cảnh B
+File Muse đặt tên: `bd1288-tap3-4.mp4` · Ảnh khung đầu: `bd1288-tap3-canh-B.png` + `anh_tu_ref.png`
 
-**Chỉ Trung sứ nói (0.6–7.8s):** "Giặc lọt qua Vân Đồn! Xiềng Khánh Dư, giải về kinh hỏi tội!"
-
-**Ảnh khung đầu**
-```
-Cinematic shot in a coastal military camp by day, a stern court envoy in a dark brocade robe holding a rolled scroll facing the camera, in the foreground a soldier seen only from behind holding a coil of rope, realistic, vertical 9:16.
-```
+**Chỉ Anh Tư nói (0.6–7.8s):** "Dạ… em đi bắt một ông tướng… bằng sợi dây này ạ?"
 
 **Video (Muse)**
 ```
-Cinematic live-action, photorealistic, natural light, film grain, vertical 9:16. Vietnam, December 1287, Trần dynasty, Vân Đồn coast: soldiers in brown cotton tunics, hair in topknots, black-lacquered teeth. No modern objects, no on-screen text, no subtitles, no visible writing anywhere, ABSOLUTELY NO FLAGS OR BANNERS OF ANY KIND, no blood, no dead bodies, no children. Light, cheerful comedic tone; Anh Tư is playful and smiling, while the officials, the general and the envoy stay serious. Setting: a coastal military camp at Vân Đồn by day. ONE VOICE ONLY: in this whole 10-second clip exactly ONE person speaks, THE ENVOY, and says ONE short line, completely, at a natural unhurried pace. Nobody else says a single word or makes any vocal sound; every other person on screen keeps his mouth CLOSED the whole time. The line is never split between two people and never continues in someone else's mouth. One continuous shot, NO cut or scene change inside this clip. The line ends before 9.0s; after that, silence. 0-0.6s: silence. 0.6-7.8s: ONLY THE ENVOY speaks: "Giặc lọt qua Vân Đồn! Xiềng Khánh Dư, giải về kinh hỏi tội!" 7.8-10s: silence, hold the shot. Camera: a stern court envoy in a dark brocade robe faces the camera and reads the order from a rolled scroll; in the foreground Anh Tư is seen ONLY from behind (back of his head and shoulders, his face never visible), holding a coil of rope; at the end his shoulders give a small nervous shrug. VOICE: the envoy = a clipped, impatient male voice in his 50s, Northern accent, clearly different from Anh Tư's voice. Audio: camp murmuring, sea wind. No background music. All dialogue in Vietnamese.
+Cinematic live-action, photorealistic, natural light, film grain, vertical 9:16. Vietnam, December 1287, Trần dynasty, Vân Đồn coast: soldiers in brown cotton tunics, hair in topknots, black-lacquered teeth. No modern objects, no on-screen text, no subtitles, no visible writing anywhere, ABSOLUTELY NO FLAGS OR BANNERS OF ANY KIND, no blood, no dead bodies, no children. Light, cheerful comedic tone; Anh Tư is playful and smiling, while the officials, the general and the envoy stay serious. SCENE B (keep IDENTICAL in every clip of this scene): the yard of a coastal military camp at Vân Đồn at midday, flat grey daylight, packed earth ground, a row of brown thatched huts behind, a wooden weapon rack with spears on the left, a tall bamboo fence and the grey sea beyond it, soldiers in brown tunics walking in the far background. The court envoy wears a dark blue brocade robe and a black hat and holds a rolled scroll; he stands facing the huts. Anh Tư stands opposite him with a coil of rope over his shoulder. Anh Tư: the SAME man as in the attached reference image anh_tu_ref.png (same face, same age, same scar, same teeth, same hair): a Vietnamese man around 30 with deeply tanned skin, hair in a topknot with a faded brown cloth band, black-lacquered teeth, a thin scar across his left eyebrow and one chipped front tooth, a coarse dark-brown cotton tunic; he is cheerful, playful and cheeky, with lively natural expressions (smiles, a quick grin when he jokes, raised eyebrows, a wink, a shrug), like a funny real person telling a story to a friend, never over-the-top. ONE VOICE ONLY: in this whole 10-second clip exactly ONE person speaks, ANH TƯ, and says ONE short line, completely, at a natural unhurried pace. Nobody else says a single word or makes any vocal sound; every other person on screen keeps his mouth CLOSED the whole time. The line is never split between two people and never continues in someone else's mouth. One continuous shot, NO cut inside this clip. The line ends before 9.0s; after that, silence. 0-0.6s: silence. 0.6-7.8s: ONLY ANH TƯ speaks: "Dạ… em đi bắt một ông tướng… bằng sợi dây này ạ?" 7.8-10s: silence, hold the shot. Camera: reverse angle: close-up of Anh Tư alone in frame (the envoy is out of frame), lifting the coil of rope with a comically worried grin. VOICE: Anh Tư = a bright, slightly husky male voice around 30 with a natural Central Vietnamese (Huế) accent, cheerful and playful, warm and full of humor, never shouting, the SAME voice in every clip. Audio: camp murmuring, wind, distant sea. No background music. All dialogue in Vietnamese.
 ```
 
-## Clip 3: Cho ta ba hôm
-File Muse đặt tên: `bd1288-tap3-3.mp4` · Bản TikTok: lấy clip này
+## Clip 5 · cảnh B
+File Muse đặt tên: `bd1288-tap3-5.mp4` · Ảnh khung đầu: `bd1288-tap3-canh-B.png` + `anh_tu_ref.png`
 
-**Chỉ Trần Khánh Dư nói (0.6–7.6s):** "Ta xin chịu tội. Nhưng cho ta ba hôm… để lập công."
-
-**Ảnh khung đầu**
-```
-Cinematic shot on a rocky shore by day, a Trần general in a dark robe seen only from behind, standing alone facing the sea, raising three fingers, realistic, vertical 9:16.
-```
+**Chỉ Trung sứ nói (0.6–6.0s):** "Mày cầm xích. Ông ấy tự đi."
 
 **Video (Muse)**
 ```
-Cinematic live-action, photorealistic, natural light, film grain, vertical 9:16. Vietnam, December 1287, Trần dynasty, Vân Đồn coast: soldiers in brown cotton tunics, hair in topknots, black-lacquered teeth. No modern objects, no on-screen text, no subtitles, no visible writing anywhere, ABSOLUTELY NO FLAGS OR BANNERS OF ANY KIND, no blood, no dead bodies, no children. Light, cheerful comedic tone; Anh Tư is playful and smiling, while the officials, the general and the envoy stay serious. Setting: the shore of Vân Đồn by day. ONE VOICE ONLY: in this whole 10-second clip exactly ONE person speaks, TRẦN KHÁNH DƯ (seen only from behind), and says ONE short line, completely, at a natural unhurried pace. Nobody else says a single word or makes any vocal sound; every other person on screen keeps his mouth CLOSED the whole time. The line is never split between two people and never continues in someone else's mouth. One continuous shot, NO cut or scene change inside this clip. The line ends before 9.0s; after that, silence. 0-0.6s: silence. 0.6-7.6s: ONLY TRẦN KHÁNH DƯ (seen only from behind) speaks: "Ta xin chịu tội. Nhưng cho ta ba hôm… để lập công." 7.6-10s: silence, hold the shot. Camera: Trần Khánh Dư in a dark robe, seen ONLY from behind, stands alone on the shore facing the sea and raises three fingers; no other person's face is in the frame. VOICE: Trần Khánh Dư = a calm, steady male voice in his late 40s, slow and certain, Northern accent, clearly different from Anh Tư's voice; he is seen ONLY from behind, his mouth is never visible. Audio: sea waves, soft wind. No background music. All dialogue in Vietnamese.
+Cinematic live-action, photorealistic, natural light, film grain, vertical 9:16. Vietnam, December 1287, Trần dynasty, Vân Đồn coast: soldiers in brown cotton tunics, hair in topknots, black-lacquered teeth. No modern objects, no on-screen text, no subtitles, no visible writing anywhere, ABSOLUTELY NO FLAGS OR BANNERS OF ANY KIND, no blood, no dead bodies, no children. Light, cheerful comedic tone; Anh Tư is playful and smiling, while the officials, the general and the envoy stay serious. SCENE B (keep IDENTICAL in every clip of this scene): the yard of a coastal military camp at Vân Đồn at midday, flat grey daylight, packed earth ground, a row of brown thatched huts behind, a wooden weapon rack with spears on the left, a tall bamboo fence and the grey sea beyond it, soldiers in brown tunics walking in the far background. The court envoy wears a dark blue brocade robe and a black hat and holds a rolled scroll; he stands facing the huts. Anh Tư stands opposite him with a coil of rope over his shoulder. Anh Tư: the SAME man as in the attached reference image anh_tu_ref.png (same face, same age, same scar, same teeth, same hair): a Vietnamese man around 30 with deeply tanned skin, hair in a topknot with a faded brown cloth band, black-lacquered teeth, a thin scar across his left eyebrow and one chipped front tooth, a coarse dark-brown cotton tunic; he is cheerful, playful and cheeky, with lively natural expressions (smiles, a quick grin when he jokes, raised eyebrows, a wink, a shrug), like a funny real person telling a story to a friend, never over-the-top. ONE VOICE ONLY: in this whole 10-second clip exactly ONE person speaks, THE ENVOY, and says ONE short line, completely, at a natural unhurried pace. Nobody else says a single word or makes any vocal sound; every other person on screen keeps his mouth CLOSED the whole time. The line is never split between two people and never continues in someone else's mouth. One continuous shot, NO cut inside this clip. The line ends before 9.0s; after that, silence. 0-0.6s: silence. 0.6-6.0s: ONLY THE ENVOY speaks: "Mày cầm xích. Ông ấy tự đi." 6.0-10s: silence, hold the shot. Camera: back to the envoy facing the camera, unimpressed; Anh Tư again seen ONLY from behind in the foreground. VOICE: the envoy = a clipped, impatient male voice in his 50s, Northern accent, clearly different from Anh Tư's voice. Audio: camp murmuring, wind, distant sea. No background music. All dialogue in Vietnamese.
 ```
 
-## Clip 4: Người hẹn em ba hôm
-File Muse đặt tên: `bd1288-tap3-4.mp4` · Bản TikTok: lấy clip này
+## Clip 6 · cảnh C
+File Muse đặt tên: `bd1288-tap3-6.mp4` · Ảnh khung đầu: `bd1288-tap3-canh-C.png` + `anh_tu_ref.png`
+
+**Chỉ Anh Tư nói (0.6–7.6s):** "Thưa ngài… em xin phép… trói ngài nhẹ thôi ạ."
+
+**Video (Muse)**
+```
+Cinematic live-action, photorealistic, natural light, film grain, vertical 9:16. Vietnam, December 1287, Trần dynasty, Vân Đồn coast: soldiers in brown cotton tunics, hair in topknots, black-lacquered teeth. No modern objects, no on-screen text, no subtitles, no visible writing anywhere, ABSOLUTELY NO FLAGS OR BANNERS OF ANY KIND, no blood, no dead bodies, no children. Light, cheerful comedic tone; Anh Tư is playful and smiling, while the officials, the general and the envoy stay serious. SCENE C (keep IDENTICAL in every clip of this scene): in front of the general's large brown canvas tent on a low bluff above the sea at Vân Đồn, mid-afternoon, warm low sunlight from the left, a small wooden table with a clay teapot, a sand map with pebbles on the ground (no writing), the sea and two limestone islands behind. Trần Khánh Dư wears a dark brown robe with a black sash, hair in a topknot, and is seen ONLY from behind, standing by the table facing the sea. Anh Tư stands a few steps to the side, the coil of rope in his hands. Anh Tư: the SAME man as in the attached reference image anh_tu_ref.png (same face, same age, same scar, same teeth, same hair): a Vietnamese man around 30 with deeply tanned skin, hair in a topknot with a faded brown cloth band, black-lacquered teeth, a thin scar across his left eyebrow and one chipped front tooth, a coarse dark-brown cotton tunic; he is cheerful, playful and cheeky, with lively natural expressions (smiles, a quick grin when he jokes, raised eyebrows, a wink, a shrug), like a funny real person telling a story to a friend, never over-the-top. ONE VOICE ONLY: in this whole 10-second clip exactly ONE person speaks, ANH TƯ, and says ONE short line, completely, at a natural unhurried pace. Nobody else says a single word or makes any vocal sound; every other person on screen keeps his mouth CLOSED the whole time. The line is never split between two people and never continues in someone else's mouth. One continuous shot, NO cut inside this clip. The line ends before 9.0s; after that, silence. 0-0.6s: silence. 0.6-7.6s: ONLY ANH TƯ speaks: "Thưa ngài… em xin phép… trói ngài nhẹ thôi ạ." 7.6-10s: silence, hold the shot. Camera: Anh Tư alone in frame beside the tent, bowing slightly and holding out the rope with an awkward polite smile; the general is out of frame. VOICE: Anh Tư = a bright, slightly husky male voice around 30 with a natural Central Vietnamese (Huế) accent, cheerful and playful, warm and full of humor, never shouting, the SAME voice in every clip. Audio: sea below, soft wind, a gull. No background music. All dialogue in Vietnamese.
+```
+
+## Clip 7 · cảnh C
+File Muse đặt tên: `bd1288-tap3-7.mp4` · Ảnh khung đầu: `bd1288-tap3-canh-C.png` + `anh_tu_ref.png`
+
+**Chỉ Trần Khánh Dư nói (0.6–8.4s):** "Theo quân pháp, ta xin chịu tội. Nhưng cho ta ba hôm… để lập công."
+
+**Video (Muse)**
+```
+Cinematic live-action, photorealistic, natural light, film grain, vertical 9:16. Vietnam, December 1287, Trần dynasty, Vân Đồn coast: soldiers in brown cotton tunics, hair in topknots, black-lacquered teeth. No modern objects, no on-screen text, no subtitles, no visible writing anywhere, ABSOLUTELY NO FLAGS OR BANNERS OF ANY KIND, no blood, no dead bodies, no children. Light, cheerful comedic tone; Anh Tư is playful and smiling, while the officials, the general and the envoy stay serious. SCENE C (keep IDENTICAL in every clip of this scene): in front of the general's large brown canvas tent on a low bluff above the sea at Vân Đồn, mid-afternoon, warm low sunlight from the left, a small wooden table with a clay teapot, a sand map with pebbles on the ground (no writing), the sea and two limestone islands behind. Trần Khánh Dư wears a dark brown robe with a black sash, hair in a topknot, and is seen ONLY from behind, standing by the table facing the sea. Anh Tư stands a few steps to the side, the coil of rope in his hands. Anh Tư: the SAME man as in the attached reference image anh_tu_ref.png (same face, same age, same scar, same teeth, same hair): a Vietnamese man around 30 with deeply tanned skin, hair in a topknot with a faded brown cloth band, black-lacquered teeth, a thin scar across his left eyebrow and one chipped front tooth, a coarse dark-brown cotton tunic; he is cheerful, playful and cheeky, with lively natural expressions (smiles, a quick grin when he jokes, raised eyebrows, a wink, a shrug), like a funny real person telling a story to a friend, never over-the-top. ONE VOICE ONLY: in this whole 10-second clip exactly ONE person speaks, TRẦN KHÁNH DƯ (seen only from behind), and says ONE short line, completely, at a natural unhurried pace. Nobody else says a single word or makes any vocal sound; every other person on screen keeps his mouth CLOSED the whole time. The line is never split between two people and never continues in someone else's mouth. One continuous shot, NO cut inside this clip. The line ends before 9.0s; after that, silence. 0-0.6s: silence. 0.6-8.4s: ONLY TRẦN KHÁNH DƯ (seen only from behind) speaks: "Theo quân pháp, ta xin chịu tội. Nhưng cho ta ba hôm… để lập công." 8.4-10s: silence, hold the shot. Camera: Trần Khánh Dư seen ONLY from behind at the table facing the sea, he raises three fingers; no other face in the frame. VOICE: Trần Khánh Dư = a calm, steady male voice in his late 40s, slow and certain, Northern accent, clearly different from Anh Tư's voice; he is seen ONLY from behind, his mouth is never visible. Audio: sea below, soft wind, a gull. No background music. All dialogue in Vietnamese.
+```
+
+## Clip 8 · cảnh C
+File Muse đặt tên: `bd1288-tap3-8.mp4` · Ảnh khung đầu: `bd1288-tap3-canh-C.png` + `anh_tu_ref.png`
+
+**Chỉ Trần Khánh Dư nói (0.6–8.4s):** "Sau thuyền chiến của giặc là thuyền lương, không quân giỏi hộ tống. Đánh tất phá được."
+
+**Video (Muse)**
+```
+Cinematic live-action, photorealistic, natural light, film grain, vertical 9:16. Vietnam, December 1287, Trần dynasty, Vân Đồn coast: soldiers in brown cotton tunics, hair in topknots, black-lacquered teeth. No modern objects, no on-screen text, no subtitles, no visible writing anywhere, ABSOLUTELY NO FLAGS OR BANNERS OF ANY KIND, no blood, no dead bodies, no children. Light, cheerful comedic tone; Anh Tư is playful and smiling, while the officials, the general and the envoy stay serious. SCENE C (keep IDENTICAL in every clip of this scene): in front of the general's large brown canvas tent on a low bluff above the sea at Vân Đồn, mid-afternoon, warm low sunlight from the left, a small wooden table with a clay teapot, a sand map with pebbles on the ground (no writing), the sea and two limestone islands behind. Trần Khánh Dư wears a dark brown robe with a black sash, hair in a topknot, and is seen ONLY from behind, standing by the table facing the sea. Anh Tư stands a few steps to the side, the coil of rope in his hands. Anh Tư: the SAME man as in the attached reference image anh_tu_ref.png (same face, same age, same scar, same teeth, same hair): a Vietnamese man around 30 with deeply tanned skin, hair in a topknot with a faded brown cloth band, black-lacquered teeth, a thin scar across his left eyebrow and one chipped front tooth, a coarse dark-brown cotton tunic; he is cheerful, playful and cheeky, with lively natural expressions (smiles, a quick grin when he jokes, raised eyebrows, a wink, a shrug), like a funny real person telling a story to a friend, never over-the-top. ONE VOICE ONLY: in this whole 10-second clip exactly ONE person speaks, TRẦN KHÁNH DƯ (seen only from behind), and says ONE short line, completely, at a natural unhurried pace. Nobody else says a single word or makes any vocal sound; every other person on screen keeps his mouth CLOSED the whole time. The line is never split between two people and never continues in someone else's mouth. One continuous shot, NO cut inside this clip. The line ends before 9.0s; after that, silence. 0-0.6s: silence. 0.6-8.4s: ONLY TRẦN KHÁNH DƯ (seen only from behind) speaks: "Sau thuyền chiến của giặc là thuyền lương, không quân giỏi hộ tống. Đánh tất phá được." 8.4-10s: silence, hold the shot. Camera: from behind Trần Khánh Dư, he moves a pebble on the sand map and points out to sea; no other face in the frame. VOICE: Trần Khánh Dư = a calm, steady male voice in his late 40s, slow and certain, Northern accent, clearly different from Anh Tư's voice; he is seen ONLY from behind, his mouth is never visible. Audio: sea below, soft wind, a gull. No background music. All dialogue in Vietnamese.
+```
+
+## Clip 9 · cảnh C
+File Muse đặt tên: `bd1288-tap3-9.mp4` · Ảnh khung đầu: `bd1288-tap3-canh-C.png` + `anh_tu_ref.png`
 
 **Chỉ Anh Tư nói (0.6–7.4s):** "Em đi bắt người… mà người hẹn em ba hôm!"
 
-**Ảnh khung đầu**
-```
-Close-up in a coastal camp by day, Anh Tư: the SAME man as in the attached reference image anh_tu_ref.png (same face, same age, same scar, same teeth, same hair): a Vietnamese man around 30 with deeply tanned skin, hair in a topknot with a faded brown cloth band, black-lacquered teeth, a thin scar across his left eyebrow and one chipped front tooth, a coarse dark-brown cotton tunic; he is cheerful, playful and cheeky, with lively natural expressions (smiles, a quick grin when he jokes, raised eyebrows, a wink, a shrug), like a funny real person telling a story to a friend, never over-the-top, alone, holding up a coil of rope with a comically confused grin, realistic, vertical 9:16.
-```
-
 **Video (Muse)**
 ```
-Cinematic live-action, photorealistic, natural light, film grain, vertical 9:16. Vietnam, December 1287, Trần dynasty, Vân Đồn coast: soldiers in brown cotton tunics, hair in topknots, black-lacquered teeth. No modern objects, no on-screen text, no subtitles, no visible writing anywhere, ABSOLUTELY NO FLAGS OR BANNERS OF ANY KIND, no blood, no dead bodies, no children. Light, cheerful comedic tone; Anh Tư is playful and smiling, while the officials, the general and the envoy stay serious. Setting: the edge of a coastal military camp at Vân Đồn by day. Anh Tư: the SAME man as in the attached reference image anh_tu_ref.png (same face, same age, same scar, same teeth, same hair): a Vietnamese man around 30 with deeply tanned skin, hair in a topknot with a faded brown cloth band, black-lacquered teeth, a thin scar across his left eyebrow and one chipped front tooth, a coarse dark-brown cotton tunic; he is cheerful, playful and cheeky, with lively natural expressions (smiles, a quick grin when he jokes, raised eyebrows, a wink, a shrug), like a funny real person telling a story to a friend, never over-the-top. ONE VOICE ONLY: in this whole 10-second clip exactly ONE person speaks, ANH TƯ, and says ONE short line, completely, at a natural unhurried pace. Nobody else says a single word or makes any vocal sound; every other person on screen keeps his mouth CLOSED the whole time. The line is never split between two people and never continues in someone else's mouth. One continuous shot, NO cut or scene change inside this clip. The line ends before 9.0s; after that, silence. 0-0.6s: silence. 0.6-7.4s: ONLY ANH TƯ speaks: "Em đi bắt người… mà người hẹn em ba hôm!" 7.4-10s: silence, hold the shot. Camera: close-up of Anh Tư alone, holding up the coil of rope, looking at it and then at the camera with a comically confused grin and a shrug. VOICE: Anh Tư = a bright, slightly husky male voice around 30 with a natural Central Vietnamese (Huế) accent, cheerful and playful, warm and full of humor, never shouting, the SAME voice in every clip. Audio: camp murmuring, sea wind. No background music. All dialogue in Vietnamese.
+Cinematic live-action, photorealistic, natural light, film grain, vertical 9:16. Vietnam, December 1287, Trần dynasty, Vân Đồn coast: soldiers in brown cotton tunics, hair in topknots, black-lacquered teeth. No modern objects, no on-screen text, no subtitles, no visible writing anywhere, ABSOLUTELY NO FLAGS OR BANNERS OF ANY KIND, no blood, no dead bodies, no children. Light, cheerful comedic tone; Anh Tư is playful and smiling, while the officials, the general and the envoy stay serious. SCENE C (keep IDENTICAL in every clip of this scene): in front of the general's large brown canvas tent on a low bluff above the sea at Vân Đồn, mid-afternoon, warm low sunlight from the left, a small wooden table with a clay teapot, a sand map with pebbles on the ground (no writing), the sea and two limestone islands behind. Trần Khánh Dư wears a dark brown robe with a black sash, hair in a topknot, and is seen ONLY from behind, standing by the table facing the sea. Anh Tư stands a few steps to the side, the coil of rope in his hands. Anh Tư: the SAME man as in the attached reference image anh_tu_ref.png (same face, same age, same scar, same teeth, same hair): a Vietnamese man around 30 with deeply tanned skin, hair in a topknot with a faded brown cloth band, black-lacquered teeth, a thin scar across his left eyebrow and one chipped front tooth, a coarse dark-brown cotton tunic; he is cheerful, playful and cheeky, with lively natural expressions (smiles, a quick grin when he jokes, raised eyebrows, a wink, a shrug), like a funny real person telling a story to a friend, never over-the-top. ONE VOICE ONLY: in this whole 10-second clip exactly ONE person speaks, ANH TƯ, and says ONE short line, completely, at a natural unhurried pace. Nobody else says a single word or makes any vocal sound; every other person on screen keeps his mouth CLOSED the whole time. The line is never split between two people and never continues in someone else's mouth. One continuous shot, NO cut inside this clip. The line ends before 9.0s; after that, silence. 0-0.6s: silence. 0.6-7.4s: ONLY ANH TƯ speaks: "Em đi bắt người… mà người hẹn em ba hôm!" 7.4-10s: silence, hold the shot. Camera: close-up of Anh Tư alone in frame, looking at the rope, then at the camera, with a comically confused grin and a shrug. VOICE: Anh Tư = a bright, slightly husky male voice around 30 with a natural Central Vietnamese (Huế) accent, cheerful and playful, warm and full of humor, never shouting, the SAME voice in every clip. Audio: sea below, soft wind, a gull. No background music. All dialogue in Vietnamese.
 ```
 
-## Clip 5: Thuyền lương đi sau
-File Muse đặt tên: `bd1288-tap3-5.mp4` · Bản TikTok: bỏ (chỉ YouTube)
-
-**Chỉ Trần Khánh Dư nói (0.6–7.6s):** "Sau thuyền chiến là thuyền lương. Đánh tất phá được."
-
-**Ảnh khung đầu**
-```
-Cinematic shot on a high rocky cliff at dusk, a Trần general in a dark robe seen only from behind, alone, pointing far out to sea, realistic, vertical 9:16.
-```
-
-**Video (Muse)**
-```
-Cinematic live-action, photorealistic, natural light, film grain, vertical 9:16. Vietnam, December 1287, Trần dynasty, Vân Đồn coast: soldiers in brown cotton tunics, hair in topknots, black-lacquered teeth. No modern objects, no on-screen text, no subtitles, no visible writing anywhere, ABSOLUTELY NO FLAGS OR BANNERS OF ANY KIND, no blood, no dead bodies, no children. Light, cheerful comedic tone; Anh Tư is playful and smiling, while the officials, the general and the envoy stay serious. Setting: a high rocky cliff at Vân Đồn at dusk above the sea. ONE VOICE ONLY: in this whole 10-second clip exactly ONE person speaks, TRẦN KHÁNH DƯ (seen only from behind), and says ONE short line, completely, at a natural unhurried pace. Nobody else says a single word or makes any vocal sound; every other person on screen keeps his mouth CLOSED the whole time. The line is never split between two people and never continues in someone else's mouth. One continuous shot, NO cut or scene change inside this clip. The line ends before 9.0s; after that, silence. 0-0.6s: silence. 0.6-7.6s: ONLY TRẦN KHÁNH DƯ (seen only from behind) speaks: "Sau thuyền chiến là thuyền lương. Đánh tất phá được." 7.6-10s: silence, hold the shot. Camera: Trần Khánh Dư in a dark robe, seen ONLY from behind, alone on the cliff, points far out to sea; no other person's face is in the frame. VOICE: Trần Khánh Dư = a calm, steady male voice in his late 40s, slow and certain, Northern accent, clearly different from Anh Tư's voice; he is seen ONLY from behind, his mouth is never visible. Audio: sea waves, dusk wind. No background music. All dialogue in Vietnamese.
-```
-
-## Clip 6: Đếm ba hôm
-File Muse đặt tên: `bd1288-tap3-6.mp4` · Bản TikTok: bỏ (chỉ YouTube)
+## Clip 10 · cảnh D
+File Muse đặt tên: `bd1288-tap3-10.mp4` · Ảnh khung đầu: `bd1288-tap3-canh-D.png` + `anh_tu_ref.png`
 
 **Chỉ Anh Tư nói (0.6–8.4s):** "Một hôm… hai hôm… ba hôm… dây này để trói ai đây?"
 
-**Ảnh khung đầu**
+**Video (Muse)**
 ```
-Cinematic shot in a coastal camp at night, Anh Tư: the SAME man as in the attached reference image anh_tu_ref.png (same face, same age, same scar, same teeth, same hair): a Vietnamese man around 30 with deeply tanned skin, hair in a topknot with a faded brown cloth band, black-lacquered teeth, a thin scar across his left eyebrow and one chipped front tooth, a coarse dark-brown cotton tunic; he is cheerful, playful and cheeky, with lively natural expressions (smiles, a quick grin when he jokes, raised eyebrows, a wink, a shrug), like a funny real person telling a story to a friend, never over-the-top, sitting alone by a small fire carving marks into a wooden stick, realistic, vertical 9:16.
+Cinematic live-action, photorealistic, natural light, film grain, vertical 9:16. Vietnam, December 1287, Trần dynasty, Vân Đồn coast: soldiers in brown cotton tunics, hair in topknots, black-lacquered teeth. No modern objects, no on-screen text, no subtitles, no visible writing anywhere, ABSOLUTELY NO FLAGS OR BANNERS OF ANY KIND, no blood, no dead bodies, no children. Light, cheerful comedic tone; Anh Tư is playful and smiling, while the officials, the general and the envoy stay serious. SCENE D: night in the same camp, a small campfire on the rocks, sea and dark islands under the moon behind, Anh Tư alone sitting on a rock by the fire. Anh Tư: the SAME man as in the attached reference image anh_tu_ref.png (same face, same age, same scar, same teeth, same hair): a Vietnamese man around 30 with deeply tanned skin, hair in a topknot with a faded brown cloth band, black-lacquered teeth, a thin scar across his left eyebrow and one chipped front tooth, a coarse dark-brown cotton tunic; he is cheerful, playful and cheeky, with lively natural expressions (smiles, a quick grin when he jokes, raised eyebrows, a wink, a shrug), like a funny real person telling a story to a friend, never over-the-top. ONE VOICE ONLY: in this whole 10-second clip exactly ONE person speaks, ANH TƯ, and says ONE short line, completely, at a natural unhurried pace. Nobody else says a single word or makes any vocal sound; every other person on screen keeps his mouth CLOSED the whole time. The line is never split between two people and never continues in someone else's mouth. One continuous shot, NO cut inside this clip. The line ends before 9.0s; after that, silence. 0-0.6s: silence. 0.6-8.4s: ONLY ANH TƯ speaks: "Một hôm… hai hôm… ba hôm… dây này để trói ai đây?" 8.4-10s: silence, hold the shot. Camera: Anh Tư alone by the fire carves one mark for each count, then dangles the rope and smiles mischievously at the camera. VOICE: Anh Tư = a bright, slightly husky male voice around 30 with a natural Central Vietnamese (Huế) accent, cheerful and playful, warm and full of humor, never shouting, the SAME voice in every clip. Audio: fire crackling, night insects, waves. No background music. All dialogue in Vietnamese.
 ```
+
+## Clip 11 · cảnh E
+File Muse đặt tên: `bd1288-tap3-11.mp4` · Ảnh khung đầu: `bd1288-tap3-canh-E.png`
+
+**Chỉ Dẫn chuyện nói (0.8–7.6s):** "Ba hôm đó… cả Vân Đồn cùng chờ một đoàn thuyền lương."
 
 **Video (Muse)**
 ```
-Cinematic live-action, photorealistic, natural light, film grain, vertical 9:16. Vietnam, December 1287, Trần dynasty, Vân Đồn coast: soldiers in brown cotton tunics, hair in topknots, black-lacquered teeth. No modern objects, no on-screen text, no subtitles, no visible writing anywhere, ABSOLUTELY NO FLAGS OR BANNERS OF ANY KIND, no blood, no dead bodies, no children. Light, cheerful comedic tone; Anh Tư is playful and smiling, while the officials, the general and the envoy stay serious. Setting: a coastal camp at Vân Đồn at night, a small fire. Anh Tư: the SAME man as in the attached reference image anh_tu_ref.png (same face, same age, same scar, same teeth, same hair): a Vietnamese man around 30 with deeply tanned skin, hair in a topknot with a faded brown cloth band, black-lacquered teeth, a thin scar across his left eyebrow and one chipped front tooth, a coarse dark-brown cotton tunic; he is cheerful, playful and cheeky, with lively natural expressions (smiles, a quick grin when he jokes, raised eyebrows, a wink, a shrug), like a funny real person telling a story to a friend, never over-the-top. ONE VOICE ONLY: in this whole 10-second clip exactly ONE person speaks, ANH TƯ, and says ONE short line, completely, at a natural unhurried pace. Nobody else says a single word or makes any vocal sound; every other person on screen keeps his mouth CLOSED the whole time. The line is never split between two people and never continues in someone else's mouth. One continuous shot, NO cut or scene change inside this clip. The line ends before 9.0s; after that, silence. 0-0.6s: silence. 0.6-8.4s: ONLY ANH TƯ speaks: "Một hôm… hai hôm… ba hôm… dây này để trói ai đây?" 8.4-10s: silence, hold the shot. Camera: Anh Tư sits alone by the fire carving one mark into a stick for each count, then dangles the rope and smiles mischievously at the camera. VOICE: Anh Tư = a bright, slightly husky male voice around 30 with a natural Central Vietnamese (Huế) accent, cheerful and playful, warm and full of humor, never shouting, the SAME voice in every clip. Audio: fire crackling, night insects, sea wind. No background music. All dialogue in Vietnamese.
+Cinematic live-action, photorealistic, natural light, film grain, vertical 9:16. Vietnam, December 1287, Trần dynasty, Vân Đồn coast: soldiers in brown cotton tunics, hair in topknots, black-lacquered teeth. No modern objects, no on-screen text, no subtitles, no visible writing anywhere, ABSOLUTELY NO FLAGS OR BANNERS OF ANY KIND, no blood, no dead bodies, no children. Light, cheerful comedic tone; Anh Tư is playful and smiling, while the officials, the general and the envoy stay serious. SCENE E (keep IDENTICAL in every clip of this scene): the SAME rocky shore as scene A, with the same gnarled pine tree, at sunset, orange sky, calm empty sea, no ships, the two limestone islands dark on the horizon. ONE VOICE ONLY: in this whole 10-second clip exactly ONE person speaks, the NARRATOR (off-screen voice-over, nobody on screen moves their lips), and says ONE short line, completely, at a natural unhurried pace. Nobody else says a single word or makes any vocal sound; every other person on screen keeps his mouth CLOSED the whole time. The line is never split between two people and never continues in someone else's mouth. One continuous shot, NO cut inside this clip. The line ends before 9.0s; after that, silence. 0-0.8s: silence. 0.8-7.6s: ONLY the NARRATOR (off-screen voice-over, nobody on screen moves their lips) speaks: "Ba hôm đó… cả Vân Đồn cùng chờ một đoàn thuyền lương." 7.6-10s: silence, hold the shot. Camera: wide shot of the empty sea at sunset; Anh Tư seen small and from behind on the rocks; no faces visible. VOICE: Narrator = a calm, deep, slow male baritone with a Northern accent, documentary style, OFF-SCREEN voice-over: nobody on screen moves their lips while the narrator speaks. Audio: gentle waves, evening birds. No background music. All dialogue in Vietnamese.
 ```
 
-## Clip 7: Chịu thay
-File Muse đặt tên: `bd1288-tap3-7.mp4` · Bản TikTok: lấy clip này
+## Clip 12 · cảnh E
+File Muse đặt tên: `bd1288-tap3-12.mp4` · Ảnh khung đầu: `bd1288-tap3-canh-E.png` + `anh_tu_ref.png`
 
-**Chỉ Anh Tư nói (1.0–8.8s):** "Ba hôm nữa ông ấy không về chịu tội… thì em về chịu thay à?"
-
-**Ảnh khung đầu**
-```
-Cinematic shot at dusk on a rocky coast, Anh Tư: the SAME man as in the attached reference image anh_tu_ref.png (same face, same age, same scar, same teeth, same hair): a Vietnamese man around 30 with deeply tanned skin, hair in a topknot with a faded brown cloth band, black-lacquered teeth, a thin scar across his left eyebrow and one chipped front tooth, a coarse dark-brown cotton tunic; he is cheerful, playful and cheeky, with lively natural expressions (smiles, a quick grin when he jokes, raised eyebrows, a wink, a shrug), like a funny real person telling a story to a friend, never over-the-top, alone, holding a coil of rope, turning from the empty sea toward the camera, realistic, vertical 9:16.
-```
+**Chỉ Anh Tư nói (0.6–8.6s):** "Ba hôm nữa ông ấy không về chịu tội… thì em về chịu thay à?"
 
 **Video (Muse)**
 ```
-Cinematic live-action, photorealistic, natural light, film grain, vertical 9:16. Vietnam, December 1287, Trần dynasty, Vân Đồn coast: soldiers in brown cotton tunics, hair in topknots, black-lacquered teeth. No modern objects, no on-screen text, no subtitles, no visible writing anywhere, ABSOLUTELY NO FLAGS OR BANNERS OF ANY KIND, no blood, no dead bodies, no children. Light, cheerful comedic tone; Anh Tư is playful and smiling, while the officials, the general and the envoy stay serious. Setting: a rocky coast at Vân Đồn at dusk, an empty sea. Anh Tư: the SAME man as in the attached reference image anh_tu_ref.png (same face, same age, same scar, same teeth, same hair): a Vietnamese man around 30 with deeply tanned skin, hair in a topknot with a faded brown cloth band, black-lacquered teeth, a thin scar across his left eyebrow and one chipped front tooth, a coarse dark-brown cotton tunic; he is cheerful, playful and cheeky, with lively natural expressions (smiles, a quick grin when he jokes, raised eyebrows, a wink, a shrug), like a funny real person telling a story to a friend, never over-the-top. ONE VOICE ONLY: in this whole 10-second clip exactly ONE person speaks, ANH TƯ, and says ONE short line, completely, at a natural unhurried pace. Nobody else says a single word or makes any vocal sound; every other person on screen keeps his mouth CLOSED the whole time. The line is never split between two people and never continues in someone else's mouth. One continuous shot, NO cut or scene change inside this clip. The line ends before 9.0s; after that, silence. 0-1.0s: silence. 1.0-8.8s: ONLY ANH TƯ speaks: "Ba hôm nữa ông ấy không về chịu tội… thì em về chịu thay à?" 8.8-10s: silence, hold the shot. Camera: Anh Tư alone on the rocks turns from the empty sea to the camera, holding the rope, with a playful worried smile and a little shrug. VOICE: Anh Tư = a bright, slightly husky male voice around 30 with a natural Central Vietnamese (Huế) accent, cheerful and playful, warm and full of humor, never shouting, the SAME voice in every clip. Audio: dusk birds, sea waves, soft wind. No background music. All dialogue in Vietnamese.
+Cinematic live-action, photorealistic, natural light, film grain, vertical 9:16. Vietnam, December 1287, Trần dynasty, Vân Đồn coast: soldiers in brown cotton tunics, hair in topknots, black-lacquered teeth. No modern objects, no on-screen text, no subtitles, no visible writing anywhere, ABSOLUTELY NO FLAGS OR BANNERS OF ANY KIND, no blood, no dead bodies, no children. Light, cheerful comedic tone; Anh Tư is playful and smiling, while the officials, the general and the envoy stay serious. SCENE E (keep IDENTICAL in every clip of this scene): the SAME rocky shore as scene A, with the same gnarled pine tree, at sunset, orange sky, calm empty sea, no ships, the two limestone islands dark on the horizon. Anh Tư: the SAME man as in the attached reference image anh_tu_ref.png (same face, same age, same scar, same teeth, same hair): a Vietnamese man around 30 with deeply tanned skin, hair in a topknot with a faded brown cloth band, black-lacquered teeth, a thin scar across his left eyebrow and one chipped front tooth, a coarse dark-brown cotton tunic; he is cheerful, playful and cheeky, with lively natural expressions (smiles, a quick grin when he jokes, raised eyebrows, a wink, a shrug), like a funny real person telling a story to a friend, never over-the-top. ONE VOICE ONLY: in this whole 10-second clip exactly ONE person speaks, ANH TƯ, and says ONE short line, completely, at a natural unhurried pace. Nobody else says a single word or makes any vocal sound; every other person on screen keeps his mouth CLOSED the whole time. The line is never split between two people and never continues in someone else's mouth. One continuous shot, NO cut inside this clip. The line ends before 9.0s; after that, silence. 0-0.6s: silence. 0.6-8.6s: ONLY ANH TƯ speaks: "Ba hôm nữa ông ấy không về chịu tội… thì em về chịu thay à?" 8.6-10s: silence, hold the shot. Camera: Anh Tư turns from the empty sea to the camera, holding the rope, with a playful worried smile and a little shrug. VOICE: Anh Tư = a bright, slightly husky male voice around 30 with a natural Central Vietnamese (Huế) accent, cheerful and playful, warm and full of humor, never shouting, the SAME voice in every clip. Audio: gentle waves, evening birds. No background music. All dialogue in Vietnamese.
 ```
 
 ## Đăng TikTok
@@ -211,32 +259,42 @@ Ba hôm nữa ông ấy không về chịu tội… thì tui về chịu thay à
 ```
 
 **Bình luận ghim:** như TikTok, đổi "Follow" thành "Theo dõi trang".
-Đăng dạng **Reel, bản đủ 7 clip (~67 giây)**, không đăng bản TikTok cắt 35 giây. Bật "Thông tin về AI".
+Đăng dạng **Reel**, cùng một bản với TikTok và YouTube. Bật "Thông tin về AI".
 
 ## Chữ trên video (mình chèn ở hậu kỳ)
 
 ```
-# Dựng: python3 ../tools/tiktok.py bd1288-tap3.plan.txt bd1288-tap3.mp4  (ra bd1288-tap3-youtube.mp4 và bd1288-tap3-tiktok.mp4)
+# Dựng: python3 ../tools/tiktok.py bd1288-tap3.plan.txt bd1288-tap3.mp4  (một bản dùng chung TikTok, YouTube, Facebook)
 hook: POV: Đi bắt tướng / tướng xin khất / ba hôm
 end: Follow để xem / Biển trả lương bằng gạo →
 nhan: AI tái hiện · lời thoại hư cấu
 end_giay: 1.6
-chuyen: fade 0.4
+chuyen: fade 0.3
 
-clip: bd1288-tap3-1.mp4 | Vân Đồn · tháng 12/1287 | tiktok=0-9.3
-clip: bd1288-tap3-2.mp4 |  | tiktok=bo
-clip: bd1288-tap3-3.mp4 |  | tiktok=0.3-9.3
-clip: bd1288-tap3-4.mp4 |  | tiktok=0.3-9.3
-clip: bd1288-tap3-5.mp4 |  | tiktok=bo
-clip: bd1288-tap3-6.mp4 |  | tiktok=bo
-clip: bd1288-tap3-7.mp4 |  | tiktok=0.6-10 | chuyen=fadeblack:0.8
+clip: bd1288-tap3-1.mp4 | Vân Đồn · tháng 12/1287
+clip: bd1288-tap3-2.mp4 | 
+clip: bd1288-tap3-3.mp4 | 
+clip: bd1288-tap3-4.mp4 | 
+clip: bd1288-tap3-5.mp4 | 
+clip: bd1288-tap3-6.mp4 | 
+clip: bd1288-tap3-7.mp4 | 
+clip: bd1288-tap3-8.mp4 | 
+clip: bd1288-tap3-9.mp4 | 
+clip: bd1288-tap3-10.mp4 |  | chuyen=fadeblack:0.6
+clip: bd1288-tap3-11.mp4 |  | chuyen=fadeblack:0.6
+clip: bd1288-tap3-12.mp4 | 
 
-sub: 1 | 0.6-8.4 | Hàng trăm thuyền giặc / đi qua… mà không thuyền nào / chào em một câu!
-sub: 2 | 0.6-7.8 | Trung sứ: / Giặc lọt qua Vân Đồn! / Xiềng Khánh Dư, / giải về kinh hỏi tội!
-sub: 3 | 0.6-7.6 | Trần Khánh Dư: / Ta xin chịu tội. / Nhưng cho ta ba hôm… / để lập công.
-sub: 4 | 0.6-7.4 | Em đi bắt người… / mà người hẹn em / ba hôm!
-sub: 5 | 0.6-7.6 | Trần Khánh Dư: / Sau thuyền chiến / là thuyền lương. / Đánh tất phá được.
-sub: 6 | 0.6-8.4 | Một hôm… hai hôm… / ba hôm… dây này / để trói ai đây?
-sub: 7 | 1.0-8.8 | Ba hôm nữa ông ấy / không về chịu tội… / thì em về chịu thay à?
+sub: 1 | 0.8-8.2 | Tháng chạp năm 1287. / Thủy quân Nguyên vượt biển… / lọt qua Vân Đồn.
+sub: 2 | 0.6-8.4 | Hàng trăm thuyền giặc / đi qua… / mà không thuyền nào / chào em một câu!
+sub: 3 | 0.6-8.2 | Trung sứ: / Thượng hoàng có lệnh: / xiềng Trần Khánh Dư, / giải về kinh hỏi tội!
+sub: 4 | 0.6-7.8 | Dạ… em đi bắt / một ông tướng… / bằng sợi dây này ạ?
+sub: 5 | 0.6-6.0 | Trung sứ: / Mày cầm xích. / Ông ấy tự đi.
+sub: 6 | 0.6-7.6 | Thưa ngài… / em xin phép… / trói ngài nhẹ thôi ạ.
+sub: 7 | 0.6-8.4 | Trần Khánh Dư: / Theo quân pháp, / ta xin chịu tội. / Nhưng cho ta ba hôm… / để lập công.
+sub: 8 | 0.6-8.4 | Trần Khánh Dư: / Sau thuyền chiến của giặc / là thuyền lương, / không quân giỏi hộ tống. / Đánh tất phá được.
+sub: 9 | 0.6-7.4 | Em đi bắt người… / mà người hẹn em / ba hôm!
+sub: 10 | 0.6-8.4 | Một hôm… hai hôm… / ba hôm… dây này / để trói ai đây?
+sub: 11 | 0.8-7.6 | Ba hôm đó… / cả Vân Đồn cùng chờ / một đoàn thuyền lương.
+sub: 12 | 0.6-8.6 | Ba hôm nữa ông ấy / không về chịu tội… / thì em về chịu thay à?
 ```
 
