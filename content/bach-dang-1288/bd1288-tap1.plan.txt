@@ -1,0 +1,32 @@
+# Dựng: python3 ../tools/tiktok.py bd1288-tap1.plan.txt bd1288-tap1.mp4  (một bản dùng chung TikTok, YouTube, Facebook)
+hook: POV: Vua ốm / chỉ phát khi / sứ sang
+end: Follow để xem / Anh đan sọt →
+nhan: AI tái hiện · lời thoại hư cấu
+end_giay: 1.6
+chuyen: fade 0.3
+
+clip: bd1288-tap1-1.mp4 | Thăng Long · thời Trần
+clip: bd1288-tap1-2.mp4 | 
+clip: bd1288-tap1-3.mp4 | 
+clip: bd1288-tap1-4.mp4 | 
+clip: bd1288-tap1-5.mp4 | 
+clip: bd1288-tap1-6.mp4 |  | chuyen=fadeblack:0.6
+clip: bd1288-tap1-7.mp4 |  | chuyen=fadeblack:0.6
+clip: bd1288-tap1-8.mp4 | 
+clip: bd1288-tap1-9.mp4 | Năm 1281 | chuyen=fadeblack:0.6
+clip: bd1288-tap1-10.mp4 | 
+clip: bd1288-tap1-11.mp4 | Năm 1286 | chuyen=fadeblack:0.6
+clip: bd1288-tap1-12.mp4 | 
+
+sub: 1 | 0.6-6.4 | Sứ Nguyên: / Vua nước Nam / phải thân hành / sang chầu!
+sub: 2 | 0.8-8.6 | Năm 1267, / nhà Nguyên đòi sáu điều. / Điều đầu tiên: / vua phải sang chầu.
+sub: 3 | 0.6-8.4 | Còn đòi con tin, / kê dân, bắt lính, / nộp thuế… / như đi chợ ấy.
+sub: 4 | 0.6-8.6 | Vua Trần: / Ta sinh trưởng / trong thâm cung, / không quen cưỡi ngựa, / sợ chết dọc đường.
+sub: 5 | 0.6-8.4 | Vua không quen / cưỡi ngựa… / em thì quen, / mà ai cho em đi thay.
+sub: 6 | 0.6-8.0 | Bệnh này chỉ phát / khi sứ sang… / sứ về là khỏi.
+sub: 7 | 0.8-8.6 | Đi, có thể bị giữ / làm con tin. / Không đi, giặc có cớ / động binh.
+sub: 8 | 0.6-7.6 | Đằng nào cũng khó… / thì chọn cái khó / ở nhà.
+sub: 9 | 0.6-8.6 | Sứ Nguyên: / Ngươi cáo bệnh, / thì cứ nghỉ / mà thuốc thang. / Ta lập người khác / làm vua.
+sub: 10 | 0.6-7.6 | Xin nghỉ ốm… / mà bị cho nghỉ / luôn cả ngôi.
+sub: 11 | 0.8-8.8 | Năm 1286, nhà Nguyên / phong Trần Ích Tắc / làm vua An Nam… / rồi chuẩn bị / sang lần thứ ba.
+sub: 12 | 0.6-7.8 | Lễ vật thì gửi… / người thì không đi.
