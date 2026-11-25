@@ -121,16 +121,6 @@ Mô tả bằng chữ giúp Muse ra giọng gần nhau hơn, nhưng **không b�
 
 ---
 
-## 6b. Đồng nhất giọng hậu kỳ (đã chạy được, 25/11/2026)
-
-Muse vẫn đổi giọng giữa các clip, nên **sau khi có clip**, em đổi giọng Anh Tư về **một giọng mẫu duy nhất** (`../giong-mau/anh-tu-mau.wav`) bằng `../tools/dong-giong.py`:
-
-1. **Tách** tiếng nói khỏi tiếng nền (Demucs).
-2. **Đổi giọng** chỉ ở các đoạn Anh Tư nói (`--doan`), bằng OpenVoice v2: giữ nguyên câu chữ, nhịp, chỗ ngắt, nên **khẩu hình vẫn khớp**.
-3. **Trộn lại** với tiếng nền, gắn vào video, hình không đổi.
-
-Khoảng 15 giây xử lý cho mỗi clip 10 giây (CPU). Chạy trước bước dựng `tiktok.py`. Giọng mẫu hiện là bản tạo bằng Gemini (giọng Huế); anh tự thu một bản 30–60 giây thì giọng sẽ thật và ổn định hơn.
-
 ## 7. Bảng kiểm giọng trước khi đăng
 
 - [ ] Anh Tư cùng một giọng ở mọi clip, nói tự nhiên, không gào.

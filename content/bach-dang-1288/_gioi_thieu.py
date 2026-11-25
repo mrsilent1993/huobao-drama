@@ -26,9 +26,11 @@ AUDIO = ("Audio: an original epic orchestral trailer score (deep war drums, low 
          "motif) building to a climax, mixed under the dialogue so every word stays clear, plus natural sound (wind, water, "
          "creaking wood). The narrator speaks Vietnamese in a calm, deep, slow male baritone, documentary style, the same "
          f"narrator voice as every video of the channel. When Anh Tư speaks: {ANH_TU_VOICE}, lip-synced.")
-STAKE = ("The stakes are whole ironwood tree trunks about 20 to 30 cm thick and 2.5 to 3 m long, sharpened (no iron tips), "
-         "driven into the riverbed at low tide by teams of men lifting and dropping a heavy wooden ram on ropes; never thin "
-         "sticks, never small hand hammers.")
+STAKE = ("SCALE IS CRUCIAL: every stake is a WHOLE ironwood tree trunk, as thick as a grown man's thigh (20 to 30 cm) and "
+         "2.5 to 3 m long, bark stripped, top cut to a crude point (no iron tips); a single stake is so heavy that six to ten men "
+         "carry it on shoulder poles; it is driven into the riverbed at low tide by a team of a dozen men hauling ropes over a "
+         "tall wooden tripod to lift and drop a heavy log ram; when planted it still stands taller than the men. Never thin "
+         "sticks, never bamboo poles, never small hand hammers, never toothpick-like posts.")
 REF_PROMPT = ("Vertical 9:16 character reference portrait, head and shoulders, front view, of a Vietnamese man around 30 in "
               "1288: deeply tanned skin, hair tied in a neat topknot with a faded brown cloth band, black-lacquered teeth "
               "visible as he speaks, a thin horizontal scar across his left eyebrow, one chipped front tooth, short stubble, "
@@ -68,15 +70,29 @@ CLIPS = [
               "grand wooden hall of the Trần court lit by many oil lamps; Anh Tư stirs a huge steaming pot of fragrant herbal "
               "water and asks a passing servant hopefully: \"Nước thơm thế này... em tắm trước được không?\" The servant only shakes his head and walks off."),
          subs=[(0.4, 4.8, "Năm nay biển... / trả lương bằng gạo à?"), (5.0, 9.6, "Nước thơm thế này... / em tắm trước được không?")]),
-    dict(name="Người dưới sông và bãi cọc", label="", chuyen="cat",
+    dict(name="Người dưới sông và cây cọc", label="", chuyen="cat",
          img=(f"Epic shot of a wide river beneath towering limestone cliffs at dawn, {FACE} surfacing from the water gasping, "
               "calm water beside him with a few bubbles rising, realistic, vertical 9:16."),
          vid=(f"{STAKE} {FACE}. 0-5s: A wide river beneath towering limestone cliffs at dawn; Anh Tư surfaces, gasping, and "
               "stares at the calm water beside him where a man dived long ago; only bubbles rise; he whispers: \"Ông ấy lặn lâu thế... "
-              "chắc dưới đó có quán nước.\" 5-10s: Epic aerial over the estuary at low tide: hundreds of men drive massive stakes with heavy wooden "
-              "rams; time-lapse as the tide rises and swallows them until only smooth golden water remains. The narrator "
-              "says: \"Tất cả trông vào... một buổi sáng.\""),
-         subs=[(0.4, 4.6, "Ông ấy lặn lâu thế... / chắc dưới đó có quán nước."), (5.2, 9.6, "Tất cả trông vào... / một buổi sáng.")]),
+              "chắc dưới đó có quán nước.\" 5-10s: A muddy riverbank timber yard: a giant stripped ironwood trunk lies on the "
+              "ground, longer than three men and thicker than his waist; Anh Tư wraps both arms around it, his hands do not meet; "
+              "eight men behind him lift another trunk on shoulder poles and stagger past. He looks at the camera, deadpan: "
+              "\"Họ bảo em đi chặt que... / que gì mà ôm không hết.\""),
+         subs=[(0.4, 4.6, "Ông ấy lặn lâu thế... / chắc dưới đó có quán nước."), (5.4, 9.6, "Họ bảo em đi chặt que... / que gì mà ôm không hết.")]),
+    dict(name="Rừng cọc khổng lồ", label="", chuyen="cat",
+         img=(f"Epic low-angle cinematic shot at low tide on the Bạch Đằng river mouth, {STAKE} Rows upon rows of massive "
+              "pointed tree-trunk stakes stretch across the entire width of the river, hundreds of men on the mud flats hauling "
+              "ropes on tall wooden tripods, towering limestone karsts and golden dawn mist behind, the stakes dwarf the men, "
+              "realistic, vertical 9:16."),
+         vid=(f"{STAKE} 0-5s: Huge sweeping aerial over the river mouth at low tide: hundreds of men across the mud flats, rows "
+              "upon rows of giant tree-trunk stakes spanning the whole river from bank to bank, towering karsts behind; at dozens "
+              "of tall wooden tripods, teams of men haul ropes in unison and the heavy log rams slam down; each blow lands exactly "
+              "on the beat of the war drums and sprays mud; the men chant together: \"Dô ta!\" 5-10s: Extreme low angle at the "
+              "foot of one enormous stake towering over the workers against the sky as the ram drops a final time; then a grand "
+              "time-lapse from high above: the tide floods in and swallows the whole forest of stakes until only smooth golden "
+              "water remains under the karsts. The narrator says gravely: \"Tất cả trông vào... một buổi sáng.\""),
+         subs=[(1.2, 3.4, "Dô ta!"), (5.6, 9.6, "Tất cả trông vào... / một buổi sáng.")]),
     dict(name="Anh Tư", label="", chuyen="fadeblack:0.5",
          img=(f"Epic cinematic shot at sunrise, {FACE} standing in a small wooden boat on a vast calm river, towering "
               "limestone karsts and golden mist behind him, looking at the camera with a calm, dry expression, realistic, "
@@ -103,27 +119,26 @@ def main():
     plan = [f"# Dựng: python3 ../tools/tiktok.py {base}.plan.txt {base}.mp4  (một bản dùng chung TikTok, YouTube, Facebook)",
             f"hook: {HOOK}", f"end: {END}", "end_giay: 1.6", f"nhan: {NHAN}", ""]
     subs = []
-    md = ["# Video giới thiệu loạt \"Bạch Đằng 1288\" (khoảng 48 giây)", "",
-          "**Một video, dùng chung cho TikTok, YouTube và Facebook.** 5 clip Muse quay kiểu trailer hùng vĩ, nhạc nền hoành tráng: mở bằng hạm đội quân Nguyên vào cửa sông, "
-          "kiểu úp mở: mỗi cảnh chỉ đưa ra một việc lạ hoặc một câu hỏi, cắt trước lời giải; cảnh cuối bãi cọc chìm dưới nước và lời hẹn của Anh Tư. "
+    md = ["# Video giới thiệu loạt \"Bạch Đằng 1288\" (khoảng 59 giây)", "",
+          "**Một video, dùng chung cho TikTok, YouTube và Facebook.** 6 clip Muse quay kiểu trailer hùng vĩ, nhạc nền hoành tráng: mở bằng hạm đội quân Nguyên vào cửa sông, "
+          "kiểu úp mở: mỗi cảnh chỉ đưa ra một việc lạ hoặc một câu hỏi, cắt trước lời giải; clip 4 Anh Tư ôm không hết một cây cọc, clip 5 **rừng cọc khổng lồ** chắn ngang sông rồi chìm dưới thủy triều, cuối cùng là lời hẹn của Anh Tư. "
           "Đăng **một ngày trước tập 1**.", "",
           "Copy từng khối dán thẳng vào phần mềm. Prompt đã ghép đủ, không cần thay gì.", "",
           "**Lịch sử dùng trong video (mức A/B):** cuối năm 1287 quân Nguyên sang đánh Đại Việt lần thứ ba; quân Trần đóng "
-          "cọc ở sông Bạch Đằng, lợi dụng thủy triều. Cọc 1288 là cả thân cây lim, **không bịt sắt**. Trần Hưng Đạo chỉ "
+          "cọc ở sông Bạch Đằng, lợi dụng thủy triều. Cọc 1288 là cả thân cây lim to bằng đùi người, dài 2,5–3 m, **không bịt sắt**. Trần Hưng Đạo chỉ "
           "xuất hiện từ phía sau. Không cờ, không chữ, không cảnh chết.", "",
           "**Một mặt, một giọng cho Anh Tư:**", "",
           "1. **Tạo ảnh tham chiếu một lần**, lưu thành `anh_tu_ref.png`, rồi **đính kèm ảnh này ở mọi clip** (ảnh khung đầu và "
           "video) trong cả loạt:", "```", REF_PROMPT, "```",
           "2. **Giọng Anh Tư cố định, giọng miền Trung (Huế):** câu mô tả giọng đã chèn y hệt vào mọi prompt. Nếu Muse có chọn "
-          "giọng, chọn **một giọng duy nhất** cho Anh Tư và dùng lại mãi. Clip nào lệch giọng, em có thể đổi giọng hậu kỳ về "
-          "giọng mẫu (giữ nguyên khẩu hình).", "",
+          "giọng, chọn **một giọng duy nhất** cho Anh Tư và dùng lại mãi. Clip nào lệch giọng thì quay lại clip đó.", "",
           "**Nhạc nền:** prompt yêu cầu nhạc giao hưởng hoành tráng tự sáng tác (trống trận, dây trầm, kèn, sáo trúc). Nếu Muse "
           "không ra nhạc, em ghép nhạc khi dựng (tạo nhạc riêng bằng Gemini Lyria hoặc dùng thư viện nhạc của nền tảng), không "
           "dùng nhạc có bản quyền của người khác.", "",
           "**Kiểu úp mở:** mỗi cảnh 5 giây chỉ hé một việc lạ, **không cảnh nào nói lời giải**. Lời giải nằm trong các tập: "
           "lời thách \"lên trời cũng đuổi\" (tập 13), \"cho ta ba hôm\" (tập 4), gạo trôi vào bờ (tập 5), nồi nước thơm (tập 1), "
           "người lặn mãi không lên (tập 11, truyền thuyết Yết Kiêu: nhãn video ghi \"có chi tiết truyền thuyết\"), bãi cọc "
-          "(tập 8, 12). Nếu Muse khó ra 2 cảnh trong một clip, tạo 8 clip 5 giây (`gt-bd1288-1a`, `1b`…) rồi gửi em ghép.", ""]
+          "(tập 8, 12). Nếu Muse khó ra 2 cảnh trong một clip, tạo 12 clip 5 giây (`gt-bd1288-1a`, `1b`…) rồi gửi em ghép.", ""]
     for i, c in enumerate(CLIPS, 1):
         f = f"gt-bd1288-{i}.mp4"
         md += [f"## Clip {i}: {c['name']}", f"File Muse đặt tên: `{f}`", "",

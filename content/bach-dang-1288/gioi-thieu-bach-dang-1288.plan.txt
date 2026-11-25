@@ -8,7 +8,8 @@ clip: gt-bd1288-1.mp4 | Bạch Đằng 1288 · 16 tập
 clip: gt-bd1288-2.mp4 |  | chuyen=cat
 clip: gt-bd1288-3.mp4 |  | chuyen=cat
 clip: gt-bd1288-4.mp4 |  | chuyen=cat
-clip: gt-bd1288-5.mp4 |  | chuyen=fadeblack:0.5
+clip: gt-bd1288-5.mp4 |  | chuyen=cat
+clip: gt-bd1288-6.mp4 |  | chuyen=fadeblack:0.5
 
 sub: 1 | 0.6-5.6 | Cuối năm 1287. / Quân Nguyên sang lần thứ ba.
 sub: 1 | 6.2-9.6 | Lên trời, / ta cũng đuổi theo!
@@ -18,6 +19,8 @@ sub: 2 | 6.8-9.6 | Em đi bắt người... / mà người hẹn em ba hôm.
 sub: 3 | 0.4-4.8 | Năm nay biển... / trả lương bằng gạo à?
 sub: 3 | 5.0-9.6 | Nước thơm thế này... / em tắm trước được không?
 sub: 4 | 0.4-4.6 | Ông ấy lặn lâu thế... / chắc dưới đó có quán nước.
-sub: 4 | 5.2-9.6 | Tất cả trông vào... / một buổi sáng.
-sub: 5 | 0.8-4.6 | Việc lạ còn nhiều lắm... / mà chẳng ai giải thích.
-sub: 5 | 5.0-8.2 | Mai em kể việc đầu tiên. / Đừng hỏi em vì sao.
+sub: 4 | 5.4-9.6 | Họ bảo em đi chặt que... / que gì mà ôm không hết.
+sub: 5 | 1.2-3.4 | Dô ta!
+sub: 5 | 5.6-9.6 | Tất cả trông vào... / một buổi sáng.
+sub: 6 | 0.8-4.6 | Việc lạ còn nhiều lắm... / mà chẳng ai giải thích.
+sub: 6 | 5.0-8.2 | Mai em kể việc đầu tiên. / Đừng hỏi em vì sao.
