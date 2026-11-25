@@ -24,61 +24,58 @@ STAKE = ("The stakes are whole ironwood tree trunks about 20 to 30 cm thick and 
          "driven into the riverbed at low tide by teams of men lifting and dropping a heavy wooden ram on ropes; never thin "
          "sticks, never small hand hammers.")
 
-HOOK = "Bạch Đằng 1288 / chuyện vui / sử ít kể"
-END = "Bạch Đằng 1288 · 16 tập / Follow để xem tập 1 →"
+HOOK = "Năm 1288 / 16 việc lạ / không ai giải thích"
+END = "Mai trả lời câu đầu tiên / Follow để xem tập 1 →"
 NHAN = "AI tái hiện · có chi tiết truyền thuyết"
 
-# Kiểu trailer "tràng cười": mỗi clip 2 cảnh 5 giây, mỗi cảnh một câu chốt, đều là chuyện thật (hoặc truyền thuyết có nhãn)
-# sẽ có trong 16 tập. Thứ tự: khoác lác -> gia hạn -> gửi gạo -> chậu nước -> nín thở -> thủy triều.
+# Kiểu trailer ÚP MỞ: mỗi cảnh 5 giây chỉ đưa ra MỘT việc lạ hoặc một câu hỏi, cắt ngay trước lời giải.
+# Lời giải nằm trong 16 tập (xem README). Không cảnh nào lộ cú lật.
 CLIPS = [
-    dict(name="Lên trời cũng đuổi", label="Bạch Đằng 1288 · 16 tập",
+    dict(name="Lời thách", label="Bạch Đằng 1288 · 16 tập",
          img=("Cinematic low-angle shot at dawn of the prow of a large wooden Chinese-style junk with matting sails, a Yuan "
               "naval commander in leather lamellar armor and round helmet raising his arm boastfully, more junks behind in "
               "the mist, realistic, vertical 9:16."),
          vid=(f"Anh Tư is {FACE}. 0-5s: On the prow of a huge junk at dawn, a Yuan naval commander raises his arm and booms "
               "in Vietnamese with a light foreign accent: \"Lên trời, ta cũng đuổi theo!\" Drums. 5-10s: Cut to Anh Tư "
-              "hiding in the reeds in a small boat; he looks at the camera and says quietly, deadpan: \"Ông ấy chưa biết... "
-              "sông này có thủy triều.\""),
-         subs=[(0.4, 4.8, "Lên trời, / ta cũng đuổi theo!"), (5.0, 9.6, "Ông ấy chưa biết... / sông này có thủy triều.")]),
-    dict(name="Gia hạn và gửi gạo", label="", chuyen="cat",
+              "hiding in the reeds in a small boat; he glances at the water, then at the camera, and starts to say quietly: "
+              "\"Ông ấy chưa biết...\" — hard cut to black before he finishes."),
+         subs=[(0.4, 4.8, "Lên trời, / ta cũng đuổi theo!"), (5.0, 9.4, "Ông ấy chưa biết...")]),
+    dict(name="Ba hôm và bao gạo", label="", chuyen="cat",
          img=(f"Cinematic shot on a coastal camp, {FACE} holding a coil of rope in front of a broad-shouldered Trần general "
               "seen only from behind who raises three fingers, realistic, vertical 9:16."),
-         vid=(f"Anh Tư is {FACE}. 0-5s: Anh Tư, holding a coil of rope, has come to arrest a general; the general, seen only "
-              "from behind, raises three fingers and says: \"Cho ta ba hôm.\" Anh Tư says quietly to the camera: \"Đi bắt "
-              "người ta... người ta xin gia hạn.\" 5-10s: Quick cut to a grey beach: Anh Tư drags a waterlogged rice sack out "
-              "of the surf while more sacks float in: \"Giặc sang đánh mình... mà gửi gạo sang trước.\""),
-         subs=[(0.3, 1.8, "Cho ta ba hôm."), (1.8, 4.9, "Đi bắt người ta... / người ta xin gia hạn."),
-               (5.0, 9.6, "Giặc sang đánh mình... / mà gửi gạo sang trước.")]),
-    dict(name="Chậu nước và nín thở", label="", chuyen="cat",
-         img=(f"Cinematic shot by a hearth, {FACE} stirring a huge steaming pot of fragrant water with a long paddle, two "
-              "dignified Trần nobles seen only from behind standing apart, ignoring each other, realistic, vertical 9:16."),
-         vid=(f"Anh Tư is {FACE}. 0-5s: Anh Tư stirs a huge steaming pot of fragrant water; behind him two dignified nobles, "
-              "seen only from behind, stand apart ignoring each other. He whispers to the camera: \"Đun nước tắm... cho hai "
-              "ông giận nhau mấy chục năm.\" 5-10s: Quick cut to a river: Anh Tư bursts up out of the water gasping, while "
-              "beside him a lean adult man's head stays calmly underwater, only bubbles rising. Anh Tư, panting: \"Em nín "
-              "được một lúc... ông ấy nín cả buổi.\""),
-         subs=[(0.3, 4.8, "Đun nước tắm... / cho hai ông / giận nhau mấy chục năm."),
-               (5.0, 9.6, "Em nín được một lúc... / ông ấy nín cả buổi.")]),
-    dict(name="Nước rút", label="", chuyen="fadeblack:0.5",
-         img=(f"Cinematic wide shot at midday as the tide falls on a wide river estuary, a forest of massive ironwood stakes "
-              f"emerging from the water, large junks tilted and stuck among them, small boats closing in, {FACE} in a small "
-              "boat in the foreground, no bodies, realistic, vertical 9:16."),
-         vid=(f"{STAKE} Anh Tư is {FACE}. 0-5s: The tide falls; a forest of massive stakes rises from the water; big junks "
-              "lurch and stick fast with a deep crack of timber; drums on both banks. No bodies, no blood. A calm narrator's "
-              "voice says: \"Và rồi... nước rút.\" 5-10s: Anh Tư in his small boat looks at the camera and says quietly: "
-              "\"Mười sáu tập. Toàn việc lạ. Mai bắt đầu từ cái nồi nước.\""),
-         subs=[(0.8, 4.6, "Và rồi... / nước rút."), (5.0, 8.2, "Mười sáu tập. Toàn việc lạ. / Mai bắt đầu từ cái nồi nước.")]),
+         vid=(f"Anh Tư is {FACE}. 0-5s: Anh Tư, holding a coil of rope, faces a general seen only from behind, who raises "
+              "three fingers and says calmly: \"Cho ta ba hôm.\" Anh Tư blinks: \"Ba hôm... để làm gì ạ?\" 5-10s: Quick "
+              "cut to a grey beach at dawn: dozens of waterlogged rice sacks wash in on the surf; Anh Tư stares, a sack at "
+              "his feet: \"Gạo ở đâu... trôi vào nhiều thế này?\""),
+         subs=[(0.3, 1.8, "Cho ta ba hôm."), (1.8, 4.9, "Ba hôm... / để làm gì ạ?"),
+               (5.0, 9.6, "Gạo ở đâu... / trôi vào nhiều thế này?")]),
+    dict(name="Nồi nước và người dưới sông", label="", chuyen="cat",
+         img=(f"Cinematic shot by a hearth at night, {FACE} stirring a huge steaming pot of fragrant water with a long paddle, "
+              "puzzled, realistic, vertical 9:16."),
+         vid=(f"Anh Tư is {FACE}. 0-5s: Anh Tư stirs a huge steaming pot of fragrant herbal water and asks a servant passing "
+              "by: \"Nước thơm thế này... tắm cho ai ạ?\" The servant just shakes his head and walks off. 5-10s: Quick cut "
+              "to a river: Anh Tư surfaces, gasping, and looks at the calm water beside him where a man dived long ago; only "
+              "a few bubbles rise. He whispers: \"Ông ấy... lặn từ nãy đến giờ?\""),
+         subs=[(0.3, 4.8, "Nước thơm thế này... / tắm cho ai ạ?"),
+               (5.0, 9.6, "Ông ấy... / lặn từ nãy đến giờ?")]),
+    dict(name="Một buổi sáng", label="", chuyen="fadeblack:0.5",
+         img=(f"Cinematic wide shot at low tide on a muddy river estuary, teams of men lifting and dropping a heavy wooden ram "
+              f"onto massive ironwood stakes, {FACE} in the foreground holding a rope, realistic, vertical 9:16."),
+         vid=(f"{STAKE} Anh Tư is {FACE}. 0-5s: Low tide; teams of men drop a heavy wooden ram onto massive stakes, thud after "
+              "thud; then time-lapse as the tide rises and swallows them until only smooth water remains. A calm narrator's "
+              "voice says: \"Tất cả trông vào... một buổi sáng.\" 5-10s: Anh Tư in a small boat on the calm water looks at "
+              "the camera and says quietly: \"Mười sáu việc lạ. Mai em kể việc đầu tiên.\""),
+         subs=[(0.8, 4.6, "Tất cả trông vào... / một buổi sáng."), (5.0, 8.2, "Mười sáu việc lạ. / Mai em kể việc đầu tiên.")]),
 ]
 
 TAGS = "#bachdang1288 #tranhungdao #nhatran #bachdang #anhtu #povlichsu #lichsuvietnam #xuhuong #fyp"
-CAPTION = ("Năm 1288 có những chuyện sử ít kể 😂 Tướng giặc khoe \"lên trời cũng đuổi\", tướng ta bị bắt thì xin gia hạn, giặc "
-           "sang đánh mà gửi gạo sang trước, hai ông tướng giận nhau làm lành bằng một chậu nước… 16 tập, mỗi ngày một "
-           "tập. Bạn đoán chuyện nào là thật? 👇")
-PIN = ("Tất cả đều có trong sử (riêng chuyện nín thở của Yết Kiêu là truyền thuyết) 📅 Mỗi ngày một tập, theo đúng thứ tự từ cuối "
-       "năm 1287 đến sau trận Bạch Đằng 9/4/1288. Bạn mong tập nào nhất? Follow để không lỡ tập nào!")
-YT_TITLE = "Bạch Đằng 1288: những chuyện vui sử ít kể (16 tập) #Shorts"
-YT_TAGS = ("bạch đằng 1288, trần hưng đạo, trần khánh dư, ô mã nhi, yết kiêu, trương văn hổ, nhà trần, kháng chiến chống "
-           "nguyên, lịch sử việt nam, pov lịch sử, anh tư, đại việt, shorts")
+CAPTION = ("Năm 1288, một người lính bị giao toàn việc lạ: đi bắt tướng thì tướng xin \"cho ba hôm\", ra biển thì gạo trôi vào "
+           "bờ, đun cả nồi nước thơm mà không biết tắm cho ai… 🤔 16 tập, mỗi ngày một tập. Bạn đoán \"ba hôm\" để làm gì? 👇")
+PIN = ("Đáp án nằm trong 16 tập, theo đúng thứ tự từ cuối năm 1287 đến trận Bạch Đằng 📅 Ai đoán đúng \"ba hôm\" để làm gì "
+       "trước khi tập đó lên sóng thì comment nhé! Follow để không lỡ tập nào.")
+YT_TITLE = "Năm 1288: 16 việc lạ không ai giải thích | Bạch Đằng 1288 #Shorts"
+YT_TAGS = ("bạch đằng 1288, trần hưng đạo, nhà trần, kháng chiến chống nguyên, bạch đằng, lịch sử việt nam, pov lịch sử, "
+           "anh tư, đại việt, shorts")
 
 
 def main():
@@ -88,7 +85,7 @@ def main():
     subs = []
     md = ["# Video giới thiệu loạt \"Bạch Đằng 1288\" (khoảng 40 giây)", "",
           "**Một video, dùng chung cho TikTok, YouTube và Facebook.** 4 clip Muse quay kiểu trailer: quân Nguyên vượt biển, "
-          "sáu câu chốt vui lấy từ các tập sau, rồi rừng cọc lúc nước rút và lời hẹn của Anh Tư. "
+          "kiểu úp mở: mỗi cảnh chỉ đưa ra một việc lạ hoặc một câu hỏi, cắt trước lời giải; cảnh cuối bãi cọc chìm dưới nước và lời hẹn của Anh Tư. "
           "Đăng **một ngày trước tập 1**.", "",
           "Copy từng khối dán thẳng vào phần mềm. Prompt đã ghép đủ, không cần thay gì.", "",
           "**Lịch sử dùng trong video (mức A/B):** cuối năm 1287 quân Nguyên sang đánh Đại Việt lần thứ ba; quân Trần đóng "
@@ -96,12 +93,10 @@ def main():
           "xuất hiện từ phía sau. Không cờ, không chữ, không cảnh chết.", "",
           "**Giọng:** người dẫn chuyện và Anh Tư dùng đúng giọng cố định của kênh (xem `../nghien-cuu/giong-nhan-vat.md`), "
           "giọng Bắc.", "",
-          "**Kiểu \"tràng cười\":** mỗi clip 2 cảnh, mỗi cảnh 5 giây một câu chốt, nối bằng cắt thẳng cho nhịp nhanh. Nếu "
-          "Muse khó ra 2 cảnh trong một clip, tạo 8 clip 5 giây (đặt tên `gt-bd1288-1a`, `1b`…) rồi gửi em ghép.", "",
-          "**Các chuyện trong trailer (đều sẽ có trong 16 tập):** Ô Mã Nhi khoác lác \"lên trời cũng đuổi\" (B, câu nói chép "
-          "năm 1285); Trần Khánh Dư bị sai người đến bắt, xin hoãn để lập công (B); Trương Văn Hổ ném lương xuống biển (A); "
-          "Trần Hưng Đạo tắm cho Trần Quang Khải để làm lành (B); Yết Kiêu lặn giỏi (C, truyền thuyết: nhãn video ghi \"có chi "
-          "tiết truyền thuyết\"); cọc và thủy triều Bạch Đằng (A).", ""]
+          "**Kiểu úp mở:** mỗi cảnh 5 giây chỉ hé một việc lạ, **không cảnh nào nói lời giải**. Lời giải nằm trong các tập: "
+          "lời thách \"lên trời cũng đuổi\" (tập 13), \"cho ta ba hôm\" (tập 4), gạo trôi vào bờ (tập 5), nồi nước thơm (tập 1), "
+          "người lặn mãi không lên (tập 11, truyền thuyết Yết Kiêu: nhãn video ghi \"có chi tiết truyền thuyết\"), bãi cọc "
+          "(tập 8, 12). Nếu Muse khó ra 2 cảnh trong một clip, tạo 8 clip 5 giây (`gt-bd1288-1a`, `1b`…) rồi gửi em ghép.", ""]
     for i, c in enumerate(CLIPS, 1):
         f = f"gt-bd1288-{i}.mp4"
         md += [f"## Clip {i}: {c['name']}", f"File Muse đặt tên: `{f}`", "",
@@ -117,6 +112,7 @@ def main():
            "**Tiêu đề:**", "```", "Bạch Đằng 1288 qua mắt một người lính: 16 tập, mỗi ngày một tập", "```", "",
            "**Mô tả và hashtag:**", "```", CAPTION, TAGS, "```", "",
            "**Bình luận ghim:**", "```", PIN, "```", "",
+           "**Không trả lời đáp án trong bình luận** cho đến khi tập đó lên sóng; chỉ thả tim các bình luận đoán.", "",
            "**Ghim video này lên trang cá nhân** trong suốt thời gian đăng loạt. Bật nhãn \"Nội dung do AI tạo\".", "",
            "## Đăng YouTube Shorts", "",
            "**Tiêu đề:**", "```", YT_TITLE, "```", "",

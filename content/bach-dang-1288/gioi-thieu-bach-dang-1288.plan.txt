@@ -1,6 +1,6 @@
 # Dựng: python3 ../tools/tiktok.py gioi-thieu-bach-dang-1288.plan.txt gioi-thieu-bach-dang-1288.mp4  (một bản dùng chung TikTok, YouTube, Facebook)
-hook: Bạch Đằng 1288 / chuyện vui / sử ít kể
-end: Bạch Đằng 1288 · 16 tập / Follow để xem tập 1 →
+hook: Năm 1288 / 16 việc lạ / không ai giải thích
+end: Mai trả lời câu đầu tiên / Follow để xem tập 1 →
 end_giay: 1.6
 nhan: AI tái hiện · có chi tiết truyền thuyết
 
@@ -10,11 +10,11 @@ clip: gt-bd1288-3.mp4 |  | chuyen=cat
 clip: gt-bd1288-4.mp4 |  | chuyen=fadeblack:0.5
 
 sub: 1 | 0.4-4.8 | Lên trời, / ta cũng đuổi theo!
-sub: 1 | 5.0-9.6 | Ông ấy chưa biết... / sông này có thủy triều.
+sub: 1 | 5.0-9.4 | Ông ấy chưa biết...
 sub: 2 | 0.3-1.8 | Cho ta ba hôm.
-sub: 2 | 1.8-4.9 | Đi bắt người ta... / người ta xin gia hạn.
-sub: 2 | 5.0-9.6 | Giặc sang đánh mình... / mà gửi gạo sang trước.
-sub: 3 | 0.3-4.8 | Đun nước tắm... / cho hai ông / giận nhau mấy chục năm.
-sub: 3 | 5.0-9.6 | Em nín được một lúc... / ông ấy nín cả buổi.
-sub: 4 | 0.8-4.6 | Và rồi... / nước rút.
-sub: 4 | 5.0-8.2 | Mười sáu tập. Toàn việc lạ. / Mai bắt đầu từ cái nồi nước.
+sub: 2 | 1.8-4.9 | Ba hôm... / để làm gì ạ?
+sub: 2 | 5.0-9.6 | Gạo ở đâu... / trôi vào nhiều thế này?
+sub: 3 | 0.3-4.8 | Nước thơm thế này... / tắm cho ai ạ?
+sub: 3 | 5.0-9.6 | Ông ấy... / lặn từ nãy đến giờ?
+sub: 4 | 0.8-4.6 | Tất cả trông vào... / một buổi sáng.
+sub: 4 | 5.0-8.2 | Mười sáu việc lạ. / Mai em kể việc đầu tiên.
