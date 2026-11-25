@@ -21,11 +21,12 @@ V_NARR = ("Narrator = a calm, deep, slow male baritone with a Northern accent, d
 V_KD = ("Trần Khánh Dư = a calm, steady male voice in his late 40s, slow and certain, Northern accent, clearly different "
         "from Anh Tư's voice; he is seen ONLY from behind, his mouth is never visible")
 V_SU = "the envoy = a clipped, impatient male voice in his 50s, Northern accent, clearly different from Anh Tư's voice"
-RULES = ("ONE VOICE ONLY: in this whole 10-second clip exactly ONE person speaks, {who}, and says ONE short line, "
+RULES = ("ONE VOICE ONLY: in this whole 10-second clip exactly ONE person speaks, {who}, and says ONE line, "
          "completely, at a natural unhurried pace. Nobody else says a single word or makes any vocal sound; every other "
          "person on screen keeps his mouth CLOSED the whole time. The line is never split between two people and never "
-         "continues in someone else's mouth. One continuous shot, NO cut inside this clip. The line ends before 9.0s; "
-         "after that, silence.")
+         "continues in someone else's mouth. One continuous shot, NO cut inside this clip. The line FILLS the clip: it "
+         "starts right at the given second and is spoken at a natural, steady pace (not rushed, not slow), finishing "
+         "just before 9.3s; only a short breath of silence at the very end.")
 AUDIO = "Audio: {amb}. No background music. All dialogue in Vietnamese."
 
 # CẢNH: mọi clip cùng cảnh dùng y nguyên đoạn mô tả này (cùng nơi, cùng giờ, cùng ánh sáng, cùng đồ vật, cùng vị trí người)
@@ -77,43 +78,43 @@ SCENES = {
               amb="gentle waves, evening birds"),
 }
 
-# Mỗi clip: một cảnh, MỘT người nói, MỘT câu (tối đa khoảng 15 chữ).
+# Mỗi clip: một cảnh, MỘT người nói, lời lấp gần kín 10 giây (khoảng 20 đến 26 chữ, nói vừa phải).
 CLIPS = [
     dict(scene="A", who="narr", label="Vân Đồn · tháng 12/1287",
-         line=(0.8, 8.2, "Tháng chạp năm 1287. / Thủy quân Nguyên vượt biển… / lọt qua Vân Đồn."),
+         line=(0.8, 9.2, "Tháng chạp năm 1287. / Hàng trăm chiến thuyền / Nguyên vượt biển, / ồ ạt / lọt qua Vân Đồn."),
          cam="wide aerial over the sea: the fleet sails past the islands; on the shore Anh Tư is a tiny figure seen from behind; no faces visible"),
     dict(scene="A", who="tu",
-         line=(0.6, 8.4, "Hàng trăm thuyền giặc / đi qua… / mà không thuyền nào / chào em một câu!"),
+         line=(0.4, 9.2, "Hàng trăm thuyền giặc / đi qua… không thuyền nào / chào em một câu. / Qua cửa nhà người ta, / ít nhất cũng gõ cửa chứ."),
          cam="medium shot of Anh Tư alone on the rocks watching the fleet pass, then turning to the camera with a faint smile"),
     dict(scene="B", who="su",
-         line=(0.6, 8.2, "Thượng hoàng có lệnh: / xiềng Trần Khánh Dư, / giải về kinh hỏi tội!"),
+         line=(0.4, 9.0, "Thượng hoàng có lệnh: / Khánh Dư để giặc / lọt Vân Đồn. Xiềng lại, / giải về kinh hỏi tội!"),
          cam="the envoy faces the camera and reads from the scroll, stern; in the foreground Anh Tư is seen ONLY from behind (back of his head and shoulders, face never visible)"),
     dict(scene="B", who="tu",
-         line=(0.6, 7.8, "Dạ… em đi bắt / một ông tướng… / bằng sợi dây này ạ?"),
+         line=(0.4, 9.2, "Dạ… em đi bắt / một ông tướng… / bằng sợi dây này ạ? / Ông ấy cầm gươm, / em cầm dây… hơi thiệt."),
          cam="reverse angle: close-up of Anh Tư alone in frame (the envoy is out of frame), glancing down at the coil of rope in his hands, then up at the envoy, a little unsure"),
     dict(scene="B", who="su",
-         line=(0.6, 6.0, "Mày cầm xích. / Ông ấy tự đi."),
+         line=(0.4, 8.8, "Mày cầm xích. / Ông ấy tự đi. / Tướng nhà Trần làm sai / thì tự chịu tội, / không cần ai lôi."),
          cam="back to the envoy facing the camera, unimpressed; Anh Tư again seen ONLY from behind in the foreground"),
     dict(scene="C", who="tu",
-         line=(0.6, 7.6, "Thưa ngài… / em xin phép… / trói ngài nhẹ thôi ạ."),
+         line=(0.4, 9.2, "Thưa ngài… em xin phép… / trói ngài nhẹ thôi ạ. / Hay ngài cứ đi trước, / em theo sau, / cho ngài đỡ ngại."),
          cam="Anh Tư alone in frame beside the tent, bowing slightly and holding out the rope politely, a little awkward; the general is out of frame"),
     dict(scene="C", who="kd",
-         line=(0.6, 8.4, "Theo quân pháp, / ta xin chịu tội. / Nhưng cho ta ba hôm… / để lập công."),
+         line=(0.4, 9.3, "Theo quân pháp, / ta xin chịu tội. / Nhưng xin khất ba hôm / lập công, rồi chịu tội / cũng chưa muộn."),
          cam="Trần Khánh Dư seen ONLY from behind at the table facing the sea, he raises three fingers; no other face in the frame"),
     dict(scene="C", who="kd",
-         line=(0.6, 8.4, "Sau thuyền chiến của giặc / là thuyền lương, / không quân giỏi hộ tống. / Đánh tất phá được."),
+         line=(0.4, 9.2, "Thuyền chiến giặc đã qua, / ắt thuyền lương nặng nề / theo sau, / không quân giỏi hộ tống. / Đánh tất phá được."),
          cam="from behind Trần Khánh Dư, he moves a pebble on the sand map and points out to sea; no other face in the frame"),
     dict(scene="C", who="tu",
-         line=(0.6, 7.4, "Em đi bắt người… / mà người hẹn em / ba hôm!"),
+         line=(0.4, 9.2, "Em đi bắt người… / mà người hẹn em ba hôm. / Thôi thì ngồi chờ, / chứ dây này / cũng chưa biết trói ai."),
          cam="close-up of Anh Tư alone in frame, looking at the rope, then at the camera, a short pause and a small sigh"),
     dict(scene="D", who="tu", chuyen="fadeblack:0.6",
-         line=(0.6, 8.4, "Một hôm… hai hôm… / ba hôm… dây này / để trói ai đây?"),
+         line=(0.8, 9.2, "Một hôm… hai hôm… / ba hôm. / Ông ấy ra bờ / nhìn biển cả ngày, / còn em ngồi nhìn ông ấy."),
          cam="Anh Tư alone by the fire carves one mark for each count, then glances at the rope beside him and looks at the camera"),
     dict(scene="E", who="narr", chuyen="fadeblack:0.6",
-         line=(0.8, 7.6, "Ba hôm đó… / cả Vân Đồn cùng chờ / một đoàn thuyền lương."),
+         line=(0.8, 9.3, "Ba hôm đó, / ông gom quân còn lại, / mai phục dọc bờ biển… / cả Vân Đồn cùng chờ / một đoàn thuyền lương."),
          cam="wide shot of the empty sea at sunset; Anh Tư seen small and from behind on the rocks; no faces visible"),
     dict(scene="E", who="tu",
-         line=(0.6, 8.6, "Ba hôm nữa ông ấy / không về chịu tội… / thì em về chịu thay à?"),
+         line=(0.6, 9.2, "Em vẫn cầm dây đây. / Ba hôm nữa ông ấy / không về chịu tội… / thì em về chịu thay à?"),
          cam="Anh Tư turns from the empty sea to the camera, holding the rope, calm, with a faint resigned smile"),
 ]
 WHO = {"tu": "ANH TƯ", "kd": "TRẦN KHÁNH DƯ (seen only from behind)", "su": "THE ENVOY", "narr": "the NARRATOR (off-screen voice-over, nobody on screen moves their lips)"}
@@ -132,7 +133,7 @@ def video_prompt(c):
     face = FACE + "." if c["who"] == "tu" or c["scene"] in "BC" else ""
     return " ".join(x for x in [
         BASE, sc["lock"], face, RULES.format(who=WHO[c["who"]]),
-        f"0-{a:.1f}s: silence. {a:.1f}-{b:.1f}s: ONLY {WHO[c['who']]} speaks: \"{spoken(text)}\" {b:.1f}-10s: silence, hold the shot.",
+        f"0-{a:.1f}s: silence. {a:.1f}-{b:.1f}s: ONLY {WHO[c['who']]} speaks: \"{spoken(text)}\" {b:.1f}-10s: a short silent beat, hold the shot.",
         f"Camera: {c['cam']}.", f"VOICE: {VOICE[c['who']]}.", AUDIO.format(amb=sc["amb"])] if x)
 
 
@@ -151,7 +152,7 @@ def main():
           f"**File Muse đặt tên:** `bd1288-tap3-1..{n}.mp4` · **Giọng:** Anh Tư giọng Bắc, tự nhiên, hài nhẹ; Khánh Dư, trung sứ giọng Bắc, "
           "nghiêm; dẫn chuyện giọng Bắc trầm.", "",
           "## Cách làm cho hội thoại không lỗi và bối cảnh đồng nhất", "",
-          "1. **Mỗi clip 10 giây chỉ MỘT người nói, MỘT câu.** Hai người đối đáp thì mỗi người một clip liền nhau, chuyển cảnh "
+          "1. **Mỗi clip 10 giây chỉ MỘT người nói, lời lấp gần kín clip** (khoảng 20 đến 24 chữ, nói từ giây 0,4 đến 9,2, nhịp vừa phải). Hai người đối đáp thì mỗi người một clip liền nhau, chuyển cảnh "
           "nhẹ 0,3 giây (hòa hình), như phim cắt qua lại giữa hai người.",
           "2. **Khóa bối cảnh theo cảnh (A đến E).** Các clip cùng cảnh dùng **y nguyên đoạn `SCENE …`** trong prompt: cùng nơi, "
           "cùng giờ, cùng ánh sáng, cùng đồ vật (cây thông, lều, bàn trà, giá giáo…), cùng trang phục, cùng vị trí người đứng.",
@@ -159,7 +160,7 @@ def main():
           "`anh_tu_ref.png`). Nếu Muse cho chọn ảnh khung đầu từ video, lấy **khung cuối của clip trước** làm khung đầu clip sau "
           "(gửi em clip, em tách khung cuối bằng FFmpeg cho anh).",
           "4. **Người khác nói thì mặt Anh Tư không trong khung** (chỉ thấy lưng hoặc ra khỏi khung); Khánh Dư luôn quay từ phía sau.",
-          "5. **Câu xong trước giây 9**, sau đó im lặng, nên chuyển cảnh không cắt chữ.",
+          "5. **Lời xong khoảng giây 9,2**, chỉ chừa một nhịp thở cuối clip, nên chuyển cảnh 0,3 giây không cắt chữ.",
           "6. Đổi cảnh (sang đêm, sang ngày thứ ba) thì tối dần 0,6 giây.", "",
           "**Lịch sử (mức A/B):** tháng 12/1287 thủy quân Nguyên vượt biển qua Vân Đồn; Phó đô tướng quân Trần Khánh Dư không chặn "
           "được. Thượng hoàng sai trung sứ xiềng ông về kinh hỏi tội; ông xin khất vài ba ngày vì đoán đoàn thuyền lương đi sau không "

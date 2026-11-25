@@ -18,15 +18,15 @@ clip: bd1288-tap3-10.mp4 |  | chuyen=fadeblack:0.6
 clip: bd1288-tap3-11.mp4 |  | chuyen=fadeblack:0.6
 clip: bd1288-tap3-12.mp4 | 
 
-sub: 1 | 0.8-8.2 | Tháng chạp năm 1287. / Thủy quân Nguyên vượt biển… / lọt qua Vân Đồn.
-sub: 2 | 0.6-8.4 | Hàng trăm thuyền giặc / đi qua… / mà không thuyền nào / chào em một câu!
-sub: 3 | 0.6-8.2 | Trung sứ: / Thượng hoàng có lệnh: / xiềng Trần Khánh Dư, / giải về kinh hỏi tội!
-sub: 4 | 0.6-7.8 | Dạ… em đi bắt / một ông tướng… / bằng sợi dây này ạ?
-sub: 5 | 0.6-6.0 | Trung sứ: / Mày cầm xích. / Ông ấy tự đi.
-sub: 6 | 0.6-7.6 | Thưa ngài… / em xin phép… / trói ngài nhẹ thôi ạ.
-sub: 7 | 0.6-8.4 | Trần Khánh Dư: / Theo quân pháp, / ta xin chịu tội. / Nhưng cho ta ba hôm… / để lập công.
-sub: 8 | 0.6-8.4 | Trần Khánh Dư: / Sau thuyền chiến của giặc / là thuyền lương, / không quân giỏi hộ tống. / Đánh tất phá được.
-sub: 9 | 0.6-7.4 | Em đi bắt người… / mà người hẹn em / ba hôm!
-sub: 10 | 0.6-8.4 | Một hôm… hai hôm… / ba hôm… dây này / để trói ai đây?
-sub: 11 | 0.8-7.6 | Ba hôm đó… / cả Vân Đồn cùng chờ / một đoàn thuyền lương.
-sub: 12 | 0.6-8.6 | Ba hôm nữa ông ấy / không về chịu tội… / thì em về chịu thay à?
+sub: 1 | 0.8-9.2 | Tháng chạp năm 1287. / Hàng trăm chiến thuyền / Nguyên vượt biển, / ồ ạt / lọt qua Vân Đồn.
+sub: 2 | 0.4-9.2 | Hàng trăm thuyền giặc / đi qua… không thuyền nào / chào em một câu. / Qua cửa nhà người ta, / ít nhất cũng gõ cửa chứ.
+sub: 3 | 0.4-9.0 | Trung sứ: / Thượng hoàng có lệnh: / Khánh Dư để giặc / lọt Vân Đồn. Xiềng lại, / giải về kinh hỏi tội!
+sub: 4 | 0.4-9.2 | Dạ… em đi bắt / một ông tướng… / bằng sợi dây này ạ? / Ông ấy cầm gươm, / em cầm dây… hơi thiệt.
+sub: 5 | 0.4-8.8 | Trung sứ: / Mày cầm xích. / Ông ấy tự đi. / Tướng nhà Trần làm sai / thì tự chịu tội, / không cần ai lôi.
+sub: 6 | 0.4-9.2 | Thưa ngài… em xin phép… / trói ngài nhẹ thôi ạ. / Hay ngài cứ đi trước, / em theo sau, / cho ngài đỡ ngại.
+sub: 7 | 0.4-9.3 | Trần Khánh Dư: / Theo quân pháp, / ta xin chịu tội. / Nhưng xin khất ba hôm / lập công, rồi chịu tội / cũng chưa muộn.
+sub: 8 | 0.4-9.2 | Trần Khánh Dư: / Thuyền chiến giặc đã qua, / ắt thuyền lương nặng nề / theo sau, / không quân giỏi hộ tống. / Đánh tất phá được.
+sub: 9 | 0.4-9.2 | Em đi bắt người… / mà người hẹn em ba hôm. / Thôi thì ngồi chờ, / chứ dây này / cũng chưa biết trói ai.
+sub: 10 | 0.8-9.2 | Một hôm… hai hôm… / ba hôm. / Ông ấy ra bờ / nhìn biển cả ngày, / còn em ngồi nhìn ông ấy.
+sub: 11 | 0.8-9.3 | Ba hôm đó, / ông gom quân còn lại, / mai phục dọc bờ biển… / cả Vân Đồn cùng chờ / một đoàn thuyền lương.
+sub: 12 | 0.6-9.2 | Em vẫn cầm dây đây. / Ba hôm nữa ông ấy / không về chịu tội… / thì em về chịu thay à?

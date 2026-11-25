@@ -76,43 +76,43 @@ SCENES = {
               amb="dusk birds, soft wind"),
 }
 
-# Mỗi clip: một cảnh, MỘT người nói, MỘT câu (tối đa khoảng 16 chữ).
+# Mỗi clip: một cảnh, MỘT người nói, lời lấp gần kín 10 giây (khoảng 20 đến 26 chữ, nói vừa phải).
 CLIPS = [
     dict(scene="A", who="su", label="Thăng Long · thời Trần",
-         line=(0.6, 6.4, "Vua nước Nam / phải thân hành / sang chầu!"),
+         line=(0.4, 9.0, "Hoàng đế có chiếu: / vua nước Nam / phải thân hành sang chầu, / không được sai / người khác thay!"),
          cam="the envoy at the foot of the stairs faces the camera and reads from the scroll; officials silent behind; Anh Tư far away by the gate, too small to see his mouth"),
     dict(scene="A", who="narr",
-         line=(0.8, 8.6, "Năm 1267, / nhà Nguyên đòi sáu điều. / Điều đầu tiên: / vua phải sang chầu."),
+         line=(0.8, 9.2, "Năm 1267, / nhà Nguyên đòi sáu điều. / Điều đầu tiên, / cũng là điều khó nhất: / vua phải sang chầu."),
          cam="slow high aerial over the courtyard and the hall roofs; people seen only as small figures from above; no faces visible"),
     dict(scene="A", who="tu",
-         line=(0.6, 8.4, "Còn đòi con tin, / kê dân, bắt lính, / nộp thuế… / như đi chợ ấy."),
+         line=(0.4, 9.2, "Còn đòi con tin, kê dân, / bắt lính, nộp thuế, / đặt cả quan trông coi… / Đòi như đi chợ, / mà chợ nhà mình."),
          cam="close-up of Anh Tư alone by the gate, quietly counting on his fingers, then a glance at the camera; the envoy is out of frame"),
     dict(scene="B", who="vua",
-         line=(0.6, 8.6, "Ta sinh trưởng / trong thâm cung, / không quen cưỡi ngựa, / sợ chết dọc đường."),
+         line=(0.4, 9.2, "Ta sinh trưởng / trong thâm cung, / không quen cưỡi ngựa, / không hợp thủy thổ, / e chết dọc đường."),
          cam="from behind the king on the dais, looking toward the envoy below, who listens with his mouth closed; Anh Tư out of frame"),
     dict(scene="B", who="tu",
-         line=(0.6, 8.4, "Vua không quen / cưỡi ngựa… / em thì quen, / mà ai cho em đi thay."),
+         line=(0.4, 9.2, "Vua không quen cưỡi ngựa… / em thì ngày nào / cũng cưỡi. / Mà sứ chỉ mời vua, / chẳng ai mời em đi thay."),
          cam="Anh Tư alone in frame beside the pillar holding the tea tray, speaking quietly toward the camera; the king and the envoy are out of frame"),
     dict(scene="C", who="tu", chuyen="fadeblack:0.6",
-         line=(0.6, 8.0, "Bệnh này chỉ phát / khi sứ sang… / sứ về là khỏi."),
+         line=(0.8, 9.2, "Lạ lắm. / Bệnh này chỉ phát / khi sứ sang… / sứ về là khỏi. / Thầy thuốc cũng chịu."),
          cam="medium close-up of Anh Tư alone leaning on the pillar, a short pause before the last words, a faint smile"),
     dict(scene="D", who="narr", chuyen="fadeblack:0.6",
-         line=(0.8, 8.6, "Đi, có thể bị giữ / làm con tin. / Không đi, giặc có cớ / động binh."),
+         line=(0.8, 9.2, "Đi, có thể bị giữ / làm con tin. / Không đi, giặc có cớ / động binh. / Cáo ốm thì còn / kéo thêm được thời gian."),
          cam="wide shot of the long road winding north at dusk; Anh Tư seen small and from behind on the wall; no faces visible"),
     dict(scene="D", who="tu",
-         line=(0.6, 7.6, "Đằng nào cũng khó… / thì chọn cái khó / ở nhà."),
+         line=(0.4, 9.2, "Đằng nào cũng khó… / thì chọn cái khó ở nhà. / Ở nhà còn rèn giáo, / đóng thuyền. / Sang đấy thì làm gì?"),
          cam="Anh Tư turns from the road to the camera, calm, a small nod"),
     dict(scene="E", who="su", chuyen="fadeblack:0.6", label="Năm 1281",
-         line=(0.6, 8.6, "Ngươi cáo bệnh, / thì cứ nghỉ / mà thuốc thang. / Ta lập người khác / làm vua."),
+         line=(0.8, 9.2, "Ngươi cáo bệnh / không sang, thì cứ ở nhà / mà thuốc thang. / Hoàng đế đã lập / người khác làm vua!"),
          cam="the older envoy faces the camera and reads the sealed scroll, cold; Anh Tư far away by the gate, too small to see his mouth"),
     dict(scene="E", who="tu",
-         line=(0.6, 7.6, "Xin nghỉ ốm… / mà bị cho nghỉ / luôn cả ngôi."),
+         line=(0.4, 9.2, "Xin nghỉ ốm… / mà bị cho nghỉ / luôn cả ngôi. / Thế mà vua mình / vẫn khỏe, vẫn ở nhà."),
          cam="close-up of Anh Tư alone by the gate, eyebrows raised, a short glance at the camera; the envoy is out of frame"),
     dict(scene="F", who="narr", chuyen="fadeblack:0.6", label="Năm 1286",
-         line=(0.8, 8.8, "Năm 1286, nhà Nguyên / phong Trần Ích Tắc / làm vua An Nam… / rồi chuẩn bị / sang lần thứ ba."),
+         line=(0.8, 9.3, "Năm 1286, nhà Nguyên / phong Trần Ích Tắc / làm vua An Nam, / đóng thuyền, gom quân… / chuẩn bị sang / lần thứ ba."),
          cam="slow push along the row of gift chests in the dusk light; Anh Tư seen only from behind at the end of the row; no faces visible"),
     dict(scene="F", who="tu",
-         line=(0.6, 7.8, "Lễ vật thì gửi… / người thì không đi."),
+         line=(0.4, 9.2, "Gần hai mươi năm, / sứ sang thì mình / gửi quà, gửi thư, / gửi lời hỏi thăm. / Lễ vật thì gửi… / người thì không đi."),
          cam="Anh Tư sitting on a gift chest pats the lid, looks at the camera, calm, with a faint resigned smile"),
 ]
 WHO = {"tu": "ANH TƯ", "su": "THE YUAN ENVOY", "vua": "THE TRẦN KING (seen only from behind)",
@@ -127,7 +127,7 @@ def video_prompt(c):
     sc = SCENES[c["scene"]]
     return " ".join(x for x in [
         BASE, sc["lock"], FACE + ".", RULES.format(who=WHO[c["who"]]),
-        f"0-{a:.1f}s: silence. {a:.1f}-{b:.1f}s: ONLY {WHO[c['who']]} speaks: \"{spoken(text)}\" {b:.1f}-10s: silence, hold the shot.",
+        f"0-{a:.1f}s: silence. {a:.1f}-{b:.1f}s: ONLY {WHO[c['who']]} speaks: \"{spoken(text)}\" {b:.1f}-10s: a short silent beat, hold the shot.",
         f"Camera: {c['cam']}.", f"VOICE: {VOICE[c['who']]}.", AUDIO.format(amb=sc["amb"])] if x)
 
 
@@ -146,8 +146,8 @@ def main():
           f"**File Muse đặt tên:** `bd1288-tap1-1..{n}.mp4` · **Giọng:** Anh Tư giọng Bắc, tự nhiên, hài nhẹ; vua Trần trầm, "
           "chậm; sứ Nguyên lạnh, trang trọng; dẫn chuyện giọng Bắc trầm.", "",
           "## Sửa gì so với bản v3", "",
-          "1. **Mỗi clip một người nói, một câu ngắn (7 đến 16 chữ).** Bản v3 dồn 30 đến 40 chữ vào một clip (clip 3 đếm đủ 6 món, "
-          "clip 4, clip 6 đọc cả thư) nên Muse nói vội, câu bị cắt hoặc nhảy giọng. Giờ câu dài được tách thành nhiều clip.",
+          "1. **Mỗi clip một người nói, lời lấp gần kín 10 giây** (khoảng 20 đến 24 chữ, nói từ giây 0,4 đến 9,2, nhịp vừa phải, khoảng 2,5 chữ/giây). "
+          "Bản v3 dồn 30 đến 40 chữ vào một clip nên Muse nói vội và nhảy giọng; bản trước của em lại quá ngắn, trống 2 đến 3 giây mỗi clip. Giờ ở giữa hai cái đó.",
           "2. **Ai nói lời người nấy:** sứ tự đọc chiếu và thư, vua tự trả lời (quay từ phía sau), Anh Tư chỉ pha trò. Đối đáp thì "
           "mỗi người một clip liền nhau, chuyển nhẹ 0,3 giây.",
           "3. **Khóa bối cảnh theo cảnh (A đến F):** các clip cùng cảnh dùng y nguyên đoạn `SCENE …` và chung một ảnh khung đầu.",
