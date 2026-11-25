@@ -1,0 +1,29 @@
+# Dựng: python3 ../tools/tiktok.py bd1288-tap3.plan.txt bd1288-tap3.mp4  (ra bd1288-tap3-youtube.mp4 và bd1288-tap3-tiktok.mp4)
+hook: POV: Đi bắt tướng / tướng xin khất / ba hôm
+end: Follow để xem / Biển trả lương bằng gạo →
+nhan: AI tái hiện · lời thoại hư cấu
+end_giay: 1.6
+chuyen: fade 0.4
+
+clip: bd1288-tap3-1.mp4 | Vân Đồn · tháng 12/1287 | tiktok=0-9.3
+clip: bd1288-tap3-2.mp4 |  | tiktok=bo
+clip: bd1288-tap3-3.mp4 |  | tiktok=0.3-9.4
+clip: bd1288-tap3-4.mp4 |  | tiktok=bo
+clip: bd1288-tap3-5.mp4 |  | tiktok=0.4-9.3
+clip: bd1288-tap3-6.mp4 |  | tiktok=bo
+clip: bd1288-tap3-7.mp4 |  | tiktok=0.7-10 | chuyen=fadeblack:0.8
+
+sub: 1 | 0.5-4.6 | Tháng chạp năm 1287. / Hàng trăm thuyền giặc / vượt biển vào Vân Đồn.
+sub: 1 | 5.4-9.2 | Thuyền nào cũng đi qua… / không thuyền nào chào em.
+sub: 2 | 0.5-4.4 | Giặc lọt qua Vân Đồn. / Xiềng Khánh Dư, / giải về kinh.
+sub: 2 | 5.2-9.2 | Em đi bắt tướng… / dây em cầm, / tướng thì đằng kia.
+sub: 3 | 0.5-5.0 | Trần Khánh Dư: / Xử theo quân pháp, / tôi xin chịu tội. / Nhưng xin khất ba hôm / để lập công.
+sub: 3 | 5.8-9.2 | Em cầm dây đứng đây… / không biết siết hay chờ.
+sub: 4 | 0.5-4.8 | Trần Khánh Dư: / Sau thuyền chiến / là thuyền lương. / Không quân giỏi hộ tống. / Đánh tất phá được.
+sub: 4 | 5.6-9.2 | Dễ thế… / sao ông không nói sớm / ba hôm?
+sub: 5 | 0.6-4.4 | Một hôm… / hai hôm… / ba hôm.
+sub: 5 | 5.4-9.2 | Ba hôm không thấy / thuyền lương… / thì dây này / để trói ai?
+sub: 6 | 0.5-4.4 | Trần Khánh Dư: / Gom quân còn lại. / Phục từ Vân Đồn / tới Lục Thủy.
+sub: 6 | 5.2-9.0 | Hết cầm dây… / giờ em cầm đá.
+sub: 7 | 0.9-4.4 | Ba hôm đó… / cả Vân Đồn cùng chờ.
+sub: 7 | 5.0-9.6 | Ba hôm nữa ông ấy / không về chịu tội… / thì em về chịu thay à?
