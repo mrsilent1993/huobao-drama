@@ -83,8 +83,8 @@ CLIPS = [
               "vertical 9:16."),
          vid=(f"{FACE}. 0-5s: Slow push-in on Anh Tư standing in a small boat on the vast calm river at sunrise, karsts and "
               "golden mist behind; the score drops to a single bamboo flute. He looks at the camera and says quietly: "
-              "\"Mười sáu việc lạ.\" 5-10s: He dips his oar; the drums return softly: \"Mai em kể việc đầu tiên.\""),
-         subs=[(0.8, 4.6, "Mười sáu việc lạ."), (5.0, 8.2, "Mai em kể / việc đầu tiên.")]),
+              "\"Việc lạ... còn nhiều lắm.\" 5-10s: He dips his oar; the drums return softly: \"Mai em kể việc đầu tiên.\""),
+         subs=[(0.8, 4.6, "Việc lạ... / còn nhiều lắm."), (5.0, 8.2, "Mai em kể / việc đầu tiên.")]),
 ]
 
 TAGS = "#bachdang1288 #tranhungdao #nhatran #bachdang #anhtu #povlichsu #lichsuvietnam #xuhuong #fyp"
