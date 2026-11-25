@@ -7,14 +7,17 @@ nhan: AI tái hiện · có chi tiết truyền thuyết
 clip: gt-bd1288-1.mp4 | Bạch Đằng 1288 · 16 tập
 clip: gt-bd1288-2.mp4 |  | chuyen=cat
 clip: gt-bd1288-3.mp4 |  | chuyen=cat
-clip: gt-bd1288-4.mp4 |  | chuyen=fadeblack:0.5
+clip: gt-bd1288-4.mp4 |  | chuyen=cat
+clip: gt-bd1288-5.mp4 |  | chuyen=fadeblack:0.5
 
-sub: 1 | 0.4-4.8 | Lên trời, / ta cũng đuổi theo!
-sub: 1 | 5.0-9.4 | Ông ấy chưa biết...
-sub: 2 | 0.3-1.8 | Cho ta ba hôm.
-sub: 2 | 1.8-4.9 | Ba hôm... / để làm gì ạ?
-sub: 2 | 5.0-9.6 | Gạo ở đâu... / trôi vào nhiều thế này?
-sub: 3 | 0.3-4.8 | Nước thơm thế này... / tắm cho ai ạ?
-sub: 3 | 5.0-9.6 | Ông ấy... / lặn từ nãy đến giờ?
-sub: 4 | 0.8-4.6 | Tất cả trông vào... / một buổi sáng.
-sub: 4 | 5.0-8.2 | Mười sáu việc lạ. / Mai em kể việc đầu tiên.
+sub: 1 | 0.6-5.6 | Cuối năm 1287. / Quân Nguyên sang lần thứ ba.
+sub: 1 | 6.2-9.6 | Lên trời, / ta cũng đuổi theo!
+sub: 2 | 0.4-4.6 | Ông ấy chưa biết...
+sub: 2 | 5.0-6.8 | Cho ta ba hôm.
+sub: 2 | 6.8-9.6 | Ba hôm... / để làm gì ạ?
+sub: 3 | 0.4-4.8 | Gạo ở đâu... / trôi vào nhiều thế này?
+sub: 3 | 5.0-9.6 | Nước thơm thế này... / tắm cho ai ạ?
+sub: 4 | 0.4-4.6 | Ông ấy... / lặn từ nãy đến giờ?
+sub: 4 | 5.2-9.6 | Tất cả trông vào... / một buổi sáng.
+sub: 5 | 0.8-4.6 | Mười sáu việc lạ.
+sub: 5 | 5.0-8.2 | Mai em kể / việc đầu tiên.

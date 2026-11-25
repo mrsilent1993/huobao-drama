@@ -34,7 +34,7 @@ Cập nhật 21/11/2026. Muse tạo tiếng riêng cho từng clip, nên cùng m
 
 | Nhân vật | Từ khóa trong prompt | Mô tả giọng |
 |---|---|---|
-| **Anh Tư** | `Anh Tư` | a bright, slightly husky male voice around 30, natural and conversational, dry humor, never exaggerated or shouting, the SAME voice in every clip |
+| **Anh Tư** | `Anh Tư` | a bright, slightly husky male voice around 30 with a natural Central Vietnamese (Huế) accent in every episode whatever the setting, natural and conversational, dry humor, never exaggerated or shouting, the SAME voice in every clip |
 | **Người dẫn chuyện** | `narrator` | a calm, deep, slow male baritone, documentary style, warm and serious, the SAME narrator voice in every video of the channel |
 | Viên chỉ huy | `officer` | a gruff, clipped male voice in his 40s, short commands, clearly different from Anh Tư's voice |
 | Sứ giả, người đưa tin | `messenger`, `envoy` | a formal, crisp male voice, slightly breathless |
@@ -45,6 +45,8 @@ Cập nhật 21/11/2026. Muse tạo tiếng riêng cho từng clip, nên cùng m
 | Nguyễn Nhạc | `Nguyễn Nhạc` | a jovial, round, booming male voice in his late 30s, unhurried |
 | Ngô Quyền | `Ngô Quyền` | a low, steady, authoritative male voice around 40, few words, never shouting |
 | Trần Thủ Độ | `Thái sư` | an old, dry, very calm male voice in his 60s, slow and unshakeable |
+
+**Đổi từ 25/11/2026 (anh duyệt):** Anh Tư **luôn nói giọng miền Trung (Huế)** ở mọi tập, kể cả bối cảnh miền Bắc; các nhân vật khác vẫn theo vùng của tập. Mỗi clip đính kèm ảnh tham chiếu `anh_tu_ref.png` để giữ một khuôn mặt.
 
 **Đổi từ 21/11/2026:** giọng Anh Tư bỏ "quick and cheerful, a little cheeky", thay bằng "natural and conversational, dry humor, never exaggerated", cho hợp quy tắc diễn xuất tự nhiên.
 

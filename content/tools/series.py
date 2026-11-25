@@ -28,8 +28,9 @@ DRAGON_SPEC = ("Any dragon shown is in Lý dynasty style: a slender, sinuous, sn
 # từng clip nên dễ đổi giọng). Khóa = từ khóa tìm trong prompt clip; giá trị = (tên hiển thị, mô tả giọng).
 # Mô tả chỉ nói âm sắc, tuổi, nhịp nói; vùng miền do ACCENT / khóa giong quyết định.
 VOICES = [
-    ("Anh Tư", ("Anh Tư", "a bright, slightly husky male voice around 30, natural and conversational, dry humor, "
-                "never exaggerated or shouting, the SAME voice in every clip")),
+    ("Anh Tư", ("Anh Tư", "a bright, slightly husky male voice around 30 with a natural Central Vietnamese (Huế) "
+                "accent in every episode whatever the setting, natural and conversational, dry humor, never exaggerated or "
+                "shouting, the SAME voice in every clip")),
     ("narrator", ("người dẫn chuyện", "a calm, deep, slow male baritone, documentary style, warm and serious, the SAME "
                   "narrator voice in every video of the channel")),
     ("Anh Tư's mother", ("mẹ Anh Tư", "a sharp, quick-tongued woman's voice in her 50s, slightly raspy")),
