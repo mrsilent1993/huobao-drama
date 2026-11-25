@@ -37,13 +37,13 @@ REF_PROMPT = ("Vertical 9:16 character reference portrait, head and shoulders, f
               "a coarse dark-brown cotton tunic, calm neutral expression (not smiling), soft overcast daylight, plain "
               "blurred river background, photorealistic historical film photography, no text.")
 
-HOOK = "Năm 1288 / 16 việc lạ / không ai giải thích"
+HOOK = "Năm 1288 / 10 việc lạ / không ai giải thích"
 END = "Mai trả lời câu đầu tiên / Follow để xem tập 1 →"
 NHAN = "AI tái hiện · có chi tiết truyền thuyết"
 
 # Kiểu trailer ÚP MỞ, cảnh hùng vĩ, nhạc nền hoành tráng: mỗi cảnh chỉ hé MỘT việc lạ, cắt trước lời giải.
 CLIPS = [
-    dict(name="Hạm đội vào cửa sông", label="Bạch Đằng 1288 · 16 tập",
+    dict(name="Hạm đội vào cửa sông", label="Bạch Đằng 1288 · 10 tập",
          img=("Epic aerial shot at sunrise over a vast misty estuary between towering limestone karst islands, hundreds of "
               "large wooden Chinese-style junks with matting sails sailing in a long formation into a wide brown river mouth, "
               "golden light and sun rays through the mist, realistic, vertical 9:16."),
@@ -106,10 +106,10 @@ CLIPS = [
 
 TAGS = "#bachdang1288 #tranhungdao #nhatran #bachdang #anhtu #povlichsu #lichsuvietnam #xuhuong #fyp"
 CAPTION = ("Năm 1288, một người lính bị giao toàn việc lạ: đi bắt tướng thì tướng xin \"cho ba hôm\", ra biển thì gạo trôi vào "
-           "bờ, đun cả nồi nước thơm mà không biết tắm cho ai… 🤔 16 tập, mỗi ngày một tập. Bạn đoán \"ba hôm\" để làm gì? 👇")
-PIN = ("Đáp án nằm trong 16 tập, theo đúng thứ tự từ cuối năm 1287 đến trận Bạch Đằng 📅 Ai đoán đúng \"ba hôm\" để làm gì "
+           "bờ, đun cả nồi nước thơm mà không biết tắm cho ai… 🤔 10 tập, mỗi ngày một tập. Bạn đoán \"ba hôm\" để làm gì? 👇")
+PIN = ("Đáp án nằm trong 10 tập, theo đúng thứ tự từ cuối năm 1287 đến trận Bạch Đằng 📅 Ai đoán đúng \"ba hôm\" để làm gì "
        "trước khi tập đó lên sóng thì comment nhé! Follow để không lỡ tập nào.")
-YT_TITLE = "Năm 1288: 16 việc lạ không ai giải thích | Bạch Đằng 1288 #Shorts"
+YT_TITLE = "Năm 1288: 10 việc lạ không ai giải thích | Bạch Đằng 1288 #Shorts"
 YT_TAGS = ("bạch đằng 1288, trần hưng đạo, nhà trần, kháng chiến chống nguyên, bạch đằng, lịch sử việt nam, pov lịch sử, "
            "anh tư, đại việt, shorts")
 
@@ -136,9 +136,9 @@ def main():
           "không ra nhạc, em ghép nhạc khi dựng (tạo nhạc riêng bằng Gemini Lyria hoặc dùng thư viện nhạc của nền tảng), không "
           "dùng nhạc có bản quyền của người khác.", "",
           "**Kiểu úp mở:** mỗi cảnh 5 giây chỉ hé một việc lạ, **không cảnh nào nói lời giải**. Lời giải nằm trong các tập: "
-          "lời thách \"lên trời cũng đuổi\" (tập 13), \"cho ta ba hôm\" (tập 4), gạo trôi vào bờ (tập 5), nồi nước thơm (tập 1), "
-          "người lặn mãi không lên (tập 11, truyền thuyết Yết Kiêu: nhãn video ghi \"có chi tiết truyền thuyết\"), bãi cọc "
-          "(tập 8, 12). Nếu Muse khó ra 2 cảnh trong một clip, tạo 12 clip 5 giây (`gt-bd1288-1a`, `1b`…) rồi gửi em ghép.", ""]
+          "lời thách \"lên trời cũng đuổi\" (tập 9), \"cho ta ba hôm\" (tập 3), gạo trôi vào bờ (tập 4), nồi nước thơm (tập 1), "
+          "người lặn mãi không lên (tập 7, truyền thuyết Yết Kiêu: nhãn video ghi \"có chi tiết truyền thuyết\"), bãi cọc "
+          "(tập 6, 8). Nếu Muse khó ra 2 cảnh trong một clip, tạo 12 clip 5 giây (`gt-bd1288-1a`, `1b`…) rồi gửi em ghép.", ""]
     for i, c in enumerate(CLIPS, 1):
         f = f"gt-bd1288-{i}.mp4"
         md += [f"## Clip {i}: {c['name']}", f"File Muse đặt tên: `{f}`", "",
@@ -151,7 +151,7 @@ def main():
     yt_hash = " ".join(t for t in TAGS.split() if t not in ("#fyp", "#xuhuong"))
     md += ["## Đăng TikTok", "",
            "**Hook** (chữ to ở giây đầu, đã có trong video; dùng làm chữ trên ảnh bìa):", "```", hook_line, "```", "",
-           "**Tiêu đề:**", "```", "Bạch Đằng 1288 qua mắt một người lính: 16 tập, mỗi ngày một tập", "```", "",
+           "**Tiêu đề:**", "```", "Bạch Đằng 1288 qua mắt một người lính: 10 tập, mỗi ngày một tập", "```", "",
            "**Mô tả và hashtag:**", "```", CAPTION, TAGS, "```", "",
            "**Bình luận ghim:**", "```", PIN, "```", "",
            "**Không trả lời đáp án trong bình luận** cho đến khi tập đó lên sóng; chỉ thả tim các bình luận đoán.", "",
@@ -159,7 +159,7 @@ def main():
            "## Đăng YouTube Shorts", "",
            "**Tiêu đề:**", "```", YT_TITLE, "```", "",
            "**Mô tả:**", "```", CAPTION, "",
-           "Video do AI tạo, dựa trên sử liệu; nhân vật Anh Tư và lời thoại là hư cấu. Đăng ký kênh để xem đủ 16 tập.", "",
+           "Video do AI tạo, dựa trên sử liệu; nhân vật Anh Tư và lời thoại là hư cấu. Đăng ký kênh để xem đủ 10 tập.", "",
            f"#Shorts {yt_hash}", "```", "",
            "**Thẻ:**", "```", YT_TAGS, "```", "",
            "**Bình luận ghim:**", "```", PIN.replace("Follow", "Đăng ký"), "```", "",

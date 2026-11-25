@@ -16,7 +16,7 @@ Vertical 9:16 character reference portrait, head and shoulders, front view, of a
 
 **Nhạc nền:** prompt yêu cầu nhạc giao hưởng hoành tráng tự sáng tác (trống trận, dây trầm, kèn, sáo trúc). Nếu Muse không ra nhạc, em ghép nhạc khi dựng (tạo nhạc riêng bằng Gemini Lyria hoặc dùng thư viện nhạc của nền tảng), không dùng nhạc có bản quyền của người khác.
 
-**Kiểu úp mở:** mỗi cảnh 5 giây chỉ hé một việc lạ, **không cảnh nào nói lời giải**. Lời giải nằm trong các tập: lời thách "lên trời cũng đuổi" (tập 13), "cho ta ba hôm" (tập 4), gạo trôi vào bờ (tập 5), nồi nước thơm (tập 1), người lặn mãi không lên (tập 11, truyền thuyết Yết Kiêu: nhãn video ghi "có chi tiết truyền thuyết"), bãi cọc (tập 8, 12). Nếu Muse khó ra 2 cảnh trong một clip, tạo 12 clip 5 giây (`gt-bd1288-1a`, `1b`…) rồi gửi em ghép.
+**Kiểu úp mở:** mỗi cảnh 5 giây chỉ hé một việc lạ, **không cảnh nào nói lời giải**. Lời giải nằm trong các tập: lời thách "lên trời cũng đuổi" (tập 9), "cho ta ba hôm" (tập 3), gạo trôi vào bờ (tập 4), nồi nước thơm (tập 1), người lặn mãi không lên (tập 7, truyền thuyết Yết Kiêu: nhãn video ghi "có chi tiết truyền thuyết"), bãi cọc (tập 6, 8). Nếu Muse khó ra 2 cảnh trong một clip, tạo 12 clip 5 giây (`gt-bd1288-1a`, `1b`…) rồi gửi em ghép.
 
 ## Clip 1: Hạm đội vào cửa sông
 File Muse đặt tên: `gt-bd1288-1.mp4`
@@ -100,23 +100,23 @@ Epic cinematic trailer shot, live-action photorealistic, grand sweeping landscap
 
 **Hook** (chữ to ở giây đầu, đã có trong video; dùng làm chữ trên ảnh bìa):
 ```
-Năm 1288 16 việc lạ không ai giải thích
+Năm 1288 10 việc lạ không ai giải thích
 ```
 
 **Tiêu đề:**
 ```
-Bạch Đằng 1288 qua mắt một người lính: 16 tập, mỗi ngày một tập
+Bạch Đằng 1288 qua mắt một người lính: 10 tập, mỗi ngày một tập
 ```
 
 **Mô tả và hashtag:**
 ```
-Năm 1288, một người lính bị giao toàn việc lạ: đi bắt tướng thì tướng xin "cho ba hôm", ra biển thì gạo trôi vào bờ, đun cả nồi nước thơm mà không biết tắm cho ai… 🤔 16 tập, mỗi ngày một tập. Bạn đoán "ba hôm" để làm gì? 👇
+Năm 1288, một người lính bị giao toàn việc lạ: đi bắt tướng thì tướng xin "cho ba hôm", ra biển thì gạo trôi vào bờ, đun cả nồi nước thơm mà không biết tắm cho ai… 🤔 10 tập, mỗi ngày một tập. Bạn đoán "ba hôm" để làm gì? 👇
 #bachdang1288 #tranhungdao #nhatran #bachdang #anhtu #povlichsu #lichsuvietnam #xuhuong #fyp
 ```
 
 **Bình luận ghim:**
 ```
-Đáp án nằm trong 16 tập, theo đúng thứ tự từ cuối năm 1287 đến trận Bạch Đằng 📅 Ai đoán đúng "ba hôm" để làm gì trước khi tập đó lên sóng thì comment nhé! Follow để không lỡ tập nào.
+Đáp án nằm trong 10 tập, theo đúng thứ tự từ cuối năm 1287 đến trận Bạch Đằng 📅 Ai đoán đúng "ba hôm" để làm gì trước khi tập đó lên sóng thì comment nhé! Follow để không lỡ tập nào.
 ```
 
 **Không trả lời đáp án trong bình luận** cho đến khi tập đó lên sóng; chỉ thả tim các bình luận đoán.
@@ -127,14 +127,14 @@ Năm 1288, một người lính bị giao toàn việc lạ: đi bắt tướng 
 
 **Tiêu đề:**
 ```
-Năm 1288: 16 việc lạ không ai giải thích | Bạch Đằng 1288 #Shorts
+Năm 1288: 10 việc lạ không ai giải thích | Bạch Đằng 1288 #Shorts
 ```
 
 **Mô tả:**
 ```
-Năm 1288, một người lính bị giao toàn việc lạ: đi bắt tướng thì tướng xin "cho ba hôm", ra biển thì gạo trôi vào bờ, đun cả nồi nước thơm mà không biết tắm cho ai… 🤔 16 tập, mỗi ngày một tập. Bạn đoán "ba hôm" để làm gì? 👇
+Năm 1288, một người lính bị giao toàn việc lạ: đi bắt tướng thì tướng xin "cho ba hôm", ra biển thì gạo trôi vào bờ, đun cả nồi nước thơm mà không biết tắm cho ai… 🤔 10 tập, mỗi ngày một tập. Bạn đoán "ba hôm" để làm gì? 👇
 
-Video do AI tạo, dựa trên sử liệu; nhân vật Anh Tư và lời thoại là hư cấu. Đăng ký kênh để xem đủ 16 tập.
+Video do AI tạo, dựa trên sử liệu; nhân vật Anh Tư và lời thoại là hư cấu. Đăng ký kênh để xem đủ 10 tập.
 
 #Shorts #bachdang1288 #tranhungdao #nhatran #bachdang #anhtu #povlichsu #lichsuvietnam
 ```
@@ -146,7 +146,7 @@ bạch đằng 1288, trần hưng đạo, nhà trần, kháng chiến chống ng
 
 **Bình luận ghim:**
 ```
-Đáp án nằm trong 16 tập, theo đúng thứ tự từ cuối năm 1287 đến trận Bạch Đằng 📅 Ai đoán đúng "ba hôm" để làm gì trước khi tập đó lên sóng thì comment nhé! Đăng ký để không lỡ tập nào.
+Đáp án nằm trong 10 tập, theo đúng thứ tự từ cuối năm 1287 đến trận Bạch Đằng 📅 Ai đoán đúng "ba hôm" để làm gì trước khi tập đó lên sóng thì comment nhé! Đăng ký để không lỡ tập nào.
 ```
 
 Tạo **danh sách phát "Bạch Đằng 1288"**, đặt video này đầu tiên. Mục "Nội dung bị thay đổi" chọn **Có**.
@@ -159,12 +159,12 @@ Dùng mô tả TikTok, bỏ `#fyp #xuhuong`; bật "Thông tin về AI". Ghim b�
 
 ```
 # Dựng: python3 ../tools/tiktok.py gioi-thieu-bach-dang-1288.plan.txt gioi-thieu-bach-dang-1288.mp4  (một bản dùng chung TikTok, YouTube, Facebook)
-hook: Năm 1288 / 16 việc lạ / không ai giải thích
+hook: Năm 1288 / 10 việc lạ / không ai giải thích
 end: Mai trả lời câu đầu tiên / Follow để xem tập 1 →
 end_giay: 1.6
 nhan: AI tái hiện · có chi tiết truyền thuyết
 
-clip: gt-bd1288-1.mp4 | Bạch Đằng 1288 · 16 tập
+clip: gt-bd1288-1.mp4 | Bạch Đằng 1288 · 10 tập
 clip: gt-bd1288-2.mp4 |  | chuyen=cat
 clip: gt-bd1288-3.mp4 |  | chuyen=cat
 clip: gt-bd1288-4.mp4 |  | chuyen=cat
