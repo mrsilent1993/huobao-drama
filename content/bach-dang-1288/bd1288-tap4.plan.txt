@@ -1,0 +1,32 @@
+# Dựng: python3 ../tools/tiktok.py bd1288-tap4.plan.txt bd1288-tap4.mp4  (một bản dùng chung TikTok, YouTube, Facebook)
+hook: POV: Bạn mai phục / cả đoàn thuyền gạo / của giặc
+end: Follow để xem / Kinh thành không một nồi cơm →
+nhan: AI tái hiện · lời thoại hư cấu
+end_giay: 1.6
+chuyen: fade 0.3
+
+clip: bd1288-tap4-1.mp4 | Vân Đồn · đầu năm 1288
+clip: bd1288-tap4-2.mp4 | 
+clip: bd1288-tap4-3.mp4 | 
+clip: bd1288-tap4-4.mp4 | 
+clip: bd1288-tap4-5.mp4 | 
+clip: bd1288-tap4-6.mp4 |  | chuyen=fadewhite:0.3
+clip: bd1288-tap4-7.mp4 | 
+clip: bd1288-tap4-8.mp4 | 
+clip: bd1288-tap4-9.mp4 | 
+clip: bd1288-tap4-10.mp4 | 
+clip: bd1288-tap4-11.mp4 |  | chuyen=fadeblack:0.6
+clip: bd1288-tap4-12.mp4 | 
+
+sub: 1 | 0.8-9.2 | Đầu năm 1288. / Hạm đội Nguyên đi trước, / bỏ lại sau lưng / cả đoàn thuyền lương.
+sub: 2 | 0.4-9.2 | Trần Khánh Dư: / Giấu thuyền vào khe đá, / phủ cành lên. / Không ai được đốt lửa, / không ai được lên tiếng.
+sub: 3 | 0.4-9.2 | Cả đạo quân phủ lá / ngồi im từ sáng… / con cua nó bò qua, / tưởng em là hòn đá.
+sub: 4 | 0.8-9.2 | Thuyền chở nặng, / đáy sâu, đi chậm như rùa… / từng chiếc, từng chiếc / lọt vào giữa luồng hẹp.
+sub: 5 | 0.4-9.2 | Trần Khánh Dư: / Đầu đoàn đã qua eo đá. / Chặn đầu! Chặn đuôi! / Không để chiếc nào / quay ra. Toàn quân… đánh!
+sub: 6 | 0.8-9.2 | Hàng trăm thuyền nhẹ / từ khắp các khe đảo / lao ra như tên bắn, / khóa chặt hai đầu luồng.
+sub: 7 | 0.4-9.2 | Chèo nhanh lên các bác! / Thuyền họ to như đình… / mà quay đầu chậm / như con trâu già.
+sub: 8 | 0.8-9.2 | Tên lửa trút xuống buồm. / Móc sắt quăng sang mạn. / Quân Trần áp sát, / nhảy lên / từng thuyền lương.
+sub: 9 | 0.4-9.2 | Lính họ chạy hết, / chỉ còn gạo / ở lại tiếp em. / Gạo thì không chạy… / mà nặng hơn lính.
+sub: 10 | 0.8-9.2 | Tướng Trương Văn Hổ / đổ lương xuống biển, / bỏ cả đoàn thuyền, / chạy một mạch về Hải Nam.
+sub: 11 | 0.8-9.2 | Quân Trần thu được / rất nhiều lương / và khí giới. / Ở Thăng Long, quân Nguyên / chờ mãi… không thấy gạo.
+sub: 12 | 0.4-9.2 | Năm nay biển… / trả lương bằng gạo. / Bên kia đang chờ cơm… / mà cơm đang trên lưng em.
