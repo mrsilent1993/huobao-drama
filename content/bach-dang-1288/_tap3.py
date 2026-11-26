@@ -96,7 +96,7 @@ CLIPS = [
          line=(0.4, 8.8, "Mày cầm xích. / Ông ấy tự đi. / Tướng nhà Trần làm sai / thì tự chịu tội, / không cần ai lôi."),
          cam="back to the envoy facing the camera, unimpressed; Anh Tư again seen ONLY from behind in the foreground"),
     dict(scene="C", who="tu",
-         line=(0.4, 9.2, "Thưa ngài… em trói / nhẹ thôi ạ. Ngài đi trước, / em theo sau… người ta / tưởng em là lính hầu."),
+         line=(0.4, 9.2, "Thưa ngài… / trói nhẹ thôi ạ. / Ngài đi trước, / em theo sau… / người ta tưởng / em là lính hầu."),
          cam="Anh Tư alone in frame beside the tent, bowing slightly and holding out the rope politely, a little awkward; the general is out of frame"),
     dict(scene="C", who="kd",
          line=(0.4, 9.3, "Theo quân pháp, / ta xin chịu tội. / Nhưng xin khất ba hôm / lập công, rồi chịu tội / cũng chưa muộn."),

@@ -23,7 +23,7 @@ sub: 2 | 0.4-9.2 | Hàng trăm thuyền giặc / đi qua… không ai chào em. 
 sub: 3 | 0.4-9.0 | Trung sứ: / Thượng hoàng có lệnh: / Khánh Dư để giặc / lọt Vân Đồn. Xiềng lại, / giải về kinh hỏi tội!
 sub: 4 | 0.4-9.2 | Dạ… đi bắt một ông tướng / bằng sợi dây này ạ? / Ông ấy cầm gươm, / em cầm dây… / kèo này hơi lệch.
 sub: 5 | 0.4-8.8 | Trung sứ: / Mày cầm xích. / Ông ấy tự đi. / Tướng nhà Trần làm sai / thì tự chịu tội, / không cần ai lôi.
-sub: 6 | 0.4-9.2 | Thưa ngài… em trói / nhẹ thôi ạ. Ngài đi trước, / em theo sau… người ta / tưởng em là lính hầu.
+sub: 6 | 0.4-9.2 | Thưa ngài… / trói nhẹ thôi ạ. / Ngài đi trước, / em theo sau… / người ta tưởng / em là lính hầu.
 sub: 7 | 0.4-9.3 | Trần Khánh Dư: / Theo quân pháp, / ta xin chịu tội. / Nhưng xin khất ba hôm / lập công, rồi chịu tội / cũng chưa muộn.
 sub: 8 | 0.4-9.2 | Trần Khánh Dư: / Thuyền chiến giặc đã qua, / ắt thuyền lương nặng nề / theo sau, / không quân giỏi hộ tống. / Đánh tất phá được.
 sub: 9 | 0.4-9.2 | Em đi bắt người… / mà người hẹn em ba hôm. / Đi đòi nợ / còn chưa ai được khất / kiểu này.
