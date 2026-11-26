@@ -181,7 +181,7 @@ Tài liệu nguồn: `../nghien-cuu/bach-dang-1288.md`. Mức nguồn: **A** = s
 
 ## Quy tắc chung của loạt
 - Trần Hưng Đạo, hai vua Trần, các tướng có thật chỉ quay từ phía sau hoặc từ xa; ai nói thì phụ đề ghi tên ở đầu và có giọng riêng.
-- Anh Tư: một mặt (ảnh mẫu `anh_tu_ref.png`), một giọng Huế; vui vẻ bình thường, tự nhiên như các clip đầu tiên (hài ở câu nói, cười nhẹ tối đa một lần mỗi clip); người xung quanh giữ nghiêm. Lúc anh hùng nói câu lịch sử thì Anh Tư nghe nghiêm túc, đến lượt mình mới pha trò.
+- Anh Tư: một mặt (ảnh mẫu `anh_tu_ref.png`), một giọng Bắc (`ANH_TU_VOICE`); vui vẻ bình thường, tự nhiên như các clip đầu tiên (hài ở câu nói, cười nhẹ tối đa một lần mỗi clip); người xung quanh giữ nghiêm. Lúc anh hùng nói câu lịch sử thì Anh Tư nghe nghiêm túc, đến lượt mình mới pha trò.
 - Câu gạt ở cảnh 1 và câu chốt ở cảnh 7 khác nhau ở cả 10 video. Không dùng câu "các bác ghi tên em vào sử nhé" (chỉ dành cho bản Bạch Đằng 938).
 - Không cảnh chết, không đuối nước: trận đánh chỉ dựng thuyền mắc cọc, quân Nguyên bỏ chạy hoặc bị bắt. Không cờ, không chữ đọc được, không trẻ em cận cảnh.
 - Cọc 1288: cả thân cây lim, **không bịt sắt** (khác 938).

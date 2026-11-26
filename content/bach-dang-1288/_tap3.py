@@ -3,22 +3,19 @@
 Chạy: python3 _tap3.py → bd1288-tap3-cho-ta-ba-hom.md + bd1288-tap3.plan.txt
 """
 import os
+import sys
+
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "tools"))
+from series import ANH_TU_FACE, ANH_TU_VOICE  # noqa: E402
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 
-FACE = ("Anh Tư: the SAME man as in the attached reference image anh_tu_ref.png (same face, same age, same scar, same "
-        "teeth, same hair, same clothes): a lean Vietnamese man around 30 with deeply tanned skin, hair in a small topknot "
-        "above a wide faded brown cloth headband wrapped across his forehead, a thin mustache and short stubble, "
-        "black-lacquered teeth, a thin scar near his eyebrow, a coarse dark-brown long-sleeved cotton tunic tied with a "
-        "brown cloth sash, loose black trousers, barefoot; he acts naturally like a real person, relaxed and good-humored, "
-        "with small natural reactions (a glance, a sigh, a raised eyebrow, a faint smile); no grinning, no winking, no "
-        "exaggerated faces")
+FACE = ANH_TU_FACE
 BASE = ("Cinematic live-action, photorealistic, natural light, film grain, vertical 9:16. Vietnam, December 1287, Trần "
         "dynasty, Vân Đồn coast: soldiers in brown cotton tunics, hair in topknots, black-lacquered teeth. No modern "
         "objects, no on-screen text, no subtitles, no visible writing anywhere, ABSOLUTELY NO FLAGS OR BANNERS OF ANY KIND, "
         "no blood, no dead bodies, no children. Light, natural comedic tone like a documentary-style drama: the humor is in what Anh Tư says, not in his face; he smiles at most once, softly. The officials, the general and the envoy stay serious.")
-V_TU = ("Anh Tư = a bright, slightly husky male voice around 30 with a natural Northern Vietnamese (Hà Nội) accent, natural and conversational, gentle dry humor, "
-        "never shouting, the SAME voice in every clip")
+V_TU = "Anh Tư = " + ANH_TU_VOICE
 V_NARR = ("Narrator = a calm, deep, slow male baritone with a Northern accent, documentary style, OFF-SCREEN voice-over: "
           "nobody on screen moves their lips while the narrator speaks")
 V_KD = ("Trần Khánh Dư = a calm, steady male voice in his late 40s, slow and certain, Northern accent, clearly different "

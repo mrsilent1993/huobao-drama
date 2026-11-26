@@ -136,9 +136,9 @@ Gốc từ video Bạch Đằng 938 "Cắm cọc cả buổi sáng" (1,7 triệu
 
 - **Giọng vùng miền:**
   - Mặc định giọng Bắc (Hà Nội): người xem chê giọng Nam trong các trận ở miền Bắc.
-  - Tập ở miền Trung, miền Nam ghi đè bằng khóa `giong`, ví dụ "Central Vietnamese (Bình Định) accent" cho các tập Tây Sơn.
+  - Tập ở miền Trung, miền Nam ghi đè bằng khóa `giong`, ví dụ "Central Vietnamese (Bình Định) accent" cho các tập Tây Sơn. Khóa này chỉ đổi giọng các nhân vật khác; **Anh Tư vẫn giọng Bắc** (`ANH_TU_VOICE`).
 - **Mỗi nhân vật một giọng cố định**, tự chèn vào prompt từng clip (bảng `VOICES` trong `tools/series.py`, chi tiết ở `nghien-cuu/giong-nhan-vat.md`, bản xuất `xuat/TIEU-CHUAN-GIONG-NOI.md`):
-  - **Anh Tư:** nam khoảng 30 tuổi, sáng, hơi khàn, **luôn giọng miền Trung (Huế) ở mọi tập, mọi bối cảnh** (anh duyệt 25/11/2026), nói tự nhiên, hài nhẹ kiểu tỉnh bơ, không gào.
+  - **Anh Tư:** **một giọng duy nhất ở mọi clip, mọi tập, mọi loạt (anh chốt 26/11/2026): giọng Bắc (Hà Nội)**, nam khoảng 30 tuổi, ấm, hơi khàn, giọng trung trầm, nói thong thả, hài nhẹ kiểu tỉnh bơ, không gào. Câu mô tả giọng nằm ở một chỗ duy nhất: `ANH_TU_VOICE` trong `tools/series.py`; mọi tập dán y nguyên câu đó, không viết lại ở từng tập. Thay quy định giọng Huế 25/11.
   - **Người dẫn chuyện:** nam trầm, chậm, kiểu phim tài liệu, giống nhau ở mọi video.
   - **Viên chỉ huy:** cộc, ngắn gọn, khác hẳn giọng Anh Tư.
   - **Nhân vật riêng của tập:** khai báo bằng khóa `voices={"Tên": "mô tả"}`.

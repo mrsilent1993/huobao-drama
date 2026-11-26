@@ -4,15 +4,14 @@ Sửa ở đây rồi chạy: python3 _gioi_thieu.py
 Sinh ra gioi-thieu-bach-dang-1288.md (prompt dán thẳng + thông tin đăng) và .plan.txt (dựng). Một bản dùng chung mọi nền tảng.
 """
 import os
+import sys
+
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "tools"))
+from series import ANH_TU_FACE, ANH_TU_VOICE  # noqa: E402
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 
-FACE = ("Anh Tư: the SAME man as in the attached reference image anh_tu_ref.png (same face, same age, same scar, same "
-        "teeth, same hair): a Vietnamese man around 30 with deeply tanned skin, hair in a topknot with a faded brown cloth "
-        "band, black-lacquered teeth, a thin scar across his left eyebrow and one chipped front tooth, a coarse dark-brown "
-        "cotton tunic; he acts naturally and understated, like a real person, not a performer")
-ANH_TU_VOICE = ("Anh Tư's own voice, identical in every clip of every episode: a bright, slightly husky male voice around "
-                "30 with a natural Central Vietnamese (Huế) accent, natural and conversational, dry humor, never shouting")
+FACE = ANH_TU_FACE
 STYLE = ("Epic cinematic trailer shot, live-action photorealistic, grand sweeping landscapes, golden dramatic light, volumetric "
          "mist, wide aerial and crane camera moves, film grain, vertical 9:16. Vietnam, 1287–1288, Trần dynasty, the "
          "Bạch Đằng estuary region: wide brown tidal rivers, towering limestone karst islands and cliffs, mangrove banks, the "
@@ -130,7 +129,7 @@ def main():
           "**Một mặt, một giọng cho Anh Tư:**", "",
           "1. **Tạo ảnh tham chiếu một lần**, lưu thành `anh_tu_ref.png`, rồi **đính kèm ảnh này ở mọi clip** (ảnh khung đầu và "
           "video) trong cả loạt:", "```", REF_PROMPT, "```",
-          "2. **Giọng Anh Tư cố định, giọng miền Trung (Huế):** câu mô tả giọng đã chèn y hệt vào mọi prompt. Nếu Muse có chọn "
+          "2. **Giọng Anh Tư cố định, giọng Bắc (Hà Nội):** câu mô tả giọng đã chèn y hệt vào mọi prompt. Nếu Muse có chọn "
           "giọng, chọn **một giọng duy nhất** cho Anh Tư và dùng lại mãi. Clip nào lệch giọng thì quay lại clip đó.", "",
           "**Nhạc nền:** prompt yêu cầu nhạc giao hưởng hoành tráng tự sáng tác (trống trận, dây trầm, kèn, sáo trúc). Nếu Muse "
           "không ra nhạc, em ghép nhạc khi dựng (tạo nhạc riêng bằng Gemini Lyria hoặc dùng thư viện nhạc của nền tảng), không "

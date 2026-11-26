@@ -5,7 +5,7 @@ thẻ tên địa danh, nhạc dồn lên cao trào, cắt đen đúng lúc gay 
 Sửa ở đây rồi chạy: python3 _trailer_dien_anh.py → trailer-dien-anh-bach-dang-1288.md + .plan.txt
 """
 import os
-from _gioi_thieu import FACE, STYLE, STAKE, REF_PROMPT, TAGS, YT_TAGS
+from _gioi_thieu import ANH_TU_VOICE, FACE, STYLE, STAKE, REF_PROMPT, TAGS, YT_TAGS
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 
@@ -13,8 +13,7 @@ AUDIO = ("Audio: an original epic orchestral trailer score with a low male choir
          "and a lonely Vietnamese bamboo flute motif; it starts almost silent and builds clip by clip to a huge climax; "
          "mixed under the voice so every word stays clear; natural sound (wind, waves, creaking wood, ropes). The narrator "
          "speaks Vietnamese in a deep, grave, slow male baritone like a legend being told, long pauses, never rushed, the "
-         "same narrator voice in every clip. Anh Tư speaks only in the last clip, with his own voice: a bright, slightly "
-         "husky male voice around 30 with a natural Central Vietnamese (Huế) accent, dry, never shouting, lip-synced.")
+         "same narrator voice in every clip. Anh Tư speaks only in the last clip, lip-synced. " + ANH_TU_VOICE + ".")
 SLOW = "Shot like a game cinematic trailer: slow motion, slow dolly and crane moves, deep shadows and god rays. "
 
 HOOK = "Họ đã đến hai lần"

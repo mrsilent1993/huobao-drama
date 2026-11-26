@@ -24,13 +24,25 @@ STAKE_SPEC = ("The stakes are massive: whole ironwood tree trunks about 20 to 30
               "crossbar to press each stake down; never thin sticks, never small hand hammers.")
 DRAGON_SPEC = ("Any dragon shown is in Lý dynasty style: a slender, sinuous, snake-like body in continuous wave-like "
                "loops, a small head with a long curling crest and no horns; never a heavy horned Chinese Qing dragon.")
+# MẶT ANH TƯ: khớp ảnh mẫu content/nhan-vat/anh_tu_ref.png (anh gửi 26/11/2026), dán y nguyên mọi clip.
+ANH_TU_FACE = ("Anh Tư: the SAME man as in the attached reference image anh_tu_ref.png (same face, same age, same scar, same "
+        "teeth, same hair, same clothes): a lean Vietnamese man around 30 with deeply tanned skin, hair in a small topknot "
+        "above a wide faded brown cloth headband wrapped across his forehead, a thin mustache and short stubble, "
+        "black-lacquered teeth, a thin scar near his eyebrow, a coarse dark-brown long-sleeved cotton tunic tied with a "
+        "brown cloth sash, loose black trousers, barefoot; he acts naturally like a real person, relaxed and good-humored, "
+        "with small natural reactions (a glance, a sigh, a raised eyebrow, a faint smile); no grinning, no winking, no "
+        "exaggerated faces")
+# GIỌNG ANH TƯ: MỘT câu duy nhất, dán y nguyên vào mọi clip của mọi tập, mọi loạt (anh chốt 26/11/2026: giọng Bắc).
+# Không sửa riêng ở từng tập; muốn đổi thì đổi ở đây rồi chạy lại các _nguon.py / _tapN.py.
+ANH_TU_VOICE = ("Anh Tư's voice, IDENTICAL in every clip of every episode: the same warm, slightly husky male voice of a man "
+                "around 30, medium-low pitch, a natural Northern Vietnamese (Hà Nội) accent, relaxed conversational pace, "
+                "clear diction, gentle dry humor; never shouting, never high-pitched, never whispery, never a different "
+                "accent, never a different man's voice")
 # Bảng giọng cố định: cùng một nhân vật luôn nhận đúng một mô tả giọng ở mọi clip, mọi tập (Muse tạo tiếng riêng
 # từng clip nên dễ đổi giọng). Khóa = từ khóa tìm trong prompt clip; giá trị = (tên hiển thị, mô tả giọng).
 # Mô tả chỉ nói âm sắc, tuổi, nhịp nói; vùng miền do ACCENT / khóa giong quyết định.
 VOICES = [
-    ("Anh Tư", ("Anh Tư", "a bright, slightly husky male voice around 30 with a natural Central Vietnamese (Huế) "
-                "accent in every episode whatever the setting, natural and conversational, dry humor, never exaggerated or "
-                "shouting, the SAME voice in every clip")),
+    ("Anh Tư", ("Anh Tư", ANH_TU_VOICE)),
     ("narrator", ("người dẫn chuyện", "a calm, deep, slow male baritone, documentary style, warm and serious, the SAME "
                   "narrator voice in every video of the channel")),
     ("Anh Tư's mother", ("mẹ Anh Tư", "a sharp, quick-tongued woman's voice in her 50s, slightly raspy")),
