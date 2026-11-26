@@ -9,13 +9,14 @@ from _tap3 import FACE, V_TU, RULES, AUDIO, SO_RULE, noi, spoken
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 
-BASE = ("Cinematic live-action historical film, photorealistic, natural light, film grain, vertical 9:16. Đại Việt, "
-        "February–March 1288, Thăng Long and the Red River delta countryside: clay-tile and thatched houses, brick lanes, "
-        "rice fields, canals, wooden bridges. Trần people: hair in topknots, black-lacquered teeth, brown or dark cotton "
-        "tunics. Yuan soldiers: leather lamellar armor, round helmets. No modern objects, no on-screen text, no subtitles, "
-        "no legible writing, ABSOLUTELY NO FLAGS OR BANNERS OF ANY KIND, no blood, no gore, no dead bodies, no children. "
-        "Light, natural comedic tone like a documentary-style drama: the humor is in what Anh Tư says, not in his face; "
-        "everyone else stays natural and serious.")
+BASE = ("EPIC cinematic historical film on a grand scale, live-action, photorealistic, sweeping aerial, crane and "
+        "drone shots, thousands of extras, volumetric light through mist and dust, rich film grain, vertical 9:16. Đại "
+        "Việt, February–March 1288, the capital Thăng Long and the vast Red River delta: a great walled city with hundreds "
+        "of clay-tile roofs, curved palace roofs, the wide Red River, endless rice fields, canals and wooden bridges, "
+        "limestone hills on the horizon. Trần people: hair in topknots, black-lacquered teeth, brown or dark cotton "
+        "tunics. Yuan army: leather lamellar armor, round helmets, many horses. No modern objects, no on-screen text, no "
+        "subtitles, no legible writing, ABSOLUTELY NO FLAGS OR BANNERS OF ANY KIND, no blood, no gore, no dead bodies, no "
+        "children in close-up. The humor is in what Anh Tư says, not in his face; everyone else stays natural and serious.")
 V_NARR = ("Narrator = a calm, deep, slow male baritone with a Northern Vietnamese accent, documentary style, OFF-SCREEN "
           "voice-over; nobody on screen moves their lips")
 V_LINH = ("the Yuan soldier = a rough, tired male voice in his 30s speaking Vietnamese with a slight foreign accent, "
@@ -24,83 +25,94 @@ V_CAI = "the squad leader = a clipped, gruff male voice in his 40s, Northern Vie
 V_BA = "the old woman = a sharp, lively elderly woman's voice in her 60s, Northern Vietnamese countryside accent"
 
 SCENES = {
-    "A": dict(name="Phố Thăng Long sáng sớm, dân sơ tán",
-              lock=("SCENE A (keep IDENTICAL in every clip of this scene): a brick lane in Thăng Long at early morning, "
-                    "cold grey mist, clay-tile houses with open wooden doors, a red-lacquered wooden gate far down the lane; "
-                    "families leave in a long quiet line with carrying poles, baskets of rice and ox carts. Anh Tư carries a "
-                    "bamboo carrying pole on his shoulder: a big black cooking pot hangs on one end, a rooster in a bamboo "
+    "A": dict(name="Cả kinh thành Thăng Long sơ tán, sáng sớm",
+              lock=("SCENE A (keep IDENTICAL in every clip of this scene): dawn over the great walled capital of Thăng Long, "
+                    "golden light breaking through cold mist over hundreds of clay-tile roofs and the curved palace roofs; "
+                    "tens of thousands of people leave the city in endless quiet columns through three great wooden city "
+                    "gates, with carrying poles, baskets of rice, ox carts and buffalo; on the wide Red River hundreds of "
+                    "boats loaded with rice sacks drift away downstream. Down in one brick lane near the main gate, Anh Tư "
+                    "walks in the crowd with a bamboo carrying pole: a big black cooking pot on one end, a rooster in a bamboo "
                     "cage on the other."),
-              img=("Cinematic shot of a brick lane in medieval Thăng Long at early morning, cold grey mist, clay-tile houses "
-                   "with open wooden doors, a red-lacquered gate far down the lane, families leaving in a long quiet line "
-                   "with carrying poles, rice baskets and ox carts, {FACE}, carrying a bamboo pole with a big black cooking "
-                   "pot on one end and a rooster in a bamboo cage on the other, realistic, vertical 9:16."),
-              amb="footsteps, creaking carrying poles, ox cart wheels, a rooster clucking"),
-    "B": dict(name="Bãi lau ven sông, chiều",
-              lock=("SCENE B: an endless field of tall silver reeds by a river in the afternoon wind; Anh Tư alone has buried "
-                    "a big clay jar of rice and ties three reeds together above it as a marker; thousands of identical reeds "
-                    "sway all around him."),
-              img=("Cinematic shot of an endless field of tall silver reeds by a river in afternoon wind, {FACE}, alone, "
-                   "tying three reeds together above a freshly buried clay jar, realistic, vertical 9:16."),
-              amb="wind in the reeds, distant river"),
-    "C": dict(name="Kinh thành trống, quân Nguyên vào",
-              lock=("SCENE C (keep IDENTICAL in every clip of this scene): the SAME brick lanes and red-lacquered gate of "
-                    "Thăng Long, now completely empty on a grey day, every door open, not one person, no smoke from any "
-                    "kitchen; columns of Yuan cavalry and infantry in lamellar armor ride slowly in through the gate, "
-                    "looking around in silence. Inside one house an empty kitchen: a cold stove, overturned empty rice jars."),
-              img=("Epic shot of an empty medieval Thăng Long on a grey day, brick lanes, every door open, no people, no "
-                   "kitchen smoke, columns of Yuan cavalry in lamellar armor and round helmets riding slowly in through a "
-                   "red-lacquered gate, realistic, vertical 9:16."),
-              amb="hooves on bricks, wind through open doors, silence"),
-    "D": dict(name="Trại Nguyên, tháng ba",
-              lock=("SCENE D: a Yuan army camp in March drizzle on a muddy plain, rows of sagging tents, tired hungry "
-                    "soldiers huddled around weak fires, empty rice baskets turned upside down, some men lying sick under "
-                    "blankets (alive, coughing); no faces close enough to see."),
-              img=("Cinematic wide shot of a Yuan army camp in March drizzle on a muddy plain, sagging tents, tired hungry "
-                   "soldiers around weak fires, empty rice baskets turned upside down, realistic, vertical 9:16."),
-              amb="drizzle, coughing, low murmurs, a horse snorting"),
-    "E": dict(name="Cây cầu gỗ ở làng ven kênh",
-              lock=("SCENE E (keep IDENTICAL in every clip of this scene): a small old wooden bridge over a canal between "
-                    "rice fields, clear morning light, a bamboo grove on the near bank, a village gate on the far bank. The "
-                    "bridge is half chopped away. The squad leader in a dark tunic with a sword stands on the near bank. Anh "
+              img=("Epic aerial at golden dawn over a great walled medieval Vietnamese capital, hundreds of clay-tile roofs "
+                   "and curved palace roofs in mist, tens of thousands of people leaving in endless columns through three "
+                   "great wooden gates with carrying poles, ox carts and buffalo, hundreds of rice boats on the wide river, "
+                   "and in the foreground lane {FACE}, carrying a bamboo pole with a big black pot and a caged rooster, "
+                   "realistic, vertical 9:16."),
+              amb="the deep murmur of a huge crowd, thousands of footsteps, ox carts, a rooster clucking close by"),
+    "B": dict(name="Biển lau ven sông, hoàng hôn",
+              lock=("SCENE B: a sea of tall silver reeds stretching to the horizon along a wide river at golden sunset, a huge "
+                    "sky with flocks of birds; Anh Tư alone has buried a big clay jar of rice and ties three reeds together "
+                    "above it as a marker; millions of identical reeds sway around him."),
+              img=("Epic wide shot of a sea of tall silver reeds stretching to the horizon along a wide river at golden "
+                   "sunset, huge sky with flocks of birds, {FACE}, tiny in the vast field, tying three reeds together "
+                   "above a freshly buried clay jar, realistic, vertical 9:16."),
+              amb="wind sweeping through the reeds, birds, distant river"),
+    "C": dict(name="Đại quân Nguyên tiến vào kinh thành trống",
+              lock=("SCENE C (keep IDENTICAL in every clip of this scene): under a heavy grey sky the great main gate of "
+                    "Thăng Long stands wide open; a vast Yuan army, thousands of cavalry and infantry in lamellar armor, "
+                    "pours through it in endless columns, dust rising; inside, the whole capital is completely empty and "
+                    "silent: every door open, not one person, no smoke from any of the hundreds of kitchens. Inside one house "
+                    "an empty kitchen: a cold stove, overturned empty rice jars."),
+              img=("Epic aerial under a heavy grey sky: a vast army of thousands of cavalry and infantry in lamellar armor "
+                   "pouring through the open main gate of a great empty walled Vietnamese capital, dust rising, every street "
+                   "empty and silent, no kitchen smoke anywhere, realistic, vertical 9:16."),
+              amb="thousands of hooves, armor clanking, then the eerie silence of an empty city, wind through open doors"),
+    "D": dict(name="Đại doanh Nguyên trong mưa tháng ba",
+              lock=("SCENE D: an enormous Yuan army camp stretching to the horizon on a muddy plain in March rain under dark "
+                    "clouds, thousands of sagging tents, smoke from weak fires, endless rows of upside-down empty rice "
+                    "baskets, tired hungry soldiers huddled in groups, many men lying sick under blankets (alive, coughing); "
+                    "no faces close enough to see."),
+              img=("Epic aerial of an enormous army camp stretching to the horizon on a muddy plain in March rain, thousands "
+                   "of sagging tents, thin smoke from weak fires, rows of empty upside-down rice baskets, dark storm clouds, "
+                   "realistic, vertical 9:16."),
+              amb="heavy rain, coughing, low murmurs, horses, distant thunder"),
+    "E": dict(name="Phá cầu khắp vùng đồng bằng",
+              lock=("SCENE E (keep IDENTICAL in every clip of this scene): a big old wooden bridge over a wide canal between "
+                    "vast rice fields, clear morning light; the bridge is half chopped away; all across the delta behind it, "
+                    "teams of Trần soldiers chop down other bridges and fell huge trees across the roads, several bridges "
+                    "collapsing into the water in the distance, dust and splashes everywhere. On the near bank a bamboo grove; "
+                    "on the far bank a village gate. The squad leader in a dark tunic with a sword stands on the near bank. Anh "
                     "Tư stands on the near bank with an axe. An old woman with a basket of green vegetables on a carrying "
                     "pole waits on the far bank."),
-              img=("Cinematic shot of a small old wooden bridge over a canal between rice fields, clear morning light, a "
-                   "bamboo grove on the near bank and a village gate on the far bank, the bridge half chopped away, {FACE}, "
-                   "on the near bank with an axe, an old woman with a basket of green vegetables waiting on the far bank, "
+              img=("Epic shot of a big old wooden bridge half chopped away over a wide canal between vast rice fields, "
+                   "morning light, across the delta behind it teams of soldiers felling huge trees and several distant "
+                   "bridges collapsing into the water, {FACE}, on the near bank with an axe, an old woman with a basket of "
+                   "green vegetables on the far bank, realistic, vertical 9:16."),
+              amb="axe chops, trees crashing, timber splashing into water, shouted commands far away, birds"),
+    "F": dict(name="Toàn cảnh đồng bằng đến sông Bạch Đằng, hoàng hôn",
+              lock=("SCENE F (keep IDENTICAL in every clip of this scene): a high hilltop at a blazing sunset above the whole "
+                    "delta: below, dozens of broken bridges and felled trees blocking every road and canal as far as the eye "
+                    "can see, thin smoke columns rising; far away the one wide Bạch Đằng river winds between hundreds of "
+                    "limestone karsts to the sea, burning gold. Anh Tư stands alone on the hilltop with his axe."),
+              img=("Epic aerial at a blazing sunset from a high hilltop over a vast delta, dozens of broken bridges and felled "
+                   "trees blocking every road and canal, thin smoke columns, far away one wide river winding between hundreds "
+                   "of limestone karsts to the sea glowing gold, {FACE}, standing alone on the hilltop with an axe, "
                    "realistic, vertical 9:16."),
-              amb="birds, canal water, axe chops"),
-    "F": dict(name="Đồi cao nhìn về sông Bạch Đằng, hoàng hôn",
-              lock=("SCENE F (keep IDENTICAL in every clip of this scene): a hilltop at sunset above the delta: below, "
-                    "broken bridges and felled trees blocking every road, and far away one wide river winding between "
-                    "limestone hills to the sea, golden light on the water. Anh Tư stands alone on the hilltop with his axe."),
-              img=("Epic shot from a hilltop at sunset over a delta, broken bridges and felled trees blocking every road "
-                   "below, one wide river winding between limestone hills to the sea, golden light, {FACE}, standing alone "
-                   "with an axe, realistic, vertical 9:16."),
-              amb="evening wind, distant birds"),
+              amb="strong evening wind, distant drums, birds"),
 }
 
 CLIPS = [
     dict(scene="A", who="narr", label="Thăng Long · tháng 2/1288",
          line=(0.8, 9.2, "Đầu năm 1288. / Giặc tiến về Thăng Long. / Lệnh truyền xuống: / bỏ trống kinh thành."),
-         cam="slow high crane shot over the misty lane and the long line of families leaving; no faces close enough to see"),
+         cam="huge sweeping drone shot from high above the palace roofs down over the city gates and the endless columns of people leaving, ending on the rice boats on the river; no faces close enough to see"),
     dict(scene="A", who="tu",
          line=(0.4, 9.2, "Nhà em có mỗi / cái nồi với con gà… / Giờ con gà / cũng phải đi sơ tán, / mà nó kêu to hơn em."),
-         cam="medium shot walking with Anh Tư under his carrying pole; the rooster in the cage clucks loudly; he glances at it and sighs"),
+         cam="tracking shot walking with Anh Tư under his carrying pole in the huge crowd at the great gate; the rooster in the cage clucks loudly; he glances at it and sighs"),
     dict(scene="B", who="tu", chuyen="fade:0.5",
          line=(0.4, 9.2, "Em chôn chum gạo / giữa bãi lau, / đánh dấu bằng ba cây sậy… / mà bãi này / có cả vạn cây sậy."),
-         cam="Anh Tư finishes tying three reeds, steps back, then slowly looks around at the thousands of identical reeds; a short pause"),
+         cam="Anh Tư finishes tying three reeds and looks around; the camera rises into a vast aerial revealing millions of identical reeds to the horizon; Anh Tư becomes a tiny dot"),
     dict(scene="C", who="narr", chuyen="fadeblack:0.6", label="Mấy hôm sau",
          line=(0.8, 9.2, "Quân Nguyên tràn vào / kinh thành. / Nhà cửa còn nguyên, / cửa mở toang… / mà không còn một hạt gạo."),
-         cam="epic slow push along the empty lane as the Yuan cavalry rides in through the gate; no faces close enough to see"),
+         cam="epic low angle at the great gate as endless columns of cavalry thunder past in slow motion, then a rising aerial over the silent empty capital; no faces close enough to see"),
     dict(scene="C", who="linh",
          line=(0.4, 9.2, "Kho trống, bếp trống… / lục khắp kinh thành / từ sáng đến giờ, / không còn lấy / một cái nồi!"),
          cam="inside the empty kitchen, a Yuan soldier in lamellar armor lifts the lid of an empty rice jar, turns to the camera and speaks; nobody else in frame"),
     dict(scene="D", who="narr", chuyen="fadeblack:0.6",
          line=(0.8, 9.2, "Lương ở Vân Đồn đã mất. / Giặc đói, giặc ốm, / bị đánh khắp nơi. / Tháng ba, Thoát Hoan / quyết định rút quân."),
-         cam="slow drifting shot through the drizzly camp, past empty baskets and weak fires; no faces close enough to see"),
+         cam="slow epic aerial over the enormous rain-soaked camp to the horizon, lightning in the clouds; no faces close enough to see"),
     dict(scene="E", who="cai", chuyen="fadeblack:0.6", label="Tháng 3/1288",
          line=(0.4, 9.2, "Phá hết cầu, / chặt cây chắn đường. / Chừa đúng một lối… / để giặc tự đi / vào chỗ của nó."),
-         cam="the squad leader on the near bank faces the camera and points at the bridge; Anh Tư is out of frame"),
+         cam="the squad leader on the near bank faces the camera and points at the bridge while behind him, across the delta, distant bridges collapse into the water; Anh Tư is out of frame"),
     dict(scene="E", who="tu",
          line=(0.4, 9.2, "Ông em xây cái cầu này / mất ba năm… / Em phá có một buổi sáng. / Ông mà biết / thì em ăn đòn."),
          cam="Anh Tư alone in frame on the near bank, axe in hand, looking at the half-chopped bridge, then at the camera"),
@@ -112,7 +124,7 @@ CLIPS = [
          cam="Anh Tư alone in frame on the near bank, answering politely across the canal, a faint smile"),
     dict(scene="F", who="narr", chuyen="fadeblack:0.6",
          line=(0.8, 9.2, "Mọi ngả đều bị chặn. / Đường về của / thủy quân Nguyên / chỉ còn một: / sông Bạch Đằng."),
-         cam="slow epic aerial over the broken bridges and felled trees toward the wide golden river; Anh Tư small from behind on the hill; no faces visible"),
+         cam="grand sweeping aerial from the hilltop out over the broken bridges and felled trees all the way to the golden Bạch Đằng river and the karsts at the sea; Anh Tư a small figure from behind on the hill; no faces visible"),
     dict(scene="F", who="tu",
          line=(0.4, 9.2, "Phá hết đường, / chừa đúng đường / nó phải đi. / Mà vừa hết phá cầu… / họ lại bảo em / đi chặt que."),
          cam="Anh Tư on the hilltop turns from the river to the camera, axe on his shoulder, calm, a faint smile"),
@@ -233,6 +245,7 @@ def main():
           "một cái nồi; mất lương Vân Đồn, đói, ốm, Thoát Hoan quyết định rút.",
           "- **Phá cầu, chừa một lối** (clip 7–12): cai đội ra lệnh, Anh Tư phá cầu ông nội xây, bà đi chợ hỏi đường, mọi ngả bị "
           "chặn chỉ còn sông Bạch Đằng, câu chốt dẫn sang tập 6 \"chặt que\".",
+          "- **Khung cảnh hoành tráng:** quay từ trên cao toàn kinh thành với hàng vạn người sơ tán, đại quân Nguyên hàng nghìn kỵ binh tràn qua cổng thành trống, đại doanh trong mưa kéo tới chân trời, cả vùng đồng bằng phá cầu chặt cây, toàn cảnh tới sông Bạch Đằng lúc hoàng hôn.",
           "- Mỗi clip một người nói, lời lấp gần kín 10 giây; cảnh nào khóa bối cảnh cảnh đó. Năm trong lời thoại đã viết thành "
           "chữ để Muse đọc đúng. Đổi cảnh nhảy thời gian thì tối dần 0,6 giây.", "",
           "**Lịch sử (mức A):** tháng 2/1288 quân Nguyên vào Thăng Long nhưng kinh thành đã bỏ trống, lương thực mang đi hết; mất "
