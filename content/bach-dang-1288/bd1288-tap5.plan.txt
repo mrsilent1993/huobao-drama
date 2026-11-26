@@ -1,0 +1,32 @@
+# Dựng: python3 ../tools/tiktok.py bd1288-tap5.plan.txt bd1288-tap5.mp4  (một bản dùng chung TikTok, YouTube, Facebook)
+hook: POV: Bạn phải dọn sạch / cả kinh thành / trước khi giặc đến
+end: Follow để xem / Chặt que →
+nhan: AI tái hiện · lời thoại hư cấu
+end_giay: 1.6
+chuyen: fade 0.3
+
+clip: bd1288-tap5-1.mp4 | Thăng Long · tháng 2/1288
+clip: bd1288-tap5-2.mp4 | 
+clip: bd1288-tap5-3.mp4 |  | chuyen=fade:0.5
+clip: bd1288-tap5-4.mp4 | Mấy hôm sau | chuyen=fadeblack:0.6
+clip: bd1288-tap5-5.mp4 | 
+clip: bd1288-tap5-6.mp4 |  | chuyen=fadeblack:0.6
+clip: bd1288-tap5-7.mp4 | Tháng 3/1288 | chuyen=fadeblack:0.6
+clip: bd1288-tap5-8.mp4 | 
+clip: bd1288-tap5-9.mp4 | 
+clip: bd1288-tap5-10.mp4 | 
+clip: bd1288-tap5-11.mp4 |  | chuyen=fadeblack:0.6
+clip: bd1288-tap5-12.mp4 | 
+
+sub: 1 | 0.8-9.2 | Đầu năm 1288. / Giặc tiến về Thăng Long. / Lệnh truyền xuống: / bỏ trống kinh thành.
+sub: 2 | 0.4-9.2 | Nhà em có mỗi / cái nồi với con gà… / Giờ con gà / cũng phải đi sơ tán, / mà nó kêu to hơn em.
+sub: 3 | 0.4-9.2 | Em chôn chum gạo / giữa bãi lau, / đánh dấu bằng ba cây sậy… / mà bãi này / có cả vạn cây sậy.
+sub: 4 | 0.8-9.2 | Quân Nguyên tràn vào / kinh thành. / Nhà cửa còn nguyên, / cửa mở toang… / mà không còn một hạt gạo.
+sub: 5 | 0.4-9.2 | Kho trống, bếp trống… / lục khắp kinh thành / từ sáng đến giờ, / không còn lấy / một cái nồi!
+sub: 6 | 0.8-9.2 | Lương ở Vân Đồn đã mất. / Giặc đói, giặc ốm, / bị đánh khắp nơi. / Tháng ba, Thoát Hoan / quyết định rút quân.
+sub: 7 | 0.4-9.2 | Phá hết cầu, / chặt cây chắn đường. / Chừa đúng một lối… / để giặc tự đi / vào chỗ của nó.
+sub: 8 | 0.4-9.2 | Ông em xây cái cầu này / mất ba năm… / Em phá có một buổi sáng. / Ông mà biết / thì em ăn đòn.
+sub: 9 | 0.4-9.2 | Cầu đâu rồi cháu? / Bà sang chợ bên kia / bán mớ rau muống… / giờ bà đi đường nào / hả cháu?
+sub: 10 | 0.4-9.2 | Bà đi đường vòng… / ba hôm thôi ạ. / Đến nơi thì rau tươi / thành rau khô, / bà bán được giá hơn.
+sub: 11 | 0.8-9.2 | Mọi ngả đều bị chặn. / Đường về của / thủy quân Nguyên / chỉ còn một: / sông Bạch Đằng.
+sub: 12 | 0.4-9.2 | Phá hết đường, / chừa đúng đường / nó phải đi. / Mà vừa hết phá cầu… / họ lại bảo em / đi chặt que.
