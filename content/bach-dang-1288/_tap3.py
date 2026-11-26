@@ -7,9 +7,12 @@ import os
 HERE = os.path.dirname(os.path.abspath(__file__))
 
 FACE = ("Anh Tư: the SAME man as in the attached reference image anh_tu_ref.png (same face, same age, same scar, same "
-        "teeth, same hair): a Vietnamese man around 30 with deeply tanned skin, hair in a topknot with a faded brown cloth "
-        "band, black-lacquered teeth, a thin scar across his left eyebrow and one chipped front tooth, a coarse dark-brown "
-        "cotton tunic; he acts naturally like a real person, relaxed and good-humored, with small natural reactions (a glance, a sigh, a raised eyebrow, a faint smile); no grinning, no winking, no exaggerated faces")
+        "teeth, same hair, same clothes): a lean Vietnamese man around 30 with deeply tanned skin, hair in a small topknot "
+        "above a wide faded brown cloth headband wrapped across his forehead, a thin mustache and short stubble, "
+        "black-lacquered teeth, a thin scar near his eyebrow, a coarse dark-brown long-sleeved cotton tunic tied with a "
+        "brown cloth sash, loose black trousers, barefoot; he acts naturally like a real person, relaxed and good-humored, "
+        "with small natural reactions (a glance, a sigh, a raised eyebrow, a faint smile); no grinning, no winking, no "
+        "exaggerated faces")
 BASE = ("Cinematic live-action, photorealistic, natural light, film grain, vertical 9:16. Vietnam, December 1287, Trần "
         "dynasty, Vân Đồn coast: soldiers in brown cotton tunics, hair in topknots, black-lacquered teeth. No modern "
         "objects, no on-screen text, no subtitles, no visible writing anywhere, ABSOLUTELY NO FLAGS OR BANNERS OF ANY KIND, "
@@ -192,6 +195,10 @@ def main():
         with open(os.path.join(HERE, name), "w", encoding="utf-8") as fh:
             fh.write("\n".join(lines) + "\n")
         print(name, round(total, 1))
+    import sys
+    sys.path.insert(0, os.path.join(HERE, "..", "tools"))
+    import xuat_word
+    print(xuat_word.convert(os.path.join(HERE, base + "-cho-ta-ba-hom.md")))
 
 
 if __name__ == "__main__":

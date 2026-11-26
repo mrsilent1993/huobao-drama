@@ -187,6 +187,10 @@ def main():
         with open(os.path.join(HERE, name), "w", encoding="utf-8") as fh:
             fh.write("\n".join(lines) + "\n")
         print(name, round(total, 1))
+    import sys
+    sys.path.insert(0, os.path.join(HERE, "..", "tools"))
+    import xuat_word
+    print(xuat_word.convert(os.path.join(HERE, base + "-vua-cao-om.md")))
 
 
 if __name__ == "__main__":
