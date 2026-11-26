@@ -4,6 +4,8 @@ Tổng hợp mọi quy tắc anh đã đặt ra và chỉnh qua từng video, c�
 
 ---
 
+> **Khi tiêu chuẩn thay đổi (anh dặn 26/11/2026):** chỉ ghi quy định mới vào file tiêu chuẩn này và áp dụng cho **các tập làm từ đó trở đi**. **Không tạo lại** file prompt của các tập cũ đã làm, trừ khi anh yêu cầu riêng tập nào.
+
 ## 1. Công thức nội dung (video thắng)
 
 Gốc từ video Bạch Đằng 938 "Cắm cọc cả buổi sáng" (1,7 triệu lượt xem, 43,6% xem hết, 14 nghìn lượt chia sẻ). Các video theo công thức này đạt tỷ lệ thích **4,7–5,1%**, gấp đôi video kể kiến thức thẳng (1,9–2,5%).
