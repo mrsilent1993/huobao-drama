@@ -7,7 +7,7 @@ import os
 import sys
 
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "tools"))
-from series import ANH_TU_FACE, ANH_TU_VOICE  # noqa: E402
+from series import ANH_TU_FACE, ANH_TU_VOICE, SO_RULE, doc_so_trong_loi  # noqa: E402
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 
@@ -142,7 +142,7 @@ def main():
         f = f"gt-bd1288-{i}.mp4"
         md += [f"## Clip {i}: {c['name']}", f"File Muse đặt tên: `{f}`", "",
                "**Ảnh khung đầu**", "```", c["img"], "```", "",
-               "**Video (Muse)**", "```", f"{STYLE} {c['vid']} {AUDIO}", "```", ""]
+               "**Video (Muse)**", "```", doc_so_trong_loi(f"{STYLE} {c['vid']} {AUDIO}") + " " + SO_RULE, "```", ""]
         plan.append(f"clip: {f} | {c['label']}" + (f" | chuyen={c['chuyen']}" if c.get("chuyen") else ""))
         subs += [f"sub: {i} | {a}-{b} | {t}" for a, b, t in c["subs"]]
     plan += [""] + subs

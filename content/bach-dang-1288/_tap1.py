@@ -4,7 +4,7 @@ Chạy: python3 _tap1.py → bd1288-tap1-vua-cao-om.md + bd1288-tap1.plan.txt
 """
 import os
 
-from _tap3 import FACE, V_TU, RULES, AUDIO, spoken
+from _tap3 import FACE, V_TU, RULES, AUDIO, SO_RULE, noi, spoken
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 
@@ -82,7 +82,7 @@ CLIPS = [
          line=(0.4, 9.0, "Hoàng đế có chiếu: / vua nước Nam / phải thân hành sang chầu, / không được sai / người khác thay!"),
          cam="the envoy at the foot of the stairs faces the camera and reads from the scroll; officials silent behind; Anh Tư far away by the gate, too small to see his mouth"),
     dict(scene="A", who="narr",
-         line=(0.8, 9.2, "Năm 1267, / nhà Nguyên đòi sáu điều. / Điều đầu tiên, / cũng là điều khó nhất: / vua phải sang chầu."),
+         line=(0.8, 9.2, "Năm 1267, / nhà Nguyên đòi sáu điều. / Điều đầu tiên: / vua phải sang chầu."),
          cam="slow high aerial over the courtyard and the hall roofs; people seen only as small figures from above; no faces visible"),
     dict(scene="A", who="tu",
          line=(0.4, 9.2, "Còn đòi con tin, kê dân, / bắt lính, nộp thuế… / Đi chợ còn mặc cả, / đằng này đòi một lèo / sáu món, không bớt."),
@@ -109,7 +109,7 @@ CLIPS = [
          line=(0.4, 9.2, "Xin nghỉ ốm một hôm… / mà sếp cho nghỉ hẳn, / tuyển luôn người mới. / Có điều vua mình / vẫn chưa nộp đơn."),
          cam="close-up of Anh Tư alone by the gate, eyebrows raised, a short glance at the camera; the envoy is out of frame"),
     dict(scene="F", who="narr", chuyen="fadeblack:0.6", label="Năm 1286",
-         line=(0.8, 9.3, "Năm 1286, nhà Nguyên / phong Trần Ích Tắc / làm vua An Nam, / đóng thuyền, gom quân… / chuẩn bị sang / lần thứ ba."),
+         line=(0.8, 9.3, "Năm 1286, nhà Nguyên / phong Trần Ích Tắc / làm vua An Nam… / rồi chuẩn bị sang / lần thứ ba."),
          cam="slow push along the row of gift chests in the dusk light; Anh Tư seen only from behind at the end of the row; no faces visible"),
     dict(scene="F", who="tu",
          line=(0.4, 9.2, "Gần hai mươi năm, / quà thì gửi đủ mùa, / thư thì gửi đủ lời. / Lễ vật thì gửi… / người thì không đi."),
@@ -127,8 +127,8 @@ def video_prompt(c):
     sc = SCENES[c["scene"]]
     return " ".join(x for x in [
         BASE, sc["lock"], FACE + ".", RULES.format(who=WHO[c["who"]]),
-        f"0-{a:.1f}s: silence. {a:.1f}-{b:.1f}s: ONLY {WHO[c['who']]} speaks: \"{spoken(text)}\" {b:.1f}-10s: a short silent beat, hold the shot.",
-        f"Camera: {c['cam']}.", f"VOICE: {VOICE[c['who']]}.", AUDIO.format(amb=sc["amb"])] if x)
+        f"0-{a:.1f}s: silence. {a:.1f}-{b:.1f}s: ONLY {WHO[c['who']]} speaks: \"{noi(text)}\" {b:.1f}-10s: a short silent beat, hold the shot.",
+        f"Camera: {c['cam']}.", f"VOICE: {VOICE[c['who']]}.", AUDIO.format(amb=sc["amb"]), SO_RULE] if x)
 
 
 def main():
@@ -174,7 +174,8 @@ def main():
         a, b, text = c["line"]
         md += [f"## Clip {i} · cảnh {c['scene']}",
                f"File Muse đặt tên: `{f}` · Ảnh khung đầu: `{base}-canh-{c['scene']}.png` + `anh_tu_ref.png`", "",
-               f"**Chỉ {NAME[c['who']]} nói ({a:.1f}–{b:.1f}s):** \"{spoken(text)}\"", "",
+               f"**Chỉ {NAME[c['who']]} nói ({a:.1f}–{b:.1f}s):** \"{spoken(text)}\""
+               + (f" · *Muse đọc:* \"{noi(text)}\"" if noi(text) != spoken(text) else ""), "",
                "**Video (Muse)**", "```", video_prompt(c), "```", ""]
         extra = f" | chuyen={c['chuyen']}" if c.get("chuyen") else ""
         plan.append(f"clip: {f} | {c.get('label', '')}{extra}")

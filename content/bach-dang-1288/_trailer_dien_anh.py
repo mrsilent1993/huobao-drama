@@ -5,7 +5,7 @@ thẻ tên địa danh, nhạc dồn lên cao trào, cắt đen đúng lúc gay 
 Sửa ở đây rồi chạy: python3 _trailer_dien_anh.py → trailer-dien-anh-bach-dang-1288.md + .plan.txt
 """
 import os
-from _gioi_thieu import ANH_TU_VOICE, FACE, STYLE, STAKE, REF_PROMPT, TAGS, YT_TAGS
+from _gioi_thieu import ANH_TU_VOICE, SO_RULE, doc_so_trong_loi, FACE, STYLE, STAKE, REF_PROMPT, TAGS, YT_TAGS
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 
@@ -110,7 +110,7 @@ def main():
         f = f"td-bd1288-{i}.mp4"
         md += [f"## Clip {i}: {c['name']}", f"File Muse đặt tên: `{f}`", "",
                "**Ảnh khung đầu**", "```", c["img"], "```", "",
-               "**Video (Muse)**", "```", f"{STYLE} {c['vid']} {AUDIO}", "```", ""]
+               "**Video (Muse)**", "```", doc_so_trong_loi(f"{STYLE} {c['vid']} {AUDIO}") + " " + SO_RULE, "```", ""]
         plan.append(f"clip: {f} | {c['label']}" + (f" | chuyen={c['chuyen']}" if c.get("chuyen") else ""))
         subs += [f"sub: {i} | {a}-{b} | {t}" for a, b, t in c["subs"]]
     plan += [""] + subs

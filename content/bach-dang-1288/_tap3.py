@@ -6,7 +6,7 @@ import os
 import sys
 
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "tools"))
-from series import ANH_TU_FACE, ANH_TU_VOICE  # noqa: E402
+from series import ANH_TU_FACE, ANH_TU_VOICE, SO_RULE, so_thanh_chu  # noqa: E402
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 
@@ -81,7 +81,7 @@ SCENES = {
 # Mỗi clip: một cảnh, MỘT người nói, lời lấp gần kín 10 giây (khoảng 20 đến 26 chữ, nói vừa phải).
 CLIPS = [
     dict(scene="A", who="narr", label="Vân Đồn · tháng 12/1287",
-         line=(0.8, 9.2, "Tháng chạp năm 1287. / Hàng trăm chiến thuyền / Nguyên vượt biển, / ồ ạt / lọt qua Vân Đồn."),
+         line=(0.8, 9.2, "Tháng chạp năm 1287. / Hàng trăm chiến thuyền / Nguyên vượt biển, / lọt qua Vân Đồn."),
          cam="wide aerial over the sea: the fleet sails past the islands; on the shore Anh Tư is a tiny figure seen from behind; no faces visible"),
     dict(scene="A", who="tu",
          line=(0.4, 9.2, "Hàng trăm thuyền giặc / đi qua… không ai chào em. / Em còn chưa kịp hỏi: / các bác đi đâu, / có cần chỉ đường không?"),
@@ -127,14 +127,19 @@ def spoken(t):
     return t.replace(" / ", " ")
 
 
+def noi(t):
+    """Lời gửi Muse: bỏ dấu ngắt dòng, số viết thành chữ để Muse đọc đúng năm."""
+    return so_thanh_chu(spoken(t))
+
+
 def video_prompt(c):
     a, b, text = c["line"]
     sc = SCENES[c["scene"]]
     face = FACE + "." if c["who"] == "tu" or c["scene"] in "BC" else ""
     return " ".join(x for x in [
         BASE, sc["lock"], face, RULES.format(who=WHO[c["who"]]),
-        f"0-{a:.1f}s: silence. {a:.1f}-{b:.1f}s: ONLY {WHO[c['who']]} speaks: \"{spoken(text)}\" {b:.1f}-10s: a short silent beat, hold the shot.",
-        f"Camera: {c['cam']}.", f"VOICE: {VOICE[c['who']]}.", AUDIO.format(amb=sc["amb"])] if x)
+        f"0-{a:.1f}s: silence. {a:.1f}-{b:.1f}s: ONLY {WHO[c['who']]} speaks: \"{noi(text)}\" {b:.1f}-10s: a short silent beat, hold the shot.",
+        f"Camera: {c['cam']}.", f"VOICE: {VOICE[c['who']]}.", AUDIO.format(amb=sc["amb"]), SO_RULE] if x)
 
 
 def main():
@@ -179,7 +184,8 @@ def main():
         a, b, text = c["line"]
         md += [f"## Clip {i} · cảnh {c['scene']}", f"File Muse đặt tên: `{f}` · Ảnh khung đầu: `bd1288-tap3-canh-{c['scene']}.png`"
                + (" + `anh_tu_ref.png`" if c["who"] == "tu" or c["scene"] in "BC" else ""), "",
-               f"**Chỉ {NAME[c['who']]} nói ({a:.1f}–{b:.1f}s):** \"{spoken(text)}\"", "",
+               f"**Chỉ {NAME[c['who']]} nói ({a:.1f}–{b:.1f}s):** \"{spoken(text)}\""
+               + (f" · *Muse đọc:* \"{noi(text)}\"" if noi(text) != spoken(text) else ""), "",
                "**Video (Muse)**", "```", video_prompt(c), "```", ""]
         extra = f" | chuyen={c['chuyen']}" if c.get("chuyen") else ""
         plan.append(f"clip: {f} | {c.get('label', '')}{extra}")

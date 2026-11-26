@@ -18,7 +18,7 @@ clip: bd1288-tap3-10.mp4 |  | chuyen=fadeblack:0.6
 clip: bd1288-tap3-11.mp4 |  | chuyen=fadeblack:0.6
 clip: bd1288-tap3-12.mp4 | 
 
-sub: 1 | 0.8-9.2 | Tháng chạp năm 1287. / Hàng trăm chiến thuyền / Nguyên vượt biển, / ồ ạt / lọt qua Vân Đồn.
+sub: 1 | 0.8-9.2 | Tháng chạp năm 1287. / Hàng trăm chiến thuyền / Nguyên vượt biển, / lọt qua Vân Đồn.
 sub: 2 | 0.4-9.2 | Hàng trăm thuyền giặc / đi qua… không ai chào em. / Em còn chưa kịp hỏi: / các bác đi đâu, / có cần chỉ đường không?
 sub: 3 | 0.4-9.0 | Trung sứ: / Thượng hoàng có lệnh: / Khánh Dư để giặc / lọt Vân Đồn. Xiềng lại, / giải về kinh hỏi tội!
 sub: 4 | 0.4-9.2 | Dạ… đi bắt một ông tướng / bằng sợi dây này ạ? / Ông ấy cầm gươm, / em cầm dây… / kèo này hơi lệch.

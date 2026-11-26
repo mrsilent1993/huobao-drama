@@ -3,6 +3,7 @@
 Mỗi loạt có một file _nguon.py định nghĩa EPISODES rồi gọi build(EPISODES, thư_mục).
 Xem content/bach-dang/_nguon.py làm mẫu.
 """
+import re
 import os
 
 POV = ("First-person POV video, handheld camera at eye level as if seen through the viewer's own eyes, "
@@ -67,6 +68,63 @@ VOICE_EN = {"người dẫn chuyện": "Narrator", "mẹ Anh Tư": "Anh Tư's mo
             "sứ giả, người đưa tin": "The messenger or envoy", "bà cụ": "The old woman", "ông cụ": "The old farmer",
             "người phiên dịch": "The interpreter", "Trần Thủ Độ": "Thái sư Trần Thủ Độ"}
 
+
+
+# ĐỌC SỐ: Muse hay đọc sai năm khi thấy chữ số ("1287"). Trong lời thoại gửi Muse, mọi số được viết thành chữ
+# theo cách đọc miền Bắc ("một nghìn hai trăm tám mươi bảy"); phụ đề vẫn giữ chữ số.
+_SO = ["không", "một", "hai", "ba", "bốn", "năm", "sáu", "bảy", "tám", "chín"]
+
+
+def _ba_so(n, day_du):
+    """Đọc 0-999; day_du=True thì đọc cả "không trăm", "linh" khi đứng sau hàng nghìn."""
+    tram, chuc, dv = n // 100, n // 10 % 10, n % 10
+    out = []
+    if tram or day_du:
+        out += [_SO[tram], "trăm"]
+    if chuc == 0:
+        if dv and (tram or day_du):
+            out.append("linh")
+    elif chuc == 1:
+        out.append("mười")
+    else:
+        out += [_SO[chuc], "mươi"]
+    if dv:
+        if chuc >= 2 and dv == 1:
+            out.append("mốt")
+        elif chuc >= 1 and dv == 5:
+            out.append("lăm")
+        elif chuc >= 2 and dv == 4:
+            out.append("tư")
+        else:
+            out.append(_SO[dv])
+    return out
+
+
+def doc_so(n):
+    """Số nguyên 0..999999 thành chữ, ví dụ 1287 → "một nghìn hai trăm tám mươi bảy"."""
+    if n == 0:
+        return "không"
+    nghin, le = divmod(n, 1000)
+    out = []
+    if nghin:
+        out += _ba_so(nghin, False) + ["nghìn"]
+    if le:
+        out += _ba_so(le, bool(nghin))
+    return " ".join(out)
+
+
+def so_thanh_chu(text):
+    """Đổi mọi số trong một câu thoại thành chữ (giữ nguyên phần còn lại)."""
+    return re.sub(r"\d+", lambda m: doc_so(int(m.group())), text)
+
+
+def doc_so_trong_loi(prompt):
+    """Trong prompt video, đổi số NẰM TRONG lời thoại (giữa hai dấu ") thành chữ."""
+    return re.sub(r'"[^"]*"', lambda m: so_thanh_chu(m.group()), prompt)
+
+
+SO_RULE = ("All numbers and years in the dialogue are written out in Vietnamese words: read them EXACTLY as written, "
+           "word by word, never as digits, never shortened, never in another language.")
 
 def voices_prompt(vl):
     if not vl:
@@ -188,6 +246,7 @@ def build(episodes, here, series_tag="", note="", unit="Phần", file_unit="phan
             video = (f"{POV} {c.get('setting', ep['setting'])} " + (f"{CONT} " if c.get("noi") else "")
                      + f"{c['vid']} " + (f"{STAKE_SPEC} " if "stake" in scene else "")
                      + (f"{DRAGON_SPEC} " if "dragon" in scene else "") + voices + audio)
+            video = doc_so_trong_loi(video) + (f" {SO_RULE}" if re.search(r'"[^"]*\d', video) else "")
             cut = c.get("tiktok")
             cut_note = ("" if cut is None else
                         "**Bản TikTok:** bỏ clip này." if cut == "bo" else
