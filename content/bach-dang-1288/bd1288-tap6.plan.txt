@@ -1,0 +1,32 @@
+# Dựng: python3 ../tools/tiktok.py bd1288-tap6.plan.txt bd1288-tap6.mp4  (một bản dùng chung TikTok, YouTube, Facebook)
+hook: POV: Bạn được giao / đi chặt que
+end: Follow để xem / Ông thề thắng, em đi thua →
+nhan: AI tái hiện · lời thoại hư cấu
+end_giay: 1.6
+chuyen: fade 0.3
+
+clip: bd1288-tap6-1.mp4 | Sông Bạch Đằng · cuối tháng 3/1288
+clip: bd1288-tap6-2.mp4 | 
+clip: bd1288-tap6-3.mp4 | 
+clip: bd1288-tap6-4.mp4 |  | chuyen=fade:0.5
+clip: bd1288-tap6-5.mp4 | 
+clip: bd1288-tap6-6.mp4 | Nước ròng | chuyen=fadeblack:0.6
+clip: bd1288-tap6-7.mp4 | 
+clip: bd1288-tap6-8.mp4 | 
+clip: bd1288-tap6-9.mp4 | 
+clip: bd1288-tap6-10.mp4 |  | chuyen=fadeblack:0.6
+clip: bd1288-tap6-11.mp4 | 
+clip: bd1288-tap6-12.mp4 |  | chuyen=fadeblack:0.6
+
+sub: 1 | 0.8-9.2 | Cuối tháng ba năm 1288. / Hưng Đạo vương cho / đóng cọc chắn ngang / sông Bạch Đằng.
+sub: 2 | 0.4-9.2 | Chặt que. / Que to bằng đùi mày, / dài hơn hai người. / Chặt cả cây lim, / đừng hỏi lại.
+sub: 3 | 0.4-9.2 | Họ bảo em đi chặt que… / que gì mà ôm không hết. / Cây này mà là que… / thì em là con kiến.
+sub: 4 | 0.8-9.2 | Hàng nghìn thân lim / được kéo xuống bờ sông, / đẽo nhọn, không bịt sắt… / chỉ chờ nước ròng.
+sub: 5 | 0.4-9.2 | Một cái que / tám người khiêng… / em đi trước cầm đuốc, / lo phần chỉ đường, / giữa ban ngày.
+sub: 6 | 0.8-9.2 | Nước ròng. / Cả lòng sông lộ ra. / Hàng trăm giá ba chân / dựng lên cùng một lúc.
+sub: 7 | 0.4-9.2 | Kéo… thả! / Kéo… thả! / Mỗi nhát một tấc! / Nước lên mà chưa xong / hàng này thì đừng ai về!
+sub: 8 | 0.4-9.2 | Em hô sớm một nhịp… / cả đội quay lại nhìn. / Từ giờ em chỉ kéo, / không hô nữa.
+sub: 9 | 0.8-9.2 | Hàng nối hàng, / cọc lim chắn ngang / cả lòng sông rộng, / đầu nhọn chĩa ra biển.
+sub: 10 | 0.4-9.2 | Nước rút đúng giờ Thìn. / Cọc phải thấp hơn / mặt nước lên… / thì thuyền lớn mới mắc.
+sub: 11 | 0.4-9.2 | Ông nói nước / như nói hẹn bạn… / Em ngồi xem nước cả tuần, / vợ hỏi, em không dám nói.
+sub: 12 | 0.4-9.2 | Nước lên… / cọc biến mất. / Cả trận đánh trông vào / một buổi sáng… / và giờ nước rút.
