@@ -18,15 +18,15 @@ clip: bd1288-tap7-10.mp4 |
 clip: bd1288-tap7-11.mp4 |  | chuyen=fade:0.5
 clip: bd1288-tap7-12.mp4 | 
 
-sub: 1 | 0.4-9.2 | Lá bưởi, sả, hương nhu… / nồi nước thơm thế này / mà không cho em tắm, / chỉ bảo đun. / Tắm cho ai, không ai nói.
+sub: 1 | 0.4-9.2 | Nồi nước thơm thế này… / em xin tắm trước, / người ta bảo: / ủa rồi ai mượn? / Thôi em đun tiếp.
 sub: 2 | 0.8-9.2 | Hưng Đạo vương / và Thượng tướng / Quang Khải / vốn không hòa thuận… / vậy mà ông tự tay / tắm cho Quang Khải.
-sub: 3 | 0.4-9.2 | Giận nhau mấy chục năm… / làm lành bằng / một chậu nước. / Thân chưa mà / thân kiểu đó?
+sub: 3 | 0.4-9.2 | Giận nhau mấy chục năm… / làm lành bằng chậu nước. / Em với vợ giận nhau, / đun cả nồi / vẫn chưa đủ wow.
 sub: 4 | 0.8-9.2 | Đầu tháng tư năm 1288, / Hưng Đạo vương / dẫn quân ra Bạch Đằng. / Qua sông Hóa…
 sub: 5 | 1.2-8.8 | Trần Hưng Đạo: / Trận này không phá xong / giặc Nguyên… / thì ta không về / đến sông này nữa!
-sub: 6 | 0.4-9.2 | Ông thề không về / khúc sông này… / còn em tối nay / phải chèo về một mình. / Tôi ổn… chỉ hơi không ổn.
+sub: 6 | 0.4-9.2 | Ông thề không về / khúc sông này… / Em chèo về một mình / giữa đêm… / tới công chuyện rồi.
 sub: 7 | 0.4-9.2 | Sáng nay đi thua. / Thua cho giống, / chạy cho chậm. / Ai lỡ thắng / thì về chịu phạt!
-sub: 8 | 0.4-9.2 | Cả quân vừa thề thắng… / em được giao đi thua. / Nghe cũng hợp lý… / nhưng chưa hợp với em.
+sub: 8 | 0.4-9.2 | Cả quân thề thắng… / mỗi em được giao thua. / Đúng nhận, sai cãi… / mà lệnh thì / em không dám cãi.
 sub: 9 | 0.8-9.2 | Thuyền nhẹ ra khiêu chiến / rồi giả thua. / Hạm đội Ô Mã Nhi / đuổi theo… / vào thẳng sông Bạch Đằng.
-sub: 10 | 0.4-9.2 | Chạy chậm thôi các bác, / cho người ta theo kịp… / Cái gì vậy trời, / họ theo thật rồi!
+sub: 10 | 0.4-9.2 | Chạy chậm thôi các bác… / họ theo thật rồi! / Trăm thuyền đuổi / một thuyền em… / Nín. Chèo tiếp.
 sub: 11 | 0.8-9.2 | Nước triều đang lên, / che kín bãi cọc. / Không ai trên thuyền giặc / biết thứ đang chờ / dưới mặt sông.
-sub: 12 | 0.4-9.2 | Được lệnh thua… / mà phải thua cho khéo. / Giờ thì tới lượt / mấy cái que của em / ra sân.
+sub: 12 | 0.4-9.2 | Được lệnh thua… / mà phải thua cho khéo. / Giặc hỏi dưới sông / có gì à? / Dạ… gỗ lim ạ.

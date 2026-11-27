@@ -83,13 +83,13 @@ SCENES = {
 
 CLIPS = [
     dict(scene="A", who="tu", label="Trước trận Bạch Đằng",
-         line=(0.4, 9.2, "Lá bưởi, sả, hương nhu… / nồi nước thơm thế này / mà không cho em tắm, / chỉ bảo đun. / Tắm cho ai, không ai nói."),
+         line=(0.4, 9.2, "Nồi nước thơm thế này… / em xin tắm trước, / người ta bảo: / ủa rồi ai mượn? / Thôi em đun tiếp."),
          cam="Anh Tư alone in frame stirring the steaming cauldron, sniffing the fragrant steam, then looking at the camera"),
     dict(scene="A", who="narr",
          line=(0.8, 9.2, "Hưng Đạo vương / và Thượng tướng / Quang Khải / vốn không hòa thuận… / vậy mà ông tự tay / tắm cho Quang Khải."),
          cam="from behind the two lords at the wooden tub: one gently pours a scoop of fragrant water over the shoulders of the other, steam rising in the golden light; no faces visible"),
     dict(scene="A", who="tu",
-         line=(0.4, 9.2, "Giận nhau mấy chục năm… / làm lành bằng / một chậu nước. / Thân chưa mà / thân kiểu đó?"),
+         line=(0.4, 9.2, "Giận nhau mấy chục năm… / làm lành bằng chậu nước. / Em với vợ giận nhau, / đun cả nồi / vẫn chưa đủ wow."),
          cam="Anh Tư alone in frame by the fire, ladle in hand, eyebrows raised, a faint smile; the lords are out of frame"),
     dict(scene="B", who="narr", chuyen="fadeblack:0.6", label="Đầu tháng 4/1288",
          line=(0.8, 9.2, "Đầu tháng tư năm 1288, / Hưng Đạo vương / dẫn quân ra Bạch Đằng. / Qua sông Hóa…"),
@@ -98,25 +98,25 @@ CLIPS = [
          line=(1.2, 8.8, "Trận này không phá xong / giặc Nguyên… / thì ta không về / đến sông này nữa!"),
          cam="from behind Trần Hưng Đạo at the prow as he raises his hand over the water and speaks each word slowly and gravely, with weight; one deep drum beat at the end; his face never visible; the oarsman is out of frame"),
     dict(scene="B", who="tu",
-         line=(0.4, 9.2, "Ông thề không về / khúc sông này… / còn em tối nay / phải chèo về một mình. / Tôi ổn… chỉ hơi không ổn."),
+         line=(0.4, 9.2, "Ông thề không về / khúc sông này… / Em chèo về một mình / giữa đêm… / tới công chuyện rồi."),
          cam="Anh Tư alone in frame at the stern, still rowing, swallowing, then glancing at the camera; the general is out of frame"),
     dict(scene="C", who="cai", chuyen="fadeblack:0.6", label="Rạng sáng 9/4/1288",
          line=(0.4, 9.2, "Sáng nay đi thua. / Thua cho giống, / chạy cho chậm. / Ai lỡ thắng / thì về chịu phạt!"),
          cam="the squad leader standing in the lead boat faces the camera; Anh Tư is out of frame"),
     dict(scene="C", who="tu",
-         line=(0.4, 9.2, "Cả quân vừa thề thắng… / em được giao đi thua. / Nghe cũng hợp lý… / nhưng chưa hợp với em."),
+         line=(0.4, 9.2, "Cả quân thề thắng… / mỗi em được giao thua. / Đúng nhận, sai cãi… / mà lệnh thì / em không dám cãi."),
          cam="Anh Tư alone in frame at his oar in the blue mist, a short pause, a small sigh"),
     dict(scene="D", who="narr", chuyen="fade:0.3",
          line=(0.8, 9.2, "Thuyền nhẹ ra khiêu chiến / rồi giả thua. / Hạm đội Ô Mã Nhi / đuổi theo… / vào thẳng sông Bạch Đằng."),
          cam="huge aerial at sunrise: the small boats turn and flee, the vast fleet surges after them between the karsts; no faces close enough to see"),
     dict(scene="D", who="tu",
-         line=(0.4, 9.2, "Chạy chậm thôi các bác, / cho người ta theo kịp… / Cái gì vậy trời, / họ theo thật rồi!"),
+         line=(0.4, 9.2, "Chạy chậm thôi các bác… / họ theo thật rồi! / Trăm thuyền đuổi / một thuyền em… / Nín. Chèo tiếp."),
          cam="tracking shot alongside Anh Tư rowing hard; he glances back at the wall of sails closing in; nobody else speaks"),
     dict(scene="E", who="narr", chuyen="fade:0.5",
          line=(0.8, 9.2, "Nước triều đang lên, / che kín bãi cọc. / Không ai trên thuyền giặc / biết thứ đang chờ / dưới mặt sông."),
          cam="slow aerial descending to the water surface as the great fleet glides over the faint ripples; then underwater: dark hulls pass just above the giant stake tips; no faces visible"),
     dict(scene="E", who="tu",
-         line=(0.4, 9.2, "Được lệnh thua… / mà phải thua cho khéo. / Giờ thì tới lượt / mấy cái que của em / ra sân."),
+         line=(0.4, 9.2, "Được lệnh thua… / mà phải thua cho khéo. / Giặc hỏi dưới sông / có gì à? / Dạ… gỗ lim ạ."),
          cam="Anh Tư beside his boat in the reeds, catching his breath, watching the fleet sail over the stakes, then turning to the camera, calm"),
 ]
 WHO = {"tu": "ANH TƯ", "hd": "TRẦN HƯNG ĐẠO (seen only from behind)", "cai": "THE SQUAD LEADER",
@@ -145,7 +145,7 @@ POV: Cả quân thề / phải thắng… / còn bạn được lệnh thua
 
 Hook dự phòng:
 ```
-POV: Bạn đun nồi nước thơm / mà không biết / tắm cho ai
+POV: Bạn đun nồi nước thơm / xin tắm trước / thì bị hỏi: ai mượn?
 POV: Được lệnh thua / mà phải thua cho khéo
 ```
 
@@ -203,7 +203,7 @@ Cả nhà ơi, 19h tối nay có tập 7 loạt Bạch Đằng 1288 nè 🛁
 
 Nồi nước thơm trong trailer đây rồi: hai trụ cột nhà Trần giận nhau mấy chục năm… làm lành bằng một chậu nước.
 
-Rồi cả quân thề phải thắng… còn tui được giao đi thua 😂 Nghe cũng hợp lý, nhưng chưa hợp với tui.
+Rồi cả quân thề phải thắng… mỗi tui được giao đi thua 😂 Đúng nhận, sai cãi… mà lệnh thì tui không dám cãi.
 
 Cả nhà đoán vì sao phải thua cho giặc đuổi? 👇
 
@@ -236,8 +236,8 @@ def main():
           "- **Nước lên che bãi cọc** (clip 11–12): hạm đội lướt qua ngay trên đầu cọc mà không biết; câu chốt dẫn sang trận Bạch Đằng.",
           "- **Âm thanh:** cảnh nồi nước chỉ có sáo trúc nhẹ; từ cảnh qua sông trở đi nhạc giao hưởng trống trận dâng dần, cảnh đuổi "
           "đánh mạnh nhất, cảnh nước lên giữ một nốt căng. Nhạc luôn nằm dưới lời nói.",
-          "- **Câu trending 2026** (chỉ Anh Tư, mỗi clip tối đa một câu): \"thân chưa mà… kiểu đó\", \"tôi ổn, chỉ hơi không ổn\", "
-          "\"nghe cũng hợp lý, nhưng chưa hợp với em\", \"cái gì vậy trời\".",
+          "- **Câu trending 2026** (chỉ Anh Tư, mỗi clip tối đa một câu): \"ủa rồi ai mượn\", \"chưa đủ wow\", \"tới công chuyện rồi\", "
+          "\"đúng nhận, sai cãi\", \"nín\", \"dạ… gỗ lim ạ\" (chế từ \"dạ gỗ xà cừ ạ\").",
           "- Mỗi clip một người nói, lời lấp gần kín 10 giây; cảnh nào khóa bối cảnh cảnh đó. Năm trong lời thoại đã viết thành chữ.", "",
           "**Lịch sử:** Hưng Đạo vương và Thượng tướng Trần Quang Khải vốn không hòa thuận, Hưng Đạo tự tay tắm cho Quang Khải bằng "
           "nước thơm để làm lành (B, *Toàn thư*; sử không ghi đúng ngày, video chỉ nói \"trước trận Bạch Đằng\" ở nhãn, không "
