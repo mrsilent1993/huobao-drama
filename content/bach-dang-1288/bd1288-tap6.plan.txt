@@ -20,13 +20,13 @@ clip: bd1288-tap6-12.mp4 |  | chuyen=fadeblack:0.6
 
 sub: 1 | 0.8-9.2 | Cuối tháng ba năm 1288. / Hưng Đạo vương cho / đóng cọc chắn ngang / sông Bạch Đằng.
 sub: 2 | 0.4-9.2 | Chặt que. / Que to bằng đùi mày, / dài hơn hai người. / Chặt cả cây lim, / đừng hỏi lại.
-sub: 3 | 0.4-9.2 | Họ bảo đi chặt que… / ủa alo, que gì / mà ôm không hết? / Cây này mà là que / thì em là con kiến.
+sub: 3 | 0.4-9.2 | Que gì mà ôm không hết? / Cây này mà là que / thì em là con kiến. / Xin phép / được bất lực.
 sub: 4 | 0.8-9.2 | Hàng nghìn thân lim / được kéo xuống bờ sông, / đẽo nhọn, không bịt sắt… / chỉ chờ nước ròng.
-sub: 5 | 0.4-9.2 | Tám người khiêng một que… / em cầm đuốc / giữa ban ngày. / Không khiêng gì cả / mà vẫn đỉnh nóc / kịch trần.
+sub: 5 | 0.4-9.2 | Tám người khiêng một que… / em cầm đuốc / giữa ban ngày, / đi trước / cho có bá khí.
 sub: 6 | 0.8-9.2 | Nước ròng. / Cả lòng sông lộ ra. / Hàng trăm giá ba chân / dựng lên cùng một lúc.
 sub: 7 | 0.4-9.2 | Kéo… thả! / Kéo… thả! / Mỗi nhát một tấc! / Nước lên mà chưa xong / hàng này thì đừng ai về!
-sub: 8 | 0.4-9.2 | Em hô sớm một nhịp… / cả đội quay lại nhìn. / Ét ô ét… / từ giờ em chỉ kéo, / không hô nữa.
+sub: 8 | 0.4-9.2 | Cả trăm người / hô đúng nhịp, / mỗi em hô sớm. / Hên lắm mới xui / được như vậy.
 sub: 9 | 0.8-9.2 | Hàng nối hàng, / cọc lim chắn ngang / cả lòng sông rộng, / đầu nhọn chĩa ra biển.
 sub: 10 | 0.4-9.2 | Nước rút đúng giờ Thìn. / Cọc phải thấp hơn / mặt nước lên… / thì thuyền lớn mới mắc.
-sub: 11 | 0.4-9.2 | Ngồi xem nước cả tuần… / vợ hỏi làm gì, / em bảo: lo việc nước. / Đúng mà… / nước sông Bạch Đằng.
-sub: 12 | 0.4-9.2 | Nước lên… / cọc biến mất. / Giặc mà qua đây… / là tới công chuyện. / Cả trận trông vào / nước rút.
+sub: 11 | 0.4-9.2 | Ngồi xem nước cả tuần… / vợ hỏi làm gì, / em bảo: lo việc nước. / Nói ít hiểu nhiều… / nước sông Bạch Đằng.
+sub: 12 | 0.4-9.2 | Nước lên… / cọc biến mất. / Giặc mà qua đây… / ai sợ thì đi về, / không sợ thì ở lại.
