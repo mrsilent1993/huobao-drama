@@ -5,20 +5,16 @@ Mỗi clip một người nói, khóa bối cảnh theo cảnh. Chạy: python3 
 import os
 import sys
 
-from _tap3 import FACE, V_TU, RULES, SO_RULE, noi, spoken
+from _tap3 import FACE, V_TU, SO_RULE, noi, spoken
+from series import loi_muse, tieng_viet
 from _gioi_thieu import STAKE
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 
-BASE = ("EPIC cinematic historical film on a grand scale, live-action, photorealistic, sweeping aerial, crane and drone "
-        "shots, thousands of extras, volumetric light through mist, rich film grain, vertical 9:16. Đại Việt, early April "
-        "1288, the Trần kingdom and the Bạch Đằng estuary: wide brown tidal rivers between hundreds of towering limestone "
-        "karsts, mangrove banks. Trần people: hair in topknots, black-lacquered teeth, brown or dark cotton tunics; Trần "
-        "Hưng Đạo and other generals are seen ONLY from behind or far away, never their faces. Yuan fleet: big wooden "
-        "war junks with matting sails, soldiers in lamellar armor. " + STAKE + " No modern objects, no on-screen text, no "
-        "subtitles, no legible writing, ABSOLUTELY NO FLAGS OR BANNERS OF ANY KIND, no blood, no gore, no dead bodies, no "
-        "children. The humor is in what Anh Tư says, not in his face; everyone else stays serious.")
-AUDIO = "Audio: {amb}; any music stays UNDER the voice so every word is perfectly clear. All dialogue in Vietnamese."
+BASE = ("Epic cinematic historical film, live-action, photorealistic, sweeping aerial and crane shots, vertical 9:16. "
+        "Vietnam, Trần dynasty, April 1288: topknots, black-lacquered teeth, brown cotton tunics; Trần Hưng Đạo and other "
+        "generals seen ONLY from behind. No text, no subtitles, NO FLAGS OR BANNERS, no blood, no bodies, no children.")
+AUDIO = "Audio: {amb}; any music stays very quiet, far UNDER the voice, so every Vietnamese word is perfectly clear."
 EPIC = ("an original epic orchestral score with deep war drums, low male choir hum, low strings, horns and a bamboo "
         "flute motif")
 V_NARR = ("Narrator = a calm, deep, slow male baritone with a Northern Vietnamese accent, documentary style, OFF-SCREEN "
@@ -70,7 +66,7 @@ SCENES = {
                    "vertical 9:16."),
               amb=f"rushing water, hundreds of oars, creaking sails, distant war cries, {EPIC} driving hard"),
     "E": dict(name="Nước lên che bãi cọc",
-              lock=("SCENE E (keep IDENTICAL in every clip of this scene): morning high tide on the Bạch Đằng river: smooth "
+              lock=(STAKE + " SCENE E (keep IDENTICAL in every clip of this scene): morning high tide on the Bạch Đằng river: smooth "
                     "golden water covers the whole hidden forest of stakes, only faint ripples where the tips lie just "
                     "beneath; the great Yuan fleet sails deeper upriver right over them; on the far bank in the reeds, "
                     "beyond the stake field, the small light boats are pulled up and Anh Tư stands beside his boat, panting."),
@@ -89,7 +85,7 @@ CLIPS = [
          line=(0.8, 9.2, "Hưng Đạo vương / và Thượng tướng / Quang Khải / vốn không hòa thuận… / vậy mà ông tự tay / tắm cho Quang Khải."),
          cam="from behind the two lords at the wooden tub: one gently pours a scoop of fragrant water over the shoulders of the other, steam rising in the golden light; no faces visible"),
     dict(scene="A", who="tu",
-         line=(0.4, 9.2, "Giận nhau mấy chục năm… / làm lành bằng chậu nước. / Em với vợ giận nhau, / đun cả nồi / vẫn chưa đủ wow."),
+         line=(0.4, 9.2, "Giận nhau mấy chục năm… / làm lành bằng chậu nước. / Em với vợ giận nhau, / đun cả nồi, / vợ vẫn chưa thèm nhìn."),
          cam="Anh Tư alone in frame by the fire, ladle in hand, eyebrows raised, a faint smile; the lords are out of frame"),
     dict(scene="B", who="narr", chuyen="fadeblack:0.6", label="Đầu tháng 4/1288",
          line=(0.8, 9.2, "Đầu tháng tư năm 1288, / Hưng Đạo vương / dẫn quân ra Bạch Đằng. / Qua sông Hóa…"),
@@ -127,13 +123,14 @@ PREFIX = {"tu": "", "hd": "Trần Hưng Đạo: / ", "cai": "", "narr": ""}
 
 
 def video_prompt(c):
+    """Lời tiếng Việt đặt ĐẦU prompt, rồi mới tới bối cảnh, máy quay, âm thanh (Muse đọc rõ hơn)."""
     a, b, text = c["line"]
     sc = SCENES[c["scene"]]
-    face = FACE + "." if c["who"] == "tu" or "{FACE}" in sc["img"] else ""
+    face = FACE + "." if c["who"] == "tu" or "Anh Tư" in c["cam"] else ""
     return " ".join(x for x in [
-        BASE, sc["lock"], face, RULES.format(who=WHO[c["who"]]),
-        f"0-{a:.1f}s: silence. {a:.1f}-{b:.1f}s: ONLY {WHO[c['who']]} speaks: \"{noi(text)}\" {b:.1f}-10s: a short beat, hold the shot.",
-        f"Camera: {c['cam']}.", f"VOICE: {VOICE[c['who']]}.", AUDIO.format(amb=sc["amb"]), SO_RULE] if x)
+        tieng_viet(WHO[c["who"]], VOICE[c["who"]], loi_muse(text), a, b),
+        "One continuous 10-second shot, no cut.", f"Camera: {c['cam']}.", sc["lock"], face, BASE,
+        AUDIO.format(amb=sc["amb"]), SO_RULE] if x)
 
 
 DANG_BAI = """## Đăng TikTok
@@ -236,8 +233,11 @@ def main():
           "- **Nước lên che bãi cọc** (clip 11–12): hạm đội lướt qua ngay trên đầu cọc mà không biết; câu chốt dẫn sang trận Bạch Đằng.",
           "- **Âm thanh:** cảnh nồi nước chỉ có sáo trúc nhẹ; từ cảnh qua sông trở đi nhạc giao hưởng trống trận dâng dần, cảnh đuổi "
           "đánh mạnh nhất, cảnh nước lên giữ một nốt căng. Nhạc luôn nằm dưới lời nói.",
-          "- **Câu trending 2026** (chỉ Anh Tư, mỗi clip tối đa một câu): \"ủa rồi ai mượn\", \"chưa đủ wow\", \"tới công chuyện rồi\", "
+          "- **Câu trending 2026** (chỉ Anh Tư, mỗi clip tối đa một câu): \"ủa rồi ai mượn\", \"tới công chuyện rồi\", "
           "\"đúng nhận, sai cãi\", \"nín\", \"dạ… gỗ lim ạ\" (chế từ \"dạ gỗ xà cừ ạ\").",
+          "- **Để Muse nói đúng tiếng Việt (sửa 27/11):** câu nói đặt **ngay đầu** prompt, kèm lệnh chỉ nói tiếng Việt, phát âm rõ "
+          "từng thanh điệu; lời gửi Muse bỏ hết dấu \"…\" (đổi thành dấu phẩy) và không có chữ tiếng Anh; prompt gọn hơn; nhạc "
+          "để rất nhỏ dưới lời. Phụ đề vẫn giữ dấu \"…\" cho dễ đọc.",
           "- Mỗi clip một người nói, lời lấp gần kín 10 giây; cảnh nào khóa bối cảnh cảnh đó. Năm trong lời thoại đã viết thành chữ.", "",
           "**Lịch sử:** Hưng Đạo vương và Thượng tướng Trần Quang Khải vốn không hòa thuận, Hưng Đạo tự tay tắm cho Quang Khải bằng "
           "nước thơm để làm lành (B, *Toàn thư*; sử không ghi đúng ngày, video chỉ nói \"trước trận Bạch Đằng\" ở nhãn, không "

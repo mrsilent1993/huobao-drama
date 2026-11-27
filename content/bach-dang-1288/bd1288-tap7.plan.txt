@@ -20,7 +20,7 @@ clip: bd1288-tap7-12.mp4 |
 
 sub: 1 | 0.4-9.2 | Nồi nước thơm thế này… / em xin tắm trước, / người ta bảo: / ủa rồi ai mượn? / Thôi em đun tiếp.
 sub: 2 | 0.8-9.2 | Hưng Đạo vương / và Thượng tướng / Quang Khải / vốn không hòa thuận… / vậy mà ông tự tay / tắm cho Quang Khải.
-sub: 3 | 0.4-9.2 | Giận nhau mấy chục năm… / làm lành bằng chậu nước. / Em với vợ giận nhau, / đun cả nồi / vẫn chưa đủ wow.
+sub: 3 | 0.4-9.2 | Giận nhau mấy chục năm… / làm lành bằng chậu nước. / Em với vợ giận nhau, / đun cả nồi, / vợ vẫn chưa thèm nhìn.
 sub: 4 | 0.8-9.2 | Đầu tháng tư năm 1288, / Hưng Đạo vương / dẫn quân ra Bạch Đằng. / Qua sông Hóa…
 sub: 5 | 1.2-8.8 | Trần Hưng Đạo: / Trận này không phá xong / giặc Nguyên… / thì ta không về / đến sông này nữa!
 sub: 6 | 0.4-9.2 | Ông thề không về / khúc sông này… / Em chèo về một mình / giữa đêm… / tới công chuyện rồi.

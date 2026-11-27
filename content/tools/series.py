@@ -123,6 +123,27 @@ def doc_so_trong_loi(prompt):
     return re.sub(r'"[^"]*"', lambda m: so_thanh_chu(m.group()), prompt)
 
 
+
+# LỜI GỬI MUSE (26/11/2026): Muse đọc tiếng Việt rõ hơn khi câu nói nằm ĐẦU prompt, không có dấu "…" và không lẫn
+# chữ tiếng Anh. loi_muse() làm sạch câu nói; TIENG_VIET mở đầu mọi prompt video có lời.
+def loi_muse(text):
+    """Câu thoại gửi Muse: bỏ dấu ngắt dòng " / ", đổi "…"/"..." thành dấu phẩy, số thành chữ."""
+    t = text.replace(" / ", " ").replace("…", ",").replace("...", ",")
+    t = re.sub(r",\s*([,.!?])", r"\1", t)
+    t = re.sub(r",(?=\S)", ", ", t)
+    t = re.sub(r"\s+", " ", t).strip().rstrip(",") 
+    if t and t[-1] not in ".!?":
+        t += "."
+    return so_thanh_chu(t)
+
+
+def tieng_viet(who, voice, line, a, b):
+    return (f"SPOKEN LANGUAGE: VIETNAMESE ONLY (tiếng Việt), clear standard Northern Vietnamese pronunciation, every "
+            f"syllable and tone pronounced clearly and naturally, never English, never Chinese, never gibberish or "
+            f"invented words. From {a:.1f}s to {b:.1f}s ONLY {who} speaks, once, at a calm natural pace, exactly these "
+            f"Vietnamese words and nothing else: \"{line}\" Voice: {voice}. Nobody else speaks; everyone else keeps "
+            f"their mouth closed.")
+
 SO_RULE = ("All numbers and years in the dialogue are written out in Vietnamese words: read them EXACTLY as written, "
            "word by word, never as digits, never shortened, never in another language.")
 
