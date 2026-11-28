@@ -39,16 +39,23 @@ SCENES = {
                    "reeds with bows, {FACE}, crouching beside a notched bamboo measuring pole at the water's edge, "
                    "realistic, vertical 9:16."),
               amb="soft lapping water, birds waking, total silence of hidden men, a very low drum far away"),
-    "B": dict(name="Nước rút, rừng cọc nhô lên",
-              lock=(STAKE + " SCENE B (keep IDENTICAL in every clip of this scene): mid-morning on the Bạch Đằng river, the "
-                    "tide visibly draining; row after row of giant pointed ironwood stake tips rise out of the falling "
-                    "water across the whole river, like a forest growing out of the river; the big Yuan junks among them "
-                    "begin to lurch and tilt. Anh Tư stands on the bank by his measuring pole."),
-              img=("Epic aerial at mid-morning over a wide river between limestone karsts, the tide draining, rows of giant "
-                   "pointed wooden stake tips rising out of the water across the whole river like a forest, big wooden "
-                   "junks beginning to tilt among them, {FACE}, standing on the bank by a bamboo measuring pole, "
-                   "realistic, vertical 9:16."),
-              amb=f"draining water, creaking hulls, gulls, {EPIC} building slowly"),
+    "B": dict(name="Đoàn thuyền đang tiến vào thì nước rút",
+              lock=(STAKE + " SCENE B (keep IDENTICAL in every clip of this scene): mid-morning on the Bạch Đằng river between "
+                    "towering karsts: the great Yuan fleet, more than a hundred big war junks with full matting sails, is "
+                    "STILL SAILING UPRIVER in long columns, soldiers in lamellar armor crowding the decks; the tide is falling "
+                    "fast, the waterline visibly sinking along the muddy banks; just beneath and then above the surface, rows "
+                    "of giant pointed ironwood stake tips appear right in front of and between the ships. The lead junks "
+                    "jolt to a sudden stop as their hulls scrape onto the stakes, masts whip forward, sails flap; soldiers "
+                    "are thrown off balance, grab ropes and rails, rush to the sides and stare down in shock, officers shout "
+                    "and point; the ships behind cannot stop and bump into the stuck ones ahead. Nobody falls into the water, "
+                    "no injuries. On the bank among the reeds, Anh Tư stands by his notched bamboo measuring pole."),
+              img=("Epic shot at mid-morning on a wide river between limestone karsts: a great fleet of big wooden war junks "
+                   "with full matting sails still sailing upriver in long columns, soldiers in lamellar armor crowding the "
+                   "decks, the tide falling fast with the waterline sinking along muddy banks, rows of giant pointed wooden "
+                   "stake tips breaking the surface right in front of the lead ships, the first junk jolting to a stop with "
+                   "its mast whipping forward and soldiers grabbing the rails in shock, {FACE}, watching from the reeds by a "
+                   "bamboo measuring pole, realistic, vertical 9:16."),
+              amb=f"creaking hulls, wind in full sails, water draining, a sudden grinding crunch of wood on wood, shouting on the decks, {EPIC} rising"),
     "C": dict(name="Quân Trần ba mặt đánh vào",
               lock=("SCENE C (keep IDENTICAL in every clip of this scene): the great battle on the Bạch Đằng river at late "
                     "morning: from upstream and from both banks hundreds of small light Trần war boats charge in at full "
@@ -93,8 +100,12 @@ CLIPS = [
          line=(0.4, 9.2, "Em nằm đây từ sáng… / muỗi đốt bốn mươi phát, / không dám đập. / Đập một cái… / là lộ cả đạo quân."),
          cam="close-up of Anh Tư alone lying in the reeds, a mosquito lands on his nose; he crosses his eyes at it but does not move, whispering to the camera"),
     dict(scene="B", who="narr", chuyen="fade:0.5",
-         line=(0.8, 9.2, "Rồi nước bắt đầu rút. / Từng đầu cọc lim / nhô lên giữa lòng sông, / như một khu rừng mọc dậy."),
-         cam="grand time-lapse aerial as the water drains and the stake tips rise row after row across the river; no faces close enough to see"),
+         line=(0.8, 9.2, "Đoàn thuyền vẫn tiến vào… / thì nước bắt đầu rút. / Cọc lim nhô lên / ngay trước mũi thuyền. / Giặc trở tay không kịp."),
+         cam="three beats in one continuous move: 0-3s low aerial following the fleet as it sails proudly upriver on calm water; "
+             "3-6s the camera drops close to the water as the level sinks and the giant stake tips rise just ahead of the bows; "
+             "6-10s the lead junk crunches onto the stakes and jolts to a stop, the mast whips forward, soldiers stumble, grab the "
+             "rails and rush to look over the side in shock while the next ship bumps into it from behind; no faces close enough "
+             "to see anyone speak"),
     dict(scene="B", who="tu",
          line=(0.8, 8.8, "Rút rồi! À không… sóng. / Rút thật rồi! / Mấy cái que / em ôm không hết… / giờ nhô lên chào giặc!"),
          cam="Anh Tư alone on the bank watching his measuring pole, then staring at the river as the stakes appear"),
@@ -231,7 +242,7 @@ def main():
           "trầm; cai đội thì thầm gắt; quan Nguyên hốt hoảng.", "",
           "## Mạch tập", "",
           "- **Chờ nước** (clip 1–3): hạm đội Nguyên vào sâu trong sông; cai đội dặn nằm im xem nước; Anh Tư nằm cho muỗi đốt mà không dám đập.",
-          "- **Nước rút** (clip 4–5): đầu cọc lim nhô lên hàng hàng lớp lớp, như rừng mọc dậy giữa sông.",
+          "- **Đang tiến vào thì nước rút** (clip 4–5): hạm đội còn căng buồm tiến vào thì nước rút nhanh, cọc lim nhô lên ngay trước mũi thuyền; thuyền đầu va cọc khựng lại, cột buồm chúi tới, lính trên boong chao đảo, bám mạn, nhoài người nhìn xuống, thuyền sau đâm vào thuyền trước: trở tay không kịp.",
           "- **Ba mặt đánh vào** (clip 6–7): Hưng Đạo vương từ thượng lưu, hai vua Trần từ hai bên, bộ binh hai bờ; hàng trăm thuyền nhẹ lao ra.",
           "- **Giữa bãi cọc** (clip 8–10): thuyền lớn mắc cọc, vỡ ván, gãy buồm, càng lùi càng mắc; quan Nguyên hốt hoảng; Anh Tư vỗ cây cọc.",
           "- **Hoàng hôn** (clip 11–12): trận kéo dài tới chiều tối, cả khúc sông thành cái bẫy; câu chốt.",

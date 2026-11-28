@@ -21,7 +21,7 @@ clip: bd1288-tap8-12.mp4 |
 sub: 1 | 0.8-9.2 | Sáng ngày chín tháng tư / năm 1288. / Hạm đội Nguyên / đã vào sâu / trong sông Bạch Đằng.
 sub: 2 | 0.4-9.2 | Nằm im, nhìn nước. / Hết nước thì đánh. / Đứa nào ho… / ra sông mà ho / với cá.
 sub: 3 | 0.4-9.2 | Em nằm đây từ sáng… / muỗi đốt bốn mươi phát, / không dám đập. / Đập một cái… / là lộ cả đạo quân.
-sub: 4 | 0.8-9.2 | Rồi nước bắt đầu rút. / Từng đầu cọc lim / nhô lên giữa lòng sông, / như một khu rừng mọc dậy.
+sub: 4 | 0.8-9.2 | Đoàn thuyền vẫn tiến vào… / thì nước bắt đầu rút. / Cọc lim nhô lên / ngay trước mũi thuyền. / Giặc trở tay không kịp.
 sub: 5 | 0.8-8.8 | Rút rồi! À không… sóng. / Rút thật rồi! / Mấy cái que / em ôm không hết… / giờ nhô lên chào giặc!
 sub: 6 | 0.8-9.2 | Từ thượng lưu, / Hưng Đạo vương / đánh xuống. / Hai vua Trần / đem quân từ hai bên / ập vào.
 sub: 7 | 0.4-9.2 | Thuyền họ to như đình… / giờ đứng im / như đình thật. / Em chèo ngang qua / còn kịp vái một cái.
