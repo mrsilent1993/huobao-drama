@@ -27,6 +27,22 @@ V_CAI = "a clipped, gruff male voice in his 40s, Northern Vietnamese accent, sho
 V_QUAN = ("a harsh, panicked male voice in his 40s speaking Vietnamese with a slight foreign accent, shouting orders "
           "but every word clear")
 
+# Khối thực thể có số đo (skill seedance-epic-fantasy-scifi): độ lớn mua bằng vật so sánh và góc thấp, không bằng chữ "epic".
+ENT = {
+    "fleet": ("FLEET: more than a hundred big Yuan wooden war junks, each about 30 m long; the side rail stands about 5 m "
+              "above the water, three times the height of a soldier on deck; four huge bamboo-mat sails per ship, each about "
+              "20 m tall. Appearance and number only."),
+    "stake": ("STAKES: each stake is ONE whole stripped ironwood tree trunk, as thick as a grown man's thigh (20-30 cm), "
+              "2.5-3 m long, crude sharpened tip, no iron tip; rows slanting downstream; even at low tide the exposed part "
+              "stands taller than a man beside it. Appearance only."),
+    "river": ("RIVER: the Bạch Đằng is about 600 m wide between 200 m tall limestone karst cliffs and mangroves; the stake "
+              "field spans the whole river, about 150 m deep. Environment only."),
+    "boats": ("TRẦN BOATS: hundreds of small flat-bottomed wooden boats, each about 6 m long with six rowers, one fifth the "
+              "length of a junk and lower than half its side rail. Appearance only."),
+}
+TECH = ("Technical: volumetric fog, god rays through mist and smoke, photorealistic film VFX, 35 mm film grain, slight "
+        "anamorphic flare, grade dark teal-grey and gold.")
+
 SCENES = {
     "A": dict(name="Hạm đội Nguyên tiến vào lúc triều lên",
               lock=("SCENE A (keep IDENTICAL in every clip of this scene): early morning, full high tide on the wide Bạch Đằng "
@@ -46,15 +62,9 @@ SCENES = {
                    "beside a notched bamboo measuring pole, realistic, vertical 9:16."),
               amb="rustling reeds, lapping water, the fleet's drums passing, mosquitoes buzzing close"),
     "B": dict(name="Đoàn thuyền đang tiến vào thì nước rút",
-              lock=(STAKE + " SCENE B (keep IDENTICAL in every clip of this scene): mid-morning on the Bạch Đằng river between "
-                    "towering karsts: the great Yuan fleet, more than a hundred big war junks with full matting sails, is "
-                    "STILL SAILING UPRIVER in long columns, soldiers in lamellar armor crowding the decks; the tide is falling "
-                    "fast, the waterline visibly sinking along the muddy banks; just beneath and then above the surface, rows "
-                    "of giant pointed ironwood stake tips appear right in front of and between the ships. The lead junks "
-                    "jolt to a sudden stop as their hulls scrape onto the stakes, masts whip forward, sails flap; soldiers "
-                    "are thrown off balance, grab ropes and rails, rush to the sides and stare down in shock, officers shout "
-                    "and point; the ships behind cannot stop and bump into the stuck ones ahead. Nobody falls into the water, "
-                    "no injuries. On the bank among the reeds, Anh Tư stands by his notched bamboo measuring pole."),
+              lock=("SCENE B (keep IDENTICAL in every clip of this scene): mid-morning on the Bạch Đằng river between towering "
+                    "karsts, the tide falling fast, mud flats appearing on the banks, giant stake tips rising in front of the "
+                    "Yuan fleet. On the bank among the reeds, Anh Tư stands by his notched bamboo measuring pole."),
               img=("Epic shot at mid-morning on a wide river between limestone karsts: a great fleet of big wooden war junks "
                    "with full matting sails still sailing upriver in long columns, soldiers in lamellar armor crowding the "
                    "decks, the tide falling fast with the waterline sinking along muddy banks, rows of giant pointed wooden "
@@ -75,7 +85,7 @@ SCENES = {
                    "hill seen from behind, {FACE}, rowing hard in a small boat in the foreground, realistic, vertical 9:16."),
               amb=f"thundering war drums, hundreds of oars, battle cries, cracking timber, {EPIC} at full power"),
     "D": dict(name="Giữa bãi cọc, thuyền giặc mắc kẹt",
-              lock=(STAKE + " SCENE D (keep IDENTICAL in every clip of this scene): in the middle of the stake field at low "
+              lock=("SCENE D (keep IDENTICAL in every clip of this scene): in the middle of the stake field at low "
                     "tide: a huge Yuan war junk is impaled on giant ironwood stakes, its hull cracked, its mast leaning, its "
                     "matting sail torn; mud and shallow water around; light Trần boats circle it; on its tilted deck " 
                     "the Yuan officer: a tall man in his 40s with a thin mustache, lamellar armor with bronze plates and a round helmet with a red tassel grips the rail. Anh Tư stands in a small boat beside one "
@@ -99,10 +109,10 @@ SCENES = {
 CLIPS = [
     dict(scene="A", who="narr", label="Sông Bạch Đằng · sáng 9/4/1288",
          line=(0.8, 9.2, "Ngày chín tháng tư / năm 1288. / Hạm đội Nguyên / đuổi vào sông Bạch Đằng / lúc triều lên."),
-         cam="grand low aerial racing alongside the proud fleet sailing upriver on the high tide, the small boats fleeing far ahead; no faces close enough to see"),
+         cam="grand aerial move, see the spectacle below", ent=['fleet', 'river'], spec='0-4s camera skims just above the water: a small fishing boat sits blurred in the lower-left foreground while the bow of a 30 m junk slides over the lens, its rail blotting out half the sky; 4-10s the drone shoots straight up to the height of the karst tops, revealing more than a hundred junks in four columns filling the whole 600 m river and fading into the mist, the trees on the cliffs only half as tall as one sail', end='high aerial of the whole fleet in four columns filling the river between the karsts'),
     dict(scene="A", who="quan",
          line=(0.4, 9.2, "Thuyền nhỏ chạy hết rồi! / Đuổi theo! / Sông rộng thế này, / thuyền ta to thế này… / còn sợ cái gì!"),
-         cam="the Yuan officer on the prow of the lead junk, wind in his face, points his sword upriver and laughs confidently; nobody else in frame speaks"),
+         cam="the Yuan officer on the prow of the lead junk, wind in his face, points his sword upriver and laughs confidently; nobody else in frame speaks", ent=['fleet'], end='low angle on the officer pointing his sword upriver, the full sails and the fleet behind him'),
     dict(scene="R", who="tu",
          line=(0.4, 9.2, "Muỗi đốt bốn mươi phát / em không dám đập. / Còn ông hỏi / sợ cái gì à? / Chờ nước rút… / ông tự biết."),
          cam="close-up of Anh Tư lying flat in the reeds, a mosquito on his nose; he crosses his eyes at it without moving, then whispers to the camera as the fleet passes behind the reeds"),
@@ -112,13 +122,13 @@ CLIPS = [
              "3-6s the camera drops close to the water as the level sinks and the giant stake tips rise just ahead of the bows; "
              "6-10s the lead junk crunches onto the stakes and jolts to a stop, the mast whips forward, soldiers stumble, grab the "
              "rails and rush to look over the side in shock while the next ship bumps into it from behind; no faces close enough "
-             "to see anyone speak"),
+             "to see anyone speak", ent=['fleet', 'stake', 'river'], spec="0-3s the fleet sails on calm water; 3-6s in seconds the water drops more than a metre, mud flats appear on the banks and row after row of whole-trunk stake tips break the surface across the river, the nearest one taller than a passing small boat; 6-10s slow motion: the lead junk's hull hits the stakes and stops dead, the mast whips forward, a 20 m sail snaps and sags, a whole row of soldiers stumbles and grabs the rails, the second junk cannot stop and rams its stern, wood chips flying; nobody falls into the water", end='the lead junk stuck on the stakes with the second junk jammed into its stern, soldiers staring down over the rail'),
     dict(scene="B", who="tu",
          line=(0.4, 9.2, "Rút rồi! À không… sóng. / Rút thật rồi! / Mấy cái que / em ôm không hết… / giờ nhô lên chào giặc!"),
          cam="Anh Tư alone on the bank glances at his measuring pole, then jumps up and stares at the river as the stakes appear in front of the fleet"),
     dict(scene="C", who="narr", chuyen="fadewhite:0.3",
          line=(0.8, 9.2, "Từ thượng lưu, / Hưng Đạo vương / đánh xuống. / Hai vua Trần / đem quân từ hai bên / ập vào."),
-         cam="huge sweeping aerial as the boats charge from upstream and both banks and the infantry pour out; the general by the drum is a tiny figure from behind; no faces close enough to see"),
+         cam="after a white flash, a diving drone move from the hilltop, see the spectacle below", ent=['boats', 'fleet'], spec='the drone dives from the 80 m hilltop with the giant 2 m war drum toward mid-river: hundreds of small boats burst out at once from the upstream bend two kilometres away and from the mangroves on both banks, drawing hundreds of white wakes that converge like three arrows from three directions on the stuck junks; each small boat is one fifth the length of a junk; infantry pour onto the mud flats; a volley of arrows crosses the river', end='top-down aerial of the three converging fans of white wakes surrounding the stuck junks mid-river'),
     dict(scene="C", who="cai",
          line=(0.4, 9.2, "Áp sát! Áp sát! / Bắn vào buồm! / Đừng bắn vào cọc… / cọc nhà mình đấy, / bắn gãy là tao phạt!"),
          cam="the squad leader in the bow of the charging boat turns back and shouts the order, pointing his sword at the sails; Anh Tư is out of frame"),
@@ -127,16 +137,16 @@ CLIPS = [
          cam="tracking shot alongside Anh Tư rowing past a huge stuck junk; he gives it a quick respectful bow of the head without stopping rowing; nobody else speaks"),
     dict(scene="D", who="narr",
          line=(0.8, 9.2, "Hàng trăm thuyền lớn / mắc cọc, vỡ ván, / gãy buồm. / Càng cố lùi ra… / càng mắc chặt."),
-         cam="slow-motion low angle as the huge junk grinds on the stakes, timbers crack, the mast leans; then wide on many junks stuck the same way; no faces close enough to see"),
+         cam="slow-motion low angle as the huge junk grinds on the stakes, timbers crack, the mast leans; then wide on many junks stuck the same way; no faces close enough to see", ent=['fleet', 'stake'], spec='the camera lies on the mud and looks up: the hull of a 30 m junk rests on three whole-trunk stakes that pierce its planks, a crack climbs the hull; every time the crew back-paddles the ship jerks backward and sinks deeper onto the stakes; the mast slowly leans and the sail tears; the camera rises along the hull to reveal dozens of junks stuck at the same tilted angle across the river like a fallen forest', end='aerial of dozens of junks tilted at the same angle among the stakes'),
     dict(scene="D", who="quan",
          line=(0.4, 9.2, "Lùi lại! Lùi lại! / Nước đâu hết rồi? / Sao thuyền không đi? / Dưới sông này… / mọc cái gì thế này?!"),
-         cam="the same Yuan officer, now gripping the rail on the tilted deck, shouts down in disbelief; nobody else in frame speaks"),
+         cam="the same Yuan officer, now gripping the rail on the tilted deck, shouts down in disbelief; nobody else in frame speaks", end='the officer gripping the tilted rail, staring down'),
     dict(scene="D", who="tu",
          line=(0.4, 9.2, "Dạ… cọc nhà em ạ. / Cắm cả tuần đấy. / Ông đứng yên cho, / đừng giãy… / giãy là gãy cọc em."),
          cam="Anh Tư alone in frame in his small boat, both hands protectively on the giant stake that pierces the hull, looking up at the officer with polite worry"),
     dict(scene="E", who="tu", chuyen="fadeblack:0.6",
-         line=(0.4, 9.2, "Đánh từ sáng đến tối… / sáng còn là sông, / tối đã thành rừng cọc. / Vợ hỏi cả tuần làm gì… / em chỉ ra sông."),
-         cam="sunset: Anh Tư on the bow of his boat turns to the camera, then proudly points his thumb back at the river full of stuck junks, a faint smile"),
+         line=(2.6, 9.3, "Sáng còn là sông… / tối đã thành rừng cọc. / Vợ hỏi cả tuần làm gì… / em chỉ ra sông."),
+         cam="drone rise and settle, see the spectacle below; when Anh Tư speaks he is in a medium shot at the bow, turning to the camera and pointing his thumb back at the river, a faint smile", ent=['fleet', 'river'], spec="0-2.5s the drone rises from behind Anh Tư's 4 m boat over his head and up past the cliffs, revealing three kilometres of river filled with hundreds of tilted stuck junks all the way to the sea mouth at sunset, thin smoke rising; 2.5-10s it settles back on Anh Tư at the bow", end='medium shot of Anh Tư at the bow, thumb pointing back at the river full of stuck junks'),
 ]
 WHO = {"tu": "ANH TƯ", "cai": "THE SQUAD LEADER", "quan": "THE YUAN OFFICER", "narr": "the NARRATOR (off-screen voice-over)"}
 NAME = {"tu": "Anh Tư", "cai": "Cai đội", "quan": "Quan Nguyên", "narr": "Dẫn chuyện"}
@@ -151,8 +161,11 @@ def video_prompt(c):
     face = FACE + "." if c["who"] == "tu" or "Anh Tư" in c["cam"] else ""
     return " ".join(x for x in [
         tieng_viet(WHO[c["who"]], VOICE[c["who"]], loi_muse(text), a, b),
-        "One continuous 10-second shot, no cut.", f"Camera: {c['cam']}.", sc["lock"], face, BASE,
-        AUDIO.format(amb=sc["amb"]), SO_RULE] if x)
+        "One continuous 10-second shot, no cut.", f"Camera: {c['cam']}.",
+        (f"THE ONE SPECTACLE of this clip, cause and effect in order: {c['spec']}." if c.get("spec") else ""),
+        " ".join(ENT[k] for k in c.get("ent", [])), sc["lock"], face, BASE,
+        AUDIO.format(amb=sc["amb"]), TECH if c.get("spec") else "",
+        (f"Final frame: {c['end']}, stable and clean." if c.get("end") else ""), SO_RULE] if x)
 
 
 DANG_BAI = """## Đăng TikTok

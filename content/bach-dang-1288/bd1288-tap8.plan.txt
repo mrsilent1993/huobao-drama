@@ -29,4 +29,4 @@ sub: 8 | 0.4-9.2 | Thuyền họ to như đình… / giờ đứng im / như đ�
 sub: 9 | 0.8-9.2 | Hàng trăm thuyền lớn / mắc cọc, vỡ ván, / gãy buồm. / Càng cố lùi ra… / càng mắc chặt.
 sub: 10 | 0.4-9.2 | Lùi lại! Lùi lại! / Nước đâu hết rồi? / Sao thuyền không đi? / Dưới sông này… / mọc cái gì thế này?!
 sub: 11 | 0.4-9.2 | Dạ… cọc nhà em ạ. / Cắm cả tuần đấy. / Ông đứng yên cho, / đừng giãy… / giãy là gãy cọc em.
-sub: 12 | 0.4-9.2 | Đánh từ sáng đến tối… / sáng còn là sông, / tối đã thành rừng cọc. / Vợ hỏi cả tuần làm gì… / em chỉ ra sông.
+sub: 12 | 2.6-9.3 | Sáng còn là sông… / tối đã thành rừng cọc. / Vợ hỏi cả tuần làm gì… / em chỉ ra sông.
