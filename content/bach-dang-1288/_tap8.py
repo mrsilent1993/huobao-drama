@@ -28,17 +28,23 @@ V_QUAN = ("a harsh, panicked male voice in his 40s speaking Vietnamese with a sl
           "but every word clear")
 
 SCENES = {
-    "A": dict(name="Bãi lau mai phục, rạng sáng",
-              lock=("SCENE A (keep IDENTICAL in every clip of this scene): dawn on the Bạch Đằng riverbank, tall reeds and "
-                    "mangroves, mist on the water, towering karsts; on the full high tide in the distance the great Yuan "
-                    "fleet sits at anchor, hundreds of sails. Hidden in the reeds: Trần soldiers lying low with bows and "
-                    "spears. The squad leader in a dark tunic with a sword crouches at the front. Anh Tư crouches beside a "
-                    "notched bamboo measuring pole stuck in the mud at the water's edge."),
-              img=("Cinematic shot at dawn from tall reeds on a riverbank, mist, towering limestone karsts, the great "
-                   "wooden fleet with hundreds of sails anchored on the full tide in the distance, soldiers hidden in the "
-                   "reeds with bows, {FACE}, crouching beside a notched bamboo measuring pole at the water's edge, "
-                   "realistic, vertical 9:16."),
-              amb="soft lapping water, birds waking, total silence of hidden men, a very low drum far away"),
+    "A": dict(name="Hạm đội Nguyên tiến vào lúc triều lên",
+              lock=("SCENE A (keep IDENTICAL in every clip of this scene): early morning, full high tide on the wide Bạch Đằng "
+                    "river between towering limestone karsts, golden mist; more than a hundred big Yuan war junks with full "
+                    "matting sails sail proudly upriver in long columns, chasing a few small light Trần boats fleeing far "
+                    "ahead; soldiers in lamellar armor crowd the decks. On the prow of the lead junk stands the Yuan officer: a tall man in his 40s with a thin mustache, lamellar armor with bronze plates and a round helmet with a red tassel."),
+              img=("Epic aerial in early morning golden mist over a wide river between towering limestone karsts at full high "
+                   "tide, more than a hundred big wooden war junks with full matting sails sailing upriver in long columns, "
+                   "chasing a few small boats far ahead, soldiers in lamellar armor on the decks, realistic, vertical 9:16."),
+              amb=f"wind in full sails, creaking hulls, war drums from the fleet, {EPIC} confident and rising"),
+    "R": dict(name="Bãi lau mai phục",
+              lock=("SCENE R: tall reeds and mangroves on the Bạch Đằng riverbank in early morning mist; Trần soldiers lie "
+                    "hidden in the reeds with bows and spears, completely still; through the reeds the great Yuan fleet sails "
+                    "past on the high tide. Anh Tư lies flat in the reeds beside a notched bamboo measuring pole."),
+              img=("Cinematic shot from inside tall reeds on a riverbank in morning mist, soldiers lying hidden with bows, "
+                   "through the reeds a great fleet of wooden war junks sailing past on the high tide, {FACE}, lying flat "
+                   "beside a notched bamboo measuring pole, realistic, vertical 9:16."),
+              amb="rustling reeds, lapping water, the fleet's drums passing, mosquitoes buzzing close"),
     "B": dict(name="Đoàn thuyền đang tiến vào thì nước rút",
               lock=(STAKE + " SCENE B (keep IDENTICAL in every clip of this scene): mid-morning on the Bạch Đằng river between "
                     "towering karsts: the great Yuan fleet, more than a hundred big war junks with full matting sails, is "
@@ -61,7 +67,8 @@ SCENES = {
                     "morning: from upstream and from both banks hundreds of small light Trần war boats charge in at full "
                     "speed, oars flashing; Trần infantry pour out of the reeds and mangroves on both banks; volleys of "
                     "arrows arc over the water; on a high hill far away a dark-robed general stands by a giant war drum, "
-                    "seen only from behind; the big Yuan junks stuck on the stakes cannot move. Smoke drifts across the karsts."),
+                    "seen only from behind; the big Yuan junks stuck on the stakes cannot move. Smoke drifts across the karsts. The squad leader in a dark tunic "
+                    "with a sword stands in the bow of the nearest Trần boat; Anh Tư rows in the boat beside it."),
               img=("Epic aerial of a great naval battle on a wide river between limestone karsts, hundreds of small light war "
                    "boats charging from upstream and both banks, infantry pouring out of the mangroves, volleys of arrows, "
                    "big wooden junks stuck among giant stakes, smoke drifting, a general by a giant war drum on a far "
@@ -70,8 +77,8 @@ SCENES = {
     "D": dict(name="Giữa bãi cọc, thuyền giặc mắc kẹt",
               lock=(STAKE + " SCENE D (keep IDENTICAL in every clip of this scene): in the middle of the stake field at low "
                     "tide: a huge Yuan war junk is impaled on giant ironwood stakes, its hull cracked, its mast leaning, its "
-                    "matting sail torn; mud and shallow water around; light Trần boats circle it; on its tilted deck a Yuan "
-                    "officer in lamellar armor and a round helmet grips the rail. Anh Tư stands in a small boat beside one "
+                    "matting sail torn; mud and shallow water around; light Trần boats circle it; on its tilted deck " 
+                    "the Yuan officer: a tall man in his 40s with a thin mustache, lamellar armor with bronze plates and a round helmet with a red tassel grips the rail. Anh Tư stands in a small boat beside one "
                     "giant stake that pierces the hull."),
               img=("Epic close shot in a field of giant pointed ironwood stakes at low tide, a huge wooden war junk impaled "
                    "on the stakes with a cracked hull, leaning mast and torn matting sail, small light boats circling, a "
@@ -91,14 +98,14 @@ SCENES = {
 
 CLIPS = [
     dict(scene="A", who="narr", label="Sông Bạch Đằng · sáng 9/4/1288",
-         line=(0.8, 9.2, "Sáng ngày chín tháng tư / năm 1288. / Hạm đội Nguyên / đã vào sâu / trong sông Bạch Đằng."),
-         cam="slow aerial gliding over the misty reeds toward the anchored fleet on the high tide; no faces close enough to see"),
-    dict(scene="A", who="cai",
-         line=(0.4, 9.2, "Nằm im, nhìn nước. / Hết nước thì đánh. / Đứa nào ho… / ra sông mà ho / với cá."),
-         cam="the squad leader crouching in the reeds faces the camera and whispers the order; Anh Tư is out of frame"),
-    dict(scene="A", who="tu",
-         line=(0.4, 9.2, "Em nằm đây từ sáng… / muỗi đốt bốn mươi phát, / không dám đập. / Đập một cái… / là lộ cả đạo quân."),
-         cam="close-up of Anh Tư alone lying in the reeds, a mosquito lands on his nose; he crosses his eyes at it but does not move, whispering to the camera"),
+         line=(0.8, 9.2, "Ngày chín tháng tư / năm 1288. / Hạm đội Nguyên / đuổi vào sông Bạch Đằng / lúc triều lên."),
+         cam="grand low aerial racing alongside the proud fleet sailing upriver on the high tide, the small boats fleeing far ahead; no faces close enough to see"),
+    dict(scene="A", who="quan",
+         line=(0.4, 9.2, "Thuyền nhỏ chạy hết rồi! / Đuổi theo! / Sông rộng thế này, / thuyền ta to thế này… / còn sợ cái gì!"),
+         cam="the Yuan officer on the prow of the lead junk, wind in his face, points his sword upriver and laughs confidently; nobody else in frame speaks"),
+    dict(scene="R", who="tu",
+         line=(0.4, 9.2, "Muỗi đốt bốn mươi phát / em không dám đập. / Còn ông hỏi / sợ cái gì à? / Chờ nước rút… / ông tự biết."),
+         cam="close-up of Anh Tư lying flat in the reeds, a mosquito on his nose; he crosses his eyes at it without moving, then whispers to the camera as the fleet passes behind the reeds"),
     dict(scene="B", who="narr", chuyen="fade:0.5",
          line=(0.8, 9.2, "Đoàn thuyền vẫn tiến vào… / thì nước bắt đầu rút. / Cọc lim nhô lên / ngay trước mũi thuyền. / Giặc trở tay không kịp."),
          cam="three beats in one continuous move: 0-3s low aerial following the fleet as it sails proudly upriver on calm water; "
@@ -107,11 +114,14 @@ CLIPS = [
              "rails and rush to look over the side in shock while the next ship bumps into it from behind; no faces close enough "
              "to see anyone speak"),
     dict(scene="B", who="tu",
-         line=(0.8, 8.8, "Rút rồi! À không… sóng. / Rút thật rồi! / Mấy cái que / em ôm không hết… / giờ nhô lên chào giặc!"),
-         cam="Anh Tư alone on the bank watching his measuring pole, then staring at the river as the stakes appear"),
+         line=(0.4, 9.2, "Rút rồi! À không… sóng. / Rút thật rồi! / Mấy cái que / em ôm không hết… / giờ nhô lên chào giặc!"),
+         cam="Anh Tư alone on the bank glances at his measuring pole, then jumps up and stares at the river as the stakes appear in front of the fleet"),
     dict(scene="C", who="narr", chuyen="fadewhite:0.3",
          line=(0.8, 9.2, "Từ thượng lưu, / Hưng Đạo vương / đánh xuống. / Hai vua Trần / đem quân từ hai bên / ập vào."),
          cam="huge sweeping aerial as the boats charge from upstream and both banks and the infantry pour out; the general by the drum is a tiny figure from behind; no faces close enough to see"),
+    dict(scene="C", who="cai",
+         line=(0.4, 9.2, "Áp sát! Áp sát! / Bắn vào buồm! / Đừng bắn vào cọc… / cọc nhà mình đấy, / bắn gãy là tao phạt!"),
+         cam="the squad leader in the bow of the charging boat turns back and shouts the order, pointing his sword at the sails; Anh Tư is out of frame"),
     dict(scene="C", who="tu",
          line=(0.4, 9.2, "Thuyền họ to như đình… / giờ đứng im / như đình thật. / Em chèo ngang qua / còn kịp vái một cái."),
          cam="tracking shot alongside Anh Tư rowing past a huge stuck junk; he gives it a quick respectful bow of the head without stopping rowing; nobody else speaks"),
@@ -119,17 +129,14 @@ CLIPS = [
          line=(0.8, 9.2, "Hàng trăm thuyền lớn / mắc cọc, vỡ ván, / gãy buồm. / Càng cố lùi ra… / càng mắc chặt."),
          cam="slow-motion low angle as the huge junk grinds on the stakes, timbers crack, the mast leans; then wide on many junks stuck the same way; no faces close enough to see"),
     dict(scene="D", who="quan",
-         line=(0.4, 9.2, "Lùi lại! Lùi lại! / Nước đâu hết rồi? / Sao thuyền không đi? / Dưới sông này… / có cái gì thế này?!"),
-         cam="the Yuan officer gripping the rail on the tilted deck shouts down to his crew; nobody else in frame speaks"),
+         line=(0.4, 9.2, "Lùi lại! Lùi lại! / Nước đâu hết rồi? / Sao thuyền không đi? / Dưới sông này… / mọc cái gì thế này?!"),
+         cam="the same Yuan officer, now gripping the rail on the tilted deck, shouts down in disbelief; nobody else in frame speaks"),
     dict(scene="D", who="tu",
          line=(0.4, 9.2, "Dạ… cọc nhà em ạ. / Cắm cả tuần đấy. / Ông đứng yên cho, / đừng giãy… / giãy là gãy cọc em."),
          cam="Anh Tư alone in frame in his small boat, both hands protectively on the giant stake that pierces the hull, looking up at the officer with polite worry"),
-    dict(scene="E", who="narr", chuyen="fadeblack:0.6",
-         line=(0.8, 9.2, "Trận đánh kéo dài / từ sáng đến chiều tối. / Cả khúc sông Bạch Đằng / thành cái bẫy / của hạm đội Nguyên."),
-         cam="grand slow aerial over the sunset river full of stuck junks; no faces close enough to see"),
-    dict(scene="E", who="tu",
-         line=(0.4, 9.2, "Sáng còn là sông… / trưa đã thành rừng cọc. / Vợ em hỏi / cả tuần làm gì… / giờ em chỉ ra sông là đủ."),
-         cam="Anh Tư on the bow of his boat turns to the camera, then proudly points his thumb back at the river full of stuck junks, a faint smile"),
+    dict(scene="E", who="tu", chuyen="fadeblack:0.6",
+         line=(0.4, 9.2, "Đánh từ sáng đến tối… / sáng còn là sông, / tối đã thành rừng cọc. / Vợ hỏi cả tuần làm gì… / em chỉ ra sông."),
+         cam="sunset: Anh Tư on the bow of his boat turns to the camera, then proudly points his thumb back at the river full of stuck junks, a faint smile"),
 ]
 WHO = {"tu": "ANH TƯ", "cai": "THE SQUAD LEADER", "quan": "THE YUAN OFFICER", "narr": "the NARRATOR (off-screen voice-over)"}
 NAME = {"tu": "Anh Tư", "cai": "Cai đội", "quan": "Quan Nguyên", "narr": "Dẫn chuyện"}
@@ -152,12 +159,12 @@ DANG_BAI = """## Đăng TikTok
 
 **Hook** (chữ to ở giây đầu, dùng luôn làm chữ trên ảnh bìa):
 ```
-POV: Bạn chỉ được giao / đứng nhìn nước
+POV: Giặc hỏi dưới sông / mọc cái gì… / dạ, cọc nhà em
 ```
 
 Hook dự phòng:
 ```
-POV: Sáng còn là sông / trưa đã thành rừng cọc
+POV: Bạn chỉ được giao / đứng nhìn nước
 POV: Hạm đội Nguyên / mắc cọc Bạch Đằng
 ```
 
@@ -229,7 +236,7 @@ def main():
     base = "bd1288-tap8"
     md_name = base + "-song-thanh-rung.md"
     plan = [f"# Dựng: python3 ../tools/tiktok.py {base}.plan.txt {base}.mp4  (một bản dùng chung TikTok, YouTube, Facebook)",
-            "hook: POV: Bạn chỉ được giao / đứng nhìn nước", "end: Follow để xem / Người từng đòi lên trời →",
+            "hook: POV: Giặc hỏi dưới sông / mọc cái gì… / dạ, cọc nhà em", "end: Follow để xem / Người từng đòi lên trời →",
             "nhan: AI tái hiện · lời thoại hư cấu", "end_giay: 1.6", "chuyen: fade 0.3", ""]
     subs = []
     n = len(CLIPS)
@@ -239,18 +246,18 @@ def main():
           f"**Loạt:** Bạch Đằng 1288, 10 tập · **{n} clip, khoảng {int(total // 60)} phút {int(total % 60)} giây**, một bản dùng "
           "chung TikTok, YouTube, Facebook · **9/12 clip (75%) là nước rút và trận đánh.**", "",
           f"**File Muse đặt tên:** `{base}-1..{n}.mp4` · **Giọng:** Anh Tư giọng Bắc (một giọng cố định); dẫn chuyện giọng Bắc "
-          "trầm; cai đội thì thầm gắt; quan Nguyên hốt hoảng.", "",
+          "trầm; cai đội gắt; quan Nguyên (một người, xuất hiện 2 lần) từ tự tin đến hốt hoảng.", "",
           "## Mạch tập", "",
-          "- **Chờ nước** (clip 1–3): hạm đội Nguyên vào sâu trong sông; cai đội dặn nằm im xem nước; Anh Tư nằm cho muỗi đốt mà không dám đập.",
-          "- **Đang tiến vào thì nước rút** (clip 4–5): hạm đội còn căng buồm tiến vào thì nước rút nhanh, cọc lim nhô lên ngay trước mũi thuyền; thuyền đầu va cọc khựng lại, cột buồm chúi tới, lính trên boong chao đảo, bám mạn, nhoài người nhìn xuống, thuyền sau đâm vào thuyền trước: trở tay không kịp.",
-          "- **Ba mặt đánh vào** (clip 6–7): Hưng Đạo vương từ thượng lưu, hai vua Trần từ hai bên, bộ binh hai bờ; hàng trăm thuyền nhẹ lao ra.",
-          "- **Giữa bãi cọc** (clip 8–10): thuyền lớn mắc cọc, vỡ ván, gãy buồm, càng lùi càng mắc; quan Nguyên hốt hoảng; Anh Tư vỗ cây cọc.",
-          "- **Hoàng hôn** (clip 11–12): trận kéo dài tới chiều tối, cả khúc sông thành cái bẫy; câu chốt.",
+          "- **Hạm đội vào bẫy** (clip 1–3): triều lên, hạm đội hơn trăm chiếc căng buồm đuổi theo thuyền nhẹ; quan Nguyên đứng mũi thuyền: \"còn sợ cái gì!\"; Anh Tư nằm trong bãi lau cho muỗi đốt: \"chờ nước rút… ông tự biết\".",
+          "- **Đang tiến vào thì nước rút** (clip 4–5): cọc lim nhô lên ngay trước mũi thuyền, thuyền đầu va cọc khựng lại, lính chao đảo, thuyền sau đâm thuyền trước: trở tay không kịp.",
+          "- **Ba mặt đánh vào** (clip 6–8): Hưng Đạo vương từ thượng lưu, hai vua Trần từ hai bên; cai đội: \"bắn vào buồm, đừng bắn vào cọc, cọc nhà mình đấy!\"; Anh Tư chèo ngang \"vái\" thuyền to như đình.",
+          "- **Giữa bãi cọc** (clip 9–11): càng lùi càng mắc; **cùng ông quan** lúc sáng giờ bám mạn: \"dưới sông mọc cái gì thế này?!\"; Anh Tư ôm cọc: \"giãy là gãy cọc em\".",
+          "- **Hoàng hôn** (clip 12): đánh từ sáng đến tối, câu chốt nhắc chuyện vợ hỏi (tập 6).",
           "- **Hoành tráng mà an toàn:** thuyền vỡ, buồm rách, khói, tên bay; **không máu, không xác, không ai chết trên màn hình**. "
           "Chuyện bắt Ô Mã Nhi để dành cho tập 9.",
           "- **Âm thanh:** rạng sáng gần như im lặng; nước rút thì nhạc dâng dần; lúc ba mặt đánh vào (clip 6) lóe trắng và trống trận "
           "mạnh nhất; hoàng hôn còn sáo trúc nhẹ. Nhạc luôn rất nhỏ dưới lời nói.",
-          "- **Hài hơn (sửa theo yêu cầu):** muỗi đốt bốn mươi phát không dám đập; cọc \"nhô lên chào giặc\"; chèo ngang thuyền to như đình \"còn kịp vái một cái\"; "
+          "- **Hài (làm lại):** quan Nguyên khoe \"còn sợ cái gì\" ở clip 2 rồi chính ông hỏi \"dưới sông mọc cái gì\" ở clip 10; muỗi đốt bốn mươi phát không dám đập; cọc \"nhô lên chào giặc\"; chèo ngang thuyền to như đình \"còn kịp vái một cái\"; "
           "quan Nguyên hỏi dưới sông có gì, Anh Tư lo… gãy cọc nhà mình; vợ hỏi cả tuần làm gì, chỉ ra sông là đủ. Cai đội: \"đứa nào ho, ra sông mà ho với cá\".",
           "- **Để Muse nói đúng tiếng Việt:** câu nói đặt ngay đầu prompt, lời gửi Muse không có dấu \"…\", năm viết thành chữ; prompt gọn.", "",
           "**Lịch sử (mức A):** sáng 9/4/1288 (8/3 âm lịch Mậu Tý), hạm đội Ô Mã Nhi bị nhử vào sông Bạch Đằng lúc triều lên; triều "

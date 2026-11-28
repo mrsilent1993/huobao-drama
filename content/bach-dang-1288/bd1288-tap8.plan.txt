@@ -1,5 +1,5 @@
 # Dựng: python3 ../tools/tiktok.py bd1288-tap8.plan.txt bd1288-tap8.mp4  (một bản dùng chung TikTok, YouTube, Facebook)
-hook: POV: Bạn chỉ được giao / đứng nhìn nước
+hook: POV: Giặc hỏi dưới sông / mọc cái gì… / dạ, cọc nhà em
 end: Follow để xem / Người từng đòi lên trời →
 nhan: AI tái hiện · lời thoại hư cấu
 end_giay: 1.6
@@ -15,18 +15,18 @@ clip: bd1288-tap8-7.mp4 |
 clip: bd1288-tap8-8.mp4 | 
 clip: bd1288-tap8-9.mp4 | 
 clip: bd1288-tap8-10.mp4 | 
-clip: bd1288-tap8-11.mp4 |  | chuyen=fadeblack:0.6
-clip: bd1288-tap8-12.mp4 | 
+clip: bd1288-tap8-11.mp4 | 
+clip: bd1288-tap8-12.mp4 |  | chuyen=fadeblack:0.6
 
-sub: 1 | 0.8-9.2 | Sáng ngày chín tháng tư / năm 1288. / Hạm đội Nguyên / đã vào sâu / trong sông Bạch Đằng.
-sub: 2 | 0.4-9.2 | Nằm im, nhìn nước. / Hết nước thì đánh. / Đứa nào ho… / ra sông mà ho / với cá.
-sub: 3 | 0.4-9.2 | Em nằm đây từ sáng… / muỗi đốt bốn mươi phát, / không dám đập. / Đập một cái… / là lộ cả đạo quân.
+sub: 1 | 0.8-9.2 | Ngày chín tháng tư / năm 1288. / Hạm đội Nguyên / đuổi vào sông Bạch Đằng / lúc triều lên.
+sub: 2 | 0.4-9.2 | Thuyền nhỏ chạy hết rồi! / Đuổi theo! / Sông rộng thế này, / thuyền ta to thế này… / còn sợ cái gì!
+sub: 3 | 0.4-9.2 | Muỗi đốt bốn mươi phát / em không dám đập. / Còn ông hỏi / sợ cái gì à? / Chờ nước rút… / ông tự biết.
 sub: 4 | 0.8-9.2 | Đoàn thuyền vẫn tiến vào… / thì nước bắt đầu rút. / Cọc lim nhô lên / ngay trước mũi thuyền. / Giặc trở tay không kịp.
-sub: 5 | 0.8-8.8 | Rút rồi! À không… sóng. / Rút thật rồi! / Mấy cái que / em ôm không hết… / giờ nhô lên chào giặc!
+sub: 5 | 0.4-9.2 | Rút rồi! À không… sóng. / Rút thật rồi! / Mấy cái que / em ôm không hết… / giờ nhô lên chào giặc!
 sub: 6 | 0.8-9.2 | Từ thượng lưu, / Hưng Đạo vương / đánh xuống. / Hai vua Trần / đem quân từ hai bên / ập vào.
-sub: 7 | 0.4-9.2 | Thuyền họ to như đình… / giờ đứng im / như đình thật. / Em chèo ngang qua / còn kịp vái một cái.
-sub: 8 | 0.8-9.2 | Hàng trăm thuyền lớn / mắc cọc, vỡ ván, / gãy buồm. / Càng cố lùi ra… / càng mắc chặt.
-sub: 9 | 0.4-9.2 | Lùi lại! Lùi lại! / Nước đâu hết rồi? / Sao thuyền không đi? / Dưới sông này… / có cái gì thế này?!
-sub: 10 | 0.4-9.2 | Dạ… cọc nhà em ạ. / Cắm cả tuần đấy. / Ông đứng yên cho, / đừng giãy… / giãy là gãy cọc em.
-sub: 11 | 0.8-9.2 | Trận đánh kéo dài / từ sáng đến chiều tối. / Cả khúc sông Bạch Đằng / thành cái bẫy / của hạm đội Nguyên.
-sub: 12 | 0.4-9.2 | Sáng còn là sông… / trưa đã thành rừng cọc. / Vợ em hỏi / cả tuần làm gì… / giờ em chỉ ra sông là đủ.
+sub: 7 | 0.4-9.2 | Áp sát! Áp sát! / Bắn vào buồm! / Đừng bắn vào cọc… / cọc nhà mình đấy, / bắn gãy là tao phạt!
+sub: 8 | 0.4-9.2 | Thuyền họ to như đình… / giờ đứng im / như đình thật. / Em chèo ngang qua / còn kịp vái một cái.
+sub: 9 | 0.8-9.2 | Hàng trăm thuyền lớn / mắc cọc, vỡ ván, / gãy buồm. / Càng cố lùi ra… / càng mắc chặt.
+sub: 10 | 0.4-9.2 | Lùi lại! Lùi lại! / Nước đâu hết rồi? / Sao thuyền không đi? / Dưới sông này… / mọc cái gì thế này?!
+sub: 11 | 0.4-9.2 | Dạ… cọc nhà em ạ. / Cắm cả tuần đấy. / Ông đứng yên cho, / đừng giãy… / giãy là gãy cọc em.
+sub: 12 | 0.4-9.2 | Đánh từ sáng đến tối… / sáng còn là sông, / tối đã thành rừng cọc. / Vợ hỏi cả tuần làm gì… / em chỉ ra sông.
