@@ -1,0 +1,32 @@
+# Dựng: python3 ../tools/tiktok.py bd1288-tap8.plan.txt bd1288-tap8.mp4  (một bản dùng chung TikTok, YouTube, Facebook)
+hook: POV: Bạn chỉ được giao / đứng nhìn nước
+end: Follow để xem / Người từng đòi lên trời →
+nhan: AI tái hiện · lời thoại hư cấu
+end_giay: 1.6
+chuyen: fade 0.3
+
+clip: bd1288-tap8-1.mp4 | Sông Bạch Đằng · sáng 9/4/1288
+clip: bd1288-tap8-2.mp4 | 
+clip: bd1288-tap8-3.mp4 | 
+clip: bd1288-tap8-4.mp4 |  | chuyen=fade:0.5
+clip: bd1288-tap8-5.mp4 | 
+clip: bd1288-tap8-6.mp4 |  | chuyen=fadewhite:0.3
+clip: bd1288-tap8-7.mp4 | 
+clip: bd1288-tap8-8.mp4 | 
+clip: bd1288-tap8-9.mp4 | 
+clip: bd1288-tap8-10.mp4 | 
+clip: bd1288-tap8-11.mp4 |  | chuyen=fadeblack:0.6
+clip: bd1288-tap8-12.mp4 | 
+
+sub: 1 | 0.8-9.2 | Sáng ngày chín tháng tư / năm 1288. / Hạm đội Nguyên / đã vào sâu / trong sông Bạch Đằng.
+sub: 2 | 0.4-9.2 | Đứng đây, nhìn nước. / Nước còn thì nằm im. / Bao giờ không còn nước / mà nhìn… thì đánh.
+sub: 3 | 0.4-9.2 | Cả tuần ngồi xem nước, / giờ lại nằm xem nước. / Không ai hỏi / nhưng em xin phép kể: / em sắp thành / thầy bói nước.
+sub: 4 | 0.8-9.2 | Rồi nước bắt đầu rút. / Từng đầu cọc lim / nhô lên giữa lòng sông, / như một khu rừng mọc dậy.
+sub: 5 | 0.8-8.8 | Rút rồi! / À không… sóng. / Rút thật rồi! / Cái gì vậy trời, / sông mọc cả rừng!
+sub: 6 | 0.8-9.2 | Từ thượng lưu, / Hưng Đạo vương / đánh xuống. / Hai vua Trần / đem quân từ hai bên / ập vào.
+sub: 7 | 0.4-9.2 | Thuyền họ to như đình… / giờ đứng im / như đình thật. / Cuộc đời mà, đâu ai / biết trước chữ ngờ.
+sub: 8 | 0.8-9.2 | Hàng trăm thuyền lớn / mắc cọc, vỡ ván, / gãy buồm. / Càng cố lùi ra… / càng mắc chặt.
+sub: 9 | 0.4-9.2 | Lùi lại! Lùi lại! / Nước đâu hết rồi? / Sao thuyền không đi? / Dưới sông này… / có cái gì thế này?!
+sub: 10 | 0.4-9.2 | Bình tĩnh… / chuyện gì cũng có / cách giải quyết. / Mỗi cái này là cọc lim, / không giải quyết được.
+sub: 11 | 0.8-9.2 | Trận đánh kéo dài / từ sáng đến chiều tối. / Cả khúc sông Bạch Đằng / thành cái bẫy / của hạm đội Nguyên.
+sub: 12 | 0.4-9.2 | Sáng còn là sông… / trưa đã thành rừng cọc. / Tôi không nói nhiều, / tôi nói đúng: / cả trận trông vào / nước rút.
