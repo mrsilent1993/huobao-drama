@@ -19,14 +19,14 @@ clip: bd1288-tap8-11.mp4 |  | chuyen=fadeblack:0.6
 clip: bd1288-tap8-12.mp4 | 
 
 sub: 1 | 0.8-9.2 | Sáng ngày chín tháng tư / năm 1288. / Hạm đội Nguyên / đã vào sâu / trong sông Bạch Đằng.
-sub: 2 | 0.4-9.2 | Đứng đây, nhìn nước. / Nước còn thì nằm im. / Bao giờ không còn nước / mà nhìn… thì đánh.
-sub: 3 | 0.4-9.2 | Cả tuần ngồi xem nước, / giờ lại nằm xem nước. / Không ai hỏi / nhưng em xin phép kể: / em sắp thành / thầy bói nước.
+sub: 2 | 0.4-9.2 | Nằm im, nhìn nước. / Hết nước thì đánh. / Đứa nào ho… / ra sông mà ho / với cá.
+sub: 3 | 0.4-9.2 | Em nằm đây từ sáng… / muỗi đốt bốn mươi phát, / không dám đập. / Đập một cái… / là lộ cả đạo quân.
 sub: 4 | 0.8-9.2 | Rồi nước bắt đầu rút. / Từng đầu cọc lim / nhô lên giữa lòng sông, / như một khu rừng mọc dậy.
-sub: 5 | 0.8-8.8 | Rút rồi! / À không… sóng. / Rút thật rồi! / Cái gì vậy trời, / sông mọc cả rừng!
+sub: 5 | 0.8-8.8 | Rút rồi! À không… sóng. / Rút thật rồi! / Mấy cái que / em ôm không hết… / giờ nhô lên chào giặc!
 sub: 6 | 0.8-9.2 | Từ thượng lưu, / Hưng Đạo vương / đánh xuống. / Hai vua Trần / đem quân từ hai bên / ập vào.
-sub: 7 | 0.4-9.2 | Thuyền họ to như đình… / giờ đứng im / như đình thật. / Cuộc đời mà, đâu ai / biết trước chữ ngờ.
+sub: 7 | 0.4-9.2 | Thuyền họ to như đình… / giờ đứng im / như đình thật. / Em chèo ngang qua / còn kịp vái một cái.
 sub: 8 | 0.8-9.2 | Hàng trăm thuyền lớn / mắc cọc, vỡ ván, / gãy buồm. / Càng cố lùi ra… / càng mắc chặt.
 sub: 9 | 0.4-9.2 | Lùi lại! Lùi lại! / Nước đâu hết rồi? / Sao thuyền không đi? / Dưới sông này… / có cái gì thế này?!
-sub: 10 | 0.4-9.2 | Bình tĩnh… / chuyện gì cũng có / cách giải quyết. / Mỗi cái này là cọc lim, / không giải quyết được.
+sub: 10 | 0.4-9.2 | Dạ… cọc nhà em ạ. / Cắm cả tuần đấy. / Ông đứng yên cho, / đừng giãy… / giãy là gãy cọc em.
 sub: 11 | 0.8-9.2 | Trận đánh kéo dài / từ sáng đến chiều tối. / Cả khúc sông Bạch Đằng / thành cái bẫy / của hạm đội Nguyên.
-sub: 12 | 0.4-9.2 | Sáng còn là sông… / trưa đã thành rừng cọc. / Tôi không nói nhiều, / tôi nói đúng: / cả trận trông vào / nước rút.
+sub: 12 | 0.4-9.2 | Sáng còn là sông… / trưa đã thành rừng cọc. / Vợ em hỏi / cả tuần làm gì… / giờ em chỉ ra sông là đủ.

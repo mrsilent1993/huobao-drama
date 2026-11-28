@@ -87,23 +87,23 @@ CLIPS = [
          line=(0.8, 9.2, "Sáng ngày chín tháng tư / năm 1288. / Hạm đội Nguyên / đã vào sâu / trong sông Bạch Đằng."),
          cam="slow aerial gliding over the misty reeds toward the anchored fleet on the high tide; no faces close enough to see"),
     dict(scene="A", who="cai",
-         line=(0.4, 9.2, "Đứng đây, nhìn nước. / Nước còn thì nằm im. / Bao giờ không còn nước / mà nhìn… thì đánh."),
+         line=(0.4, 9.2, "Nằm im, nhìn nước. / Hết nước thì đánh. / Đứa nào ho… / ra sông mà ho / với cá."),
          cam="the squad leader crouching in the reeds faces the camera and whispers the order; Anh Tư is out of frame"),
     dict(scene="A", who="tu",
-         line=(0.4, 9.2, "Cả tuần ngồi xem nước, / giờ lại nằm xem nước. / Không ai hỏi / nhưng em xin phép kể: / em sắp thành / thầy bói nước."),
-         cam="close-up of Anh Tư alone in the reeds beside the measuring pole, whispering to the camera, a faint smile"),
+         line=(0.4, 9.2, "Em nằm đây từ sáng… / muỗi đốt bốn mươi phát, / không dám đập. / Đập một cái… / là lộ cả đạo quân."),
+         cam="close-up of Anh Tư alone lying in the reeds, a mosquito lands on his nose; he crosses his eyes at it but does not move, whispering to the camera"),
     dict(scene="B", who="narr", chuyen="fade:0.5",
          line=(0.8, 9.2, "Rồi nước bắt đầu rút. / Từng đầu cọc lim / nhô lên giữa lòng sông, / như một khu rừng mọc dậy."),
          cam="grand time-lapse aerial as the water drains and the stake tips rise row after row across the river; no faces close enough to see"),
     dict(scene="B", who="tu",
-         line=(0.8, 8.8, "Rút rồi! / À không… sóng. / Rút thật rồi! / Cái gì vậy trời, / sông mọc cả rừng!"),
+         line=(0.8, 8.8, "Rút rồi! À không… sóng. / Rút thật rồi! / Mấy cái que / em ôm không hết… / giờ nhô lên chào giặc!"),
          cam="Anh Tư alone on the bank watching his measuring pole, then staring at the river as the stakes appear"),
     dict(scene="C", who="narr", chuyen="fadewhite:0.3",
          line=(0.8, 9.2, "Từ thượng lưu, / Hưng Đạo vương / đánh xuống. / Hai vua Trần / đem quân từ hai bên / ập vào."),
          cam="huge sweeping aerial as the boats charge from upstream and both banks and the infantry pour out; the general by the drum is a tiny figure from behind; no faces close enough to see"),
     dict(scene="C", who="tu",
-         line=(0.4, 9.2, "Thuyền họ to như đình… / giờ đứng im / như đình thật. / Cuộc đời mà, đâu ai / biết trước chữ ngờ."),
-         cam="tracking shot alongside Anh Tư rowing hard among the charging boats, glancing at the stuck giant junks; nobody else speaks"),
+         line=(0.4, 9.2, "Thuyền họ to như đình… / giờ đứng im / như đình thật. / Em chèo ngang qua / còn kịp vái một cái."),
+         cam="tracking shot alongside Anh Tư rowing past a huge stuck junk; he gives it a quick respectful bow of the head without stopping rowing; nobody else speaks"),
     dict(scene="D", who="narr",
          line=(0.8, 9.2, "Hàng trăm thuyền lớn / mắc cọc, vỡ ván, / gãy buồm. / Càng cố lùi ra… / càng mắc chặt."),
          cam="slow-motion low angle as the huge junk grinds on the stakes, timbers crack, the mast leans; then wide on many junks stuck the same way; no faces close enough to see"),
@@ -111,14 +111,14 @@ CLIPS = [
          line=(0.4, 9.2, "Lùi lại! Lùi lại! / Nước đâu hết rồi? / Sao thuyền không đi? / Dưới sông này… / có cái gì thế này?!"),
          cam="the Yuan officer gripping the rail on the tilted deck shouts down to his crew; nobody else in frame speaks"),
     dict(scene="D", who="tu",
-         line=(0.4, 9.2, "Bình tĩnh… / chuyện gì cũng có / cách giải quyết. / Mỗi cái này là cọc lim, / không giải quyết được."),
-         cam="Anh Tư alone in frame in his small boat, patting the giant stake that pierces the hull, looking up at the officer, calm"),
+         line=(0.4, 9.2, "Dạ… cọc nhà em ạ. / Cắm cả tuần đấy. / Ông đứng yên cho, / đừng giãy… / giãy là gãy cọc em."),
+         cam="Anh Tư alone in frame in his small boat, both hands protectively on the giant stake that pierces the hull, looking up at the officer with polite worry"),
     dict(scene="E", who="narr", chuyen="fadeblack:0.6",
          line=(0.8, 9.2, "Trận đánh kéo dài / từ sáng đến chiều tối. / Cả khúc sông Bạch Đằng / thành cái bẫy / của hạm đội Nguyên."),
          cam="grand slow aerial over the sunset river full of stuck junks; no faces close enough to see"),
     dict(scene="E", who="tu",
-         line=(0.4, 9.2, "Sáng còn là sông… / trưa đã thành rừng cọc. / Tôi không nói nhiều, / tôi nói đúng: / cả trận trông vào / nước rút."),
-         cam="Anh Tư on the bow of his boat turns from the sunset to the camera, calm, a faint smile"),
+         line=(0.4, 9.2, "Sáng còn là sông… / trưa đã thành rừng cọc. / Vợ em hỏi / cả tuần làm gì… / giờ em chỉ ra sông là đủ."),
+         cam="Anh Tư on the bow of his boat turns to the camera, then proudly points his thumb back at the river full of stuck junks, a faint smile"),
 ]
 WHO = {"tu": "ANH TƯ", "cai": "THE SQUAD LEADER", "quan": "THE YUAN OFFICER", "narr": "the NARRATOR (off-screen voice-over)"}
 NAME = {"tu": "Anh Tư", "cai": "Cai đội", "quan": "Quan Nguyên", "narr": "Dẫn chuyện"}
@@ -230,7 +230,7 @@ def main():
           f"**File Muse đặt tên:** `{base}-1..{n}.mp4` · **Giọng:** Anh Tư giọng Bắc (một giọng cố định); dẫn chuyện giọng Bắc "
           "trầm; cai đội thì thầm gắt; quan Nguyên hốt hoảng.", "",
           "## Mạch tập", "",
-          "- **Chờ nước** (clip 1–3): hạm đội Nguyên vào sâu trong sông; cai đội dặn nằm im xem nước; Anh Tư \"sắp thành thầy bói nước\".",
+          "- **Chờ nước** (clip 1–3): hạm đội Nguyên vào sâu trong sông; cai đội dặn nằm im xem nước; Anh Tư nằm cho muỗi đốt mà không dám đập.",
           "- **Nước rút** (clip 4–5): đầu cọc lim nhô lên hàng hàng lớp lớp, như rừng mọc dậy giữa sông.",
           "- **Ba mặt đánh vào** (clip 6–7): Hưng Đạo vương từ thượng lưu, hai vua Trần từ hai bên, bộ binh hai bờ; hàng trăm thuyền nhẹ lao ra.",
           "- **Giữa bãi cọc** (clip 8–10): thuyền lớn mắc cọc, vỡ ván, gãy buồm, càng lùi càng mắc; quan Nguyên hốt hoảng; Anh Tư vỗ cây cọc.",
@@ -239,8 +239,8 @@ def main():
           "Chuyện bắt Ô Mã Nhi để dành cho tập 9.",
           "- **Âm thanh:** rạng sáng gần như im lặng; nước rút thì nhạc dâng dần; lúc ba mặt đánh vào (clip 6) lóe trắng và trống trận "
           "mạnh nhất; hoàng hôn còn sáo trúc nhẹ. Nhạc luôn rất nhỏ dưới lời nói.",
-          "- **Câu trending 2026** (chỉ Anh Tư, mỗi clip một câu): \"không ai hỏi nhưng em xin phép kể\", \"cái gì vậy trời\", "
-          "\"cuộc đời mà, đâu ai biết trước chữ ngờ\", \"bình tĩnh, chuyện gì cũng có cách giải quyết\", \"tôi không nói nhiều, tôi nói đúng\".",
+          "- **Hài hơn (sửa theo yêu cầu):** muỗi đốt bốn mươi phát không dám đập; cọc \"nhô lên chào giặc\"; chèo ngang thuyền to như đình \"còn kịp vái một cái\"; "
+          "quan Nguyên hỏi dưới sông có gì, Anh Tư lo… gãy cọc nhà mình; vợ hỏi cả tuần làm gì, chỉ ra sông là đủ. Cai đội: \"đứa nào ho, ra sông mà ho với cá\".",
           "- **Để Muse nói đúng tiếng Việt:** câu nói đặt ngay đầu prompt, lời gửi Muse không có dấu \"…\", năm viết thành chữ; prompt gọn.", "",
           "**Lịch sử (mức A):** sáng 9/4/1288 (8/3 âm lịch Mậu Tý), hạm đội Ô Mã Nhi bị nhử vào sông Bạch Đằng lúc triều lên; triều "
           "rút, thuyền mắc cọc, vỡ, kẹt. Trần Hưng Đạo đánh từ thượng lưu, hai vua Trần đem quân từ hai bên đánh vào, bộ binh mai "
