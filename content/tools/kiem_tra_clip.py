@@ -27,7 +27,7 @@ import urllib.request
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from series import loi_muse  # noqa: E402
 
-MODELS = [m for m in os.environ.get("KT_MODEL", "gemini-3.5-flash,gemini-3-flash-preview,gemini-2.5-flash").split(",") if m]
+MODELS = [m for m in os.environ.get("KT_MODEL", "gemini-3.5-flash,gemini-3-flash-preview,gemini-3.1-flash-lite").split(",") if m]
 API = "https://generativelanguage.googleapis.com/v1beta/models/{}:generateContent"
 
 
@@ -74,6 +74,7 @@ def gemini_listen(path, expected):
     run(["ffmpeg", "-loglevel", "error", "-y", "-i", path, "-vn", "-ac", "1", "-ar", "16000", "-b:a", "48k", wav])
     data = base64.b64encode(open(wav, "rb").read()).decode()
     os.remove(wav)
+    # Nghe "mù": KHÔNG đưa câu kịch bản cho Gemini, để nó không chép lại câu đúng thay vì nghe thật.
     ask = ("Bạn là người soát tiếng cho video tiếng Việt. Nghe đoạn âm thanh và trả về JSON đúng mẫu, không thêm chữ nào khác:\n"
            '{"transcript": "chép lại NGUYÊN VĂN những gì nghe được, có dấu tiếng Việt", '
            '"so_nguoi_noi": số người nói khác nhau, '
@@ -82,7 +83,8 @@ def gemini_listen(path, expected):
            '"co_tieng_la": true/false (có tiếng nước ngoài hoặc âm vô nghĩa không), '
            '"bi_cat_cuoi": true/false (câu cuối có bị cắt ngang không), '
            '"ghi_chu": "lỗi phát âm hoặc vấn đề khác, ngắn gọn"}\n'
-           f"Câu đúng theo kịch bản (để bạn biết họ định nói gì, KHÔNG được chép câu này nếu không nghe thấy): \"{expected}\"")
+           "Chỉ chép những gì thực sự nghe thấy; chỗ nào nghe không rõ thì ghi [không rõ]. "
+           "Tiếng động (nước, gỗ, trống, nhạc) không tính là tiếng lạ; tiếng lạ chỉ là lời nói nước ngoài hoặc âm vô nghĩa.")
     body = {"contents": [{"parts": [{"inline_data": {"mime_type": "audio/mp3", "data": data}}, {"text": ask}]}],
             "generationConfig": {"temperature": 0, "responseMimeType": "application/json"}}
     last = None
